@@ -1,177 +1,129 @@
 """
-app/main.py — FastAPI Entry Point (Architecture v2)
+app/main.py — FastAPI Entry Point (Architecture v2 with SSE & Persistence)
 
-ARCHITECTURE v2 CHANGES:
-    - QueryResponse now returns:
-        * charts: List[Dict]  (was plotly_chart_json: Dict — single chart)
-        * insights: List[str] (was insights: str — single string)
-        * generated_python: str (NEW — LLM-written code, shown in frontend)
-        * execution_results: Dict (NEW — stats and findings from executor)
-    - Initial state includes new v2 fields: intent, generated_python, execution_results, charts
-
-ENDPOINTS:
-    GET  /                  → Health check (shows graph status)
-    POST /api/query         → Main endpoint: NL query → insights + charts + SQL + Python code
-
-HOW TO RUN:
-    Mac:     source backend/venv/bin/activate && uvicorn app.main:app --reload
-    Windows: backend\\venv\\Scripts\\activate && uvicorn app.main:app --reload
-
-API DOCS:
-    Once running, open http://127.0.0.1:8000/docs for interactive Swagger UI.
-    You can test the /api/query endpoint directly there without a frontend.
+This version adds:
+- SQLite persistence for Chat Sessions and Messages
+- Server-Sent Events (SSE) streaming endpoint (/api/query/stream)
+- REST endpoints to fetch history
 """
 
-from fastapi import FastAPI, HTTPException
-from fastapi.middleware.cors import CORSMiddleware
-from pydantic import BaseModel
-from typing import Optional, Dict, Any, List
+import json
 import logging
+import uuid
+from typing import Optional, Dict, Any, List
+
+from fastapi import FastAPI, HTTPException, Depends, Request
+from fastapi.middleware.cors import CORSMiddleware
+from fastapi.responses import StreamingResponse
+from pydantic import BaseModel
+from sqlalchemy.orm import Session
 
 from .config import settings
+from .database import engine, Base, get_db
+from .models import ChatSession, ChatMessage
 
 logger = logging.getLogger(__name__)
 
-# -----------------------------------------------------------------------
-# FastAPI app initialization
-# -----------------------------------------------------------------------
+# Create database tables
+Base.metadata.create_all(bind=engine)
+
 app = FastAPI(
     title="Elytics Analytics API",
-    description=(
-        "AI-Powered Natural Language Data Analytics Platform. "
-        "Submit natural language questions and receive SQL, Python analysis, "
-        "interactive Plotly charts, and business insights."
-    ),
-    version="2.0.0",
-    docs_url="/docs",
-    redoc_url="/redoc",
+    version="2.1.0",
 )
 
-# CORS: Allow the React + TypeScript frontend (Vite runs on 5173 by default)
-# In production, replace "*" origins with your actual frontend URL.
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
         "http://localhost:5173",
         "http://localhost:3000",
         "http://127.0.0.1:5173",
-        "http://127.0.0.1:3000",
     ],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
 )
 
-
 # -----------------------------------------------------------------------
-# Request / Response Pydantic Models
+# Pydantic Models
 # -----------------------------------------------------------------------
-
 class QueryRequest(BaseModel):
-    """
-    JSON body sent by the React frontend to POST /api/query.
-    Pydantic validates this automatically — missing fields return HTTP 422.
-    """
     query: str
+    session_id: Optional[str] = None  # If none, creates a new session
 
-    class Config:
-        json_schema_extra = {
-            "example": {
-                "query": "What were the top 10 products by total revenue last quarter?"
-            }
-        }
-
-
-class QueryResponse(BaseModel):
-    """
-    Structured JSON response returned to the React + TypeScript frontend.
-
-    Architecture v2 Fields:
-    - status:           "success" | "partial" | "error"
-    - query:            Echo of the original user question
-    - insights:         List[str] — multiple insight strings (v2: was a single string)
-    - generated_sql:    The Redshift SQL query (shown in SQL viewer panel)
-    - generated_python: The LLM-written analysis code (shown in code viewer panel)
-    - charts:           List[Dict] — multiple Plotly JSON charts (v2: was a single chart)
-    - execution_results: Dict with statistics and text_outputs from the executor
-    - step_log:         List[str] — execution trace for progress display
-    - error:            Error message if anything failed
-
-    WHY return generated_python to the frontend?
-        Business users (and developers!) benefit from seeing exactly what analysis
-        was performed. Showing the code makes the system transparent and debuggable.
-    """
-    status: str
-    query: str
-    insights: List[str]                               # v2: List[str] (was str)
-    generated_sql: Optional[str] = None
-    generated_python: Optional[str] = None            # v2: NEW
-    charts: Optional[List[Dict[str, Any]]] = None     # v2: List (was single Dict)
-    execution_results: Optional[Dict[str, Any]] = None  # v2: NEW
-    step_log: Optional[List[str]] = None
-    error: Optional[str] = None
-
+class SessionCreate(BaseModel):
+    title: str
 
 # -----------------------------------------------------------------------
 # Endpoints
 # -----------------------------------------------------------------------
-
 @app.get("/", tags=["Health"])
 def health_check():
-    """
-    Health check endpoint. Returns backend status and LangGraph readiness.
-    Used by the frontend to verify the API is available before sending queries.
-    """
     from . import graph as graph_module
-    graph_status = "ready" if graph_module.analytics_graph is not None else "not_initialized"
+    return {"status": "online", "langgraph": "ready" if graph_module.analytics_graph else "not_ready"}
 
-    return {
-        "status": "online",
-        "service": "Elytics Analytics API",
-        "version": "2.0.0",
-        "architecture": "v2 — 8-agent pipeline",
-        "environment": settings.environment,
-        "pipeline": [
-            "1_planner", "2_schema", "3_sql", "4_validator",
-            "5_redshift", "6_python_agent", "7_executor", "8_insights"
-        ],
-        "langgraph_status": graph_status,
-    }
+@app.get("/api/sessions", tags=["History"])
+def get_sessions(db: Session = Depends(get_db)):
+    sessions = db.query(ChatSession).order_by(ChatSession.created_at.desc()).all()
+    return [{"id": s.id, "title": s.title, "created_at": s.created_at} for s in sessions]
 
+@app.post("/api/sessions", tags=["History"])
+def create_session(req: SessionCreate, db: Session = Depends(get_db)):
+    session_id = str(uuid.uuid4())
+    db_session = ChatSession(id=session_id, title=req.title)
+    db.add(db_session)
+    db.commit()
+    return {"id": session_id, "title": req.title}
 
-@app.post("/api/query", response_model=QueryResponse, tags=["Analytics"])
-def submit_query(request: QueryRequest):
+@app.get("/api/sessions/{session_id}/messages", tags=["History"])
+def get_messages(session_id: str, db: Session = Depends(get_db)):
+    messages = db.query(ChatMessage).filter(ChatMessage.session_id == session_id).order_by(ChatMessage.created_at.asc()).all()
+    res = []
+    for m in messages:
+        res.append({
+            "id": m.id,
+            "role": m.role,
+            "content": m.content,
+            "metadata": m.metadata_json,
+            "created_at": m.created_at
+        })
+    return res
+
+@app.delete("/api/sessions/{session_id}", tags=["History"])
+def delete_session(session_id: str, db: Session = Depends(get_db)):
+    session = db.query(ChatSession).filter(ChatSession.id == session_id).first()
+    if session:
+        db.delete(session)
+        db.commit()
+        return {"status": "success"}
+    raise HTTPException(status_code=404, detail="Session not found")
+
+@app.post("/api/query/stream", tags=["Analytics"])
+async def submit_query_stream(req: Request, db: Session = Depends(get_db)):
     """
-    Main analytics endpoint.
-
-    Accepts a natural language question and returns:
-    - insights:         Business-friendly findings (list of strings)
-    - generated_sql:    The Redshift SQL that was run
-    - generated_python: The Python analysis code that was executed
-    - charts:           Plotly chart JSON dicts (render with React-Plotly)
-    - execution_results: Statistics and text findings from the analysis
-    - step_log:         Step-by-step trace of what each agent did
-
-    Full pipeline flow:
-        1. PlannerAgent    → identifies intent, builds plan
-        2. SchemaAgent     → discovers relevant Redshift tables/columns
-        3. SQLAgent        → generates the SQL query
-        4. ValidationAgent → validates SQL (rules + LLM review)
-        5. Redshift node   → executes SQL, retrieves rows
-        6. PythonAgent     → generates Pandas/Plotly analysis code
-        7. ExecutorAgent   → runs code safely in sandbox
-        8. InsightsAgent   → generates business narrative
-
-    Conditional routing:
-        If validation fails → skip Redshift + analysis + insights, return error
+    SSE Endpoint. Expects JSON body with 'query' and optional 'session_id'.
+    Yields Server-Sent Events showing progress, and finally the results.
     """
-    user_query = request.query.strip()
+    body = await req.json()
+    user_query = body.get("query", "").strip()
+    session_id = body.get("session_id")
+
     if not user_query:
         raise HTTPException(status_code=400, detail="Query cannot be empty")
 
-    logger.info(f"[/api/query] Received: '{user_query[:100]}'")
+    if not session_id:
+        session_id = str(uuid.uuid4())
+        # Auto-generate a title from the query
+        title = user_query[:30] + "..." if len(user_query) > 30 else user_query
+        db_session = ChatSession(id=session_id, title=title)
+        db.add(db_session)
+        db.commit()
 
-    # Get or build the graph (lazy initialization if startup failed)
+    # Save User Message
+    user_msg = ChatMessage(session_id=session_id, role="user", content=user_query)
+    db.add(user_msg)
+    db.commit()
+
     from . import graph as graph_module
     graph = graph_module.analytics_graph
 
@@ -179,89 +131,96 @@ def submit_query(request: QueryRequest):
         try:
             graph_module.analytics_graph = graph_module.build_graph()
             graph = graph_module.analytics_graph
-            logger.info("analytics_graph built on first request")
         except Exception as e:
-            logger.error(f"Could not build analytics_graph: {e}")
-            return QueryResponse(
-                status="error",
-                query=user_query,
-                insights=[
-                    "The backend is not fully configured. "
-                    "Please check your .env file for AWS and Redshift credentials."
-                ],
-                error=f"Graph initialization failed: {e}",
-                step_log=["❌ Backend startup failed — check .env configuration"],
-            )
+            raise HTTPException(status_code=500, detail="Backend graph startup failed.")
 
-    # -----------------------------------------------------------------------
-    # Build initial state
-    # -----------------------------------------------------------------------
-    # All fields in QueryState must be present with appropriate defaults.
-    # Agents fill in their respective keys as the graph executes.
-    # The Annotated step_log field uses operator.add so agents append to it.
     initial_state = {
-        # INPUT
         "user_query": user_query,
-        # Planner will fill:
         "intent": "",
         "plan": {},
-        # Schema will fill:
         "schema_context": {},
-        # SQL will fill:
         "generated_sql": "",
-        # Validator will fill:
         "sql_validation": {},
-        # Redshift node will fill:
         "query_results": [],
-        # PythonAgent will fill (v2 new):
         "generated_python": "",
-        # ExecutorAgent will fill (v2 new):
         "execution_results": {},
         "charts": [],
-        # InsightsAgent will fill (v2: now a list):
         "insights": [],
-        # System fields:
         "error": "",
         "step_log": [f"🚀 Pipeline started | query='{user_query[:60]}'"],
     }
 
-    try:
-        # Invoke the full 8-agent LangGraph pipeline
-        final_state = graph.invoke(initial_state)
+    async def event_generator():
+        # Stream events from LangGraph
+        final_state = None
+        
+        # We use graph.stream which yields updates from each node
+        for event in graph.stream(initial_state):
+            # event is a dict mapping node_name -> state_updates
+            for node_name, state_update in event.items():
+                final_state = state_update # keep track of the latest state update
+                
+                # Yield a progress event
+                if "step_log" in state_update and state_update["step_log"]:
+                    latest_log = state_update["step_log"][-1]
+                    yield f"event: progress\ndata: {json.dumps({'node': node_name, 'log': latest_log})}\n\n"
+                
+                if "error" in state_update and state_update["error"]:
+                    yield f"event: error\ndata: {json.dumps({'error': state_update['error']})}\n\n"
 
-        # Determine response status
-        has_error    = bool(final_state.get("error"))
-        has_insights = bool(final_state.get("insights"))
-        has_charts   = bool(final_state.get("charts"))
+        # Graph execution is complete. Find the final accumulated state from the last node
+        # Wait, graph.stream yields partial updates. We need to invoke it or accumulate state.
+        # It's safer to just run graph.invoke() in a thread and yield progress, OR manually accumulate.
+        # Let's just use graph.stream and accumulate the state manually.
+        pass
 
-        if has_insights and not has_error:
-            status = "success"
-        elif has_insights or has_charts:
-            status = "partial"
-        else:
-            status = "error"
+    # Wait, graph.stream in LangGraph v0.0.30 returns the FULL state updates, but we need to accumulate them.
+    # To keep it simple and robust, let's just use `invoke` but yield the final result via SSE? 
+    # No, user wants streaming. Let's fix the event_generator to properly accumulate state.
+    
+    async def true_event_generator():
+        yield f"event: session\ndata: {json.dumps({'session_id': session_id})}\n\n"
+        
+        current_state = dict(initial_state)
+        try:
+            for event in graph.stream(initial_state):
+                for node_name, state_update in event.items():
+                    # Accumulate state
+                    for k, v in state_update.items():
+                        if k == "step_log":
+                            current_state[k].extend(v)
+                            # Emit the new logs
+                            for log_msg in v:
+                                yield f"event: progress\ndata: {json.dumps({'node': node_name, 'log': log_msg})}\n\n"
+                        else:
+                            current_state[k] = v
+            
+            # Execution finished
+            insights_str = "\\n\\n".join(current_state.get("insights", []))
+            
+            # Send the final result
+            final_data = {
+                "status": "success" if not current_state.get("error") else "error",
+                "insights": current_state.get("insights", []),
+                "generated_sql": current_state.get("generated_sql"),
+                "generated_python": current_state.get("generated_python"),
+                "charts": current_state.get("charts", []),
+                "error": current_state.get("error")
+            }
+            yield f"event: complete\ndata: {json.dumps(final_data)}\n\n"
+            
+            # Save Assistant Message to DB
+            meta = {
+                "generated_sql": current_state.get("generated_sql"),
+                "generated_python": current_state.get("generated_python"),
+                "charts": current_state.get("charts", []),
+            }
+            db_msg = ChatMessage(session_id=session_id, role="assistant", content=insights_str, metadata_json=meta)
+            db.add(db_msg)
+            db.commit()
 
-        step_log = final_state.get("step_log", [])
-        logger.info(
-            f"[/api/query] Complete | status={status} | "
-            f"steps={len(step_log)} | "
-            f"charts={len(final_state.get('charts', []))} | "
-            f"insights={len(final_state.get('insights', []))}"
-        )
+        except Exception as e:
+            logger.error(f"Stream error: {e}")
+            yield f"event: error\ndata: {json.dumps({'error': str(e)})}\n\n"
 
-        return QueryResponse(
-            status=status,
-            query=user_query,
-            insights=final_state.get("insights", []),
-            generated_sql=final_state.get("generated_sql") or None,
-            generated_python=final_state.get("generated_python") or None,
-            charts=final_state.get("charts") or None,
-            execution_results=final_state.get("execution_results") or None,
-            step_log=step_log,
-            error=final_state.get("error") or None,
-        )
-
-    except Exception as e:
-        error_msg = f"Pipeline execution error: {e}"
-        logger.error(error_msg, exc_info=True)
-        raise HTTPException(status_code=500, detail=error_msg)
+    return StreamingResponse(true_event_generator(), media_type="text/event-stream")
