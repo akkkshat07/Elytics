@@ -2,14 +2,11 @@ import { useState, useEffect, useRef } from 'react'
 import { Send, Menu, Plus, MessageSquare, Code, Terminal, Trash2 } from 'lucide-react'
 import axios from 'axios'
 import Plot from 'react-plotly.js'
-
-// --- Interfaces ---
 interface Session {
   id: string;
   title: string;
   created_at: string;
 }
-
 interface Message {
   id?: number;
   role: 'user' | 'assistant';
@@ -20,19 +17,14 @@ interface Message {
     charts?: any[];
   };
 }
-
 export default function App() {
   const [sessions, setSessions] = useState<Session[]>([])
   const [currentSessionId, setCurrentSessionId] = useState<string | null>(null)
   const [messages, setMessages] = useState<Message[]>([])
-  
   const [inputValue, setInputValue] = useState('')
   const [isStreaming, setIsStreaming] = useState(false)
   const [streamProgress, setStreamProgress] = useState('')
-  
   const messagesEndRef = useRef<HTMLDivElement>(null)
-
-  // --- Fetch Sessions ---
   const fetchSessions = async () => {
     try {
       const res = await axios.get('/api/sessions')
@@ -41,12 +33,9 @@ export default function App() {
       console.error("Failed to fetch sessions", e)
     }
   }
-
   useEffect(() => {
     fetchSessions()
   }, [])
-
-  // --- Load Chat ---
   const loadChat = async (sessionId: string) => {
     setCurrentSessionId(sessionId)
     try {
@@ -56,14 +45,11 @@ export default function App() {
       console.error("Failed to load messages", e)
     }
   }
-
-  // --- Delete Chat ---
   const deleteSession = async (e: React.MouseEvent, sessionId: string) => {
-    e.stopPropagation() // Prevent loading the chat when clicking delete
+    e.stopPropagation() 
     try {
       await axios.delete(`/api/sessions/${sessionId}`)
       setSessions(prev => prev.filter(s => s.id !== sessionId))
-      // If the deleted session was currently open, clear the view
       if (currentSessionId === sessionId) {
         setCurrentSessionId(null)
         setMessages([])
@@ -72,54 +58,40 @@ export default function App() {
       console.error("Failed to delete session", e)
     }
   }
-
-  // --- Auto Scroll ---
   useEffect(() => {
     messagesEndRef.current?.scrollIntoView({ behavior: 'smooth' })
   }, [messages, streamProgress])
-
-  // --- Send Message & Handle SSE ---
   const handleSend = async () => {
     if (!inputValue.trim() || isStreaming) return
-
     const query = inputValue.trim()
     setInputValue('')
-    
-    // Add optimistic user message
     const newMessages = [...messages, { role: 'user' as const, content: query }]
     setMessages(newMessages)
     setIsStreaming(true)
     setStreamProgress('Initializing pipeline...')
-
     try {
       const response = await fetch('/api/query/stream', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ query, session_id: currentSessionId })
       });
-
       if (!response.body) throw new Error("No response body")
-
       const reader = response.body.getReader()
       const decoder = new TextDecoder()
-
       while (true) {
         const { value, done } = await reader.read()
         if (done) break
-
         const chunk = decoder.decode(value, { stream: true })
         const events = chunk.split('\n\n')
-
         for (const ev of events) {
           if (!ev.trim()) continue
-          
           if (ev.startsWith('event: session')) {
             const dataStr = ev.replace('event: session\ndata: ', '')
             try {
               const data = JSON.parse(dataStr)
               if (!currentSessionId) {
                 setCurrentSessionId(data.session_id)
-                fetchSessions() // Refresh sidebar
+                fetchSessions() 
               }
             } catch (e) {}
           } 
@@ -165,15 +137,13 @@ export default function App() {
       setStreamProgress('')
     }
   }
-
   return (
     <div className="app-container">
-      {/* Sidebar */}
+      {}
       <div className="sidebar">
         <div className="sidebar-header">
           <img src="/logo.jpg.webp" alt="Elytics" className="logo-img" />
         </div>
-        
         <button 
           className="new-chat-btn"
           onClick={() => {
@@ -183,7 +153,6 @@ export default function App() {
         >
           <Plus size={18} /> New Chat
         </button>
-        
         <div className="history-list">
           {sessions.map(s => (
             <div 
@@ -208,8 +177,7 @@ export default function App() {
           ))}
         </div>
       </div>
-
-      {/* Main Content */}
+      {}
       <div className="main-content">
         {messages.length === 0 && !isStreaming ? (
           <div className="welcome-screen">
@@ -231,16 +199,14 @@ export default function App() {
                     ) : (
                       msg.content
                     )}
-                    
-                    {/* Collapsible Meta (SQL & Python) */}
+                    {}
                     {msg.metadata?.generated_sql && (
                       <CollapsibleCode title="Generated SQL" code={msg.metadata.generated_sql} icon={<Terminal size={16}/>} />
                     )}
                     {msg.metadata?.generated_python && (
                       <CollapsibleCode title="Analysis Python Code" code={msg.metadata.generated_python} icon={<Code size={16}/>} />
                     )}
-                    
-                    {/* Charts */}
+                    {}
                     {msg.metadata?.charts && msg.metadata.charts.map((chart, cIdx) => (
                       <div key={cIdx} className="chart-container">
                         <Plot
@@ -255,8 +221,7 @@ export default function App() {
                   </div>
                 </div>
               ))}
-              
-              {/* Streaming Indicator */}
+              {}
               {isStreaming && streamProgress && (
                 <div className="message assistant">
                   <div className="avatar ai">E</div>
@@ -268,13 +233,11 @@ export default function App() {
                   </div>
                 </div>
               )}
-              
               <div ref={messagesEndRef} />
             </div>
           </div>
         )}
-
-        {/* Input Area */}
+        {}
         <div className="input-area">
           <div className="input-container">
             <textarea
@@ -303,11 +266,8 @@ export default function App() {
     </div>
   )
 }
-
-// Simple Collapsible component for Code blocks
 function CollapsibleCode({ title, code, icon }: { title: string, code: string, icon: React.ReactNode }) {
   const [isOpen, setIsOpen] = useState(false)
-  
   return (
     <div className="code-collapse">
       <div className="code-collapse-header" onClick={() => setIsOpen(!isOpen)}>
