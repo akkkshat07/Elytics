@@ -5,7 +5,7 @@ from .state import QueryState
 from .utils.bedrock import BedrockClient
 from .utils.redshift import RedshiftClient
 from .agents.guardrail import GuardrailAgent
-from .agents.planner import PlannerAgent
+from .agents.router import RouterAgent
 from .agents.schema import SchemaAgent
 from .agents.sql import SQLAgent
 from .agents.validator import ValidationAgent
@@ -18,62 +18,53 @@ def build_graph():
   llm_client = BedrockClient()
   redshift_client = RedshiftClient()
   guardrail_agent = GuardrailAgent()
-  planner_agent = PlannerAgent(llm_client=llm_client)
+  router_agent = RouterAgent(llm_client=llm_client)
   schema_agent = SchemaAgent(llm_client=llm_client, redshift_client=redshift_client)
-  sql_agent = SQLAgent(llm_client=llm_client)
-  validator_agent = ValidationAgent(llm_client=llm_client)
+  sql_agent = SQLAgent(llm_client=llm_client, redshift_client=redshift_client)
   python_agent = PythonAgent(llm_client=llm_client)
   executor_agent = ExecutorAgent()
   insights_agent = InsightsAgent(llm_client=llm_client)
-
-  def redshift_query_node(state: QueryState) -> Dict[str, Any]:
-    sql = state.get('generated_sql', '')
-    logger.info(f'redshift_query_node: Executing SQL | {sql[:150]}...')
-    try:
-      rows = redshift_client.execute_query(sql)
-      logger.info(f'Redshift returned {len(rows)} rows')
-      return {'query_results': rows, 'step_log': [f' Redshift Query: {len(rows)} rows returned']}
-    except RuntimeError as e:
-      error_msg = f'Redshift execution failed: {e}'
-      logger.error(error_msg)
-      return {'query_results': [], 'error': error_msg, 'step_log': [f' Redshift Query: {e}']}
   workflow = StateGraph(QueryState)
   workflow.add_node('guardrail', guardrail_agent.process)
-  workflow.add_node('planner', planner_agent.process)
+  workflow.add_node('router', router_agent.process)
   workflow.add_node('schema', schema_agent.process)
   workflow.add_node('sql', sql_agent.process)
-  workflow.add_node('validator', validator_agent.process)
-  workflow.add_node('redshift_query', redshift_query_node)
   workflow.add_node('python_code', python_agent.process)
   workflow.add_node('executor', executor_agent.process)
   workflow.add_node('insights', insights_agent.process)
   workflow.set_entry_point('guardrail')
 
-  def route_after_guardrail(state: QueryState) -> Literal['planner', '__end__']:
+  def route_after_guardrail(state: QueryState) -> Literal['router', '__end__']:
     if state.get('guardrail_status') == 'rejected':
       logger.warning('Routing: guardrail REJECTED → END')
       return '__end__'
-    return 'planner'
+    return 'router'
 
-  def route_after_validation(state: QueryState) -> Literal['redshift_query', '__end__']:
-    validation = state.get('sql_validation', {})
-    is_valid = validation.get('is_valid', False)
+  def route_after_sql(state: QueryState) -> Literal['python_code', '__end__']:
     has_error = bool(state.get('error', ''))
-    has_sql = bool(state.get('generated_sql', '').strip())
-    if is_valid and has_sql and (not has_error):
-      logger.info('Routing: validator PASSED → redshift_query')
-      return 'redshift_query'
+    if not has_error:
+      return 'python_code'
     else:
-      logger.warning(f'Routing: validator FAILED → END | is_valid={is_valid} | has_sql={has_sql} | has_error={has_error}')
+      logger.warning(f'Routing: sql FAILED → END | has_error={has_error}')
       return '__end__'
-  workflow.add_conditional_edges('guardrail', route_after_guardrail, {'planner': 'planner', '__end__': END})
-  workflow.add_edge('planner', 'schema')
+
+  def route_after_executor(state: QueryState) -> Literal['python_code', 'insights', '__end__']:
+    has_error = bool(state.get('error', ''))
+    attempts = state.get('python_attempts', 0)
+    if has_error and attempts < 3:
+      logger.warning(f'Routing: executor FAILED → Retrying python_code | Attempt {attempts}/3')
+      return 'python_code'
+    elif has_error:
+      logger.error('Routing: executor FAILED → Insights (Fallback)')
+      return 'insights'
+    return 'insights'
+
+  workflow.add_conditional_edges('guardrail', route_after_guardrail, {'router': 'router', '__end__': END})
+  workflow.add_edge('router', 'schema')
   workflow.add_edge('schema', 'sql')
-  workflow.add_edge('sql', 'validator')
-  workflow.add_conditional_edges('validator', route_after_validation, {'redshift_query': 'redshift_query', '__end__': END})
-  workflow.add_edge('redshift_query', 'python_code')
+  workflow.add_conditional_edges('sql', route_after_sql, {'python_code': 'python_code', '__end__': END})
   workflow.add_edge('python_code', 'executor')
-  workflow.add_edge('executor', 'insights')
+  workflow.add_conditional_edges('executor', route_after_executor, {'python_code': 'python_code', 'insights': 'insights', '__end__': END})
   workflow.add_edge('insights', END)
   compiled = workflow.compile()
   logger.info('LangGraph v3 compiled successfully (CoreSight Upgrade)')
