@@ -10,10 +10,15 @@ from sqlalchemy.orm import Session
 from .config import settings
 from .database import engine, Base, get_db
 from .models import ChatSession, ChatMessage
+from .api.agents_routes import AgentsRouter
 logger = logging.getLogger(__name__)
 Base.metadata.create_all(bind=engine)
 app = FastAPI(title='Elytics Analytics API', version='2.1.0')
 app.add_middleware(CORSMiddleware, allow_origins=['http://localhost:5173', 'http://localhost:3000', 'http://127.0.0.1:5173'], allow_credentials=True, allow_methods=['*'], allow_headers=['*'])
+
+# Include the massive 3000-line CoreSight API Router
+agents_api = AgentsRouter()
+app.include_router(agents_api.router)
 
 class QueryRequest(BaseModel):
   query: str
