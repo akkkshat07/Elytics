@@ -1,0 +1,597 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="KNA1">
+  <table_info name="KNA1" total_columns="197"/>
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="KUNNR" data_type="VARCHAR">
+      <description>Customer Number</description>
+    </column>
+    <column name="LAND1" data_type="VARCHAR">
+      <description>Country Key</description>
+    </column>
+    <column name="NAME1" data_type="VARCHAR">
+      <description>Name 1</description>
+    </column>
+    <column name="NAME2" data_type="VARCHAR">
+      <description>Name 2</description>
+    </column>
+    <column name="ORT01" data_type="VARCHAR">
+      <description>City</description>
+    </column>
+    <column name="PSTLZ" data_type="VARCHAR">
+      <description>Postal Code</description>
+    </column>
+    <column name="REGIO" data_type="VARCHAR">
+      <description>Region (State, Province, County)</description>
+    </column>
+    <column name="SORTL" data_type="VARCHAR">
+      <description>Sort field</description>
+    </column>
+    <column name="STRAS" data_type="VARCHAR">
+      <description>Street and House Number</description>
+    </column>
+    <column name="TELF1" data_type="VARCHAR">
+      <description>First telephone number</description>
+    </column>
+    <column name="TELFX" data_type="VARCHAR">
+      <description>Fax Number</description>
+    </column>
+    <column name="XCPDK" data_type="VARCHAR">
+      <description>Indicator: Is the account a one-time account?</description>
+    </column>
+    <column name="ADRNR" data_type="VARCHAR">
+      <description>Address</description>
+    </column>
+    <column name="MCOD1" data_type="VARCHAR">
+      <description>Search term for matchcode search</description>
+    </column>
+    <column name="MCOD2" data_type="VARCHAR">
+      <description>Search Term for Matchcode Search</description>
+    </column>
+    <column name="MCOD3" data_type="VARCHAR">
+      <description>Search term for matchcode search</description>
+    </column>
+    <column name="ANRED" data_type="VARCHAR">
+      <description>Title</description>
+    </column>
+    <column name="AUFSD" data_type="VARCHAR">
+      <description>Central order block for customer</description>
+    </column>
+    <column name="BAHNE" data_type="VARCHAR">
+      <description>Express train station</description>
+    </column>
+    <column name="BAHNS" data_type="VARCHAR">
+      <description>Train station</description>
+    </column>
+    <column name="BBBNR" data_type="VARCHAR">
+      <description>International location number  (part 1)</description>
+    </column>
+    <column name="BBSNR" data_type="VARCHAR">
+      <description>International location number (Part 2)</description>
+    </column>
+    <column name="BEGRU" data_type="VARCHAR">
+      <description>Authorization Group</description>
+    </column>
+    <column name="BRSCH" data_type="VARCHAR">
+      <description>Industry key</description>
+    </column>
+    <column name="BUBKZ" data_type="VARCHAR">
+      <description>Check digit for the international location number</description>
+    </column>
+    <column name="DATLT" data_type="VARCHAR">
+      <description>Data communication line no.</description>
+    </column>
+    <column name="ERDAT" data_type="DATE">
+      <description>Date on which the Record Was Created</description>
+    </column>
+    <column name="ERNAM" data_type="VARCHAR">
+      <description>Name of Person who Created the Object</description>
+    </column>
+    <column name="EXABL" data_type="VARCHAR">
+      <description>Indicator: Unloading points exist</description>
+    </column>
+    <column name="FAKSD" data_type="VARCHAR">
+      <description>Central billing block for customer</description>
+    </column>
+    <column name="FISKN" data_type="VARCHAR">
+      <description>Account number of the master record with the fiscal address</description>
+    </column>
+    <column name="KNAZK" data_type="VARCHAR">
+      <description>Working Time Calendar</description>
+    </column>
+    <column name="KNRZA" data_type="VARCHAR">
+      <description>Account Number of an Alternative Payer</description>
+    </column>
+    <column name="KONZS" data_type="VARCHAR">
+      <description>Group key</description>
+    </column>
+    <column name="KTOKD" data_type="VARCHAR">
+      <description>Customer Account Group</description>
+    </column>
+    <column name="KUKLA" data_type="VARCHAR">
+      <description>Customer Classification</description>
+    </column>
+    <column name="LIFNR" data_type="VARCHAR">
+      <description>Account Number of Supplier</description>
+    </column>
+    <column name="LIFSD" data_type="VARCHAR">
+      <description>Central delivery block for the customer</description>
+    </column>
+    <column name="LOCCO" data_type="VARCHAR">
+      <description>City Coordinates</description>
+    </column>
+    <column name="LOEVM" data_type="VARCHAR">
+      <description>Central Deletion Flag for Master Record</description>
+    </column>
+    <column name="NAME3" data_type="VARCHAR">
+      <description>Name 3</description>
+    </column>
+    <column name="NAME4" data_type="VARCHAR">
+      <description>Name 4</description>
+    </column>
+    <column name="NIELS" data_type="VARCHAR">
+      <description>Nielsen ID</description>
+    </column>
+    <column name="ORT02" data_type="VARCHAR">
+      <description>District</description>
+    </column>
+    <column name="PFACH" data_type="VARCHAR">
+      <description>PO Box</description>
+    </column>
+    <column name="PSTL2" data_type="VARCHAR">
+      <description>P.O. Box Postal Code</description>
+    </column>
+    <column name="COUNC" data_type="VARCHAR">
+      <description>County Code</description>
+    </column>
+    <column name="CITYC" data_type="VARCHAR">
+      <description>City Code</description>
+    </column>
+    <column name="RPMKR" data_type="VARCHAR">
+      <description>Regional market</description>
+    </column>
+    <column name="SPERR" data_type="VARCHAR">
+      <description>Central posting block</description>
+    </column>
+    <column name="SPRAS" data_type="VARCHAR">
+      <description>Language Key</description>
+    </column>
+    <column name="STCD1" data_type="VARCHAR">
+      <description>Tax Number 1</description>
+    </column>
+    <column name="STCD2" data_type="VARCHAR">
+      <description>Tax Number 2</description>
+    </column>
+    <column name="STKZA" data_type="VARCHAR">
+      <description>Indicator: Business Partner Subject to Equalization Tax?</description>
+    </column>
+    <column name="STKZU" data_type="VARCHAR">
+      <description>Liable for VAT</description>
+    </column>
+    <column name="TELBX" data_type="VARCHAR">
+      <description>Telebox Number</description>
+    </column>
+    <column name="TELF2" data_type="VARCHAR">
+      <description>Second telephone number</description>
+    </column>
+    <column name="TELTX" data_type="VARCHAR">
+      <description>Teletex Number</description>
+    </column>
+    <column name="TELX1" data_type="VARCHAR">
+      <description>Telex Number</description>
+    </column>
+    <column name="LZONE" data_type="VARCHAR">
+      <description>Transportation zone to or from which the goods are delivered</description>
+    </column>
+    <column name="XZEMP" data_type="VARCHAR">
+      <description>Indicator: Is an alternative payer allowed in document?</description>
+    </column>
+    <column name="VBUND" data_type="VARCHAR">
+      <description>Company ID of Trading Partner</description>
+    </column>
+    <column name="STCEG" data_type="VARCHAR">
+      <description>VAT Registration Number</description>
+    </column>
+    <column name="DEAR1" data_type="VARCHAR">
+      <description>Indicator: Competitor</description>
+    </column>
+    <column name="DEAR2" data_type="VARCHAR">
+      <description>Indicator: Sales partner</description>
+    </column>
+    <column name="DEAR3" data_type="VARCHAR">
+      <description>Indicator: Sales prospect</description>
+    </column>
+    <column name="DEAR4" data_type="VARCHAR">
+      <description>Indicator for customer type 4</description>
+    </column>
+    <column name="DEAR5" data_type="VARCHAR">
+      <description>ID for default sold-to party</description>
+    </column>
+    <column name="GFORM" data_type="VARCHAR">
+      <description>Legal status</description>
+    </column>
+    <column name="BRAN1" data_type="VARCHAR">
+      <description>Industry code 1</description>
+    </column>
+    <column name="BRAN2" data_type="VARCHAR">
+      <description>Industry code 2</description>
+    </column>
+    <column name="BRAN3" data_type="VARCHAR">
+      <description>Industry code 3</description>
+    </column>
+    <column name="BRAN4" data_type="VARCHAR">
+      <description>Industry code 4</description>
+    </column>
+    <column name="BRAN5" data_type="VARCHAR">
+      <description>Industry code 5</description>
+    </column>
+    <column name="EKONT" data_type="VARCHAR">
+      <description>Initial contact</description>
+    </column>
+    <column name="UMSAT" data_type="DECIMAL">
+      <description>Annual sales</description>
+    </column>
+    <column name="UMJAH" data_type="VARCHAR">
+      <description>Year For Which Sales are Given</description>
+    </column>
+    <column name="UWAER" data_type="VARCHAR">
+      <description>Currency of sales figure</description>
+    </column>
+    <column name="JMZAH" data_type="VARCHAR">
+      <description>Yearly number of employees</description>
+    </column>
+    <column name="JMJAH" data_type="VARCHAR">
+      <description>Year for which the number of employees is given</description>
+    </column>
+    <column name="KATR1" data_type="VARCHAR">
+      <description>Attribute 1</description>
+    </column>
+    <column name="KATR2" data_type="VARCHAR">
+      <description>Attribute 2</description>
+    </column>
+    <column name="KATR3" data_type="VARCHAR">
+      <description>Attribute 3</description>
+    </column>
+    <column name="KATR4" data_type="VARCHAR">
+      <description>Attribute 4</description>
+    </column>
+    <column name="KATR5" data_type="VARCHAR">
+      <description>Attribute 5</description>
+    </column>
+    <column name="KATR6" data_type="VARCHAR">
+      <description>Attribute 6</description>
+    </column>
+    <column name="KATR7" data_type="VARCHAR">
+      <description>Attribute 7</description>
+    </column>
+    <column name="KATR8" data_type="VARCHAR">
+      <description>Attribute 8</description>
+    </column>
+    <column name="KATR9" data_type="VARCHAR">
+      <description>Attribute 9</description>
+    </column>
+    <column name="KATR10" data_type="VARCHAR">
+      <description>Attribute 10</description>
+    </column>
+    <column name="STKZN" data_type="VARCHAR">
+      <description>Natural Person</description>
+    </column>
+    <column name="UMSA1" data_type="DECIMAL">
+      <description>Annual sales</description>
+    </column>
+    <column name="TXJCD" data_type="VARCHAR">
+      <description>Tax Jurisdiction</description>
+    </column>
+    <column name="PERIV" data_type="VARCHAR">
+      <description>Fiscal Year Variant</description>
+    </column>
+    <column name="ABRVW" data_type="VARCHAR">
+      <description>Usage Indicator</description>
+    </column>
+    <column name="INSPBYDEBI" data_type="VARCHAR">
+      <description>Inspection Carried Out By Customer (No Inspection Lot)</description>
+    </column>
+    <column name="INSPATDEBI" data_type="VARCHAR">
+      <description>Inspection for a Delivery Note After Outbound Delivery</description>
+    </column>
+    <column name="KTOCD" data_type="VARCHAR">
+      <description>Reference Account Group for One-Time Account (Customer)</description>
+    </column>
+    <column name="PFORT" data_type="VARCHAR">
+      <description>PO Box city</description>
+    </column>
+    <column name="WERKS" data_type="VARCHAR">
+      <description>Plant</description>
+    </column>
+    <column name="DTAMS" data_type="VARCHAR">
+      <description>Recipient Code for Data Medium Exchange</description>
+    </column>
+    <column name="DTAWS" data_type="VARCHAR">
+      <description>Instruction Key for Data Medium Exchange</description>
+    </column>
+    <column name="DUEFL" data_type="VARCHAR">
+      <description>Status of Data Transfer into Subsequent Release</description>
+    </column>
+    <column name="HZUOR" data_type="VARCHAR">
+      <description>Assignment to Hierarchy</description>
+    </column>
+    <column name="SPERZ" data_type="VARCHAR">
+      <description>Payment Block</description>
+    </column>
+    <column name="ETIKG" data_type="VARCHAR">
+      <description>IS-R Labeling: customer/plant group</description>
+    </column>
+    <column name="CIVVE" data_type="VARCHAR">
+      <description>ID for mainly non-military use</description>
+    </column>
+    <column name="MILVE" data_type="VARCHAR">
+      <description>ID for mainly military use</description>
+    </column>
+    <column name="KDKG1" data_type="VARCHAR">
+      <description>Customer condition group 1</description>
+    </column>
+    <column name="KDKG2" data_type="VARCHAR">
+      <description>Customer condition group 2</description>
+    </column>
+    <column name="KDKG3" data_type="VARCHAR">
+      <description>Customer condition group 3</description>
+    </column>
+    <column name="KDKG4" data_type="VARCHAR">
+      <description>Customer condition group 4</description>
+    </column>
+    <column name="KDKG5" data_type="VARCHAR">
+      <description>Customer condition group 5</description>
+    </column>
+    <column name="XKNZA" data_type="VARCHAR">
+      <description>Indicator: Alternative payer using account number</description>
+    </column>
+    <column name="FITYP" data_type="VARCHAR">
+      <description>Tax Type</description>
+    </column>
+    <column name="STCDT" data_type="VARCHAR">
+      <description>Tax Number Type</description>
+    </column>
+    <column name="STCD3" data_type="VARCHAR">
+      <description>Tax Number 3</description>
+    </column>
+    <column name="STCD4" data_type="VARCHAR">
+      <description>Tax Number 4</description>
+    </column>
+    <column name="STCD5" data_type="VARCHAR">
+      <description>Tax Number 5</description>
+    </column>
+    <column name="STCD6" data_type="VARCHAR">
+      <description>Tax Number 6</description>
+    </column>
+    <column name="XICMS" data_type="VARCHAR">
+      <description>Customer is ICMS-exempt</description>
+    </column>
+    <column name="XXIPI" data_type="VARCHAR">
+      <description>Customer is IPI-exempt</description>
+    </column>
+    <column name="XSUBT" data_type="VARCHAR">
+      <description>Customer group for Substituiçao Tributária calculation</description>
+    </column>
+    <column name="CFOPC" data_type="VARCHAR">
+      <description>Customer's CFOP category</description>
+    </column>
+    <column name="TXLW1" data_type="VARCHAR">
+      <description>Tax law: ICMS</description>
+    </column>
+    <column name="TXLW2" data_type="VARCHAR">
+      <description>Tax law: IPI</description>
+    </column>
+    <column name="CCC01" data_type="VARCHAR">
+      <description>Indicator for biochemical warfare for legal control</description>
+    </column>
+    <column name="CCC02" data_type="VARCHAR">
+      <description>Indicator for nuclear nonproliferation for legal control</description>
+    </column>
+    <column name="CCC03" data_type="VARCHAR">
+      <description>Indicator for national security for legal control</description>
+    </column>
+    <column name="CCC04" data_type="VARCHAR">
+      <description>Indicator for missile technology for legal control</description>
+    </column>
+    <column name="CASSD" data_type="VARCHAR">
+      <description>Central sales block for customer</description>
+    </column>
+    <column name="KNURL" data_type="VARCHAR">
+      <description>Uniform resource locator</description>
+    </column>
+    <column name="J_1KFREPRE" data_type="VARCHAR">
+      <description>Name of Representative</description>
+    </column>
+    <column name="J_1KFTBUS" data_type="VARCHAR">
+      <description>Type of Business</description>
+    </column>
+    <column name="J_1KFTIND" data_type="VARCHAR">
+      <description>Type of Industry</description>
+    </column>
+    <column name="CONFS" data_type="VARCHAR">
+      <description>Status of Change Authorization (Central)</description>
+    </column>
+    <column name="UPDAT" data_type="DATE">
+      <description>Date on Which the Changes Were Confirmed</description>
+    </column>
+    <column name="UPTIM" data_type="TIME">
+      <description>Time of Last Change Confirmation</description>
+    </column>
+    <column name="NODEL" data_type="VARCHAR">
+      <description>Central deletion block for master record</description>
+    </column>
+    <column name="DEAR6" data_type="VARCHAR">
+      <description>Indicator: Consumer</description>
+    </column>
+    <column name="CVP_XBLCK" data_type="VARCHAR">
+      <description>Business Purpose Completed Flag</description>
+    </column>
+    <column name="SUFRAMA" data_type="VARCHAR">
+      <description>Suframa Code</description>
+    </column>
+    <column name="RG" data_type="VARCHAR">
+      <description>RG Number</description>
+    </column>
+    <column name="EXP" data_type="VARCHAR">
+      <description>Issued by</description>
+    </column>
+    <column name="UF" data_type="VARCHAR">
+      <description>State</description>
+    </column>
+    <column name="RGDATE" data_type="DATE">
+      <description>RG Issuing Date</description>
+    </column>
+    <column name="RIC" data_type="VARCHAR">
+      <description>RIC Number</description>
+    </column>
+    <column name="RNE" data_type="VARCHAR">
+      <description>Foreign National Registration</description>
+    </column>
+    <column name="RNEDATE" data_type="DATE">
+      <description>RNE Issuing Date</description>
+    </column>
+    <column name="CNAE" data_type="VARCHAR">
+      <description>CNAE</description>
+    </column>
+    <column name="LEGALNAT" data_type="VARCHAR">
+      <description>Legal Nature</description>
+    </column>
+    <column name="CRTN" data_type="VARCHAR">
+      <description>CRT Number</description>
+    </column>
+    <column name="ICMSTAXPAY" data_type="VARCHAR">
+      <description>ICMS Taxpayer</description>
+    </column>
+    <column name="INDTYP" data_type="VARCHAR">
+      <description>Industry Main Type</description>
+    </column>
+    <column name="TDT" data_type="VARCHAR">
+      <description>Tax Declaration Type</description>
+    </column>
+    <column name="COMSIZE" data_type="VARCHAR">
+      <description>Company Size</description>
+    </column>
+    <column name="DECREGPC" data_type="VARCHAR">
+      <description>Declaration Regimen for PIS/COFINS</description>
+    </column>
+    <column name="/VSO/R_PALHGT" data_type="DECIMAL">
+      <description>Maximum Stacking Height of the Packaging Material (VSO)</description>
+    </column>
+    <column name="/VSO/R_PAL_UL" data_type="VARCHAR">
+      <description>Unit of Length for Packaging Material (VSO)</description>
+    </column>
+    <column name="/VSO/R_PK_MAT" data_type="VARCHAR">
+      <description>Customer-Related Packing for Each Packaging Material (VSO)</description>
+    </column>
+    <column name="/VSO/R_MATPAL" data_type="VARCHAR">
+      <description>Packaging Material of the Customer in VSO</description>
+    </column>
+    <column name="/VSO/R_I_NO_LYR" data_type="VARCHAR">
+      <description>Number Layers Under an Inter-Pallet (VSO)</description>
+    </column>
+    <column name="/VSO/R_ONE_MAT" data_type="VARCHAR">
+      <description>Packing Material-Specific for Each Packaging Material</description>
+    </column>
+    <column name="/VSO/R_ONE_SORT" data_type="VARCHAR">
+      <description>Pack Only One Package Type for Each PKM (VSO)</description>
+    </column>
+    <column name="/VSO/R_ULD_SIDE" data_type="VARCHAR">
+      <description>Side Preference of Loading/Unloading (VSO)</description>
+    </column>
+    <column name="/VSO/R_LOAD_PREF" data_type="VARCHAR">
+      <description>Front/Back Preference of Loading/Unloading (VSO)</description>
+    </column>
+    <column name="/VSO/R_DPOINT" data_type="VARCHAR">
+      <description>Collective Unloading Point for VSO</description>
+    </column>
+    <column name="/XLSO/CUSTOMER" data_type="VARCHAR">
+      <description>Data element to differentiate customer</description>
+    </column>
+    <column name="/XLSO/SYSID" data_type="VARCHAR">
+      <description>Name of SAP System</description>
+    </column>
+    <column name="/XLSO/CLIENT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="/XLSO/PARTNER" data_type="VARCHAR">
+      <description>Business Partner Number</description>
+    </column>
+    <column name="/XLSO/PREF_PAY" data_type="VARCHAR">
+      <description>Version Number Component</description>
+    </column>
+    <column name="ALC" data_type="VARCHAR">
+      <description>Agency Location Code</description>
+    </column>
+    <column name="PMT_OFFICE" data_type="VARCHAR">
+      <description>Payment Office</description>
+    </column>
+    <column name="FEE_SCHEDULE" data_type="VARCHAR">
+      <description>Fee schedule</description>
+    </column>
+    <column name="DUNS" data_type="VARCHAR">
+      <description>DUNS Number</description>
+    </column>
+    <column name="DUNS4" data_type="VARCHAR">
+      <description>DUNS+4</description>
+    </column>
+    <column name="SAM_UE_ID" data_type="VARCHAR">
+      <description>System for Award Management Unique Entity Identifier</description>
+    </column>
+    <column name="SAM_EFT_IND" data_type="VARCHAR">
+      <description>System for Award Management Electronic Funds Transfer Ind</description>
+    </column>
+    <column name="PSOFG" data_type="VARCHAR">
+      <description>Processor group</description>
+    </column>
+    <column name="PSOIS" data_type="VARCHAR">
+      <description>Subledger acct preprocessing procedure</description>
+    </column>
+    <column name="PSON1" data_type="VARCHAR">
+      <description>Name 1</description>
+    </column>
+    <column name="PSON2" data_type="VARCHAR">
+      <description>Name 2</description>
+    </column>
+    <column name="PSON3" data_type="VARCHAR">
+      <description>Name 3</description>
+    </column>
+    <column name="PSOVN" data_type="VARCHAR">
+      <description>First Name</description>
+    </column>
+    <column name="PSOTL" data_type="VARCHAR">
+      <description>Title</description>
+    </column>
+    <column name="PSOHS" data_type="VARCHAR">
+      <description>House number: is no longer used from Release 4.6B</description>
+    </column>
+    <column name="PSOST" data_type="VARCHAR">
+      <description>Street: No longer used from Release 4.6B</description>
+    </column>
+    <column name="PSOO1" data_type="VARCHAR">
+      <description>Description</description>
+    </column>
+    <column name="PSOO2" data_type="VARCHAR">
+      <description>Description</description>
+    </column>
+    <column name="PSOO3" data_type="VARCHAR">
+      <description>Description</description>
+    </column>
+    <column name="PSOO4" data_type="VARCHAR">
+      <description>Description</description>
+    </column>
+    <column name="PSOO5" data_type="VARCHAR">
+      <description>Description</description>
+    </column>
+    <column name="OIDRC" data_type="VARCHAR">
+      <description>Differential Reference Code (DRC)</description>
+    </column>
+    <column name="OID_POREQD" data_type="VARCHAR">
+      <description>Purchase order required: X = Yes, Blank = No</description>
+    </column>
+    <column name="OIPBL" data_type="VARCHAR">
+      <description>Business location identifier (IS-Oil MRN)</description>
+    </column>
+  </columns>
+</data_description>

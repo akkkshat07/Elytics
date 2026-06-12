@@ -1,0 +1,138 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="DD02L">
+  <table_info name="DD02L" total_columns="44" />
+  <columns>
+    <column name="TABNAME" data_type="VARCHAR">
+      <description>Table Name</description>
+    </column>
+    <column name="AS4LOCAL" data_type="VARCHAR">
+      <description>Activation Status of a Repository Object</description>
+    </column>
+    <column name="AS4VERS" data_type="VARCHAR">
+      <description>Version of the entry (not used)</description>
+    </column>
+    <column name="TABCLASS" data_type="VARCHAR">
+      <description>Table Category</description>
+    </column>
+    <column name="SQLTAB" data_type="VARCHAR">
+      <description>Name of an SQL table or an appended table</description>
+    </column>
+    <column name="DATMIN" data_type="VARCHAR">
+      <description>Minimum no. of entries</description>
+    </column>
+    <column name="DATMAX" data_type="VARCHAR">
+      <description>Maximum no. of entries</description>
+    </column>
+    <column name="DATAVG" data_type="VARCHAR">
+      <description>Average number of entries</description>
+    </column>
+    <column name="CLIDEP" data_type="VARCHAR">
+      <description>Flag indicating client-specific entries</description>
+    </column>
+    <column name="BUFFERED" data_type="VARCHAR">
+      <description>Buffering flag</description>
+    </column>
+    <column name="COMPRFLAG" data_type="VARCHAR">
+      <description>Field compression indicator</description>
+    </column>
+    <column name="LANGDEP" data_type="VARCHAR">
+      <description>Language dependency</description>
+    </column>
+    <column name="ACTFLAG" data_type="VARCHAR">
+      <description>Activation flag</description>
+    </column>
+    <column name="APPLCLASS" data_type="VARCHAR">
+      <description>Application class for DD objects (not used)</description>
+    </column>
+    <column name="AUTHCLASS" data_type="VARCHAR">
+      <description>Activation type</description>
+    </column>
+    <column name="AS4USER" data_type="VARCHAR">
+      <description>Last Changed by</description>
+    </column>
+    <column name="AS4DATE" data_type="DATE">
+      <description>Last Changed On</description>
+    </column>
+    <column name="AS4TIME" data_type="TIME">
+      <description>Last changed at</description>
+    </column>
+    <column name="MASTERLANG" data_type="VARCHAR">
+      <description>Original Language in Repository objects</description>
+    </column>
+    <column name="MAINFLAG" data_type="VARCHAR">
+      <description>Flag if Maintenance with Standard Tools is allowed</description>
+    </column>
+    <column name="CONTFLAG" data_type="VARCHAR">
+      <description>Delivery class</description>
+    </column>
+    <column name="RESERVETAB" data_type="VARCHAR">
+      <description>SDIC: Reserve for tables</description>
+    </column>
+    <column name="GLOBALFLAG" data_type="VARCHAR">
+      <description>Flag for private DD objects (not used)</description>
+    </column>
+    <column name="PROZPUFF" data_type="VARCHAR">
+      <description>Percentage for buffers</description>
+    </column>
+    <column name="VIEWCLASS" data_type="VARCHAR">
+      <description>View Type</description>
+    </column>
+    <column name="VIEWGRANT" data_type="VARCHAR">
+      <description>Maintenance status (modif. authorization) for view data</description>
+    </column>
+    <column name="MULTIPLEX" data_type="VARCHAR">
+      <description>Indicator whether multiplexing is possible for a table</description>
+    </column>
+    <column name="SHLPEXI" data_type="VARCHAR">
+      <description>Search help binding to table exists</description>
+    </column>
+    <column name="PROXYTYPE" data_type="VARCHAR">
+      <description>DD: Is a generated proxy object</description>
+    </column>
+    <column name="EXCLASS" data_type="VARCHAR">
+      <description>DD:  Ranking for include and subtype extension</description>
+    </column>
+    <column name="WRONGCL" data_type="VARCHAR">
+      <description>Enhancement category is incorrect</description>
+    </column>
+    <column name="ALWAYSTRP" data_type="VARCHAR">
+      <description>Table is always transparent on selective database</description>
+    </column>
+    <column name="ALLDATAINCL" data_type="VARCHAR">
+      <description>DD: DataAging:  Handle data as hot and cold if switched on</description>
+    </column>
+    <column name="WITH_PARAMETERS" data_type="VARCHAR">
+      <description>DD: Set whenever a view or base view has parameters</description>
+    </column>
+    <column name="EXVIEW_INCLUDED" data_type="VARCHAR">
+      <description>DD: Contains at least one external view in the hierarchy</description>
+    </column>
+    <column name="KEYMAX_FEATURE" data_type="VARCHAR">
+      <description>DD: Maximum CL_DD_DBFEATURES=&gt;KEYCNT_MAX1 Key Fields</description>
+    </column>
+    <column name="KEYLEN_FEATURE" data_type="VARCHAR">
+      <description>DD: Maximum CL_DD_DBFEATURES=&gt;KEYLEN_MAX1 Key Length</description>
+    </column>
+    <column name="TABLEN_FEATURE" data_type="VARCHAR">
+      <description>DD: Maximum Width CL_DD_DBFEATURES=&gt;LEN_MAX1</description>
+    </column>
+    <column name="NONTRP_INCLUDED" data_type="VARCHAR">
+      <description>At least one non-transparent table is contained here</description>
+    </column>
+    <column name="VIEWREF" data_type="VARCHAR">
+      <description>Name of SAP Table View</description>
+    </column>
+    <column name="VIEWREF_ERR" data_type="VARCHAR">
+      <description>Proxy object cannot be used</description>
+    </column>
+    <column name="TBFUNC_INCLUDED" data_type="VARCHAR">
+      <description>Contains info whether a table function exists in hierarchy</description>
+    </column>
+    <column name="IS_GTT" data_type="VARCHAR">
+      <description>Flag whether table is a global temporary table</description>
+    </column>
+    <column name="SESSION_VAR_EX" data_type="VARCHAR">
+      <description>DD: Does a session variable exist?</description>
+    </column>
+  </columns>
+</data_description>

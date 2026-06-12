@@ -1,0 +1,242 @@
+# Alert Rules for CoreSight 
+#
+# These rules define when to trigger alerts based on metric thresholds
+
+groups:
+  - name: system_alerts
+    interval: 30s
+    rules:
+      # High CPU usage alert
+      - alert: HighCPUUsage
+        expr: system_cpu_usage_percent > 80
+        for: 5m
+        labels:
+          severity: warning
+          component: system
+        annotations:
+          summary: "High CPU usage detected"
+          description: "CPU usage is {{ $value }}% (threshold: 80%)"
+      
+      # Critical CPU usage alert
+      - alert: CriticalCPUUsage
+        expr: system_cpu_usage_percent > 95
+        for: 2m
+        labels:
+          severity: critical
+          component: system
+        annotations:
+          summary: "Critical CPU usage detected"
+          description: "CPU usage is {{ $value }}% (threshold: 95%)"
+      
+      # High memory usage alert
+      - alert: HighMemoryUsage
+        expr: system_memory_usage_percent > 85
+        for: 5m
+        labels:
+          severity: warning
+          component: system
+        annotations:
+          summary: "High memory usage detected"
+          description: "Memory usage is {{ $value }}% (threshold: 85%)"
+      
+      # Critical memory usage alert
+      - alert: CriticalMemoryUsage
+        expr: system_memory_usage_percent > 95
+        for: 2m
+        labels:
+          severity: critical
+          component: system
+        annotations:
+          summary: "Critical memory usage detected"
+          description: "Memory usage is {{ $value }}% (threshold: 95%)"
+      
+      # High disk usage alert
+      - alert: HighDiskUsage
+        expr: system_disk_usage_percent > 90
+        for: 10m
+        labels:
+          severity: warning
+          component: system
+        annotations:
+          summary: "High disk usage detected"
+          description: "Disk usage is {{ $value }}% (threshold: 90%)"
+
+  - name: application_alerts
+    interval: 30s
+    rules:
+      # High HTTP error rate
+      - alert: HighHTTPErrorRate
+        expr: |
+          (
+            rate(http_requests_total{status_code=~"5.."}[5m]) / 
+            rate(http_requests_total[5m])
+          ) > 0.05
+        for: 3m
+        labels:
+          severity: warning
+          component: http
+        annotations:
+          summary: "High HTTP 5xx error rate"
+          description: "Error rate is {{ $value | humanizePercentage }} (threshold: 5%)"
+      
+      # Slow HTTP requests
+      - alert: SlowHTTPRequests
+        expr: |
+          histogram_quantile(0.99, rate(http_request_duration_seconds_bucket[5m])) > 5.0
+        for: 5m
+        labels:
+          severity: warning
+          component: http
+        annotations:
+          summary: "Slow HTTP requests detected"
+          description: "P99 latency is {{ $value }}s (threshold: 5s)"
+      
+      # Many requests in progress
+      - alert: HighRequestBacklog
+        expr: sum(http_requests_in_progress) > 100
+        for: 5m
+        labels:
+          severity: warning
+          component: http
+        annotations:
+          summary: "High number of requests in progress"
+          description: "{{ $value }} requests currently being processed (threshold: 100)"
+
+  - name: database_alerts
+    interval: 30s
+    rules:
+      # Slow database queries
+      - alert: SlowDatabaseQueries
+        expr: |
+          histogram_quantile(0.95, rate(db_query_duration_seconds_bucket[5m])) > 1.0
+        for: 5m
+        labels:
+          severity: warning
+          component: database
+        annotations:
+          summary: "Slow database queries detected"
+          description: "P95 query latency is {{ $value }}s (threshold: 1s)"
+      
+      # Database connection issues
+      - alert: LowDatabaseConnections
+        expr: db_connections_active < 1
+        for: 2m
+        labels:
+          severity: critical
+          component: database
+        annotations:
+          summary: "No active database connections"
+          description: "Database connection pool is empty"
+      
+      # High database error rate
+      - alert: HighDatabaseErrorRate
+        expr: |
+          (
+            rate(db_operations_total{status="error"}[5m]) /
+            rate(db_operations_total[5m])
+          ) > 0.10
+        for: 5m
+        labels:
+          severity: warning
+          component: database
+        annotations:
+          summary: "High database error rate"
+          description: "Error rate is {{ $value | humanizePercentage }} (threshold: 10%)"
+
+  - name: cache_alerts
+    interval: 30s
+    rules:
+      # Low cache hit rate
+      - alert: LowCacheHitRate
+        expr: |
+          (
+            rate(redis_cache_hits_total[5m]) /
+            (rate(redis_cache_hits_total[5m]) + rate(redis_cache_misses_total[5m]))
+          ) < 0.50
+        for: 10m
+        labels:
+          severity: warning
+          component: cache
+        annotations:
+          summary: "Low cache hit rate"
+          description: "Cache hit rate is {{ $value | humanizePercentage }} (threshold: 50%)"
+
+  - name: ai_agent_alerts
+    interval: 30s
+    rules:
+      # Slow AI agent responses
+      - alert: SlowAIAgentResponse
+        expr: |
+          histogram_quantile(0.95, rate(ai_agent_duration_seconds_bucket[5m])) > 30.0
+        for: 5m
+        labels:
+          severity: warning
+          component: ai-agent
+        annotations:
+          summary: "Slow AI agent responses"
+          description: "P95 AI agent latency is {{ $value }}s (threshold: 30s)"
+      
+      # High AI agent error rate
+      - alert: HighAIAgentErrorRate
+        expr: |
+          (
+            rate(ai_agent_requests_total{status="error"}[5m]) /
+            rate(ai_agent_requests_total[5m])
+          ) > 0.10
+        for: 5m
+        labels:
+          severity: warning
+          component: ai-agent
+        annotations:
+          summary: "High AI agent error rate"
+          description: "Error rate is {{ $value | humanizePercentage }} (threshold: 10%)"
+
+  - name: rate_limit_alerts
+    interval: 30s
+    rules:
+      # High rate limit blocks
+      - alert: HighRateLimitBlocks
+        expr: rate(redis_rate_limit_checks_total{result="blocked"}[5m]) > 10
+        for: 5m
+        labels:
+          severity: warning
+          component: rate-limit
+        annotations:
+          summary: "High rate limit blocks"
+          description: "{{ $value }} requests/s are being rate limited (threshold: 10/s)"
+
+  - name: health_alerts
+    interval: 30s
+    rules:
+      # MongoDB unhealthy
+      - alert: MongoDBUnhealthy
+        expr: service_health_status{component="mongodb"} == 0
+        for: 2m
+        labels:
+          severity: critical
+          component: database
+        annotations:
+          summary: "MongoDB is unhealthy"
+          description: "MongoDB health check is failing"
+      
+      # Redis unhealthy
+      - alert: RedisUnhealthy
+        expr: service_health_status{component="redis"} == 0
+        for: 2m
+        labels:
+          severity: critical
+          component: cache
+        annotations:
+          summary: "Redis is unhealthy"
+          description: "Redis health check is failing"
+      
+      # Overall service unhealthy
+      - alert: ServiceUnhealthy
+        expr: service_health_status{component="overall"} == 0
+        for: 2m
+        labels:
+          severity: critical
+          component: system
+        annotations:
+          summary: "Overall service is unhealthy"
+          description: "One or more critical components are failing"

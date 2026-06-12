@@ -1,0 +1,135 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="T156">
+  <table_info name="T156" total_columns="43"/>
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="BWART" data_type="VARCHAR">
+      <description>Movement Type (Inventory Management)</description>
+    </column>
+    <column name="SHKZG" data_type="VARCHAR">
+      <description>Debit/Credit Indicator</description>
+    </column>
+    <column name="KZWES" data_type="VARCHAR">
+      <description>GR blocked stock</description>
+    </column>
+    <column name="KZVBU" data_type="VARCHAR">
+      <description>Consumption posting</description>
+    </column>
+    <column name="KZDRU" data_type="VARCHAR">
+      <description>Printing of document item</description>
+    </column>
+    <column name="KZKON" data_type="VARCHAR">
+      <description>Display or suppress account field/manual account assignment</description>
+    </column>
+    <column name="CHNEU" data_type="VARCHAR">
+      <description>Batch Creation Control (Automatic/Manual)</description>
+    </column>
+    <column name="KZZDE" data_type="VARCHAR">
+      <description>Maintain status data of a batch</description>
+    </column>
+    <column name="RSTYP" data_type="VARCHAR">
+      <description>Account assignment of reservation</description>
+    </column>
+    <column name="SELPA" data_type="VARCHAR">
+      <description>Selection parameter for purchasing lists</description>
+    </column>
+    <column name="XLAUT" data_type="VARCHAR">
+      <description>Automatic creation of storage location allowed</description>
+    </column>
+    <column name="KZSTR" data_type="VARCHAR">
+      <description>Transaction/event is relevant to statistics</description>
+    </column>
+    <column name="KZGRU" data_type="VARCHAR">
+      <description>Control: Reason for Movement</description>
+    </column>
+    <column name="XINVB" data_type="VARCHAR">
+      <description>Generate physical inventory document for material doc. item</description>
+    </column>
+    <column name="QSSBW" data_type="VARCHAR">
+      <description>Inspection by quality assurance</description>
+    </column>
+    <column name="KZBWA" data_type="VARCHAR">
+      <description>Movement type category</description>
+    </column>
+    <column name="XSTBW" data_type="VARCHAR">
+      <description>Reversal Movement Type</description>
+    </column>
+    <column name="XPBED" data_type="VARCHAR">
+      <description>Requirements reduction upon goods movements</description>
+    </column>
+    <column name="XWSBR" data_type="VARCHAR">
+      <description>Reversal of GR allowed for GR-based IV despite invoice</description>
+    </column>
+    <column name="KZMHD" data_type="VARCHAR">
+      <description>Check Best Before Date/Production Date</description>
+    </column>
+    <column name="KZCLA" data_type="VARCHAR">
+      <description>Option to classify batches</description>
+    </column>
+    <column name="XKOKO" data_type="VARCHAR">
+      <description>Cost element accounting</description>
+    </column>
+    <column name="XKCFC" data_type="VARCHAR">
+      <description>Extended classification via CFC</description>
+    </column>
+    <column name="XNEBE" data_type="VARCHAR">
+      <description>Create purchase order automatically</description>
+    </column>
+    <column name="J_1BNFREL" data_type="VARCHAR">
+      <description>Nota Fiscal Relevance</description>
+    </column>
+    <column name="J_1BNFTYPE" data_type="VARCHAR">
+      <description>Nota Fiscal Type</description>
+    </column>
+    <column name="J_1BITMTYP" data_type="VARCHAR">
+      <description>Nota Fiscal Item Type</description>
+    </column>
+    <column name="J_1BSPCSTO" data_type="VARCHAR">
+      <description>Nota Fiscal Special Case for CFOP Determination</description>
+    </column>
+    <column name="J_1BPARTYP" data_type="VARCHAR">
+      <description>Nota Fiscal Partner Type</description>
+    </column>
+    <column name="J_1BPARVW" data_type="VARCHAR">
+      <description>Nota Fiscal Partner Function</description>
+    </column>
+    <column name="RULES" data_type="VARCHAR">
+      <description>Stock determination rule</description>
+    </column>
+    <column name="J_1AREVIDX" data_type="VARCHAR">
+      <description>Relevant to Goods Issue Revaluation</description>
+    </column>
+    <column name="J_1ADOCCL" data_type="VARCHAR">
+      <description>Document Class</description>
+    </column>
+    <column name="J_1AEXPKZ" data_type="VARCHAR">
+      <description>Material movement: Export indicator</description>
+    </column>
+    <column name="XOARC" data_type="VARCHAR">
+      <description>Storage upon goods movements active</description>
+    </column>
+    <column name="BUSTR" data_type="VARCHAR">
+      <description>Posting string reference (Inventory Management)</description>
+    </column>
+    <column name="KZDIR" data_type="VARCHAR">
+      <description>Direction Indicator (Cross-System Flow of Goods)</description>
+    </column>
+    <column name="OIJ1BNFFI" data_type="VARCHAR">
+      <description>Control Flag for Nota Fiscal creation (Gain/Loss)</description>
+    </column>
+    <column name="MILL_CPCONF" data_type="VARCHAR">
+      <description>Indicator for Adoption of Conf. in Batch Classification</description>
+    </column>
+    <column name="CO_WIPB_CPCONF" data_type="VARCHAR">
+      <description>Indicator for Adoption of Conf. in Batch Classification</description>
+    </column>
+    <column name="XWIPB" data_type="VARCHAR">
+      <description>Indicator: Movement Type Allows WIP Batches</description>
+    </column>
+    <column name="FSH_DEALLOC" data_type="VARCHAR">
+      <description>Automatic Deallocation</description>
+    </column>
+  </columns>
+</data_description>

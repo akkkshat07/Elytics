@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="T030">
+  <table_info name="T030" total_columns="8" />
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="KTOPL" data_type="VARCHAR">
+      <description>Chart of Accounts</description>
+    </column>
+    <column name="KTOSL" data_type="VARCHAR">
+      <description>Transaction Key</description>
+    </column>
+    <column name="BWMOD" data_type="VARCHAR">
+      <description>Valuation Grouping Code</description>
+    </column>
+    <column name="KOMOK" data_type="VARCHAR">
+      <description>Account Modification</description>
+    </column>
+    <column name="BKLAS" data_type="VARCHAR">
+      <description>Valuation Class</description>
+    </column>
+    <column name="KONTS" data_type="VARCHAR">
+      <description>G/L Account Number</description>
+    </column>
+    <column name="KONTH" data_type="VARCHAR">
+      <description>G/L Account Number</description>
+    </column>
+  </columns>
+</data_description>

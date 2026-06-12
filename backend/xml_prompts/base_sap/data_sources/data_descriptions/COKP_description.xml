@@ -1,0 +1,183 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="COKP">
+  <table_info name="COKP" total_columns="59" />
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="LEDNR" data_type="VARCHAR">
+      <description>Ledger for Controlling objects</description>
+    </column>
+    <column name="OBJNR" data_type="VARCHAR">
+      <description>Object number</description>
+    </column>
+    <column name="GJAHR" data_type="VARCHAR">
+      <description>Fiscal Year</description>
+    </column>
+    <column name="WRTTP" data_type="VARCHAR">
+      <description>Value Type</description>
+    </column>
+    <column name="VERSN" data_type="VARCHAR">
+      <description>Version</description>
+    </column>
+    <column name="KSTAR" data_type="VARCHAR">
+      <description>Cost Element</description>
+    </column>
+    <column name="HRKFT" data_type="VARCHAR">
+      <description>CO key subnumber</description>
+    </column>
+    <column name="VRGNG" data_type="VARCHAR">
+      <description>CO Business Transaction</description>
+    </column>
+    <column name="VBUND" data_type="VARCHAR">
+      <description>Company ID of Trading Partner</description>
+    </column>
+    <column name="PARGB" data_type="VARCHAR">
+      <description>Trading partner's business area</description>
+    </column>
+    <column name="BEKNZ" data_type="VARCHAR">
+      <description>Debit/credit indicator</description>
+    </column>
+    <column name="TWAER" data_type="VARCHAR">
+      <description>Transaction Currency</description>
+    </column>
+    <column name="RZTYP" data_type="VARCHAR">
+      <description>Dependency type for dependency planning</description>
+    </column>
+    <column name="RZVAR" data_type="VARCHAR">
+      <description>Depend.source type</description>
+    </column>
+    <column name="RZMNG" data_type="DECIMAL">
+      <description>Dependency qty</description>
+    </column>
+    <column name="RSTLA" data_type="VARCHAR">
+      <description>Dependency control activity</description>
+    </column>
+    <column name="LKSTAR" data_type="VARCHAR">
+      <description>Ind.: CElem. is control CElem?</description>
+    </column>
+    <column name="RZKST" data_type="DECIMAL">
+      <description>Dependent planned costs per unit of activity</description>
+    </column>
+    <column name="RSTKA" data_type="VARCHAR">
+      <description>Dependency control cost element</description>
+    </column>
+    <column name="RZKOA" data_type="VARCHAR">
+      <description>Cost Element</description>
+    </column>
+    <column name="RZFKT" data_type="DECIMAL">
+      <description>Recipe factor</description>
+    </column>
+    <column name="RZPRZ" data_type="DECIMAL">
+      <description>Depend.percentage</description>
+    </column>
+    <column name="WSWKF" data_type="VARCHAR">
+      <description>Valuation type for planned fixed costs</description>
+    </column>
+    <column name="WSWKV" data_type="VARCHAR">
+      <description>Valuation type for plan variable costs</description>
+    </column>
+    <column name="WSWKG" data_type="VARCHAR">
+      <description>Value computation type for total planned costs</description>
+    </column>
+    <column name="WSMEF" data_type="VARCHAR">
+      <description>Value computation type for planned fixed quantity</description>
+    </column>
+    <column name="WSMEV" data_type="VARCHAR">
+      <description>Valuation type for variable plan quantity</description>
+    </column>
+    <column name="WSMEG" data_type="VARCHAR">
+      <description>Value computation type for total planned qty</description>
+    </column>
+    <column name="FMWKF" data_type="VARCHAR">
+      <description>Formula Number Planned Fixed Costs</description>
+    </column>
+    <column name="FMWKV" data_type="VARCHAR">
+      <description>Formula Number: Planned Variable Costs</description>
+    </column>
+    <column name="FMWKG" data_type="VARCHAR">
+      <description>Formula Number Total Planned Costs</description>
+    </column>
+    <column name="FMMEF" data_type="VARCHAR">
+      <description>Formula Number Fixed Plan Quantity</description>
+    </column>
+    <column name="FMMEV" data_type="VARCHAR">
+      <description>Formula Number: Planned Variable Quantity</description>
+    </column>
+    <column name="FMMEG" data_type="VARCHAR">
+      <description>Formula Number Total Planned Quantity</description>
+    </column>
+    <column name="KKART" data_type="VARCHAR">
+      <description>Costing variant</description>
+    </column>
+    <column name="KALNR" data_type="VARCHAR">
+      <description>Cost Estimate Number</description>
+    </column>
+    <column name="TXFLG" data_type="VARCHAR">
+      <description>Text indicator</description>
+    </column>
+    <column name="FCWKF" data_type="VARCHAR">
+      <description>Distribution Key: Plan Fixed Costs</description>
+    </column>
+    <column name="FCWKV" data_type="VARCHAR">
+      <description>Distribution Key: Variable Plan Costs</description>
+    </column>
+    <column name="FCWKG" data_type="VARCHAR">
+      <description>Distribution Key: Total Plan Costs</description>
+    </column>
+    <column name="FCWOF" data_type="VARCHAR">
+      <description>Distribution key</description>
+    </column>
+    <column name="FCWOV" data_type="VARCHAR">
+      <description>Distribution key</description>
+    </column>
+    <column name="FCWOG" data_type="VARCHAR">
+      <description>Distribution key</description>
+    </column>
+    <column name="FCWTF" data_type="VARCHAR">
+      <description>Distribution key</description>
+    </column>
+    <column name="FCWTV" data_type="VARCHAR">
+      <description>Distribution key</description>
+    </column>
+    <column name="FCWTG" data_type="VARCHAR">
+      <description>Distribution key</description>
+    </column>
+    <column name="FCMEF" data_type="VARCHAR">
+      <description>Distribution Key: Fixed Plan Quantity</description>
+    </column>
+    <column name="FCMEV" data_type="VARCHAR">
+      <description>Distribution Key: Variable Plan Quantity</description>
+    </column>
+    <column name="FCMEG" data_type="VARCHAR">
+      <description>Distribution Key: Total Planned Quantity</description>
+    </column>
+    <column name="FCRKF" data_type="VARCHAR">
+      <description>Distribution key</description>
+    </column>
+    <column name="FCRKV" data_type="VARCHAR">
+      <description>Distribution key</description>
+    </column>
+    <column name="FCRKG" data_type="VARCHAR">
+      <description>Distribution key</description>
+    </column>
+    <column name="FCROF" data_type="VARCHAR">
+      <description>Distribution key</description>
+    </column>
+    <column name="FCROV" data_type="VARCHAR">
+      <description>Distribution key</description>
+    </column>
+    <column name="FCROG" data_type="VARCHAR">
+      <description>Distribution key</description>
+    </column>
+    <column name="FCREF" data_type="VARCHAR">
+      <description>Distribution key</description>
+    </column>
+    <column name="FCREV" data_type="VARCHAR">
+      <description>Distribution key</description>
+    </column>
+    <column name="FCREG" data_type="VARCHAR">
+      <description>Distribution key</description>
+    </column>
+  </columns>
+</data_description>

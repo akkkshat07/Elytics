@@ -1,0 +1,333 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="MBEW">
+  <table_info name="MBEW" total_columns="109"/>
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="MATNR" data_type="VARCHAR">
+      <description>Material Number</description>
+    </column>
+    <column name="BWKEY" data_type="VARCHAR">
+      <description>Valuation Area</description>
+    </column>
+    <column name="BWTAR" data_type="VARCHAR">
+      <description>Valuation Type</description>
+    </column>
+    <column name="LVORM" data_type="VARCHAR">
+      <description>Deletion flag for all material data of a valuation type</description>
+    </column>
+    <column name="LBKUM" data_type="DECIMAL">
+      <description>Total Valuated Stock</description>
+    </column>
+    <column name="SALK3" data_type="DECIMAL">
+      <description>Value of Total Valuated Stock</description>
+    </column>
+    <column name="VPRSV" data_type="VARCHAR">
+      <description>Price control indicator</description>
+    </column>
+    <column name="VERPR" data_type="DECIMAL">
+      <description>Moving Average Price/Periodic Unit Price</description>
+    </column>
+    <column name="STPRS" data_type="DECIMAL">
+      <description>Standard price</description>
+    </column>
+    <column name="PEINH" data_type="DECIMAL">
+      <description>Price unit</description>
+    </column>
+    <column name="BKLAS" data_type="VARCHAR">
+      <description>Valuation Class</description>
+    </column>
+    <column name="SALKV" data_type="DECIMAL">
+      <description>Value based on moving average price (only with price ctrl S)</description>
+    </column>
+    <column name="VMKUM" data_type="DECIMAL">
+      <description>Total valuated stock in previous period</description>
+    </column>
+    <column name="VMSAL" data_type="DECIMAL">
+      <description>Value of total valuated stock in previous period</description>
+    </column>
+    <column name="VMVPR" data_type="VARCHAR">
+      <description>Price Control Indicator in Previous Period</description>
+    </column>
+    <column name="VMVER" data_type="DECIMAL">
+      <description>Moving Average Price/Periodic Unit Price in Previous Period</description>
+    </column>
+    <column name="VMSTP" data_type="DECIMAL">
+      <description>Standard price in the previous period</description>
+    </column>
+    <column name="VMPEI" data_type="DECIMAL">
+      <description>Price unit of previous period</description>
+    </column>
+    <column name="VMBKL" data_type="VARCHAR">
+      <description>Valuation Class in Previous Period</description>
+    </column>
+    <column name="VMSAV" data_type="DECIMAL">
+      <description>Value based on moving average price (previous period)</description>
+    </column>
+    <column name="VJKUM" data_type="DECIMAL">
+      <description>Total Valuated Stock in Previous Year</description>
+    </column>
+    <column name="VJSAL" data_type="DECIMAL">
+      <description>Value of total valuated stock in previous year</description>
+    </column>
+    <column name="VJVPR" data_type="VARCHAR">
+      <description>Price Control Indicator in Previous Year</description>
+    </column>
+    <column name="VJVER" data_type="DECIMAL">
+      <description>Moving Average Price/Periodic Unit Price in Previous Year</description>
+    </column>
+    <column name="VJSTP" data_type="DECIMAL">
+      <description>Standard price in previous year</description>
+    </column>
+    <column name="VJPEI" data_type="DECIMAL">
+      <description>Price unit of previous year</description>
+    </column>
+    <column name="VJBKL" data_type="VARCHAR">
+      <description>Valuation Class in Previous Year</description>
+    </column>
+    <column name="VJSAV" data_type="DECIMAL">
+      <description>Value based on moving average price (previous year)</description>
+    </column>
+    <column name="LFGJA" data_type="VARCHAR">
+      <description>Fiscal Year of Current Period</description>
+    </column>
+    <column name="LFMON" data_type="VARCHAR">
+      <description>Current period (posting period)</description>
+    </column>
+    <column name="BWTTY" data_type="VARCHAR">
+      <description>Valuation Category</description>
+    </column>
+    <column name="STPRV" data_type="DECIMAL">
+      <description>Previous price</description>
+    </column>
+    <column name="LAEPR" data_type="DATE">
+      <description>Date of the last price change</description>
+    </column>
+    <column name="ZKPRS" data_type="DECIMAL">
+      <description>Future price</description>
+    </column>
+    <column name="ZKDAT" data_type="DATE">
+      <description>Date as of which the price is valid</description>
+    </column>
+    <column name="TIMESTAMP" data_type="DECIMAL">
+      <description>UTC Time Stamp in Short Form (YYYYMMDDhhmmss)</description>
+    </column>
+    <column name="BWPRS" data_type="DECIMAL">
+      <description>Valuation price based on tax law: level 1</description>
+    </column>
+    <column name="BWPRH" data_type="DECIMAL">
+      <description>Valuation price based on commercial law: level 1</description>
+    </column>
+    <column name="VJBWS" data_type="DECIMAL">
+      <description>Valuation price based on tax law: level 3</description>
+    </column>
+    <column name="VJBWH" data_type="DECIMAL">
+      <description>Valuation price based on commercial law: level 3</description>
+    </column>
+    <column name="VVJSL" data_type="DECIMAL">
+      <description>Value of total valuated stock in year before last</description>
+    </column>
+    <column name="VVJLB" data_type="DECIMAL">
+      <description>Total valuated stock in year before last</description>
+    </column>
+    <column name="VVMLB" data_type="DECIMAL">
+      <description>Total valuated stock in period before last</description>
+    </column>
+    <column name="VVSAL" data_type="DECIMAL">
+      <description>Value of total valuated stock in period before last</description>
+    </column>
+    <column name="ZPLPR" data_type="DECIMAL">
+      <description>Future planned price</description>
+    </column>
+    <column name="ZPLP1" data_type="DECIMAL">
+      <description>Future Planned Price 1</description>
+    </column>
+    <column name="ZPLP2" data_type="DECIMAL">
+      <description>Future Planned Price 2</description>
+    </column>
+    <column name="ZPLP3" data_type="DECIMAL">
+      <description>Future Planned Price 3</description>
+    </column>
+    <column name="ZPLD1" data_type="DATE">
+      <description>Date from Which Future Planned Price 1 Is Valid</description>
+    </column>
+    <column name="ZPLD2" data_type="DATE">
+      <description>Date from Which Future Planned Price 2 Is Valid</description>
+    </column>
+    <column name="ZPLD3" data_type="DATE">
+      <description>Date from Which Future Planned Price 3 Is Valid</description>
+    </column>
+    <column name="PPERZ" data_type="VARCHAR">
+      <description>Period for future standard cost estimate (deactivated)</description>
+    </column>
+    <column name="PPERL" data_type="VARCHAR">
+      <description>Period for current standard cost estimate (deactivated)</description>
+    </column>
+    <column name="PPERV" data_type="VARCHAR">
+      <description>Period for previous standard cost estimate (deactivated)</description>
+    </column>
+    <column name="KALKZ" data_type="VARCHAR">
+      <description>Indicator: standard cost estimate for future period</description>
+    </column>
+    <column name="KALKL" data_type="VARCHAR">
+      <description>Standard Cost Estimate for Current Period</description>
+    </column>
+    <column name="KALKV" data_type="VARCHAR">
+      <description>Indicator: standard cost estimate for previous period</description>
+    </column>
+    <column name="KALSC" data_type="VARCHAR">
+      <description>Overhead key (deactivated)</description>
+    </column>
+    <column name="XLIFO" data_type="VARCHAR">
+      <description>LIFO/FIFO-Relevant</description>
+    </column>
+    <column name="MYPOL" data_type="VARCHAR">
+      <description>Pool number for LIFO valuation</description>
+    </column>
+    <column name="BWPH1" data_type="DECIMAL">
+      <description>Valuation price based on commercial law: level 2</description>
+    </column>
+    <column name="BWPS1" data_type="DECIMAL">
+      <description>Valuation price based on tax law: level 2</description>
+    </column>
+    <column name="ABWKZ" data_type="VARCHAR">
+      <description>Lowest value: devaluation indicator</description>
+    </column>
+    <column name="PSTAT" data_type="VARCHAR">
+      <description>Maintenance status</description>
+    </column>
+    <column name="KALN1" data_type="VARCHAR">
+      <description>Cost Estimate Number - Product Costing</description>
+    </column>
+    <column name="KALNR" data_type="VARCHAR">
+      <description>Cost Estimate Number for Cost Est. w/o Qty Structure</description>
+    </column>
+    <column name="BWVA1" data_type="VARCHAR">
+      <description>Valuation Variant for Future Standard Cost Estimate</description>
+    </column>
+    <column name="BWVA2" data_type="VARCHAR">
+      <description>Valuation Variant for Current Standard Cost Estimate</description>
+    </column>
+    <column name="BWVA3" data_type="VARCHAR">
+      <description>Valuation Variant for Previous Standard Cost Estimate</description>
+    </column>
+    <column name="VERS1" data_type="VARCHAR">
+      <description>Costing Version of Future Standard Cost Estimate</description>
+    </column>
+    <column name="VERS2" data_type="VARCHAR">
+      <description>Costing Version of Current Standard Cost Estimate</description>
+    </column>
+    <column name="VERS3" data_type="VARCHAR">
+      <description>Costing Version of Previous Standard Cost Estimate</description>
+    </column>
+    <column name="HRKFT" data_type="VARCHAR">
+      <description>Origin Group as Subdivision of Cost Element</description>
+    </column>
+    <column name="KOSGR" data_type="VARCHAR">
+      <description>Costing Overhead Group</description>
+    </column>
+    <column name="PPRDZ" data_type="VARCHAR">
+      <description>Period of Future Standard Cost Estimate</description>
+    </column>
+    <column name="PPRDL" data_type="VARCHAR">
+      <description>Period of Current Standard Cost Estimate</description>
+    </column>
+    <column name="PPRDV" data_type="VARCHAR">
+      <description>Period of Previous Standard Cost Estimate</description>
+    </column>
+    <column name="PDATZ" data_type="VARCHAR">
+      <description>Fiscal Year of Future Standard Cost Estimate</description>
+    </column>
+    <column name="PDATL" data_type="VARCHAR">
+      <description>Fiscal Year of Current Standard Cost Estimate</description>
+    </column>
+    <column name="PDATV" data_type="VARCHAR">
+      <description>Fiscal Year of Previous Standard Cost Estimate</description>
+    </column>
+    <column name="EKALR" data_type="VARCHAR">
+      <description>Material Is Costed with Quantity Structure</description>
+    </column>
+    <column name="VPLPR" data_type="DECIMAL">
+      <description>Previous planned price</description>
+    </column>
+    <column name="MLMAA" data_type="VARCHAR">
+      <description>Material ledger activated at material level</description>
+    </column>
+    <column name="MLAST" data_type="VARCHAR">
+      <description>Material Price Determination: Control</description>
+    </column>
+    <column name="LPLPR" data_type="DECIMAL">
+      <description>Current Planned Price</description>
+    </column>
+    <column name="VKSAL" data_type="DECIMAL">
+      <description>Value of Total Valuated Stock at Sales Price</description>
+    </column>
+    <column name="HKMAT" data_type="VARCHAR">
+      <description>Material-related origin</description>
+    </column>
+    <column name="SPERW" data_type="VARCHAR">
+      <description>Physical Inventory Blocking Indicator</description>
+    </column>
+    <column name="KZIWL" data_type="VARCHAR">
+      <description>Phys. inventory indicator for  value-only material</description>
+    </column>
+    <column name="WLINL" data_type="DATE">
+      <description>Date of Last Posted Count</description>
+    </column>
+    <column name="ABCIW" data_type="VARCHAR">
+      <description>Physical inventory indicator for cycle counting</description>
+    </column>
+    <column name="BWSPA" data_type="DECIMAL">
+      <description>Valuation margin</description>
+    </column>
+    <column name="LPLPX" data_type="DECIMAL">
+      <description>Fixed Portion of Current Planned Price</description>
+    </column>
+    <column name="VPLPX" data_type="DECIMAL">
+      <description>Fixed Portion of Previous Planned Price</description>
+    </column>
+    <column name="FPLPX" data_type="DECIMAL">
+      <description>Fixed Portion of Future Planned Price</description>
+    </column>
+    <column name="LBWST" data_type="VARCHAR">
+      <description>Val. Strat. for Current Plan Price, Sales Order/Proj. Stock</description>
+    </column>
+    <column name="VBWST" data_type="VARCHAR">
+      <description>Valuation Strategy for Previous Planned Price, Special Stock</description>
+    </column>
+    <column name="FBWST" data_type="VARCHAR">
+      <description>Valuation Strategy for Future Planned Price, Special Stock</description>
+    </column>
+    <column name="EKLAS" data_type="VARCHAR">
+      <description>Valuation Class for Sales Order Stock</description>
+    </column>
+    <column name="QKLAS" data_type="VARCHAR">
+      <description>Valuation Class for Project Stock</description>
+    </column>
+    <column name="MTUSE" data_type="VARCHAR">
+      <description>Usage of the material</description>
+    </column>
+    <column name="MTORG" data_type="VARCHAR">
+      <description>Origin of the material</description>
+    </column>
+    <column name="OWNPR" data_type="VARCHAR">
+      <description>Produced in-house</description>
+    </column>
+    <column name="XBEWM" data_type="VARCHAR">
+      <description>Valuation based on the batch-specific unit of measure</description>
+    </column>
+    <column name="BWPEI" data_type="DECIMAL">
+      <description>Price unit for valuation prices based on tax/commercial law</description>
+    </column>
+    <column name="MBRUE" data_type="VARCHAR">
+      <description>MBEWH rec. already exists for per. before last of MBEW per.</description>
+    </column>
+    <column name="OKLAS" data_type="VARCHAR">
+      <description>Valuation Class for Special Stock at the Vendor</description>
+    </column>
+    <column name="OIPPINV" data_type="VARCHAR">
+      <description>Prepaid Inventory Flag for Material Valuation Type Segment</description>
+    </column>
+  </columns>
+</data_description>

@@ -1,0 +1,438 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="VEKP">
+  <table_info name="VEKP" total_columns="144"/>
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="VENUM" data_type="VARCHAR">
+      <description>Internal Handling Unit Number</description>
+    </column>
+    <column name="EXIDV" data_type="VARCHAR">
+      <description>External Handling Unit Identification</description>
+    </column>
+    <column name="EXIDA" data_type="VARCHAR">
+      <description>Type of External Handling Unit Identifier</description>
+    </column>
+    <column name="VSTEL" data_type="VARCHAR">
+      <description>Shipping Point/Receiving Point</description>
+    </column>
+    <column name="LSTEL" data_type="VARCHAR">
+      <description>Loading Point</description>
+    </column>
+    <column name="BRGEW" data_type="DECIMAL">
+      <description>Total Weight of Handling Unit</description>
+    </column>
+    <column name="NTGEW" data_type="DECIMAL">
+      <description>Loading Weight of Handling Unit</description>
+    </column>
+    <column name="MAGEW" data_type="DECIMAL">
+      <description>Allowed Loading Weight of a Handling Unit</description>
+    </column>
+    <column name="TARAG" data_type="DECIMAL">
+      <description>Tare weight of handling unit</description>
+    </column>
+    <column name="GEWEI" data_type="VARCHAR">
+      <description>Unit of Weight</description>
+    </column>
+    <column name="BTVOL" data_type="DECIMAL">
+      <description>Total Volume of Handling Unit</description>
+    </column>
+    <column name="NTVOL" data_type="DECIMAL">
+      <description>Loading Volume of Handling Unit</description>
+    </column>
+    <column name="MAVOL" data_type="DECIMAL">
+      <description>Allowed Loading Volume for Handling Unit</description>
+    </column>
+    <column name="TAVOL" data_type="DECIMAL">
+      <description>Tare volume of handling unit</description>
+    </column>
+    <column name="VOLEH" data_type="VARCHAR">
+      <description>Volume Unit</description>
+    </column>
+    <column name="ANZGL" data_type="INTEGER">
+      <description>Number of Similar Packaging Materials</description>
+    </column>
+    <column name="ERNAM" data_type="VARCHAR">
+      <description>Name of Person Responsible for Creating the Object</description>
+    </column>
+    <column name="ERDAT" data_type="DATE">
+      <description>Date on Which Record Was Created</description>
+    </column>
+    <column name="ERUHR" data_type="TIME">
+      <description>Entry time</description>
+    </column>
+    <column name="AENAM" data_type="VARCHAR">
+      <description>Name of Person Who Changed Object</description>
+    </column>
+    <column name="AEDAT" data_type="DATE">
+      <description>Last Changed On</description>
+    </column>
+    <column name="AEZET" data_type="TIME">
+      <description>Time last change was made</description>
+    </column>
+    <column name="SORTL" data_type="VARCHAR">
+      <description>Sort field</description>
+    </column>
+    <column name="VEGR1" data_type="VARCHAR">
+      <description>Handling Unit Group 1                     (Freely Definable)</description>
+    </column>
+    <column name="VEGR2" data_type="VARCHAR">
+      <description>Handling Unit Group 2                     (Freely Definable)</description>
+    </column>
+    <column name="VEGR3" data_type="VARCHAR">
+      <description>Handling Unit Group 3                     (Freely Definable)</description>
+    </column>
+    <column name="VEGR4" data_type="VARCHAR">
+      <description>Handling Unit Group 4                     (Freely Definable)</description>
+    </column>
+    <column name="VEGR5" data_type="VARCHAR">
+      <description>Handling Unit Group 5                     (Freely Definable)</description>
+    </column>
+    <column name="VHILM" data_type="VARCHAR">
+      <description>Packaging Materials</description>
+    </column>
+    <column name="LAENG" data_type="DECIMAL">
+      <description>Length</description>
+    </column>
+    <column name="BREIT" data_type="DECIMAL">
+      <description>Width</description>
+    </column>
+    <column name="HOEHE" data_type="DECIMAL">
+      <description>Height</description>
+    </column>
+    <column name="MEABM" data_type="VARCHAR">
+      <description>Unit of Dimension for Length/Width/Height</description>
+    </column>
+    <column name="ERLKZ" data_type="VARCHAR">
+      <description>Status (at this time without functionality)</description>
+    </column>
+    <column name="GEWTO" data_type="DECIMAL">
+      <description>Excess Weight Tolerance for Handling unit</description>
+    </column>
+    <column name="VOLTO" data_type="DECIMAL">
+      <description>Excess Volume Tolerance of the Handling Unit</description>
+    </column>
+    <column name="MEINS" data_type="VARCHAR">
+      <description>Base Unit of Measure</description>
+    </column>
+    <column name="VOLEH_MAX" data_type="VARCHAR">
+      <description>Volume Unit</description>
+    </column>
+    <column name="GEWEI_MAX" data_type="VARCHAR">
+      <description>Unit of Weight</description>
+    </column>
+    <column name="VBELN_GEN" data_type="VARCHAR">
+      <description>Delivery in Which Packaging Material Is Generated as an Item</description>
+    </column>
+    <column name="POSNR_GEN" data_type="VARCHAR">
+      <description>Generated delivery item</description>
+    </column>
+    <column name="INHALT" data_type="VARCHAR">
+      <description>Description of Handling Unit Content</description>
+    </column>
+    <column name="VHART" data_type="VARCHAR">
+      <description>Packaging Material Type</description>
+    </column>
+    <column name="KAPPL" data_type="VARCHAR">
+      <description>Application for output conditions</description>
+    </column>
+    <column name="KALSM" data_type="VARCHAR">
+      <description>Output determination procedure</description>
+    </column>
+    <column name="KSCHL" data_type="VARCHAR">
+      <description>Output Type</description>
+    </column>
+    <column name="MAGRV" data_type="VARCHAR">
+      <description>Material Group: Packaging Materials</description>
+    </column>
+    <column name="WERKS" data_type="VARCHAR">
+      <description>Plant</description>
+    </column>
+    <column name="PSTYV" data_type="VARCHAR">
+      <description>Sales Document Item Category</description>
+    </column>
+    <column name="VKORG" data_type="VARCHAR">
+      <description>Sales Organization</description>
+    </column>
+    <column name="VTWEG" data_type="VARCHAR">
+      <description>Reference distrib.channel for cust.and material masters</description>
+    </column>
+    <column name="LADLG" data_type="DECIMAL">
+      <description>Lgth of loading platform in lgth of LdPlat measurement units</description>
+    </column>
+    <column name="LADEH" data_type="VARCHAR">
+      <description>Unit of measure to measure the length of loading platform</description>
+    </column>
+    <column name="FARZT" data_type="DECIMAL">
+      <description>Travel Time</description>
+    </column>
+    <column name="FAREH" data_type="VARCHAR">
+      <description>Unit of travel time</description>
+    </column>
+    <column name="ENTFE" data_type="DECIMAL">
+      <description>Distance Travelled</description>
+    </column>
+    <column name="EHENT" data_type="VARCHAR">
+      <description>Unit of distance</description>
+    </column>
+    <column name="LGORT" data_type="VARCHAR">
+      <description>Storage Location</description>
+    </column>
+    <column name="GEWFX" data_type="VARCHAR">
+      <description>Weight and Volume Fixed</description>
+    </column>
+    <column name="VELTP" data_type="VARCHAR">
+      <description>Packaging Material Category</description>
+    </column>
+    <column name="EXIDV2" data_type="VARCHAR">
+      <description>Handling Unit's 2nd External Identification</description>
+    </column>
+    <column name="LANDT" data_type="VARCHAR">
+      <description>Country providing means of transport</description>
+    </column>
+    <column name="LANDF" data_type="VARCHAR">
+      <description>Driver's Nationality</description>
+    </column>
+    <column name="NAMEF" data_type="VARCHAR">
+      <description>Driver name</description>
+    </column>
+    <column name="NAMBE" data_type="VARCHAR">
+      <description>Alternate Driver's Name</description>
+    </column>
+    <column name="VHILM_KU" data_type="VARCHAR">
+      <description>Partner's (Customer's or Vendor's) Packaging Material</description>
+    </column>
+    <column name="VPOBJ" data_type="VARCHAR">
+      <description>Packing Object</description>
+    </column>
+    <column name="VPOBJKEY" data_type="VARCHAR">
+      <description>Key for Object to Which the Handling Unit is Assigned</description>
+    </column>
+    <column name="HANDLE" data_type="VARCHAR">
+      <description>Worldwide unique key for VEKP-VENUM</description>
+    </column>
+    <column name="WMSTA" data_type="VARCHAR">
+      <description>WM status for container material</description>
+    </column>
+    <column name="LGNUM" data_type="VARCHAR">
+      <description>Warehouse Number / Warehouse Complex</description>
+    </column>
+    <column name="SAPRL" data_type="VARCHAR">
+      <description>SAP Release</description>
+    </column>
+    <column name="KZGVH" data_type="VARCHAR">
+      <description>Packaging Material is Closed Packaging</description>
+    </column>
+    <column name="ADGE_DG" data_type="VARCHAR">
+      <description>Packing Level is Relevant for Dangerous Goods</description>
+    </column>
+    <column name="ADGE_DGPR" data_type="VARCHAR">
+      <description>Indicator: Packing level is relevant for printing</description>
+    </column>
+    <column name="UEVEL" data_type="VARCHAR">
+      <description>Higher-Level Handling Unit</description>
+    </column>
+    <column name="PACKVORSCHR" data_type="VARCHAR">
+      <description>Packing instruction</description>
+    </column>
+    <column name="PACKVORSCHR_ST" data_type="VARCHAR">
+      <description>Local packing status for a single HU (without sub HUs)</description>
+    </column>
+    <column name="LABELTYP" data_type="VARCHAR">
+      <description>Indicator: do not print external shipping label</description>
+    </column>
+    <column name="ZUL_AUFL" data_type="DECIMAL">
+      <description>Allowed load</description>
+    </column>
+    <column name="STATUS" data_type="VARCHAR">
+      <description>Handling unit status</description>
+    </column>
+    <column name="HU_LGORT" data_type="VARCHAR">
+      <description>Content is Located at an HU-managed Storage Location</description>
+    </column>
+    <column name="HU_SYSTEM" data_type="VARCHAR">
+      <description>HU and IM Stock in Separate Systems</description>
+    </column>
+    <column name="SPE_HDALL" data_type="VARCHAR">
+      <description>Inbound delivery header not yet complete (on Hold)</description>
+    </column>
+    <column name="SPE_VLSTK" data_type="VARCHAR">
+      <description>Distribution Status (Decentralized Warehouse Processing)</description>
+    </column>
+    <column name="SPE_DELDEC" data_type="VARCHAR">
+      <description>Delete indicator for the confirmation of deleted HUs</description>
+    </column>
+    <column name="SPE_IDART_01" data_type="VARCHAR">
+      <description>Handling Unit Identification Type</description>
+    </column>
+    <column name="SPE_IDENT_01" data_type="VARCHAR">
+      <description>Alternative HU Identification</description>
+    </column>
+    <column name="SPE_IDART_02" data_type="VARCHAR">
+      <description>Handling Unit Identification Type</description>
+    </column>
+    <column name="SPE_IDENT_02" data_type="VARCHAR">
+      <description>Alternative HU Identification</description>
+    </column>
+    <column name="SPE_IDART_03" data_type="VARCHAR">
+      <description>Handling Unit Identification Type</description>
+    </column>
+    <column name="SPE_IDENT_03" data_type="VARCHAR">
+      <description>Alternative HU Identification</description>
+    </column>
+    <column name="SPE_IDART_04" data_type="VARCHAR">
+      <description>Handling Unit Identification Type</description>
+    </column>
+    <column name="SPE_IDENT_04" data_type="VARCHAR">
+      <description>Alternative HU Identification</description>
+    </column>
+    <column name="SPE_LOGPOS" data_type="VARCHAR">
+      <description>Logical Position of Handling Unit</description>
+    </column>
+    <column name="SPE_CHK_COUNTER" data_type="VARCHAR">
+      <description>Check number for cross-delivery handling units</description>
+    </column>
+    <column name="TM_DOC_ID" data_type="VARCHAR">
+      <description>TM Document ID</description>
+    </column>
+    <column name="TM_DOC_TCO" data_type="VARCHAR">
+      <description>External Business Transaction Document Type Code</description>
+    </column>
+    <column name="TM_DOC_ITEM_ID" data_type="VARCHAR">
+      <description>TM Document Item ID</description>
+    </column>
+    <column name="EPC1" data_type="VARCHAR">
+      <description>Electronic Product Code 1</description>
+    </column>
+    <column name="EPC2" data_type="VARCHAR">
+      <description>Electronic Product Code 2</description>
+    </column>
+    <column name="PACKAGE_CAT" data_type="VARCHAR">
+      <description>Category of Package</description>
+    </column>
+    <column name="TRANSP_INDEX" data_type="DECIMAL">
+      <description>Transport Index</description>
+    </column>
+    <column name="CRIT_SAF_INDEX" data_type="DECIMAL">
+      <description>Criticality Safety Index</description>
+    </column>
+    <column name="FLG_DG_PACKAGE" data_type="VARCHAR">
+      <description>Dangerous Goods Package</description>
+    </column>
+    <column name="DG_PACKAGE_LEVEL" data_type="VARCHAR">
+      <description>Level of Dangerous Goods Packaging</description>
+    </column>
+    <column name="PACKCODE" data_type="VARCHAR">
+      <description>Actual Packaging Code</description>
+    </column>
+    <column name="INSTR_ENCL_CAT" data_type="VARCHAR">
+      <description>Category of Instruction for Enclosure</description>
+    </column>
+    <column name="MAT_DAMAGED_CL7" data_type="VARCHAR">
+      <description>Damaged Material (Class 7)</description>
+    </column>
+    <column name="DOSE_RATE_BULK" data_type="DECIMAL">
+      <description>Radiation Level (Unpacked)</description>
+    </column>
+    <column name="DOSE_RATE_BULK_U" data_type="VARCHAR">
+      <description>Unit of Radiation Level (Unpacked)</description>
+    </column>
+    <column name="DOSE_RATE_PACK" data_type="DECIMAL">
+      <description>Radation Level Packed</description>
+    </column>
+    <column name="U_DOSE_RATE_PACK" data_type="VARCHAR">
+      <description>Unit of Radiation Level Packed</description>
+    </column>
+    <column name="LEADING_LWDG" data_type="VARCHAR">
+      <description>Leading Dangerous Goods Regulation</description>
+    </column>
+    <column name="MAX_GROSS_WEIGHT" data_type="DECIMAL">
+      <description>Maximum Gross Mass</description>
+    </column>
+    <column name="U_MAX_GROSS_WGHT" data_type="VARCHAR">
+      <description>Unit for Maximum Gross Mass</description>
+    </column>
+    <column name="LYARD" data_type="VARCHAR">
+      <description>Yard</description>
+    </column>
+    <column name="YLCCL" data_type="VARCHAR">
+      <description>Location Class</description>
+    </column>
+    <column name="YLOCT" data_type="VARCHAR">
+      <description>Location</description>
+    </column>
+    <column name="STATS" data_type="VARCHAR">
+      <description>Vehicle Stock Status</description>
+    </column>
+    <column name="PRRTY" data_type="VARCHAR">
+      <description>Vehicle Priority</description>
+    </column>
+    <column name="FWAGN" data_type="VARCHAR">
+      <description>Forwarding Agent</description>
+    </column>
+    <column name="SCACD" data_type="VARCHAR">
+      <description>Standard carrier access code</description>
+    </column>
+    <column name="OWNER" data_type="VARCHAR">
+      <description>Vehicle Owner</description>
+    </column>
+    <column name="TRNPD" data_type="VARCHAR">
+      <description>Transponder</description>
+    </column>
+    <column name="SEALN1" data_type="VARCHAR">
+      <description>Sealing Number</description>
+    </column>
+    <column name="SEALN2" data_type="VARCHAR">
+      <description>Sealing Number</description>
+    </column>
+    <column name="SEALN3" data_type="VARCHAR">
+      <description>Sealing Number</description>
+    </column>
+    <column name="SEALN4" data_type="VARCHAR">
+      <description>Sealing Number</description>
+    </column>
+    <column name="SEALN5" data_type="VARCHAR">
+      <description>Sealing Number</description>
+    </column>
+    <column name="BLIND" data_type="VARCHAR">
+      <description>Block</description>
+    </column>
+    <column name="RSNCD" data_type="VARCHAR">
+      <description>Reason Code</description>
+    </column>
+    <column name="RFTYP" data_type="VARCHAR">
+      <description>Reference Document Type</description>
+    </column>
+    <column name="REFER" data_type="VARCHAR">
+      <description>Reference Document</description>
+    </column>
+    <column name="PTMST" data_type="DECIMAL">
+      <description>Planned End Time</description>
+    </column>
+    <column name="ATMST" data_type="DECIMAL">
+      <description>Actual Start Time</description>
+    </column>
+    <column name="YDOOR" data_type="VARCHAR">
+      <description>Door</description>
+    </column>
+    <column name="YSTGA" data_type="VARCHAR">
+      <description>Staging Area</description>
+    </column>
+    <column name="URGFL" data_type="VARCHAR">
+      <description>Urgent (Relevant for Cross-Docking)</description>
+    </column>
+    <column name="PRFLG" data_type="VARCHAR">
+      <description>Permanence of Vehicle in Yard</description>
+    </column>
+    <column name="SLFLG" data_type="VARCHAR">
+      <description>Sealing Required</description>
+    </column>
+    <column name="SIGNI" data_type="VARCHAR">
+      <description>Container ID</description>
+    </column>
+    <column name="LTEXT" data_type="VARCHAR">
+      <description>Text</description>
+    </column>
+  </columns>
+</data_description>

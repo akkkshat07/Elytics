@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="PRTE">
+  <table_info name="PRTE" total_columns="31"/>
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="POSNR" data_type="VARCHAR">
+      <description>WBS Element</description>
+    </column>
+    <column name="PSPHI" data_type="VARCHAR">
+      <description>Current number of the appropriate project</description>
+    </column>
+    <column name="PSTRT" data_type="DATE">
+      <description>WBS element: Basic start date</description>
+    </column>
+    <column name="ESTRT" data_type="DATE">
+      <description>Forecasted start date of the WBS element</description>
+    </column>
+    <column name="ISTRT" data_type="DATE">
+      <description>Actual start date for the WBS element</description>
+    </column>
+    <column name="PENDE" data_type="DATE">
+      <description>WBS element: Basic finish date</description>
+    </column>
+    <column name="EENDE" data_type="DATE">
+      <description>Forecasted finish date of the WBS element</description>
+    </column>
+    <column name="IENDE" data_type="DATE">
+      <description>Actual finish date of the WBS element</description>
+    </column>
+    <column name="PDAUR" data_type="DECIMAL">
+      <description>Length (duration) of the basic dates in the WBS element</description>
+    </column>
+    <column name="EDAUR" data_type="DECIMAL">
+      <description>Forecasted length (duration) of the WBS element</description>
+    </column>
+    <column name="IDAUR" data_type="DECIMAL">
+      <description>Actual length (duration) of the WBS element</description>
+    </column>
+    <column name="IEINH" data_type="VARCHAR">
+      <description>Unit for duration of actual WBS element dates</description>
+    </column>
+    <column name="EEINH" data_type="VARCHAR">
+      <description>Unit for duration of WBS element planned dates</description>
+    </column>
+    <column name="PEINH" data_type="VARCHAR">
+      <description>Unit for duration of basic WBS element dates</description>
+    </column>
+    <column name="FLGVG" data_type="VARCHAR">
+      <description>Indicator: There are activities for the WBS elements</description>
+    </column>
+    <column name="FLGEW" data_type="VARCHAR">
+      <description>Indicator: Expected dates from the activities</description>
+    </column>
+    <column name="FLGEM" data_type="VARCHAR">
+      <description>Indicator: Forecast dates set manually</description>
+    </column>
+    <column name="FLGVM" data_type="VARCHAR">
+      <description>Indicator: Basic dates set manually</description>
+    </column>
+    <column name="FLGIM" data_type="VARCHAR">
+      <description>Indicator: Actual dates set manually</description>
+    </column>
+    <column name="FLGVI" data_type="VARCHAR">
+      <description>Indicator: Actual dates from the activities</description>
+    </column>
+    <column name="PSTRM" data_type="DATE">
+      <description>Earliest scheduled start date (Basic)</description>
+    </column>
+    <column name="PETRM" data_type="DATE">
+      <description>Latest scheduled finish date (basic)</description>
+    </column>
+    <column name="ESTRM" data_type="DATE">
+      <description>Scheduled start date (Forecast)</description>
+    </column>
+    <column name="EETRM" data_type="DATE">
+      <description>Latest scheduled  finish date (Forecast)</description>
+    </column>
+    <column name="VISTR" data_type="DATE">
+      <description>Tentative actual start date for WBS element</description>
+    </column>
+    <column name="VIEND" data_type="DATE">
+      <description>Tentative actual finish date for WBS element</description>
+    </column>
+    <column name="PSTRS" data_type="DATE">
+      <description>Latest scheduled start date (basic)</description>
+    </column>
+    <column name="PETRF" data_type="DATE">
+      <description>Earliest scheduled finish date (basic)</description>
+    </column>
+    <column name="ESTRS" data_type="DATE">
+      <description>Latest scheduled start date (forecast)</description>
+    </column>
+    <column name="EETRF" data_type="DATE">
+      <description>Earliest scheduled finish date (forecast)</description>
+    </column>
+  </columns>
+</data_description>

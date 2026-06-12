@@ -1,0 +1,295 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="BH_DMSSaleReportTable">
+  <table_info name="BH_DMSSaleReportTable" total_columns="95" row_count="96596712" total_size_mb="56658.45" index_count="7" is_heap="true" />
+  <performance_hints>
+    <metric name="row_count">96596712</metric>
+    <metric name="total_size_mb">56658.45</metric>
+  </performance_hints>
+  <columns>
+    <column name="Added_Date" data_type="datetime" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Timestamp when the row was added/loaded into this sales reporting table, used for incremental loads and data freshness checks. Analysts can use it to isolate recent ingestions and detect late-arriving records.</description>
+    </column>
+    <column name="AdditionalDiscAmt" data_type="decimal" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Monetary value of any additional discount applied beyond standard/product/scheme discounts. Typically 0.00; interpret as an amount reducing the taxable/chargeable base depending on business rules.</description>
+    </column>
+    <column name="AdditionalDiscount" data_type="decimal" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Additional discount value as entered (often a rate or value depending on type). Use together with AdditionalDiscountType to understand whether this is a percentage or flat discount.</description>
+    </column>
+    <column name="AdditionalDiscountType" data_type="varchar" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Indicator of how AdditionalDiscount should be interpreted (e.g., 'Percentage' or blank). When blank, additional discount may be absent or stored only as amount in AdditionalDiscAmt.</description>
+    </column>
+    <column name="BasicAmount" data_type="decimal" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Line/transaction basic amount before GST, often representing the final taxable base after discounts (context-dependent). Commonly equals TaxableAmountWithOutDisc when discounts are zero.</description>
+    </column>
+    <column name="BasicRate" data_type="decimal" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Per-unit base rate used to compute amounts for the SKU/variant. Analysts can multiply BasicRate by quantity (implicit in totals) to reconcile GrossAmount/NetAmount.</description>
+    </column>
+    <column name="BillNo" data_type="varchar" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Billing/invoice number from the source system, when available. Can be blank for orders not yet billed or for flows where billing is not captured.</description>
+    </column>
+    <column name="CGST" data_type="decimal" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Central GST amount applied to the transaction (in INR). Typically non-zero for intra-state sales and zero when IGST is used.</description>
+    </column>
+    <column name="CashDisc" data_type="decimal" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Cash discount amount (e.g., early payment/settlement discount) applied to the transaction. Often 0.00; treat as a separate discount bucket from product/scheme discounts.</description>
+    </column>
+    <column name="ClaimAmt" data_type="decimal" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Amount claimed (e.g., scheme claim/credit note claim) associated with the sale. Usually 0.00; useful for profitability/claim reconciliation analyses.</description>
+    </column>
+    <column name="ClientCity" data_type="varchar" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>City of the purchasing client (customer/outlet/distributor). Use for geographic slicing and territory mapping; may be blank for incomplete masters.</description>
+    </column>
+    <column name="ClientDivision" data_type="varchar" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Client’s mapped division in the customer master (can be 'null' string when unmapped). Do not confuse with the sales Division column, which is an organizational/business division.</description>
+    </column>
+    <column name="ClientGSTNo" data_type="varchar" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>GST registration number of the client, used for compliance and tax reporting. May be blank for unregistered/retail clients or missing master data.</description>
+    </column>
+    <column name="ClientPinCode" data_type="varchar" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Postal PIN/ZIP code for the client location. Often blank; use cautiously for geo analysis and consider cleansing.</description>
+    </column>
+    <column name="ClientRefrence" data_type="varchar" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Reference identifier for the client from an upstream system (often another client code). Useful for cross-system joins and de-duplication.</description>
+    </column>
+    <column name="ClientState" data_type="varchar" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>State of the client location, used to determine tax regime (CGST/SGST vs IGST) and regional reporting. Common values are Indian states (e.g., 'Tamil Nadu').</description>
+    </column>
+    <column name="ClientStatus" data_type="varchar" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Current status of the client in master data (e.g., 'Active'). Filter to active clients for standard performance reporting unless doing historical master audits.</description>
+    </column>
+    <column name="ClientTypeGroup" data_type="varchar" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Higher-level grouping of client type/channel (e.g., 'Secondary', 'P3'). Use for channel segmentation rather than the more granular Client_Type.</description>
+    </column>
+    <column name="ClientZone" data_type="varchar" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Geographic zone assigned to the client (e.g., 'South', 'Upper North'). Useful for zonal KPIs and leadership rollups.</description>
+    </column>
+    <column name="Client_Id" data_type="bigint" is_primary_key="false" is_clustered="false" is_indexed="true" is_unique_key="false">
+      <description>Unique identifier of the client/customer entity (indexed for performance). Use as the primary key for client-level joins and filtering to avoid full-table scans.</description>
+    </column>
+    <column name="Client_Name" data_type="varchar" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Client display/trade name. Suitable for reporting labels; avoid using as a join key due to duplicates/format changes.</description>
+    </column>
+    <column name="Client_Type" data_type="varchar" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Specific client type (e.g., 'Retailer', 'Distributor'). Use for channel analysis and pricing/discount policy comparisons.</description>
+    </column>
+    <column name="Designation" data_type="varchar" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Role/designation associated with the selling/servicing entity on the transaction (e.g., 'TSI', 'Super Stockist'). Use to analyze performance by role hierarchy.</description>
+    </column>
+    <column name="DiscountPer" data_type="bigint" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Discount percentage field (stored as integer/bigint) representing a primary/standard discount rate. Often 0; confirm business definition before using as the only discount metric.</description>
+    </column>
+    <column name="Division" data_type="varchar" is_primary_key="false" is_clustered="false" is_indexed="true" is_unique_key="false">
+      <description>Business/sales division for the transaction (indexed), such as 'Retail'. Use as a key slicing dimension and always prefer filtering on it for performance.</description>
+    </column>
+    <column name="EmpCity" data_type="varchar" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>City associated with the employee/selling entity. Can be blank; use for workforce/coverage analysis when populated.</description>
+    </column>
+    <column name="EmpName" data_type="varchar" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Name of the employee or selling entity tied to the transaction. Use for reporting; join on Emp_Id for stable identity.</description>
+    </column>
+    <column name="EmpState" data_type="varchar" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>State associated with the employee/selling entity. Helpful for salesforce distribution analysis; may be blank.</description>
+    </column>
+    <column name="EmpZone" data_type="varchar" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Zone assigned to the employee/selling entity (e.g., 'South', 'Other'). Use for territory rollups; treat 'Other' as a catch-all bucket.</description>
+    </column>
+    <column name="Emp_Id" data_type="bigint" is_primary_key="false" is_clustered="false" is_indexed="true" is_unique_key="false">
+      <description>Unique identifier of the employee/sales entity (indexed). Primary key for employee-level performance and hierarchy mapping.</description>
+    </column>
+    <column name="Function" data_type="varchar" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Function or code from the source system used for routing/role mapping; often contains IDs or 'null'. Treat as a technical attribute unless business meaning is confirmed.</description>
+    </column>
+    <column name="GrossAmount" data_type="decimal" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Gross amount before taxes, commonly the taxable value after discounts (varies by source). Reconcile with NetAmount and TaxableAmountWithOutDisc to validate discount/tax logic.</description>
+    </column>
+    <column name="HQState" data_type="varchar" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Headquarter state used for sales hierarchy/territory alignment. Use to group performance by HQ geography rather than client geography.</description>
+    </column>
+    <column name="IGST" data_type="decimal" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Integrated GST amount applied to the transaction (in INR). Typically non-zero for inter-state sales and zero when CGST/SGST are used.</description>
+    </column>
+    <column name="Label" data_type="varchar" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Transaction/party label code used for internal mapping (e.g., customer label or sales code). Can be blank; interpret as an auxiliary identifier for hierarchy/assignment.</description>
+    </column>
+    <column name="MarginValue" data_type="decimal" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Margin or profitability value when provided by the source (often 'null'). Use cautiously and validate calculation rules before using for financial KPIs.</description>
+    </column>
+    <column name="MonthName" data_type="varchar" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Text month label derived from the order date (e.g., 'Sep', 'May'). Useful for quick grouping but prefer OrderDate for time intelligence and sorting.</description>
+    </column>
+    <column name="NetAmount" data_type="decimal" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Net amount excluding GST, typically the amount after discounts (and possibly after certain adjustments) used as the tax base. Often equals GrossAmount in sample data; validate in broader dataset.</description>
+    </column>
+    <column name="OrderDate" data_type="date" is_primary_key="false" is_clustered="false" is_indexed="true" is_unique_key="false">
+      <description>Order date (date-only) used for reporting period filters (indexed). Primary date for sales trend analysis and partition-like filtering.</description>
+    </column>
+    <column name="OrderFinalAmt" data_type="decimal" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Final order amount including taxes and after discounts, representing the customer payable total. Often matches TotalValue/TotalAmountWithoutDisc when no discounts beyond captured ones.</description>
+    </column>
+    <column name="Order_Date" data_type="datetime" is_primary_key="false" is_clustered="false" is_indexed="true" is_unique_key="false">
+      <description>Order timestamp (datetime) capturing the creation/booking time (indexed). Use for intraday analysis and for deduping/sequencing events within the same OrderDate.</description>
+    </column>
+    <column name="Order_Id" data_type="bigint" is_primary_key="false" is_clustered="false" is_indexed="true" is_unique_key="false">
+      <description>Unique order identifier (indexed). Use to join to order headers/other fact tables and to de-duplicate at order level.</description>
+    </column>
+    <column name="PositionCode" data_type="varchar" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Position/territory code for the responsible sales position (can be 'null'). Useful for mapping to org structures when populated.</description>
+    </column>
+    <column name="ProductDiscAmt" data_type="decimal" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Amount of product-level discount applied to the line/transaction. Typically 0.00 in samples; use to separate product promotions from schemes/QPS/other discounts.</description>
+    </column>
+    <column name="Product_Category" data_type="varchar" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Category of the product sold (e.g., 'Creme Matte Lipstick'). Use for category performance and assortment analysis.</description>
+    </column>
+    <column name="Product_Name" data_type="varchar" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Product name/description (often at SKU level). Use for reporting labels; prefer Variant_Id/VSKUCode for stable product joins.</description>
+    </column>
+    <column name="QPSDisc" data_type="decimal" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>QPS discount value as stored (often a rate or value depending on QPSDiscountType). Use alongside QPSdiscamt and QPSDiscountType to interpret correctly.</description>
+    </column>
+    <column name="QPSDiscountType" data_type="varchar" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Type/units for QPS discount (e.g., 'Percentage' or blank). Determines whether QPSDisc is a rate vs a flat discount indicator.</description>
+    </column>
+    <column name="QPSdiscamt" data_type="decimal" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Computed/posted monetary amount of QPS discount applied. Typically 0.00; use for discount bucket reporting because it is already in currency.</description>
+    </column>
+    <column name="RSMDesignation" data_type="varchar" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Designation of the Regional Sales Manager in the hierarchy for this transaction (e.g., 'RSM'). Use for leadership-level rollups.</description>
+    </column>
+    <column name="RSMEmpCode" data_type="varchar" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Employee code (often alphanumeric/HR code) for the RSM. Useful for cross-referencing HR systems; not necessarily numeric-stable like IDs.</description>
+    </column>
+    <column name="RSMEmpId" data_type="varchar" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Identifier for the RSM in the sales hierarchy. Use for joining to employee master/hierarchy tables when available.</description>
+    </column>
+    <column name="RSMName" data_type="varchar" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Name of the RSM mapped to the transaction. Use for reporting; rely on RSMEmpId/RSMEmpCode for joins.</description>
+    </column>
+    <column name="SGST" data_type="decimal" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>State GST amount applied to the transaction (in INR). Typically non-zero for intra-state sales and paired with CGST.</description>
+    </column>
+    <column name="SchemeLabel" data_type="varchar" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Identifier/label for the scheme/promotion applied. Often 'null'; use to attribute sales to schemes when populated.</description>
+    </column>
+    <column name="SchemeStartDate" data_type="datetime" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Start date/time for the applied scheme or scheme validity reference. Often null; useful for scheme-period compliance and attribution checks.</description>
+    </column>
+    <column name="SlabSchemeAmt" data_type="decimal" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Monetary amount of slab-based scheme benefit applied. Typically 0.00; use as a separate promotion bucket from product/QPS discounts.</description>
+    </column>
+    <column name="SlabSchemePer" data_type="decimal" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Percentage rate for slab-based scheme when applicable. Often 0.00; interpret alongside SlabSchemeAmt to understand benefit structure.</description>
+    </column>
+    <column name="SourceCity" data_type="varchar" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>City of the source party in the transaction flow (e.g., supplying distributor/super stockist). Use for supply-chain flow and source geography analysis.</description>
+    </column>
+    <column name="SourceClientId" data_type="bigint" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Identifier of the source party (seller) in the transaction flow. Useful for mapping primary-to-secondary flows and sourcing analysis.</description>
+    </column>
+    <column name="SourceContactType" data_type="varchar" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Contact type/classification for the source party (may be 'null' or blank). Treat as master-data attribute for segmentation if consistently populated.</description>
+    </column>
+    <column name="SourceFunction" data_type="varchar" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Function/code related to the source party from upstream systems (may contain IDs). Treat as technical unless business mapping is documented.</description>
+    </column>
+    <column name="SourceGSTNo" data_type="varchar" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>GST number of the source party, used for tax compliance and invoice validation. May be blank if not captured.</description>
+    </column>
+    <column name="SourceName" data_type="varchar" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Name of the source party (seller) such as distributor/super stockist. Use for reporting; join via SourceClientId for consistency.</description>
+    </column>
+    <column name="SourcePinCode" data_type="varchar" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Postal PIN/ZIP of the source party location. Often blank; use cautiously for geo analysis.</description>
+    </column>
+    <column name="SourceState" data_type="varchar" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>State of the source party, important for determining inter/intra-state tax application. Use to validate whether IGST vs CGST/SGST is expected.</description>
+    </column>
+    <column name="SourceStatus" data_type="varchar" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Status of the source party in master data (e.g., 'Active'). Useful for filtering valid trading partners.</description>
+    </column>
+    <column name="SourceType" data_type="varchar" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Specific type of the source party (e.g., 'Distributor', 'Super Stockiest'). Use to analyze sales flows by upstream channel level.</description>
+    </column>
+    <column name="SourceTypeGroup" data_type="varchar" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Higher-level grouping for source type (e.g., 'Primary', 'Secondary'). Useful for primary vs secondary sales reporting and channel mix.</description>
+    </column>
+    <column name="SourceZone" data_type="varchar" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Zone assigned to the source party. Use for upstream network and regional supply analysis.</description>
+    </column>
+    <column name="TLDesignation" data_type="varchar" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Designation of the team lead/manager in the hierarchy (e.g., 'ASM', 'BDM'). Use for managerial rollups and span-of-control reporting.</description>
+    </column>
+    <column name="TLHQ" data_type="varchar" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Headquarter location/region for the TL. Useful for mapping performance to managerial HQ territories.</description>
+    </column>
+    <column name="TLLabel" data_type="varchar" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Label/code for the TL entity used in internal hierarchy systems. Use as an auxiliary hierarchy identifier when Emp codes are inconsistent.</description>
+    </column>
+    <column name="TLLevel2HQ" data_type="varchar" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>HQ for the next level up (level 2) in the hierarchy. Use for regional rollups above the immediate TL.</description>
+    </column>
+    <column name="TLLevel2Label" data_type="varchar" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Label/code for level 2 hierarchy entity (often aligns to RSM/next manager). Useful for hierarchy bridging in reporting.</description>
+    </column>
+    <column name="TLLevel2Name" data_type="varchar" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Name of the level 2 manager in the hierarchy. Use for reporting; join via codes/IDs where available.</description>
+    </column>
+    <column name="TLName" data_type="varchar" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Name of the immediate team lead/manager mapped to the transaction. Commonly used for manager-level KPIs and territory performance.</description>
+    </column>
+    <column name="TaxableAmountWithOutDisc" data_type="decimal" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Taxable amount before applying discounts (despite the name, often represents base before discount deductions). Use to compute effective discount rates by comparing to NetAmount/BasicAmount and discount amounts.</description>
+    </column>
+    <column name="ToClientEmpDesignation" data_type="varchar" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Designation of the employee associated with the destination/client side (e.g., the assigned sales rep for the client). Use for client-coverage and accountability reporting.</description>
+    </column>
+    <column name="ToClientEmpLabel" data_type="varchar" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Label/code for the destination-side employee. Useful for mapping to internal systems when Emp_Id is not directly provided for the 'To' side.</description>
+    </column>
+    <column name="ToClientEmpName" data_type="varchar" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Name of the employee assigned to the destination/client. Use for reporting; avoid as join key.</description>
+    </column>
+    <column name="ToClientEmpTLDesignation" data_type="varchar" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Designation of the destination-side employee’s team lead. Use for hierarchy rollups specifically for the client-assignment chain.</description>
+    </column>
+    <column name="ToClientEmpTLLabel" data_type="varchar" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Label/code for the destination-side team lead. Useful for hierarchy joins where names/designations may change.</description>
+    </column>
+    <column name="ToClientEmpTLName" data_type="varchar" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Name of the destination-side team lead/manager. Use for reporting in client assignment hierarchy contexts.</description>
+    </column>
+    <column name="ToPositionCode" data_type="varchar" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Territory/position code for the destination/client assignment (e.g., 'BH_TN_ASM'). Use to map clients to territories and for org-structure reporting.</description>
+    </column>
+    <column name="TotalAmountWithoutDisc" data_type="decimal" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Total amount before discounts (often includes GST in samples, so validate definition with finance). Use as a comparison baseline to quantify total discount impact when paired with NetAmount/Taxable amounts.</description>
+    </column>
+    <column name="TotalGST" data_type="decimal" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Total GST amount (CGST+SGST+IGST) for the transaction. Use for tax reporting and reconciliation against component tax fields.</description>
+    </column>
+    <column name="TotalMRPValue" data_type="decimal" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Total MRP (maximum retail price) value for the quantity sold, representing list-price value. Useful for discount-to-MRP analysis and ASP vs MRP comparisons.</description>
+    </column>
+    <column name="TotalProductQty" data_type="bigint" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Total quantity of product units in the transaction line/aggregation. Typically positive integers (e.g., 1, 48) and used for volume KPIs.</description>
+    </column>
+    <column name="TotalValue" data_type="decimal" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Total transaction value, typically the final amount including taxes (often equals OrderFinalAmt). Use as the primary sales value metric unless finance defines a different net sales figure.</description>
+    </column>
+    <column name="VSKUCode" data_type="varchar" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Variant/SKU code used to identify the product (may sometimes contain a name-like value due to data quality issues). Prefer joining with Variant_Id for consistency and use this as a secondary identifier.</description>
+    </column>
+    <column name="Variant_Id" data_type="bigint" is_primary_key="false" is_clustered="false" is_indexed="true" is_unique_key="false">
+      <description>Unique identifier for the product variant (indexed). Use as the primary product key for joins to product masters and for filtering at scale.</description>
+    </column>
+    <column name="Variant_Name" data_type="varchar" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Name/descriptor of the variant (e.g., shade/pack). Use for reporting labels and variant-level analysis; join on Variant_Id for stability.</description>
+    </column>
+    <column name="primarydiscamt" data_type="decimal" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Amount of primary discount applied (often trade/primary channel discount) in currency. Typically 0.00 in samples; use for discount bucket reporting and profitability calculations.</description>
+    </column>
+    <column name="secondarydiscamt" data_type="decimal" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Amount of secondary discount applied (often secondary channel/retailer discount) in currency. Use to distinguish downstream discounting from primary discount structures.</description>
+    </column>
+  </columns>
+</data_description>

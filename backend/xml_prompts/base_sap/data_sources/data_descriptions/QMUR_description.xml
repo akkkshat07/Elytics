@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="QMUR">
+  <table_info name="QMUR" total_columns="29"/>
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="QMNUM" data_type="VARCHAR">
+      <description>Notification No</description>
+    </column>
+    <column name="FENUM" data_type="VARCHAR">
+      <description>Item Number in Item Record</description>
+    </column>
+    <column name="URNUM" data_type="VARCHAR">
+      <description>Sequential Number for Cause</description>
+    </column>
+    <column name="ERNAM" data_type="VARCHAR">
+      <description>Name of Person Responsible for Creating the Object</description>
+    </column>
+    <column name="ERDAT" data_type="DATE">
+      <description>Date on Which Record Was Created</description>
+    </column>
+    <column name="AENAM" data_type="VARCHAR">
+      <description>Name of Person Who Changed Object</description>
+    </column>
+    <column name="AEDAT" data_type="DATE">
+      <description>Last Changed On</description>
+    </column>
+    <column name="URTXT" data_type="VARCHAR">
+      <description>Cause Text</description>
+    </column>
+    <column name="URKAT" data_type="VARCHAR">
+      <description>Catalog Type - Causes</description>
+    </column>
+    <column name="URGRP" data_type="VARCHAR">
+      <description>Code Group - Causes</description>
+    </column>
+    <column name="URCOD" data_type="VARCHAR">
+      <description>Cause Code</description>
+    </column>
+    <column name="URVER" data_type="VARCHAR">
+      <description>Version Number</description>
+    </column>
+    <column name="INDTX" data_type="VARCHAR">
+      <description>Object Long Text Available</description>
+    </column>
+    <column name="KZMLA" data_type="VARCHAR">
+      <description>Primary language indicator for text segment</description>
+    </column>
+    <column name="ERZEIT" data_type="TIME">
+      <description>Time, at Which Record Was Added</description>
+    </column>
+    <column name="AEZEIT" data_type="TIME">
+      <description>Time of Change</description>
+    </column>
+    <column name="VUKAT" data_type="VARCHAR">
+      <description>Catalog Type - Party Responsible</description>
+    </column>
+    <column name="VUGRP" data_type="VARCHAR">
+      <description>Code Group - Party Responsible</description>
+    </column>
+    <column name="VUCOD" data_type="VARCHAR">
+      <description>Code for Party Responsible</description>
+    </column>
+    <column name="PARVW" data_type="VARCHAR">
+      <description>Function for Party Responsible</description>
+    </column>
+    <column name="PARNR" data_type="VARCHAR">
+      <description>Party Responsible for Cause (Partner Number)</description>
+    </column>
+    <column name="BAUTL" data_type="VARCHAR">
+      <description>Cause Assembly</description>
+    </column>
+    <column name="URMENGE" data_type="DECIMAL">
+      <description>Quantity</description>
+    </column>
+    <column name="URMGEIN" data_type="VARCHAR">
+      <description>Unit of Measure for Item</description>
+    </column>
+    <column name="KZLOESCH" data_type="VARCHAR">
+      <description>Delete Data Record</description>
+    </column>
+    <column name="QURNUM" data_type="VARCHAR">
+      <description>Sort Number for Cause</description>
+    </column>
+    <column name="AUTKZ" data_type="VARCHAR">
+      <description>Data Record Created with Function 'Create with Copy Model'</description>
+    </column>
+    <column name="INVOLVPERC" data_type="VARCHAR">
+      <description>Involvment in Percentage</description>
+    </column>
+  </columns>
+</data_description>

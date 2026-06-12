@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="T156S">
+  <table_info name="T156S" total_columns="31"/>
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="BWART" data_type="VARCHAR">
+      <description>Movement Type (Inventory Management)</description>
+    </column>
+    <column name="WERTU" data_type="VARCHAR">
+      <description>Value Updating in Material Master Record</description>
+    </column>
+    <column name="MENGU" data_type="VARCHAR">
+      <description>Quantity Updating in Material Master Record</description>
+    </column>
+    <column name="SOBKZ" data_type="VARCHAR">
+      <description>Special Stock Indicator</description>
+    </column>
+    <column name="KZBEW" data_type="VARCHAR">
+      <description>Movement Indicator</description>
+    </column>
+    <column name="KZZUG" data_type="VARCHAR">
+      <description>Receipt Indicator</description>
+    </column>
+    <column name="KZVBR" data_type="VARCHAR">
+      <description>Consumption posting</description>
+    </column>
+    <column name="BUSTW" data_type="VARCHAR">
+      <description>Posting String for Values</description>
+    </column>
+    <column name="BUSTM" data_type="VARCHAR">
+      <description>Posting string for quantities</description>
+    </column>
+    <column name="XLORT" data_type="VARCHAR">
+      <description>Storage location necessary</description>
+    </column>
+    <column name="RBLVS" data_type="VARCHAR">
+      <description>Reference movement type for WM from material movements</description>
+    </column>
+    <column name="ANZRE" data_type="VARCHAR">
+      <description>Rules for display of goods movements</description>
+    </column>
+    <column name="UMRBL" data_type="VARCHAR">
+      <description>Reference movement type for transfer in warehouse mgmt</description>
+    </column>
+    <column name="UMRBU" data_type="VARCHAR">
+      <description>Reference movement type for posting change in whse mgmt</description>
+    </column>
+    <column name="XOWST" data_type="VARCHAR">
+      <description>No value string where valuation types the same</description>
+    </column>
+    <column name="XLIFO" data_type="VARCHAR">
+      <description>LIFO/FIFO-Relevant</description>
+    </column>
+    <column name="XVERF" data_type="VARCHAR">
+      <description>Dynamic availability check</description>
+    </column>
+    <column name="QSSHK" data_type="VARCHAR">
+      <description>Inspection Lot Origin</description>
+    </column>
+    <column name="KZVBP" data_type="VARCHAR">
+      <description>Dynamic availability check for goods movement</description>
+    </column>
+    <column name="PRREG" data_type="VARCHAR">
+      <description>Checking rule for the availability check</description>
+    </column>
+    <column name="VRGNG" data_type="VARCHAR">
+      <description>Business Transaction</description>
+    </column>
+    <column name="BWAGR" data_type="VARCHAR">
+      <description>Movement Type Group for Stock Analysis/Evaluation</description>
+    </column>
+    <column name="MLBWG" data_type="VARCHAR">
+      <description>Movement Type Group for ML Update</description>
+    </column>
+    <column name="SNBWG" data_type="VARCHAR">
+      <description>Movement Type Group for Serial Number Profile</description>
+    </column>
+    <column name="OICONIND" data_type="VARCHAR">
+      <description>Post excise duty to consumption (ind.)</description>
+    </column>
+    <column name="OIPOSTST" data_type="VARCHAR">
+      <description>Excise duty value posting string</description>
+    </column>
+    <column name="OIPOSTQT" data_type="VARCHAR">
+      <description>Excise duty quantity posting string</description>
+    </column>
+    <column name="OITRANSF" data_type="VARCHAR">
+      <description>Movement with tracking number</description>
+    </column>
+    <column name="OIASTBW" data_type="VARCHAR">
+      <description>Reversal Movement Type</description>
+    </column>
+    <column name="OIXPTRIP" data_type="VARCHAR">
+      <description>Ind.: Check pipe trip number (ext.details)</description>
+    </column>
+  </columns>
+</data_description>

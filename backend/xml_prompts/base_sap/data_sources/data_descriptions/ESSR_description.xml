@@ -1,0 +1,162 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="ESSR">
+  <table_info name="ESSR" total_columns="52"/>
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="LBLNI" data_type="VARCHAR">
+      <description>Entry Sheet Number</description>
+    </column>
+    <column name="LBLNE" data_type="VARCHAR">
+      <description>External Entry Sheet Number</description>
+    </column>
+    <column name="ERNAM" data_type="VARCHAR">
+      <description>Name of Person Responsible for Creating the Object</description>
+    </column>
+    <column name="ERDAT" data_type="DATE">
+      <description>Date on Which Record Was Created</description>
+    </column>
+    <column name="AEDAT" data_type="DATE">
+      <description>Last Changed On</description>
+    </column>
+    <column name="AENAM" data_type="VARCHAR">
+      <description>Name of Person Who Changed Object</description>
+    </column>
+    <column name="SBNAMAG" data_type="VARCHAR">
+      <description>Person Responsible (Internally)</description>
+    </column>
+    <column name="SBNAMAN" data_type="VARCHAR">
+      <description>Person Responsible (Externally)</description>
+    </column>
+    <column name="DLORT" data_type="VARCHAR">
+      <description>Location Where Service Was Performed</description>
+    </column>
+    <column name="LBLDT" data_type="DATE">
+      <description>Price Reference Date of Entry Sheet</description>
+    </column>
+    <column name="LZVON" data_type="DATE">
+      <description>Period</description>
+    </column>
+    <column name="LZBIS" data_type="DATE">
+      <description>End of period</description>
+    </column>
+    <column name="LWERT" data_type="DECIMAL">
+      <description>Value of Services</description>
+    </column>
+    <column name="UWERT" data_type="DECIMAL">
+      <description>Portion from Unplanned Services</description>
+    </column>
+    <column name="UNPLV" data_type="DECIMAL">
+      <description>Portion Unplanned Value Without Reference to Contract</description>
+    </column>
+    <column name="WAERS" data_type="VARCHAR">
+      <description>Currency Key</description>
+    </column>
+    <column name="PACKNO" data_type="VARCHAR">
+      <description>Package number</description>
+    </column>
+    <column name="TXZ01" data_type="VARCHAR">
+      <description>Short Text of Service Entry Sheet</description>
+    </column>
+    <column name="EBELN" data_type="VARCHAR">
+      <description>Purchasing Document Number</description>
+    </column>
+    <column name="EBELP" data_type="VARCHAR">
+      <description>Item Number of Purchasing Document</description>
+    </column>
+    <column name="LOEKZ" data_type="VARCHAR">
+      <description>Deletion indicator in entry sheet</description>
+    </column>
+    <column name="KZABN" data_type="VARCHAR">
+      <description>Acceptance indicator</description>
+    </column>
+    <column name="FINAL" data_type="VARCHAR">
+      <description>Indicator: Final Entry Sheet</description>
+    </column>
+    <column name="FRGGR" data_type="VARCHAR">
+      <description>Release group</description>
+    </column>
+    <column name="FRGSX" data_type="VARCHAR">
+      <description>Release Strategy</description>
+    </column>
+    <column name="FRGKL" data_type="VARCHAR">
+      <description>Release indicator: Entry sheet</description>
+    </column>
+    <column name="FRGZU" data_type="VARCHAR">
+      <description>Release State</description>
+    </column>
+    <column name="FRGRL" data_type="VARCHAR">
+      <description>Release Not Yet Completely Effected</description>
+    </column>
+    <column name="F_LOCK" data_type="VARCHAR">
+      <description>Block Release of Entry Sheet</description>
+    </column>
+    <column name="PWWE" data_type="DECIMAL">
+      <description>Points score for quality of services</description>
+    </column>
+    <column name="PWFR" data_type="DECIMAL">
+      <description>Points score for on-time delivery</description>
+    </column>
+    <column name="BLDAT" data_type="DATE">
+      <description>Document Date in Document</description>
+    </column>
+    <column name="BUDAT" data_type="DATE">
+      <description>Posting Date in the Document</description>
+    </column>
+    <column name="XBLNR" data_type="VARCHAR">
+      <description>Reference Document Number</description>
+    </column>
+    <column name="BKTXT" data_type="VARCHAR">
+      <description>Document Header Text</description>
+    </column>
+    <column name="KNTTP" data_type="VARCHAR">
+      <description>Account Assignment Category</description>
+    </column>
+    <column name="KZVBR" data_type="VARCHAR">
+      <description>Consumption posting</description>
+    </column>
+    <column name="NETWR" data_type="DECIMAL">
+      <description>Net Value of Entry Sheet</description>
+    </column>
+    <column name="BANFN" data_type="VARCHAR">
+      <description>Purchase Requisition Number</description>
+    </column>
+    <column name="BNFPO" data_type="VARCHAR">
+      <description>Item number of purchase requisition</description>
+    </column>
+    <column name="WARPL" data_type="VARCHAR">
+      <description>Maintenance Plan</description>
+    </column>
+    <column name="WAPOS" data_type="VARCHAR">
+      <description>Maintenance Item</description>
+    </column>
+    <column name="ABNUM" data_type="INTEGER">
+      <description>Maintenance Plan Call Number</description>
+    </column>
+    <column name="FKNUM" data_type="VARCHAR">
+      <description>Shipment Cost Number</description>
+    </column>
+    <column name="FKPOS" data_type="VARCHAR">
+      <description>Shipment costs item</description>
+    </column>
+    <column name="USER1" data_type="VARCHAR">
+      <description>Technical Reference Field for External Entry Sheet Number</description>
+    </column>
+    <column name="USER2" data_type="VARCHAR">
+      <description>User field: Service entry sheet</description>
+    </column>
+    <column name="NAVNW" data_type="DECIMAL">
+      <description>Non-deductible input tax</description>
+    </column>
+    <column name="SPEC_NO" data_type="VARCHAR">
+      <description>Number of a Set of Model Service Specifications</description>
+    </column>
+    <column name="CUOBJ" data_type="VARCHAR">
+      <description>Configuration (internal object number)</description>
+    </column>
+    <column name="LEMIN" data_type="VARCHAR">
+      <description>Returns Indicator</description>
+    </column>
+  </columns>
+</data_description>

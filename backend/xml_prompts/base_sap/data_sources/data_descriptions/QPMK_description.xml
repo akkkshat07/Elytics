@@ -1,0 +1,213 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="QPMK">
+  <table_info name="QPMK" total_columns="69"/>
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="ZAEHLER" data_type="VARCHAR">
+      <description>Plant for the Master Inspection Characteristic</description>
+    </column>
+    <column name="MKMNR" data_type="VARCHAR">
+      <description>Master Inspection Characteristics</description>
+    </column>
+    <column name="VERSION" data_type="VARCHAR">
+      <description>Version Number of the Master Inspection Characteristic</description>
+    </column>
+    <column name="WERKS" data_type="VARCHAR">
+      <description>Plant</description>
+    </column>
+    <column name="GUELTIGAB" data_type="DATE">
+      <description>Valid-From Date</description>
+    </column>
+    <column name="SORTFELD" data_type="VARCHAR">
+      <description>Search Field</description>
+    </column>
+    <column name="CHARACT_ID1" data_type="VARCHAR">
+      <description>Characteristic Description for Quality Data Exchange</description>
+    </column>
+    <column name="LOEKZ" data_type="VARCHAR">
+      <description>Status of Master Record</description>
+    </column>
+    <column name="LSPER" data_type="VARCHAR">
+      <description>Data Record Is Used</description>
+    </column>
+    <column name="KONSISTENT" data_type="VARCHAR">
+      <description>Copy Model/Reference Characteristic</description>
+    </column>
+    <column name="AUTOR" data_type="VARCHAR">
+      <description>Name of User Who Created the Data Record</description>
+    </column>
+    <column name="DATES" data_type="DATE">
+      <description>Date on Which the Data Record Was Created</description>
+    </column>
+    <column name="AEAUT" data_type="VARCHAR">
+      <description>Name of User who Most Recently Changed the Data Record</description>
+    </column>
+    <column name="DATAE" data_type="DATE">
+      <description>Date on Which Data Record Was Changed</description>
+    </column>
+    <column name="STEUERKZ" data_type="VARCHAR">
+      <description>Cntrl Indicator String for Insp. Char./Master Insp. Char.</description>
+    </column>
+    <column name="MERKGEW" data_type="VARCHAR">
+      <description>Weighting of Characteristic</description>
+    </column>
+    <column name="PRFQL" data_type="VARCHAR">
+      <description>Inspector Qualification</description>
+    </column>
+    <column name="DUMMY10" data_type="VARCHAR">
+      <description>Text Line for Additional Information</description>
+    </column>
+    <column name="DUMMY20" data_type="VARCHAR">
+      <description>Text Line for Additional Information</description>
+    </column>
+    <column name="DUMMY40" data_type="VARCHAR">
+      <description>Text Line for Additional Information</description>
+    </column>
+    <column name="QAUTH" data_type="VARCHAR">
+      <description>Authorization Group QM Basic Data</description>
+    </column>
+    <column name="TOLERANZSL" data_type="VARCHAR">
+      <description>Tolerance Key</description>
+    </column>
+    <column name="STELLEN" data_type="INTEGER">
+      <description>Number of Places to the Right of a Decimal Point (Accuracy)</description>
+    </column>
+    <column name="MASSEINHSW" data_type="VARCHAR">
+      <description>Unit of Measurement, in Which Quantitative Data Is Stored</description>
+    </column>
+    <column name="SOLLWERT" data_type="FLOAT">
+      <description>Target Value for a Quantitative Characteristic</description>
+    </column>
+    <column name="SOLLWNI" data_type="VARCHAR">
+      <description>Value Not Initial if Set</description>
+    </column>
+    <column name="TOLERANZOB" data_type="FLOAT">
+      <description>Upper Specification Limit</description>
+    </column>
+    <column name="TOLOBNI" data_type="VARCHAR">
+      <description>Value Not Initial if Set</description>
+    </column>
+    <column name="TOLERANZUN" data_type="FLOAT">
+      <description>Lower Tolerance Limit</description>
+    </column>
+    <column name="TOLUNNI" data_type="VARCHAR">
+      <description>Value Not Initial if Set</description>
+    </column>
+    <column name="KLASANZAHL" data_type="INTEGER">
+      <description>Number of Value Classes for Inspection Results</description>
+    </column>
+    <column name="KLASBREITE" data_type="FLOAT">
+      <description>Class Width</description>
+    </column>
+    <column name="KLASBRNI" data_type="VARCHAR">
+      <description>Value Not Initial if Set</description>
+    </column>
+    <column name="KLASMITTE" data_type="FLOAT">
+      <description>Class Midpoint</description>
+    </column>
+    <column name="KLASMINI" data_type="VARCHAR">
+      <description>Value Not Initial if Set</description>
+    </column>
+    <column name="GRENZEOB1" data_type="FLOAT">
+      <description>First Upper Specification Limit</description>
+    </column>
+    <column name="GRENZOB1NI" data_type="VARCHAR">
+      <description>Value Not Initial if Set</description>
+    </column>
+    <column name="GRENZEUN1" data_type="FLOAT">
+      <description>First Lower Specification Limit</description>
+    </column>
+    <column name="GRENZUN1NI" data_type="VARCHAR">
+      <description>Value Not Initial if Set</description>
+    </column>
+    <column name="GRENZEOB2" data_type="FLOAT">
+      <description>Second Upper Specification Limit</description>
+    </column>
+    <column name="GRENZOB2NI" data_type="VARCHAR">
+      <description>Value Not Initial if Set</description>
+    </column>
+    <column name="GRENZEUN2" data_type="FLOAT">
+      <description>Second Lower Specification Limit</description>
+    </column>
+    <column name="GRENZUN2NI" data_type="VARCHAR">
+      <description>Value Not Initial if Set</description>
+    </column>
+    <column name="PLAUSIOBEN" data_type="FLOAT">
+      <description>Upper Plausibility Limit</description>
+    </column>
+    <column name="PLAUSIOBNI" data_type="VARCHAR">
+      <description>Value Not Initial if Set</description>
+    </column>
+    <column name="PLAUSIUNTE" data_type="FLOAT">
+      <description>Lower Plausibility Limit</description>
+    </column>
+    <column name="PLAUSIUNNI" data_type="VARCHAR">
+      <description>Value Not Initial if Set</description>
+    </column>
+    <column name="TOLERWEIOB" data_type="FLOAT">
+      <description>Change to Upper Specification Limit</description>
+    </column>
+    <column name="TOLWOBNI" data_type="VARCHAR">
+      <description>Value Not Initial if Set</description>
+    </column>
+    <column name="TOLERWEIUN" data_type="FLOAT">
+      <description>Change to Lower Specification Limit</description>
+    </column>
+    <column name="TOLWUNNI" data_type="VARCHAR">
+      <description>Value Not Initial if Set</description>
+    </column>
+    <column name="TOLERWAB" data_type="DATE">
+      <description>Date from Which the Tolerance Change Is Valid</description>
+    </column>
+    <column name="TOLERWBIS" data_type="DATE">
+      <description>Date Until Which the Tolerance Change Is Valid</description>
+    </column>
+    <column name="CODEGR9U" data_type="VARCHAR">
+      <description>Defect Code Group for Rejection at Lower Tolerance</description>
+    </column>
+    <column name="CODE9U" data_type="VARCHAR">
+      <description>Defect Code for Rejection at Lower Specification Limit</description>
+    </column>
+    <column name="CODEVR9U" data_type="VARCHAR">
+      <description>Version Number</description>
+    </column>
+    <column name="CODEGR9O" data_type="VARCHAR">
+      <description>Defect Code Group for Rejection at Upper Tolerance</description>
+    </column>
+    <column name="CODE9O" data_type="VARCHAR">
+      <description>Defect Code for Rejection at Upper Specification Limit</description>
+    </column>
+    <column name="CODEVR9O" data_type="VARCHAR">
+      <description>Version Number</description>
+    </column>
+    <column name="ATINN" data_type="VARCHAR">
+      <description>Internal characteristic</description>
+    </column>
+    <column name="EEANTVERF" data_type="VARCHAR">
+      <description>Fraction Calculation</description>
+    </column>
+    <column name="CODEGRQUAL" data_type="VARCHAR">
+      <description>Defect Code Group for General Rejection</description>
+    </column>
+    <column name="CODEQUAL" data_type="VARCHAR">
+      <description>Defect Code for Rejection: General</description>
+    </column>
+    <column name="INPPROC" data_type="VARCHAR">
+      <description>Parameters for Input Processing in QM Results Recording</description>
+    </column>
+    <column name="SPEC_DET_RULE" data_type="VARCHAR">
+      <description>Specification Determination Rule</description>
+    </column>
+    <column name="SPEC_DET_ACTIVE" data_type="VARCHAR">
+      <description>Active Indicator for Specification Determination Rule</description>
+    </column>
+    <column name="PARAMETER1" data_type="VARCHAR">
+      <description>Parameters for Specification Determination</description>
+    </column>
+    <column name="PARAMETER2" data_type="VARCHAR">
+      <description>Parameters for Specification Determination</description>
+    </column>
+  </columns>
+</data_description>

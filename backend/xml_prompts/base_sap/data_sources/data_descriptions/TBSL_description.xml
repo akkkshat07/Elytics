@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="TBSL">
+  <table_info name="TBSL" total_columns="10" />
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="BSCHL" data_type="VARCHAR">
+      <description>Posting Key</description>
+    </column>
+    <column name="SHKZG" data_type="VARCHAR">
+      <description>Debit/Credit Indicator</description>
+    </column>
+    <column name="KOART" data_type="VARCHAR">
+      <description>Account Type</description>
+    </column>
+    <column name="XUMSW" data_type="VARCHAR">
+      <description>Indicator: Sales-related item ?</description>
+    </column>
+    <column name="FAUS1" data_type="VARCHAR">
+      <description>Account/Posting Key Field Selection</description>
+    </column>
+    <column name="XZAHL" data_type="VARCHAR">
+      <description>Indicator: Is Posting Key Used in a Payment Transaction?</description>
+    </column>
+    <column name="STBSL" data_type="VARCHAR">
+      <description>Posting Key for Reversal/Reverse Entry</description>
+    </column>
+    <column name="XSONU" data_type="VARCHAR">
+      <description>Indicator: Posting key for special G/L transactions</description>
+    </column>
+    <column name="FAUS2" data_type="VARCHAR">
+      <description>Account/Posting Key Field Selection</description>
+    </column>
+  </columns>
+</data_description>

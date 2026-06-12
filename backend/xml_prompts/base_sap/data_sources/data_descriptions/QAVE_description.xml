@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="QAVE">
+  <table_info name="QAVE" total_columns="25" />
+  <columns>
+    <column name="MANDANT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="PRUEFLOS" data_type="VARCHAR">
+      <description>Inspection Lot Number</description>
+    </column>
+    <column name="KZART" data_type="VARCHAR">
+      <description>Inspection Lot, Partial Lot, Single Unit, Interval</description>
+    </column>
+    <column name="ZAEHLER" data_type="VARCHAR">
+      <description>Counter for Usage Decision</description>
+    </column>
+    <column name="VKATART" data_type="VARCHAR">
+      <description>Catalog</description>
+    </column>
+    <column name="VWERKS" data_type="VARCHAR">
+      <description>Plant</description>
+    </column>
+    <column name="VAUSWAHLMG" data_type="VARCHAR">
+      <description>Selected Set of the Usage Decision</description>
+    </column>
+    <column name="VCODEGRP" data_type="VARCHAR">
+      <description>Code Group of the Usage Decision</description>
+    </column>
+    <column name="VCODE" data_type="VARCHAR">
+      <description>Usage Decision Code</description>
+    </column>
+    <column name="VERSIONAM" data_type="VARCHAR">
+      <description>Version Number of the Selected Set Record</description>
+    </column>
+    <column name="VERSIONCD" data_type="VARCHAR">
+      <description>Version Number of the Code Record</description>
+    </column>
+    <column name="VBEWERTUNG" data_type="VARCHAR">
+      <description>Code Valuation</description>
+    </column>
+    <column name="DBEWERTUNG" data_type="VARCHAR">
+      <description>Dynamic Modif. Valuation According to Worst Case Principle</description>
+    </column>
+    <column name="VFOLGEAKTI" data_type="VARCHAR">
+      <description>Follow-Up Action</description>
+    </column>
+    <column name="QKENNZAHL" data_type="DECIMAL">
+      <description>Quality Score</description>
+    </column>
+    <column name="LTEXTKZ" data_type="VARCHAR">
+      <description>Long Text for Usage Decision</description>
+    </column>
+    <column name="VNAME" data_type="VARCHAR">
+      <description>Person who Made the Usage Decision</description>
+    </column>
+    <column name="VDATUM" data_type="DATE">
+      <description>Date of Code Used for Usage Decision</description>
+    </column>
+    <column name="VEZEITERF" data_type="TIME">
+      <description>Time when Usage Decision Was Recorded</description>
+    </column>
+    <column name="VAENAME" data_type="VARCHAR">
+      <description>Person who Changed the Usage Decision</description>
+    </column>
+    <column name="VAEDATUM" data_type="DATE">
+      <description>Change Date of Usage Decision</description>
+    </column>
+    <column name="VEZEITAEN" data_type="TIME">
+      <description>Time when Usage Decision Changed</description>
+    </column>
+    <column name="STAFO" data_type="VARCHAR">
+      <description>Update group for statistics update</description>
+    </column>
+    <column name="TEILLOS" data_type="VARCHAR">
+      <description>Partial lot number</description>
+    </column>
+    <column name="VORGLFNR" data_type="VARCHAR">
+      <description>Current Node Number from Order Counter APLZL</description>
+    </column>
+  </columns>
+</data_description>

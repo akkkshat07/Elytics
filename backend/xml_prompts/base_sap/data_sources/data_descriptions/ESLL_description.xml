@@ -1,0 +1,309 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="ESLL">
+  <table_info name="ESLL" total_columns="101"/>
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="PACKNO" data_type="VARCHAR">
+      <description>Package number</description>
+    </column>
+    <column name="INTROW" data_type="VARCHAR">
+      <description>Line Number</description>
+    </column>
+    <column name="EXTROW" data_type="VARCHAR">
+      <description>Line Number</description>
+    </column>
+    <column name="DEL" data_type="VARCHAR">
+      <description>Deletion Indicator</description>
+    </column>
+    <column name="SRVPOS" data_type="VARCHAR">
+      <description>Activity Number</description>
+    </column>
+    <column name="RANG" data_type="INTEGER">
+      <description>Hierarchy level of group</description>
+    </column>
+    <column name="EXTGROUP" data_type="VARCHAR">
+      <description>Outline Level</description>
+    </column>
+    <column name="PACKAGE" data_type="VARCHAR">
+      <description>Service Assignment</description>
+    </column>
+    <column name="SUB_PACKNO" data_type="VARCHAR">
+      <description>Subpackage number</description>
+    </column>
+    <column name="LBNUM" data_type="VARCHAR">
+      <description>Short Description of Service Type</description>
+    </column>
+    <column name="AUSGB" data_type="VARCHAR">
+      <description>Edition of Service Type</description>
+    </column>
+    <column name="STLVPOS" data_type="VARCHAR">
+      <description>Standard Service Catalog Item</description>
+    </column>
+    <column name="EXTSRVNO" data_type="VARCHAR">
+      <description>Vendor's Service Number</description>
+    </column>
+    <column name="MENGE" data_type="DECIMAL">
+      <description>Quantity with Sign</description>
+    </column>
+    <column name="MEINS" data_type="VARCHAR">
+      <description>Base Unit of Measure</description>
+    </column>
+    <column name="UEBTO" data_type="DECIMAL">
+      <description>Overfulfillment Tolerance</description>
+    </column>
+    <column name="UEBTK" data_type="VARCHAR">
+      <description>Unlimited Overfulfillment</description>
+    </column>
+    <column name="WITH_LIM" data_type="VARCHAR">
+      <description>Also Search in Limits</description>
+    </column>
+    <column name="SPINF" data_type="VARCHAR">
+      <description>Update Conditions</description>
+    </column>
+    <column name="PEINH" data_type="DECIMAL">
+      <description>Price unit</description>
+    </column>
+    <column name="BRTWR" data_type="DECIMAL">
+      <description>Gross Price</description>
+    </column>
+    <column name="NETWR" data_type="DECIMAL">
+      <description>Net Value of Item</description>
+    </column>
+    <column name="FROMPOS" data_type="VARCHAR">
+      <description>Lower Limit</description>
+    </column>
+    <column name="TOPOS" data_type="VARCHAR">
+      <description>Upper Limit</description>
+    </column>
+    <column name="KTEXT1" data_type="VARCHAR">
+      <description>Short Text</description>
+    </column>
+    <column name="VRTKZ" data_type="VARCHAR">
+      <description>Distribution indicator for multiple account assignment</description>
+    </column>
+    <column name="TWRKZ" data_type="VARCHAR">
+      <description>Partial invoice indicator</description>
+    </column>
+    <column name="PERNR" data_type="VARCHAR">
+      <description>Personnel Number</description>
+    </column>
+    <column name="MOLGA" data_type="VARCHAR">
+      <description>Country Grouping</description>
+    </column>
+    <column name="LGART" data_type="VARCHAR">
+      <description>Wage Type</description>
+    </column>
+    <column name="LGTXT" data_type="VARCHAR">
+      <description>Wage Type Long Text</description>
+    </column>
+    <column name="STELL" data_type="VARCHAR">
+      <description>Job</description>
+    </column>
+    <column name="IFTNR" data_type="VARCHAR">
+      <description>Sequence Number for CO/MM-SRV Interface Tables</description>
+    </column>
+    <column name="BUDAT" data_type="DATE">
+      <description>Posting Date in the Document</description>
+    </column>
+    <column name="INSDT" data_type="DATE">
+      <description>Date on Which This Record was Stored in the Table</description>
+    </column>
+    <column name="PLN_PACKNO" data_type="VARCHAR">
+      <description>Source package number</description>
+    </column>
+    <column name="PLN_INTROW" data_type="VARCHAR">
+      <description>Entry: Planned package line</description>
+    </column>
+    <column name="KNT_PACKNO" data_type="VARCHAR">
+      <description>Entry: Unplanned from contract</description>
+    </column>
+    <column name="KNT_INTROW" data_type="VARCHAR">
+      <description>Entry: Unplanned from contract</description>
+    </column>
+    <column name="TMP_PACKNO" data_type="VARCHAR">
+      <description>Entry: Unplanned service from model specifications</description>
+    </column>
+    <column name="TMP_INTROW" data_type="VARCHAR">
+      <description>Entry: Unplanned service from model specifications</description>
+    </column>
+    <column name="STLV_LIM" data_type="VARCHAR">
+      <description>Service line refers to standard service catalog limits</description>
+    </column>
+    <column name="LIMIT_ROW" data_type="VARCHAR">
+      <description>Entry: Unplanned, limit line</description>
+    </column>
+    <column name="ACT_MENGE" data_type="DECIMAL">
+      <description>Purchase Order: Entered Quantity</description>
+    </column>
+    <column name="ACT_WERT" data_type="DECIMAL">
+      <description>Entered Value</description>
+    </column>
+    <column name="KNT_WERT" data_type="DECIMAL">
+      <description>Contract: Value Released (via Release Orders)</description>
+    </column>
+    <column name="KNT_MENGE" data_type="DECIMAL">
+      <description>Contract: Quantity Released (by Issue of Release Orders)</description>
+    </column>
+    <column name="ZIELWERT" data_type="DECIMAL">
+      <description>Target Value</description>
+    </column>
+    <column name="UNG_WERT" data_type="DECIMAL">
+      <description>Contract: Unplanned Released Value</description>
+    </column>
+    <column name="UNG_MENGE" data_type="DECIMAL">
+      <description>Contract: Unplanned Released Quantity</description>
+    </column>
+    <column name="ALT_INTROW" data_type="VARCHAR">
+      <description>Alternatives: Reference to basic item</description>
+    </column>
+    <column name="BASIC" data_type="VARCHAR">
+      <description>Basic Line</description>
+    </column>
+    <column name="ALTERNAT" data_type="VARCHAR">
+      <description>Alternative Line</description>
+    </column>
+    <column name="BIDDER" data_type="VARCHAR">
+      <description>Bidder's Line</description>
+    </column>
+    <column name="SUPPLE" data_type="VARCHAR">
+      <description>Supplementary Line</description>
+    </column>
+    <column name="FREEQTY" data_type="VARCHAR">
+      <description>Line with Open Quantity</description>
+    </column>
+    <column name="INFORM" data_type="VARCHAR">
+      <description>Informatory Line</description>
+    </column>
+    <column name="PAUSCH" data_type="VARCHAR">
+      <description>Blanket Line</description>
+    </column>
+    <column name="EVENTUAL" data_type="VARCHAR">
+      <description>Contingency Line</description>
+    </column>
+    <column name="MWSKZ" data_type="VARCHAR">
+      <description>Tax on Sales/Purchases Code</description>
+    </column>
+    <column name="TXJCD" data_type="VARCHAR">
+      <description>Tax Jurisdiction</description>
+    </column>
+    <column name="PRS_CHG" data_type="VARCHAR">
+      <description>Price Change in Entry Sheet</description>
+    </column>
+    <column name="MATKL" data_type="VARCHAR">
+      <description>Material Group</description>
+    </column>
+    <column name="TBTWR" data_type="DECIMAL">
+      <description>Gross Price</description>
+    </column>
+    <column name="NAVNW" data_type="DECIMAL">
+      <description>Non-deductible input tax</description>
+    </column>
+    <column name="BASWR" data_type="DECIMAL">
+      <description>Tax base amount</description>
+    </column>
+    <column name="KKNUMV" data_type="VARCHAR">
+      <description>Number of the document condition</description>
+    </column>
+    <column name="IWEIN" data_type="VARCHAR">
+      <description>Unit for Work</description>
+    </column>
+    <column name="INT_WORK" data_type="DECIMAL">
+      <description>Internal Work</description>
+    </column>
+    <column name="EXTERNALID" data_type="VARCHAR">
+      <description>SRM Reference Key</description>
+    </column>
+    <column name="KSTAR" data_type="VARCHAR">
+      <description>Cost Element</description>
+    </column>
+    <column name="ACT_WORK" data_type="DECIMAL">
+      <description>Internal Work</description>
+    </column>
+    <column name="MAPNO" data_type="VARCHAR">
+      <description>Mapping Field f. PACKNO, INTROW at Item Level for Commitment</description>
+    </column>
+    <column name="SRVMAPKEY" data_type="VARCHAR">
+      <description>Item Key for eSOA Messages</description>
+    </column>
+    <column name="TAXTARIFFCODE" data_type="VARCHAR">
+      <description>Tax Tariff Code</description>
+    </column>
+    <column name="SDATE" data_type="DATE">
+      <description>Date</description>
+    </column>
+    <column name="BEGTIME" data_type="TIME">
+      <description>Start Time</description>
+    </column>
+    <column name="ENDTIME" data_type="TIME">
+      <description>End Time</description>
+    </column>
+    <column name="PERSEXT" data_type="VARCHAR">
+      <description>External Personnel Number</description>
+    </column>
+    <column name="CATSCOUNTE" data_type="VARCHAR">
+      <description>Counter for Records in Time Recording</description>
+    </column>
+    <column name="STOKZ" data_type="VARCHAR">
+      <description>Indicator: Document was reversed</description>
+    </column>
+    <column name="BELNR" data_type="VARCHAR">
+      <description>Document no.</description>
+    </column>
+    <column name="FORMELNR" data_type="VARCHAR">
+      <description>Formula Number</description>
+    </column>
+    <column name="FRMVAL1" data_type="DECIMAL">
+      <description>Formula Value</description>
+    </column>
+    <column name="FRMVAL2" data_type="DECIMAL">
+      <description>Formula Value</description>
+    </column>
+    <column name="FRMVAL3" data_type="DECIMAL">
+      <description>Formula Value</description>
+    </column>
+    <column name="FRMVAL4" data_type="DECIMAL">
+      <description>Formula Value</description>
+    </column>
+    <column name="FRMVAL5" data_type="DECIMAL">
+      <description>Formula Value</description>
+    </column>
+    <column name="USERF1_NUM" data_type="VARCHAR">
+      <description>User-Defined Field</description>
+    </column>
+    <column name="USERF2_NUM" data_type="DECIMAL">
+      <description>User-Defined Field</description>
+    </column>
+    <column name="USERF1_TXT" data_type="VARCHAR">
+      <description>User-Defined Field</description>
+    </column>
+    <column name="USERF2_TXT" data_type="VARCHAR">
+      <description>User-Defined Field</description>
+    </column>
+    <column name="KNOBJ" data_type="VARCHAR">
+      <description>Number of Object with Assigned Dependencies</description>
+    </column>
+    <column name="CHGTEXT" data_type="VARCHAR">
+      <description>Short Text Change Allowed</description>
+    </column>
+    <column name="KALNR" data_type="VARCHAR">
+      <description>Cost Estimate Number for Cost Est. w/o Qty Structure</description>
+    </column>
+    <column name="KLVAR" data_type="VARCHAR">
+      <description>Costing Variant</description>
+    </column>
+    <column name="EXTREFKEY" data_type="VARCHAR">
+      <description>External Reference Key for Service</description>
+    </column>
+    <column name="INV_MENGE" data_type="DECIMAL">
+      <description>Purchase Order: Quantity Entered from the Invoice</description>
+    </column>
+    <column name="PER_SDATE" data_type="DATE">
+      <description>Period of Performance Start Date</description>
+    </column>
+    <column name="PER_EDATE" data_type="DATE">
+      <description>Period of Performance End Date</description>
+    </column>
+  </columns>
+</data_description>

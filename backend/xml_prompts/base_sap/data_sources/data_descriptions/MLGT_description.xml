@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="MLGT">
+  <table_info name="MLGT" total_columns="12"/>
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="MATNR" data_type="VARCHAR">
+      <description>Material Number</description>
+    </column>
+    <column name="LGNUM" data_type="VARCHAR">
+      <description>Warehouse Number / Warehouse Complex</description>
+    </column>
+    <column name="LGTYP" data_type="VARCHAR">
+      <description>Storage Type</description>
+    </column>
+    <column name="LVORM" data_type="VARCHAR">
+      <description>Deletion flag for all material data of a storage type</description>
+    </column>
+    <column name="LGPLA" data_type="VARCHAR">
+      <description>Storage Bin</description>
+    </column>
+    <column name="LPMAX" data_type="DECIMAL">
+      <description>Maximum storage bin quantity</description>
+    </column>
+    <column name="LPMIN" data_type="DECIMAL">
+      <description>Minimum storage bin quantity</description>
+    </column>
+    <column name="MAMNG" data_type="DECIMAL">
+      <description>Control quantity</description>
+    </column>
+    <column name="NSMNG" data_type="DECIMAL">
+      <description>Replenishment quantity</description>
+    </column>
+    <column name="KOBER" data_type="VARCHAR">
+      <description>Picking Area</description>
+    </column>
+    <column name="RDMNG" data_type="DECIMAL">
+      <description>Rounding qty</description>
+    </column>
+  </columns>
+</data_description>

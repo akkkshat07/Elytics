@@ -1,0 +1,210 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="KONV">
+  <table_info name="KONV" total_columns="68" />
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="KNUMV" data_type="VARCHAR">
+      <description>Number of the document condition</description>
+    </column>
+    <column name="KPOSN" data_type="VARCHAR">
+      <description>Condition item number</description>
+    </column>
+    <column name="STUNR" data_type="VARCHAR">
+      <description>Step number</description>
+    </column>
+    <column name="ZAEHK" data_type="VARCHAR">
+      <description>Condition counter</description>
+    </column>
+    <column name="KAPPL" data_type="VARCHAR">
+      <description>Application</description>
+    </column>
+    <column name="KSCHL" data_type="VARCHAR">
+      <description>Condition Type</description>
+    </column>
+    <column name="KDATU" data_type="DATE">
+      <description>Condition pricing date</description>
+    </column>
+    <column name="KRECH" data_type="VARCHAR">
+      <description>Calculation type for condition</description>
+    </column>
+    <column name="KAWRT" data_type="DECIMAL">
+      <description>Condition base value</description>
+    </column>
+    <column name="KBETR" data_type="DECIMAL">
+      <description>Rate (condition amount or percentage)</description>
+    </column>
+    <column name="WAERS" data_type="VARCHAR">
+      <description>Currency Key</description>
+    </column>
+    <column name="KKURS" data_type="DECIMAL">
+      <description>Condition exchange rate for conversion to local currency</description>
+    </column>
+    <column name="KPEIN" data_type="DECIMAL">
+      <description>Condition pricing unit</description>
+    </column>
+    <column name="KMEIN" data_type="VARCHAR">
+      <description>Condition unit in the document</description>
+    </column>
+    <column name="KUMZA" data_type="DECIMAL">
+      <description>Numerator for converting condition units to base units</description>
+    </column>
+    <column name="KUMNE" data_type="DECIMAL">
+      <description>Denominator for converting condition units to base units</description>
+    </column>
+    <column name="KNTYP" data_type="VARCHAR">
+      <description>Condition category (examples: tax, freight, price, cost)</description>
+    </column>
+    <column name="KSTAT" data_type="VARCHAR">
+      <description>Condition is used for statistics</description>
+    </column>
+    <column name="KNPRS" data_type="VARCHAR">
+      <description>Scale Type</description>
+    </column>
+    <column name="KRUEK" data_type="VARCHAR">
+      <description>Condition is Relevant for Accrual  (e.g. Freight)</description>
+    </column>
+    <column name="KRELI" data_type="VARCHAR">
+      <description>Condition for invoice list</description>
+    </column>
+    <column name="KHERK" data_type="VARCHAR">
+      <description>Origin of the condition</description>
+    </column>
+    <column name="KGRPE" data_type="VARCHAR">
+      <description>Group condition</description>
+    </column>
+    <column name="KOUPD" data_type="VARCHAR">
+      <description>Condition update</description>
+    </column>
+    <column name="KOLNR" data_type="VARCHAR">
+      <description>Access sequence - Access number</description>
+    </column>
+    <column name="KNUMH" data_type="VARCHAR">
+      <description>Condition record number</description>
+    </column>
+    <column name="KOPOS" data_type="VARCHAR">
+      <description>Sequential number of the condition</description>
+    </column>
+    <column name="KVSL1" data_type="VARCHAR">
+      <description>Account key</description>
+    </column>
+    <column name="SAKN1" data_type="VARCHAR">
+      <description>G/L Account Number</description>
+    </column>
+    <column name="MWSK1" data_type="VARCHAR">
+      <description>Tax on Sales/Purchases Code</description>
+    </column>
+    <column name="KVSL2" data_type="VARCHAR">
+      <description>Account key - accruals / provisions</description>
+    </column>
+    <column name="SAKN2" data_type="VARCHAR">
+      <description>Number of Provision Account</description>
+    </column>
+    <column name="MWSK2" data_type="VARCHAR">
+      <description>Withholding tax code</description>
+    </column>
+    <column name="LIFNR" data_type="VARCHAR">
+      <description>Account Number of Supplier</description>
+    </column>
+    <column name="KUNNR" data_type="VARCHAR">
+      <description>Customer number (rebate recipient)</description>
+    </column>
+    <column name="KDIFF" data_type="DECIMAL">
+      <description>Rounding-off difference of the condition</description>
+    </column>
+    <column name="KWERT" data_type="DECIMAL">
+      <description>Condition value</description>
+    </column>
+    <column name="KSTEU" data_type="VARCHAR">
+      <description>Condition control</description>
+    </column>
+    <column name="KINAK" data_type="VARCHAR">
+      <description>Condition is inactive</description>
+    </column>
+    <column name="KOAID" data_type="VARCHAR">
+      <description>Condition class</description>
+    </column>
+    <column name="ZAEKO" data_type="VARCHAR">
+      <description>Condition counter for (header conditions)</description>
+    </column>
+    <column name="KMXAW" data_type="VARCHAR">
+      <description>Indicator for maximum condition base value</description>
+    </column>
+    <column name="KMXWR" data_type="VARCHAR">
+      <description>Indicator for maximum condition amount</description>
+    </column>
+    <column name="KFAKTOR" data_type="FLOAT">
+      <description>Factor for condition base value</description>
+    </column>
+    <column name="KDUPL" data_type="VARCHAR">
+      <description>Structure condition</description>
+    </column>
+    <column name="KFAKTOR1" data_type="FLOAT">
+      <description>Factor for condition basis (period)</description>
+    </column>
+    <column name="KZBZG" data_type="VARCHAR">
+      <description>Scale basis indicator</description>
+    </column>
+    <column name="KSTBS" data_type="DECIMAL">
+      <description>Scale base value of the condition</description>
+    </column>
+    <column name="KONMS" data_type="VARCHAR">
+      <description>Condition scale unit of measure</description>
+    </column>
+    <column name="KONWS" data_type="VARCHAR">
+      <description>Scale currency</description>
+    </column>
+    <column name="KAWRT_K" data_type="DECIMAL">
+      <description>Condition base value</description>
+    </column>
+    <column name="KWAEH" data_type="VARCHAR">
+      <description>Condition Currency (for Cumulation Fields)</description>
+    </column>
+    <column name="KWERT_K" data_type="DECIMAL">
+      <description>Condition value</description>
+    </column>
+    <column name="KFKIV" data_type="VARCHAR">
+      <description>Condition for inter-company billing</description>
+    </column>
+    <column name="KVARC" data_type="VARCHAR">
+      <description>Condition for configuration</description>
+    </column>
+    <column name="KMPRS" data_type="VARCHAR">
+      <description>Condition changed manually</description>
+    </column>
+    <column name="PRSQU" data_type="VARCHAR">
+      <description>Price source</description>
+    </column>
+    <column name="VARCOND" data_type="VARCHAR">
+      <description>Variant condition</description>
+    </column>
+    <column name="STUFE" data_type="DECIMAL">
+      <description>Level (in multi-level BOM explosions)</description>
+    </column>
+    <column name="WEGXX" data_type="DECIMAL">
+      <description>Path (for multi-level BOM explosions)</description>
+    </column>
+    <column name="KTREL" data_type="VARCHAR">
+      <description>Relevance for account assignment</description>
+    </column>
+    <column name="MDFLG" data_type="VARCHAR">
+      <description>Indicator: Matrix maintenance</description>
+    </column>
+    <column name="TXJLV" data_type="VARCHAR">
+      <description>Tax jurisdiction code level</description>
+    </column>
+    <column name="KBFLAG" data_type="VARCHAR">
+      <description>Bit encrypted flags in Pricing</description>
+    </column>
+    <column name="KOLNR3" data_type="VARCHAR">
+      <description>Access Sequence - Access Number</description>
+    </column>
+    <column name="CPF_GUID" data_type="VARCHAR">
+      <description>Identifier of CPF Formula in Document</description>
+    </column>
+    <column name="KAQTY" data_type="VARCHAR">
+      <description>Adjusted Quantity</description>
+    </column>
+  </columns>
+</data_description>

@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="QMMA">
+  <table_info name="QMMA" total_columns="30" />
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="QMNUM" data_type="VARCHAR">
+      <description>Notification No</description>
+    </column>
+    <column name="MANUM" data_type="VARCHAR">
+      <description>Consecutive Number of Activity</description>
+    </column>
+    <column name="FENUM" data_type="VARCHAR">
+      <description>Item Number in Item Record</description>
+    </column>
+    <column name="URNUM" data_type="VARCHAR">
+      <description>Sequential Number for Cause</description>
+    </column>
+    <column name="MNKAT" data_type="VARCHAR">
+      <description>Catalog Type - Activities</description>
+    </column>
+    <column name="MNGRP" data_type="VARCHAR">
+      <description>Code Group - Activities</description>
+    </column>
+    <column name="MNCOD" data_type="VARCHAR">
+      <description>Activity Code</description>
+    </column>
+    <column name="MNVER" data_type="VARCHAR">
+      <description>Version Number</description>
+    </column>
+    <column name="MATXT" data_type="VARCHAR">
+      <description>Activity Text</description>
+    </column>
+    <column name="ERNAM" data_type="VARCHAR">
+      <description>Name of Person Responsible for Creating the Object</description>
+    </column>
+    <column name="ERDAT" data_type="DATE">
+      <description>Date on Which Record Was Created</description>
+    </column>
+    <column name="AENAM" data_type="VARCHAR">
+      <description>Name of Person Who Changed Object</description>
+    </column>
+    <column name="AEDAT" data_type="DATE">
+      <description>Last Changed On</description>
+    </column>
+    <column name="MAKLS" data_type="VARCHAR">
+      <description>Task Class</description>
+    </column>
+    <column name="KLAKZ" data_type="VARCHAR">
+      <description>Indicator: Classification exists</description>
+    </column>
+    <column name="PSTER" data_type="DATE">
+      <description>Start Date</description>
+    </column>
+    <column name="PETER" data_type="DATE">
+      <description>End Date</description>
+    </column>
+    <column name="INDTX" data_type="VARCHAR">
+      <description>Object Long Text Available</description>
+    </column>
+    <column name="KZMLA" data_type="VARCHAR">
+      <description>Primary language indicator for text segment</description>
+    </column>
+    <column name="MNGFA" data_type="VARCHAR">
+      <description>Quantity Factor for Activities</description>
+    </column>
+    <column name="PSTUR" data_type="TIME">
+      <description>Start Time of Activity</description>
+    </column>
+    <column name="PETUR" data_type="TIME">
+      <description>End Time of Activity</description>
+    </column>
+    <column name="ERZEIT" data_type="TIME">
+      <description>Time, at Which Record Was Added</description>
+    </column>
+    <column name="AEZEIT" data_type="TIME">
+      <description>Time of Change</description>
+    </column>
+    <column name="KZLOESCH" data_type="VARCHAR">
+      <description>Delete Data Record</description>
+    </column>
+    <column name="QMANUM" data_type="VARCHAR">
+      <description>Sort Number for Activity</description>
+    </column>
+    <column name="AUTKZ" data_type="VARCHAR">
+      <description>Data Record Created with Function 'Create with Copy Model'</description>
+    </column>
+    <column name="KZACTIONBOX" data_type="VARCHAR">
+      <description>Created Using Action Box</description>
+    </column>
+    <column name="FUNKTION" data_type="VARCHAR">
+      <description>Key for Function in Action Box</description>
+    </column>
+  </columns>
+</data_description>

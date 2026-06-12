@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="CDPOS">
+  <table_info name="CDPOS" total_columns="16" />
+  <columns>
+    <column name="MANDANT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="OBJECTCLAS" data_type="VARCHAR">
+      <description>Object class</description>
+    </column>
+    <column name="OBJECTID" data_type="VARCHAR">
+      <description>Object Value</description>
+    </column>
+    <column name="CHANGENR" data_type="VARCHAR">
+      <description>Change Number of Document</description>
+    </column>
+    <column name="TABNAME" data_type="VARCHAR">
+      <description>Table Name</description>
+    </column>
+    <column name="TABKEY" data_type="VARCHAR">
+      <description>Changed table record key</description>
+    </column>
+    <column name="FNAME" data_type="VARCHAR">
+      <description>Field Name</description>
+    </column>
+    <column name="CHNGIND" data_type="VARCHAR">
+      <description>Change Type (U, I, E, D)</description>
+    </column>
+    <column name="TEXT_CASE" data_type="VARCHAR">
+      <description>Flag: X=Text change</description>
+    </column>
+    <column name="UNIT_OLD" data_type="VARCHAR">
+      <description>Change documents, unit referenced</description>
+    </column>
+    <column name="UNIT_NEW" data_type="VARCHAR">
+      <description>Change documents, unit referenced</description>
+    </column>
+    <column name="CUKY_OLD" data_type="VARCHAR">
+      <description>Change documents, referenced currency</description>
+    </column>
+    <column name="CUKY_NEW" data_type="VARCHAR">
+      <description>Change documents, referenced currency</description>
+    </column>
+    <column name="VALUE_NEW" data_type="VARCHAR">
+      <description>New Content of Changed Field</description>
+    </column>
+    <column name="VALUE_OLD" data_type="VARCHAR">
+      <description>Old Content of Changed Field</description>
+    </column>
+    <column name="_DATAAGING" data_type="DATE">
+      <description>Data Filter Value for Data Aging</description>
+    </column>
+  </columns>
+</data_description>

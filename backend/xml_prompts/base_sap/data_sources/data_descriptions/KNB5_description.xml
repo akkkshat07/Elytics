@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="KNB5">
+  <table_info name="KNB5" total_columns="11" />
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="KUNNR" data_type="VARCHAR">
+      <description>Customer Number</description>
+    </column>
+    <column name="BUKRS" data_type="VARCHAR">
+      <description>Company Code</description>
+    </column>
+    <column name="MABER" data_type="VARCHAR">
+      <description>Dunning Area</description>
+    </column>
+    <column name="MAHNA" data_type="VARCHAR">
+      <description>Dunning Procedure</description>
+    </column>
+    <column name="MANSP" data_type="VARCHAR">
+      <description>Dunning Block</description>
+    </column>
+    <column name="MADAT" data_type="DATE">
+      <description>Date of Last Dunning Notice</description>
+    </column>
+    <column name="MAHNS" data_type="VARCHAR">
+      <description>Dunning Level</description>
+    </column>
+    <column name="KNRMA" data_type="VARCHAR">
+      <description>Account number of the dunning recipient</description>
+    </column>
+    <column name="GMVDT" data_type="DATE">
+      <description>Date of the legal dunning proceedings</description>
+    </column>
+    <column name="BUSAB" data_type="VARCHAR">
+      <description>Dunning clerk</description>
+    </column>
+  </columns>
+</data_description>

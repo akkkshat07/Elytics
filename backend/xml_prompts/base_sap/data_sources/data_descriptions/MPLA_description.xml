@@ -1,0 +1,153 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="MPLA">
+  <table_info name="MPLA" total_columns="49"/>
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="WARPL" data_type="VARCHAR">
+      <description>Maintenance Plan</description>
+    </column>
+    <column name="ERKNZ" data_type="VARCHAR">
+      <description>Creation indicator</description>
+    </column>
+    <column name="AEKNZ" data_type="VARCHAR">
+      <description>Change indicator</description>
+    </column>
+    <column name="ERSDT" data_type="DATE">
+      <description>Date of creation</description>
+    </column>
+    <column name="ERNAM" data_type="VARCHAR">
+      <description>Name of Person Responsible for Creating the Object</description>
+    </column>
+    <column name="AEDAT" data_type="DATE">
+      <description>Last Changed On</description>
+    </column>
+    <column name="AENAM" data_type="VARCHAR">
+      <description>Name of Person Who Changed Object</description>
+    </column>
+    <column name="WPTXT" data_type="VARCHAR">
+      <description>Maintenance Plan Text</description>
+    </column>
+    <column name="STRAT" data_type="VARCHAR">
+      <description>Maintenance strategy</description>
+    </column>
+    <column name="ABRHO" data_type="VARCHAR">
+      <description>Scheduling Period</description>
+    </column>
+    <column name="EQUNR" data_type="VARCHAR">
+      <description>Equipment Number</description>
+    </column>
+    <column name="TPLNR" data_type="VARCHAR">
+      <description>Functional Location</description>
+    </column>
+    <column name="KUNUM" data_type="VARCHAR">
+      <description>Customer Number</description>
+    </column>
+    <column name="LTKNZ" data_type="VARCHAR">
+      <description>Long Text Indicator</description>
+    </column>
+    <column name="LVORM" data_type="VARCHAR">
+      <description>Indicator: maintenance plan locked against calls</description>
+    </column>
+    <column name="ANZPS" data_type="VARCHAR">
+      <description>Number of maintenance items in the maintenance plan</description>
+    </column>
+    <column name="ABNUM" data_type="INTEGER">
+      <description>Maintenance Plan Call Number</description>
+    </column>
+    <column name="LANGU" data_type="VARCHAR">
+      <description>Language key of the long text</description>
+    </column>
+    <column name="VSPOS" data_type="VARCHAR">
+      <description>Shift Factor for Late Completion</description>
+    </column>
+    <column name="VSNEG" data_type="VARCHAR">
+      <description>Shift Factor for Early Completion</description>
+    </column>
+    <column name="TOPOS" data_type="VARCHAR">
+      <description>Tolerance for Late Completion (%)</description>
+    </column>
+    <column name="TONEG" data_type="VARCHAR">
+      <description>Tolerance for Early Completion (%)</description>
+    </column>
+    <column name="SFAKT" data_type="DECIMAL">
+      <description>Cycle modification factor</description>
+    </column>
+    <column name="STICH" data_type="VARCHAR">
+      <description>Scheduling indicator</description>
+    </column>
+    <column name="TGOON" data_type="VARCHAR">
+      <description>Scheduling to reoccur when lead float reached</description>
+    </column>
+    <column name="HORIZ" data_type="VARCHAR">
+      <description>Call horizon for maintenance plan calls</description>
+    </column>
+    <column name="HORIZ_DAYS" data_type="VARCHAR">
+      <description>Call horizon for maintenance plan calls</description>
+    </column>
+    <column name="HORIZ_QUALIFIER" data_type="VARCHAR">
+      <description>Calculation Type of Call Horizon</description>
+    </column>
+    <column name="ANDOR" data_type="VARCHAR">
+      <description>Indicator for OR or AND link</description>
+    </column>
+    <column name="KNAUT" data_type="VARCHAR">
+      <description>Reserved</description>
+    </column>
+    <column name="BEGRU" data_type="VARCHAR">
+      <description>Technical object authorization group</description>
+    </column>
+    <column name="OBJNR" data_type="VARCHAR">
+      <description>Object number</description>
+    </column>
+    <column name="MPTYP" data_type="VARCHAR">
+      <description>Maintenance plan category</description>
+    </column>
+    <column name="HUNIT" data_type="VARCHAR">
+      <description>Unit in scheduling interval</description>
+    </column>
+    <column name="STADT" data_type="DATE">
+      <description>Start date</description>
+    </column>
+    <column name="SZAEH" data_type="VARCHAR">
+      <description>Start counter reading</description>
+    </column>
+    <column name="CALL_CONFIRM" data_type="VARCHAR">
+      <description>Only Create New Call Object After Completing Predecessor</description>
+    </column>
+    <column name="PLAN_SORT" data_type="VARCHAR">
+      <description>Sort field for maintenance plans</description>
+    </column>
+    <column name="FABKL" data_type="VARCHAR">
+      <description>Factory calendar key</description>
+    </column>
+    <column name="PUFFP" data_type="VARCHAR">
+      <description>Lead Float in Days</description>
+    </column>
+    <column name="PUFFN" data_type="VARCHAR">
+      <description>Follow-up float in days</description>
+    </column>
+    <column name="START_DATE" data_type="DATE">
+      <description>Start Date for Scheduling</description>
+    </column>
+    <column name="START_TIME" data_type="TIME">
+      <description>Start Time for Scheduling</description>
+    </column>
+    <column name="CALL_UPDATE_IND" data_type="VARCHAR">
+      <description>Indicator for Adapting Basic Dates of Call Object</description>
+    </column>
+    <column name="IND_MPLA_API" data_type="VARCHAR">
+      <description>Maintenance Plan Was Created/Changed by API</description>
+    </column>
+    <column name="MCP_SF" data_type="VARCHAR">
+      <description>Shift Factor for Multiple Counter Plan</description>
+    </column>
+    <column name="ENDDT_FOR_SCHED" data_type="DATE">
+      <description>End Date for Scheduling</description>
+    </column>
+    <column name="END_COUNTER" data_type="VARCHAR">
+      <description>End Counter for Scheduling</description>
+    </column>
+  </columns>
+</data_description>

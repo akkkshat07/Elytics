@@ -1,0 +1,462 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="QMEL">
+  <table_info name="QMEL" total_columns="152"/>
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="QMNUM" data_type="VARCHAR">
+      <description>Notification No</description>
+    </column>
+    <column name="QMART" data_type="VARCHAR">
+      <description>Notification Type</description>
+    </column>
+    <column name="QMTXT" data_type="VARCHAR">
+      <description>Short Text</description>
+    </column>
+    <column name="ARTPR" data_type="VARCHAR">
+      <description>Priority Type</description>
+    </column>
+    <column name="PRIOK" data_type="VARCHAR">
+      <description>Priority</description>
+    </column>
+    <column name="ERNAM" data_type="VARCHAR">
+      <description>Name of Person Responsible for Creating the Object</description>
+    </column>
+    <column name="ERDAT" data_type="DATE">
+      <description>Date on Which Record Was Created</description>
+    </column>
+    <column name="AENAM" data_type="VARCHAR">
+      <description>Name of Person Who Changed Object</description>
+    </column>
+    <column name="AEDAT" data_type="DATE">
+      <description>Last Changed On</description>
+    </column>
+    <column name="MZEIT" data_type="TIME">
+      <description>Time of Notification</description>
+    </column>
+    <column name="QMDAT" data_type="DATE">
+      <description>Date of Notification</description>
+    </column>
+    <column name="QMNAM" data_type="VARCHAR">
+      <description>Name of Person Reporting Notification</description>
+    </column>
+    <column name="STRMN" data_type="DATE">
+      <description>Required start date</description>
+    </column>
+    <column name="STRUR" data_type="TIME">
+      <description>Required Start Time</description>
+    </column>
+    <column name="LTRMN" data_type="DATE">
+      <description>Required End Date</description>
+    </column>
+    <column name="LTRUR" data_type="TIME">
+      <description>Requested End Time</description>
+    </column>
+    <column name="WAERS" data_type="VARCHAR">
+      <description>Currency Key</description>
+    </column>
+    <column name="AUFNR" data_type="VARCHAR">
+      <description>Order Number</description>
+    </column>
+    <column name="VERID" data_type="VARCHAR">
+      <description>Production Version</description>
+    </column>
+    <column name="RM_MATNR" data_type="VARCHAR">
+      <description>Material number of the production version</description>
+    </column>
+    <column name="RM_WERKS" data_type="VARCHAR">
+      <description>Plant of production version</description>
+    </column>
+    <column name="SA_AUFNR" data_type="VARCHAR">
+      <description>Run schedule header number</description>
+    </column>
+    <column name="MATNR" data_type="VARCHAR">
+      <description>Material Number</description>
+    </column>
+    <column name="REVLV" data_type="VARCHAR">
+      <description>Revision Level</description>
+    </column>
+    <column name="MATKL" data_type="VARCHAR">
+      <description>Material Group</description>
+    </column>
+    <column name="PRDHA" data_type="VARCHAR">
+      <description>Product Hierarchy</description>
+    </column>
+    <column name="KZKRI" data_type="VARCHAR">
+      <description>Indicator: Critical part</description>
+    </column>
+    <column name="KZDKZ" data_type="VARCHAR">
+      <description>Documentation required indicator</description>
+    </column>
+    <column name="KUNUM" data_type="VARCHAR">
+      <description>Account Number of Customer</description>
+    </column>
+    <column name="FEKNZ" data_type="VARCHAR">
+      <description>Error Records Exist</description>
+    </column>
+    <column name="MAKNZ" data_type="VARCHAR">
+      <description>Task Records Exist</description>
+    </column>
+    <column name="OBJNR" data_type="VARCHAR">
+      <description>Object Number for Status Management</description>
+    </column>
+    <column name="QMDAB" data_type="DATE">
+      <description>Date for Notification Completion</description>
+    </column>
+    <column name="QMZAB" data_type="TIME">
+      <description>Completion Time of Notification</description>
+    </column>
+    <column name="RBNR" data_type="VARCHAR">
+      <description>Catalog Profile</description>
+    </column>
+    <column name="RBNRI" data_type="VARCHAR">
+      <description>Origin of Notifications Catalog Profile</description>
+    </column>
+    <column name="INDTX" data_type="VARCHAR">
+      <description>Object Long Text Available</description>
+    </column>
+    <column name="KZMLA" data_type="VARCHAR">
+      <description>Primary language indicator for text segment</description>
+    </column>
+    <column name="HERKZ" data_type="VARCHAR">
+      <description>Origin of Notification</description>
+    </column>
+    <column name="BEZDT" data_type="DATE">
+      <description>Notification Reference Date</description>
+    </column>
+    <column name="BEZUR" data_type="TIME">
+      <description>Notification Reference Time</description>
+    </column>
+    <column name="LIFNUM" data_type="VARCHAR">
+      <description>Vendor Account Number</description>
+    </column>
+    <column name="BUNAME" data_type="VARCHAR">
+      <description>Author of a Q/PM Notification</description>
+    </column>
+    <column name="VBELN" data_type="VARCHAR">
+      <description>Sales Order Number</description>
+    </column>
+    <column name="BSTNK" data_type="VARCHAR">
+      <description>Customer Purchase Order Number</description>
+    </column>
+    <column name="BSTDK" data_type="DATE">
+      <description>Customer Purchase Order Date</description>
+    </column>
+    <column name="SPART" data_type="VARCHAR">
+      <description>Division</description>
+    </column>
+    <column name="VKORG" data_type="VARCHAR">
+      <description>Sales Organization</description>
+    </column>
+    <column name="VTWEG" data_type="VARCHAR">
+      <description>Distribution Channel</description>
+    </column>
+    <column name="ADRNR" data_type="VARCHAR">
+      <description>Addresses: Address Number</description>
+    </column>
+    <column name="AEZEIT" data_type="TIME">
+      <description>Time of Change</description>
+    </column>
+    <column name="ERZEIT" data_type="TIME">
+      <description>Time, at Which Record Was Added</description>
+    </column>
+    <column name="MAWERK" data_type="VARCHAR">
+      <description>Plant for Material</description>
+    </column>
+    <column name="QMKAT" data_type="VARCHAR">
+      <description>Catalog Type - Coding</description>
+    </column>
+    <column name="QMGRP" data_type="VARCHAR">
+      <description>Code Group - Coding</description>
+    </column>
+    <column name="QMCOD" data_type="VARCHAR">
+      <description>Coding</description>
+    </column>
+    <column name="AUSWIRK" data_type="VARCHAR">
+      <description>Key for a Scenario</description>
+    </column>
+    <column name="TEILEV" data_type="VARCHAR">
+      <description>Usage of Parts</description>
+    </column>
+    <column name="PRUEFLOS" data_type="VARCHAR">
+      <description>Inspection Lot Number</description>
+    </column>
+    <column name="CHARG" data_type="VARCHAR">
+      <description>Batch Number</description>
+    </column>
+    <column name="LGORTCHARG" data_type="VARCHAR">
+      <description>Storage Location of Batch</description>
+    </column>
+    <column name="LICHN" data_type="VARCHAR">
+      <description>Vendor Batch Number</description>
+    </column>
+    <column name="HERSTELLER" data_type="VARCHAR">
+      <description>Number of Manufacturer</description>
+    </column>
+    <column name="EMATNR" data_type="VARCHAR">
+      <description>Material number corresponding to manufacturer part number</description>
+    </column>
+    <column name="EKORG" data_type="VARCHAR">
+      <description>Purchasing Organization</description>
+    </column>
+    <column name="BKGRP" data_type="VARCHAR">
+      <description>Purchasing Group</description>
+    </column>
+    <column name="LGORTVORG" data_type="VARCHAR">
+      <description>Storage Location for Inspection Lot Stock</description>
+    </column>
+    <column name="FERTAUFNR" data_type="VARCHAR">
+      <description>Order Number (Production Order)</description>
+    </column>
+    <column name="FERTAUFPL" data_type="VARCHAR">
+      <description>Plan Number for Operations in Order (Production Order)</description>
+    </column>
+    <column name="EBELN" data_type="VARCHAR">
+      <description>Purchasing Document Number</description>
+    </column>
+    <column name="EBELP" data_type="VARCHAR">
+      <description>Item Number of Purchasing Document</description>
+    </column>
+    <column name="MJAHR" data_type="VARCHAR">
+      <description>Material Document Year</description>
+    </column>
+    <column name="MBLNR" data_type="VARCHAR">
+      <description>Number of Material Document</description>
+    </column>
+    <column name="MBLPO" data_type="VARCHAR">
+      <description>Item in Material Document</description>
+    </column>
+    <column name="LS_KDAUF" data_type="VARCHAR">
+      <description>Sales Order Number</description>
+    </column>
+    <column name="LS_KDPOS" data_type="VARCHAR">
+      <description>Item Number of the SD Document</description>
+    </column>
+    <column name="LS_VBELN" data_type="VARCHAR">
+      <description>Delivery</description>
+    </column>
+    <column name="LS_POSNR" data_type="VARCHAR">
+      <description>Delivery Item</description>
+    </column>
+    <column name="CROBJTY" data_type="VARCHAR">
+      <description>Object types of the CIM resource</description>
+    </column>
+    <column name="ARBPL" data_type="VARCHAR">
+      <description>Object ID of the Work Center</description>
+    </column>
+    <column name="ARBPLWERK" data_type="VARCHAR">
+      <description>Plant for Work Center</description>
+    </column>
+    <column name="FEART" data_type="VARCHAR">
+      <description>Report Type for Defects Recording</description>
+    </column>
+    <column name="PNLKN" data_type="VARCHAR">
+      <description>Current Node Number from Order Counter APLZL</description>
+    </column>
+    <column name="MGEIG" data_type="DECIMAL">
+      <description>Defective Quantity (Internal)</description>
+    </column>
+    <column name="MGFRD" data_type="DECIMAL">
+      <description>Defective Quantity (External)</description>
+    </column>
+    <column name="MGEIN" data_type="VARCHAR">
+      <description>Unit of Measure</description>
+    </column>
+    <column name="BZMNG" data_type="DECIMAL">
+      <description>General Reference Quantity</description>
+    </column>
+    <column name="RKMNG" data_type="DECIMAL">
+      <description>Complaint Quantity</description>
+    </column>
+    <column name="RGMNG" data_type="DECIMAL">
+      <description>Return Delivery Quantity</description>
+    </column>
+    <column name="RKDAT" data_type="DATE">
+      <description>Date of Return Delivery</description>
+    </column>
+    <column name="COAUFNR" data_type="VARCHAR">
+      <description>Order Number (QM Order)</description>
+    </column>
+    <column name="QWRNUM" data_type="VARCHAR">
+      <description>Reference Notification Number</description>
+    </column>
+    <column name="REFNUM" data_type="VARCHAR">
+      <description>External Reference Number</description>
+    </column>
+    <column name="KDMAT" data_type="VARCHAR">
+      <description>Material Number Used by Customer</description>
+    </column>
+    <column name="IDNLF" data_type="VARCHAR">
+      <description>Material Number Used by Vendor</description>
+    </column>
+    <column name="SERIALNR" data_type="VARCHAR">
+      <description>Serial Number</description>
+    </column>
+    <column name="KZLOESCH" data_type="VARCHAR">
+      <description>Delete Data Record</description>
+    </column>
+    <column name="PRODDAT" data_type="DATE">
+      <description>Production Date</description>
+    </column>
+    <column name="DEVICEID" data_type="VARCHAR">
+      <description>Additional Device Data</description>
+    </column>
+    <column name="VKBUR" data_type="VARCHAR">
+      <description>Sales Office</description>
+    </column>
+    <column name="VKGRP" data_type="VARCHAR">
+      <description>Sales Group</description>
+    </column>
+    <column name="AUTKZ" data_type="VARCHAR">
+      <description>Data Record Created with Function 'Create with Copy Model'</description>
+    </column>
+    <column name="BEDID" data_type="VARCHAR">
+      <description>ID of the capacity requirements record</description>
+    </column>
+    <column name="BEDZL" data_type="VARCHAR">
+      <description>Internal counter</description>
+    </column>
+    <column name="PROFIL_TYP" data_type="VARCHAR">
+      <description>Object Type</description>
+    </column>
+    <column name="PROFIL_ID" data_type="VARCHAR">
+      <description>Object ID</description>
+    </column>
+    <column name="HANDLE" data_type="VARCHAR">
+      <description>Globally unique identifier (linked to time segment, etc)</description>
+    </column>
+    <column name="TSEGFL" data_type="VARCHAR">
+      <description>Time segment exists</description>
+    </column>
+    <column name="TSEGTP" data_type="VARCHAR">
+      <description>Template</description>
+    </column>
+    <column name="TZONSO" data_type="VARCHAR">
+      <description>Time Zone for Notification</description>
+    </column>
+    <column name="TZONID" data_type="VARCHAR">
+      <description>Origin of Time Zone in Notification</description>
+    </column>
+    <column name="FUNKTION" data_type="VARCHAR">
+      <description>Key for Function in Action Box</description>
+    </column>
+    <column name="/SAPSMOSS/INSTN" data_type="VARCHAR">
+      <description>Installation number</description>
+    </column>
+    <column name="/SAPSMOSS/MNUMM" data_type="VARCHAR">
+      <description>SAPNet notification number</description>
+    </column>
+    <column name="/SAPSMOSS/OSSYS" data_type="VARCHAR">
+      <description>Operating system and version</description>
+    </column>
+    <column name="/SAPSMOSS/DBSYS" data_type="VARCHAR">
+      <description>Database system</description>
+    </column>
+    <column name="/SAPSMOSS/REL" data_type="VARCHAR">
+      <description>R/3 Release</description>
+    </column>
+    <column name="/SAPSMOSS/COMP" data_type="VARCHAR">
+      <description>Area</description>
+    </column>
+    <column name="/SAPSMOSS/FRONT" data_type="VARCHAR">
+      <description>Frontend</description>
+    </column>
+    <column name="/SAPSMOSS/SYSTYP" data_type="VARCHAR">
+      <description>R/3 System type</description>
+    </column>
+    <column name="/SAPSMOSS/ADDID" data_type="VARCHAR">
+      <description>Add-on ID</description>
+    </column>
+    <column name="/SAPSMOSS/ADDREL" data_type="VARCHAR">
+      <description>Add-On Release</description>
+    </column>
+    <column name="/SAPSMOSS/TSTMP" data_type="VARCHAR">
+      <description>SAPNet time stamp</description>
+    </column>
+    <column name="/SAPSMOSS/STATUS" data_type="VARCHAR">
+      <description>Status of R/3 notification in SAPNet</description>
+    </column>
+    <column name="/SAPSMOSS/ERDAT" data_type="DATE">
+      <description>Date on which notification was completed at SAP</description>
+    </column>
+    <column name="/SAPSMOSS/ERZEIT" data_type="TIME">
+      <description>Time when notification was completed at SAP</description>
+    </column>
+    <column name="/SAPSMOSS/SYSID" data_type="VARCHAR">
+      <description>Name of SAP System</description>
+    </column>
+    <column name="/SAPSMOSS/MANDT" data_type="VARCHAR">
+      <description>Client ID</description>
+    </column>
+    <column name="PSP_NR" data_type="VARCHAR">
+      <description>WBS Element</description>
+    </column>
+    <column name="ESTIMATED_COSTS" data_type="DECIMAL">
+      <description>Estimated Costs for a Claim</description>
+    </column>
+    <column name="CLAIMED_COSTS" data_type="DECIMAL">
+      <description>Costs Claimed</description>
+    </column>
+    <column name="RESULT_COSTS" data_type="DECIMAL">
+      <description>Costs Accepted</description>
+    </column>
+    <column name="CHANCE" data_type="VARCHAR">
+      <description>Chance of Completing a Claim</description>
+    </column>
+    <column name="OPPONENT" data_type="VARCHAR">
+      <description>Partner Type</description>
+    </column>
+    <column name="KALNR" data_type="VARCHAR">
+      <description>Cost Estimate Number for Cost Est. w/o Qty Structure</description>
+    </column>
+    <column name="KALVAR" data_type="VARCHAR">
+      <description>Costing Variant for Postprocessing with Unit Costing</description>
+    </column>
+    <column name="OBJNR_REAL" data_type="VARCHAR">
+      <description>Object number of real CO account assignment</description>
+    </column>
+    <column name="OBJNR_STAT" data_type="VARCHAR">
+      <description>Auxiliary account assignment 1</description>
+    </column>
+    <column name="PHASE" data_type="VARCHAR">
+      <description>Notification Processing Phase</description>
+    </column>
+    <column name="/ISDFPS/MHIO_ADDATE" data_type="DATE">
+      <description>Completion Date for Call Object</description>
+    </column>
+    <column name="/ISDFPS/MHIO_ADTIME" data_type="TIME">
+      <description>Completion Time for Call Object</description>
+    </column>
+    <column name="/ISDFPS/USERMODE" data_type="VARCHAR">
+      <description>Scheduling determined by user</description>
+    </column>
+    <column name="/ISDFPS/OBJNR" data_type="VARCHAR">
+      <description>Object number</description>
+    </column>
+    <column name="LOGSYSTEM" data_type="VARCHAR">
+      <description>Logical System</description>
+    </column>
+    <column name="/ISDFPS/MEQUI" data_type="VARCHAR">
+      <description>Master Equipment</description>
+    </column>
+    <column name="SHN_OBJTY" data_type="VARCHAR">
+      <description>Object types of the CIM resource</description>
+    </column>
+    <column name="SHN_OBJID" data_type="VARCHAR">
+      <description>Object ID of the resource</description>
+    </column>
+    <column name="SHN_FUNCT_LOC" data_type="VARCHAR">
+      <description>Functional Location</description>
+    </column>
+    <column name="SHN_EQUIPMENT" data_type="VARCHAR">
+      <description>Equipment Number</description>
+    </column>
+    <column name="SHN_ORIGIN" data_type="VARCHAR">
+      <description>Origin or Use of Shift Note or Report</description>
+    </column>
+    <column name="UII" data_type="VARCHAR">
+      <description>Unique Item Identifier</description>
+    </column>
+  </columns>
+</data_description>

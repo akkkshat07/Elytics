@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="DD02T">
+  <table_info name="DD02T" total_columns="5" />
+  <columns>
+    <column name="TABNAME" data_type="VARCHAR">
+      <description>Table Name</description>
+    </column>
+    <column name="DDLANGUAGE" data_type="VARCHAR">
+      <description>Language Key</description>
+    </column>
+    <column name="AS4LOCAL" data_type="VARCHAR">
+      <description>Activation Status of a Repository Object</description>
+    </column>
+    <column name="AS4VERS" data_type="VARCHAR">
+      <description>Version of the entry (not used)</description>
+    </column>
+    <column name="DDTEXT" data_type="VARCHAR">
+      <description>Short Description of Repository Objects</description>
+    </column>
+  </columns>
+</data_description>

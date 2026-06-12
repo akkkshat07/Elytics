@@ -1,0 +1,303 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="ADRC">
+  <table_info name="ADRC" total_columns="99" />
+  <columns>
+    <column name="CLIENT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="ADDRNUMBER" data_type="VARCHAR">
+      <description>Address Number</description>
+    </column>
+    <column name="DATE_FROM" data_type="DATE">
+      <description>Valid-from date - in current Release only 00010101 possible</description>
+    </column>
+    <column name="NATION" data_type="VARCHAR">
+      <description>Version ID for International Addresses</description>
+    </column>
+    <column name="DATE_TO" data_type="DATE">
+      <description>Valid-to date in current Release only 99991231 possible</description>
+    </column>
+    <column name="TITLE" data_type="VARCHAR">
+      <description>Form-of-Address Key</description>
+    </column>
+    <column name="NAME1" data_type="VARCHAR">
+      <description>Name 1</description>
+    </column>
+    <column name="NAME2" data_type="VARCHAR">
+      <description>Name 2</description>
+    </column>
+    <column name="NAME3" data_type="VARCHAR">
+      <description>Name 3</description>
+    </column>
+    <column name="NAME4" data_type="VARCHAR">
+      <description>Name 4</description>
+    </column>
+    <column name="NAME_TEXT" data_type="VARCHAR">
+      <description>Converted name field (with form of address)</description>
+    </column>
+    <column name="NAME_CO" data_type="VARCHAR">
+      <description>c/o name</description>
+    </column>
+    <column name="CITY1" data_type="VARCHAR">
+      <description>City</description>
+    </column>
+    <column name="CITY2" data_type="VARCHAR">
+      <description>District</description>
+    </column>
+    <column name="CITY_CODE" data_type="VARCHAR">
+      <description>City code for city/street file</description>
+    </column>
+    <column name="CITYP_CODE" data_type="VARCHAR">
+      <description>District code for City and Street file</description>
+    </column>
+    <column name="HOME_CITY" data_type="VARCHAR">
+      <description>City (different from postal city)</description>
+    </column>
+    <column name="CITYH_CODE" data_type="VARCHAR">
+      <description>Different city for city/street file</description>
+    </column>
+    <column name="CHCKSTATUS" data_type="VARCHAR">
+      <description>City file test status</description>
+    </column>
+    <column name="REGIOGROUP" data_type="VARCHAR">
+      <description>Regional structure grouping</description>
+    </column>
+    <column name="POST_CODE1" data_type="VARCHAR">
+      <description>City postal code</description>
+    </column>
+    <column name="POST_CODE2" data_type="VARCHAR">
+      <description>PO Box Postal Code</description>
+    </column>
+    <column name="POST_CODE3" data_type="VARCHAR">
+      <description>Company Postal Code (for Large Customers)</description>
+    </column>
+    <column name="PCODE1_EXT" data_type="VARCHAR">
+      <description>(Not Supported)City Postal Code Extension, e.g. ZIP+4+2 Code</description>
+    </column>
+    <column name="PCODE2_EXT" data_type="VARCHAR">
+      <description>(Not Supported) PO Box Postal Code Extension</description>
+    </column>
+    <column name="PCODE3_EXT" data_type="VARCHAR">
+      <description>(Not Supported) Major Customer Postal Code Extension</description>
+    </column>
+    <column name="PO_BOX" data_type="VARCHAR">
+      <description>PO Box</description>
+    </column>
+    <column name="DONT_USE_P" data_type="VARCHAR">
+      <description>PO Box Address Undeliverable Flag</description>
+    </column>
+    <column name="PO_BOX_NUM" data_type="VARCHAR">
+      <description>Flag: PO Box Without Number</description>
+    </column>
+    <column name="PO_BOX_LOC" data_type="VARCHAR">
+      <description>PO Box city</description>
+    </column>
+    <column name="CITY_CODE2" data_type="VARCHAR">
+      <description>City PO box code (City file)</description>
+    </column>
+    <column name="PO_BOX_REG" data_type="VARCHAR">
+      <description>Region for PO Box (Country/Region, State, Province, ...)</description>
+    </column>
+    <column name="PO_BOX_CTY" data_type="VARCHAR">
+      <description>PO box country</description>
+    </column>
+    <column name="POSTALAREA" data_type="VARCHAR">
+      <description>(Not Supported) Post Delivery District</description>
+    </column>
+    <column name="TRANSPZONE" data_type="VARCHAR">
+      <description>Transportation zone to or from which the goods are delivered</description>
+    </column>
+    <column name="STREET" data_type="VARCHAR">
+      <description>Street</description>
+    </column>
+    <column name="DONT_USE_S" data_type="VARCHAR">
+      <description>Street Address Undeliverable Flag</description>
+    </column>
+    <column name="STREETCODE" data_type="VARCHAR">
+      <description>Street Number for City/Street File</description>
+    </column>
+    <column name="STREETABBR" data_type="VARCHAR">
+      <description>(Not Supported) Abbreviation of Street Name</description>
+    </column>
+    <column name="HOUSE_NUM1" data_type="VARCHAR">
+      <description>House Number</description>
+    </column>
+    <column name="HOUSE_NUM2" data_type="VARCHAR">
+      <description>House number supplement</description>
+    </column>
+    <column name="HOUSE_NUM3" data_type="VARCHAR">
+      <description>(Not supported) House Number Range</description>
+    </column>
+    <column name="STR_SUPPL1" data_type="VARCHAR">
+      <description>Street 2</description>
+    </column>
+    <column name="STR_SUPPL2" data_type="VARCHAR">
+      <description>Street 3</description>
+    </column>
+    <column name="STR_SUPPL3" data_type="VARCHAR">
+      <description>Street 4</description>
+    </column>
+    <column name="LOCATION" data_type="VARCHAR">
+      <description>Street 5</description>
+    </column>
+    <column name="BUILDING" data_type="VARCHAR">
+      <description>Building (Number or Code)</description>
+    </column>
+    <column name="FLOOR" data_type="VARCHAR">
+      <description>Floor in building</description>
+    </column>
+    <column name="ROOMNUMBER" data_type="VARCHAR">
+      <description>Room or Apartment Number</description>
+    </column>
+    <column name="COUNTRY" data_type="VARCHAR">
+      <description>Country Key</description>
+    </column>
+    <column name="LANGU" data_type="VARCHAR">
+      <description>Language Key</description>
+    </column>
+    <column name="REGION" data_type="VARCHAR">
+      <description>Region (State, Province, County)</description>
+    </column>
+    <column name="ADDR_GROUP" data_type="VARCHAR">
+      <description>Address Group (Key) (Business Address Services)</description>
+    </column>
+    <column name="FLAGGROUPS" data_type="VARCHAR">
+      <description>Flag: There are more address group assignments</description>
+    </column>
+    <column name="PERS_ADDR" data_type="VARCHAR">
+      <description>Flag: This is a personal address</description>
+    </column>
+    <column name="SORT1" data_type="VARCHAR">
+      <description>Search Term 1</description>
+    </column>
+    <column name="SORT2" data_type="VARCHAR">
+      <description>Search Term 2</description>
+    </column>
+    <column name="SORT_PHN" data_type="VARCHAR">
+      <description>(Not Supported) Phonetic Search Sort Field</description>
+    </column>
+    <column name="DEFLT_COMM" data_type="VARCHAR">
+      <description>Communication Method (Key) (Business Address Services)</description>
+    </column>
+    <column name="TEL_NUMBER" data_type="VARCHAR">
+      <description>First Telephone No.: Dialing Code + Number</description>
+    </column>
+    <column name="TEL_EXTENS" data_type="VARCHAR">
+      <description>First Telephone No.: Extension</description>
+    </column>
+    <column name="FAX_NUMBER" data_type="VARCHAR">
+      <description>First Fax No.: Area Code + Number</description>
+    </column>
+    <column name="FAX_EXTENS" data_type="VARCHAR">
+      <description>First fax no.: extension</description>
+    </column>
+    <column name="FLAGCOMM2" data_type="VARCHAR">
+      <description>Flag: Telephone number(s) defined</description>
+    </column>
+    <column name="FLAGCOMM3" data_type="VARCHAR">
+      <description>Flag: Fax number(s) defined</description>
+    </column>
+    <column name="FLAGCOMM4" data_type="VARCHAR">
+      <description>Flag: Teletex number(s) defined</description>
+    </column>
+    <column name="FLAGCOMM5" data_type="VARCHAR">
+      <description>Flag: Telex number(s) defined</description>
+    </column>
+    <column name="FLAGCOMM6" data_type="VARCHAR">
+      <description>Flag: E-mail address(es) defined</description>
+    </column>
+    <column name="FLAGCOMM7" data_type="VARCHAR">
+      <description>Flag: RML (remote mail) addresse(s) defined</description>
+    </column>
+    <column name="FLAGCOMM8" data_type="VARCHAR">
+      <description>Flag: X.400 addresse(s) defined</description>
+    </column>
+    <column name="FLAGCOMM9" data_type="VARCHAR">
+      <description>Flag: RFC destination(s) defined</description>
+    </column>
+    <column name="FLAGCOMM10" data_type="VARCHAR">
+      <description>Flag: Printer defined</description>
+    </column>
+    <column name="FLAGCOMM11" data_type="VARCHAR">
+      <description>Flag: SSF defined</description>
+    </column>
+    <column name="FLAGCOMM12" data_type="VARCHAR">
+      <description>Flag: URI/FTP address defined</description>
+    </column>
+    <column name="FLAGCOMM13" data_type="VARCHAR">
+      <description>Flag: Pager address defined</description>
+    </column>
+    <column name="ADDRORIGIN" data_type="VARCHAR">
+      <description>(Not Supported) Address Data Source (Key)</description>
+    </column>
+    <column name="MC_NAME1" data_type="VARCHAR">
+      <description>Name (Field NAME1) in Uppercase for Search Help</description>
+    </column>
+    <column name="MC_CITY1" data_type="VARCHAR">
+      <description>City name in Uppercase for Search Help</description>
+    </column>
+    <column name="MC_STREET" data_type="VARCHAR">
+      <description>Street Name in Uppercase for Search Help</description>
+    </column>
+    <column name="EXTENSION1" data_type="VARCHAR">
+      <description>Extension (only for data conversion) (e.g. data line)</description>
+    </column>
+    <column name="EXTENSION2" data_type="VARCHAR">
+      <description>Extension (only for data conversion) (e.g. telebox)</description>
+    </column>
+    <column name="TIME_ZONE" data_type="VARCHAR">
+      <description>Address Time Zone</description>
+    </column>
+    <column name="TAXJURCODE" data_type="VARCHAR">
+      <description>Tax Jurisdiction</description>
+    </column>
+    <column name="ADDRESS_ID" data_type="VARCHAR">
+      <description>(Not supported) Physical address ID</description>
+    </column>
+    <column name="LANGU_CREA" data_type="VARCHAR">
+      <description>Address record creation original language</description>
+    </column>
+    <column name="ADRC_UUID" data_type="VARCHAR">
+      <description>UUID Used in the Address</description>
+    </column>
+    <column name="UUID_BELATED" data_type="VARCHAR">
+      <description>Indicator: UUID created later</description>
+    </column>
+    <column name="ID_CATEGORY" data_type="VARCHAR">
+      <description>Category of an Address ID</description>
+    </column>
+    <column name="ADRC_ERR_STATUS" data_type="VARCHAR">
+      <description>Error Status of Address</description>
+    </column>
+    <column name="PO_BOX_LOBBY" data_type="VARCHAR">
+      <description>PO Box Lobby</description>
+    </column>
+    <column name="DELI_SERV_TYPE" data_type="VARCHAR">
+      <description>Type of Delivery Service</description>
+    </column>
+    <column name="DELI_SERV_NUMBER" data_type="VARCHAR">
+      <description>Number of Delivery Service</description>
+    </column>
+    <column name="COUNTY_CODE" data_type="VARCHAR">
+      <description>County code for county</description>
+    </column>
+    <column name="COUNTY" data_type="VARCHAR">
+      <description>County</description>
+    </column>
+    <column name="TOWNSHIP_CODE" data_type="VARCHAR">
+      <description>Township code for Township</description>
+    </column>
+    <column name="TOWNSHIP" data_type="VARCHAR">
+      <description>Township</description>
+    </column>
+    <column name="MC_COUNTY" data_type="VARCHAR">
+      <description>County name in upper case for search help</description>
+    </column>
+    <column name="MC_TOWNSHIP" data_type="VARCHAR">
+      <description>Township name in upper case for search help</description>
+    </column>
+    <column name="XPCPT" data_type="VARCHAR">
+      <description>Business Purpose Completed Flag</description>
+    </column>
+  </columns>
+</data_description>

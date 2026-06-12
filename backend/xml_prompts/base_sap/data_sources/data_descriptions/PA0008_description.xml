@@ -1,0 +1,858 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="PA0008">
+  <table_info name="PA0008" total_columns="284"/>
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="PERNR" data_type="VARCHAR">
+      <description>Personnel Number</description>
+    </column>
+    <column name="SUBTY" data_type="VARCHAR">
+      <description>Subtype</description>
+    </column>
+    <column name="OBJPS" data_type="VARCHAR">
+      <description>Object Identification</description>
+    </column>
+    <column name="SPRPS" data_type="VARCHAR">
+      <description>Lock Indicator for HR Master Data Record</description>
+    </column>
+    <column name="ENDDA" data_type="DATE">
+      <description>End Date</description>
+    </column>
+    <column name="BEGDA" data_type="DATE">
+      <description>Start Date</description>
+    </column>
+    <column name="SEQNR" data_type="VARCHAR">
+      <description>Number of Infotype Record With Same Key</description>
+    </column>
+    <column name="AEDTM" data_type="DATE">
+      <description>Last Changed On</description>
+    </column>
+    <column name="UNAME" data_type="VARCHAR">
+      <description>Name of Person Who Changed Object</description>
+    </column>
+    <column name="HISTO" data_type="VARCHAR">
+      <description>Historical Record Flag</description>
+    </column>
+    <column name="ITXEX" data_type="VARCHAR">
+      <description>Text Exists for Infotype</description>
+    </column>
+    <column name="REFEX" data_type="VARCHAR">
+      <description>Reference Fields Exist (Primary/Secondary Costs)</description>
+    </column>
+    <column name="ORDEX" data_type="VARCHAR">
+      <description>Confirmation Fields Exist</description>
+    </column>
+    <column name="ITBLD" data_type="VARCHAR">
+      <description>Infotype Screen Control</description>
+    </column>
+    <column name="PREAS" data_type="VARCHAR">
+      <description>Reason for Changing Master Data</description>
+    </column>
+    <column name="FLAG1" data_type="VARCHAR">
+      <description>Reserved Field/Unused Field</description>
+    </column>
+    <column name="FLAG2" data_type="VARCHAR">
+      <description>Reserved Field/Unused Field</description>
+    </column>
+    <column name="FLAG3" data_type="VARCHAR">
+      <description>Reserved Field/Unused Field</description>
+    </column>
+    <column name="FLAG4" data_type="VARCHAR">
+      <description>Reserved Field/Unused Field</description>
+    </column>
+    <column name="RESE1" data_type="VARCHAR">
+      <description>Reserved Field/Unused Field of Length 2</description>
+    </column>
+    <column name="RESE2" data_type="VARCHAR">
+      <description>Reserved Field/Unused Field of Length 2</description>
+    </column>
+    <column name="GRPVL" data_type="VARCHAR">
+      <description>Grouping Value for Personnel Assignments</description>
+    </column>
+    <column name="TRFAR" data_type="VARCHAR">
+      <description>Pay scale type</description>
+    </column>
+    <column name="TRFGB" data_type="VARCHAR">
+      <description>Pay Scale Area</description>
+    </column>
+    <column name="TRFGR" data_type="VARCHAR">
+      <description>Pay Scale Group</description>
+    </column>
+    <column name="TRFST" data_type="VARCHAR">
+      <description>Pay Scale Level</description>
+    </column>
+    <column name="STVOR" data_type="DATE">
+      <description>Date of Next Increase</description>
+    </column>
+    <column name="ORZST" data_type="VARCHAR">
+      <description>Cost of Living Allowance Level</description>
+    </column>
+    <column name="PARTN" data_type="VARCHAR">
+      <description>Partnership</description>
+    </column>
+    <column name="WAERS" data_type="VARCHAR">
+      <description>Currency Key</description>
+    </column>
+    <column name="VGLTA" data_type="VARCHAR">
+      <description>Comparison pay scale type</description>
+    </column>
+    <column name="VGLGB" data_type="VARCHAR">
+      <description>Comparison pay scale area</description>
+    </column>
+    <column name="VGLGR" data_type="VARCHAR">
+      <description>Comparison pay scale group</description>
+    </column>
+    <column name="VGLST" data_type="VARCHAR">
+      <description>Comparison pay scale level</description>
+    </column>
+    <column name="VGLSV" data_type="DATE">
+      <description>Date of Next Increase</description>
+    </column>
+    <column name="BSGRD" data_type="DECIMAL">
+      <description>Capacity Utilization Level</description>
+    </column>
+    <column name="DIVGV" data_type="DECIMAL">
+      <description>Working Hours per Payroll Period</description>
+    </column>
+    <column name="ANSAL" data_type="DECIMAL">
+      <description>Annual salary</description>
+    </column>
+    <column name="FALGK" data_type="VARCHAR">
+      <description>Case group catalog</description>
+    </column>
+    <column name="FALGR" data_type="VARCHAR">
+      <description>Case group</description>
+    </column>
+    <column name="LGA01" data_type="VARCHAR">
+      <description>Wage Type</description>
+    </column>
+    <column name="BET01" data_type="DECIMAL">
+      <description>Wage Type Amount for Payments</description>
+    </column>
+    <column name="ANZ01" data_type="DECIMAL">
+      <description>Number</description>
+    </column>
+    <column name="EIN01" data_type="VARCHAR">
+      <description>Time/Measurement Unit</description>
+    </column>
+    <column name="OPK01" data_type="VARCHAR">
+      <description>Operation Indicator for Wage Types</description>
+    </column>
+    <column name="LGA02" data_type="VARCHAR">
+      <description>Wage Type</description>
+    </column>
+    <column name="BET02" data_type="DECIMAL">
+      <description>Wage Type Amount for Payments</description>
+    </column>
+    <column name="ANZ02" data_type="DECIMAL">
+      <description>Number</description>
+    </column>
+    <column name="EIN02" data_type="VARCHAR">
+      <description>Time/Measurement Unit</description>
+    </column>
+    <column name="OPK02" data_type="VARCHAR">
+      <description>Operation Indicator for Wage Types</description>
+    </column>
+    <column name="LGA03" data_type="VARCHAR">
+      <description>Wage Type</description>
+    </column>
+    <column name="BET03" data_type="DECIMAL">
+      <description>Wage Type Amount for Payments</description>
+    </column>
+    <column name="ANZ03" data_type="DECIMAL">
+      <description>Number</description>
+    </column>
+    <column name="EIN03" data_type="VARCHAR">
+      <description>Time/Measurement Unit</description>
+    </column>
+    <column name="OPK03" data_type="VARCHAR">
+      <description>Operation Indicator for Wage Types</description>
+    </column>
+    <column name="LGA04" data_type="VARCHAR">
+      <description>Wage Type</description>
+    </column>
+    <column name="BET04" data_type="DECIMAL">
+      <description>Wage Type Amount for Payments</description>
+    </column>
+    <column name="ANZ04" data_type="DECIMAL">
+      <description>Number</description>
+    </column>
+    <column name="EIN04" data_type="VARCHAR">
+      <description>Time/Measurement Unit</description>
+    </column>
+    <column name="OPK04" data_type="VARCHAR">
+      <description>Operation Indicator for Wage Types</description>
+    </column>
+    <column name="LGA05" data_type="VARCHAR">
+      <description>Wage Type</description>
+    </column>
+    <column name="BET05" data_type="DECIMAL">
+      <description>Wage Type Amount for Payments</description>
+    </column>
+    <column name="ANZ05" data_type="DECIMAL">
+      <description>Number</description>
+    </column>
+    <column name="EIN05" data_type="VARCHAR">
+      <description>Time/Measurement Unit</description>
+    </column>
+    <column name="OPK05" data_type="VARCHAR">
+      <description>Operation Indicator for Wage Types</description>
+    </column>
+    <column name="LGA06" data_type="VARCHAR">
+      <description>Wage Type</description>
+    </column>
+    <column name="BET06" data_type="DECIMAL">
+      <description>Wage Type Amount for Payments</description>
+    </column>
+    <column name="ANZ06" data_type="DECIMAL">
+      <description>Number</description>
+    </column>
+    <column name="EIN06" data_type="VARCHAR">
+      <description>Time/Measurement Unit</description>
+    </column>
+    <column name="OPK06" data_type="VARCHAR">
+      <description>Operation Indicator for Wage Types</description>
+    </column>
+    <column name="LGA07" data_type="VARCHAR">
+      <description>Wage Type</description>
+    </column>
+    <column name="BET07" data_type="DECIMAL">
+      <description>Wage Type Amount for Payments</description>
+    </column>
+    <column name="ANZ07" data_type="DECIMAL">
+      <description>Number</description>
+    </column>
+    <column name="EIN07" data_type="VARCHAR">
+      <description>Time/Measurement Unit</description>
+    </column>
+    <column name="OPK07" data_type="VARCHAR">
+      <description>Operation Indicator for Wage Types</description>
+    </column>
+    <column name="LGA08" data_type="VARCHAR">
+      <description>Wage Type</description>
+    </column>
+    <column name="BET08" data_type="DECIMAL">
+      <description>Wage Type Amount for Payments</description>
+    </column>
+    <column name="ANZ08" data_type="DECIMAL">
+      <description>Number</description>
+    </column>
+    <column name="EIN08" data_type="VARCHAR">
+      <description>Time/Measurement Unit</description>
+    </column>
+    <column name="OPK08" data_type="VARCHAR">
+      <description>Operation Indicator for Wage Types</description>
+    </column>
+    <column name="LGA09" data_type="VARCHAR">
+      <description>Wage Type</description>
+    </column>
+    <column name="BET09" data_type="DECIMAL">
+      <description>Wage Type Amount for Payments</description>
+    </column>
+    <column name="ANZ09" data_type="DECIMAL">
+      <description>Number</description>
+    </column>
+    <column name="EIN09" data_type="VARCHAR">
+      <description>Time/Measurement Unit</description>
+    </column>
+    <column name="OPK09" data_type="VARCHAR">
+      <description>Operation Indicator for Wage Types</description>
+    </column>
+    <column name="LGA10" data_type="VARCHAR">
+      <description>Wage Type</description>
+    </column>
+    <column name="BET10" data_type="DECIMAL">
+      <description>Wage Type Amount for Payments</description>
+    </column>
+    <column name="ANZ10" data_type="DECIMAL">
+      <description>Number</description>
+    </column>
+    <column name="EIN10" data_type="VARCHAR">
+      <description>Time/Measurement Unit</description>
+    </column>
+    <column name="OPK10" data_type="VARCHAR">
+      <description>Operation Indicator for Wage Types</description>
+    </column>
+    <column name="LGA11" data_type="VARCHAR">
+      <description>Wage Type</description>
+    </column>
+    <column name="BET11" data_type="DECIMAL">
+      <description>Wage Type Amount for Payments</description>
+    </column>
+    <column name="ANZ11" data_type="DECIMAL">
+      <description>Number</description>
+    </column>
+    <column name="EIN11" data_type="VARCHAR">
+      <description>Time/Measurement Unit</description>
+    </column>
+    <column name="OPK11" data_type="VARCHAR">
+      <description>Operation Indicator for Wage Types</description>
+    </column>
+    <column name="LGA12" data_type="VARCHAR">
+      <description>Wage Type</description>
+    </column>
+    <column name="BET12" data_type="DECIMAL">
+      <description>Wage Type Amount for Payments</description>
+    </column>
+    <column name="ANZ12" data_type="DECIMAL">
+      <description>Number</description>
+    </column>
+    <column name="EIN12" data_type="VARCHAR">
+      <description>Time/Measurement Unit</description>
+    </column>
+    <column name="OPK12" data_type="VARCHAR">
+      <description>Operation Indicator for Wage Types</description>
+    </column>
+    <column name="LGA13" data_type="VARCHAR">
+      <description>Wage Type</description>
+    </column>
+    <column name="BET13" data_type="DECIMAL">
+      <description>Wage Type Amount for Payments</description>
+    </column>
+    <column name="ANZ13" data_type="DECIMAL">
+      <description>Number</description>
+    </column>
+    <column name="EIN13" data_type="VARCHAR">
+      <description>Time/Measurement Unit</description>
+    </column>
+    <column name="OPK13" data_type="VARCHAR">
+      <description>Operation Indicator for Wage Types</description>
+    </column>
+    <column name="LGA14" data_type="VARCHAR">
+      <description>Wage Type</description>
+    </column>
+    <column name="BET14" data_type="DECIMAL">
+      <description>Wage Type Amount for Payments</description>
+    </column>
+    <column name="ANZ14" data_type="DECIMAL">
+      <description>Number</description>
+    </column>
+    <column name="EIN14" data_type="VARCHAR">
+      <description>Time/Measurement Unit</description>
+    </column>
+    <column name="OPK14" data_type="VARCHAR">
+      <description>Operation Indicator for Wage Types</description>
+    </column>
+    <column name="LGA15" data_type="VARCHAR">
+      <description>Wage Type</description>
+    </column>
+    <column name="BET15" data_type="DECIMAL">
+      <description>Wage Type Amount for Payments</description>
+    </column>
+    <column name="ANZ15" data_type="DECIMAL">
+      <description>Number</description>
+    </column>
+    <column name="EIN15" data_type="VARCHAR">
+      <description>Time/Measurement Unit</description>
+    </column>
+    <column name="OPK15" data_type="VARCHAR">
+      <description>Operation Indicator for Wage Types</description>
+    </column>
+    <column name="LGA16" data_type="VARCHAR">
+      <description>Wage Type</description>
+    </column>
+    <column name="BET16" data_type="DECIMAL">
+      <description>Wage Type Amount for Payments</description>
+    </column>
+    <column name="ANZ16" data_type="DECIMAL">
+      <description>Number</description>
+    </column>
+    <column name="EIN16" data_type="VARCHAR">
+      <description>Time/Measurement Unit</description>
+    </column>
+    <column name="OPK16" data_type="VARCHAR">
+      <description>Operation Indicator for Wage Types</description>
+    </column>
+    <column name="LGA17" data_type="VARCHAR">
+      <description>Wage Type</description>
+    </column>
+    <column name="BET17" data_type="DECIMAL">
+      <description>Wage Type Amount for Payments</description>
+    </column>
+    <column name="ANZ17" data_type="DECIMAL">
+      <description>Number</description>
+    </column>
+    <column name="EIN17" data_type="VARCHAR">
+      <description>Time/Measurement Unit</description>
+    </column>
+    <column name="OPK17" data_type="VARCHAR">
+      <description>Operation Indicator for Wage Types</description>
+    </column>
+    <column name="LGA18" data_type="VARCHAR">
+      <description>Wage Type</description>
+    </column>
+    <column name="BET18" data_type="DECIMAL">
+      <description>Wage Type Amount for Payments</description>
+    </column>
+    <column name="ANZ18" data_type="DECIMAL">
+      <description>Number</description>
+    </column>
+    <column name="EIN18" data_type="VARCHAR">
+      <description>Time/Measurement Unit</description>
+    </column>
+    <column name="OPK18" data_type="VARCHAR">
+      <description>Operation Indicator for Wage Types</description>
+    </column>
+    <column name="LGA19" data_type="VARCHAR">
+      <description>Wage Type</description>
+    </column>
+    <column name="BET19" data_type="DECIMAL">
+      <description>Wage Type Amount for Payments</description>
+    </column>
+    <column name="ANZ19" data_type="DECIMAL">
+      <description>Number</description>
+    </column>
+    <column name="EIN19" data_type="VARCHAR">
+      <description>Time/Measurement Unit</description>
+    </column>
+    <column name="OPK19" data_type="VARCHAR">
+      <description>Operation Indicator for Wage Types</description>
+    </column>
+    <column name="LGA20" data_type="VARCHAR">
+      <description>Wage Type</description>
+    </column>
+    <column name="BET20" data_type="DECIMAL">
+      <description>Wage Type Amount for Payments</description>
+    </column>
+    <column name="ANZ20" data_type="DECIMAL">
+      <description>Number</description>
+    </column>
+    <column name="EIN20" data_type="VARCHAR">
+      <description>Time/Measurement Unit</description>
+    </column>
+    <column name="OPK20" data_type="VARCHAR">
+      <description>Operation Indicator for Wage Types</description>
+    </column>
+    <column name="LGA21" data_type="VARCHAR">
+      <description>Wage Type</description>
+    </column>
+    <column name="BET21" data_type="DECIMAL">
+      <description>Wage Type Amount for Payments</description>
+    </column>
+    <column name="ANZ21" data_type="DECIMAL">
+      <description>Number</description>
+    </column>
+    <column name="EIN21" data_type="VARCHAR">
+      <description>Time/Measurement Unit</description>
+    </column>
+    <column name="OPK21" data_type="VARCHAR">
+      <description>Operation Indicator for Wage Types</description>
+    </column>
+    <column name="LGA22" data_type="VARCHAR">
+      <description>Wage Type</description>
+    </column>
+    <column name="BET22" data_type="DECIMAL">
+      <description>Wage Type Amount for Payments</description>
+    </column>
+    <column name="ANZ22" data_type="DECIMAL">
+      <description>Number</description>
+    </column>
+    <column name="EIN22" data_type="VARCHAR">
+      <description>Time/Measurement Unit</description>
+    </column>
+    <column name="OPK22" data_type="VARCHAR">
+      <description>Operation Indicator for Wage Types</description>
+    </column>
+    <column name="LGA23" data_type="VARCHAR">
+      <description>Wage Type</description>
+    </column>
+    <column name="BET23" data_type="DECIMAL">
+      <description>Wage Type Amount for Payments</description>
+    </column>
+    <column name="ANZ23" data_type="DECIMAL">
+      <description>Number</description>
+    </column>
+    <column name="EIN23" data_type="VARCHAR">
+      <description>Time/Measurement Unit</description>
+    </column>
+    <column name="OPK23" data_type="VARCHAR">
+      <description>Operation Indicator for Wage Types</description>
+    </column>
+    <column name="LGA24" data_type="VARCHAR">
+      <description>Wage Type</description>
+    </column>
+    <column name="BET24" data_type="DECIMAL">
+      <description>Wage Type Amount for Payments</description>
+    </column>
+    <column name="ANZ24" data_type="DECIMAL">
+      <description>Number</description>
+    </column>
+    <column name="EIN24" data_type="VARCHAR">
+      <description>Time/Measurement Unit</description>
+    </column>
+    <column name="OPK24" data_type="VARCHAR">
+      <description>Operation Indicator for Wage Types</description>
+    </column>
+    <column name="LGA25" data_type="VARCHAR">
+      <description>Wage Type</description>
+    </column>
+    <column name="BET25" data_type="DECIMAL">
+      <description>Wage Type Amount for Payments</description>
+    </column>
+    <column name="ANZ25" data_type="DECIMAL">
+      <description>Number</description>
+    </column>
+    <column name="EIN25" data_type="VARCHAR">
+      <description>Time/Measurement Unit</description>
+    </column>
+    <column name="OPK25" data_type="VARCHAR">
+      <description>Operation Indicator for Wage Types</description>
+    </column>
+    <column name="LGA26" data_type="VARCHAR">
+      <description>Wage Type</description>
+    </column>
+    <column name="BET26" data_type="DECIMAL">
+      <description>Wage Type Amount for Payments</description>
+    </column>
+    <column name="ANZ26" data_type="DECIMAL">
+      <description>Number</description>
+    </column>
+    <column name="EIN26" data_type="VARCHAR">
+      <description>Time/Measurement Unit</description>
+    </column>
+    <column name="OPK26" data_type="VARCHAR">
+      <description>Operation Indicator for Wage Types</description>
+    </column>
+    <column name="LGA27" data_type="VARCHAR">
+      <description>Wage Type</description>
+    </column>
+    <column name="BET27" data_type="DECIMAL">
+      <description>Wage Type Amount for Payments</description>
+    </column>
+    <column name="ANZ27" data_type="DECIMAL">
+      <description>Number</description>
+    </column>
+    <column name="EIN27" data_type="VARCHAR">
+      <description>Time/Measurement Unit</description>
+    </column>
+    <column name="OPK27" data_type="VARCHAR">
+      <description>Operation Indicator for Wage Types</description>
+    </column>
+    <column name="LGA28" data_type="VARCHAR">
+      <description>Wage Type</description>
+    </column>
+    <column name="BET28" data_type="DECIMAL">
+      <description>Wage Type Amount for Payments</description>
+    </column>
+    <column name="ANZ28" data_type="DECIMAL">
+      <description>Number</description>
+    </column>
+    <column name="EIN28" data_type="VARCHAR">
+      <description>Time/Measurement Unit</description>
+    </column>
+    <column name="OPK28" data_type="VARCHAR">
+      <description>Operation Indicator for Wage Types</description>
+    </column>
+    <column name="LGA29" data_type="VARCHAR">
+      <description>Wage Type</description>
+    </column>
+    <column name="BET29" data_type="DECIMAL">
+      <description>Wage Type Amount for Payments</description>
+    </column>
+    <column name="ANZ29" data_type="DECIMAL">
+      <description>Number</description>
+    </column>
+    <column name="EIN29" data_type="VARCHAR">
+      <description>Time/Measurement Unit</description>
+    </column>
+    <column name="OPK29" data_type="VARCHAR">
+      <description>Operation Indicator for Wage Types</description>
+    </column>
+    <column name="LGA30" data_type="VARCHAR">
+      <description>Wage Type</description>
+    </column>
+    <column name="BET30" data_type="DECIMAL">
+      <description>Wage Type Amount for Payments</description>
+    </column>
+    <column name="ANZ30" data_type="DECIMAL">
+      <description>Number</description>
+    </column>
+    <column name="EIN30" data_type="VARCHAR">
+      <description>Time/Measurement Unit</description>
+    </column>
+    <column name="OPK30" data_type="VARCHAR">
+      <description>Operation Indicator for Wage Types</description>
+    </column>
+    <column name="LGA31" data_type="VARCHAR">
+      <description>Wage Type</description>
+    </column>
+    <column name="BET31" data_type="DECIMAL">
+      <description>Wage Type Amount for Payments</description>
+    </column>
+    <column name="ANZ31" data_type="DECIMAL">
+      <description>Number</description>
+    </column>
+    <column name="EIN31" data_type="VARCHAR">
+      <description>Time/Measurement Unit</description>
+    </column>
+    <column name="OPK31" data_type="VARCHAR">
+      <description>Operation Indicator for Wage Types</description>
+    </column>
+    <column name="LGA32" data_type="VARCHAR">
+      <description>Wage Type</description>
+    </column>
+    <column name="BET32" data_type="DECIMAL">
+      <description>Wage Type Amount for Payments</description>
+    </column>
+    <column name="ANZ32" data_type="DECIMAL">
+      <description>Number</description>
+    </column>
+    <column name="EIN32" data_type="VARCHAR">
+      <description>Time/Measurement Unit</description>
+    </column>
+    <column name="OPK32" data_type="VARCHAR">
+      <description>Operation Indicator for Wage Types</description>
+    </column>
+    <column name="LGA33" data_type="VARCHAR">
+      <description>Wage Type</description>
+    </column>
+    <column name="BET33" data_type="DECIMAL">
+      <description>Wage Type Amount for Payments</description>
+    </column>
+    <column name="ANZ33" data_type="DECIMAL">
+      <description>Number</description>
+    </column>
+    <column name="EIN33" data_type="VARCHAR">
+      <description>Time/Measurement Unit</description>
+    </column>
+    <column name="OPK33" data_type="VARCHAR">
+      <description>Operation Indicator for Wage Types</description>
+    </column>
+    <column name="LGA34" data_type="VARCHAR">
+      <description>Wage Type</description>
+    </column>
+    <column name="BET34" data_type="DECIMAL">
+      <description>Wage Type Amount for Payments</description>
+    </column>
+    <column name="ANZ34" data_type="DECIMAL">
+      <description>Number</description>
+    </column>
+    <column name="EIN34" data_type="VARCHAR">
+      <description>Time/Measurement Unit</description>
+    </column>
+    <column name="OPK34" data_type="VARCHAR">
+      <description>Operation Indicator for Wage Types</description>
+    </column>
+    <column name="LGA35" data_type="VARCHAR">
+      <description>Wage Type</description>
+    </column>
+    <column name="BET35" data_type="DECIMAL">
+      <description>Wage Type Amount for Payments</description>
+    </column>
+    <column name="ANZ35" data_type="DECIMAL">
+      <description>Number</description>
+    </column>
+    <column name="EIN35" data_type="VARCHAR">
+      <description>Time/Measurement Unit</description>
+    </column>
+    <column name="OPK35" data_type="VARCHAR">
+      <description>Operation Indicator for Wage Types</description>
+    </column>
+    <column name="LGA36" data_type="VARCHAR">
+      <description>Wage Type</description>
+    </column>
+    <column name="BET36" data_type="DECIMAL">
+      <description>Wage Type Amount for Payments</description>
+    </column>
+    <column name="ANZ36" data_type="DECIMAL">
+      <description>Number</description>
+    </column>
+    <column name="EIN36" data_type="VARCHAR">
+      <description>Time/Measurement Unit</description>
+    </column>
+    <column name="OPK36" data_type="VARCHAR">
+      <description>Operation Indicator for Wage Types</description>
+    </column>
+    <column name="LGA37" data_type="VARCHAR">
+      <description>Wage Type</description>
+    </column>
+    <column name="BET37" data_type="DECIMAL">
+      <description>Wage Type Amount for Payments</description>
+    </column>
+    <column name="ANZ37" data_type="DECIMAL">
+      <description>Number</description>
+    </column>
+    <column name="EIN37" data_type="VARCHAR">
+      <description>Time/Measurement Unit</description>
+    </column>
+    <column name="OPK37" data_type="VARCHAR">
+      <description>Operation Indicator for Wage Types</description>
+    </column>
+    <column name="LGA38" data_type="VARCHAR">
+      <description>Wage Type</description>
+    </column>
+    <column name="BET38" data_type="DECIMAL">
+      <description>Wage Type Amount for Payments</description>
+    </column>
+    <column name="ANZ38" data_type="DECIMAL">
+      <description>Number</description>
+    </column>
+    <column name="EIN38" data_type="VARCHAR">
+      <description>Time/Measurement Unit</description>
+    </column>
+    <column name="OPK38" data_type="VARCHAR">
+      <description>Operation Indicator for Wage Types</description>
+    </column>
+    <column name="LGA39" data_type="VARCHAR">
+      <description>Wage Type</description>
+    </column>
+    <column name="BET39" data_type="DECIMAL">
+      <description>Wage Type Amount for Payments</description>
+    </column>
+    <column name="ANZ39" data_type="DECIMAL">
+      <description>Number</description>
+    </column>
+    <column name="EIN39" data_type="VARCHAR">
+      <description>Time/Measurement Unit</description>
+    </column>
+    <column name="OPK39" data_type="VARCHAR">
+      <description>Operation Indicator for Wage Types</description>
+    </column>
+    <column name="LGA40" data_type="VARCHAR">
+      <description>Wage Type</description>
+    </column>
+    <column name="BET40" data_type="DECIMAL">
+      <description>Wage Type Amount for Payments</description>
+    </column>
+    <column name="ANZ40" data_type="DECIMAL">
+      <description>Number</description>
+    </column>
+    <column name="EIN40" data_type="VARCHAR">
+      <description>Time/Measurement Unit</description>
+    </column>
+    <column name="OPK40" data_type="VARCHAR">
+      <description>Operation Indicator for Wage Types</description>
+    </column>
+    <column name="IND01" data_type="VARCHAR">
+      <description>Indicator for indirect valuation</description>
+    </column>
+    <column name="IND02" data_type="VARCHAR">
+      <description>Indicator for indirect valuation</description>
+    </column>
+    <column name="IND03" data_type="VARCHAR">
+      <description>Indicator for indirect valuation</description>
+    </column>
+    <column name="IND04" data_type="VARCHAR">
+      <description>Indicator for indirect valuation</description>
+    </column>
+    <column name="IND05" data_type="VARCHAR">
+      <description>Indicator for indirect valuation</description>
+    </column>
+    <column name="IND06" data_type="VARCHAR">
+      <description>Indicator for indirect valuation</description>
+    </column>
+    <column name="IND07" data_type="VARCHAR">
+      <description>Indicator for indirect valuation</description>
+    </column>
+    <column name="IND08" data_type="VARCHAR">
+      <description>Indicator for indirect valuation</description>
+    </column>
+    <column name="IND09" data_type="VARCHAR">
+      <description>Indicator for indirect valuation</description>
+    </column>
+    <column name="IND10" data_type="VARCHAR">
+      <description>Indicator for indirect valuation</description>
+    </column>
+    <column name="IND11" data_type="VARCHAR">
+      <description>Indicator for indirect valuation</description>
+    </column>
+    <column name="IND12" data_type="VARCHAR">
+      <description>Indicator for indirect valuation</description>
+    </column>
+    <column name="IND13" data_type="VARCHAR">
+      <description>Indicator for indirect valuation</description>
+    </column>
+    <column name="IND14" data_type="VARCHAR">
+      <description>Indicator for indirect valuation</description>
+    </column>
+    <column name="IND15" data_type="VARCHAR">
+      <description>Indicator for indirect valuation</description>
+    </column>
+    <column name="IND16" data_type="VARCHAR">
+      <description>Indicator for indirect valuation</description>
+    </column>
+    <column name="IND17" data_type="VARCHAR">
+      <description>Indicator for indirect valuation</description>
+    </column>
+    <column name="IND18" data_type="VARCHAR">
+      <description>Indicator for indirect valuation</description>
+    </column>
+    <column name="IND19" data_type="VARCHAR">
+      <description>Indicator for indirect valuation</description>
+    </column>
+    <column name="IND20" data_type="VARCHAR">
+      <description>Indicator for indirect valuation</description>
+    </column>
+    <column name="IND21" data_type="VARCHAR">
+      <description>Indicator for indirect valuation</description>
+    </column>
+    <column name="IND22" data_type="VARCHAR">
+      <description>Indicator for indirect valuation</description>
+    </column>
+    <column name="IND23" data_type="VARCHAR">
+      <description>Indicator for indirect valuation</description>
+    </column>
+    <column name="IND24" data_type="VARCHAR">
+      <description>Indicator for indirect valuation</description>
+    </column>
+    <column name="IND25" data_type="VARCHAR">
+      <description>Indicator for indirect valuation</description>
+    </column>
+    <column name="IND26" data_type="VARCHAR">
+      <description>Indicator for indirect valuation</description>
+    </column>
+    <column name="IND27" data_type="VARCHAR">
+      <description>Indicator for indirect valuation</description>
+    </column>
+    <column name="IND28" data_type="VARCHAR">
+      <description>Indicator for indirect valuation</description>
+    </column>
+    <column name="IND29" data_type="VARCHAR">
+      <description>Indicator for indirect valuation</description>
+    </column>
+    <column name="IND30" data_type="VARCHAR">
+      <description>Indicator for indirect valuation</description>
+    </column>
+    <column name="IND31" data_type="VARCHAR">
+      <description>Indicator for indirect valuation</description>
+    </column>
+    <column name="IND32" data_type="VARCHAR">
+      <description>Indicator for indirect valuation</description>
+    </column>
+    <column name="IND33" data_type="VARCHAR">
+      <description>Indicator for indirect valuation</description>
+    </column>
+    <column name="IND34" data_type="VARCHAR">
+      <description>Indicator for indirect valuation</description>
+    </column>
+    <column name="IND35" data_type="VARCHAR">
+      <description>Indicator for indirect valuation</description>
+    </column>
+    <column name="IND36" data_type="VARCHAR">
+      <description>Indicator for indirect valuation</description>
+    </column>
+    <column name="IND37" data_type="VARCHAR">
+      <description>Indicator for indirect valuation</description>
+    </column>
+    <column name="IND38" data_type="VARCHAR">
+      <description>Indicator for indirect valuation</description>
+    </column>
+    <column name="IND39" data_type="VARCHAR">
+      <description>Indicator for indirect valuation</description>
+    </column>
+    <column name="IND40" data_type="VARCHAR">
+      <description>Indicator for indirect valuation</description>
+    </column>
+    <column name="ANCUR" data_type="VARCHAR">
+      <description>Currency Key for Annual Salary</description>
+    </column>
+    <column name="CPIND" data_type="VARCHAR">
+      <description>Planned compensation type</description>
+    </column>
+    <column name="FLAGA" data_type="VARCHAR">
+      <description>General Flag</description>
+    </column>
+  </columns>
+</data_description>

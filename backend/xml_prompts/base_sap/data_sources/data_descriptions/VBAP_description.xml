@@ -1,0 +1,1179 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="VBAP">
+  <table_info name="VBAP" total_columns="391"/>
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="VBELN" data_type="VARCHAR">
+      <description>Sales Document</description>
+    </column>
+    <column name="POSNR" data_type="VARCHAR">
+      <description>Sales Document Item</description>
+    </column>
+    <column name="MATNR" data_type="VARCHAR">
+      <description>Material Number</description>
+    </column>
+    <column name="MATWA" data_type="VARCHAR">
+      <description>Material entered</description>
+    </column>
+    <column name="PMATN" data_type="VARCHAR">
+      <description>Pricing Reference Material</description>
+    </column>
+    <column name="CHARG" data_type="VARCHAR">
+      <description>Batch Number</description>
+    </column>
+    <column name="MATKL" data_type="VARCHAR">
+      <description>Material Group</description>
+    </column>
+    <column name="ARKTX" data_type="VARCHAR">
+      <description>Short text for sales order item</description>
+    </column>
+    <column name="PSTYV" data_type="VARCHAR">
+      <description>Sales Document Item Category</description>
+    </column>
+    <column name="POSAR" data_type="VARCHAR">
+      <description>Item type</description>
+    </column>
+    <column name="LFREL" data_type="VARCHAR">
+      <description>Item is relevant for delivery</description>
+    </column>
+    <column name="FKREL" data_type="VARCHAR">
+      <description>Relevant for Billing</description>
+    </column>
+    <column name="UEPOS" data_type="VARCHAR">
+      <description>Higher-level item in bill of material structures</description>
+    </column>
+    <column name="GRPOS" data_type="VARCHAR">
+      <description>Item for which this item is an alternative</description>
+    </column>
+    <column name="ABGRU" data_type="VARCHAR">
+      <description>Reason for rejection of quotations and sales orders</description>
+    </column>
+    <column name="PRODH" data_type="VARCHAR">
+      <description>Product Hierarchy</description>
+    </column>
+    <column name="ZWERT" data_type="DECIMAL">
+      <description>Target Value for Outline Agreement in Document Currency</description>
+    </column>
+    <column name="ZMENG" data_type="DECIMAL">
+      <description>Target quantity in sales units</description>
+    </column>
+    <column name="ZIEME" data_type="VARCHAR">
+      <description>Target quantity UoM</description>
+    </column>
+    <column name="UMZIZ" data_type="DECIMAL">
+      <description>Factor for converting sales units to base units (target qty)</description>
+    </column>
+    <column name="UMZIN" data_type="DECIMAL">
+      <description>Factor for converting sales units to base units (target qty)</description>
+    </column>
+    <column name="MEINS" data_type="VARCHAR">
+      <description>Base Unit of Measure</description>
+    </column>
+    <column name="SMENG" data_type="DECIMAL">
+      <description>Scale quantity in base unit of measure</description>
+    </column>
+    <column name="ABLFZ" data_type="DECIMAL">
+      <description>Rounding quantity for delivery</description>
+    </column>
+    <column name="ABDAT" data_type="DATE">
+      <description>Reconciliation date for agreed cumulative quantity</description>
+    </column>
+    <column name="ABSFZ" data_type="DECIMAL">
+      <description>Allowed deviation in quantity (absolute)</description>
+    </column>
+    <column name="POSEX" data_type="VARCHAR">
+      <description>Item Number of the Underlying Purchase Order</description>
+    </column>
+    <column name="KDMAT" data_type="VARCHAR">
+      <description>Material Number Used by Customer</description>
+    </column>
+    <column name="KBVER" data_type="DECIMAL">
+      <description>Allowed deviation in quantity (in percent)</description>
+    </column>
+    <column name="KEVER" data_type="DECIMAL">
+      <description>Days by which the quantity can be shifted</description>
+    </column>
+    <column name="VKGRU" data_type="VARCHAR">
+      <description>Repair Processing: Classification of Items</description>
+    </column>
+    <column name="VKAUS" data_type="VARCHAR">
+      <description>Usage Indicator</description>
+    </column>
+    <column name="GRKOR" data_type="VARCHAR">
+      <description>Delivery group (items are delivered together)</description>
+    </column>
+    <column name="FMENG" data_type="VARCHAR">
+      <description>Quantity is fixed</description>
+    </column>
+    <column name="UEBTK" data_type="VARCHAR">
+      <description>Unlimited overdelivery allowed</description>
+    </column>
+    <column name="UEBTO" data_type="DECIMAL">
+      <description>Overdelivery Tolerance Limit</description>
+    </column>
+    <column name="UNTTO" data_type="DECIMAL">
+      <description>Underdelivery Tolerance Limit</description>
+    </column>
+    <column name="FAKSP" data_type="VARCHAR">
+      <description>Billing block for item</description>
+    </column>
+    <column name="ATPKZ" data_type="VARCHAR">
+      <description>Replacement part</description>
+    </column>
+    <column name="RKFKF" data_type="VARCHAR">
+      <description>Method of billing for CO/PPC orders</description>
+    </column>
+    <column name="SPART" data_type="VARCHAR">
+      <description>Division</description>
+    </column>
+    <column name="GSBER" data_type="VARCHAR">
+      <description>Business Area</description>
+    </column>
+    <column name="NETWR" data_type="DECIMAL">
+      <description>Net value of the order item in document currency</description>
+    </column>
+    <column name="WAERK" data_type="VARCHAR">
+      <description>SD Document Currency</description>
+    </column>
+    <column name="ANTLF" data_type="DECIMAL">
+      <description>Maximum Number of Partial Deliveries Allowed Per Item</description>
+    </column>
+    <column name="KZTLF" data_type="VARCHAR">
+      <description>Partial Delivery at Item Level</description>
+    </column>
+    <column name="CHSPL" data_type="VARCHAR">
+      <description>Batch split allowed</description>
+    </column>
+    <column name="KWMENG" data_type="DECIMAL">
+      <description>Cumulative Order Quantity in Sales Units</description>
+    </column>
+    <column name="LSMENG" data_type="DECIMAL">
+      <description>Cumulative required delivery qty (all dlv-relev.sched.lines)</description>
+    </column>
+    <column name="KBMENG" data_type="DECIMAL">
+      <description>Cumulative confirmed quantity in sales unit</description>
+    </column>
+    <column name="KLMENG" data_type="DECIMAL">
+      <description>Cumulative confirmed quantity in base unit</description>
+    </column>
+    <column name="VRKME" data_type="VARCHAR">
+      <description>Sales Unit</description>
+    </column>
+    <column name="UMVKZ" data_type="DECIMAL">
+      <description>Numerator (factor) for conversion of sales quantity into SKU</description>
+    </column>
+    <column name="UMVKN" data_type="DECIMAL">
+      <description>Denominator (Divisor) for Conversion of Sales Qty into SKU</description>
+    </column>
+    <column name="BRGEW" data_type="DECIMAL">
+      <description>Gross Weight of the Item</description>
+    </column>
+    <column name="NTGEW" data_type="DECIMAL">
+      <description>Net Weight of the Item</description>
+    </column>
+    <column name="GEWEI" data_type="VARCHAR">
+      <description>Unit of Weight</description>
+    </column>
+    <column name="VOLUM" data_type="DECIMAL">
+      <description>Volume of the item</description>
+    </column>
+    <column name="VOLEH" data_type="VARCHAR">
+      <description>Volume Unit</description>
+    </column>
+    <column name="VBELV" data_type="VARCHAR">
+      <description>Originating Document</description>
+    </column>
+    <column name="POSNV" data_type="VARCHAR">
+      <description>Originating item</description>
+    </column>
+    <column name="VGBEL" data_type="VARCHAR">
+      <description>Document Number of Reference Document</description>
+    </column>
+    <column name="VGPOS" data_type="VARCHAR">
+      <description>Item Number of the Reference Item</description>
+    </column>
+    <column name="VOREF" data_type="VARCHAR">
+      <description>Complete reference indicator</description>
+    </column>
+    <column name="UPFLU" data_type="VARCHAR">
+      <description>Update indicator for sales document document flow</description>
+    </column>
+    <column name="ERLRE" data_type="VARCHAR">
+      <description>Completion rule for quotation / contract</description>
+    </column>
+    <column name="LPRIO" data_type="VARCHAR">
+      <description>Delivery Priority</description>
+    </column>
+    <column name="WERKS" data_type="VARCHAR">
+      <description>Plant (Own or External)</description>
+    </column>
+    <column name="LGORT" data_type="VARCHAR">
+      <description>Storage Location</description>
+    </column>
+    <column name="VSTEL" data_type="VARCHAR">
+      <description>Shipping Point/Receiving Point</description>
+    </column>
+    <column name="ROUTE" data_type="VARCHAR">
+      <description>Route</description>
+    </column>
+    <column name="STKEY" data_type="VARCHAR">
+      <description>Origin of the bill of material</description>
+    </column>
+    <column name="STDAT" data_type="DATE">
+      <description>Key date of the bill of material</description>
+    </column>
+    <column name="STLNR" data_type="VARCHAR">
+      <description>Bill of material</description>
+    </column>
+    <column name="STPOS" data_type="DECIMAL">
+      <description>Bill of material item number VBAP not used</description>
+    </column>
+    <column name="AWAHR" data_type="VARCHAR">
+      <description>Order probability of the item</description>
+    </column>
+    <column name="ERDAT" data_type="DATE">
+      <description>Date on Which Record Was Created</description>
+    </column>
+    <column name="ERNAM" data_type="VARCHAR">
+      <description>Name of Person Responsible for Creating the Object</description>
+    </column>
+    <column name="ERZET" data_type="TIME">
+      <description>Entry time</description>
+    </column>
+    <column name="TAXM1" data_type="VARCHAR">
+      <description>Tax classification material</description>
+    </column>
+    <column name="TAXM2" data_type="VARCHAR">
+      <description>Tax classification material</description>
+    </column>
+    <column name="TAXM3" data_type="VARCHAR">
+      <description>Tax classification material</description>
+    </column>
+    <column name="TAXM4" data_type="VARCHAR">
+      <description>Tax classification material</description>
+    </column>
+    <column name="TAXM5" data_type="VARCHAR">
+      <description>Tax classification material</description>
+    </column>
+    <column name="TAXM6" data_type="VARCHAR">
+      <description>Tax classification material</description>
+    </column>
+    <column name="TAXM7" data_type="VARCHAR">
+      <description>Tax classification material</description>
+    </column>
+    <column name="TAXM8" data_type="VARCHAR">
+      <description>Tax classification material</description>
+    </column>
+    <column name="TAXM9" data_type="VARCHAR">
+      <description>Tax classification material</description>
+    </column>
+    <column name="VBEAF" data_type="DECIMAL">
+      <description>Fixed shipping processing time in days (= setup time)</description>
+    </column>
+    <column name="VBEAV" data_type="DECIMAL">
+      <description>Variable shipping processing time in days</description>
+    </column>
+    <column name="VGREF" data_type="VARCHAR">
+      <description>Preceding document has resulted from reference</description>
+    </column>
+    <column name="NETPR" data_type="DECIMAL">
+      <description>Net price</description>
+    </column>
+    <column name="KPEIN" data_type="DECIMAL">
+      <description>Condition pricing unit</description>
+    </column>
+    <column name="KMEIN" data_type="VARCHAR">
+      <description>Condition unit</description>
+    </column>
+    <column name="SHKZG" data_type="VARCHAR">
+      <description>Returns Item</description>
+    </column>
+    <column name="SKTOF" data_type="VARCHAR">
+      <description>Cash discount indicator</description>
+    </column>
+    <column name="MTVFP" data_type="VARCHAR">
+      <description>Checking Group for Availability Check</description>
+    </column>
+    <column name="SUMBD" data_type="VARCHAR">
+      <description>Summing up of requirements</description>
+    </column>
+    <column name="KONDM" data_type="VARCHAR">
+      <description>Material Pricing Group</description>
+    </column>
+    <column name="KTGRM" data_type="VARCHAR">
+      <description>Account assignment group for this material</description>
+    </column>
+    <column name="BONUS" data_type="VARCHAR">
+      <description>Volume rebate group</description>
+    </column>
+    <column name="PROVG" data_type="VARCHAR">
+      <description>Commission group</description>
+    </column>
+    <column name="EANNR" data_type="VARCHAR">
+      <description>European Article Number (EAN) - obsolete!!!!!</description>
+    </column>
+    <column name="PRSOK" data_type="VARCHAR">
+      <description>Pricing is OK</description>
+    </column>
+    <column name="BWTAR" data_type="VARCHAR">
+      <description>Valuation Type</description>
+    </column>
+    <column name="BWTEX" data_type="VARCHAR">
+      <description>Indicator: Separate valuation</description>
+    </column>
+    <column name="XCHPF" data_type="VARCHAR">
+      <description>Batch management requirement indicator</description>
+    </column>
+    <column name="XCHAR" data_type="VARCHAR">
+      <description>Batch management indicator (internal)</description>
+    </column>
+    <column name="LFMNG" data_type="DECIMAL">
+      <description>Minimum delivery quantity in delivery note processing</description>
+    </column>
+    <column name="STAFO" data_type="VARCHAR">
+      <description>Update group for statistics update</description>
+    </column>
+    <column name="WAVWR" data_type="DECIMAL">
+      <description>Cost in document currency</description>
+    </column>
+    <column name="KZWI1" data_type="DECIMAL">
+      <description>Subtotal 1 from pricing procedure for condition</description>
+    </column>
+    <column name="KZWI2" data_type="DECIMAL">
+      <description>Subtotal 2 from pricing procedure for condition</description>
+    </column>
+    <column name="KZWI3" data_type="DECIMAL">
+      <description>Subtotal 3 from pricing procedure for condition</description>
+    </column>
+    <column name="KZWI4" data_type="DECIMAL">
+      <description>Subtotal 4 from pricing procedure for condition</description>
+    </column>
+    <column name="KZWI5" data_type="DECIMAL">
+      <description>Subtotal 5 from pricing procedure for condition</description>
+    </column>
+    <column name="KZWI6" data_type="DECIMAL">
+      <description>Subtotal 6 from pricing procedure for condition</description>
+    </column>
+    <column name="STCUR" data_type="DECIMAL">
+      <description>Exchange rate for statistics (Exch.rate at time of creation)</description>
+    </column>
+    <column name="AEDAT" data_type="DATE">
+      <description>Last Changed On</description>
+    </column>
+    <column name="EAN11" data_type="VARCHAR">
+      <description>International Article Number (EAN/UPC)</description>
+    </column>
+    <column name="FIXMG" data_type="VARCHAR">
+      <description>Delivery date and quantity fixed</description>
+    </column>
+    <column name="PRCTR" data_type="VARCHAR">
+      <description>Profit Center</description>
+    </column>
+    <column name="MVGR1" data_type="VARCHAR">
+      <description>Material group 1</description>
+    </column>
+    <column name="MVGR2" data_type="VARCHAR">
+      <description>Material group 2</description>
+    </column>
+    <column name="MVGR3" data_type="VARCHAR">
+      <description>Material group 3</description>
+    </column>
+    <column name="MVGR4" data_type="VARCHAR">
+      <description>Material group 4</description>
+    </column>
+    <column name="MVGR5" data_type="VARCHAR">
+      <description>Material group 5</description>
+    </column>
+    <column name="KMPMG" data_type="DECIMAL">
+      <description>Component quantity</description>
+    </column>
+    <column name="SUGRD" data_type="VARCHAR">
+      <description>Reason for material substitution</description>
+    </column>
+    <column name="SOBKZ" data_type="VARCHAR">
+      <description>Special Stock Indicator</description>
+    </column>
+    <column name="VPZUO" data_type="VARCHAR">
+      <description>Allocation Indicator</description>
+    </column>
+    <column name="PAOBJNR" data_type="VARCHAR">
+      <description>Profitability Segment Number (CO-PA)</description>
+    </column>
+    <column name="PS_PSP_PNR" data_type="VARCHAR">
+      <description>Work Breakdown Structure Element (WBS Element)</description>
+    </column>
+    <column name="AUFNR" data_type="VARCHAR">
+      <description>Order Number</description>
+    </column>
+    <column name="VPMAT" data_type="VARCHAR">
+      <description>Planning material</description>
+    </column>
+    <column name="VPWRK" data_type="VARCHAR">
+      <description>Planning plant</description>
+    </column>
+    <column name="PRBME" data_type="VARCHAR">
+      <description>Base unit of measure for product group</description>
+    </column>
+    <column name="UMREF" data_type="FLOAT">
+      <description>Conversion factor: quantities</description>
+    </column>
+    <column name="KNTTP" data_type="VARCHAR">
+      <description>Account Assignment Category</description>
+    </column>
+    <column name="KZVBR" data_type="VARCHAR">
+      <description>Consumption posting</description>
+    </column>
+    <column name="SERNR" data_type="VARCHAR">
+      <description>BOM explosion number</description>
+    </column>
+    <column name="OBJNR" data_type="VARCHAR">
+      <description>Object number at item level</description>
+    </column>
+    <column name="ABGRS" data_type="VARCHAR">
+      <description>Results Analysis Key</description>
+    </column>
+    <column name="BEDAE" data_type="VARCHAR">
+      <description>Requirements type</description>
+    </column>
+    <column name="CMPRE" data_type="DECIMAL">
+      <description>Item credit price</description>
+    </column>
+    <column name="CMTFG" data_type="VARCHAR">
+      <description>ID for partial release of order item, credit block</description>
+    </column>
+    <column name="CMPNT" data_type="VARCHAR">
+      <description>ID: Item with active credit function / relevant for credit</description>
+    </column>
+    <column name="CMKUA" data_type="DECIMAL">
+      <description>Credit data exchange rate for requested delivery date</description>
+    </column>
+    <column name="CUOBJ" data_type="VARCHAR">
+      <description>Configuration</description>
+    </column>
+    <column name="CUOBJ_CH" data_type="VARCHAR">
+      <description>Internal object number of the batch classification</description>
+    </column>
+    <column name="CEPOK" data_type="VARCHAR">
+      <description>Status expected price</description>
+    </column>
+    <column name="KOUPD" data_type="VARCHAR">
+      <description>Condition update</description>
+    </column>
+    <column name="SERAIL" data_type="VARCHAR">
+      <description>Serial Number Profile</description>
+    </column>
+    <column name="ANZSN" data_type="INTEGER">
+      <description>Number of serial numbers</description>
+    </column>
+    <column name="NACHL" data_type="VARCHAR">
+      <description>Customer has not posted goods receipt</description>
+    </column>
+    <column name="MAGRV" data_type="VARCHAR">
+      <description>Material Group: Packaging Materials</description>
+    </column>
+    <column name="MPROK" data_type="VARCHAR">
+      <description>Status manual price change</description>
+    </column>
+    <column name="VGTYP" data_type="VARCHAR">
+      <description>Document category of preceding SD document</description>
+    </column>
+    <column name="PROSA" data_type="VARCHAR">
+      <description>ID for material determination</description>
+    </column>
+    <column name="UEPVW" data_type="VARCHAR">
+      <description>ID for higher-level item usage</description>
+    </column>
+    <column name="KALNR" data_type="VARCHAR">
+      <description>Cost Estimate Number for Cost Est. w/o Qty Structure</description>
+    </column>
+    <column name="KLVAR" data_type="VARCHAR">
+      <description>Costing Variant</description>
+    </column>
+    <column name="SPOSN" data_type="VARCHAR">
+      <description>BOM Item Number</description>
+    </column>
+    <column name="KOWRR" data_type="VARCHAR">
+      <description>Statistical values</description>
+    </column>
+    <column name="STADAT" data_type="DATE">
+      <description>Statistics date</description>
+    </column>
+    <column name="EXART" data_type="VARCHAR">
+      <description>Business Transaction Type for Foreign Trade</description>
+    </column>
+    <column name="PREFE" data_type="VARCHAR">
+      <description>Eligible for preferential treatment</description>
+    </column>
+    <column name="KNUMH" data_type="VARCHAR">
+      <description>Number of condition record from batch determination</description>
+    </column>
+    <column name="CLINT" data_type="VARCHAR">
+      <description>Internal Class Number</description>
+    </column>
+    <column name="CHMVS" data_type="VARCHAR">
+      <description>Batches: Exit to quantity proposal</description>
+    </column>
+    <column name="STLTY" data_type="VARCHAR">
+      <description>BOM category</description>
+    </column>
+    <column name="STLKN" data_type="VARCHAR">
+      <description>BOM item node number</description>
+    </column>
+    <column name="STPOZ" data_type="VARCHAR">
+      <description>Internal counter</description>
+    </column>
+    <column name="STMAN" data_type="VARCHAR">
+      <description>Inconsistent configuration</description>
+    </column>
+    <column name="ZSCHL_K" data_type="VARCHAR">
+      <description>Overhead key</description>
+    </column>
+    <column name="KALSM_K" data_type="VARCHAR">
+      <description>Costing Sheet</description>
+    </column>
+    <column name="KALVAR" data_type="VARCHAR">
+      <description>Costing Variant</description>
+    </column>
+    <column name="KOSCH" data_type="VARCHAR">
+      <description>Product allocation determination procedure</description>
+    </column>
+    <column name="UPMAT" data_type="VARCHAR">
+      <description>Pricing reference material of main item</description>
+    </column>
+    <column name="UKONM" data_type="VARCHAR">
+      <description>Material pricing group of main item</description>
+    </column>
+    <column name="MFRGR" data_type="VARCHAR">
+      <description>Material freight group</description>
+    </column>
+    <column name="PLAVO" data_type="VARCHAR">
+      <description>Planning delivery schedule instruction</description>
+    </column>
+    <column name="KANNR" data_type="VARCHAR">
+      <description>KANBAN/sequence number</description>
+    </column>
+    <column name="CMPRE_FLT" data_type="FLOAT">
+      <description>Item credit price</description>
+    </column>
+    <column name="ABFOR" data_type="VARCHAR">
+      <description>Form of payment guarantee</description>
+    </column>
+    <column name="ABGES" data_type="FLOAT">
+      <description>Guaranteed (factor between 0 and 1)</description>
+    </column>
+    <column name="J_1BCFOP" data_type="VARCHAR">
+      <description>CFOP Code and Extension</description>
+    </column>
+    <column name="J_1BTAXLW1" data_type="VARCHAR">
+      <description>Tax law: ICMS</description>
+    </column>
+    <column name="J_1BTAXLW2" data_type="VARCHAR">
+      <description>Tax law: IPI</description>
+    </column>
+    <column name="J_1BTXSDC" data_type="VARCHAR">
+      <description>SD tax code</description>
+    </column>
+    <column name="WKTNR" data_type="VARCHAR">
+      <description>Value contract no.</description>
+    </column>
+    <column name="WKTPS" data_type="VARCHAR">
+      <description>Value contract item</description>
+    </column>
+    <column name="SKOPF" data_type="VARCHAR">
+      <description>Assortment module</description>
+    </column>
+    <column name="KZBWS" data_type="VARCHAR">
+      <description>Valuation of Special Stock</description>
+    </column>
+    <column name="WGRU1" data_type="VARCHAR">
+      <description>Material group hierarchy 1</description>
+    </column>
+    <column name="WGRU2" data_type="VARCHAR">
+      <description>Material group hierarchy 2</description>
+    </column>
+    <column name="KNUMA_PI" data_type="VARCHAR">
+      <description>Promotion</description>
+    </column>
+    <column name="KNUMA_AG" data_type="VARCHAR">
+      <description>Sales deal</description>
+    </column>
+    <column name="KZFME" data_type="VARCHAR">
+      <description>ID: Leading unit of measure for completing a transaction</description>
+    </column>
+    <column name="LSTANR" data_type="VARCHAR">
+      <description>Free goods delivery control</description>
+    </column>
+    <column name="TECHS" data_type="VARCHAR">
+      <description>Parameter Variant/Standard Variant</description>
+    </column>
+    <column name="MWSBP" data_type="DECIMAL">
+      <description>Tax amount in document currency</description>
+    </column>
+    <column name="BERID" data_type="VARCHAR">
+      <description>MRP Area</description>
+    </column>
+    <column name="PCTRF" data_type="VARCHAR">
+      <description>Profit Center for Billing</description>
+    </column>
+    <column name="LOGSYS_EXT" data_type="VARCHAR">
+      <description>Logical System</description>
+    </column>
+    <column name="J_1BTAXLW3" data_type="VARCHAR">
+      <description>ISS Tax Law</description>
+    </column>
+    <column name="J_1BTAXLW4" data_type="VARCHAR">
+      <description>COFINS Tax Law</description>
+    </column>
+    <column name="J_1BTAXLW5" data_type="VARCHAR">
+      <description>PIS Tax Law</description>
+    </column>
+    <column name="STOCKLOC" data_type="VARCHAR">
+      <description>First Inventory-Managing Location</description>
+    </column>
+    <column name="SLOCTYPE" data_type="VARCHAR">
+      <description>Type of First Inventory-Managing Location</description>
+    </column>
+    <column name="MSR_RET_REASON" data_type="VARCHAR">
+      <description>Return Reason</description>
+    </column>
+    <column name="MSR_REFUND_CODE" data_type="VARCHAR">
+      <description>Returns Refund Code</description>
+    </column>
+    <column name="MSR_APPROV_BLOCK" data_type="VARCHAR">
+      <description>Approval Block</description>
+    </column>
+    <column name="NRAB_KNUMH" data_type="VARCHAR">
+      <description>Condition record number</description>
+    </column>
+    <column name="TRMRISK_RELEVANT" data_type="VARCHAR">
+      <description>Risk Relevancy in Sales</description>
+    </column>
+    <column name="SGT_RCAT" data_type="VARCHAR">
+      <description>Requirement Segment</description>
+    </column>
+    <column name="HANDOVERLOC" data_type="VARCHAR">
+      <description>Location for a physical handover of goods</description>
+    </column>
+    <column name="HANDOVERDATE" data_type="DATE">
+      <description>Handover Date at the Handover Location</description>
+    </column>
+    <column name="HANDOVERTIME" data_type="TIME">
+      <description>Handover time at the handover location</description>
+    </column>
+    <column name="Z_PRS_OFFSHORE" data_type="VARCHAR">
+      <description>Professional Services: Delivery Type</description>
+    </column>
+    <column name="Z_PRS_BILL_FLAG" data_type="VARCHAR">
+      <description>Professional Services: Billable/Non-Billable</description>
+    </column>
+    <column name="Z_PRS_COUNTRY" data_type="VARCHAR">
+      <description>Country Key</description>
+    </column>
+    <column name="Z_PRS_CHARGELEVL" data_type="VARCHAR">
+      <description>Professional Services: Charge Level</description>
+    </column>
+    <column name="TC_AUT_DET" data_type="VARCHAR">
+      <description>Tax Code Automatically Determined</description>
+    </column>
+    <column name="MANUAL_TC_REASON" data_type="VARCHAR">
+      <description>Manual Tax Code Reason</description>
+    </column>
+    <column name="FISCAL_INCENTIVE" data_type="VARCHAR">
+      <description>Tax Incentive Type</description>
+    </column>
+    <column name="TAX_SUBJECT_ST" data_type="VARCHAR">
+      <description>Tax Subject to Substituição Tributária</description>
+    </column>
+    <column name="FISCAL_INCENTIVE_ID" data_type="VARCHAR">
+      <description>Incentive ID</description>
+    </column>
+    <column name="SPCSTO" data_type="VARCHAR">
+      <description>Nota Fiscal Special Case for CFOP Determination</description>
+    </column>
+    <column name="_DATAAGING" data_type="DATE">
+      <description>Data Filter Value for Data Aging</description>
+    </column>
+    <column name="REVACC_REFID" data_type="VARCHAR">
+      <description>Revenue Accounting: Reference ID</description>
+    </column>
+    <column name="REVACC_REFTYPE" data_type="VARCHAR">
+      <description>Revenue Accounting: Reference Type</description>
+    </column>
+    <column name="SESSION_CREATION_DATE" data_type="DATE">
+      <description>Date Of the Session During Which the Record Was Created</description>
+    </column>
+    <column name="SESSION_CREATION_TIME" data_type="TIME">
+      <description>Time Of the Session During Which the Record Was Created</description>
+    </column>
+    <column name="GLO_LOG_REF1_IT" data_type="VARCHAR">
+      <description>Country Specific Reference 1 in the Document</description>
+    </column>
+    <column name="/ACCGO/IS_CO_REL" data_type="VARCHAR">
+      <description>Call-Off Applies</description>
+    </column>
+    <column name="/ACCGO/TX_P" data_type="VARCHAR">
+      <description>Tax Payer</description>
+    </column>
+    <column name="/BEV1/SRFUND" data_type="VARCHAR">
+      <description>Analysis/Reason for Rejection</description>
+    </column>
+    <column name="CPD_UPDAT" data_type="DECIMAL">
+      <description>Time Stamp</description>
+    </column>
+    <column name="AUFPL_OLC" data_type="VARCHAR">
+      <description>Routing number of operations in the order</description>
+    </column>
+    <column name="APLZL_OLC" data_type="VARCHAR">
+      <description>Internal counter</description>
+    </column>
+    <column name="/SLCE/INST_GUID" data_type="VARCHAR">
+      <description>Character field, length 32</description>
+    </column>
+    <column name="/SLCE/SOL_MATNR" data_type="VARCHAR">
+      <description>Material Number</description>
+    </column>
+    <column name="/SLCE/SOL_POSNR" data_type="VARCHAR">
+      <description>Item number of the SD document</description>
+    </column>
+    <column name="/SLCE/SOL_CUOBJ" data_type="VARCHAR">
+      <description>Configuration</description>
+    </column>
+    <column name="/SLCE/SOL_EXT_GUID" data_type="VARCHAR">
+      <description>Character field, length 32</description>
+    </column>
+    <column name="/SLCE/SINGLE_CONF_REQIRED" data_type="VARCHAR">
+      <description>Checkbox</description>
+    </column>
+    <column name="/SLCE/SINGLE_CONF_DONE" data_type="VARCHAR">
+      <description>Checkbox</description>
+    </column>
+    <column name="/XLSO/COURSE_ID" data_type="VARCHAR">
+      <description>Product ID</description>
+    </column>
+    <column name="/XLSO/COURSE_BDA" data_type="DATE">
+      <description>Start Date</description>
+    </column>
+    <column name="/XLSO/COURSE_EDA" data_type="DATE">
+      <description>End Date</description>
+    </column>
+    <column name="FERC_IND" data_type="VARCHAR">
+      <description>Regulatory indicator</description>
+    </column>
+    <column name="FSH_SEASON_YEAR" data_type="VARCHAR">
+      <description>Season Year</description>
+    </column>
+    <column name="FSH_SEASON" data_type="VARCHAR">
+      <description>Season</description>
+    </column>
+    <column name="FSH_COLLECTION" data_type="VARCHAR">
+      <description>Fashion Collection</description>
+    </column>
+    <column name="FSH_THEME" data_type="VARCHAR">
+      <description>Fashion Theme</description>
+    </column>
+    <column name="FSH_CRSD" data_type="VARCHAR">
+      <description>Condition Record Number for Seasons</description>
+    </column>
+    <column name="FSH_SEAREF" data_type="VARCHAR">
+      <description>Season Determined from Reference Document</description>
+    </column>
+    <column name="FSH_CANDATE" data_type="DATE">
+      <description>Cancellation Date</description>
+    </column>
+    <column name="FSH_PSM_PFM_SPLIT" data_type="VARCHAR">
+      <description>PSM and PFM Split ID</description>
+    </column>
+    <column name="FSH_VAS_REL" data_type="VARCHAR">
+      <description>VAS Relevant</description>
+    </column>
+    <column name="FSH_VAS_PRNT_ID" data_type="VARCHAR">
+      <description>Item number of the SD document</description>
+    </column>
+    <column name="FSH_TRANSACTION" data_type="VARCHAR">
+      <description>Transaction Number</description>
+    </column>
+    <column name="FSH_ITEM_GROUP" data_type="VARCHAR">
+      <description>Item Group</description>
+    </column>
+    <column name="FSH_ITEM" data_type="VARCHAR">
+      <description>Item Number</description>
+    </column>
+    <column name="FSH_VASREF" data_type="VARCHAR">
+      <description>VAS Determined from Reference Document</description>
+    </column>
+    <column name="FSH_GRID_COND_REC" data_type="VARCHAR">
+      <description>Grid Condition Record Number</description>
+    </column>
+    <column name="FSH_PQR_UEPOS" data_type="VARCHAR">
+      <description>Higher-level item in Partial Quantity Rejection</description>
+    </column>
+    <column name="KOSTL" data_type="VARCHAR">
+      <description>Cost Center</description>
+    </column>
+    <column name="FONDS" data_type="VARCHAR">
+      <description>Fund</description>
+    </column>
+    <column name="FISTL" data_type="VARCHAR">
+      <description>Funds Center</description>
+    </column>
+    <column name="FKBER" data_type="VARCHAR">
+      <description>Functional Area</description>
+    </column>
+    <column name="GRANT_NBR" data_type="VARCHAR">
+      <description>Grant</description>
+    </column>
+    <column name="BUDGET_PD" data_type="VARCHAR">
+      <description>FM: Budget Period</description>
+    </column>
+    <column name="IUID_RELEVANT" data_type="VARCHAR">
+      <description>IUID Relevant for Customer</description>
+    </column>
+    <column name="MILL_SE_GPOSN" data_type="VARCHAR">
+      <description>Global Item</description>
+    </column>
+    <column name="OID_EXTBOL" data_type="VARCHAR">
+      <description>External bill of lading</description>
+    </column>
+    <column name="OID_MISCDL" data_type="VARCHAR">
+      <description>Miscellaneous delivery number</description>
+    </column>
+    <column name="OIPLANTD" data_type="VARCHAR">
+      <description>Plant determination active or not active</description>
+    </column>
+    <column name="OIBYPASS" data_type="VARCHAR">
+      <description>IS-Oil plant determination indicator:  x=yes   blank=no</description>
+    </column>
+    <column name="OIEDOK" data_type="VARCHAR">
+      <description>Excise duty validation indicator</description>
+    </column>
+    <column name="CMETH" data_type="VARCHAR">
+      <description>Quantity Conversion Method</description>
+    </column>
+    <column name="OITAXFROM" data_type="VARCHAR">
+      <description>Excise duty tax key for 'from' location</description>
+    </column>
+    <column name="OIHANTYP" data_type="VARCHAR">
+      <description>Excise Duty Handling Type</description>
+    </column>
+    <column name="OITAXGRP" data_type="VARCHAR">
+      <description>Excise Duty Group</description>
+    </column>
+    <column name="OITAXTO" data_type="VARCHAR">
+      <description>Excise duty tax key for 'to' location</description>
+    </column>
+    <column name="OICERTF1" data_type="VARCHAR">
+      <description>Excise tax external license number</description>
+    </column>
+    <column name="OIOILCON" data_type="DECIMAL">
+      <description>Oil content in a material as a percentage</description>
+    </column>
+    <column name="OIEDBAL" data_type="VARCHAR">
+      <description>Excise duty balancing is required (indicator)</description>
+    </column>
+    <column name="OIPRICIE" data_type="VARCHAR">
+      <description>ED pricing: external (indicator)</description>
+    </column>
+    <column name="OIINEX" data_type="VARCHAR">
+      <description>Code for internal or external excise duty rate determination</description>
+    </column>
+    <column name="OIEDBALM" data_type="VARCHAR">
+      <description>Excise duty balancing method indicator</description>
+    </column>
+    <column name="OIDRC" data_type="VARCHAR">
+      <description>Differential Reference Code (DRC)</description>
+    </column>
+    <column name="OIC_DRCTRY" data_type="VARCHAR">
+      <description>DRC country</description>
+    </column>
+    <column name="OIC_DRCREG" data_type="VARCHAR">
+      <description>DRC region</description>
+    </column>
+    <column name="OIMETIND" data_type="VARCHAR">
+      <description>Metropolitan indicator</description>
+    </column>
+    <column name="OIWAP" data_type="VARCHAR">
+      <description>Wide-area pricing zone</description>
+    </column>
+    <column name="OISLF" data_type="VARCHAR">
+      <description>State license fee zone</description>
+    </column>
+    <column name="OIPSDRC" data_type="VARCHAR">
+      <description>Pricing DRC (grouping customers by DRC for pricing)</description>
+    </column>
+    <column name="OIPIPEVAL" data_type="VARCHAR">
+      <description>Validation indicator for pipeline fields (X=ON, blank=OFF)</description>
+    </column>
+    <column name="OIC_LIFNR" data_type="VARCHAR">
+      <description>Account Number of Supplier</description>
+    </column>
+    <column name="OIC_DCITYC" data_type="VARCHAR">
+      <description>Destination city code</description>
+    </column>
+    <column name="OIC_DCOUNC" data_type="VARCHAR">
+      <description>Destination county code</description>
+    </column>
+    <column name="OIC_DREGIO" data_type="VARCHAR">
+      <description>Destination region</description>
+    </column>
+    <column name="OIC_DLAND1" data_type="VARCHAR">
+      <description>Destination country</description>
+    </column>
+    <column name="OIC_OCITYC" data_type="VARCHAR">
+      <description>Origin city code</description>
+    </column>
+    <column name="OIC_OCOUNC" data_type="VARCHAR">
+      <description>Origin county code</description>
+    </column>
+    <column name="OIC_OREGIO" data_type="VARCHAR">
+      <description>Origin region</description>
+    </column>
+    <column name="OIC_OLAND1" data_type="VARCHAR">
+      <description>Origin country</description>
+    </column>
+    <column name="OIC_PORGIN" data_type="VARCHAR">
+      <description>Tax origin</description>
+    </column>
+    <column name="OIC_PDESTN" data_type="VARCHAR">
+      <description>Tax destination</description>
+    </column>
+    <column name="OIC_PTRIP" data_type="VARCHAR">
+      <description>Pipeline trip number (external)</description>
+    </column>
+    <column name="OIC_PBATCH" data_type="VARCHAR">
+      <description>Pipeline operator´s external batch number</description>
+    </column>
+    <column name="OIC_MOT" data_type="VARCHAR">
+      <description>IS-OIL MAP external details mode of transport</description>
+    </column>
+    <column name="OIC_AORGIN" data_type="VARCHAR">
+      <description>Alternate origin</description>
+    </column>
+    <column name="OIC_ADESTN" data_type="VARCHAR">
+      <description>Alternate destination</description>
+    </column>
+    <column name="OIC_TRUCKN" data_type="VARCHAR">
+      <description>Truck number</description>
+    </column>
+    <column name="OIA_BASELO" data_type="VARCHAR">
+      <description>Base location</description>
+    </column>
+    <column name="OIEXGNUM" data_type="VARCHAR">
+      <description>Exchange agreement number</description>
+    </column>
+    <column name="OIEXGTYP" data_type="VARCHAR">
+      <description>Exchange type</description>
+    </column>
+    <column name="OIFEETOT" data_type="DECIMAL">
+      <description>Fee total</description>
+    </column>
+    <column name="OIFEEDT" data_type="DATE">
+      <description>Fee pricing condition date</description>
+    </column>
+    <column name="OINETCYC" data_type="VARCHAR">
+      <description>Netting cycle (FI blocking indicator)</description>
+    </column>
+    <column name="OICONTNR" data_type="VARCHAR">
+      <description>Outline agreement: contract</description>
+    </column>
+    <column name="OIC_KMPOS" data_type="VARCHAR">
+      <description>Reference contract line item number</description>
+    </column>
+    <column name="OIFEECH" data_type="VARCHAR">
+      <description>Fee edit control</description>
+    </column>
+    <column name="OIH_LICTP" data_type="VARCHAR">
+      <description>License type</description>
+    </column>
+    <column name="OIH_LICIN" data_type="VARCHAR">
+      <description>Excise tax internal license number</description>
+    </column>
+    <column name="OIH_LCFOL" data_type="VARCHAR">
+      <description>Follow-on license for quantity license</description>
+    </column>
+    <column name="OIH_FOLQTY" data_type="DECIMAL">
+      <description>Excise Tax Follow-On License Quantity</description>
+    </column>
+    <column name="OISBREL" data_type="VARCHAR">
+      <description>Sub product/ base product relevence indicator</description>
+    </column>
+    <column name="OIBASPROD" data_type="VARCHAR">
+      <description>Base product number</description>
+    </column>
+    <column name="OIDMSG_PRD" data_type="VARCHAR">
+      <description>Message type for product with contract restrictions</description>
+    </column>
+    <column name="OIDMSG_QTY" data_type="VARCHAR">
+      <description>Message type for contract restrictions quantity</description>
+    </column>
+    <column name="OIDMSG_UOM" data_type="VARCHAR">
+      <description>Message type for contract restrictions unit of measure</description>
+    </column>
+    <column name="OIDMSG_DAT" data_type="VARCHAR">
+      <description>Message type for contract restrictions validity period</description>
+    </column>
+    <column name="OIDMSG_TRM" data_type="VARCHAR">
+      <description>Message type for contract restrictions payment terms</description>
+    </column>
+    <column name="OIDMSG_SHP" data_type="VARCHAR">
+      <description>Message type for contract restrictions ship-to party</description>
+    </column>
+    <column name="OIGNRULE" data_type="VARCHAR">
+      <description>Gross/net pricing rule</description>
+    </column>
+    <column name="OID_SHIP" data_type="VARCHAR">
+      <description>Ship-To Party</description>
+    </column>
+    <column name="OIBWTAR_IM" data_type="VARCHAR">
+      <description>Valuation Type</description>
+    </column>
+    <column name="OIHANTYP_IM" data_type="VARCHAR">
+      <description>Excise Duty Handling Type</description>
+    </column>
+    <column name="OITAXGRP_IM" data_type="VARCHAR">
+      <description>Excise Duty Group</description>
+    </column>
+    <column name="OITAXFROM_IM" data_type="VARCHAR">
+      <description>Excise duty tax key for 'from' location</description>
+    </column>
+    <column name="OITAXTO_IM" data_type="VARCHAR">
+      <description>Excise duty tax key for 'to' location</description>
+    </column>
+    <column name="OIEDBAL_IM" data_type="VARCHAR">
+      <description>Excise duty balancing is required (indicator)</description>
+    </column>
+    <column name="OIEDBALM_IM" data_type="VARCHAR">
+      <description>Excise duty balancing method indicator</description>
+    </column>
+    <column name="OIPRICIE_IM" data_type="VARCHAR">
+      <description>ED pricing: external (indicator)</description>
+    </column>
+    <column name="OIBWTAR_EX" data_type="VARCHAR">
+      <description>Valuation Type</description>
+    </column>
+    <column name="OIHANTYP_EX" data_type="VARCHAR">
+      <description>Excise Duty Handling Type</description>
+    </column>
+    <column name="OITAXGRP_EX" data_type="VARCHAR">
+      <description>Excise Duty Group</description>
+    </column>
+    <column name="OITAXFROM_EX" data_type="VARCHAR">
+      <description>Excise duty tax key for 'from' location</description>
+    </column>
+    <column name="OITAXTO_EX" data_type="VARCHAR">
+      <description>Excise duty tax key for 'to' location</description>
+    </column>
+    <column name="OIEDBAL_EX" data_type="VARCHAR">
+      <description>Excise duty balancing is required (indicator)</description>
+    </column>
+    <column name="OIEDBALM_EX" data_type="VARCHAR">
+      <description>Excise duty balancing method indicator</description>
+    </column>
+    <column name="OIPRICIE_EX" data_type="VARCHAR">
+      <description>ED pricing: external (indicator)</description>
+    </column>
+    <column name="OIINEX_EX" data_type="VARCHAR">
+      <description>Code for internal or external excise duty rate determination</description>
+    </column>
+    <column name="OICERTF1_EX" data_type="VARCHAR">
+      <description>Excise tax external license number</description>
+    </column>
+    <column name="OIH_LICTP_EX" data_type="VARCHAR">
+      <description>License type</description>
+    </column>
+    <column name="OIH_LICIN_EX" data_type="VARCHAR">
+      <description>Excise tax internal license number</description>
+    </column>
+    <column name="OIH_LCFOL_EX" data_type="VARCHAR">
+      <description>Follow-on license for quantity license</description>
+    </column>
+    <column name="OIH_FOLQTY_EX" data_type="DECIMAL">
+      <description>Excise Tax Follow-On License Quantity</description>
+    </column>
+    <column name="OIHTAXRCP_EX" data_type="VARCHAR">
+      <description>Tax Recipient</description>
+    </column>
+    <column name="OIHNOTWERKS" data_type="VARCHAR">
+      <description>Cross Excise Duty Plant</description>
+    </column>
+    <column name="OIHNOTLGORT" data_type="VARCHAR">
+      <description>Cross Excise Duty Storage Location</description>
+    </column>
+    <column name="OIHCOTDISCH" data_type="VARCHAR">
+      <description>Trigger Import Posting at Proof of Delivery Receipt</description>
+    </column>
+    <column name="PO_QUAN" data_type="DECIMAL">
+      <description>Purchase Order Quantity</description>
+    </column>
+    <column name="PO_UNIT" data_type="VARCHAR">
+      <description>Purchase Order Unit of Measure</description>
+    </column>
+    <column name="PRS_OBJNR" data_type="VARCHAR">
+      <description>Engagement mgmt: Object number</description>
+    </column>
+    <column name="PRS_SD_SPSNR" data_type="VARCHAR">
+      <description>Standard WBS Element for Project Inception via SD</description>
+    </column>
+    <column name="PRS_WORK_PERIOD" data_type="VARCHAR">
+      <description>Work Period (Internal Representation)</description>
+    </column>
+    <column name="TAS" data_type="VARCHAR">
+      <description>Treasury Account Symbol</description>
+    </column>
+    <column name="BETC" data_type="VARCHAR">
+      <description>Business Event Type Code</description>
+    </column>
+    <column name="MOD_ALLOW" data_type="VARCHAR">
+      <description>Modification Allowed</description>
+    </column>
+    <column name="CANCEL_ALLOW" data_type="VARCHAR">
+      <description>Cancellation Allowed</description>
+    </column>
+    <column name="PAY_METHOD" data_type="VARCHAR">
+      <description>List of Respected Payment Methods</description>
+    </column>
+    <column name="BPN" data_type="VARCHAR">
+      <description>Business Partner Number</description>
+    </column>
+    <column name="REP_FREQ" data_type="VARCHAR">
+      <description>Reporting Frequency</description>
+    </column>
+    <column name="FMFGUS_KEY" data_type="VARCHAR">
+      <description>United States Federal Government Fields</description>
+    </column>
+    <column name="PARGB" data_type="VARCHAR">
+      <description>Trading partner's business area</description>
+    </column>
+    <column name="AUFPL_OAA" data_type="VARCHAR">
+      <description>Routing number of operations in the order</description>
+    </column>
+    <column name="APLZL_OAA" data_type="VARCHAR">
+      <description>Internal counter</description>
+    </column>
+    <column name="WRF_CHARSTC1" data_type="VARCHAR">
+      <description>Characteristic Value 1</description>
+    </column>
+    <column name="WRF_CHARSTC2" data_type="VARCHAR">
+      <description>Characteristic Value 2</description>
+    </column>
+    <column name="WRF_CHARSTC3" data_type="VARCHAR">
+      <description>Characteristic Value 3</description>
+    </column>
+    <column name="ARSNUM" data_type="VARCHAR">
+      <description>Number of reservation/dependent requirements</description>
+    </column>
+    <column name="ARSPOS" data_type="VARCHAR">
+      <description>Item number of reservation/dependent requirements</description>
+    </column>
+    <column name="WTYSC_CLMITEM" data_type="VARCHAR">
+      <description>Claim item number</description>
+    </column>
+    <column name="ZZDEA_LICENSE" data_type="VARCHAR">
+      <description>DEA Number</description>
+    </column>
+    <column name="ZZDEA_SCHEDULE" data_type="VARCHAR">
+      <description>DEA Schedule Key</description>
+    </column>
+  </columns>
+</data_description>

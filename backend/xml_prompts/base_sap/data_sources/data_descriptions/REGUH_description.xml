@@ -1,0 +1,537 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="REGUH">
+  <table_info name="REGUH" total_columns="177"/>
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="LAUFD" data_type="DATE">
+      <description>Date on Which the Program Is to Be Run</description>
+    </column>
+    <column name="LAUFI" data_type="VARCHAR">
+      <description>Additional Identification</description>
+    </column>
+    <column name="XVORL" data_type="VARCHAR">
+      <description>Indicator: Only Proposal Run?</description>
+    </column>
+    <column name="ZBUKR" data_type="VARCHAR">
+      <description>Paying Company Code</description>
+    </column>
+    <column name="LIFNR" data_type="VARCHAR">
+      <description>Account Number of Supplier</description>
+    </column>
+    <column name="KUNNR" data_type="VARCHAR">
+      <description>Customer Number</description>
+    </column>
+    <column name="EMPFG" data_type="VARCHAR">
+      <description>Payment Recipient Code</description>
+    </column>
+    <column name="VBLNR" data_type="VARCHAR">
+      <description>Document Number of the Payment Document</description>
+    </column>
+    <column name="AVISG" data_type="VARCHAR">
+      <description>Reason for Printing Payment Advice</description>
+    </column>
+    <column name="WAERS" data_type="VARCHAR">
+      <description>Currency Key</description>
+    </column>
+    <column name="SRTGB" data_type="VARCHAR">
+      <description>Business Area</description>
+    </column>
+    <column name="ANRED" data_type="VARCHAR">
+      <description>Title</description>
+    </column>
+    <column name="NAME1" data_type="VARCHAR">
+      <description>Name 1</description>
+    </column>
+    <column name="NAME2" data_type="VARCHAR">
+      <description>Name 2</description>
+    </column>
+    <column name="NAME3" data_type="VARCHAR">
+      <description>Name 3</description>
+    </column>
+    <column name="NAME4" data_type="VARCHAR">
+      <description>Name 4</description>
+    </column>
+    <column name="PSTLZ" data_type="VARCHAR">
+      <description>Postal Code</description>
+    </column>
+    <column name="ORT01" data_type="VARCHAR">
+      <description>City</description>
+    </column>
+    <column name="STRAS" data_type="VARCHAR">
+      <description>Street and House Number</description>
+    </column>
+    <column name="PFACH" data_type="VARCHAR">
+      <description>PO Box</description>
+    </column>
+    <column name="LAND1" data_type="VARCHAR">
+      <description>Country Key</description>
+    </column>
+    <column name="STCD1" data_type="VARCHAR">
+      <description>Tax Number 1</description>
+    </column>
+    <column name="WEVWV" data_type="VARCHAR">
+      <description>Planned usage of the bill of exchange</description>
+    </column>
+    <column name="ZANRE" data_type="VARCHAR">
+      <description>Title of the payee</description>
+    </column>
+    <column name="ZNME1" data_type="VARCHAR">
+      <description>Name of the payee</description>
+    </column>
+    <column name="ZNME2" data_type="VARCHAR">
+      <description>Name of the payee</description>
+    </column>
+    <column name="ZNME3" data_type="VARCHAR">
+      <description>Name of the payee</description>
+    </column>
+    <column name="ZNME4" data_type="VARCHAR">
+      <description>Name of the payee</description>
+    </column>
+    <column name="ZPSTL" data_type="VARCHAR">
+      <description>Postal Code of the Payee</description>
+    </column>
+    <column name="ZORT1" data_type="VARCHAR">
+      <description>City of the payee</description>
+    </column>
+    <column name="ZSTRA" data_type="VARCHAR">
+      <description>Street and house number of the payee</description>
+    </column>
+    <column name="ZPFAC" data_type="VARCHAR">
+      <description>P.O. box of the payee</description>
+    </column>
+    <column name="ZLAND" data_type="VARCHAR">
+      <description>Country Key</description>
+    </column>
+    <column name="ZREGI" data_type="VARCHAR">
+      <description>Regional code of the payee</description>
+    </column>
+    <column name="ZBNKS" data_type="VARCHAR">
+      <description>Country Key</description>
+    </column>
+    <column name="ZBNKN" data_type="VARCHAR">
+      <description>Bank account number of the payee</description>
+    </column>
+    <column name="ZBNKL" data_type="VARCHAR">
+      <description>Bank number of the payee's bank</description>
+    </column>
+    <column name="ZBKON" data_type="VARCHAR">
+      <description>Bank Control Key of the Payee's Bank</description>
+    </column>
+    <column name="ZBVTY" data_type="VARCHAR">
+      <description>Bank Data Indicator for the Payee</description>
+    </column>
+    <column name="ZSWIF" data_type="VARCHAR">
+      <description>SWIFT/BIC for International Payments</description>
+    </column>
+    <column name="XEZER" data_type="VARCHAR">
+      <description>Indicator: Is there collection authorization ?</description>
+    </column>
+    <column name="ZSPRA" data_type="VARCHAR">
+      <description>Language key of the payee</description>
+    </column>
+    <column name="ZALDT" data_type="DATE">
+      <description>Posting Date of Payment Document</description>
+    </column>
+    <column name="RZAWE" data_type="VARCHAR">
+      <description>Payment Method for This Payment</description>
+    </column>
+    <column name="RUMSK" data_type="VARCHAR">
+      <description>Special G/L Indicator of the Payment Transaction</description>
+    </column>
+    <column name="RZUMS" data_type="VARCHAR">
+      <description>Target Special G/L Indicator of the Payment Transaction</description>
+    </column>
+    <column name="HKTID" data_type="VARCHAR">
+      <description>ID for account details</description>
+    </column>
+    <column name="HBKID" data_type="VARCHAR">
+      <description>Short Key for a House Bank</description>
+    </column>
+    <column name="HKTIW" data_type="VARCHAR">
+      <description>Short Key of the Account Data for the Bill of Exchange</description>
+    </column>
+    <column name="HBKIW" data_type="VARCHAR">
+      <description>Short Key of the House Bank for Bill/Exch.for Check/Bill/Ex.</description>
+    </column>
+    <column name="BVTYP" data_type="VARCHAR">
+      <description>Partner bank type</description>
+    </column>
+    <column name="UBKON" data_type="VARCHAR">
+      <description>Bank control key at our bank</description>
+    </column>
+    <column name="UBKNT" data_type="VARCHAR">
+      <description>Our account number at the bank</description>
+    </column>
+    <column name="UBNKS" data_type="VARCHAR">
+      <description>Bank Country Key</description>
+    </column>
+    <column name="UBNKL" data_type="VARCHAR">
+      <description>Bank number of our bank</description>
+    </column>
+    <column name="UIBAN" data_type="VARCHAR">
+      <description>IBAN at our House Bank</description>
+    </column>
+    <column name="UBHKT" data_type="VARCHAR">
+      <description>G/L Account Number for Our Bank Account / Bank Subaccount</description>
+    </column>
+    <column name="VALUT" data_type="DATE">
+      <description>Value date</description>
+    </column>
+    <column name="CRVAL" data_type="DATE">
+      <description>Value Date at Payee's Bank</description>
+    </column>
+    <column name="ANFAE" data_type="DATE">
+      <description>Bill of Exchange Payment Request Due Date</description>
+    </column>
+    <column name="WEFAE" data_type="DATE">
+      <description>Bill of Exchange Due Date</description>
+    </column>
+    <column name="RBETR" data_type="DECIMAL">
+      <description>Amount in Local Currency</description>
+    </column>
+    <column name="RSKON" data_type="DECIMAL">
+      <description>Total Cash Discount for the Payment Trans. (Local Currency)</description>
+    </column>
+    <column name="RWBTR" data_type="DECIMAL">
+      <description>Amount Paid in the Payment Currency</description>
+    </column>
+    <column name="RWSKT" data_type="DECIMAL">
+      <description>Total Cash Discount for the Pmnt Transactn in Pmnt Currency</description>
+    </column>
+    <column name="RSPE1" data_type="DECIMAL">
+      <description>Form Charges</description>
+    </column>
+    <column name="RSPE2" data_type="DECIMAL">
+      <description>Form Charges</description>
+    </column>
+    <column name="RPOST" data_type="DECIMAL">
+      <description>Number of Items Paid</description>
+    </column>
+    <column name="RTEXT" data_type="DECIMAL">
+      <description>Number of Text Lines for the Items Paid</description>
+    </column>
+    <column name="RSPM1" data_type="DECIMAL">
+      <description>Form Charges for Bill of Exchange with Maximum Amount</description>
+    </column>
+    <column name="RSPM2" data_type="DECIMAL">
+      <description>Form Charges for Bill of Exchange with Maximum Amount</description>
+    </column>
+    <column name="WEHMX" data_type="DECIMAL">
+      <description>Maximum Amount per Bill of Exchange in Local Currency</description>
+    </column>
+    <column name="WEFMX" data_type="DECIMAL">
+      <description>Maximum Amount per Bill of Exchange in Payment Currency</description>
+    </column>
+    <column name="WEHRS" data_type="DECIMAL">
+      <description>Remaining Amount in Local Crcy for Last Bill of Exchange</description>
+    </column>
+    <column name="WEFRS" data_type="DECIMAL">
+      <description>Remaining Amount in Payment Crcy for Last Bill of Exchange</description>
+    </column>
+    <column name="WEAMX" data_type="DECIMAL">
+      <description>Number of Bills of Exchange with Maximum Amount</description>
+    </column>
+    <column name="BUSAB" data_type="VARCHAR">
+      <description>Accounting Clerk Abbreviation</description>
+    </column>
+    <column name="EIKTO" data_type="VARCHAR">
+      <description>Shipper's (Our) Account Number at the Customer or Vendor</description>
+    </column>
+    <column name="XINVE" data_type="VARCHAR">
+      <description>Indicator: Capital Goods Affected?</description>
+    </column>
+    <column name="WDATE" data_type="DATE">
+      <description>Bill of Exchange Issue Date</description>
+    </column>
+    <column name="XAEND" data_type="VARCHAR">
+      <description>Indicator: Payment Proposal was Changed Afterwards</description>
+    </column>
+    <column name="ZLSPR" data_type="VARCHAR">
+      <description>Payment Block Key</description>
+    </column>
+    <column name="DTAWS" data_type="VARCHAR">
+      <description>Instruction Key for Data Medium Exchange</description>
+    </column>
+    <column name="DTAMS" data_type="VARCHAR">
+      <description>Recipient Code for Data Medium Exchange</description>
+    </column>
+    <column name="KURSF" data_type="DECIMAL">
+      <description>Exchange rate</description>
+    </column>
+    <column name="ABWAE" data_type="VARCHAR">
+      <description>Settlement currency for bank transfers</description>
+    </column>
+    <column name="SKVHW" data_type="DECIMAL">
+      <description>Lost Cash Discount in Local Currency</description>
+    </column>
+    <column name="SKVFW" data_type="DECIMAL">
+      <description>Lost Cash Discount in Payment Currency</description>
+    </column>
+    <column name="DSKVH" data_type="DECIMAL">
+      <description>Impending Lost Cash Discount in Local Currency</description>
+    </column>
+    <column name="ZPST2" data_type="VARCHAR">
+      <description>P.O. box postal code of the payee</description>
+    </column>
+    <column name="PAYGR" data_type="VARCHAR">
+      <description>Grouping Field for Automatic Payments</description>
+    </column>
+    <column name="ZBNKY" data_type="VARCHAR">
+      <description>Bank key of the payee's bank</description>
+    </column>
+    <column name="UBNKY" data_type="VARCHAR">
+      <description>Bank Key of Our Bank</description>
+    </column>
+    <column name="PSTL2" data_type="VARCHAR">
+      <description>P.O. Box Postal Code</description>
+    </column>
+    <column name="ABSBU" data_type="VARCHAR">
+      <description>Sending company code</description>
+    </column>
+    <column name="RBET2" data_type="DECIMAL">
+      <description>Amount Paid in Second Local Currency</description>
+    </column>
+    <column name="RBET3" data_type="DECIMAL">
+      <description>Amount Paid in Third Local Currency</description>
+    </column>
+    <column name="RSKO2" data_type="DECIMAL">
+      <description>Payment Transaction Total Discount in Second Local Currency</description>
+    </column>
+    <column name="RSKO3" data_type="DECIMAL">
+      <description>Payment Transaction Total Discount in Third Local Currency</description>
+    </column>
+    <column name="KURS2" data_type="DECIMAL">
+      <description>Exchange Rate for the Second Local Currency</description>
+    </column>
+    <column name="KURS3" data_type="DECIMAL">
+      <description>Exchange Rate for the Third Local Currency</description>
+    </column>
+    <column name="BKREF" data_type="VARCHAR">
+      <description>Reference Details for Bank Details</description>
+    </column>
+    <column name="UZAWE" data_type="VARCHAR">
+      <description>Payment method supplement</description>
+    </column>
+    <column name="ZORT2" data_type="VARCHAR">
+      <description>Location from payee's address</description>
+    </column>
+    <column name="ZTLFX" data_type="VARCHAR">
+      <description>Payee's telefax number</description>
+    </column>
+    <column name="XSIWE" data_type="VARCHAR">
+      <description>Indicator: Bill on demand</description>
+    </column>
+    <column name="ZPFOR" data_type="VARCHAR">
+      <description>City of payee's PO box</description>
+    </column>
+    <column name="PERNR" data_type="VARCHAR">
+      <description>Personnel Number</description>
+    </column>
+    <column name="SEQNR" data_type="VARCHAR">
+      <description>Sequence Number</description>
+    </column>
+    <column name="BTZNR" data_type="VARCHAR">
+      <description>Assignment of Transfers</description>
+    </column>
+    <column name="AUSFD" data_type="DATE">
+      <description>Due date of the paid items</description>
+    </column>
+    <column name="AUGDT" data_type="DATE">
+      <description>Clearing Date</description>
+    </column>
+    <column name="EDIAV" data_type="VARCHAR">
+      <description>EDI Payment Advice Status</description>
+    </column>
+    <column name="IDOC_NUM_AVIS" data_type="VARCHAR">
+      <description>IDoc number</description>
+    </column>
+    <column name="EDIBN" data_type="VARCHAR">
+      <description>EDI Payment Order Status</description>
+    </column>
+    <column name="IDOC_NUM" data_type="VARCHAR">
+      <description>IDoc number</description>
+    </column>
+    <column name="ZTELF" data_type="VARCHAR">
+      <description>Payee telephone number</description>
+    </column>
+    <column name="ZTELX" data_type="VARCHAR">
+      <description>Payee telex number</description>
+    </column>
+    <column name="KOINH" data_type="VARCHAR">
+      <description>Account Holder Name</description>
+    </column>
+    <column name="DTWS1" data_type="VARCHAR">
+      <description>Instruction 1</description>
+    </column>
+    <column name="DTWS2" data_type="VARCHAR">
+      <description>Instruction 2</description>
+    </column>
+    <column name="DTWS3" data_type="VARCHAR">
+      <description>Instruction 3</description>
+    </column>
+    <column name="DTWS4" data_type="VARCHAR">
+      <description>Instruction 4</description>
+    </column>
+    <column name="ZSTC1" data_type="VARCHAR">
+      <description>Payee's tax number 1</description>
+    </column>
+    <column name="KIDNO" data_type="VARCHAR">
+      <description>Payment Reference</description>
+    </column>
+    <column name="PYORD" data_type="VARCHAR">
+      <description>Payment Order</description>
+    </column>
+    <column name="REGIO" data_type="VARCHAR">
+      <description>Region (State, Province, County)</description>
+    </column>
+    <column name="TEXT" data_type="VARCHAR">
+      <description>Text field</description>
+    </column>
+    <column name="BTYP1" data_type="VARCHAR">
+      <description>Type of bank in a bank chain (correspondent, intermediary)</description>
+    </column>
+    <column name="BNKS1" data_type="VARCHAR">
+      <description>Bank Country Key</description>
+    </column>
+    <column name="BNKL1" data_type="VARCHAR">
+      <description>Bank Keys</description>
+    </column>
+    <column name="BNKN1" data_type="VARCHAR">
+      <description>Bank Account Number</description>
+    </column>
+    <column name="BKON1" data_type="VARCHAR">
+      <description>Bank Control Key</description>
+    </column>
+    <column name="BKRF1" data_type="VARCHAR">
+      <description>Reference Details for Bank Details</description>
+    </column>
+    <column name="IBAN1" data_type="VARCHAR">
+      <description>IBAN (International Bank Account Number)</description>
+    </column>
+    <column name="BTYP2" data_type="VARCHAR">
+      <description>Type of bank in a bank chain (correspondent, intermediary)</description>
+    </column>
+    <column name="BNKS2" data_type="VARCHAR">
+      <description>Bank Country Key</description>
+    </column>
+    <column name="BNKL2" data_type="VARCHAR">
+      <description>Bank Keys</description>
+    </column>
+    <column name="BNKN2" data_type="VARCHAR">
+      <description>Bank Account Number</description>
+    </column>
+    <column name="BKON2" data_type="VARCHAR">
+      <description>Bank Control Key</description>
+    </column>
+    <column name="BKRF2" data_type="VARCHAR">
+      <description>Reference Details for Bank Details</description>
+    </column>
+    <column name="IBAN2" data_type="VARCHAR">
+      <description>IBAN (International Bank Account Number)</description>
+    </column>
+    <column name="BTYP3" data_type="VARCHAR">
+      <description>Type of bank in a bank chain (correspondent, intermediary)</description>
+    </column>
+    <column name="BNKS3" data_type="VARCHAR">
+      <description>Bank Country Key</description>
+    </column>
+    <column name="BNKL3" data_type="VARCHAR">
+      <description>Bank Keys</description>
+    </column>
+    <column name="BNKN3" data_type="VARCHAR">
+      <description>Bank Account Number</description>
+    </column>
+    <column name="BKON3" data_type="VARCHAR">
+      <description>Bank Control Key</description>
+    </column>
+    <column name="BKRF3" data_type="VARCHAR">
+      <description>Reference Details for Bank Details</description>
+    </column>
+    <column name="IBAN3" data_type="VARCHAR">
+      <description>IBAN (International Bank Account Number)</description>
+    </column>
+    <column name="SAKNR" data_type="VARCHAR">
+      <description>G/L Account Number</description>
+    </column>
+    <column name="HKONT" data_type="VARCHAR">
+      <description>General Ledger Account</description>
+    </column>
+    <column name="ALEBN" data_type="VARCHAR">
+      <description>ALE IDoc Distribution Status of Payment Data</description>
+    </column>
+    <column name="XKDFB" data_type="VARCHAR">
+      <description>Do not Post any Exchange Rate Differences</description>
+    </column>
+    <column name="SRTBP" data_type="VARCHAR">
+      <description>Business Place</description>
+    </column>
+    <column name="FPM_KEY" data_type="VARCHAR">
+      <description>Rundate, ID, and Default Indicator Concatenated</description>
+    </column>
+    <column name="GRPNO" data_type="INTEGER">
+      <description>Grouping Criterium for Payments</description>
+    </column>
+    <column name="SRTF1" data_type="VARCHAR">
+      <description>Format-specific sorting of payments incl. sequence nuber</description>
+    </column>
+    <column name="SRTF2" data_type="VARCHAR">
+      <description>User-defined sorting of payments incl. sequence number</description>
+    </column>
+    <column name="SRTF3" data_type="VARCHAR">
+      <description>Format-specific sorting of payments incl. sequence nuber</description>
+    </column>
+    <column name="XCORR" data_type="VARCHAR">
+      <description>Indicator: Payment Correspondence</description>
+    </column>
+    <column name="XAVIS" data_type="VARCHAR">
+      <description>Indicator: Separate Payment Advice</description>
+    </column>
+    <column name="XCOPM" data_type="VARCHAR">
+      <description>Payment Medium for Business Partner (Correspondence)</description>
+    </column>
+    <column name="DORIGIN" data_type="VARCHAR">
+      <description>Grouping Origin</description>
+    </column>
+    <column name="RFTTRN" data_type="VARCHAR">
+      <description>Payment code</description>
+    </column>
+    <column name="ZADNR" data_type="VARCHAR">
+      <description>Payee's Address Number</description>
+    </column>
+    <column name="ADRNR" data_type="VARCHAR">
+      <description>Address Number</description>
+    </column>
+    <column name="ZIBAN" data_type="VARCHAR">
+      <description>IBAN of the Payee</description>
+    </column>
+    <column name="MGUID" data_type="VARCHAR">
+      <description>SEPA Mandate: GUID of Mandate</description>
+    </column>
+    <column name="SEQ_TYPE" data_type="VARCHAR">
+      <description>SEPA: Sequence Type</description>
+    </column>
+    <column name="INST_CODE" data_type="VARCHAR">
+      <description>Local Instrument Code (Direct Debit Type)</description>
+    </column>
+    <column name="PURP_CODE" data_type="VARCHAR">
+      <description>SEPA Purpose Code: Classification of a Payment/Debit Memo</description>
+    </column>
+    <column name="XMLST" data_type="VARCHAR">
+      <description>Status of XML Payment Advice</description>
+    </column>
+    <column name="TIMESTAMP_AVIS" data_type="DECIMAL">
+      <description>Time Stamp for Sending XML Payment Advice</description>
+    </column>
+    <column name="UETR" data_type="VARCHAR">
+      <description>Unique Transaction Reference (UETR)</description>
+    </column>
+    <column name="FM_STATUS" data_type="VARCHAR">
+      <description>Availability Status for a Payment</description>
+    </column>
+    <column name="FILE_NBR" data_type="VARCHAR">
+      <description>Key for multiple files from single Payment Program Print</description>
+    </column>
+  </columns>
+</data_description>

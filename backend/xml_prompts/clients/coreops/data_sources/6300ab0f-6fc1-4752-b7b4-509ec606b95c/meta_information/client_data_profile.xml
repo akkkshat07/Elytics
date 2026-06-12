@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<client_data_profile client_id="coreops" generated_at="2026-06-01T16:10:53.626257Z">
+  <company_profile>
+    <industry confidence="1.0">retail</industry>
+  </company_profile>
+  <formatting>
+  </formatting>
+  <data_characteristics>
+    <table_relationships>
+      <relationship from_table="v_master_ne_all" from_col="emp_id" to_table="v_master_ne_parlor" to_col="emp_id"/>
+      <relationship from_table="v_master_ne_all" from_col="emp_id" to_table="v_master_ne_retail" to_col="emp_id"/>
+      <relationship from_table="v_master_ne_parlor" from_col="emp_id" to_table="v_master_ne_retail" to_col="emp_id"/>
+      <relationship from_table="v_master_ne_all" from_col="client_id" to_table="v_master_ne_parlor" to_col="client_id"/>
+      <relationship from_table="v_master_ne_all" from_col="client_id" to_table="v_master_ne_retail" to_col="client_id"/>
+      <relationship from_table="v_master_ne_parlor" from_col="client_id" to_table="v_master_ne_retail" to_col="client_id"/>
+      <relationship from_table="v_master_ne_all" from_col="product_id" to_table="v_master_ne_parlor" to_col="product_id"/>
+      <relationship from_table="v_master_ne_all" from_col="product_id" to_table="v_master_ne_retail" to_col="product_id"/>
+      <relationship from_table="v_master_ne_parlor" from_col="product_id" to_table="v_master_ne_retail" to_col="product_id"/>
+      <relationship from_table="v_master_ne_all" from_col="variant_id" to_table="v_master_ne_parlor" to_col="variant_id"/>
+      <relationship from_table="v_master_ne_all" from_col="variant_id" to_table="v_master_ne_retail" to_col="variant_id"/>
+      <relationship from_table="v_master_ne_parlor" from_col="variant_id" to_table="v_master_ne_retail" to_col="variant_id"/>
+      <relationship from_table="v_master_ne_all" from_col="ss_id" to_table="v_master_ne_parlor" to_col="ss_id"/>
+      <relationship from_table="v_master_ne_all" from_col="ss_id" to_table="v_master_ne_retail" to_col="ss_id"/>
+      <relationship from_table="v_master_ne_parlor" from_col="ss_id" to_table="v_master_ne_retail" to_col="ss_id"/>
+    </table_relationships>
+  </data_characteristics>
+</client_data_profile>

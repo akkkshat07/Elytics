@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="T499S">
+  <table_info name="T499S" total_columns="5" />
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="WERKS" data_type="VARCHAR">
+      <description>Plant</description>
+    </column>
+    <column name="STAND" data_type="VARCHAR">
+      <description>Location</description>
+    </column>
+    <column name="KTEXT" data_type="VARCHAR">
+      <description>Text, 40 Characters Long</description>
+    </column>
+    <column name="ADDRNUM" data_type="VARCHAR">
+      <description>Address Number</description>
+    </column>
+  </columns>
+</data_description>

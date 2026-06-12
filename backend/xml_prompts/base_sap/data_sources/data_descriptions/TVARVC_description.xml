@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="TVARVC">
+  <table_info name="TVARVC" total_columns="9" />
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client ID</description>
+    </column>
+    <column name="NAME" data_type="VARCHAR">
+      <description>ABAP: Name of Variant Variable</description>
+    </column>
+    <column name="TYPE" data_type="VARCHAR">
+      <description>ABAP: Type of selection</description>
+    </column>
+    <column name="NUMB" data_type="VARCHAR">
+      <description>ABAP: Current selection number</description>
+    </column>
+    <column name="SIGN" data_type="VARCHAR">
+      <description>ABAP: ID: I/E (include/exclude values)</description>
+    </column>
+    <column name="OPTI" data_type="VARCHAR">
+      <description>ABAP: Selection option (EQ/BT/CP/...)</description>
+    </column>
+    <column name="LOW" data_type="VARCHAR">
+      <description>Selection Variants: Field Content (LOW/HIGH)</description>
+    </column>
+    <column name="HIGH" data_type="VARCHAR">
+      <description>Selection Variants: Field Content (LOW/HIGH)</description>
+    </column>
+    <column name="CLIE_INDEP" data_type="VARCHAR">
+      <description>CHAR01 data element for SYST</description>
+    </column>
+  </columns>
+</data_description>

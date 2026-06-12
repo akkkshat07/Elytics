@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="MBRL">
+  <table_info name="MBRL" total_columns="10" />
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="MBLNR" data_type="VARCHAR">
+      <description>Number of Material Document</description>
+    </column>
+    <column name="MJAHR" data_type="VARCHAR">
+      <description>Material Document Year</description>
+    </column>
+    <column name="ZEILE" data_type="VARCHAR">
+      <description>Item in Material Document</description>
+    </column>
+    <column name="MBLNR_REV" data_type="VARCHAR">
+      <description>Material document number of reversal</description>
+    </column>
+    <column name="MJAHR_REV" data_type="VARCHAR">
+      <description>Material document year of reversal</description>
+    </column>
+    <column name="ZEILE_REV" data_type="VARCHAR">
+      <description>Item in reversal material document</description>
+    </column>
+    <column name="REVERSAL_TYPE" data_type="VARCHAR">
+      <description>Reversal type</description>
+    </column>
+    <column name="REVERSAL_DATE" data_type="DATE">
+      <description>Reversal date</description>
+    </column>
+    <column name="REVERSAL_USER" data_type="VARCHAR">
+      <description>User who performed reversal</description>
+    </column>
+  </columns>
+</data_description>

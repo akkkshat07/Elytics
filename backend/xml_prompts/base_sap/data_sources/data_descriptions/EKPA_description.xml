@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="EKPA">
+  <table_info name="EKPA" total_columns="18" />
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="EBELN" data_type="VARCHAR">
+      <description>Purchasing Document Number</description>
+    </column>
+    <column name="EBELP" data_type="VARCHAR">
+      <description>Item Number of Purchasing Document</description>
+    </column>
+    <column name="EKORG" data_type="VARCHAR">
+      <description>Purchasing Organization</description>
+    </column>
+    <column name="LTSNR" data_type="VARCHAR">
+      <description>Vendor Subrange</description>
+    </column>
+    <column name="WERKS" data_type="VARCHAR">
+      <description>Plant</description>
+    </column>
+    <column name="PARVW" data_type="VARCHAR">
+      <description>Partner Function</description>
+    </column>
+    <column name="PARZA" data_type="VARCHAR">
+      <description>Partner counter</description>
+    </column>
+    <column name="ERNAM" data_type="VARCHAR">
+      <description>Name of Person Responsible for Creating the Object</description>
+    </column>
+    <column name="ERDAT" data_type="DATE">
+      <description>Date on Which Record Was Created</description>
+    </column>
+    <column name="LIFN2" data_type="VARCHAR">
+      <description>Reference to other vendor</description>
+    </column>
+    <column name="DEFPA" data_type="VARCHAR">
+      <description>Default Partner</description>
+    </column>
+    <column name="HITYP" data_type="VARCHAR">
+      <description>Hierarchy category: vendor hierarchy</description>
+    </column>
+    <column name="PARNR" data_type="VARCHAR">
+      <description>Number of contact person</description>
+    </column>
+    <column name="PERNR" data_type="VARCHAR">
+      <description>Personnel Number</description>
+    </column>
+    <column name="PRFRE" data_type="VARCHAR">
+      <description>Indicator: "relev. to price determination (vend. hierarchy)</description>
+    </column>
+    <column name="BOLRE" data_type="VARCHAR">
+      <description>Indicator: vendor subject to subseq. settlement accounting</description>
+    </column>
+    <column name="HISTUNR" data_type="VARCHAR">
+      <description>Level number within hierarchy</description>
+    </column>
+  </columns>
+</data_description>

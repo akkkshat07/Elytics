@@ -1,0 +1,102 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="T512W">
+  <table_info name="T512W" total_columns="32" />
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="MOLGA" data_type="VARCHAR">
+      <description>Country Grouping</description>
+    </column>
+    <column name="LGART" data_type="VARCHAR">
+      <description>Wage Type</description>
+    </column>
+    <column name="ENDDA" data_type="DATE">
+      <description>End Date</description>
+    </column>
+    <column name="BEGDA" data_type="DATE">
+      <description>Start Date</description>
+    </column>
+    <column name="GVBLA" data_type="VARCHAR">
+      <description>Valuation basis</description>
+    </column>
+    <column name="GVALA" data_type="VARCHAR">
+      <description>Statement wage type</description>
+    </column>
+    <column name="GVPRO" data_type="DECIMAL">
+      <description>Percentage</description>
+    </column>
+    <column name="PZBLA" data_type="VARCHAR">
+      <description>Valuation basis</description>
+    </column>
+    <column name="PZALA" data_type="VARCHAR">
+      <description>Statement wage type</description>
+    </column>
+    <column name="PZPRO" data_type="DECIMAL">
+      <description>Percentage</description>
+    </column>
+    <column name="FZBLA" data_type="VARCHAR">
+      <description>Valuation basis</description>
+    </column>
+    <column name="FZALA" data_type="VARCHAR">
+      <description>Statement wage type</description>
+    </column>
+    <column name="FZPRO" data_type="DECIMAL">
+      <description>Percentage</description>
+    </column>
+    <column name="VKLAS" data_type="VARCHAR">
+      <description>Processing classes</description>
+    </column>
+    <column name="KUMUL" data_type="VARCHAR">
+      <description>Cumulation of gross amounts</description>
+    </column>
+    <column name="D1AUS" data_type="VARCHAR">
+      <description>RTE/NUM/AMT selection for average basis</description>
+    </column>
+    <column name="D1KUM" data_type="VARCHAR">
+      <description>Cumulations for average bases</description>
+    </column>
+    <column name="D1PRO" data_type="DECIMAL">
+      <description>Percentage for average bases</description>
+    </column>
+    <column name="D2AUS" data_type="VARCHAR">
+      <description>RTE/NUM/AMT selection for average basis</description>
+    </column>
+    <column name="D2KUM" data_type="VARCHAR">
+      <description>Cumulations for average bases</description>
+    </column>
+    <column name="D2PRO" data_type="DECIMAL">
+      <description>Percentage for average bases</description>
+    </column>
+    <column name="D3AUS" data_type="VARCHAR">
+      <description>RTE/NUM/AMT selection for average basis</description>
+    </column>
+    <column name="D3KUM" data_type="VARCHAR">
+      <description>Cumulations for average bases</description>
+    </column>
+    <column name="D3PRO" data_type="DECIMAL">
+      <description>Percentage for average bases</description>
+    </column>
+    <column name="D4AUS" data_type="VARCHAR">
+      <description>RTE/NUM/AMT selection for average basis</description>
+    </column>
+    <column name="D4KUM" data_type="VARCHAR">
+      <description>Cumulations for average bases</description>
+    </column>
+    <column name="D4PRO" data_type="DECIMAL">
+      <description>Percentage for average bases</description>
+    </column>
+    <column name="D5AUS" data_type="VARCHAR">
+      <description>RTE/NUM/AMT selection for average basis</description>
+    </column>
+    <column name="D5KUM" data_type="VARCHAR">
+      <description>Cumulations for average bases</description>
+    </column>
+    <column name="D5PRO" data_type="DECIMAL">
+      <description>Percentage for average bases</description>
+    </column>
+    <column name="AKLAS" data_type="VARCHAR">
+      <description>Evaluation classes</description>
+    </column>
+  </columns>
+</data_description>

@@ -1,0 +1,135 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="PA0022">
+  <table_info name="PA0022" total_columns="43"/>
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="PERNR" data_type="VARCHAR">
+      <description>Personnel Number</description>
+    </column>
+    <column name="SUBTY" data_type="VARCHAR">
+      <description>Subtype</description>
+    </column>
+    <column name="OBJPS" data_type="VARCHAR">
+      <description>Object Identification</description>
+    </column>
+    <column name="SPRPS" data_type="VARCHAR">
+      <description>Lock Indicator for HR Master Data Record</description>
+    </column>
+    <column name="ENDDA" data_type="DATE">
+      <description>End Date</description>
+    </column>
+    <column name="BEGDA" data_type="DATE">
+      <description>Start Date</description>
+    </column>
+    <column name="SEQNR" data_type="VARCHAR">
+      <description>Number of Infotype Record With Same Key</description>
+    </column>
+    <column name="AEDTM" data_type="DATE">
+      <description>Last Changed On</description>
+    </column>
+    <column name="UNAME" data_type="VARCHAR">
+      <description>Name of Person Who Changed Object</description>
+    </column>
+    <column name="HISTO" data_type="VARCHAR">
+      <description>Historical Record Flag</description>
+    </column>
+    <column name="ITXEX" data_type="VARCHAR">
+      <description>Text Exists for Infotype</description>
+    </column>
+    <column name="REFEX" data_type="VARCHAR">
+      <description>Reference Fields Exist (Primary/Secondary Costs)</description>
+    </column>
+    <column name="ORDEX" data_type="VARCHAR">
+      <description>Confirmation Fields Exist</description>
+    </column>
+    <column name="ITBLD" data_type="VARCHAR">
+      <description>Infotype Screen Control</description>
+    </column>
+    <column name="PREAS" data_type="VARCHAR">
+      <description>Reason for Changing Master Data</description>
+    </column>
+    <column name="FLAG1" data_type="VARCHAR">
+      <description>Reserved Field/Unused Field</description>
+    </column>
+    <column name="FLAG2" data_type="VARCHAR">
+      <description>Reserved Field/Unused Field</description>
+    </column>
+    <column name="FLAG3" data_type="VARCHAR">
+      <description>Reserved Field/Unused Field</description>
+    </column>
+    <column name="FLAG4" data_type="VARCHAR">
+      <description>Reserved Field/Unused Field</description>
+    </column>
+    <column name="RESE1" data_type="VARCHAR">
+      <description>Reserved Field/Unused Field of Length 2</description>
+    </column>
+    <column name="RESE2" data_type="VARCHAR">
+      <description>Reserved Field/Unused Field of Length 2</description>
+    </column>
+    <column name="GRPVL" data_type="VARCHAR">
+      <description>Grouping Value for Personnel Assignments</description>
+    </column>
+    <column name="SLART" data_type="VARCHAR">
+      <description>Educational establishment</description>
+    </column>
+    <column name="INSTI" data_type="VARCHAR">
+      <description>Institute/location of training</description>
+    </column>
+    <column name="SLAND" data_type="VARCHAR">
+      <description>Country Key</description>
+    </column>
+    <column name="AUSBI" data_type="VARCHAR">
+      <description>Education/training</description>
+    </column>
+    <column name="SLABS" data_type="VARCHAR">
+      <description>Certificate</description>
+    </column>
+    <column name="ANZKL" data_type="DECIMAL">
+      <description>Duration of training course</description>
+    </column>
+    <column name="ANZEH" data_type="VARCHAR">
+      <description>Time/Measurement Unit</description>
+    </column>
+    <column name="SLTP1" data_type="VARCHAR">
+      <description>Branch of study</description>
+    </column>
+    <column name="SLTP2" data_type="VARCHAR">
+      <description>Branch of study</description>
+    </column>
+    <column name="JBEZ1" data_type="DECIMAL">
+      <description>Course fees</description>
+    </column>
+    <column name="WAERS" data_type="VARCHAR">
+      <description>Currency Key</description>
+    </column>
+    <column name="SLPLN" data_type="VARCHAR">
+      <description>Planned course (unused)</description>
+    </column>
+    <column name="SLKTR" data_type="VARCHAR">
+      <description>Cost object (unused)</description>
+    </column>
+    <column name="SLRZG" data_type="VARCHAR">
+      <description>Repayment obligation</description>
+    </column>
+    <column name="KSBEZ" data_type="VARCHAR">
+      <description>Course name</description>
+    </column>
+    <column name="TX122" data_type="VARCHAR">
+      <description>Course appraisal</description>
+    </column>
+    <column name="SCHCD" data_type="VARCHAR">
+      <description>Institute/school code</description>
+    </column>
+    <column name="FACCD" data_type="VARCHAR">
+      <description>Faculty code</description>
+    </column>
+    <column name="DPTMT" data_type="VARCHAR">
+      <description>Department</description>
+    </column>
+    <column name="EMARK" data_type="VARCHAR">
+      <description>Final Grade</description>
+    </column>
+  </columns>
+</data_description>

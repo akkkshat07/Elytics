@@ -1,0 +1,204 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="T001W">
+  <table_info name="T001W" total_columns="66"/>
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="WERKS" data_type="VARCHAR">
+      <description>Plant</description>
+    </column>
+    <column name="NAME1" data_type="VARCHAR">
+      <description>Name</description>
+    </column>
+    <column name="BWKEY" data_type="VARCHAR">
+      <description>Valuation Area</description>
+    </column>
+    <column name="KUNNR" data_type="VARCHAR">
+      <description>Customer number of plant</description>
+    </column>
+    <column name="LIFNR" data_type="VARCHAR">
+      <description>Vendor number of plant</description>
+    </column>
+    <column name="FABKL" data_type="VARCHAR">
+      <description>Factory calendar key</description>
+    </column>
+    <column name="NAME2" data_type="VARCHAR">
+      <description>Name 2</description>
+    </column>
+    <column name="STRAS" data_type="VARCHAR">
+      <description>Street and House Number</description>
+    </column>
+    <column name="PFACH" data_type="VARCHAR">
+      <description>PO Box</description>
+    </column>
+    <column name="PSTLZ" data_type="VARCHAR">
+      <description>Postal Code</description>
+    </column>
+    <column name="ORT01" data_type="VARCHAR">
+      <description>City</description>
+    </column>
+    <column name="EKORG" data_type="VARCHAR">
+      <description>Purchasing Organization</description>
+    </column>
+    <column name="VKORG" data_type="VARCHAR">
+      <description>Sales organization for intercompany billing</description>
+    </column>
+    <column name="CHAZV" data_type="VARCHAR">
+      <description>Indicator: batch status management active</description>
+    </column>
+    <column name="KKOWK" data_type="VARCHAR">
+      <description>Indicator: Conditions at plant level</description>
+    </column>
+    <column name="KORDB" data_type="VARCHAR">
+      <description>Indicator: Source list requirement</description>
+    </column>
+    <column name="BEDPL" data_type="VARCHAR">
+      <description>Activating requirements planning</description>
+    </column>
+    <column name="LAND1" data_type="VARCHAR">
+      <description>Country Key</description>
+    </column>
+    <column name="REGIO" data_type="VARCHAR">
+      <description>Region (State, Province, County)</description>
+    </column>
+    <column name="COUNC" data_type="VARCHAR">
+      <description>County Code</description>
+    </column>
+    <column name="CITYC" data_type="VARCHAR">
+      <description>City Code</description>
+    </column>
+    <column name="ADRNR" data_type="VARCHAR">
+      <description>Address</description>
+    </column>
+    <column name="IWERK" data_type="VARCHAR">
+      <description>Maintenance Planning Plant</description>
+    </column>
+    <column name="TXJCD" data_type="VARCHAR">
+      <description>Tax Jurisdiction</description>
+    </column>
+    <column name="VTWEG" data_type="VARCHAR">
+      <description>Distribution channel for intercompany billing</description>
+    </column>
+    <column name="SPART" data_type="VARCHAR">
+      <description>Division for intercompany billing</description>
+    </column>
+    <column name="SPRAS" data_type="VARCHAR">
+      <description>Language Key</description>
+    </column>
+    <column name="WKSOP" data_type="VARCHAR">
+      <description>SOP plant</description>
+    </column>
+    <column name="AWSLS" data_type="VARCHAR">
+      <description>Variance Key</description>
+    </column>
+    <column name="CHAZV_OLD" data_type="VARCHAR">
+      <description>Indicator: batch status management active</description>
+    </column>
+    <column name="VLFKZ" data_type="VARCHAR">
+      <description>Plant category</description>
+    </column>
+    <column name="BZIRK" data_type="VARCHAR">
+      <description>Sales district</description>
+    </column>
+    <column name="ZONE1" data_type="VARCHAR">
+      <description>Supply region (region supplied)</description>
+    </column>
+    <column name="TAXIW" data_type="VARCHAR">
+      <description>Tax Indicator: Plant (Purchasing)</description>
+    </column>
+    <column name="BZQHL" data_type="VARCHAR">
+      <description>Take regular vendor into account</description>
+    </column>
+    <column name="LET01" data_type="DECIMAL">
+      <description>Number of Days for First Reminder/Expediter</description>
+    </column>
+    <column name="LET02" data_type="DECIMAL">
+      <description>Number of Days for Second Reminder/Expediter</description>
+    </column>
+    <column name="LET03" data_type="DECIMAL">
+      <description>Number of Days for Third Reminder/Expediter</description>
+    </column>
+    <column name="TXNAM_MA1" data_type="VARCHAR">
+      <description>Text name of 1st dunning of vendor declarations</description>
+    </column>
+    <column name="TXNAM_MA2" data_type="VARCHAR">
+      <description>Text name of the 2nd dunning of vendor declarations</description>
+    </column>
+    <column name="TXNAM_MA3" data_type="VARCHAR">
+      <description>Text name of 3rd dunning of vendor declarations</description>
+    </column>
+    <column name="BETOL" data_type="VARCHAR">
+      <description>Number of days for PO tolerance - Compress info records - SU</description>
+    </column>
+    <column name="J_1BBRANCH" data_type="VARCHAR">
+      <description>Business Place</description>
+    </column>
+    <column name="VTBFI" data_type="VARCHAR">
+      <description>Rule for determining the sales area for stock transfers</description>
+    </column>
+    <column name="FPRFW" data_type="VARCHAR">
+      <description>Distribution profile at plant level</description>
+    </column>
+    <column name="ACHVM" data_type="VARCHAR">
+      <description>Central archiving marker for master record</description>
+    </column>
+    <column name="DVSART" data_type="VARCHAR">
+      <description>Batch Record: Type of DMS Used</description>
+    </column>
+    <column name="NODETYPE" data_type="VARCHAR">
+      <description>Node type: supply chain network</description>
+    </column>
+    <column name="NSCHEMA" data_type="VARCHAR">
+      <description>Structure for name formation</description>
+    </column>
+    <column name="PKOSA" data_type="VARCHAR">
+      <description>Cost Object Controlling linking active</description>
+    </column>
+    <column name="MISCH" data_type="VARCHAR">
+      <description>Updating is active for mixed costing</description>
+    </column>
+    <column name="MGVUPD" data_type="VARCHAR">
+      <description>Updating is active in actual costing</description>
+    </column>
+    <column name="VSTEL" data_type="VARCHAR">
+      <description>Shipping Point/Receiving Point</description>
+    </column>
+    <column name="MGVLAUPD" data_type="VARCHAR">
+      <description>Update of Activity Consumption in the Quantity Structure</description>
+    </column>
+    <column name="MGVLAREVAL" data_type="VARCHAR">
+      <description>Control of Credit of Cost Centers</description>
+    </column>
+    <column name="SOURCING" data_type="VARCHAR">
+      <description>Invoke Added-Function Source Determination via ATP</description>
+    </column>
+    <column name="SGT_STAT" data_type="VARCHAR">
+      <description>Segmentation Status-Material Master</description>
+    </column>
+    <column name="FSH_MG_ARUN_REQ" data_type="VARCHAR">
+      <description>Order Allocation Run</description>
+    </column>
+    <column name="FSH_SEAIM" data_type="VARCHAR">
+      <description>Indicator: Season Active in Inventory Management</description>
+    </column>
+    <column name="FSH_BOM_MAINTENANCE" data_type="VARCHAR">
+      <description>Control data for fashion BOM maintenance</description>
+    </column>
+    <column name="OILIVAL" data_type="VARCHAR">
+      <description>Exchange valuation indicator</description>
+    </column>
+    <column name="OIHVTYPE" data_type="VARCHAR">
+      <description>Vendor type (refinery/mill/other) (Brazil)</description>
+    </column>
+    <column name="OIHCREDIPI" data_type="VARCHAR">
+      <description>IPI credit allowed</description>
+    </column>
+    <column name="STORETYPE" data_type="VARCHAR">
+      <description>Store Category to Differentiate Store, Dep. Store, Shop</description>
+    </column>
+    <column name="DEP_STORE" data_type="VARCHAR">
+      <description>Superior Department Store</description>
+    </column>
+  </columns>
+</data_description>

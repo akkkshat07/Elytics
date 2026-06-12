@@ -1,0 +1,61 @@
+# Prometheus Configuration for CoreSight
+#
+# Usage:
+#   prometheus --config.file=prometheus.yml
+#
+# Web UI: http://localhost:9090
+
+global:
+  scrape_interval: 15s      # Scrape metrics every 15 seconds
+  evaluation_interval: 15s  # Evaluate alert rules every 15 seconds
+  
+  external_labels:
+    cluster: 'coresight'
+    environment: 'production'
+
+# Alertmanager configuration (optional)
+alerting:
+  alertmanagers:
+    - static_configs:
+        - targets:
+          # - localhost:9093  # Uncomment to enable Alertmanager
+
+# Alert rules files
+rule_files:
+  - "alert_rules.yml"
+
+# Scrape configurations
+scrape_configs:
+  # CoreSight  application metrics
+  - job_name: 'coresight'
+    scrape_interval: 15s
+    scrape_timeout: 10s
+    metrics_path: '/api/admin/metrics'
+    static_configs:
+      - targets: ['localhost:8024']
+        labels:
+          service: 'coresight-backend'
+          component: 'fastapi-app'
+  
+  # Prometheus self-monitoring
+  - job_name: 'prometheus'
+    static_configs:
+      - targets: ['localhost:9090']
+        labels:
+          service: 'prometheus'
+  
+  # Redis metrics (requires redis_exporter)
+  # - job_name: 'redis'
+  #   static_configs:
+  #     - targets: ['localhost:9121']
+  #       labels:
+  #         service: 'redis'
+  #         component: 'cache-rate-limit'
+  
+  # MongoDB metrics (requires mongodb_exporter)
+  # - job_name: 'mongodb'
+  #   static_configs:
+  #     - targets: ['localhost:9216']
+  #       labels:
+  #         service: 'mongodb'
+  #         component: 'database'

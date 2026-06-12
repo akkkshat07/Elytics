@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="TVKO">
+  <table_info name="TVKO" total_columns="29"/>
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="VKORG" data_type="VARCHAR">
+      <description>Sales Organization</description>
+    </column>
+    <column name="WAERS" data_type="VARCHAR">
+      <description>Statistics currency</description>
+    </column>
+    <column name="BUKRS" data_type="VARCHAR">
+      <description>Company code of the sales organization</description>
+    </column>
+    <column name="ADRNR" data_type="VARCHAR">
+      <description>Address</description>
+    </column>
+    <column name="TXNAM_ADR" data_type="VARCHAR">
+      <description>Text name for form text module short address</description>
+    </column>
+    <column name="TXNAM_KOP" data_type="VARCHAR">
+      <description>Text name for form text module letter header</description>
+    </column>
+    <column name="TXNAM_FUS" data_type="VARCHAR">
+      <description>Text name for formula text module footer lines</description>
+    </column>
+    <column name="TXNAM_GRU" data_type="VARCHAR">
+      <description>Text name for form text module: Greeting</description>
+    </column>
+    <column name="VKOAU" data_type="VARCHAR">
+      <description>Reference sales org.for sales doc.types (by sales area)</description>
+    </column>
+    <column name="KUNNR" data_type="VARCHAR">
+      <description>Customer number for intercompany billing</description>
+    </column>
+    <column name="BOAVO" data_type="VARCHAR">
+      <description>Rebate processing active in the sales organization</description>
+    </column>
+    <column name="VKOKL" data_type="VARCHAR">
+      <description>Sales organization calendar</description>
+    </column>
+    <column name="EKORG" data_type="VARCHAR">
+      <description>Purchasing Organization</description>
+    </column>
+    <column name="EKGRP" data_type="VARCHAR">
+      <description>Purchasing Group</description>
+    </column>
+    <column name="LIFNR" data_type="VARCHAR">
+      <description>Account Number of Supplier</description>
+    </column>
+    <column name="WERKS" data_type="VARCHAR">
+      <description>Plant</description>
+    </column>
+    <column name="BSART" data_type="VARCHAR">
+      <description>Order Type (Purchasing)</description>
+    </column>
+    <column name="BSTYP" data_type="VARCHAR">
+      <description>Purchasing document category</description>
+    </column>
+    <column name="BWART" data_type="VARCHAR">
+      <description>Movement Type (Inventory Management)</description>
+    </column>
+    <column name="LGORT" data_type="VARCHAR">
+      <description>Storage Location</description>
+    </column>
+    <column name="TXNAM_SDB" data_type="VARCHAR">
+      <description>Text names for layout-set module SDS sender</description>
+    </column>
+    <column name="MWSKZ" data_type="VARCHAR">
+      <description>Tax code for SD documents</description>
+    </column>
+    <column name="XSTCEG" data_type="VARCHAR">
+      <description>Determining the VAT registration number</description>
+    </column>
+    <column name="J_1ANUTIME" data_type="VARCHAR">
+      <description>Time of numbering for deliveries</description>
+    </column>
+    <column name="MAXBI" data_type="VARCHAR">
+      <description>Maximum Number of Items in Billing Document</description>
+    </column>
+    <column name="HIDE" data_type="VARCHAR">
+      <description>Customization of SD Input Help Entries</description>
+    </column>
+    <column name="PLAUFZ" data_type="VARCHAR">
+      <description>Price protection period</description>
+    </column>
+    <column name="PLAUEZ" data_type="VARCHAR">
+      <description>Unit for price protection</description>
+    </column>
+  </columns>
+</data_description>

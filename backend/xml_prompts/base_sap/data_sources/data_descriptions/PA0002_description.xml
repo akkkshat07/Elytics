@@ -1,0 +1,216 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="PA0002">
+  <table_info name="PA0002" total_columns="70"/>
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="PERNR" data_type="VARCHAR">
+      <description>Personnel Number</description>
+    </column>
+    <column name="SUBTY" data_type="VARCHAR">
+      <description>Subtype</description>
+    </column>
+    <column name="OBJPS" data_type="VARCHAR">
+      <description>Object Identification</description>
+    </column>
+    <column name="SPRPS" data_type="VARCHAR">
+      <description>Lock Indicator for HR Master Data Record</description>
+    </column>
+    <column name="ENDDA" data_type="DATE">
+      <description>End Date</description>
+    </column>
+    <column name="BEGDA" data_type="DATE">
+      <description>Start Date</description>
+    </column>
+    <column name="SEQNR" data_type="VARCHAR">
+      <description>Number of Infotype Record With Same Key</description>
+    </column>
+    <column name="AEDTM" data_type="DATE">
+      <description>Last Changed On</description>
+    </column>
+    <column name="UNAME" data_type="VARCHAR">
+      <description>Name of Person Who Changed Object</description>
+    </column>
+    <column name="HISTO" data_type="VARCHAR">
+      <description>Historical Record Flag</description>
+    </column>
+    <column name="ITXEX" data_type="VARCHAR">
+      <description>Text Exists for Infotype</description>
+    </column>
+    <column name="REFEX" data_type="VARCHAR">
+      <description>Reference Fields Exist (Primary/Secondary Costs)</description>
+    </column>
+    <column name="ORDEX" data_type="VARCHAR">
+      <description>Confirmation Fields Exist</description>
+    </column>
+    <column name="ITBLD" data_type="VARCHAR">
+      <description>Infotype Screen Control</description>
+    </column>
+    <column name="PREAS" data_type="VARCHAR">
+      <description>Reason for Changing Master Data</description>
+    </column>
+    <column name="FLAG1" data_type="VARCHAR">
+      <description>Reserved Field/Unused Field</description>
+    </column>
+    <column name="FLAG2" data_type="VARCHAR">
+      <description>Reserved Field/Unused Field</description>
+    </column>
+    <column name="FLAG3" data_type="VARCHAR">
+      <description>Reserved Field/Unused Field</description>
+    </column>
+    <column name="FLAG4" data_type="VARCHAR">
+      <description>Reserved Field/Unused Field</description>
+    </column>
+    <column name="RESE1" data_type="VARCHAR">
+      <description>Reserved Field/Unused Field of Length 2</description>
+    </column>
+    <column name="RESE2" data_type="VARCHAR">
+      <description>Reserved Field/Unused Field of Length 2</description>
+    </column>
+    <column name="GRPVL" data_type="VARCHAR">
+      <description>Grouping Value for Personnel Assignments</description>
+    </column>
+    <column name="INITS" data_type="VARCHAR">
+      <description>Initials</description>
+    </column>
+    <column name="NACHN" data_type="VARCHAR">
+      <description>Last Name</description>
+    </column>
+    <column name="NAME2" data_type="VARCHAR">
+      <description>Name at Birth</description>
+    </column>
+    <column name="NACH2" data_type="VARCHAR">
+      <description>Second Name</description>
+    </column>
+    <column name="VORNA" data_type="VARCHAR">
+      <description>First Name</description>
+    </column>
+    <column name="CNAME" data_type="VARCHAR">
+      <description>Complete Name</description>
+    </column>
+    <column name="TITEL" data_type="VARCHAR">
+      <description>Title</description>
+    </column>
+    <column name="TITL2" data_type="VARCHAR">
+      <description>Second Title</description>
+    </column>
+    <column name="NAMZU" data_type="VARCHAR">
+      <description>Other Title</description>
+    </column>
+    <column name="VORSW" data_type="VARCHAR">
+      <description>Name Prefix</description>
+    </column>
+    <column name="VORS2" data_type="VARCHAR">
+      <description>Second Name Prefix</description>
+    </column>
+    <column name="RUFNM" data_type="VARCHAR">
+      <description>Nickname</description>
+    </column>
+    <column name="MIDNM" data_type="VARCHAR">
+      <description>Middle Name</description>
+    </column>
+    <column name="KNZNM" data_type="VARCHAR">
+      <description>Name Format Indicator for Employee in a List</description>
+    </column>
+    <column name="ANRED" data_type="VARCHAR">
+      <description>Form-of-Address Key</description>
+    </column>
+    <column name="GESCH" data_type="VARCHAR">
+      <description>Gender</description>
+    </column>
+    <column name="GBDAT" data_type="DATE">
+      <description>Date of Birth</description>
+    </column>
+    <column name="GBLND" data_type="VARCHAR">
+      <description>Country of Birth</description>
+    </column>
+    <column name="GBDEP" data_type="VARCHAR">
+      <description>State</description>
+    </column>
+    <column name="GBORT" data_type="VARCHAR">
+      <description>Birthplace</description>
+    </column>
+    <column name="NATIO" data_type="VARCHAR">
+      <description>Nationality</description>
+    </column>
+    <column name="NATI2" data_type="VARCHAR">
+      <description>Second Nationality</description>
+    </column>
+    <column name="NATI3" data_type="VARCHAR">
+      <description>Third Nationality</description>
+    </column>
+    <column name="SPRSL" data_type="VARCHAR">
+      <description>Communication Language</description>
+    </column>
+    <column name="KONFE" data_type="VARCHAR">
+      <description>Religious Denomination Key</description>
+    </column>
+    <column name="FAMST" data_type="VARCHAR">
+      <description>Marital Status Key</description>
+    </column>
+    <column name="FAMDT" data_type="DATE">
+      <description>Valid From Date of Current Marital Status</description>
+    </column>
+    <column name="ANZKD" data_type="DECIMAL">
+      <description>Number of Children</description>
+    </column>
+    <column name="NACON" data_type="VARCHAR">
+      <description>Name Connection</description>
+    </column>
+    <column name="PERMO" data_type="VARCHAR">
+      <description>Modifier for Personnel Identifier</description>
+    </column>
+    <column name="PERID" data_type="VARCHAR">
+      <description>Personnel ID Number</description>
+    </column>
+    <column name="GBPAS" data_type="DATE">
+      <description>Date of Birth According to Passport</description>
+    </column>
+    <column name="FNAMK" data_type="VARCHAR">
+      <description>First name (Katakana)</description>
+    </column>
+    <column name="LNAMK" data_type="VARCHAR">
+      <description>Last name (Katakana)</description>
+    </column>
+    <column name="FNAMR" data_type="VARCHAR">
+      <description>First Name (Romaji)</description>
+    </column>
+    <column name="LNAMR" data_type="VARCHAR">
+      <description>Last Name (Romaji)</description>
+    </column>
+    <column name="NABIK" data_type="VARCHAR">
+      <description>Name of Birth (Katakana)</description>
+    </column>
+    <column name="NABIR" data_type="VARCHAR">
+      <description>Name of Birth (Romaji)</description>
+    </column>
+    <column name="NICKK" data_type="VARCHAR">
+      <description>Koseki (Katakana)</description>
+    </column>
+    <column name="NICKR" data_type="VARCHAR">
+      <description>Koseki (Romaji)</description>
+    </column>
+    <column name="GBJHR" data_type="VARCHAR">
+      <description>Year of Birth</description>
+    </column>
+    <column name="GBMON" data_type="VARCHAR">
+      <description>Month of Birth</description>
+    </column>
+    <column name="GBTAG" data_type="VARCHAR">
+      <description>Birth Date (to Month/Year)</description>
+    </column>
+    <column name="NCHMC" data_type="VARCHAR">
+      <description>Last Name (Field for Search Help)</description>
+    </column>
+    <column name="VNAMC" data_type="VARCHAR">
+      <description>First Name (Field for Search Help)</description>
+    </column>
+    <column name="NAMZ2" data_type="VARCHAR">
+      <description>Name Affix for Name at Birth</description>
+    </column>
+    <column name="GENDER_SI" data_type="VARCHAR">
+      <description>Self-Identified Gender</description>
+    </column>
+  </columns>
+</data_description>

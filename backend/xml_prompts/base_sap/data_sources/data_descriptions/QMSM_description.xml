@@ -1,0 +1,165 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="QMSM">
+  <table_info name="QMSM" total_columns="53"/>
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="QMNUM" data_type="VARCHAR">
+      <description>Notification No</description>
+    </column>
+    <column name="MANUM" data_type="VARCHAR">
+      <description>Sequential Task Number</description>
+    </column>
+    <column name="MNKAT" data_type="VARCHAR">
+      <description>Catalog Type - Tasks</description>
+    </column>
+    <column name="MNGRP" data_type="VARCHAR">
+      <description>Code Group - Tasks</description>
+    </column>
+    <column name="MNCOD" data_type="VARCHAR">
+      <description>Task Code</description>
+    </column>
+    <column name="MNVER" data_type="VARCHAR">
+      <description>Version Number</description>
+    </column>
+    <column name="FOLGEACT" data_type="VARCHAR">
+      <description>Follow-Up Action for Task</description>
+    </column>
+    <column name="FOLACTPROT" data_type="VARCHAR">
+      <description>Log for Follow-Up Action</description>
+    </column>
+    <column name="MATXT" data_type="VARCHAR">
+      <description>Short Text for Task</description>
+    </column>
+    <column name="ERNAM" data_type="VARCHAR">
+      <description>Name of Person Responsible for Creating the Object</description>
+    </column>
+    <column name="ERDAT" data_type="DATE">
+      <description>Date on Which Record Was Created</description>
+    </column>
+    <column name="AENAM" data_type="VARCHAR">
+      <description>Name of Person Who Changed Object</description>
+    </column>
+    <column name="AEDAT" data_type="DATE">
+      <description>Last Changed On</description>
+    </column>
+    <column name="PSTER" data_type="DATE">
+      <description>Planned Start Date</description>
+    </column>
+    <column name="PETER" data_type="DATE">
+      <description>Planned finish date</description>
+    </column>
+    <column name="OBJNR" data_type="VARCHAR">
+      <description>Object Number for Status Management</description>
+    </column>
+    <column name="INDTX" data_type="VARCHAR">
+      <description>Object Long Text Available</description>
+    </column>
+    <column name="KZMLA" data_type="VARCHAR">
+      <description>Primary language indicator for text segment</description>
+    </column>
+    <column name="PSTUR" data_type="TIME">
+      <description>Planned Start Time for Task</description>
+    </column>
+    <column name="PETUR" data_type="TIME">
+      <description>Planned Finish Time for Task</description>
+    </column>
+    <column name="ERLNAM" data_type="VARCHAR">
+      <description>Person Who Completed the Task</description>
+    </column>
+    <column name="ERLDAT" data_type="DATE">
+      <description>Date on Which the Task Was Completed</description>
+    </column>
+    <column name="ERLZEIT" data_type="TIME">
+      <description>Time at Which Task Was Completed</description>
+    </column>
+    <column name="WDVDAT" data_type="DATE">
+      <description>Date on Which Task Was Resubmitted</description>
+    </column>
+    <column name="FENUM" data_type="VARCHAR">
+      <description>Item Number in Item Record</description>
+    </column>
+    <column name="URNUM" data_type="VARCHAR">
+      <description>Sequential Number for Cause</description>
+    </column>
+    <column name="ERZEIT" data_type="TIME">
+      <description>Time, at Which Record Was Added</description>
+    </column>
+    <column name="AEZEIT" data_type="TIME">
+      <description>Time of Change</description>
+    </column>
+    <column name="PARVW" data_type="VARCHAR">
+      <description>Function of Person Responsible for Task</description>
+    </column>
+    <column name="PARNR" data_type="VARCHAR">
+      <description>Person Responsible for Task (Partner Number)</description>
+    </column>
+    <column name="MMENGE" data_type="DECIMAL">
+      <description>Quantity</description>
+    </column>
+    <column name="MMGEIN" data_type="VARCHAR">
+      <description>Unit of Measure for Item</description>
+    </column>
+    <column name="BAUTL" data_type="VARCHAR">
+      <description>Assembly Affected by the Task</description>
+    </column>
+    <column name="KZLOESCH" data_type="VARCHAR">
+      <description>Delete Data Record</description>
+    </column>
+    <column name="QSMNUM" data_type="VARCHAR">
+      <description>Sort Number for Task</description>
+    </column>
+    <column name="AUTKZ" data_type="VARCHAR">
+      <description>Data Record Created with Function 'Create with Copy Model'</description>
+    </column>
+    <column name="HANDLE" data_type="VARCHAR">
+      <description>Globally unique identifier (linked to time segment, etc)</description>
+    </column>
+    <column name="TSEGFL" data_type="VARCHAR">
+      <description>Time segment exists</description>
+    </column>
+    <column name="TSEGTP" data_type="VARCHAR">
+      <description>Template</description>
+    </column>
+    <column name="TZONSO" data_type="VARCHAR">
+      <description>Time Zone for Notification</description>
+    </column>
+    <column name="TZONSM" data_type="VARCHAR">
+      <description>Time Zone for Task</description>
+    </column>
+    <column name="TZONID" data_type="VARCHAR">
+      <description>Origin of Time Zone in Notification</description>
+    </column>
+    <column name="TIMEBASEDEFFORT" data_type="DECIMAL">
+      <description>Time Effort for Task</description>
+    </column>
+    <column name="TIMEBASEDEFFORTUOM" data_type="VARCHAR">
+      <description>Unit for Task Effort</description>
+    </column>
+    <column name="KZACTIONBOX" data_type="VARCHAR">
+      <description>Created Using Action Box</description>
+    </column>
+    <column name="FUNKTION" data_type="VARCHAR">
+      <description>Key for Function in Action Box</description>
+    </column>
+    <column name="/SAPSMOSS/NOTE" data_type="VARCHAR">
+      <description>Note number</description>
+    </column>
+    <column name="/SAPSMOSS/REPORT" data_type="VARCHAR">
+      <description>Note created by</description>
+    </column>
+    <column name="/SAPSMOSS/MTSTMP" data_type="VARCHAR">
+      <description>Time stamp (date + time)</description>
+    </column>
+    <column name="ABC_TEMPL" data_type="VARCHAR">
+      <description>Template</description>
+    </column>
+    <column name="EFFECTPERC" data_type="VARCHAR">
+      <description>Effect in Percentage</description>
+    </column>
+    <column name="EFFECTTEXT" data_type="VARCHAR">
+      <description>Effect Text</description>
+    </column>
+  </columns>
+</data_description>

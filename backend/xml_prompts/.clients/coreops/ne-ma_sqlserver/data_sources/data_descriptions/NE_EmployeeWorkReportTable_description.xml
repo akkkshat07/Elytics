@@ -1,0 +1,157 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="NE_EmployeeWorkReportTable">
+  <table_info name="NE_EmployeeWorkReportTable" total_columns="49" row_count="5831448" total_size_mb="1049.47" index_count="3" is_heap="true" />
+  <performance_hints>
+    <metric name="row_count">5831448</metric>
+    <metric name="total_size_mb">1049.47</metric>
+  </performance_hints>
+  <columns>
+    <column name="AttendanceStatus" data_type="varchar" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Employee’s attendance outcome for the day (e.g., P=Present, A=Absent, MA=Marked Absent, or leave types like "L (Casual Leave)"); interpret alongside time/visit fields since many metrics will be null/zero when not present.</description>
+    </column>
+    <column name="BeatB_Id" data_type="varchar" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Identifier(s) of the beat/route assigned or covered that day, sometimes stored as a comma-separated list when multiple beats are visited; use to group performance by beat but expect nulls on absence/leave days.</description>
+    </column>
+    <column name="BeatClient" data_type="bigint" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Count or category indicator related to beat-level clients for the day (often numeric like 0, 68) and may represent mapped clients on the beat; treat carefully because it can be null and its business meaning may vary by implementation.</description>
+    </column>
+    <column name="Beats" data_type="varchar" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Human-readable beat/route names covered (e.g., city/area names), sometimes comma-separated for multiple beats; useful for reporting but not ideal for joins due to inconsistent formatting and nulls.</description>
+    </column>
+    <column name="CDate" data_type="date" is_primary_key="false" is_clustered="false" is_indexed="true" is_unique_key="false">
+      <description>The calendar date for the employee work report record (daily grain) and the primary filter for time-based analysis; always filter by this indexed column when querying the large table.</description>
+    </column>
+    <column name="City" data_type="varchar" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Reported working/visit city for the day (often derived from route/beat or check-ins) and may include leading spaces; null on non-working days and should not be assumed to match EmpCity.</description>
+    </column>
+    <column name="Client_Id" data_type="bigint" is_primary_key="false" is_clustered="false" is_indexed="true" is_unique_key="false">
+      <description>Client/account identifier associated with the record context (often 0 or null in samples), indexed for filtering and joins; interpret 0/null as ‘no specific client context’ depending on upstream logic.</description>
+    </column>
+    <column name="Designation" data_type="varchar" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Employee’s role/title at the time of the record (e.g., TSO, ASE, Sr. TSI), used for segmenting productivity expectations and KPI benchmarks.</description>
+    </column>
+    <column name="EmpCity" data_type="varchar" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Employee’s home/base city as per HR/master data (e.g., Surat, Pune), useful for territory mapping and regional rollups; not necessarily the same as the day’s working City.</description>
+    </column>
+    <column name="EmpState" data_type="varchar" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Employee’s assigned state/cluster (e.g., Gujarat, Mah-Pune, Kerala) used for regional reporting; values may be sales-region styled rather than strict administrative states.</description>
+    </column>
+    <column name="EmpZone" data_type="varchar" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>High-level geographic zone assignment (e.g., West, South, North) for management reporting and aggregation.</description>
+    </column>
+    <column name="Emp_Id" data_type="bigint" is_primary_key="false" is_clustered="false" is_indexed="true" is_unique_key="false">
+      <description>Unique employee identifier for the work report record, indexed for efficient employee-level filtering and joins to employee master tables.</description>
+    </column>
+    <column name="Emp_Type" data_type="varchar" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Employee channel/team type (e.g., Retail, Skin, Parlor) indicating business line and expected activity patterns; use to segment KPIs since visit and order behavior differ by type.</description>
+    </column>
+    <column name="FVH" data_type="varchar" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Field visit hours/time-in-field value formatted as time (e.g., 08:54) representing duration spent in field activities; commonly null for absent/leave days and should be parsed as a duration not a timestamp.</description>
+    </column>
+    <column name="FVST" data_type="varchar" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>First visit start time as a labeled string (e.g., "FVST :10:05 AM"), indicating when the first customer visit began; requires string parsing to extract the time and may be null when no visits occur.</description>
+    </column>
+    <column name="FistVisitStartLocation" data_type="varchar" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Text address/geocoded location captured at first visit start, used for audit/geo-compliance; often null and may contain full postal address strings not suitable for exact matching.</description>
+    </column>
+    <column name="HQState" data_type="varchar" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Employee’s headquarters state/region assignment (often aligned to EmpState) used for organizational reporting; prefer this for HQ-based rollups when it differs from EmpState.</description>
+    </column>
+    <column name="JWork" data_type="varchar" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Job/work classification or special work flag for the day (often null in samples); interpret as an optional marker for non-standard work types if populated.</description>
+    </column>
+    <column name="LVET" data_type="varchar" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Last visit end time as a labeled string (e.g., "LVET :06:59 PM"), indicating when the final customer visit ended; parse to time and expect null when no visits are logged.</description>
+    </column>
+    <column name="Label" data_type="varchar" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>External label/code used to identify the record or employee in upstream systems (e.g., numeric codes or alphanumeric like QS2983859); treat as a reference identifier rather than a stable primary key.</description>
+    </column>
+    <column name="LastVisitEndLocation" data_type="varchar" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Text address/geocoded location captured at last visit end, used for route validation and compliance checks; may be null and is free-form location text.</description>
+    </column>
+    <column name="LogStatus" data_type="varchar" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Daily start/end logging summary as a string (e.g., "ST :07:49 AM ET :09:11 PM" or placeholders), representing app login/working window; parse for ST/ET times and handle missing placeholders ("......").</description>
+    </column>
+    <column name="NC" data_type="bigint" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Numeric metric related to non-productive or non-compliant counts (often null in samples); treat as an optional KPI component and confirm definition before use in reporting.</description>
+    </column>
+    <column name="NightTravel" data_type="varchar" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Flag/indicator for night travel status (blank, null, or populated) used for travel policy and allowances; interpret empty string vs null consistently in analysis.</description>
+    </column>
+    <column name="OFTD" data_type="varchar" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Operational field time details string combining key times and durations (e.g., FVST, LVET, TVH, FVH), intended as a readable summary; not reliable for computation without parsing.</description>
+    </column>
+    <column name="POVC" data_type="varchar" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Productive order/visit conversion expressed as a ratio/percentage string (e.g., "13 / 39%"), typically derived from productive vs total visits; parse into numeric components for KPI calculations.</description>
+    </column>
+    <column name="PVC" data_type="varchar" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Productive visit count (e.g., 11, 13) representing visits meeting productivity criteria; use with VC/TVC to compute conversion rates and note nulls on non-working days.</description>
+    </column>
+    <column name="PositionCode" data_type="varchar" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Territory/position identifier from the sales hierarchy (e.g., "NER_AP_FF3"), used for mapping to org structures; frequently null and should be joined to position masters when populated.</description>
+    </column>
+    <column name="RouteTDT" data_type="decimal" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Total route distance traveled for the day (decimal, e.g., 184.79) likely in kilometers; may be 0.00 when no travel is recorded and should be compared with sub-distance fields for consistency.</description>
+    </column>
+    <column name="RouteTVDT" data_type="decimal" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Route distance associated with travel during visit window or ‘travel-to-visit’ segment (decimal); often 0.00/null and should be treated as a component of RouteTDT when populated.</description>
+    </column>
+    <column name="RouteTWELVDT" data_type="decimal" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Route distance attributed to a specific travel segment/category (decimal), often a smaller component; confirm segment definition before using for reimbursement logic.</description>
+    </column>
+    <column name="RouteTWSFVDT" data_type="decimal" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Route distance attributed to another segment/category (decimal), which together with other route distances may reconcile to RouteTDT; handle nulls and rounding differences.</description>
+    </column>
+    <column name="SLNO" data_type="bigint" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Unique serial number for the record (bigint) serving as a row-level identifier; useful for deduplication/troubleshooting rather than business aggregation.</description>
+    </column>
+    <column name="TC" data_type="bigint" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Total count metric for the day (e.g., 16, 65, 345, 636) commonly representing total customers/targets in scope; interpretation should be validated as it can be non-null even when absent.</description>
+    </column>
+    <column name="TNO" data_type="bigint" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Total number of orders (or a similar transactional count) for the day (e.g., 11, 13) and typically aligns with productive activity; often null on non-working days.</description>
+    </column>
+    <column name="TNS" data_type="bigint" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Total number of shops/visits or service events completed (e.g., 13) depending on business definition; can sometimes be populated even when other metrics are null, so validate against VC/PVC.</description>
+    </column>
+    <column name="TOV" data_type="bigint" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Total order value for the day (e.g., 21033, 5384) usually monetary; null when no orders and should be aggregated as currency with appropriate formatting.</description>
+    </column>
+    <column name="TPO" data_type="bigint" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Total productive orders (or productive outlets) count (e.g., 41, 79) used to measure productivity; use with TNO/VC for conversion analysis and expect nulls when no sales activity.</description>
+    </column>
+    <column name="TQO" data_type="bigint" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Total quantity ordered (e.g., 600, 111, 106) representing units/lines depending on upstream definition; aggregate with care and confirm unit of measure.</description>
+    </column>
+    <column name="TSV" data_type="bigint" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Total sales value for the day (often equals or close to TOV) used as revenue KPI; treat null as no sales and verify whether it includes taxes/discounts.</description>
+    </column>
+    <column name="TULOD" data_type="varchar" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Composite string showing two related counts (e.g., "41 / 13" or "79 / 36"), typically indicating productive outcomes vs a base (like orders vs unique outlets); parse before numeric analysis.</description>
+    </column>
+    <column name="TVC" data_type="bigint" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Total visit count category/metric (e.g., 4, 16, 19, 79) used as an activity volume indicator; may represent total visits or total visited customers depending on system rules.</description>
+    </column>
+    <column name="TVH" data_type="varchar" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Travel hours duration formatted as time (e.g., 03:02, 01:18) indicating time spent traveling; null when travel is not captured and should be treated as duration.</description>
+    </column>
+    <column name="TWH" data_type="varchar" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Total working hours duration (e.g., 13:22, 09:35, 00:25) representing the span of working/logged time; compute carefully since it may not equal ET-ST when placeholders exist.</description>
+    </column>
+    <column name="TeamLead" data_type="varchar" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Name of the employee’s team lead/manager for organizational rollups and accountability; treat as descriptive (not a stable key) due to possible spelling changes.</description>
+    </column>
+    <column name="TotalFieldHours" data_type="varchar" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Field hours duration as a labeled string (e.g., "08:54 Hour"), similar to FVH but with text; prefer FVH for calculations and use this for display if needed.</description>
+    </column>
+    <column name="ULOD" data_type="bigint" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Numeric count likely representing unique outlets dealt/covered (e.g., 13, 35, 36) used in productivity denominators; often paired with TULOD and may be null on non-working days.</description>
+    </column>
+    <column name="VC" data_type="bigint" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Visit count metric (e.g., 33, 40) that may represent total planned/available customers or visited count depending on definition; validate against PVC/TVC because naming can be ambiguous.</description>
+    </column>
+    <column name="VDT" data_type="bigint" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Visit day/validation flag or count indicator (e.g., 1) used to mark records with valid visit tracking; commonly null and should be treated as an optional qualifier for analytics.</description>
+    </column>
+  </columns>
+</data_description>

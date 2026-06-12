@@ -1,0 +1,6 @@
+<?xml version="1.0" ?>
+<meta_information type="table_introductions">
+  <table_introductions>
+    <table_introduction table_name="master_bh">This table captures retail sales and field performance records for the BH division, combining order-level details with employee, client, distributor, product, and territory information. It includes measures such as quantity, gross value, net sales value, productive calls, outlet coverage, month-to-date metrics, targets, and achievement percentages. Analysts can use it to track sales performance, outlet productivity, product/category contribution, field employee effectiveness, target achievement, and new outlet growth across regions and time periods.</table_introduction>
+  </table_introductions>
+</meta_information>

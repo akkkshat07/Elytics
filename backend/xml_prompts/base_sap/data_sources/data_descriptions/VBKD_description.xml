@@ -1,0 +1,309 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="VBKD">
+  <table_info name="VBKD" total_columns="101"/>
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="VBELN" data_type="VARCHAR">
+      <description>Sales and Distribution Document Number</description>
+    </column>
+    <column name="POSNR" data_type="VARCHAR">
+      <description>Item number of the SD document</description>
+    </column>
+    <column name="KONDA" data_type="VARCHAR">
+      <description>Price group (customer)</description>
+    </column>
+    <column name="KDGRP" data_type="VARCHAR">
+      <description>Customer group</description>
+    </column>
+    <column name="BZIRK" data_type="VARCHAR">
+      <description>Sales district</description>
+    </column>
+    <column name="PLTYP" data_type="VARCHAR">
+      <description>Price list type</description>
+    </column>
+    <column name="INCO1" data_type="VARCHAR">
+      <description>Incoterms (Part 1)</description>
+    </column>
+    <column name="INCO2" data_type="VARCHAR">
+      <description>Incoterms (Part 2)</description>
+    </column>
+    <column name="KZAZU" data_type="VARCHAR">
+      <description>Order Combination Indicator</description>
+    </column>
+    <column name="PERFK" data_type="VARCHAR">
+      <description>Invoice dates (calendar identification)</description>
+    </column>
+    <column name="PERRL" data_type="VARCHAR">
+      <description>Invoice list schedule (calendar identification)</description>
+    </column>
+    <column name="MRNKZ" data_type="VARCHAR">
+      <description>Manual invoice maintenance</description>
+    </column>
+    <column name="KURRF" data_type="DECIMAL">
+      <description>Exchange rate for FI postings</description>
+    </column>
+    <column name="VALTG" data_type="VARCHAR">
+      <description>Additional value days</description>
+    </column>
+    <column name="VALDT" data_type="DATE">
+      <description>Fixed value date</description>
+    </column>
+    <column name="ZTERM" data_type="VARCHAR">
+      <description>Terms of Payment Key</description>
+    </column>
+    <column name="ZLSCH" data_type="VARCHAR">
+      <description>Payment Method</description>
+    </column>
+    <column name="KTGRD" data_type="VARCHAR">
+      <description>Account Assignment Group for Customer</description>
+    </column>
+    <column name="KURSK" data_type="DECIMAL">
+      <description>Exchange Rate for Price Determination</description>
+    </column>
+    <column name="PRSDT" data_type="DATE">
+      <description>Date for Pricing and Exchange Rate</description>
+    </column>
+    <column name="FKDAT" data_type="DATE">
+      <description>Billing Date for Billing Index and Printout</description>
+    </column>
+    <column name="FBUDA" data_type="DATE">
+      <description>Date on which services rendered</description>
+    </column>
+    <column name="GJAHR" data_type="VARCHAR">
+      <description>Fiscal Year</description>
+    </column>
+    <column name="POPER" data_type="VARCHAR">
+      <description>Posting Period</description>
+    </column>
+    <column name="STCUR" data_type="DECIMAL">
+      <description>Exchange rate for statistics</description>
+    </column>
+    <column name="MSCHL" data_type="VARCHAR">
+      <description>Dunning Key</description>
+    </column>
+    <column name="MANSP" data_type="VARCHAR">
+      <description>Dunning Block</description>
+    </column>
+    <column name="FPLNR" data_type="VARCHAR">
+      <description>Billing Plan Number / Invoicing Plan Number</description>
+    </column>
+    <column name="WAKTION" data_type="VARCHAR">
+      <description>Promotion</description>
+    </column>
+    <column name="ABSSC" data_type="VARCHAR">
+      <description>Payment guarantee procedure</description>
+    </column>
+    <column name="LCNUM" data_type="VARCHAR">
+      <description>Financial doc. processing: Internal financial doc. number</description>
+    </column>
+    <column name="J_1AFITP" data_type="VARCHAR">
+      <description>Tax Type</description>
+    </column>
+    <column name="J_1ARFZ" data_type="VARCHAR">
+      <description>Reason for zero VAT</description>
+    </column>
+    <column name="J_1AREGIO" data_type="VARCHAR">
+      <description>Region (State, Province, County)</description>
+    </column>
+    <column name="J_1AGICD" data_type="VARCHAR">
+      <description>Activity Code for Gross Income Tax</description>
+    </column>
+    <column name="J_1ADTYP" data_type="VARCHAR">
+      <description>Distribution Type for Employment Tax</description>
+    </column>
+    <column name="J_1ATXREL" data_type="VARCHAR">
+      <description>Tax relevant classification</description>
+    </column>
+    <column name="ABTNR" data_type="VARCHAR">
+      <description>Department number</description>
+    </column>
+    <column name="EMPST" data_type="VARCHAR">
+      <description>Receiving point</description>
+    </column>
+    <column name="BSTKD" data_type="VARCHAR">
+      <description>Customer Purchase Order Number</description>
+    </column>
+    <column name="BSTDK" data_type="DATE">
+      <description>Customer Purchase Order Date</description>
+    </column>
+    <column name="BSARK" data_type="VARCHAR">
+      <description>Customer purchase order type</description>
+    </column>
+    <column name="IHREZ" data_type="VARCHAR">
+      <description>Your Reference</description>
+    </column>
+    <column name="BSTKD_E" data_type="VARCHAR">
+      <description>Ship-to Party's Purchase Order Number</description>
+    </column>
+    <column name="BSTDK_E" data_type="DATE">
+      <description>Ship-to party's PO date</description>
+    </column>
+    <column name="BSARK_E" data_type="VARCHAR">
+      <description>Ship-to party purchase order type</description>
+    </column>
+    <column name="IHREZ_E" data_type="VARCHAR">
+      <description>Ship-to party character</description>
+    </column>
+    <column name="POSEX_E" data_type="VARCHAR">
+      <description>Item Number of the Underlying Purchase Order</description>
+    </column>
+    <column name="KURSK_DAT" data_type="DATE">
+      <description>Translation Date</description>
+    </column>
+    <column name="KURRF_DAT" data_type="DATE">
+      <description>Translation Date</description>
+    </column>
+    <column name="KDKG1" data_type="VARCHAR">
+      <description>Customer condition group 1</description>
+    </column>
+    <column name="KDKG2" data_type="VARCHAR">
+      <description>Customer condition group 2</description>
+    </column>
+    <column name="KDKG3" data_type="VARCHAR">
+      <description>Customer condition group 3</description>
+    </column>
+    <column name="KDKG4" data_type="VARCHAR">
+      <description>Customer condition group 4</description>
+    </column>
+    <column name="KDKG5" data_type="VARCHAR">
+      <description>Customer condition group 5</description>
+    </column>
+    <column name="WKWAE" data_type="VARCHAR">
+      <description>Value contract currency</description>
+    </column>
+    <column name="WKKUR" data_type="DECIMAL">
+      <description>Exchange rate in value contract currency</description>
+    </column>
+    <column name="AKWAE" data_type="VARCHAR">
+      <description>Currency key for letter-of-credit procg in foreign trade</description>
+    </column>
+    <column name="AKKUR" data_type="DECIMAL">
+      <description>Exchange rate for letter-of-credit procg in foreign trade</description>
+    </column>
+    <column name="AKPRZ" data_type="DECIMAL">
+      <description>Depreciation percentage for financial document processing</description>
+    </column>
+    <column name="J_1AINDXP" data_type="VARCHAR">
+      <description>Inflation Index</description>
+    </column>
+    <column name="J_1AIDATEP" data_type="DATE">
+      <description>Indexing base date</description>
+    </column>
+    <column name="BSTKD_M" data_type="VARCHAR">
+      <description>Customer PO number as matchcode field</description>
+    </column>
+    <column name="DELCO" data_type="VARCHAR">
+      <description>Agreed delivery time</description>
+    </column>
+    <column name="FFPRF" data_type="VARCHAR">
+      <description>Dynamic Item Processor Profile</description>
+    </column>
+    <column name="BEMOT" data_type="VARCHAR">
+      <description>Accounting Indicator</description>
+    </column>
+    <column name="FAKTF" data_type="VARCHAR">
+      <description>Billing form</description>
+    </column>
+    <column name="RRREL" data_type="VARCHAR">
+      <description>Revenue recognition category</description>
+    </column>
+    <column name="ACDATV" data_type="VARCHAR">
+      <description>Proposed start date for accrual period</description>
+    </column>
+    <column name="VSART" data_type="VARCHAR">
+      <description>Shipping type</description>
+    </column>
+    <column name="TRATY" data_type="VARCHAR">
+      <description>Means of Transport Type</description>
+    </column>
+    <column name="TRMTYP" data_type="VARCHAR">
+      <description>Means of Transport</description>
+    </column>
+    <column name="SDABW" data_type="VARCHAR">
+      <description>Special processing indicator</description>
+    </column>
+    <column name="WMINR" data_type="VARCHAR">
+      <description>Product Catalog Number</description>
+    </column>
+    <column name="FKBER" data_type="VARCHAR">
+      <description>Functional Area</description>
+    </column>
+    <column name="PODKZ" data_type="VARCHAR">
+      <description>Relevant for POD processing</description>
+    </column>
+    <column name="CAMPAIGN" data_type="VARCHAR">
+      <description>Generic project planning: GUID from external R/3 system</description>
+    </column>
+    <column name="VKONT" data_type="VARCHAR">
+      <description>Contract Account Number</description>
+    </column>
+    <column name="DPBP_REF_FPLNR" data_type="VARCHAR">
+      <description>Billing Plan Number / Invoicing Plan Number</description>
+    </column>
+    <column name="DPBP_REF_FPLTR" data_type="VARCHAR">
+      <description>Item for billing plan/invoice plan/payment cards</description>
+    </column>
+    <column name="REVSP" data_type="VARCHAR">
+      <description>Revenue Distribution Type</description>
+    </column>
+    <column name="REVEVTYP" data_type="VARCHAR">
+      <description>Revenue Event Type (Customizing)</description>
+    </column>
+    <column name="FARR_RELTYPE" data_type="VARCHAR">
+      <description>Relevance Type for Revenue Accounting</description>
+    </column>
+    <column name="VTREF" data_type="VARCHAR">
+      <description>Reference Specifications from Contract</description>
+    </column>
+    <column name="_DATAAGING" data_type="DATE">
+      <description>Data Filter Value for Data Aging</description>
+    </column>
+    <column name="J_1TPBUPL" data_type="VARCHAR">
+      <description>Branch Code</description>
+    </column>
+    <column name="INCOV" data_type="VARCHAR">
+      <description>Incoterms Version</description>
+    </column>
+    <column name="INCO2_L" data_type="VARCHAR">
+      <description>Incoterms Location 1</description>
+    </column>
+    <column name="INCO3_L" data_type="VARCHAR">
+      <description>Incoterms Location 2</description>
+    </column>
+    <column name="PEROP_BEG" data_type="DATE">
+      <description>Period of Performance Start Date</description>
+    </column>
+    <column name="PEROP_END" data_type="DATE">
+      <description>Period of Performance End Date</description>
+    </column>
+    <column name="STCODE" data_type="VARCHAR">
+      <description>LST CST applicability code</description>
+    </column>
+    <column name="FORMC1" data_type="VARCHAR">
+      <description>Form Type</description>
+    </column>
+    <column name="FORMC2" data_type="VARCHAR">
+      <description>Form Type</description>
+    </column>
+    <column name="STEUC" data_type="VARCHAR">
+      <description>Control code for consumption taxes in foreign trade</description>
+    </column>
+    <column name="COMPREAS" data_type="VARCHAR">
+      <description>Abbreviation for Complaints Reason</description>
+    </column>
+    <column name="MNDID" data_type="VARCHAR">
+      <description>Unique Reference to Mandate for each Payee</description>
+    </column>
+    <column name="PAY_TYPE" data_type="VARCHAR">
+      <description>SEPA: Payment Type</description>
+    </column>
+    <column name="SEPON" data_type="VARCHAR">
+      <description>SEPA-Relevance</description>
+    </column>
+    <column name="MNDVG" data_type="VARCHAR">
+      <description>SEPA-Relevance</description>
+    </column>
+  </columns>
+</data_description>

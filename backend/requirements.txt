@@ -1,26 +1,117 @@
-# Web Framework
-fastapi
-uvicorn
-pydantic
-pydantic-settings
+# CoreSight Backend - Minimal Requirements
+# This file contains only the packages actually imported and used in the codebase
 
-# AI & Orchestration
+# ============================================================================
+# Core Framework
+# ============================================================================
+asyncpg              # Async PostgreSQL driver used by 'postgresql+asyncpg://' URLs
+aiofiles==25.1.0
+fastapi==0.116.1
+uvicorn[standard]    # ASGI server (version not in original requirements)
+gunicorn==23.0.0      # Production WSGI/ASGI server
+pydantic==2.11.7
+pydantic-settings==2.10.1
+python-dotenv==1.1.1
+python-multipart==0.0.20
+pydantic[email]
+prometheus_client==0.23.1
+psutil==7.1.3
+# ============================================================================
+# Database Drivers
+# ============================================================================
+motor==3.7.1          # MongoDB async driver
+pymongo==4.15.0        # MongoDB driver (compatible with motor 3.7.1, avoids _QUERY_OPTIONS ImportError)
+dnspython==2.7.0       # Required for MongoDB Atlas SRV connections
+sshtunnel==0.4.0       # SSH tunneling support for database connectors
+sqlalchemy            # SQL toolkit and ORM (version not in original requirements, use latest compatible)
+aiomysql              # MySQL async driver
+pymysql               # MySQL driver (helper for aiomysql)
+# cx-Oracle==8.3.0      # Oracle database driver
+oracledb==2.5.1      # Oracle database driver (successor to cx_Oracle)
+
+# ============================================================================
+# LLM Providers
+# ============================================================================
+openai==1.99.9
+anthropic==0.64.0
+groq==0.32.0
+google-generativeai==0.8.5
+oci>=2.160.2          # Oracle Cloud Infrastructure SDK
+cerebras_cloud_sdk==1.59.0
+httpx==0.28.1         # HTTP client for LLM APIs
+
+# ============================================================================
+# LangGraph & LangChain
+# ============================================================================
+# Security updates: langgraph-checkpoint 3.0.0 fixes CVE-2025-64439
+# langchain-core 1.2.6 includes security fixes for template injection and serialization vulnerabilities
+# Note: langgraph 1.0.5 requires langchain-core>=1.0.0, so we use 1.x versions
 langgraph
+langgraph-checkpoint
+langgraph-checkpoint-redis
+langchain-core
 langchain
-langchain-aws
 
-# SQL Utilities
-sqlparse
+# ============================================================================
+# Data Processing
+# ============================================================================
+pandas==2.3.1
+numpy>=2.0.2          # Required by pandas and chromadb (use >= to allow pre-built wheels)
+pyarrow==21.0.0       # Required for pandas parquet support
+dask[dataframe]       # Out-of-core DataFrame processing for large datasets
+openpyxl              # Required by pandas for .xlsx Excel files (Explorer upload)
+xlrd                  # Required by pandas for .xls Excel files (Explorer upload)
+sentence-transformers==3.0.1  # Semantic filtering for knowledge selection
+fastparquet==2024.11.0  # Alternative parquet engine for pandas
+qdrant-client==1.12.1
+beautifulsoup4==4.12.3
+lxml==5.3.0
 
-# Data Analysis & Visualization
-pandas
-numpy
-plotly
+# ============================================================================
+# Visualization (Optional - used in executor_agent)
+# ============================================================================
+plotly==6.2.0
+matplotlib==3.9.4
 
-# Database Connectivity
-boto3>=1.34.72
-psycopg[binary]
-sqlalchemy
+# ============================================================================
+# Authentication & Security
+# ============================================================================
+python-jose[cryptography]==3.5.0
+passlib[bcrypt]==1.7.4
+bcrypt==4.0.1
+pytz==2025.2          # Timezone handling
+defusedxml==0.7.1     # Secure XML parsing (prevents XXE attacks)
+sshtunnel==0.4.0
+paramiko==2.12.0
 
-# Environment Management
-python-dotenv
+# ============================================================================
+# Redis
+# ============================================================================
+redis==6.4.0
+
+# ============================================================================
+# Summary
+# ============================================================================
+# This minimal requirements file contains only packages that are directly
+# imported and used in the backend codebase. It excludes:
+# - Development tools (jupyter, ipython, etc.)
+# - Testing frameworks not used in production
+# - Transitive dependencies (installed automatically)
+# - Packages from the original requirements.txt that aren't actually imported
+#
+# Total packages: ~30 (vs 230+ in original requirements.txt)
+#
+# To install: pip install -r requirements-thin.txt
+# ============================================================================
+
+psycopg2-binary
+
+# ============================================================================
+# Cloud Infrastructure (Phase 2 — GKE Autopilot + GCS)
+# ============================================================================
+google-cloud-storage==2.18.2    # GCS client for storage backend
+kubernetes==31.0.0              # K8s Python client for K8sKernelManager
+duckdb==1.3.0                   # Fast analytics engine (replaces pd.read_parquet)
+boto3>=1.35.0                   # AWS SDK (GCS S3-compatible access for DuckDB)
+gcsfs>=2024.6.0                 # GCS filesystem interface for pandas/dask
+tqdm>=4.66.0                    # Progress bars for migration scripts

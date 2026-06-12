@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="QPGR">
+  <table_info name="QPGR" total_columns="10" />
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="KATALOGART" data_type="VARCHAR">
+      <description>Catalog</description>
+    </column>
+    <column name="CODEGRUPPE" data_type="VARCHAR">
+      <description>Code Group</description>
+    </column>
+    <column name="ERSTELLER" data_type="VARCHAR">
+      <description>Name of User Who Created the Data Record</description>
+    </column>
+    <column name="E_DATUM" data_type="DATE">
+      <description>Date on Which the Data Record Was Created</description>
+    </column>
+    <column name="AENDERER" data_type="VARCHAR">
+      <description>Name of User who Most Recently Changed the Data Record</description>
+    </column>
+    <column name="A_DATUM" data_type="DATE">
+      <description>Date on Which Data Record Was Changed</description>
+    </column>
+    <column name="VERWENDUNG" data_type="VARCHAR">
+      <description>Data Record Is Used</description>
+    </column>
+    <column name="INAKTIV" data_type="VARCHAR">
+      <description>Status of Code Group or Code Record</description>
+    </column>
+    <column name="STATUS" data_type="VARCHAR">
+      <description>Status of Master Record</description>
+    </column>
+  </columns>
+</data_description>

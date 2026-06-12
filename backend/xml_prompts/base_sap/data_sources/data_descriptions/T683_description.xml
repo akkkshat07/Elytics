@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="T683">
+  <table_info name="T683" total_columns="8"/>
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="KVEWE" data_type="VARCHAR">
+      <description>Usage of the condition table</description>
+    </column>
+    <column name="KAPPL" data_type="VARCHAR">
+      <description>Application</description>
+    </column>
+    <column name="KALSM" data_type="VARCHAR">
+      <description>Procedure (Pricing, Output Control, Acct. Det., Costing,...)</description>
+    </column>
+    <column name="AUSVF" data_type="VARCHAR">
+      <description>Exclusion procedure</description>
+    </column>
+    <column name="BONSM" data_type="VARCHAR">
+      <description>Transaction-specific pricing procedure</description>
+    </column>
+    <column name="KNPRS_V" data_type="VARCHAR">
+      <description>Pricing type</description>
+    </column>
+    <column name="PRODUCTIVE" data_type="VARCHAR">
+      <description>Pricing procedure productive</description>
+    </column>
+  </columns>
+</data_description>

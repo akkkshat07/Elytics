@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="KNVP">
+  <table_info name="KNVP" total_columns="14"/>
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="KUNNR" data_type="VARCHAR">
+      <description>Customer Number</description>
+    </column>
+    <column name="VKORG" data_type="VARCHAR">
+      <description>Sales Organization</description>
+    </column>
+    <column name="VTWEG" data_type="VARCHAR">
+      <description>Distribution Channel</description>
+    </column>
+    <column name="SPART" data_type="VARCHAR">
+      <description>Division</description>
+    </column>
+    <column name="PARVW" data_type="VARCHAR">
+      <description>Partner Function</description>
+    </column>
+    <column name="PARZA" data_type="VARCHAR">
+      <description>Partner counter</description>
+    </column>
+    <column name="KUNN2" data_type="VARCHAR">
+      <description>Customer number of business partner</description>
+    </column>
+    <column name="LIFNR" data_type="VARCHAR">
+      <description>Account Number of Supplier</description>
+    </column>
+    <column name="PERNR" data_type="VARCHAR">
+      <description>Personnel Number</description>
+    </column>
+    <column name="PARNR" data_type="VARCHAR">
+      <description>Number of contact person</description>
+    </column>
+    <column name="KNREF" data_type="VARCHAR">
+      <description>Customer description of partner (plant, storage location)</description>
+    </column>
+    <column name="DEFPA" data_type="VARCHAR">
+      <description>Default Partner</description>
+    </column>
+    <column name="EFFECTIVE_DATE" data_type="DATE">
+      <description>Field of type DATS</description>
+    </column>
+  </columns>
+</data_description>

@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="KONH">
+  <table_info name="KONH" total_columns="22" />
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="KNUMH" data_type="VARCHAR">
+      <description>Condition record number</description>
+    </column>
+    <column name="ERNAM" data_type="VARCHAR">
+      <description>Name of Person Responsible for Creating the Object</description>
+    </column>
+    <column name="ERDAT" data_type="DATE">
+      <description>Date on Which Record Was Created</description>
+    </column>
+    <column name="KVEWE" data_type="VARCHAR">
+      <description>Usage of the condition table</description>
+    </column>
+    <column name="KOTABNR" data_type="VARCHAR">
+      <description>Condition table</description>
+    </column>
+    <column name="KAPPL" data_type="VARCHAR">
+      <description>Application</description>
+    </column>
+    <column name="KSCHL" data_type="VARCHAR">
+      <description>Condition Type</description>
+    </column>
+    <column name="VAKEY" data_type="VARCHAR">
+      <description>Variable key 100 bytes</description>
+    </column>
+    <column name="DATAB" data_type="DATE">
+      <description>Valid-From Date</description>
+    </column>
+    <column name="DATBI" data_type="DATE">
+      <description>Valid To Date</description>
+    </column>
+    <column name="KOSRT" data_type="VARCHAR">
+      <description>Search term for conditions</description>
+    </column>
+    <column name="KZUST" data_type="VARCHAR">
+      <description>Responsibility in SD for condition/material</description>
+    </column>
+    <column name="KNUMA_PI" data_type="VARCHAR">
+      <description>Promotion</description>
+    </column>
+    <column name="KNUMA_AG" data_type="VARCHAR">
+      <description>Sales deal</description>
+    </column>
+    <column name="KNUMA_SQ" data_type="VARCHAR">
+      <description>Sales quote</description>
+    </column>
+    <column name="KNUMA_SD" data_type="VARCHAR">
+      <description>Standard agreement</description>
+    </column>
+    <column name="AKTNR" data_type="VARCHAR">
+      <description>Promotion</description>
+    </column>
+    <column name="KNUMA_BO" data_type="VARCHAR">
+      <description>Agreement (subsequent settlement)</description>
+    </column>
+    <column name="LICNO" data_type="VARCHAR">
+      <description>Tax exemption license number</description>
+    </column>
+    <column name="LICDT" data_type="DATE">
+      <description>Date license granted</description>
+    </column>
+    <column name="VADAT" data_type="VARCHAR">
+      <description>Variable Data Part</description>
+    </column>
+  </columns>
+</data_description>

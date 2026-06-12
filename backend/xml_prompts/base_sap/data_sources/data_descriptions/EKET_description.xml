@@ -1,0 +1,228 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="EKET">
+  <table_info name="EKET" total_columns="74"/>
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="EBELN" data_type="VARCHAR">
+      <description>Purchasing Document Number</description>
+    </column>
+    <column name="EBELP" data_type="VARCHAR">
+      <description>Item Number of Purchasing Document</description>
+    </column>
+    <column name="ETENR" data_type="VARCHAR">
+      <description>Delivery Schedule Line Counter</description>
+    </column>
+    <column name="EINDT" data_type="DATE">
+      <description>Item Delivery Date</description>
+    </column>
+    <column name="SLFDT" data_type="DATE">
+      <description>Statistics-Relevant Delivery Date</description>
+    </column>
+    <column name="LPEIN" data_type="VARCHAR">
+      <description>Category of delivery date</description>
+    </column>
+    <column name="MENGE" data_type="DECIMAL">
+      <description>Scheduled Quantity</description>
+    </column>
+    <column name="AMENG" data_type="DECIMAL">
+      <description>Previous Quantity (Delivery Schedule Lines)</description>
+    </column>
+    <column name="WEMNG" data_type="DECIMAL">
+      <description>Quantity of Goods Received</description>
+    </column>
+    <column name="WAMNG" data_type="DECIMAL">
+      <description>Issued Quantity</description>
+    </column>
+    <column name="UZEIT" data_type="TIME">
+      <description>Delivery Date Time-Spot</description>
+    </column>
+    <column name="BANFN" data_type="VARCHAR">
+      <description>Purchase Requisition Number</description>
+    </column>
+    <column name="BNFPO" data_type="VARCHAR">
+      <description>Item number of purchase requisition</description>
+    </column>
+    <column name="ESTKZ" data_type="VARCHAR">
+      <description>Creation indicator (purchase requisition/schedule lines)</description>
+    </column>
+    <column name="QUNUM" data_type="VARCHAR">
+      <description>Number of quota arrangement</description>
+    </column>
+    <column name="QUPOS" data_type="VARCHAR">
+      <description>Quota arrangement item</description>
+    </column>
+    <column name="MAHNZ" data_type="DECIMAL">
+      <description>No. of Reminders/Expediters for Schedule Line</description>
+    </column>
+    <column name="BEDAT" data_type="DATE">
+      <description>Order date of schedule line</description>
+    </column>
+    <column name="RSNUM" data_type="VARCHAR">
+      <description>Number of reservation/dependent requirements</description>
+    </column>
+    <column name="SERNR" data_type="VARCHAR">
+      <description>BOM explosion number</description>
+    </column>
+    <column name="FIXKZ" data_type="VARCHAR">
+      <description>Schedule Line is &quot;Fixed&quot;</description>
+    </column>
+    <column name="GLMNG" data_type="DECIMAL">
+      <description>Quantity Delivered (Stock Transfer)</description>
+    </column>
+    <column name="DABMG" data_type="DECIMAL">
+      <description>Quantity Reduced (MRP)</description>
+    </column>
+    <column name="CHARG" data_type="VARCHAR">
+      <description>Batch Number</description>
+    </column>
+    <column name="LICHA" data_type="VARCHAR">
+      <description>Vendor Batch Number</description>
+    </column>
+    <column name="CHKOM" data_type="VARCHAR">
+      <description>Components</description>
+    </column>
+    <column name="VERID" data_type="VARCHAR">
+      <description>Production Version</description>
+    </column>
+    <column name="ABART" data_type="VARCHAR">
+      <description>Scheduling agreement release type</description>
+    </column>
+    <column name="MNG02" data_type="DECIMAL">
+      <description>Committed Quantity</description>
+    </column>
+    <column name="DAT01" data_type="DATE">
+      <description>Committed date</description>
+    </column>
+    <column name="ALTDT" data_type="DATE">
+      <description>Previous delivery date</description>
+    </column>
+    <column name="AULWE" data_type="VARCHAR">
+      <description>Route Schedule</description>
+    </column>
+    <column name="MBDAT" data_type="DATE">
+      <description>Material Availability Date</description>
+    </column>
+    <column name="MBUHR" data_type="TIME">
+      <description>Material Staging Time (Local, Relating to a Plant)</description>
+    </column>
+    <column name="LDDAT" data_type="DATE">
+      <description>Loading Date</description>
+    </column>
+    <column name="LDUHR" data_type="TIME">
+      <description>Loading Time (Local Time Relating to a Shipping Point)</description>
+    </column>
+    <column name="TDDAT" data_type="DATE">
+      <description>Transportation Planning Date</description>
+    </column>
+    <column name="TDUHR" data_type="TIME">
+      <description>Transp. Planning Time (Local, Relating to a Shipping Point)</description>
+    </column>
+    <column name="WADAT" data_type="DATE">
+      <description>Goods Issue Date</description>
+    </column>
+    <column name="WAUHR" data_type="TIME">
+      <description>Time of Goods Issue (Local, Relating to a Plant)</description>
+    </column>
+    <column name="ELDAT" data_type="DATE">
+      <description>Goods Receipt End Date</description>
+    </column>
+    <column name="ELUHR" data_type="TIME">
+      <description>Goods Receipt End Time (Local, Relating to a Plant)</description>
+    </column>
+    <column name="ANZSN" data_type="INTEGER">
+      <description>Number of serial numbers</description>
+    </column>
+    <column name="NODISP" data_type="VARCHAR">
+      <description>Ind: Reserv. not applicable to MRP;Purc. req. not created</description>
+    </column>
+    <column name="GEO_ROUTE" data_type="VARCHAR">
+      <description>Description of a Geographical Route</description>
+    </column>
+    <column name="ROUTE_GTS" data_type="VARCHAR">
+      <description>Route Code for SAP Global Trade Services</description>
+    </column>
+    <column name="GTS_IND" data_type="VARCHAR">
+      <description>Goods Traffic Type</description>
+    </column>
+    <column name="TSP" data_type="VARCHAR">
+      <description>Forwarding agent</description>
+    </column>
+    <column name="CD_LOCNO" data_type="VARCHAR">
+      <description>Location number in APO</description>
+    </column>
+    <column name="CD_LOCTYPE" data_type="VARCHAR">
+      <description>APO location type</description>
+    </column>
+    <column name="HANDOVERDATE" data_type="DATE">
+      <description>Handover Date at the Handover Location</description>
+    </column>
+    <column name="HANDOVERTIME" data_type="TIME">
+      <description>Handover time at the handover location</description>
+    </column>
+    <column name="WESBB" data_type="DECIMAL">
+      <description>Valuated Goods Receipt Blocked Stock in Order Unit</description>
+    </column>
+    <column name="FSH_RALLOC_QTY" data_type="DECIMAL">
+      <description>ARun Requirement Allocated Quantity</description>
+    </column>
+    <column name="FSH_SALLOC_QTY" data_type="DECIMAL">
+      <description>Allocated Stock Quantity</description>
+    </column>
+    <column name="FSH_OS_ID" data_type="VARCHAR">
+      <description>Order Scheduling Group ID</description>
+    </column>
+    <column name="KEY_ID" data_type="VARCHAR">
+      <description>Unique Number of Budget</description>
+    </column>
+    <column name="OTB_VALUE" data_type="DECIMAL">
+      <description>Required Budget</description>
+    </column>
+    <column name="OTB_CURR" data_type="VARCHAR">
+      <description>OTB Currency</description>
+    </column>
+    <column name="OTB_RES_VALUE" data_type="DECIMAL">
+      <description>Reserved Budget for OTB-Relevant Purchasing Document</description>
+    </column>
+    <column name="OTB_SPEC_VALUE" data_type="DECIMAL">
+      <description>Special Release Budget</description>
+    </column>
+    <column name="SPR_RSN_PROFILE" data_type="VARCHAR">
+      <description>Reason Profile for OTB Special Release</description>
+    </column>
+    <column name="BUDG_TYPE" data_type="VARCHAR">
+      <description>Budget Type</description>
+    </column>
+    <column name="OTB_STATUS" data_type="VARCHAR">
+      <description>OTB Check Status</description>
+    </column>
+    <column name="OTB_REASON" data_type="VARCHAR">
+      <description>Reason Indicator for OTB Check Status</description>
+    </column>
+    <column name="CHECK_TYPE" data_type="VARCHAR">
+      <description>Type of OTB Check</description>
+    </column>
+    <column name="DL_ID" data_type="VARCHAR">
+      <description>Dateline ID (GUID)</description>
+    </column>
+    <column name="HANDOVER_DATE" data_type="DATE">
+      <description>Transfer Date</description>
+    </column>
+    <column name="NO_SCEM" data_type="VARCHAR">
+      <description>Purchase Order Not Transferred to SCEM</description>
+    </column>
+    <column name="DNG_DATE" data_type="DATE">
+      <description>Creation Date of Reminder Message Record</description>
+    </column>
+    <column name="DNG_TIME" data_type="TIME">
+      <description>Creation Time of Reminder Message Record</description>
+    </column>
+    <column name="CNCL_ANCMNT_DONE" data_type="VARCHAR">
+      <description>Cancellation Threat Made</description>
+    </column>
+    <column name="DATESHIFT_NUMBER" data_type="DECIMAL">
+      <description>Number of Current Date Shifts</description>
+    </column>
+  </columns>
+</data_description>

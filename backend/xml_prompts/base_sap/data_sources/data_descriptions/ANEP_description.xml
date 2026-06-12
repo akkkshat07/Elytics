@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="ANEP">
+  <table_info name="ANEP" total_columns="24" />
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="BUKRS" data_type="VARCHAR">
+      <description>Company Code</description>
+    </column>
+    <column name="ANLN1" data_type="VARCHAR">
+      <description>Main Asset Number</description>
+    </column>
+    <column name="ANLN2" data_type="VARCHAR">
+      <description>Asset Subnumber</description>
+    </column>
+    <column name="GJAHR" data_type="VARCHAR">
+      <description>Fiscal Year</description>
+    </column>
+    <column name="LNRAN" data_type="VARCHAR">
+      <description>Sequence Number of Asset Line Items in Fiscal Year</description>
+    </column>
+    <column name="AFABE" data_type="VARCHAR">
+      <description>Real depreciation area</description>
+    </column>
+    <column name="ZUJHR" data_type="VARCHAR">
+      <description>Asset acquisition year (currently not used)</description>
+    </column>
+    <column name="ZUCOD" data_type="VARCHAR">
+      <description>Sub-classification of asset acquisitions(currently not used)</description>
+    </column>
+    <column name="PERAF" data_type="VARCHAR">
+      <description>Depreciation calculation period</description>
+    </column>
+    <column name="BELNR" data_type="VARCHAR">
+      <description>Document Number of an Accounting Document</description>
+    </column>
+    <column name="BUZEI" data_type="VARCHAR">
+      <description>Number of Line Item Within Accounting Document</description>
+    </column>
+    <column name="BZDAT" data_type="DATE">
+      <description>Asset Value Date</description>
+    </column>
+    <column name="BWASL" data_type="VARCHAR">
+      <description>Asset Transaction Type</description>
+    </column>
+    <column name="XAFAR" data_type="VARCHAR">
+      <description>Indicator: Errors in depreciation</description>
+    </column>
+    <column name="ANBTR" data_type="DECIMAL">
+      <description>Amount posted</description>
+    </column>
+    <column name="NAFAB" data_type="DECIMAL">
+      <description>Ordinary depreciation on transactions</description>
+    </column>
+    <column name="SAFAB" data_type="DECIMAL">
+      <description>Special depreciation on transactions</description>
+    </column>
+    <column name="ZINSB" data_type="DECIMAL">
+      <description>Interest on transaction</description>
+    </column>
+    <column name="XANTW" data_type="VARCHAR">
+      <description>Indicator: Proportional values posted automatically</description>
+    </column>
+    <column name="XAWBT" data_type="VARCHAR">
+      <description>Indicator: Different posting amount entered</description>
+    </column>
+    <column name="LNSAN" data_type="VARCHAR">
+      <description>Sequence number of reversed asset line items</description>
+    </column>
+    <column name="ANUPD" data_type="VARCHAR">
+      <description>Indicator: Type of change to table</description>
+    </column>
+    <column name="AUGLN" data_type="VARCHAR">
+      <description>Current number of the clearing asset line item</description>
+    </column>
+  </columns>
+</data_description>

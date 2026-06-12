@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="T134T">
+  <table_info name="T134T" total_columns="4" />
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="SPRAS" data_type="VARCHAR">
+      <description>Language Key</description>
+    </column>
+    <column name="MTART" data_type="VARCHAR">
+      <description>Material Type</description>
+    </column>
+    <column name="MTBEZ" data_type="VARCHAR">
+      <description>Description of material type</description>
+    </column>
+  </columns>
+</data_description>

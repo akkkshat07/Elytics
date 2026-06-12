@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="T176">
+  <table_info name="T176" total_columns="2" />
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="BSARK" data_type="VARCHAR">
+      <description>Customer purchase order type</description>
+    </column>
+  </columns>
+</data_description>

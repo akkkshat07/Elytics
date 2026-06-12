@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="LFBK">
+  <table_info name="LFBK" total_columns="14"/>
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="LIFNR" data_type="VARCHAR">
+      <description>Account Number of Supplier</description>
+    </column>
+    <column name="BANKS" data_type="VARCHAR">
+      <description>Bank Country Key</description>
+    </column>
+    <column name="BANKL" data_type="VARCHAR">
+      <description>Bank Keys</description>
+    </column>
+    <column name="BANKN" data_type="VARCHAR">
+      <description>Bank Account Number</description>
+    </column>
+    <column name="BKONT" data_type="VARCHAR">
+      <description>Bank Control Key</description>
+    </column>
+    <column name="BVTYP" data_type="VARCHAR">
+      <description>Partner bank type</description>
+    </column>
+    <column name="XEZER" data_type="VARCHAR">
+      <description>Indicator: Is there collection authorization ?</description>
+    </column>
+    <column name="BKREF" data_type="VARCHAR">
+      <description>Reference Details for Bank Details</description>
+    </column>
+    <column name="KOINH" data_type="VARCHAR">
+      <description>Account Holder Name</description>
+    </column>
+    <column name="EBPP_ACCNAME" data_type="VARCHAR">
+      <description>User-Defined Name of Bank Details</description>
+    </column>
+    <column name="EBPP_BVSTATUS" data_type="VARCHAR">
+      <description>Status of Bank Details in Biller Direct</description>
+    </column>
+    <column name="KOVON" data_type="DATE">
+      <description>Bank Details Valid From</description>
+    </column>
+    <column name="KOBIS" data_type="DATE">
+      <description>Bank details valid to</description>
+    </column>
+  </columns>
+</data_description>

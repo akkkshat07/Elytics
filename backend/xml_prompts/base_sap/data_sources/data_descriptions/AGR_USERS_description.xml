@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="AGR_USERS">
+  <table_info name="AGR_USERS" total_columns="11" />
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client ID</description>
+    </column>
+    <column name="AGR_NAME" data_type="VARCHAR">
+      <description>Role Name</description>
+    </column>
+    <column name="UNAME" data_type="VARCHAR">
+      <description>User Name in User Master Record</description>
+    </column>
+    <column name="FROM_DAT" data_type="DATE">
+      <description>Date of validity</description>
+    </column>
+    <column name="TO_DAT" data_type="DATE">
+      <description>Date of validity</description>
+    </column>
+    <column name="EXCLUDE" data_type="VARCHAR">
+      <description>Exclusive</description>
+    </column>
+    <column name="CHANGE_DAT" data_type="DATE">
+      <description>Date of menu generation</description>
+    </column>
+    <column name="CHANGE_TIM" data_type="TIME">
+      <description>Time when the menu was generated last</description>
+    </column>
+    <column name="CHANGE_TST" data_type="DECIMAL">
+      <description>UTC Time Stamp in Short Form (YYYYMMDDhhmmss)</description>
+    </column>
+    <column name="ORG_FLAG" data_type="VARCHAR">
+      <description>Flag: Assignment Comes From HR Organization Management</description>
+    </column>
+    <column name="COL_FLAG" data_type="VARCHAR">
+      <description>Flag: Assignment from composite role</description>
+    </column>
+  </columns>
+</data_description>

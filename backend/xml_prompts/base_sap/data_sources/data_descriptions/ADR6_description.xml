@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="ADR6">
+  <table_info name="ADR6" total_columns="16" />
+  <columns>
+    <column name="CLIENT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="ADDRNUMBER" data_type="VARCHAR">
+      <description>Address Number</description>
+    </column>
+    <column name="PERSNUMBER" data_type="VARCHAR">
+      <description>Person Number</description>
+    </column>
+    <column name="DATE_FROM" data_type="DATE">
+      <description>Valid-from date - in current Release only 00010101 possible</description>
+    </column>
+    <column name="CONSNUMBER" data_type="VARCHAR">
+      <description>Sequence Number</description>
+    </column>
+    <column name="FLGDEFAULT" data_type="VARCHAR">
+      <description>Flag: this address is the default address</description>
+    </column>
+    <column name="FLG_NOUSE" data_type="VARCHAR">
+      <description>Flag: This Communication Number is Not Used</description>
+    </column>
+    <column name="HOME_FLAG" data_type="VARCHAR">
+      <description>Recipient address in this communication type (mail sys.grp)</description>
+    </column>
+    <column name="SMTP_ADDR" data_type="VARCHAR">
+      <description>E-Mail Address</description>
+    </column>
+    <column name="SMTP_SRCH" data_type="VARCHAR">
+      <description>E-Mail Address Search Field</description>
+    </column>
+    <column name="DFT_RECEIV" data_type="VARCHAR">
+      <description>Flag: Recipient is standard recipient for this address</description>
+    </column>
+    <column name="R3_USER" data_type="VARCHAR">
+      <description>Flag: Connected to an SAP System</description>
+    </column>
+    <column name="ENCODE" data_type="VARCHAR">
+      <description>Required Data Encoding (E-Mail)</description>
+    </column>
+    <column name="TNEF" data_type="VARCHAR">
+      <description>Flag: Receiver can receive TNEF encoding by SMTP</description>
+    </column>
+    <column name="VALID_FROM" data_type="VARCHAR">
+      <description>Communication Data: Valid From (YYYYMMDDHHMMSS)</description>
+    </column>
+    <column name="VALID_TO" data_type="VARCHAR">
+      <description>Communication Data: Valid To (YYYYMMDDHHMMSS)</description>
+    </column>
+  </columns>
+</data_description>

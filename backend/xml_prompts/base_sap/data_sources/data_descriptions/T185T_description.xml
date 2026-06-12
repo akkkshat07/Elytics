@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="T185T">
+  <table_info name="T185T" total_columns="9" />
+  <columns>
+    <column name="SPRAS" data_type="VARCHAR">
+      <description>Language Key</description>
+    </column>
+    <column name="AGIDV" data_type="VARCHAR">
+      <description>Application areas</description>
+    </column>
+    <column name="FCODE" data_type="VARCHAR">
+      <description>Function code</description>
+    </column>
+    <column name="TITEL" data_type="VARCHAR">
+      <description>Title of POPUP's for the POPUP_TO_CONFIRM function module</description>
+    </column>
+    <column name="TEXTLINE1" data_type="VARCHAR">
+      <description>Confirmation Prompt</description>
+    </column>
+    <column name="TEXTLINE2" data_type="VARCHAR">
+      <description>Confirmation Prompt</description>
+    </column>
+    <column name="DIAGNOSE1" data_type="VARCHAR">
+      <description>Confirmation Prompt</description>
+    </column>
+    <column name="DIAGNOSE2" data_type="VARCHAR">
+      <description>Confirmation Prompt</description>
+    </column>
+    <column name="DIAGNOSE3" data_type="VARCHAR">
+      <description>Confirmation Prompt</description>
+    </column>
+  </columns>
+</data_description>

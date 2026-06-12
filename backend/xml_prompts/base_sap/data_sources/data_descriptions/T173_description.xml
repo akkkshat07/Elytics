@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="T173">
+  <table_info name="T173" total_columns="4" />
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="VSART" data_type="VARCHAR">
+      <description>Shipping type</description>
+    </column>
+    <column name="VKTRA" data_type="VARCHAR">
+      <description>Mode of transport</description>
+    </column>
+    <column name="VSGRP" data_type="VARCHAR">
+      <description>Shipping type procedure group</description>
+    </column>
+  </columns>
+</data_description>

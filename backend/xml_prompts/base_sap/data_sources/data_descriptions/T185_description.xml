@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="T185">
+  <table_info name="T185" total_columns="19" />
+  <columns>
+    <column name="AGIDV" data_type="VARCHAR">
+      <description>Application areas</description>
+    </column>
+    <column name="FCODE" data_type="VARCHAR">
+      <description>Function code</description>
+    </column>
+    <column name="BLDGR" data_type="VARCHAR">
+      <description>Screen group</description>
+    </column>
+    <column name="PANEL" data_type="VARCHAR">
+      <description>Name of the current screen display</description>
+    </column>
+    <column name="KOPGR" data_type="VARCHAR">
+      <description>Screen sequence group in doc. header</description>
+    </column>
+    <column name="POSGR" data_type="VARCHAR">
+      <description>Group of doc.items for screen sequence</description>
+    </column>
+    <column name="FBLDGR" data_type="VARCHAR">
+      <description>Subsequent screen group</description>
+    </column>
+    <column name="FPANEL" data_type="VARCHAR">
+      <description>Description of the subsequent screen</description>
+    </column>
+    <column name="FFCODE" data_type="VARCHAR">
+      <description>Function code</description>
+    </column>
+    <column name="STUFE" data_type="DECIMAL">
+      <description>Increase or purge next screen memory</description>
+    </column>
+    <column name="DUNKEL" data_type="VARCHAR">
+      <description>Process subsequent screen in background</description>
+    </column>
+    <column name="RUFEN" data_type="VARCHAR">
+      <description>Transaction/report call with return</description>
+    </column>
+    <column name="NMODUL" data_type="VARCHAR">
+      <description>The next module to be called</description>
+    </column>
+    <column name="BMODUL" data_type="VARCHAR">
+      <description>Module to be called up with return (F3)</description>
+    </column>
+    <column name="NPROG" data_type="VARCHAR">
+      <description>Program which contains module NMODUL</description>
+    </column>
+    <column name="BPROG" data_type="VARCHAR">
+      <description>Program used for return</description>
+    </column>
+    <column name="QUELLE" data_type="VARCHAR">
+      <description>Source of parameters for subsequent screen</description>
+    </column>
+    <column name="STNEU" data_type="DECIMAL">
+      <description>Access mode for storage of the screen sequence</description>
+    </column>
+    <column name="CRMFUNC" data_type="VARCHAR">
+      <description>Function name</description>
+    </column>
+  </columns>
+</data_description>

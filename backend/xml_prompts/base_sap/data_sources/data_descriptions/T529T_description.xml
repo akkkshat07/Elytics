@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="T529T">
+  <table_info name="T529T" total_columns="4" />
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="SPRSL" data_type="VARCHAR">
+      <description>Language Key</description>
+    </column>
+    <column name="MASSN" data_type="VARCHAR">
+      <description>Action Type</description>
+    </column>
+    <column name="MNTXT" data_type="VARCHAR">
+      <description>Name of Action Type</description>
+    </column>
+  </columns>
+</data_description>

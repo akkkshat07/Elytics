@@ -1,0 +1,147 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="LTBP">
+  <table_info name="LTBP" total_columns="47"/>
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="LGNUM" data_type="VARCHAR">
+      <description>Warehouse Number / Warehouse Complex</description>
+    </column>
+    <column name="TBNUM" data_type="VARCHAR">
+      <description>Transfer Requirement Number</description>
+    </column>
+    <column name="TBPOS" data_type="VARCHAR">
+      <description>Transfer Requirement Item</description>
+    </column>
+    <column name="ELIKZ" data_type="VARCHAR">
+      <description>Indicator: Processing Complete</description>
+    </column>
+    <column name="MATNR" data_type="VARCHAR">
+      <description>Material Number</description>
+    </column>
+    <column name="WERKS" data_type="VARCHAR">
+      <description>Plant</description>
+    </column>
+    <column name="BESTQ" data_type="VARCHAR">
+      <description>Stock Category in the Warehouse Management System</description>
+    </column>
+    <column name="CHARG" data_type="VARCHAR">
+      <description>Batch Number</description>
+    </column>
+    <column name="SOBKZ" data_type="VARCHAR">
+      <description>Special Stock Indicator</description>
+    </column>
+    <column name="SONUM" data_type="VARCHAR">
+      <description>Special Stock Number</description>
+    </column>
+    <column name="MENGE" data_type="DECIMAL">
+      <description>Transfer requirement quantity in stockkeeping unit</description>
+    </column>
+    <column name="MEINS" data_type="VARCHAR">
+      <description>Base Unit of Measure</description>
+    </column>
+    <column name="MENGA" data_type="DECIMAL">
+      <description>Transfer Requirement Quantity in Alternate Unit</description>
+    </column>
+    <column name="ALTME" data_type="VARCHAR">
+      <description>Alternative Unit of Measure for Stockkeeping Unit</description>
+    </column>
+    <column name="UMREZ" data_type="DECIMAL">
+      <description>Numerator for Conversion to Base Units of Measure</description>
+    </column>
+    <column name="UMREN" data_type="DECIMAL">
+      <description>Denominator for conversion to base units of measure</description>
+    </column>
+    <column name="TANUM" data_type="VARCHAR">
+      <description>Transfer Order Number Last Assigned</description>
+    </column>
+    <column name="TAMEN" data_type="DECIMAL">
+      <description>Transfer Order Quantity in Stockkeeping Unit</description>
+    </column>
+    <column name="TAMEA" data_type="DECIMAL">
+      <description>Transfer Order Quantity in Alternative Unit</description>
+    </column>
+    <column name="AOFTA" data_type="DECIMAL">
+      <description>Number of Open Transfer Order Items</description>
+    </column>
+    <column name="AGSTA" data_type="DECIMAL">
+      <description>Total Number of Transfer Order Items</description>
+    </column>
+    <column name="TDATU" data_type="DATE">
+      <description>Date of Last Transfer Order</description>
+    </column>
+    <column name="TZEIT" data_type="TIME">
+      <description>Time of Last Transfer Order</description>
+    </column>
+    <column name="WEMPF" data_type="VARCHAR">
+      <description>Goods recipient</description>
+    </column>
+    <column name="ABLAD" data_type="VARCHAR">
+      <description>Unloading Point</description>
+    </column>
+    <column name="MBPOS" data_type="VARCHAR">
+      <description>Item in Material Document</description>
+    </column>
+    <column name="WDATU" data_type="DATE">
+      <description>Date of Goods Receipt</description>
+    </column>
+    <column name="ZEUGN" data_type="VARCHAR">
+      <description>Certificate Number</description>
+    </column>
+    <column name="BRGEW" data_type="DECIMAL">
+      <description>Weight of Material</description>
+    </column>
+    <column name="GEWEI" data_type="VARCHAR">
+      <description>Unit of Weight</description>
+    </column>
+    <column name="QPLOS" data_type="VARCHAR">
+      <description>Inspection Lot Number</description>
+    </column>
+    <column name="RSPOS" data_type="VARCHAR">
+      <description>Item Number of Reservation / Dependent Requirements</description>
+    </column>
+    <column name="VFDAT" data_type="DATE">
+      <description>Shelf Life Expiration or Best-Before Date</description>
+    </column>
+    <column name="ANZL1" data_type="DECIMAL">
+      <description>Number of Storage Units to be Placed Into Storage</description>
+    </column>
+    <column name="ANZL2" data_type="DECIMAL">
+      <description>Number of Storage Units to be Placed Into Storage</description>
+    </column>
+    <column name="LMEN1" data_type="DECIMAL">
+      <description>Quantity per Storage Unit to be Placed into Stock in Alt.UoM</description>
+    </column>
+    <column name="LMEN2" data_type="DECIMAL">
+      <description>Quantity per Storage Unit to be Placed into Stock in Alt.UoM</description>
+    </column>
+    <column name="LETY1" data_type="VARCHAR">
+      <description>Storage Unit Type</description>
+    </column>
+    <column name="LETY2" data_type="VARCHAR">
+      <description>Storage Unit Type</description>
+    </column>
+    <column name="QPLOA" data_type="VARCHAR">
+      <description>Inspection Lot on Which the Usage Decision is Based</description>
+    </column>
+    <column name="RSART" data_type="VARCHAR">
+      <description>Record type</description>
+    </column>
+    <column name="KZECH" data_type="VARCHAR">
+      <description>Indicator: Confirm Batch to PP</description>
+    </column>
+    <column name="LGORT" data_type="VARCHAR">
+      <description>Storage Location</description>
+    </column>
+    <column name="L2SKR" data_type="VARCHAR">
+      <description>Relevance for 2-Step Picking in Reference Document Item</description>
+    </column>
+    <column name="KZFME" data_type="VARCHAR">
+      <description>ID: Leading unit of measure for completing a transaction</description>
+    </column>
+    <column name="SGT_SCAT" data_type="VARCHAR">
+      <description>Stock Segment</description>
+    </column>
+  </columns>
+</data_description>

@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="IKPF">
+  <table_info name="IKPF" total_columns="25"/>
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="IBLNR" data_type="VARCHAR">
+      <description>Physical Inventory Document</description>
+    </column>
+    <column name="GJAHR" data_type="VARCHAR">
+      <description>Fiscal Year</description>
+    </column>
+    <column name="VGART" data_type="VARCHAR">
+      <description>Transaction/Event Type</description>
+    </column>
+    <column name="WERKS" data_type="VARCHAR">
+      <description>Plant</description>
+    </column>
+    <column name="LGORT" data_type="VARCHAR">
+      <description>Storage Location</description>
+    </column>
+    <column name="SOBKZ" data_type="VARCHAR">
+      <description>Special Stock Indicator</description>
+    </column>
+    <column name="BLDAT" data_type="DATE">
+      <description>Document Date in Document</description>
+    </column>
+    <column name="GIDAT" data_type="DATE">
+      <description>Planned date of inventory count</description>
+    </column>
+    <column name="ZLDAT" data_type="DATE">
+      <description>Date of last count</description>
+    </column>
+    <column name="BUDAT" data_type="DATE">
+      <description>Posting Date in the Document</description>
+    </column>
+    <column name="MONAT" data_type="VARCHAR">
+      <description>Fiscal period</description>
+    </column>
+    <column name="USNAM" data_type="VARCHAR">
+      <description>User Name</description>
+    </column>
+    <column name="SPERR" data_type="VARCHAR">
+      <description>Posting block due to physical inventory</description>
+    </column>
+    <column name="ZSTAT" data_type="VARCHAR">
+      <description>Status of count</description>
+    </column>
+    <column name="DSTAT" data_type="VARCHAR">
+      <description>Status of adjustment posting (inventory differences)</description>
+    </column>
+    <column name="XBLNI" data_type="VARCHAR">
+      <description>Reference Number for Physical Inventory</description>
+    </column>
+    <column name="LSTAT" data_type="VARCHAR">
+      <description>Status of delete flag</description>
+    </column>
+    <column name="XBUFI" data_type="VARCHAR">
+      <description>Freeze book inventory</description>
+    </column>
+    <column name="KEORD" data_type="VARCHAR">
+      <description>Type of grouping criterion</description>
+    </column>
+    <column name="ORDNG" data_type="VARCHAR">
+      <description>Grouping criterion of physical inventory document item</description>
+    </column>
+    <column name="INVNU" data_type="VARCHAR">
+      <description>Physical inventory number</description>
+    </column>
+    <column name="IBLTXT" data_type="VARCHAR">
+      <description>Description of Physical Inventory Document</description>
+    </column>
+    <column name="INVART" data_type="VARCHAR">
+      <description>Physical Inventory Type</description>
+    </column>
+    <column name="WSTI_BSTAT" data_type="VARCHAR">
+      <description>Status of Calculation of Inventory Balance at Count Time</description>
+    </column>
+  </columns>
+</data_description>

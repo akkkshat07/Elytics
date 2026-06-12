@@ -1,0 +1,174 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="ANLP">
+  <table_info name="ANLP" total_columns="56"/>
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="BUKRS" data_type="VARCHAR">
+      <description>Company Code</description>
+    </column>
+    <column name="GJAHR" data_type="VARCHAR">
+      <description>Fiscal Year</description>
+    </column>
+    <column name="PERAF" data_type="VARCHAR">
+      <description>Depreciation calculation period</description>
+    </column>
+    <column name="AFBNR" data_type="VARCHAR">
+      <description>Sequence number of depreciation posting run in the period</description>
+    </column>
+    <column name="ANLN1" data_type="VARCHAR">
+      <description>Main Asset Number</description>
+    </column>
+    <column name="ANLN2" data_type="VARCHAR">
+      <description>Asset Subnumber</description>
+    </column>
+    <column name="AFABER" data_type="VARCHAR">
+      <description>Depreciation area real or derived</description>
+    </column>
+    <column name="ZUJHR" data_type="VARCHAR">
+      <description>Asset acquisition year (currently not used)</description>
+    </column>
+    <column name="ZUCOD" data_type="VARCHAR">
+      <description>Sub-classification of asset acquisitions(currently not used)</description>
+    </column>
+    <column name="AUFWP" data_type="DECIMAL">
+      <description>Planned revaluation on replacement value</description>
+    </column>
+    <column name="AUFWB" data_type="DECIMAL">
+      <description>Revaluation posted on replacement value</description>
+    </column>
+    <column name="AUFWZ" data_type="DECIMAL">
+      <description>Revaluation on replacement value to be posted</description>
+    </column>
+    <column name="NAFAP" data_type="DECIMAL">
+      <description>Planned ordinary depreciation for the year</description>
+    </column>
+    <column name="NAFAG" data_type="DECIMAL">
+      <description>Ordinary depreciation posted in the current year</description>
+    </column>
+    <column name="NAFAZ" data_type="DECIMAL">
+      <description>Ordinary depreciation to be posted</description>
+    </column>
+    <column name="SAFAP" data_type="DECIMAL">
+      <description>Planned special depreciation for the year</description>
+    </column>
+    <column name="SAFAG" data_type="DECIMAL">
+      <description>Special depreciation posted in the current fiscal year</description>
+    </column>
+    <column name="SAFAZ" data_type="DECIMAL">
+      <description>Special depreciation to be posted</description>
+    </column>
+    <column name="AAFAP" data_type="DECIMAL">
+      <description>Scheduled unplanned depreciation for the year</description>
+    </column>
+    <column name="AAFAG" data_type="DECIMAL">
+      <description>Unplanned depreciation posted for the year</description>
+    </column>
+    <column name="AAFAZ" data_type="DECIMAL">
+      <description>Unplanned depreciation to be posted</description>
+    </column>
+    <column name="MAFAP" data_type="DECIMAL">
+      <description>Planned transfer of reserves for the year</description>
+    </column>
+    <column name="MAFAG" data_type="DECIMAL">
+      <description>Acquisition value reducing depreciation posted for the year</description>
+    </column>
+    <column name="MAFAZ" data_type="DECIMAL">
+      <description>Transferred reserves to be posted for the year</description>
+    </column>
+    <column name="ZINSP" data_type="DECIMAL">
+      <description>Interest planned for the year</description>
+    </column>
+    <column name="ZINSG" data_type="DECIMAL">
+      <description>Interest posted for the year</description>
+    </column>
+    <column name="ZINSZ" data_type="DECIMAL">
+      <description>Interest for the year to be posted</description>
+    </column>
+    <column name="AUFNP" data_type="DECIMAL">
+      <description>Planned revaluation of accumulated ordinary depreciation</description>
+    </column>
+    <column name="AUFNG" data_type="DECIMAL">
+      <description>Posted revaluation of accumulated ordinary depreciation</description>
+    </column>
+    <column name="AUFNZ" data_type="DECIMAL">
+      <description>Revaluation to be posted on cum. ordinary depreciation</description>
+    </column>
+    <column name="ANSWL" data_type="DECIMAL">
+      <description>Transactions for the year affecting asset values</description>
+    </column>
+    <column name="INVZM" data_type="DECIMAL">
+      <description>Investment grant for the year</description>
+    </column>
+    <column name="KTOGR" data_type="VARCHAR">
+      <description>Account determination</description>
+    </column>
+    <column name="AFASL" data_type="VARCHAR">
+      <description>Depreciation key</description>
+    </column>
+    <column name="KOSTL" data_type="VARCHAR">
+      <description>Cost Center</description>
+    </column>
+    <column name="GSBER" data_type="VARCHAR">
+      <description>Business Area</description>
+    </column>
+    <column name="CAUFN" data_type="VARCHAR">
+      <description>Internal order</description>
+    </column>
+    <column name="XUNUL" data_type="VARCHAR">
+      <description>Indicator: Post to below-zero account</description>
+    </column>
+    <column name="ANUPD" data_type="VARCHAR">
+      <description>Indicator: Type of change to table</description>
+    </column>
+    <column name="FKBER" data_type="VARCHAR">
+      <description>Functional Area</description>
+    </column>
+    <column name="BELNR" data_type="VARCHAR">
+      <description>Document Number of a Sepreciation Posting Document</description>
+    </column>
+    <column name="LSTAR" data_type="VARCHAR">
+      <description>Activity Type</description>
+    </column>
+    <column name="GEBER" data_type="VARCHAR">
+      <description>Fund</description>
+    </column>
+    <column name="GRANT_NBR" data_type="VARCHAR">
+      <description>Grant</description>
+    </column>
+    <column name="GEBER2" data_type="VARCHAR">
+      <description>Fund for APC Account Assignments</description>
+    </column>
+    <column name="FKBER2" data_type="VARCHAR">
+      <description>Functional Area for APC Account Assignments</description>
+    </column>
+    <column name="GRANT_NBR2" data_type="VARCHAR">
+      <description>Grant for APC Account Assignments</description>
+    </column>
+    <column name="FISTL2" data_type="VARCHAR">
+      <description>Funds Center for APC Account Assignments</description>
+    </column>
+    <column name="IMKEY" data_type="VARCHAR">
+      <description>Internal Key for Real Estate Object</description>
+    </column>
+    <column name="PS_PSP_PNR2" data_type="VARCHAR">
+      <description>WBS Element (Costs)</description>
+    </column>
+    <column name="BUDGET_PD" data_type="VARCHAR">
+      <description>FM: Budget Period</description>
+    </column>
+    <column name="BUDGET_PD2" data_type="VARCHAR">
+      <description>Budget Period for APC Account Assignments</description>
+    </column>
+    <column name="SEGMENT" data_type="VARCHAR">
+      <description>Segment for Segmental Reporting</description>
+    </column>
+    <column name="PRCTR" data_type="VARCHAR">
+      <description>Profit Center</description>
+    </column>
+    <column name="FISTL" data_type="VARCHAR">
+      <description>Funds Center</description>
+    </column>
+  </columns>
+</data_description>

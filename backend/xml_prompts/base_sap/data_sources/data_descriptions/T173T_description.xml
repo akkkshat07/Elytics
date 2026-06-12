@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="T173T">
+  <table_info name="T173T" total_columns="4" />
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="SPRAS" data_type="VARCHAR">
+      <description>Language Key</description>
+    </column>
+    <column name="VSART" data_type="VARCHAR">
+      <description>Shipping type</description>
+    </column>
+    <column name="BEZEI" data_type="VARCHAR">
+      <description>Description of the Shipping Type</description>
+    </column>
+  </columns>
+</data_description>

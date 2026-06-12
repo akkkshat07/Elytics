@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="T023">
+  <table_info name="T023" total_columns="15"/>
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="MATKL" data_type="VARCHAR">
+      <description>Material Group</description>
+    </column>
+    <column name="SPART" data_type="VARCHAR">
+      <description>Division</description>
+    </column>
+    <column name="LREF3" data_type="VARCHAR">
+      <description>Material group-related supply relat. between plants /DEACT.</description>
+    </column>
+    <column name="WWGDA" data_type="VARCHAR">
+      <description>Material group reference material</description>
+    </column>
+    <column name="WWGPA" data_type="VARCHAR">
+      <description>Material group material</description>
+    </column>
+    <column name="ABTNR" data_type="VARCHAR">
+      <description>Department number</description>
+    </column>
+    <column name="BEGRU" data_type="VARCHAR">
+      <description>Authorization Group</description>
+    </column>
+    <column name="GEWEI" data_type="VARCHAR">
+      <description>Default unit of weight in the material master</description>
+    </column>
+    <column name="J_1BNBM" data_type="VARCHAR">
+      <description>Brazilian NCM Code</description>
+    </column>
+    <column name="BKLAS" data_type="VARCHAR">
+      <description>Valuation Class</description>
+    </column>
+    <column name="EKWSL" data_type="VARCHAR">
+      <description>Purchasing Value Key</description>
+    </column>
+    <column name="ANLKL" data_type="VARCHAR">
+      <description>Default: Asset Class for Creation of Asset</description>
+    </column>
+    <column name="DEF_SCHDSC" data_type="VARCHAR">
+      <description>Event Scenario</description>
+    </column>
+    <column name="PRICE_GROUP" data_type="VARCHAR">
+      <description>Price Level Group</description>
+    </column>
+  </columns>
+</data_description>

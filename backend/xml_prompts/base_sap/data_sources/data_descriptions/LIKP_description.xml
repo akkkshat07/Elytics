@@ -1,0 +1,561 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="LIKP">
+  <table_info name="LIKP" total_columns="185"/>
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="VBELN" data_type="VARCHAR">
+      <description>Delivery</description>
+    </column>
+    <column name="ERNAM" data_type="VARCHAR">
+      <description>Name of Person Responsible for Creating the Object</description>
+    </column>
+    <column name="ERZET" data_type="TIME">
+      <description>Entry time</description>
+    </column>
+    <column name="ERDAT" data_type="DATE">
+      <description>Date on Which Record Was Created</description>
+    </column>
+    <column name="BZIRK" data_type="VARCHAR">
+      <description>Sales district</description>
+    </column>
+    <column name="VSTEL" data_type="VARCHAR">
+      <description>Shipping Point/Receiving Point</description>
+    </column>
+    <column name="VKORG" data_type="VARCHAR">
+      <description>Sales Organization</description>
+    </column>
+    <column name="LFART" data_type="VARCHAR">
+      <description>Delivery Type</description>
+    </column>
+    <column name="AUTLF" data_type="VARCHAR">
+      <description>Complete delivery defined for each sales order?</description>
+    </column>
+    <column name="KZAZU" data_type="VARCHAR">
+      <description>Order Combination Indicator</description>
+    </column>
+    <column name="WADAT" data_type="DATE">
+      <description>Planned goods movement date</description>
+    </column>
+    <column name="LDDAT" data_type="DATE">
+      <description>Loading Date</description>
+    </column>
+    <column name="TDDAT" data_type="DATE">
+      <description>Transportation Planning Date</description>
+    </column>
+    <column name="LFDAT" data_type="DATE">
+      <description>Delivery Date</description>
+    </column>
+    <column name="KODAT" data_type="DATE">
+      <description>Picking Date</description>
+    </column>
+    <column name="ABLAD" data_type="VARCHAR">
+      <description>Unloading Point</description>
+    </column>
+    <column name="INCO1" data_type="VARCHAR">
+      <description>Incoterms (Part 1)</description>
+    </column>
+    <column name="INCO2" data_type="VARCHAR">
+      <description>Incoterms (Part 2)</description>
+    </column>
+    <column name="EXPKZ" data_type="VARCHAR">
+      <description>Export indicator</description>
+    </column>
+    <column name="ROUTE" data_type="VARCHAR">
+      <description>Route</description>
+    </column>
+    <column name="FAKSK" data_type="VARCHAR">
+      <description>Billing block in SD document</description>
+    </column>
+    <column name="LIFSK" data_type="VARCHAR">
+      <description>Delivery block (document header)</description>
+    </column>
+    <column name="VBTYP" data_type="VARCHAR">
+      <description>SD document category</description>
+    </column>
+    <column name="KNFAK" data_type="VARCHAR">
+      <description>Customer factory calendar</description>
+    </column>
+    <column name="TPQUA" data_type="VARCHAR">
+      <description>not currently in use</description>
+    </column>
+    <column name="TPGRP" data_type="VARCHAR">
+      <description>not currently in use</description>
+    </column>
+    <column name="LPRIO" data_type="VARCHAR">
+      <description>Delivery Priority</description>
+    </column>
+    <column name="VSBED" data_type="VARCHAR">
+      <description>Shipping Conditions</description>
+    </column>
+    <column name="KUNNR" data_type="VARCHAR">
+      <description>Ship-To Party</description>
+    </column>
+    <column name="KUNAG" data_type="VARCHAR">
+      <description>Sold-To Party</description>
+    </column>
+    <column name="KDGRP" data_type="VARCHAR">
+      <description>Customer group</description>
+    </column>
+    <column name="STZKL" data_type="DECIMAL">
+      <description>Not Currently in Use</description>
+    </column>
+    <column name="STZZU" data_type="DECIMAL">
+      <description>not currently in use</description>
+    </column>
+    <column name="BTGEW" data_type="DECIMAL">
+      <description>Total Weight</description>
+    </column>
+    <column name="NTGEW" data_type="DECIMAL">
+      <description>Net Weight</description>
+    </column>
+    <column name="GEWEI" data_type="VARCHAR">
+      <description>Unit of Weight</description>
+    </column>
+    <column name="VOLUM" data_type="DECIMAL">
+      <description>Volume</description>
+    </column>
+    <column name="VOLEH" data_type="VARCHAR">
+      <description>Volume Unit</description>
+    </column>
+    <column name="ANZPK" data_type="VARCHAR">
+      <description>Total number of packages in delivery</description>
+    </column>
+    <column name="BEROT" data_type="VARCHAR">
+      <description>Picked items location</description>
+    </column>
+    <column name="LFUHR" data_type="TIME">
+      <description>Time of delivery</description>
+    </column>
+    <column name="GRULG" data_type="VARCHAR">
+      <description>Weight group for delivery (To group)</description>
+    </column>
+    <column name="LSTEL" data_type="VARCHAR">
+      <description>Loading Point</description>
+    </column>
+    <column name="TRAGR" data_type="VARCHAR">
+      <description>Transportation Group</description>
+    </column>
+    <column name="FKARV" data_type="VARCHAR">
+      <description>Proposed billing type for a delivery-related billing doc.</description>
+    </column>
+    <column name="FKDAT" data_type="DATE">
+      <description>Billing Date for Billing Index and Printout</description>
+    </column>
+    <column name="PERFK" data_type="VARCHAR">
+      <description>Invoice dates (calendar identification)</description>
+    </column>
+    <column name="ROUTA" data_type="VARCHAR">
+      <description>Route</description>
+    </column>
+    <column name="STAFO" data_type="VARCHAR">
+      <description>Update group for statistics update</description>
+    </column>
+    <column name="KALSM" data_type="VARCHAR">
+      <description>Procedure (Pricing, Output Control, Acct. Det., Costing,...)</description>
+    </column>
+    <column name="KNUMV" data_type="VARCHAR">
+      <description>Number of the document condition</description>
+    </column>
+    <column name="WAERK" data_type="VARCHAR">
+      <description>SD Document Currency</description>
+    </column>
+    <column name="VKBUR" data_type="VARCHAR">
+      <description>Sales Office</description>
+    </column>
+    <column name="VBEAK" data_type="DECIMAL">
+      <description>Shipping processing time for the entire document</description>
+    </column>
+    <column name="ZUKRL" data_type="VARCHAR">
+      <description>Combination criteria for delivery</description>
+    </column>
+    <column name="VERUR" data_type="VARCHAR">
+      <description>Distribution delivery</description>
+    </column>
+    <column name="COMMN" data_type="VARCHAR">
+      <description>Communication number for Q-API interface</description>
+    </column>
+    <column name="STWAE" data_type="VARCHAR">
+      <description>Statistics currency</description>
+    </column>
+    <column name="STCUR" data_type="DECIMAL">
+      <description>Exchange rate for statistics</description>
+    </column>
+    <column name="EXNUM" data_type="VARCHAR">
+      <description>Number of foreign trade data in MM and SD documents</description>
+    </column>
+    <column name="AENAM" data_type="VARCHAR">
+      <description>Name of Person Who Changed Object</description>
+    </column>
+    <column name="AEDAT" data_type="DATE">
+      <description>Last Changed On</description>
+    </column>
+    <column name="LGNUM" data_type="VARCHAR">
+      <description>Warehouse Number / Warehouse Complex</description>
+    </column>
+    <column name="LISPL" data_type="VARCHAR">
+      <description>Delivery within one warehouse</description>
+    </column>
+    <column name="VKOIV" data_type="VARCHAR">
+      <description>Sales organization for intercompany billing</description>
+    </column>
+    <column name="VTWIV" data_type="VARCHAR">
+      <description>Distribution channel for intercompany billing</description>
+    </column>
+    <column name="SPAIV" data_type="VARCHAR">
+      <description>Division for intercompany billing</description>
+    </column>
+    <column name="FKAIV" data_type="VARCHAR">
+      <description>Billing type for intercompany billing</description>
+    </column>
+    <column name="PIOIV" data_type="VARCHAR">
+      <description>Date for intercompany billing</description>
+    </column>
+    <column name="FKDIV" data_type="DATE">
+      <description>Billing date for intercompany billing</description>
+    </column>
+    <column name="KUNIV" data_type="VARCHAR">
+      <description>Customer number for intercompany billing</description>
+    </column>
+    <column name="KKBER" data_type="VARCHAR">
+      <description>Credit Control Area</description>
+    </column>
+    <column name="KNKLI" data_type="VARCHAR">
+      <description>Customer's account number with credit limit reference</description>
+    </column>
+    <column name="GRUPP" data_type="VARCHAR">
+      <description>Customer Credit Group</description>
+    </column>
+    <column name="SBGRP" data_type="VARCHAR">
+      <description>Credit representative group for credit management</description>
+    </column>
+    <column name="CTLPC" data_type="VARCHAR">
+      <description>Credit management: Risk category</description>
+    </column>
+    <column name="CMWAE" data_type="VARCHAR">
+      <description>Currency key of credit control area</description>
+    </column>
+    <column name="AMTBL" data_type="DECIMAL">
+      <description>Released credit value of the document</description>
+    </column>
+    <column name="BOLNR" data_type="VARCHAR">
+      <description>Bill of lading</description>
+    </column>
+    <column name="LIFNR" data_type="VARCHAR">
+      <description>Supplier's Account Number</description>
+    </column>
+    <column name="TRATY" data_type="VARCHAR">
+      <description>Means of Transport Type</description>
+    </column>
+    <column name="TRAID" data_type="VARCHAR">
+      <description>Means of Transport ID</description>
+    </column>
+    <column name="CMFRE" data_type="DATE">
+      <description>Release date of the document determined by credit management</description>
+    </column>
+    <column name="CMNGV" data_type="DATE">
+      <description>Next date</description>
+    </column>
+    <column name="XABLN" data_type="VARCHAR">
+      <description>Goods Receipt/Issue Slip Number</description>
+    </column>
+    <column name="BLDAT" data_type="DATE">
+      <description>Document Date in Document</description>
+    </column>
+    <column name="WADAT_IST" data_type="DATE">
+      <description>Actual Goods Movement Date</description>
+    </column>
+    <column name="TRSPG" data_type="VARCHAR">
+      <description>Shipment Blocking Reason</description>
+    </column>
+    <column name="TPSID" data_type="VARCHAR">
+      <description>ID for external transport system</description>
+    </column>
+    <column name="LIFEX" data_type="VARCHAR">
+      <description>External Identification of Delivery Note</description>
+    </column>
+    <column name="TERNR" data_type="VARCHAR">
+      <description>Order Number</description>
+    </column>
+    <column name="KALSM_CH" data_type="VARCHAR">
+      <description>Search procedure for batch determination</description>
+    </column>
+    <column name="KLIEF" data_type="VARCHAR">
+      <description>Correction delivery</description>
+    </column>
+    <column name="KALSP" data_type="VARCHAR">
+      <description>Shipping: Pricing procedure</description>
+    </column>
+    <column name="KNUMP" data_type="VARCHAR">
+      <description>Number of document condition - pricing</description>
+    </column>
+    <column name="NETWR" data_type="DECIMAL">
+      <description>Net Value of the Sales Order in Document Currency</description>
+    </column>
+    <column name="AULWE" data_type="VARCHAR">
+      <description>Route Schedule</description>
+    </column>
+    <column name="WERKS" data_type="VARCHAR">
+      <description>Receiving plant for deliveries</description>
+    </column>
+    <column name="LCNUM" data_type="VARCHAR">
+      <description>Financial doc. processing: Internal financial doc. number</description>
+    </column>
+    <column name="ABSSC" data_type="VARCHAR">
+      <description>Payment guarantee procedure</description>
+    </column>
+    <column name="KOUHR" data_type="TIME">
+      <description>Picking time (local time, with reference to a plant)</description>
+    </column>
+    <column name="TDUHR" data_type="TIME">
+      <description>Transp. Planning Time (Local, Relating to a Shipping Point)</description>
+    </column>
+    <column name="LDUHR" data_type="TIME">
+      <description>Loading Time (Local Time Relating to a Shipping Point)</description>
+    </column>
+    <column name="WAUHR" data_type="TIME">
+      <description>Time of Goods Issue (Local, Relating to a Plant)</description>
+    </column>
+    <column name="LGTOR" data_type="VARCHAR">
+      <description>Door for Warehouse Number</description>
+    </column>
+    <column name="LGBZO" data_type="VARCHAR">
+      <description>Staging Area for Warehouse Complex</description>
+    </column>
+    <column name="AKWAE" data_type="VARCHAR">
+      <description>Currency key for letter-of-credit procg in foreign trade</description>
+    </column>
+    <column name="AKKUR" data_type="DECIMAL">
+      <description>Exchange rate for letter-of-credit procg in foreign trade</description>
+    </column>
+    <column name="AKPRZ" data_type="DECIMAL">
+      <description>Depreciation percentage for financial document processing</description>
+    </column>
+    <column name="PROLI" data_type="VARCHAR">
+      <description>Dangerous Goods Management Profile in SD Documents</description>
+    </column>
+    <column name="XBLNR" data_type="VARCHAR">
+      <description>Reference Document Number</description>
+    </column>
+    <column name="HANDLE" data_type="VARCHAR">
+      <description>Worldwide unique key for LIKP-VBELN</description>
+    </column>
+    <column name="TSEGFL" data_type="VARCHAR">
+      <description>Time segment exists</description>
+    </column>
+    <column name="TSEGTP" data_type="VARCHAR">
+      <description>Event group time segment delivery header</description>
+    </column>
+    <column name="TZONIS" data_type="VARCHAR">
+      <description>Time zone of delivering location</description>
+    </column>
+    <column name="TZONRC" data_type="VARCHAR">
+      <description>Time zone of recipient location</description>
+    </column>
+    <column name="CONT_DG" data_type="VARCHAR">
+      <description>Indicator: Document contains dangerous goods</description>
+    </column>
+    <column name="VERURSYS" data_type="VARCHAR">
+      <description>Distribution delivery: Original system</description>
+    </column>
+    <column name="KZWAB" data_type="VARCHAR">
+      <description>Indicator for controlling goods movement</description>
+    </column>
+    <column name="VLSTK" data_type="VARCHAR">
+      <description>Distribution Status (Decentralized Warehouse Processing)</description>
+    </column>
+    <column name="TCODE" data_type="VARCHAR">
+      <description>Transaction Code</description>
+    </column>
+    <column name="VSART" data_type="VARCHAR">
+      <description>Shipping type</description>
+    </column>
+    <column name="TRMTYP" data_type="VARCHAR">
+      <description>Means of Transport</description>
+    </column>
+    <column name="SDABW" data_type="VARCHAR">
+      <description>Special processing indicator</description>
+    </column>
+    <column name="VBUND" data_type="VARCHAR">
+      <description>Company ID</description>
+    </column>
+    <column name="XWOFF" data_type="VARCHAR">
+      <description>Calculation of val. open</description>
+    </column>
+    <column name="DIRTA" data_type="VARCHAR">
+      <description>Automatic TO Creation Immediately After TR Generation</description>
+    </column>
+    <column name="PRVBE" data_type="VARCHAR">
+      <description>Production Supply Area</description>
+    </column>
+    <column name="FOLAR" data_type="VARCHAR">
+      <description>Delivery Type</description>
+    </column>
+    <column name="PODAT" data_type="DATE">
+      <description>Date (proof of delivery)</description>
+    </column>
+    <column name="POTIM" data_type="TIME">
+      <description>Confirmation time</description>
+    </column>
+    <column name="VGANZ" data_type="INTEGER">
+      <description>Number of Delivery Items with Precedessor in Other System</description>
+    </column>
+    <column name="IMWRK" data_type="VARCHAR">
+      <description>Delivery has Status 'In Plant'</description>
+    </column>
+    <column name="SPE_LOEKZ" data_type="VARCHAR">
+      <description>Document deletion indicator</description>
+    </column>
+    <column name="SPE_LOC_SEQ" data_type="VARCHAR">
+      <description>Sequence of Intermediate Locations in Returns Process</description>
+    </column>
+    <column name="SPE_ACC_APP_STS" data_type="VARCHAR">
+      <description>Delivery Confirmation Status</description>
+    </column>
+    <column name="SPE_SHP_INF_STS" data_type="VARCHAR">
+      <description>Shipment Information Status</description>
+    </column>
+    <column name="SPE_RET_CANC" data_type="VARCHAR">
+      <description>Returns: Flag showing that an ASN is cancelled</description>
+    </column>
+    <column name="SPE_WAUHR_IST" data_type="TIME">
+      <description>Time of Goods Issue (Local, Relating to a Plant)</description>
+    </column>
+    <column name="SPE_WAZONE_IST" data_type="VARCHAR">
+      <description>Time Zone</description>
+    </column>
+    <column name="SPE_REV_VLSTK" data_type="VARCHAR">
+      <description>Distribution Status (Decentralized Warehouse Processing)</description>
+    </column>
+    <column name="SPE_LE_SCENARIO" data_type="VARCHAR">
+      <description>Scenario Logistic Execution</description>
+    </column>
+    <column name="SPE_ORIG_SYS" data_type="VARCHAR">
+      <description>Original System Type</description>
+    </column>
+    <column name="SPE_CHNG_SYS" data_type="VARCHAR">
+      <description>Last Changer's System Type</description>
+    </column>
+    <column name="SPE_GEOROUTE" data_type="VARCHAR">
+      <description>Description of a Geographical Route</description>
+    </column>
+    <column name="SPE_GEOROUTEIND" data_type="VARCHAR">
+      <description>Change Indicator for the Route</description>
+    </column>
+    <column name="SPE_CARRIER_IND" data_type="VARCHAR">
+      <description>Change Indicator for the Carrier</description>
+    </column>
+    <column name="SPE_GTS_REL" data_type="VARCHAR">
+      <description>Goods Traffic Type</description>
+    </column>
+    <column name="SPE_GTS_RT_CDE" data_type="VARCHAR">
+      <description>Route Code for SAP Global Trade Services</description>
+    </column>
+    <column name="SPE_REL_TMSTMP" data_type="DECIMAL">
+      <description>Release Time Stamp</description>
+    </column>
+    <column name="SPE_UNIT_SYSTEM" data_type="VARCHAR">
+      <description>Measurement Unit System</description>
+    </column>
+    <column name="SPE_INV_BFR_GI" data_type="VARCHAR">
+      <description>Invoice Creation Before Goods Issue</description>
+    </column>
+    <column name="SPE_QI_STATUS" data_type="VARCHAR">
+      <description>Status of Quality Inspection for Returns Deliveries</description>
+    </column>
+    <column name="SPE_RED_IND" data_type="VARCHAR">
+      <description>SPE indicator if redirecting has occured</description>
+    </column>
+    <column name="SAKES" data_type="VARCHAR">
+      <description>SAP Global Trade Services: Storage Status of Delivery</description>
+    </column>
+    <column name="SPE_LIFEX_TYPE" data_type="VARCHAR">
+      <description>Type of External Identification</description>
+    </column>
+    <column name="SPE_TTYPE" data_type="VARCHAR">
+      <description>Means of Transport</description>
+    </column>
+    <column name="SPE_PRO_NUMBER" data_type="VARCHAR">
+      <description>Partner Identification : Progressive Identification Number</description>
+    </column>
+    <column name="LOC_GUID" data_type="VARCHAR">
+      <description>Akkreditiv (GUID)</description>
+    </column>
+    <column name="SPE_BILLING_IND" data_type="VARCHAR">
+      <description>EWM Billing Indicator</description>
+    </column>
+    <column name="PRINTER_PROFILE" data_type="VARCHAR">
+      <description>Description of print profile</description>
+    </column>
+    <column name="MSR_ACTIVE" data_type="VARCHAR">
+      <description>Advanced Returns Management Active</description>
+    </column>
+    <column name="PRTNR" data_type="VARCHAR">
+      <description>Confirmation number</description>
+    </column>
+    <column name="STGE_LOC_CHANGE" data_type="VARCHAR">
+      <description>Temporary Change of Storage Locations in Delivery</description>
+    </column>
+    <column name="TM_CTRL_KEY" data_type="VARCHAR">
+      <description>Control Key for Document Transfer to TM</description>
+    </column>
+    <column name="DLV_SPLIT_INITIA" data_type="VARCHAR">
+      <description>Delivery Split Initiator</description>
+    </column>
+    <column name="DLV_VERSION" data_type="VARCHAR">
+      <description>Delivery Version</description>
+    </column>
+    <column name="HANDOVERLOC" data_type="VARCHAR">
+      <description>Location for a physical handover of goods</description>
+    </column>
+    <column name="HANDOVERDATE" data_type="DATE">
+      <description>Handover Date at the Handover Location</description>
+    </column>
+    <column name="HANDOVERTIME" data_type="TIME">
+      <description>Handover time at the handover location</description>
+    </column>
+    <column name="HANDOVERTZONE" data_type="VARCHAR">
+      <description>Time Zone of Handover Location</description>
+    </column>
+    <column name="INCOV" data_type="VARCHAR">
+      <description>Incoterms Version</description>
+    </column>
+    <column name="INCO2_L" data_type="VARCHAR">
+      <description>Incoterms Location 1</description>
+    </column>
+    <column name="INCO3_L" data_type="VARCHAR">
+      <description>Incoterms Location 2</description>
+    </column>
+    <column name="/BEV1/LULEINH" data_type="VARCHAR">
+      <description>Loading Units</description>
+    </column>
+    <column name="/BEV1/RPFAESS" data_type="DECIMAL">
+      <description>Number Category 1</description>
+    </column>
+    <column name="/BEV1/RPKIST" data_type="DECIMAL">
+      <description>Number Category 2</description>
+    </column>
+    <column name="/BEV1/RPCONT" data_type="DECIMAL">
+      <description>Number Category 3</description>
+    </column>
+    <column name="/BEV1/RPSONST" data_type="DECIMAL">
+      <description>Number Category 4</description>
+    </column>
+    <column name="/BEV1/RPFLGNR" data_type="VARCHAR">
+      <description>Loading Sequence Number in the Tour</description>
+    </column>
+    <column name="BORGR_GRP" data_type="VARCHAR">
+      <description>Inbound Dely Group: Multi-Level Goods Receipt Automotive</description>
+    </column>
+    <column name="FSH_TRANSACTION" data_type="VARCHAR">
+      <description>Transaction Number</description>
+    </column>
+    <column name="FSH_VAS_LAST_ITEM" data_type="VARCHAR">
+      <description>Last VAS Item Number</description>
+    </column>
+    <column name="FSH_VAS_CG" data_type="VARCHAR">
+      <description>Value-Added Services Customer Group</description>
+    </column>
+  </columns>
+</data_description>

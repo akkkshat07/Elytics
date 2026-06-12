@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<client_data_profile client_id="coreops" generated_at="2026-04-01T07:35:42.217391Z">
+  <company_profile>
+    <industry confidence="0.84">retail</industry>
+    <geography confidence="0.9">india</geography>
+    <locale>en_IN</locale>
+  </company_profile>
+  <formatting>
+    <date_formats>
+      <format pattern="YYYY-MM-DD" confidence="0.58"/>
+      <format pattern="YYYYMMDD" confidence="0.31"/>
+      <format pattern="DD/MM/YYYY" confidence="0.1"/>
+      <format pattern="MM/DD/YYYY" confidence="0.02"/>
+    </date_formats>
+    <fiscal_year start_month="1" label="January-"/>
+  </formatting>
+  <data_characteristics>
+    <table_relationships>
+      <relationship from_table="BH_ClientRetailMasterDataTable" from_col="Client_Id" to_table="BH_DMSSaleReportTable" to_col="Client_Id"/>
+      <relationship from_table="BH_ClientRetailMasterDataTable" from_col="Client_Id" to_table="BH_EmployeeWorkReportTable" to_col="Client_Id"/>
+      <relationship from_table="BH_ClientRetailMasterDataTable" from_col="Client_Id" to_table="BH_OrderSKUReportTable" to_col="Client_Id"/>
+      <relationship from_table="BH_ClientRetailMasterDataTable" from_col="Client_Id" to_table="BH_SNSReportData" to_col="Client_Id"/>
+      <relationship from_table="BH_DMSSaleReportTable" from_col="Client_Id" to_table="BH_EmployeeWorkReportTable" to_col="Client_Id"/>
+      <relationship from_table="BH_DMSSaleReportTable" from_col="Client_Id" to_table="BH_OrderSKUReportTable" to_col="Client_Id"/>
+      <relationship from_table="BH_DMSSaleReportTable" from_col="Client_Id" to_table="BH_SNSReportData" to_col="Client_Id"/>
+      <relationship from_table="BH_EmployeeWorkReportTable" from_col="Client_Id" to_table="BH_OrderSKUReportTable" to_col="Client_Id"/>
+      <relationship from_table="BH_EmployeeWorkReportTable" from_col="Client_Id" to_table="BH_SNSReportData" to_col="Client_Id"/>
+      <relationship from_table="BH_OrderSKUReportTable" from_col="Client_Id" to_table="BH_SNSReportData" to_col="Client_Id"/>
+      <relationship from_table="BH_ClientRetailMasterDataTable" from_col="Emp_Id" to_table="BH_DMSSaleReportTable" to_col="Emp_Id"/>
+      <relationship from_table="BH_ClientRetailMasterDataTable" from_col="Emp_Id" to_table="BH_EmployeeWorkReportTable" to_col="Emp_Id"/>
+      <relationship from_table="BH_DMSSaleReportTable" from_col="Emp_Id" to_table="BH_EmployeeWorkReportTable" to_col="Emp_Id"/>
+      <relationship from_table="BH_DMSSaleReportTable" from_col="Order_Id" to_table="BH_OrderSKUReportTable" to_col="Order_Id"/>
+      <relationship from_table="BH_DMSSaleReportTable" from_col="Variant_Id" to_table="BH_OrderSKUReportTable" to_col="Variant_Id"/>
+      <relationship from_table="BH_DMSSaleReportTable" from_col="Variant_Id" to_table="BH_SNSReportData" to_col="Variant_Id"/>
+      <relationship from_table="BH_OrderSKUReportTable" from_col="Variant_Id" to_table="BH_SNSReportData" to_col="Variant_Id"/>
+      <relationship from_table="BH_OrderSKUReportTable" from_col="Product_Id" to_table="BH_SNSReportData" to_col="Product_Id"/>
+    </table_relationships>
+  </data_characteristics>
+</client_data_profile>

@@ -1,0 +1,246 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="T001">
+  <table_info name="T001" total_columns="80"/>
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="BUKRS" data_type="VARCHAR">
+      <description>Company Code</description>
+    </column>
+    <column name="BUTXT" data_type="VARCHAR">
+      <description>Name of Company Code or Company</description>
+    </column>
+    <column name="ORT01" data_type="VARCHAR">
+      <description>City</description>
+    </column>
+    <column name="LAND1" data_type="VARCHAR">
+      <description>Country Key</description>
+    </column>
+    <column name="WAERS" data_type="VARCHAR">
+      <description>Currency Key</description>
+    </column>
+    <column name="SPRAS" data_type="VARCHAR">
+      <description>Language Key</description>
+    </column>
+    <column name="KTOPL" data_type="VARCHAR">
+      <description>Chart of Accounts</description>
+    </column>
+    <column name="WAABW" data_type="VARCHAR">
+      <description>Maximum exchange rate deviation in percent</description>
+    </column>
+    <column name="PERIV" data_type="VARCHAR">
+      <description>Fiscal Year Variant</description>
+    </column>
+    <column name="KOKFI" data_type="VARCHAR">
+      <description>Allocation Indicator</description>
+    </column>
+    <column name="RCOMP" data_type="VARCHAR">
+      <description>Company</description>
+    </column>
+    <column name="ADRNR" data_type="VARCHAR">
+      <description>Address</description>
+    </column>
+    <column name="STCEG" data_type="VARCHAR">
+      <description>VAT Registration Number</description>
+    </column>
+    <column name="FIKRS" data_type="VARCHAR">
+      <description>Financial Management Area</description>
+    </column>
+    <column name="XFMCO" data_type="VARCHAR">
+      <description>Indicator: Project Cash Management active?</description>
+    </column>
+    <column name="XFMCB" data_type="VARCHAR">
+      <description>Indicator: Cash budget management active</description>
+    </column>
+    <column name="XFMCA" data_type="VARCHAR">
+      <description>Activate Update in Funds Management</description>
+    </column>
+    <column name="TXJCD" data_type="VARCHAR">
+      <description>Jurisdiction for tax calculation - tax jurisdiction code</description>
+    </column>
+    <column name="FMHRDATE" data_type="DATE">
+      <description>Funds center can be assigned to an account in HR from</description>
+    </column>
+    <column name="BUVAR" data_type="VARCHAR">
+      <description>Company Code Variant (Screen)</description>
+    </column>
+    <column name="FDBUK" data_type="VARCHAR">
+      <description>Cash Management and Forecast Company Code</description>
+    </column>
+    <column name="XFDIS" data_type="VARCHAR">
+      <description>Indicator: Cash Management activated?</description>
+    </column>
+    <column name="XVALV" data_type="VARCHAR">
+      <description>Indicator: Propose current date as value date ?</description>
+    </column>
+    <column name="XSKFN" data_type="VARCHAR">
+      <description>Indicator: Discount base amount is the net value</description>
+    </column>
+    <column name="KKBER" data_type="VARCHAR">
+      <description>Credit Control Area</description>
+    </column>
+    <column name="XMWSN" data_type="VARCHAR">
+      <description>Indicator: Base amount for tax is net of discount ?</description>
+    </column>
+    <column name="MREGL" data_type="VARCHAR">
+      <description>Rules for Copying from the Sample Account for G/L Accounts</description>
+    </column>
+    <column name="XGSBE" data_type="VARCHAR">
+      <description>Indicator: Business area financial statements required?</description>
+    </column>
+    <column name="XGJRV" data_type="VARCHAR">
+      <description>Indicator: Propose fiscal year ?</description>
+    </column>
+    <column name="XKDFT" data_type="VARCHAR">
+      <description>Indicator: Post translations for exchange rate differences ?</description>
+    </column>
+    <column name="XPROD" data_type="VARCHAR">
+      <description>Indicator: Productive company code?</description>
+    </column>
+    <column name="XEINK" data_type="VARCHAR">
+      <description>Indicator: Purchase Account Processing is Active</description>
+    </column>
+    <column name="XJVAA" data_type="VARCHAR">
+      <description>Indicator: JVA Active</description>
+    </column>
+    <column name="XVVWA" data_type="VARCHAR">
+      <description>Indicator: Financial Assets Management active</description>
+    </column>
+    <column name="XSLTA" data_type="VARCHAR">
+      <description>Indicator: No ex.rate difference when clearing in local crcy</description>
+    </column>
+    <column name="XFDMM" data_type="VARCHAR">
+      <description>Indicator: Updating MM in Cash Mgmt/Forecast activated?</description>
+    </column>
+    <column name="XFDSD" data_type="VARCHAR">
+      <description>Indicator: Updating SD in Cash Mgmt/Forecast activated?</description>
+    </column>
+    <column name="XEXTB" data_type="VARCHAR">
+      <description>Indicator: Company code is in another system</description>
+    </column>
+    <column name="EBUKR" data_type="VARCHAR">
+      <description>Original Key of the Company Code</description>
+    </column>
+    <column name="KTOP2" data_type="VARCHAR">
+      <description>Chart of Accounts According to Country Legislation</description>
+    </column>
+    <column name="UMKRS" data_type="VARCHAR">
+      <description>Taxes on Sales/Purchases Group</description>
+    </column>
+    <column name="BUKRS_GLOB" data_type="VARCHAR">
+      <description>Name of global company code</description>
+    </column>
+    <column name="FSTVA" data_type="VARCHAR">
+      <description>Field Status Variant</description>
+    </column>
+    <column name="OPVAR" data_type="VARCHAR">
+      <description>Posting Period Variant</description>
+    </column>
+    <column name="XCOVR" data_type="VARCHAR">
+      <description>Indicator: hedge request active</description>
+    </column>
+    <column name="TXKRS" data_type="VARCHAR">
+      <description>Foreign Currency Translation for Tax Items</description>
+    </column>
+    <column name="WFVAR" data_type="VARCHAR">
+      <description>Workflow variant</description>
+    </column>
+    <column name="XBBBF" data_type="VARCHAR">
+      <description>G/L account authorization check in inventory management</description>
+    </column>
+    <column name="XBBBE" data_type="VARCHAR">
+      <description>G/L account authorization check in PO/scheduling agreement</description>
+    </column>
+    <column name="XBBBA" data_type="VARCHAR">
+      <description>G/L account authorization check in purchase requisitions</description>
+    </column>
+    <column name="XBBKO" data_type="VARCHAR">
+      <description>G/L account authorization check in contracts</description>
+    </column>
+    <column name="XSTDT" data_type="VARCHAR">
+      <description>Indicator: Document Date As the Basis for Tax Determination</description>
+    </column>
+    <column name="MWSKV" data_type="VARCHAR">
+      <description>Input Tax Code for Non-Taxable Transactions</description>
+    </column>
+    <column name="MWSKA" data_type="VARCHAR">
+      <description>Output Tax Code for Non-Taxable Transactions</description>
+    </column>
+    <column name="IMPDA" data_type="VARCHAR">
+      <description>Foreign Trade: Import Data Control in MM Purchase Orders</description>
+    </column>
+    <column name="XNEGP" data_type="VARCHAR">
+      <description>Indicator: Negative Postings Permitted</description>
+    </column>
+    <column name="XKKBI" data_type="VARCHAR">
+      <description>Indicator: Can credit control area be overwritten?</description>
+    </column>
+    <column name="WT_NEWWT" data_type="VARCHAR">
+      <description>Indicator: Extended withholding tax active</description>
+    </column>
+    <column name="PP_PDATE" data_type="VARCHAR">
+      <description>Procedure for Setting the Posting Date</description>
+    </column>
+    <column name="INFMT" data_type="VARCHAR">
+      <description>Inflation Method</description>
+    </column>
+    <column name="FSTVARE" data_type="VARCHAR">
+      <description>Funds reservation field status var.</description>
+    </column>
+    <column name="KOPIM" data_type="VARCHAR">
+      <description>Foreign trade: Import data copying control for GR</description>
+    </column>
+    <column name="DKWEG" data_type="VARCHAR">
+      <description>Foreign Trade: Screen ctrl of imp.data f. MM-goods rececipt</description>
+    </column>
+    <column name="OFFSACCT" data_type="VARCHAR">
+      <description>Method for offsetting account determination</description>
+    </column>
+    <column name="BAPOVAR" data_type="VARCHAR">
+      <description>Additional settings variant for bus.area financial statemnts</description>
+    </column>
+    <column name="XCOS" data_type="VARCHAR">
+      <description>Cost of sales accounting status</description>
+    </column>
+    <column name="XCESSION" data_type="VARCHAR">
+      <description>Accounts Receivable Pledging Active</description>
+    </column>
+    <column name="XSPLT" data_type="VARCHAR">
+      <description>Enable Amount Split</description>
+    </column>
+    <column name="SURCCM" data_type="VARCHAR">
+      <description>Surcharge Calculation Method</description>
+    </column>
+    <column name="DTPROV" data_type="VARCHAR">
+      <description>Document Type for Provisions for Taxes on Services Received</description>
+    </column>
+    <column name="DTAMTC" data_type="VARCHAR">
+      <description>Document Type for Journal Voucher (Amount Correction)</description>
+    </column>
+    <column name="DTTAXC" data_type="VARCHAR">
+      <description>Document Type for Journal Voucher (Tax Code Correction)</description>
+    </column>
+    <column name="DTTDSP" data_type="VARCHAR">
+      <description>Document Type for Remittance Challans</description>
+    </column>
+    <column name="DTAXR" data_type="VARCHAR">
+      <description>Deferred Tax Rule</description>
+    </column>
+    <column name="XVATDATE" data_type="VARCHAR">
+      <description>Tax Reporting Date Active in Documents</description>
+    </column>
+    <column name="PST_PER_VAR" data_type="VARCHAR">
+      <description>Manage Variant of Posting Period for Company Code/Ledger</description>
+    </column>
+    <column name="XBBSC" data_type="VARCHAR">
+      <description>G/L account authorization check in shopping cart</description>
+    </column>
+    <column name="F_OBSOLETE" data_type="VARCHAR">
+      <description>Hide Entry in Value Help</description>
+    </column>
+    <column name="FM_DERIVE_ACC" data_type="VARCHAR">
+      <description>Activate Account Assignment Derivation in Funds Management</description>
+    </column>
+  </columns>
+</data_description>

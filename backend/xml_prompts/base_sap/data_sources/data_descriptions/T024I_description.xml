@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="T024I">
+  <table_info name="T024I" total_columns="7" />
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="IWERK" data_type="VARCHAR">
+      <description>Maintenance Planning Plant</description>
+    </column>
+    <column name="INGRP" data_type="VARCHAR">
+      <description>Planner Group for Customer Service and Plant Maintenance</description>
+    </column>
+    <column name="INNAM" data_type="VARCHAR">
+      <description>Name of the Maintenance Planner Group</description>
+    </column>
+    <column name="INTEL" data_type="VARCHAR">
+      <description>Maintenance Planner Group Telephone Number</description>
+    </column>
+    <column name="AUART_WP" data_type="VARCHAR">
+      <description>Order Type</description>
+    </column>
+    <column name="SMTP_ADDR" data_type="VARCHAR">
+      <description>E-Mail Address</description>
+    </column>
+  </columns>
+</data_description>

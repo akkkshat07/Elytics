@@ -1,0 +1,414 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="CRHD">
+  <table_info name="CRHD" total_columns="136"/>
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="OBJTY" data_type="VARCHAR">
+      <description>Object types of the CIM resource</description>
+    </column>
+    <column name="OBJID" data_type="VARCHAR">
+      <description>Object ID of the resource</description>
+    </column>
+    <column name="BEGDA" data_type="DATE">
+      <description>Start Date</description>
+    </column>
+    <column name="ENDDA" data_type="DATE">
+      <description>End Date</description>
+    </column>
+    <column name="AEDAT_GRND" data_type="DATE">
+      <description>Changed on</description>
+    </column>
+    <column name="AENAM_GRND" data_type="VARCHAR">
+      <description>User Name</description>
+    </column>
+    <column name="AEDAT_VORA" data_type="DATE">
+      <description>Changed on</description>
+    </column>
+    <column name="AENAM_VORA" data_type="VARCHAR">
+      <description>User Name</description>
+    </column>
+    <column name="AEDAT_TERM" data_type="DATE">
+      <description>Changed on</description>
+    </column>
+    <column name="AENAM_TERM" data_type="VARCHAR">
+      <description>User Name</description>
+    </column>
+    <column name="AEDAT_TECH" data_type="DATE">
+      <description>Changed on</description>
+    </column>
+    <column name="AENAM_TECH" data_type="VARCHAR">
+      <description>User Name</description>
+    </column>
+    <column name="ARBPL" data_type="VARCHAR">
+      <description>Work Center</description>
+    </column>
+    <column name="WERKS" data_type="VARCHAR">
+      <description>Plant</description>
+    </column>
+    <column name="VERWE" data_type="VARCHAR">
+      <description>Work Center Category</description>
+    </column>
+    <column name="LVORM" data_type="VARCHAR">
+      <description>Deletion flag for work center</description>
+    </column>
+    <column name="PAR01" data_type="VARCHAR">
+      <description>First work center parameter (for formulas)</description>
+    </column>
+    <column name="PAR02" data_type="VARCHAR">
+      <description>Second work center parameter (for formulas)</description>
+    </column>
+    <column name="PAR03" data_type="VARCHAR">
+      <description>Third work center parameter (for formulas)</description>
+    </column>
+    <column name="PAR04" data_type="VARCHAR">
+      <description>Fourth work center parameter (for formulas)</description>
+    </column>
+    <column name="PAR05" data_type="VARCHAR">
+      <description>Fifth work center parameter (for formulas)</description>
+    </column>
+    <column name="PAR06" data_type="VARCHAR">
+      <description>Sixth work center parameter (for formulas)</description>
+    </column>
+    <column name="PARU1" data_type="VARCHAR">
+      <description>Parameter unit</description>
+    </column>
+    <column name="PARU2" data_type="VARCHAR">
+      <description>Parameter unit</description>
+    </column>
+    <column name="PARU3" data_type="VARCHAR">
+      <description>Parameter unit</description>
+    </column>
+    <column name="PARU4" data_type="VARCHAR">
+      <description>Parameter unit</description>
+    </column>
+    <column name="PARU5" data_type="VARCHAR">
+      <description>Parameter unit</description>
+    </column>
+    <column name="PARU6" data_type="VARCHAR">
+      <description>Parameter unit</description>
+    </column>
+    <column name="PARV1" data_type="DECIMAL">
+      <description>Parameter value</description>
+    </column>
+    <column name="PARV2" data_type="DECIMAL">
+      <description>Parameter value</description>
+    </column>
+    <column name="PARV3" data_type="DECIMAL">
+      <description>Parameter value</description>
+    </column>
+    <column name="PARV4" data_type="DECIMAL">
+      <description>Parameter value</description>
+    </column>
+    <column name="PARV5" data_type="DECIMAL">
+      <description>Parameter value</description>
+    </column>
+    <column name="PARV6" data_type="DECIMAL">
+      <description>Parameter value</description>
+    </column>
+    <column name="PLANV" data_type="VARCHAR">
+      <description>Key for task list usage</description>
+    </column>
+    <column name="STAND" data_type="VARCHAR">
+      <description>Work center location</description>
+    </column>
+    <column name="VERAN" data_type="VARCHAR">
+      <description>Person responsible for the work center</description>
+    </column>
+    <column name="VGWTS" data_type="VARCHAR">
+      <description>Standard value key</description>
+    </column>
+    <column name="VGM01" data_type="VARCHAR">
+      <description>Rule for standard value maintenance</description>
+    </column>
+    <column name="VGM02" data_type="VARCHAR">
+      <description>Rule for standard value maintenance</description>
+    </column>
+    <column name="VGM03" data_type="VARCHAR">
+      <description>Rule for standard value maintenance</description>
+    </column>
+    <column name="VGM04" data_type="VARCHAR">
+      <description>Rule for standard value maintenance</description>
+    </column>
+    <column name="VGM05" data_type="VARCHAR">
+      <description>Rule for standard value maintenance</description>
+    </column>
+    <column name="VGM06" data_type="VARCHAR">
+      <description>Rule for standard value maintenance</description>
+    </column>
+    <column name="XDEFA" data_type="VARCHAR">
+      <description>Indicator: Work center for default values</description>
+    </column>
+    <column name="XKOST" data_type="VARCHAR">
+      <description>Indicator: Work center is maintained for costing</description>
+    </column>
+    <column name="XSPRR" data_type="VARCHAR">
+      <description>Indicator: Work center is locked</description>
+    </column>
+    <column name="XTERM" data_type="VARCHAR">
+      <description>Indicator: Work center is maintained for scheduling</description>
+    </column>
+    <column name="ZGR01" data_type="VARCHAR">
+      <description>Key for performance efficiency rate</description>
+    </column>
+    <column name="ZGR02" data_type="VARCHAR">
+      <description>Key for performance efficiency rate</description>
+    </column>
+    <column name="ZGR03" data_type="VARCHAR">
+      <description>Key for performance efficiency rate</description>
+    </column>
+    <column name="ZGR04" data_type="VARCHAR">
+      <description>Key for performance efficiency rate</description>
+    </column>
+    <column name="ZGR05" data_type="VARCHAR">
+      <description>Key for performance efficiency rate</description>
+    </column>
+    <column name="ZGR06" data_type="VARCHAR">
+      <description>Key for performance efficiency rate</description>
+    </column>
+    <column name="KTSCH" data_type="VARCHAR">
+      <description>Standard text key</description>
+    </column>
+    <column name="LOANZ" data_type="DECIMAL">
+      <description>Number of Time Tickets</description>
+    </column>
+    <column name="LOART" data_type="VARCHAR">
+      <description>Wage type</description>
+    </column>
+    <column name="LOGRP" data_type="VARCHAR">
+      <description>Wage Group</description>
+    </column>
+    <column name="QUALF" data_type="VARCHAR">
+      <description>Suitability</description>
+    </column>
+    <column name="RASCH" data_type="VARCHAR">
+      <description>Setup Type Key</description>
+    </column>
+    <column name="STEUS" data_type="VARCHAR">
+      <description>Control Key</description>
+    </column>
+    <column name="VGE01" data_type="VARCHAR">
+      <description>Unit of Measurement of Standard Value</description>
+    </column>
+    <column name="VGE02" data_type="VARCHAR">
+      <description>Unit of Measurement of Standard Value</description>
+    </column>
+    <column name="VGE03" data_type="VARCHAR">
+      <description>Unit of Measurement of Standard Value</description>
+    </column>
+    <column name="VGE04" data_type="VARCHAR">
+      <description>Unit of Measurement of Standard Value</description>
+    </column>
+    <column name="VGE05" data_type="VARCHAR">
+      <description>Unit of Measurement of Standard Value</description>
+    </column>
+    <column name="VGE06" data_type="VARCHAR">
+      <description>Unit of Measurement of Standard Value</description>
+    </column>
+    <column name="KTSCH_REF" data_type="VARCHAR">
+      <description>Indicator: Standard text key is referenced</description>
+    </column>
+    <column name="LOART_REF" data_type="VARCHAR">
+      <description>Indicator: Wage type is referenced</description>
+    </column>
+    <column name="LOANZ_REF" data_type="VARCHAR">
+      <description>Indicator: Number of time tickets is referenced</description>
+    </column>
+    <column name="LOGRP_REF" data_type="VARCHAR">
+      <description>Indicator: Wage group is referenced</description>
+    </column>
+    <column name="QUALF_REF" data_type="VARCHAR">
+      <description>Indicator: Suitability is referenced</description>
+    </column>
+    <column name="RASCH_REF" data_type="VARCHAR">
+      <description>Indicator: Setup type key is referenced</description>
+    </column>
+    <column name="STEUS_REF" data_type="VARCHAR">
+      <description>Indicator: Control key is referenced</description>
+    </column>
+    <column name="FORT1" data_type="VARCHAR">
+      <description>Formula for setup time</description>
+    </column>
+    <column name="FORT2" data_type="VARCHAR">
+      <description>Formula for the duration of processing time</description>
+    </column>
+    <column name="FORT3" data_type="VARCHAR">
+      <description>Formula for teardown time</description>
+    </column>
+    <column name="KAPID" data_type="VARCHAR">
+      <description>Capacity ID</description>
+    </column>
+    <column name="ORTGR" data_type="VARCHAR">
+      <description>Location Group</description>
+    </column>
+    <column name="ZEIWN" data_type="VARCHAR">
+      <description>Unit for the standard queue time</description>
+    </column>
+    <column name="ZWNOR" data_type="DECIMAL">
+      <description>Standard queue time</description>
+    </column>
+    <column name="ZEIWM" data_type="VARCHAR">
+      <description>Unit for the minumum queue time</description>
+    </column>
+    <column name="ZWMIN" data_type="DECIMAL">
+      <description>Minimum queue time</description>
+    </column>
+    <column name="FORMR" data_type="VARCHAR">
+      <description>Indicator: same formulas as in capacity</description>
+    </column>
+    <column name="MATYP" data_type="VARCHAR">
+      <description>Machine type</description>
+    </column>
+    <column name="CPLGR" data_type="VARCHAR">
+      <description>CAPP planner group</description>
+    </column>
+    <column name="SORTB" data_type="VARCHAR">
+      <description>Sort string</description>
+    </column>
+    <column name="MTRVP" data_type="DECIMAL">
+      <description>Additional time percentage for setup</description>
+    </column>
+    <column name="MTMVP" data_type="DECIMAL">
+      <description>Additional time percentage for machines</description>
+    </column>
+    <column name="MTPVP" data_type="DECIMAL">
+      <description>Aditional time percentage for labor</description>
+    </column>
+    <column name="RSANZ" data_type="VARCHAR">
+      <description>Number of confirmation slips</description>
+    </column>
+    <column name="PDEST" data_type="VARCHAR">
+      <description>Printer for shop papers</description>
+    </column>
+    <column name="HROID" data_type="VARCHAR">
+      <description>Object ID</description>
+    </column>
+    <column name="FORTN" data_type="VARCHAR">
+      <description>Formula for the duration of other types of int. processing</description>
+    </column>
+    <column name="ZGR01_REF" data_type="VARCHAR">
+      <description>Field is referenced</description>
+    </column>
+    <column name="ZGR02_REF" data_type="VARCHAR">
+      <description>Field is referenced</description>
+    </column>
+    <column name="ZGR03_REF" data_type="VARCHAR">
+      <description>Field is referenced</description>
+    </column>
+    <column name="ZGR04_REF" data_type="VARCHAR">
+      <description>Field is referenced</description>
+    </column>
+    <column name="ZGR05_REF" data_type="VARCHAR">
+      <description>Field is referenced</description>
+    </column>
+    <column name="ZGR06_REF" data_type="VARCHAR">
+      <description>Field is referenced</description>
+    </column>
+    <column name="STEUS_C" data_type="VARCHAR">
+      <description>Control Key</description>
+    </column>
+    <column name="STEUS_I" data_type="VARCHAR">
+      <description>Control Key</description>
+    </column>
+    <column name="STEUS_N" data_type="VARCHAR">
+      <description>Control Key</description>
+    </column>
+    <column name="STEUS_Q" data_type="VARCHAR">
+      <description>Control Key</description>
+    </column>
+    <column name="RUZUS" data_type="VARCHAR">
+      <description>Key: rounding and additional values</description>
+    </column>
+    <column name="RSANZ_REF" data_type="VARCHAR">
+      <description>Indicator: Number of confirmation slips is referenced</description>
+    </column>
+    <column name="HR" data_type="VARCHAR">
+      <description>Work center only resides in HR</description>
+    </column>
+    <column name="PRVBE" data_type="VARCHAR">
+      <description>Production Supply Area</description>
+    </column>
+    <column name="SUBSYS" data_type="VARCHAR">
+      <description>Subsystem Identifier for QM Subsystem Interface</description>
+    </column>
+    <column name="BDEGR" data_type="VARCHAR">
+      <description>Grouping for Binding to Subsystem</description>
+    </column>
+    <column name="RGEKZ" data_type="VARCHAR">
+      <description>Indicator: Backflushing</description>
+    </column>
+    <column name="HRTYP" data_type="VARCHAR">
+      <description>Object Type</description>
+    </column>
+    <column name="SLWID" data_type="VARCHAR">
+      <description>Key word ID for user-defined fields</description>
+    </column>
+    <column name="LIFNR" data_type="VARCHAR">
+      <description>Account Number of Supplier</description>
+    </column>
+    <column name="SLWID_REF" data_type="VARCHAR">
+      <description>Field is referenced</description>
+    </column>
+    <column name="LIFNR_REF" data_type="VARCHAR">
+      <description>Field is referenced</description>
+    </column>
+    <column name="VGARB" data_type="VARCHAR">
+      <description>Unit of measure of work</description>
+    </column>
+    <column name="VGDIM" data_type="VARCHAR">
+      <description>Dimension of work</description>
+    </column>
+    <column name="HRPLVAR" data_type="VARCHAR">
+      <description>Plan Version</description>
+    </column>
+    <column name="VGDAU" data_type="VARCHAR">
+      <description>Normal duration/unit</description>
+    </column>
+    <column name="STOBJ" data_type="VARCHAR">
+      <description>Object number</description>
+    </column>
+    <column name="RESGR" data_type="VARCHAR">
+      <description>Matrix identification</description>
+    </column>
+    <column name="LGORT_RES" data_type="VARCHAR">
+      <description>Storage location storage resource</description>
+    </column>
+    <column name="MIXMAT" data_type="VARCHAR">
+      <description>Indicator: mixing of material allowed</description>
+    </column>
+    <column name="ISTBED_KZ" data_type="VARCHAR">
+      <description>Calculation of actual capacity requirements</description>
+    </column>
+    <column name="EBELN_EXT" data_type="VARCHAR">
+      <description>Purchasing Document Number</description>
+    </column>
+    <column name="EBELP_EXT" data_type="VARCHAR">
+      <description>Item Number of Purchasing Document</description>
+    </column>
+    <column name="LIFNR_EXT" data_type="VARCHAR">
+      <description>Account Number of Supplier</description>
+    </column>
+    <column name="EKGRP_EXT" data_type="VARCHAR">
+      <description>Purchasing Group</description>
+    </column>
+    <column name="EKORG_EXT" data_type="VARCHAR">
+      <description>Purchasing Organization</description>
+    </column>
+    <column name="MGHNO_EXT" data_type="VARCHAR">
+      <description>Class number</description>
+    </column>
+    <column name="MATKL_EXT" data_type="VARCHAR">
+      <description>Material Group</description>
+    </column>
+    <column name="PPSKZ" data_type="VARCHAR">
+      <description>Advanced Planning</description>
+    </column>
+    <column name="SRTYPE" data_type="VARCHAR">
+      <description>Shift Report Type</description>
+    </column>
+    <column name="SNTYPE" data_type="VARCHAR">
+      <description>Shift Note Type</description>
+    </column>
+  </columns>
+</data_description>

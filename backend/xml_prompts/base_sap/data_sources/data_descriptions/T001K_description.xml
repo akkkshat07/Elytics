@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="T001K">
+  <table_info name="T001K" total_columns="23"/>
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="BWKEY" data_type="VARCHAR">
+      <description>Valuation Area</description>
+    </column>
+    <column name="BUKRS" data_type="VARCHAR">
+      <description>Company Code</description>
+    </column>
+    <column name="BWMOD" data_type="VARCHAR">
+      <description>Valuation Grouping Code</description>
+    </column>
+    <column name="XBKNG" data_type="VARCHAR">
+      <description>Negative stocks in valuation area allowed</description>
+    </column>
+    <column name="MLBWA" data_type="VARCHAR">
+      <description>Material ledger activated in valuation area</description>
+    </column>
+    <column name="MLBWV" data_type="VARCHAR">
+      <description>Material ledger activated in valuation area (compulsory)</description>
+    </column>
+    <column name="XVKBW" data_type="VARCHAR">
+      <description>Sales price valuation active</description>
+    </column>
+    <column name="ERKLAERKOM" data_type="VARCHAR">
+      <description>Explanation Facility for Material Ledger Active/Inactive</description>
+    </column>
+    <column name="UPROF" data_type="VARCHAR">
+      <description>Retail revalution profile</description>
+    </column>
+    <column name="WBPRO" data_type="VARCHAR">
+      <description>Profile for value-based inventory management</description>
+    </column>
+    <column name="MLAST" data_type="VARCHAR">
+      <description>Material Price Determination: Control</description>
+    </column>
+    <column name="MLASV" data_type="VARCHAR">
+      <description>Price Determination is Binding in Valuation Area</description>
+    </column>
+    <column name="BDIFP" data_type="DECIMAL">
+      <description>Stock correction tolerance</description>
+    </column>
+    <column name="XLBPD" data_type="VARCHAR">
+      <description>Price difference posting in GR for subcontract oder</description>
+    </column>
+    <column name="XEWRX" data_type="VARCHAR">
+      <description>Post purchase account with receipt value</description>
+    </column>
+    <column name="X2FDO" data_type="VARCHAR">
+      <description>Two FI documents with purchase account</description>
+    </column>
+    <column name="PRSFR" data_type="VARCHAR">
+      <description>Price Release</description>
+    </column>
+    <column name="MLCCS" data_type="VARCHAR">
+      <description>Active Actual Cost Component Split</description>
+    </column>
+    <column name="XEFRE" data_type="VARCHAR">
+      <description>Del. costs to price diff. acct when purch. acct active</description>
+    </column>
+    <column name="EFREJ" data_type="VARCHAR">
+      <description>Start of validity period f. del. costs in price diff. acct</description>
+    </column>
+    <column name="/FMP/PRSFR" data_type="VARCHAR">
+      <description>Price Release Flexible Material Prices</description>
+    </column>
+    <column name="/FMP/PRFRGR" data_type="VARCHAR">
+      <description>Price Release Group</description>
+    </column>
+  </columns>
+</data_description>

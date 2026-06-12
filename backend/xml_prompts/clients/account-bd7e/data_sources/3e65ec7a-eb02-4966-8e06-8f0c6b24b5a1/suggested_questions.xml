@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8'?>
+<suggested_questions client_id="account-bd7e" generated_at="2026-06-01T21:29:25.233801" count="30">
+  <question id="1">What's the total count of records?</question>
+  <question id="2">Show me the top 10 by value</question>
+  <question id="3">What's the average across all entries?</question>
+  <question id="4">Show me the distribution by category</question>
+  <question id="5">Which items have the highest count?</question>
+  <question id="6">What's the trend over time?</question>
+  <question id="7">Show me a breakdown by group</question>
+  <question id="8">What's the total value?</question>
+  <question id="9">Which categories are most common?</question>
+  <question id="10">Show me recent activity summary</question>
+  <question id="11">What are the key metrics?</question>
+  <question id="12">Compare performance across segments</question>
+  <question id="13">Show monthly trends</question>
+  <question id="14">What's the growth rate?</question>
+  <question id="15">Identify top performers</question>
+  <question id="16">Show bottom 10 entries</question>
+  <question id="17">What's the distribution?</question>
+  <question id="18">Analyze by region</question>
+  <question id="19">Show year-over-year comparison</question>
+  <question id="20">What are the outliers?</question>
+  <question id="21">Calculate total revenue</question>
+  <question id="22">Show customer breakdown</question>
+  <question id="23">What's the conversion rate?</question>
+  <question id="24">Analyze seasonal patterns</question>
+  <question id="25">Show correlation analysis</question>
+  <question id="26">What's the retention rate?</question>
+  <question id="27">Compare quarter performance</question>
+  <question id="28">Show engagement metrics</question>
+  <question id="29">What's the churn rate?</question>
+  <question id="30">Analyze product performance</question>
+</suggested_questions>

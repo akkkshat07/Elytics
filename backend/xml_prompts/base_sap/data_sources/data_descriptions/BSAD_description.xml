@@ -1,0 +1,543 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="BSAD">
+  <table_info name="BSAD" total_columns="179"/>
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="BUKRS" data_type="VARCHAR">
+      <description>Company Code</description>
+    </column>
+    <column name="KUNNR" data_type="VARCHAR">
+      <description>Customer Number</description>
+    </column>
+    <column name="UMSKS" data_type="VARCHAR">
+      <description>Special G/L Transaction Type</description>
+    </column>
+    <column name="UMSKZ" data_type="VARCHAR">
+      <description>Special G/L Indicator</description>
+    </column>
+    <column name="AUGDT" data_type="DATE">
+      <description>Clearing Date</description>
+    </column>
+    <column name="AUGBL" data_type="VARCHAR">
+      <description>Document Number of the Clearing Document</description>
+    </column>
+    <column name="ZUONR" data_type="VARCHAR">
+      <description>Assignment number</description>
+    </column>
+    <column name="GJAHR" data_type="VARCHAR">
+      <description>Fiscal Year</description>
+    </column>
+    <column name="BELNR" data_type="VARCHAR">
+      <description>Document Number of an Accounting Document</description>
+    </column>
+    <column name="BUZEI" data_type="VARCHAR">
+      <description>Number of Line Item Within Accounting Document</description>
+    </column>
+    <column name="BUDAT" data_type="DATE">
+      <description>Posting Date in the Document</description>
+    </column>
+    <column name="BLDAT" data_type="DATE">
+      <description>Document Date in Document</description>
+    </column>
+    <column name="CPUDT" data_type="DATE">
+      <description>Day On Which Accounting Document Was Entered</description>
+    </column>
+    <column name="WAERS" data_type="VARCHAR">
+      <description>Currency Key</description>
+    </column>
+    <column name="XBLNR" data_type="VARCHAR">
+      <description>Reference Document Number</description>
+    </column>
+    <column name="BLART" data_type="VARCHAR">
+      <description>Document Type</description>
+    </column>
+    <column name="MONAT" data_type="VARCHAR">
+      <description>Fiscal period</description>
+    </column>
+    <column name="BSCHL" data_type="VARCHAR">
+      <description>Posting Key</description>
+    </column>
+    <column name="ZUMSK" data_type="VARCHAR">
+      <description>Target Special G/L Indicator</description>
+    </column>
+    <column name="SHKZG" data_type="VARCHAR">
+      <description>Debit/Credit Indicator</description>
+    </column>
+    <column name="GSBER" data_type="VARCHAR">
+      <description>Business Area</description>
+    </column>
+    <column name="MWSKZ" data_type="VARCHAR">
+      <description>Tax on Sales/Purchases Code</description>
+    </column>
+    <column name="DMBTR" data_type="DECIMAL">
+      <description>Amount in local currency</description>
+    </column>
+    <column name="WRBTR" data_type="DECIMAL">
+      <description>Amount in document currency</description>
+    </column>
+    <column name="MWSTS" data_type="DECIMAL">
+      <description>Tax Amount in Local Currency</description>
+    </column>
+    <column name="WMWST" data_type="DECIMAL">
+      <description>Tax Amount in Document Currency</description>
+    </column>
+    <column name="BDIFF" data_type="DECIMAL">
+      <description>Valuation Difference</description>
+    </column>
+    <column name="BDIF2" data_type="DECIMAL">
+      <description>Valuation Difference for the Second Local Currency</description>
+    </column>
+    <column name="SGTXT" data_type="VARCHAR">
+      <description>Item Text</description>
+    </column>
+    <column name="PROJN" data_type="VARCHAR">
+      <description>Old: Project number : No longer used --&gt; PS_POSNR</description>
+    </column>
+    <column name="AUFNR" data_type="VARCHAR">
+      <description>Order Number</description>
+    </column>
+    <column name="ANLN1" data_type="VARCHAR">
+      <description>Main Asset Number</description>
+    </column>
+    <column name="ANLN2" data_type="VARCHAR">
+      <description>Asset Subnumber</description>
+    </column>
+    <column name="SAKNR" data_type="VARCHAR">
+      <description>G/L Account Number</description>
+    </column>
+    <column name="HKONT" data_type="VARCHAR">
+      <description>General Ledger Account</description>
+    </column>
+    <column name="FKONT" data_type="VARCHAR">
+      <description>Financial Budget Item</description>
+    </column>
+    <column name="FILKD" data_type="VARCHAR">
+      <description>Account Number of the Branch</description>
+    </column>
+    <column name="ZFBDT" data_type="DATE">
+      <description>Baseline Date for Due Date Calculation</description>
+    </column>
+    <column name="ZTERM" data_type="VARCHAR">
+      <description>Terms of Payment Key</description>
+    </column>
+    <column name="ZBD1T" data_type="DECIMAL">
+      <description>Cash discount days 1</description>
+    </column>
+    <column name="ZBD2T" data_type="DECIMAL">
+      <description>Cash discount days 2</description>
+    </column>
+    <column name="ZBD3T" data_type="DECIMAL">
+      <description>Net Payment Terms Period</description>
+    </column>
+    <column name="ZBD1P" data_type="DECIMAL">
+      <description>Cash discount percentage 1</description>
+    </column>
+    <column name="ZBD2P" data_type="DECIMAL">
+      <description>Cash Discount Percentage 2</description>
+    </column>
+    <column name="SKFBT" data_type="DECIMAL">
+      <description>Amount Eligible for Cash Discount in Document Currency</description>
+    </column>
+    <column name="SKNTO" data_type="DECIMAL">
+      <description>Cash Discount Amount in Local Currency</description>
+    </column>
+    <column name="WSKTO" data_type="DECIMAL">
+      <description>Cash Discount Amount in Document Currency</description>
+    </column>
+    <column name="ZLSCH" data_type="VARCHAR">
+      <description>Payment Method</description>
+    </column>
+    <column name="ZLSPR" data_type="VARCHAR">
+      <description>Payment Block Key</description>
+    </column>
+    <column name="ZBFIX" data_type="VARCHAR">
+      <description>Fixed Payment Terms</description>
+    </column>
+    <column name="HBKID" data_type="VARCHAR">
+      <description>Short Key for a House Bank</description>
+    </column>
+    <column name="BVTYP" data_type="VARCHAR">
+      <description>Partner bank type</description>
+    </column>
+    <column name="REBZG" data_type="VARCHAR">
+      <description>Document no. of the invoice to which the transaction belongs</description>
+    </column>
+    <column name="REBZJ" data_type="VARCHAR">
+      <description>Fiscal Year of the Relevant Invoice (for Credit Memo)</description>
+    </column>
+    <column name="REBZZ" data_type="VARCHAR">
+      <description>Line Item in the Relevant Invoice</description>
+    </column>
+    <column name="SAMNR" data_type="VARCHAR">
+      <description>Invoice List Number</description>
+    </column>
+    <column name="ANFBN" data_type="VARCHAR">
+      <description>Document Number of the Bill of Exchange Payment Request</description>
+    </column>
+    <column name="ANFBJ" data_type="VARCHAR">
+      <description>Fiscal Year of the Bill of Exchange Payment Request Document</description>
+    </column>
+    <column name="ANFBU" data_type="VARCHAR">
+      <description>Company Code in Which Bill of Exch.Payment Request Is Posted</description>
+    </column>
+    <column name="ANFAE" data_type="DATE">
+      <description>Bill of Exchange Payment Request Due Date</description>
+    </column>
+    <column name="MANSP" data_type="VARCHAR">
+      <description>Dunning Block</description>
+    </column>
+    <column name="MSCHL" data_type="VARCHAR">
+      <description>Dunning Key</description>
+    </column>
+    <column name="MADAT" data_type="DATE">
+      <description>Date of Last Dunning Notice</description>
+    </column>
+    <column name="MANST" data_type="VARCHAR">
+      <description>Dunning Level</description>
+    </column>
+    <column name="MABER" data_type="VARCHAR">
+      <description>Dunning Area</description>
+    </column>
+    <column name="XNETB" data_type="VARCHAR">
+      <description>Indicator: Document posted net ?</description>
+    </column>
+    <column name="XANET" data_type="VARCHAR">
+      <description>Indicator: Down Payment in Net Procedure?</description>
+    </column>
+    <column name="XCPDD" data_type="VARCHAR">
+      <description>Indicator: Address and Bank Data Set Individually</description>
+    </column>
+    <column name="XINVE" data_type="VARCHAR">
+      <description>Indicator: Capital Goods Affected?</description>
+    </column>
+    <column name="XZAHL" data_type="VARCHAR">
+      <description>Indicator: Is Posting Key Used in a Payment Transaction?</description>
+    </column>
+    <column name="MWSK1" data_type="VARCHAR">
+      <description>Tax Code for Distribution</description>
+    </column>
+    <column name="DMBT1" data_type="DECIMAL">
+      <description>Amount in Local Currency for Tax Distribution</description>
+    </column>
+    <column name="WRBT1" data_type="DECIMAL">
+      <description>Amount in foreign currency for tax breakdown</description>
+    </column>
+    <column name="MWSK2" data_type="VARCHAR">
+      <description>Tax Code for Distribution</description>
+    </column>
+    <column name="DMBT2" data_type="DECIMAL">
+      <description>Amount in Local Currency for Tax Distribution</description>
+    </column>
+    <column name="WRBT2" data_type="DECIMAL">
+      <description>Amount in foreign currency for tax breakdown</description>
+    </column>
+    <column name="MWSK3" data_type="VARCHAR">
+      <description>Tax Code for Distribution</description>
+    </column>
+    <column name="DMBT3" data_type="DECIMAL">
+      <description>Amount in Local Currency for Tax Distribution</description>
+    </column>
+    <column name="WRBT3" data_type="DECIMAL">
+      <description>Amount in foreign currency for tax breakdown</description>
+    </column>
+    <column name="BSTAT" data_type="VARCHAR">
+      <description>Document Status</description>
+    </column>
+    <column name="VBUND" data_type="VARCHAR">
+      <description>Company ID of Trading Partner</description>
+    </column>
+    <column name="VBELN" data_type="VARCHAR">
+      <description>Billing Document</description>
+    </column>
+    <column name="REBZT" data_type="VARCHAR">
+      <description>Follow-On Document Type</description>
+    </column>
+    <column name="INFAE" data_type="VARCHAR">
+      <description>Inverted Date for Net Due Date</description>
+    </column>
+    <column name="STCEG" data_type="VARCHAR">
+      <description>VAT Registration Number</description>
+    </column>
+    <column name="EGBLD" data_type="VARCHAR">
+      <description>Country of Destination for Delivery of Goods</description>
+    </column>
+    <column name="EGLLD" data_type="VARCHAR">
+      <description>Supplying Country for Delivery of Goods</description>
+    </column>
+    <column name="RSTGR" data_type="VARCHAR">
+      <description>Reason Code for Payments</description>
+    </column>
+    <column name="XNOZA" data_type="VARCHAR">
+      <description>Indicator: Account is not counted</description>
+    </column>
+    <column name="VERTT" data_type="VARCHAR">
+      <description>Contract Type</description>
+    </column>
+    <column name="VERTN" data_type="VARCHAR">
+      <description>Contract Number</description>
+    </column>
+    <column name="VBEWA" data_type="VARCHAR">
+      <description>Flow Type</description>
+    </column>
+    <column name="WVERW" data_type="VARCHAR">
+      <description>Bill of Exchange Usage Type</description>
+    </column>
+    <column name="PROJK" data_type="VARCHAR">
+      <description>Work Breakdown Structure Element (WBS Element)</description>
+    </column>
+    <column name="FIPOS" data_type="VARCHAR">
+      <description>Commitment Item</description>
+    </column>
+    <column name="NPLNR" data_type="VARCHAR">
+      <description>Network Number for Account Assignment</description>
+    </column>
+    <column name="AUFPL" data_type="VARCHAR">
+      <description>Routing number of operations in the order</description>
+    </column>
+    <column name="APLZL" data_type="VARCHAR">
+      <description>Internal counter</description>
+    </column>
+    <column name="XEGDR" data_type="VARCHAR">
+      <description>Indicator: Triangular deal within the EU ?</description>
+    </column>
+    <column name="DMBE2" data_type="DECIMAL">
+      <description>Amount in Second Local Currency</description>
+    </column>
+    <column name="DMBE3" data_type="DECIMAL">
+      <description>Amount in Third Local Currency</description>
+    </column>
+    <column name="DMB21" data_type="DECIMAL">
+      <description>Amount in Second Local Currency for Tax Breakdown</description>
+    </column>
+    <column name="DMB22" data_type="DECIMAL">
+      <description>Amount in Second Local Currency for Tax Breakdown</description>
+    </column>
+    <column name="DMB23" data_type="DECIMAL">
+      <description>Amount in Second Local Currency for Tax Breakdown</description>
+    </column>
+    <column name="DMB31" data_type="DECIMAL">
+      <description>Amount in Third Local Currency for Tax Breakdown</description>
+    </column>
+    <column name="DMB32" data_type="DECIMAL">
+      <description>Amount in Third Local Currency for Tax Breakdown</description>
+    </column>
+    <column name="DMB33" data_type="DECIMAL">
+      <description>Amount in Third Local Currency for Tax Breakdown</description>
+    </column>
+    <column name="BDIF3" data_type="DECIMAL">
+      <description>Valuation Difference for the Third Local Currency</description>
+    </column>
+    <column name="XRAGL" data_type="VARCHAR">
+      <description>Indicator: Clearing was Reversed</description>
+    </column>
+    <column name="UZAWE" data_type="VARCHAR">
+      <description>Payment method supplement</description>
+    </column>
+    <column name="XSTOV" data_type="VARCHAR">
+      <description>Indicator: Document is flagged for reversal</description>
+    </column>
+    <column name="MWST2" data_type="DECIMAL">
+      <description>Tax Amount in Second Local Currency</description>
+    </column>
+    <column name="MWST3" data_type="DECIMAL">
+      <description>Tax Amount in Third Local Currency</description>
+    </column>
+    <column name="SKNT2" data_type="DECIMAL">
+      <description>Cash Discount Amount in Second Local Currency</description>
+    </column>
+    <column name="SKNT3" data_type="DECIMAL">
+      <description>Cash Discount Amount in Third Local Currency</description>
+    </column>
+    <column name="XREF1" data_type="VARCHAR">
+      <description>Business Partner Reference Key</description>
+    </column>
+    <column name="XREF2" data_type="VARCHAR">
+      <description>Business Partner Reference Key</description>
+    </column>
+    <column name="XARCH" data_type="VARCHAR">
+      <description>Indicator: Document already archived ?</description>
+    </column>
+    <column name="PSWSL" data_type="VARCHAR">
+      <description>Update Currency for General Ledger Transaction Figures</description>
+    </column>
+    <column name="PSWBT" data_type="DECIMAL">
+      <description>Amount for Updating in General Ledger</description>
+    </column>
+    <column name="LZBKZ" data_type="VARCHAR">
+      <description>State Central Bank Indicator</description>
+    </column>
+    <column name="LANDL" data_type="VARCHAR">
+      <description>Supplying Country</description>
+    </column>
+    <column name="IMKEY" data_type="VARCHAR">
+      <description>Internal Key for Real Estate Object</description>
+    </column>
+    <column name="VBEL2" data_type="VARCHAR">
+      <description>Sales Document</description>
+    </column>
+    <column name="VPOS2" data_type="VARCHAR">
+      <description>Numeric field: Length 6</description>
+    </column>
+    <column name="POSN2" data_type="VARCHAR">
+      <description>Sales Document Item</description>
+    </column>
+    <column name="ETEN2" data_type="VARCHAR">
+      <description>Schedule Line Number</description>
+    </column>
+    <column name="FISTL" data_type="VARCHAR">
+      <description>Funds Center</description>
+    </column>
+    <column name="GEBER" data_type="VARCHAR">
+      <description>Fund</description>
+    </column>
+    <column name="DABRZ" data_type="DATE">
+      <description>Reference date for settlement</description>
+    </column>
+    <column name="XNEGP" data_type="VARCHAR">
+      <description>Indicator: Negative posting</description>
+    </column>
+    <column name="KOSTL" data_type="VARCHAR">
+      <description>Cost Center</description>
+    </column>
+    <column name="RFZEI" data_type="VARCHAR">
+      <description>Payment Card Item</description>
+    </column>
+    <column name="KKBER" data_type="VARCHAR">
+      <description>Credit Control Area</description>
+    </column>
+    <column name="EMPFB" data_type="VARCHAR">
+      <description>Payee/Payer</description>
+    </column>
+    <column name="PRCTR" data_type="VARCHAR">
+      <description>Profit Center</description>
+    </column>
+    <column name="XREF3" data_type="VARCHAR">
+      <description>Reference key for line item</description>
+    </column>
+    <column name="QSSKZ" data_type="VARCHAR">
+      <description>Withholding Tax Code</description>
+    </column>
+    <column name="ZINKZ" data_type="VARCHAR">
+      <description>Exempted from Interest Calculation</description>
+    </column>
+    <column name="DTWS1" data_type="VARCHAR">
+      <description>Instruction 1</description>
+    </column>
+    <column name="DTWS2" data_type="VARCHAR">
+      <description>Instruction 2</description>
+    </column>
+    <column name="DTWS3" data_type="VARCHAR">
+      <description>Instruction 3</description>
+    </column>
+    <column name="DTWS4" data_type="VARCHAR">
+      <description>Instruction 4</description>
+    </column>
+    <column name="XPYPR" data_type="VARCHAR">
+      <description>Indicator: Items from Payment Program Blocked</description>
+    </column>
+    <column name="KIDNO" data_type="VARCHAR">
+      <description>Payment Reference</description>
+    </column>
+    <column name="ABSBT" data_type="DECIMAL">
+      <description>Credit Management: Hedged Amount</description>
+    </column>
+    <column name="CCBTC" data_type="VARCHAR">
+      <description>Payment cards: Settlement run</description>
+    </column>
+    <column name="PYCUR" data_type="VARCHAR">
+      <description>Currency for Automatic Payment</description>
+    </column>
+    <column name="PYAMT" data_type="DECIMAL">
+      <description>Amount in Payment Currency</description>
+    </column>
+    <column name="BUPLA" data_type="VARCHAR">
+      <description>Business Place</description>
+    </column>
+    <column name="SECCO" data_type="VARCHAR">
+      <description>Section Code</description>
+    </column>
+    <column name="CESSION_KZ" data_type="VARCHAR">
+      <description>Accounts Receivable Pledging Indicator</description>
+    </column>
+    <column name="PPDIFF" data_type="DECIMAL">
+      <description>Realized Exchange Rate Gain/Loss 1.Loc.Curr.(Part Payments)</description>
+    </column>
+    <column name="PPDIF2" data_type="DECIMAL">
+      <description>Realized Exchange Rate Gain/Loss 2.Loc. Curr.(Part Payments)</description>
+    </column>
+    <column name="PPDIF3" data_type="DECIMAL">
+      <description>Realized Exchange Rate Gain/Loss 3.Loc.Curr.(Part Payments)</description>
+    </column>
+    <column name="KBLNR" data_type="VARCHAR">
+      <description>Document Number for Earmarked Funds</description>
+    </column>
+    <column name="KBLPOS" data_type="VARCHAR">
+      <description>Earmarked Funds: Document Item</description>
+    </column>
+    <column name="GRANT_NBR" data_type="VARCHAR">
+      <description>Grant</description>
+    </column>
+    <column name="GMVKZ" data_type="VARCHAR">
+      <description>Item is in Execution</description>
+    </column>
+    <column name="SRTYPE" data_type="VARCHAR">
+      <description>Type of Additional Receivable</description>
+    </column>
+    <column name="LOTKZ" data_type="VARCHAR">
+      <description>Lot Number for Requests</description>
+    </column>
+    <column name="FKBER" data_type="VARCHAR">
+      <description>Functional Area</description>
+    </column>
+    <column name="INTRENO" data_type="VARCHAR">
+      <description>Internal Real Estate Master Data Code</description>
+    </column>
+    <column name="PPRCT" data_type="VARCHAR">
+      <description>Partner Profit Center</description>
+    </column>
+    <column name="BUZID" data_type="VARCHAR">
+      <description>Identification of the Line Item</description>
+    </column>
+    <column name="AUGGJ" data_type="VARCHAR">
+      <description>Fiscal Year of Clearing Document</description>
+    </column>
+    <column name="HKTID" data_type="VARCHAR">
+      <description>ID for account details</description>
+    </column>
+    <column name="BUDGET_PD" data_type="VARCHAR">
+      <description>FM: Budget Period</description>
+    </column>
+    <column name="PAYS_PROV" data_type="VARCHAR">
+      <description>Payment Service Provider</description>
+    </column>
+    <column name="PAYS_TRAN" data_type="VARCHAR">
+      <description>Payment Reference of Payment Service Provider</description>
+    </column>
+    <column name="MNDID" data_type="VARCHAR">
+      <description>Unique Reference to Mandate for each Payee</description>
+    </column>
+    <column name="KONTT" data_type="VARCHAR">
+      <description>Account Assignment Category for Industry Solution</description>
+    </column>
+    <column name="KONTL" data_type="VARCHAR">
+      <description>Acct assignment string for industry-specific acct assignmnts</description>
+    </column>
+    <column name="UEBGDAT" data_type="DATE">
+      <description>Transfer date of an item to legal dunning proceeding</description>
+    </column>
+    <column name="VNAME" data_type="VARCHAR">
+      <description>Joint Venture</description>
+    </column>
+    <column name="EGRUP" data_type="VARCHAR">
+      <description>Equity Group</description>
+    </column>
+    <column name="BTYPE" data_type="VARCHAR">
+      <description>Payroll Type</description>
+    </column>
+    <column name="PROPMANO" data_type="VARCHAR">
+      <description>Mandate, Mandate-Opening Contract</description>
+    </column>
+  </columns>
+</data_description>

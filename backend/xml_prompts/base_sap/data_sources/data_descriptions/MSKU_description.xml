@@ -1,0 +1,102 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="MSKU">
+  <table_info name="MSKU" total_columns="32"/>
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="MATNR" data_type="VARCHAR">
+      <description>Material Number</description>
+    </column>
+    <column name="WERKS" data_type="VARCHAR">
+      <description>Plant</description>
+    </column>
+    <column name="CHARG" data_type="VARCHAR">
+      <description>Batch Number</description>
+    </column>
+    <column name="SOBKZ" data_type="VARCHAR">
+      <description>Special Stock Indicator</description>
+    </column>
+    <column name="KUNNR" data_type="VARCHAR">
+      <description>Customer Number</description>
+    </column>
+    <column name="LFGJA" data_type="VARCHAR">
+      <description>Fiscal Year of Current Period</description>
+    </column>
+    <column name="LFMON" data_type="VARCHAR">
+      <description>Current period (posting period)</description>
+    </column>
+    <column name="KUSPR" data_type="VARCHAR">
+      <description>Physical Inventory Blocking Indicator</description>
+    </column>
+    <column name="KULAB" data_type="DECIMAL">
+      <description>Valuated Unrestricted-Use Stock</description>
+    </column>
+    <column name="KUINS" data_type="DECIMAL">
+      <description>Stock in Quality Inspection</description>
+    </column>
+    <column name="KUVLA" data_type="DECIMAL">
+      <description>Valuated unrestricted-use stock in previous period</description>
+    </column>
+    <column name="KUVIN" data_type="DECIMAL">
+      <description>Stock in Quality Inspection in Previous Period</description>
+    </column>
+    <column name="KUILL" data_type="VARCHAR">
+      <description>Physical inventory indicator for whse stock in current year</description>
+    </column>
+    <column name="KUILQ" data_type="VARCHAR">
+      <description>Phys. inventory ind. f. stock in qual. insp. in current year</description>
+    </column>
+    <column name="KUVLL" data_type="VARCHAR">
+      <description>Physical inventory indicator for stock in previous year</description>
+    </column>
+    <column name="KUVLQ" data_type="VARCHAR">
+      <description>Phys. inventory ind. f. stock in qual. insp. in prev. period</description>
+    </column>
+    <column name="KUFLL" data_type="VARCHAR">
+      <description>Physical inventory indicator for stock in following year</description>
+    </column>
+    <column name="KUFLQ" data_type="VARCHAR">
+      <description>Physical inventory indicator, quality insp.stck, follow.yr.</description>
+    </column>
+    <column name="KUDLL" data_type="DATE">
+      <description>Date of Last Posted Count</description>
+    </column>
+    <column name="KUEIN" data_type="DECIMAL">
+      <description>Total Stock of All Restricted Batches</description>
+    </column>
+    <column name="KUVEI" data_type="DECIMAL">
+      <description>Restricted-Use Stock in Previous Period</description>
+    </column>
+    <column name="ERSDA" data_type="DATE">
+      <description>Created On</description>
+    </column>
+    <column name="KUJIN" data_type="VARCHAR">
+      <description>Fiscal year of current physical inventory indicator</description>
+    </column>
+    <column name="KURUE" data_type="VARCHAR">
+      <description>MxxxH rec. already exists for per. before last of Mxxx per.</description>
+    </column>
+    <column name="KUUML" data_type="DECIMAL">
+      <description>Stock in Transfer for Customer Consignment (Plant to Plant)</description>
+    </column>
+    <column name="SGT_SCAT" data_type="VARCHAR">
+      <description>Stock Segment</description>
+    </column>
+    <column name="FSH_SEASON_YEAR" data_type="VARCHAR">
+      <description>Season Year</description>
+    </column>
+    <column name="FSH_SEASON" data_type="VARCHAR">
+      <description>Season</description>
+    </column>
+    <column name="FSH_COLLECTION" data_type="VARCHAR">
+      <description>Fashion Collection</description>
+    </column>
+    <column name="FSH_THEME" data_type="VARCHAR">
+      <description>Fashion Theme</description>
+    </column>
+    <column name="FSH_SALLOC_QTY" data_type="DECIMAL">
+      <description>Allocated Stock Quantity</description>
+    </column>
+  </columns>
+</data_description>

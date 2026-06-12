@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="PBED">
+  <table_info name="PBED" total_columns="29"/>
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="BDZEI" data_type="VARCHAR">
+      <description>Independent requirements pointer</description>
+    </column>
+    <column name="PDATU" data_type="DATE">
+      <description>Delivery/order finish date</description>
+    </column>
+    <column name="WDATU" data_type="DATE">
+      <description>Reqstd date</description>
+    </column>
+    <column name="AENAM" data_type="VARCHAR">
+      <description>Name of Person Who Changed Object</description>
+    </column>
+    <column name="LAEDA" data_type="DATE">
+      <description>Date of Last Change</description>
+    </column>
+    <column name="MEINS" data_type="VARCHAR">
+      <description>Base Unit of Measure</description>
+    </column>
+    <column name="PLNMG" data_type="DECIMAL">
+      <description>Planned quantity</description>
+    </column>
+    <column name="ENTMG" data_type="DECIMAL">
+      <description>Withdrawal quantity</description>
+    </column>
+    <column name="UPLMG" data_type="DECIMAL">
+      <description>Originally planned quantity</description>
+    </column>
+    <column name="ENTLI" data_type="VARCHAR">
+      <description>Date type (day, week, month, interval)</description>
+    </column>
+    <column name="ENTLU" data_type="VARCHAR">
+      <description>Period indicator (day, week, month, posting period)</description>
+    </column>
+    <column name="PERXX" data_type="VARCHAR">
+      <description>Planning period</description>
+    </column>
+    <column name="SERNR" data_type="VARCHAR">
+      <description>BOM explosion number</description>
+    </column>
+    <column name="VERID" data_type="VARCHAR">
+      <description>Production Version</description>
+    </column>
+    <column name="ERFME" data_type="VARCHAR">
+      <description>Unit of entry</description>
+    </column>
+    <column name="ERFMG" data_type="DECIMAL">
+      <description>Quantity in unit of entry</description>
+    </column>
+    <column name="UMREZ" data_type="DECIMAL">
+      <description>Numerator for Conversion to Base Units of Measure</description>
+    </column>
+    <column name="UMREN" data_type="DECIMAL">
+      <description>Denominator for conversion to base units of measure</description>
+    </column>
+    <column name="FIXMG" data_type="DECIMAL">
+      <description>Planned quantity</description>
+    </column>
+    <column name="TXTET" data_type="VARCHAR">
+      <description>Indicator: long text exists</description>
+    </column>
+    <column name="LOEVR" data_type="VARCHAR">
+      <description>Deletion indicator</description>
+    </column>
+    <column name="CUOBJ" data_type="VARCHAR">
+      <description>Configuration (internal object number)</description>
+    </column>
+    <column name="STPKT" data_type="VARCHAR">
+      <description>Supporting point for independent requirements</description>
+    </column>
+    <column name="TECHS" data_type="VARCHAR">
+      <description>Parameter Variant/Standard Variant</description>
+    </column>
+    <column name="FSH_SEASON_YEAR" data_type="VARCHAR">
+      <description>Season Year</description>
+    </column>
+    <column name="FSH_SEASON" data_type="VARCHAR">
+      <description>Season</description>
+    </column>
+    <column name="FSH_COLLECTION" data_type="VARCHAR">
+      <description>Fashion Collection</description>
+    </column>
+    <column name="FSH_THEME" data_type="VARCHAR">
+      <description>Fashion Theme</description>
+    </column>
+  </columns>
+</data_description>

@@ -1,0 +1,120 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="EINA">
+  <table_info name="EINA" total_columns="38" />
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="INFNR" data_type="VARCHAR">
+      <description>Number of purchasing info record</description>
+    </column>
+    <column name="MATNR" data_type="VARCHAR">
+      <description>Material Number</description>
+    </column>
+    <column name="MATKL" data_type="VARCHAR">
+      <description>Material Group</description>
+    </column>
+    <column name="LIFNR" data_type="VARCHAR">
+      <description>Supplier's Account Number</description>
+    </column>
+    <column name="LOEKZ" data_type="VARCHAR">
+      <description>Purchasing info: General data flagged for deletion</description>
+    </column>
+    <column name="ERDAT" data_type="DATE">
+      <description>Date on Which Record Was Created</description>
+    </column>
+    <column name="ERNAM" data_type="VARCHAR">
+      <description>Name of Person Responsible for Creating the Object</description>
+    </column>
+    <column name="TXZ01" data_type="VARCHAR">
+      <description>Short Text for Purchasing Info Record</description>
+    </column>
+    <column name="SORTL" data_type="VARCHAR">
+      <description>Sort Term for Non-Stock Info Records</description>
+    </column>
+    <column name="MEINS" data_type="VARCHAR">
+      <description>Purchase Order Unit of Measure</description>
+    </column>
+    <column name="UMREZ" data_type="DECIMAL">
+      <description>Numerator for Conversion of Order Unit to Base Unit</description>
+    </column>
+    <column name="UMREN" data_type="DECIMAL">
+      <description>Denominator for Conversion of Order Unit to Base Unit</description>
+    </column>
+    <column name="IDNLF" data_type="VARCHAR">
+      <description>Material Number Used by Vendor</description>
+    </column>
+    <column name="VERKF" data_type="VARCHAR">
+      <description>Salesperson Responsible in the Event of Queries</description>
+    </column>
+    <column name="TELF1" data_type="VARCHAR">
+      <description>Vendor's Telephone Number</description>
+    </column>
+    <column name="MAHN1" data_type="DECIMAL">
+      <description>Number of Days for First Reminder/Expediter</description>
+    </column>
+    <column name="MAHN2" data_type="DECIMAL">
+      <description>Number of Days for Second Reminder/Expediter</description>
+    </column>
+    <column name="MAHN3" data_type="DECIMAL">
+      <description>Number of Days for Third Reminder/Expediter</description>
+    </column>
+    <column name="URZNR" data_type="VARCHAR">
+      <description>Certificate Number</description>
+    </column>
+    <column name="URZDT" data_type="DATE">
+      <description>Certificate of Origin Valid Until</description>
+    </column>
+    <column name="URZLA" data_type="VARCHAR">
+      <description>Country of Issue of Certificate of Origin</description>
+    </column>
+    <column name="URZTP" data_type="VARCHAR">
+      <description>Certificate Category</description>
+    </column>
+    <column name="URZZT" data_type="VARCHAR">
+      <description>Number</description>
+    </column>
+    <column name="LMEIN" data_type="VARCHAR">
+      <description>Base Unit of Measure</description>
+    </column>
+    <column name="REGIO" data_type="VARCHAR">
+      <description>Region (State, Province, County)</description>
+    </column>
+    <column name="VABME" data_type="VARCHAR">
+      <description>Variable Purchase Order Unit Active</description>
+    </column>
+    <column name="LTSNR" data_type="VARCHAR">
+      <description>Vendor Subrange</description>
+    </column>
+    <column name="LTSSF" data_type="VARCHAR">
+      <description>Sort Sequence Number</description>
+    </column>
+    <column name="WGLIF" data_type="VARCHAR">
+      <description>Vendor Material Group</description>
+    </column>
+    <column name="RUECK" data_type="VARCHAR">
+      <description>Return Agreement</description>
+    </column>
+    <column name="LIFAB" data_type="DATE">
+      <description>Available (Deliverable) From</description>
+    </column>
+    <column name="LIFBI" data_type="DATE">
+      <description>Available (Deliverable) Until</description>
+    </column>
+    <column name="KOLIF" data_type="VARCHAR">
+      <description>Prior Vendor</description>
+    </column>
+    <column name="ANZPU" data_type="DECIMAL">
+      <description>Number of Points</description>
+    </column>
+    <column name="PUNEI" data_type="VARCHAR">
+      <description>Points unit</description>
+    </column>
+    <column name="RELIF" data_type="VARCHAR">
+      <description>Regular Vendor</description>
+    </column>
+    <column name="MFRNR" data_type="VARCHAR">
+      <description>Manufacturer</description>
+    </column>
+  </columns>
+</data_description>

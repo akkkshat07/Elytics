@@ -1,0 +1,291 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="COEP">
+  <table_info name="COEP" total_columns="95"/>
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="KOKRS" data_type="VARCHAR">
+      <description>Controlling Area</description>
+    </column>
+    <column name="BELNR" data_type="VARCHAR">
+      <description>Document Number</description>
+    </column>
+    <column name="BUZEI" data_type="VARCHAR">
+      <description>Posting row</description>
+    </column>
+    <column name="PERIO" data_type="VARCHAR">
+      <description>Period</description>
+    </column>
+    <column name="WTGBTR" data_type="DECIMAL">
+      <description>Total Value in Transaction Currency</description>
+    </column>
+    <column name="WOGBTR" data_type="DECIMAL">
+      <description>Total Value in Object Currency</description>
+    </column>
+    <column name="WKGBTR" data_type="DECIMAL">
+      <description>Total Value in Controlling Area Currency</description>
+    </column>
+    <column name="WKFBTR" data_type="DECIMAL">
+      <description>Fixed Value in Controlling Area Currency</description>
+    </column>
+    <column name="PAGBTR" data_type="DECIMAL">
+      <description>Total Price Variance in CO Area Currency</description>
+    </column>
+    <column name="PAFBTR" data_type="DECIMAL">
+      <description>Fixed Price Variance in CO Area Currency</description>
+    </column>
+    <column name="MEGBTR" data_type="DECIMAL">
+      <description>Total Quantity</description>
+    </column>
+    <column name="MEFBTR" data_type="DECIMAL">
+      <description>Fixed Quantity</description>
+    </column>
+    <column name="MBGBTR" data_type="DECIMAL">
+      <description>Total quantity entered</description>
+    </column>
+    <column name="MBFBTR" data_type="DECIMAL">
+      <description>Fixed quantity entered</description>
+    </column>
+    <column name="LEDNR" data_type="VARCHAR">
+      <description>Ledger for Controlling objects</description>
+    </column>
+    <column name="OBJNR" data_type="VARCHAR">
+      <description>Object number</description>
+    </column>
+    <column name="GJAHR" data_type="VARCHAR">
+      <description>Fiscal Year</description>
+    </column>
+    <column name="WRTTP" data_type="VARCHAR">
+      <description>Value Type</description>
+    </column>
+    <column name="VERSN" data_type="VARCHAR">
+      <description>Version</description>
+    </column>
+    <column name="KSTAR" data_type="VARCHAR">
+      <description>Cost Element</description>
+    </column>
+    <column name="HRKFT" data_type="VARCHAR">
+      <description>CO key subnumber</description>
+    </column>
+    <column name="VRGNG" data_type="VARCHAR">
+      <description>CO Business Transaction</description>
+    </column>
+    <column name="PAROB" data_type="VARCHAR">
+      <description>Partner Object</description>
+    </column>
+    <column name="PAROB1" data_type="VARCHAR">
+      <description>Partner object (always filled)</description>
+    </column>
+    <column name="USPOB" data_type="VARCHAR">
+      <description>Source Object (Cost Center/Activity Type)</description>
+    </column>
+    <column name="VBUND" data_type="VARCHAR">
+      <description>Company ID of Trading Partner</description>
+    </column>
+    <column name="PARGB" data_type="VARCHAR">
+      <description>Trading partner's business area</description>
+    </column>
+    <column name="BEKNZ" data_type="VARCHAR">
+      <description>Debit/credit indicator</description>
+    </column>
+    <column name="TWAER" data_type="VARCHAR">
+      <description>Transaction Currency</description>
+    </column>
+    <column name="OWAER" data_type="VARCHAR">
+      <description>Currency Key</description>
+    </column>
+    <column name="MEINH" data_type="VARCHAR">
+      <description>Unit of Measure</description>
+    </column>
+    <column name="MEINB" data_type="VARCHAR">
+      <description>Posted Unit of Measure</description>
+    </column>
+    <column name="MVFLG" data_type="VARCHAR">
+      <description>Quantity Complete/Incomplete</description>
+    </column>
+    <column name="SGTXT" data_type="VARCHAR">
+      <description>Segment text</description>
+    </column>
+    <column name="REFBZ" data_type="VARCHAR">
+      <description>Posting row of reference document</description>
+    </column>
+    <column name="ZLENR" data_type="VARCHAR">
+      <description>Document Item Number</description>
+    </column>
+    <column name="BW_REFBZ" data_type="VARCHAR">
+      <description>Posting Row in Operative Version</description>
+    </column>
+    <column name="GKONT" data_type="VARCHAR">
+      <description>Offsetting Account Number</description>
+    </column>
+    <column name="GKOAR" data_type="VARCHAR">
+      <description>Offsetting Account Type</description>
+    </column>
+    <column name="WERKS" data_type="VARCHAR">
+      <description>Plant</description>
+    </column>
+    <column name="MATNR" data_type="VARCHAR">
+      <description>Material Number</description>
+    </column>
+    <column name="RBEST" data_type="VARCHAR">
+      <description>Category of Reference Purchase Order</description>
+    </column>
+    <column name="EBELN" data_type="VARCHAR">
+      <description>Purchasing Document Number</description>
+    </column>
+    <column name="EBELP" data_type="VARCHAR">
+      <description>Item Number of Purchasing Document</description>
+    </column>
+    <column name="ZEKKN" data_type="VARCHAR">
+      <description>Sequential Number of Account Assignment</description>
+    </column>
+    <column name="ERLKZ" data_type="VARCHAR">
+      <description>Completion Indicator for Line Item</description>
+    </column>
+    <column name="PERNR" data_type="VARCHAR">
+      <description>Personnel Number</description>
+    </column>
+    <column name="BTRKL" data_type="VARCHAR">
+      <description>Amount Class for Value in Controlling Area Currency</description>
+    </column>
+    <column name="OBJNR_N1" data_type="VARCHAR">
+      <description>Auxiliary account assignment 1</description>
+    </column>
+    <column name="OBJNR_N2" data_type="VARCHAR">
+      <description>Auxiliary account assignment 2</description>
+    </column>
+    <column name="OBJNR_N3" data_type="VARCHAR">
+      <description>Auxiliary account assignment 3</description>
+    </column>
+    <column name="PAOBJNR" data_type="VARCHAR">
+      <description>Profitability Segment Number (CO-PA)</description>
+    </column>
+    <column name="BELTP" data_type="VARCHAR">
+      <description>Debit type</description>
+    </column>
+    <column name="BUKRS" data_type="VARCHAR">
+      <description>Company Code</description>
+    </column>
+    <column name="GSBER" data_type="VARCHAR">
+      <description>Business Area</description>
+    </column>
+    <column name="FKBER" data_type="VARCHAR">
+      <description>Functional Area</description>
+    </column>
+    <column name="SCOPE" data_type="VARCHAR">
+      <description>Object Class</description>
+    </column>
+    <column name="LOGSYSO" data_type="VARCHAR">
+      <description>Logical system of object</description>
+    </column>
+    <column name="PKSTAR" data_type="VARCHAR">
+      <description>Cost element of partner</description>
+    </column>
+    <column name="PBUKRS" data_type="VARCHAR">
+      <description>Company code of partner</description>
+    </column>
+    <column name="PFKBER" data_type="VARCHAR">
+      <description>Partner Functional Area</description>
+    </column>
+    <column name="PSCOPE" data_type="VARCHAR">
+      <description>Partner object class</description>
+    </column>
+    <column name="LOGSYSP" data_type="VARCHAR">
+      <description>Logical system of partner object</description>
+    </column>
+    <column name="DABRZ" data_type="DATE">
+      <description>Reference date for settlement</description>
+    </column>
+    <column name="BWSTRAT" data_type="VARCHAR">
+      <description>Strategy for Determining an Allocation Price</description>
+    </column>
+    <column name="OBJNR_HK" data_type="VARCHAR">
+      <description>Object Number of Origin Object</description>
+    </column>
+    <column name="TIMESTMP" data_type="DECIMAL">
+      <description>Time created (Greenwich Meantime)</description>
+    </column>
+    <column name="QMNUM" data_type="VARCHAR">
+      <description>Notification No</description>
+    </column>
+    <column name="GEBER" data_type="VARCHAR">
+      <description>Fund</description>
+    </column>
+    <column name="PGEBER" data_type="VARCHAR">
+      <description>Partner Fund</description>
+    </column>
+    <column name="GRANT_NBR" data_type="VARCHAR">
+      <description>Grant</description>
+    </column>
+    <column name="PGRANT_NBR" data_type="VARCHAR">
+      <description>Partner Grant</description>
+    </column>
+    <column name="REFBZ_FI" data_type="VARCHAR">
+      <description>Posting Item of FI Reference Document</description>
+    </column>
+    <column name="SEGMENT" data_type="VARCHAR">
+      <description>Segment for Segmental Reporting</description>
+    </column>
+    <column name="PSEGMENT" data_type="VARCHAR">
+      <description>Partner Segment for Segmental Reporting</description>
+    </column>
+    <column name="BUDGET_PD" data_type="VARCHAR">
+      <description>FM: Budget Period</description>
+    </column>
+    <column name="PBUDGET_PD" data_type="VARCHAR">
+      <description>FM: Partner Budget Period</description>
+    </column>
+    <column name="PRODPER" data_type="VARCHAR">
+      <description>Production Month for JVA in CO</description>
+    </column>
+    <column name="ZZSPREG" data_type="VARCHAR">
+      <description>Special Region</description>
+    </column>
+    <column name="ZZBUSPARTN" data_type="VARCHAR">
+      <description>Business partner</description>
+    </column>
+    <column name="ZZPRODUCT" data_type="VARCHAR">
+      <description>Product group</description>
+    </column>
+    <column name="ZZLOCA" data_type="VARCHAR">
+      <description>City</description>
+    </column>
+    <column name="ZZCHAN" data_type="VARCHAR">
+      <description>Distribution channel</description>
+    </column>
+    <column name="ZZLOB" data_type="VARCHAR">
+      <description>BUSINESS LINE</description>
+    </column>
+    <column name="ZZNFAL" data_type="VARCHAR">
+      <description/>
+    </column>
+    <column name="ZZUSERFLD1" data_type="VARCHAR">
+      <description>Territory</description>
+    </column>
+    <column name="ZZUSERFLD2" data_type="VARCHAR">
+      <description>Owner/Cont.</description>
+    </column>
+    <column name="ZZUSERFLD3" data_type="VARCHAR">
+      <description>Vein</description>
+    </column>
+    <column name="ZZREGION" data_type="VARCHAR">
+      <description>Location</description>
+    </column>
+    <column name="ZZSTATE" data_type="VARCHAR">
+      <description>State/Province Code</description>
+    </column>
+    <column name="Z_PRS_OFFSHORE" data_type="VARCHAR">
+      <description>Professional Services: Delivery Type</description>
+    </column>
+    <column name="Z_PRS_BILL_FLAG" data_type="VARCHAR">
+      <description>Professional Services: Billable/Non-Billable</description>
+    </column>
+    <column name="Z_PRS_COUNTRY" data_type="VARCHAR">
+      <description>Country Key</description>
+    </column>
+    <column name="Z_PRS_CHARGELEVL" data_type="VARCHAR">
+      <description>Professional Services: Charge Level</description>
+    </column>
+  </columns>
+</data_description>

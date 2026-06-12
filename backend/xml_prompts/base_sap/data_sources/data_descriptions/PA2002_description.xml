@@ -1,0 +1,213 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="PA2002">
+  <table_info name="PA2002" total_columns="69"/>
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="PERNR" data_type="VARCHAR">
+      <description>Personnel Number</description>
+    </column>
+    <column name="SUBTY" data_type="VARCHAR">
+      <description>Subtype</description>
+    </column>
+    <column name="OBJPS" data_type="VARCHAR">
+      <description>Object Identification</description>
+    </column>
+    <column name="SPRPS" data_type="VARCHAR">
+      <description>Lock Indicator for HR Master Data Record</description>
+    </column>
+    <column name="ENDDA" data_type="DATE">
+      <description>End Date</description>
+    </column>
+    <column name="BEGDA" data_type="DATE">
+      <description>Start Date</description>
+    </column>
+    <column name="SEQNR" data_type="VARCHAR">
+      <description>Number of Infotype Record With Same Key</description>
+    </column>
+    <column name="AEDTM" data_type="DATE">
+      <description>Last Changed On</description>
+    </column>
+    <column name="UNAME" data_type="VARCHAR">
+      <description>Name of Person Who Changed Object</description>
+    </column>
+    <column name="HISTO" data_type="VARCHAR">
+      <description>Historical Record Flag</description>
+    </column>
+    <column name="ITXEX" data_type="VARCHAR">
+      <description>Text Exists for Infotype</description>
+    </column>
+    <column name="REFEX" data_type="VARCHAR">
+      <description>Reference Fields Exist (Primary/Secondary Costs)</description>
+    </column>
+    <column name="ORDEX" data_type="VARCHAR">
+      <description>Confirmation Fields Exist</description>
+    </column>
+    <column name="ITBLD" data_type="VARCHAR">
+      <description>Infotype Screen Control</description>
+    </column>
+    <column name="PREAS" data_type="VARCHAR">
+      <description>Reason for Changing Master Data</description>
+    </column>
+    <column name="FLAG1" data_type="VARCHAR">
+      <description>Reserved Field/Unused Field</description>
+    </column>
+    <column name="FLAG2" data_type="VARCHAR">
+      <description>Reserved Field/Unused Field</description>
+    </column>
+    <column name="FLAG3" data_type="VARCHAR">
+      <description>Reserved Field/Unused Field</description>
+    </column>
+    <column name="FLAG4" data_type="VARCHAR">
+      <description>Reserved Field/Unused Field</description>
+    </column>
+    <column name="RESE1" data_type="VARCHAR">
+      <description>Reserved Field/Unused Field of Length 2</description>
+    </column>
+    <column name="RESE2" data_type="VARCHAR">
+      <description>Reserved Field/Unused Field of Length 2</description>
+    </column>
+    <column name="GRPVL" data_type="VARCHAR">
+      <description>Grouping Value for Personnel Assignments</description>
+    </column>
+    <column name="BEGUZ" data_type="TIME">
+      <description>Start Time</description>
+    </column>
+    <column name="ENDUZ" data_type="TIME">
+      <description>End Time</description>
+    </column>
+    <column name="VTKEN" data_type="VARCHAR">
+      <description>Previous Day Indicator</description>
+    </column>
+    <column name="AWART" data_type="VARCHAR">
+      <description>Attendance or Absence Type</description>
+    </column>
+    <column name="ABWTG" data_type="DECIMAL">
+      <description>Attendance and Absence Days</description>
+    </column>
+    <column name="ABRTG" data_type="DECIMAL">
+      <description>Payroll days</description>
+    </column>
+    <column name="ABRST" data_type="DECIMAL">
+      <description>Payroll hours</description>
+    </column>
+    <column name="KALTG" data_type="DECIMAL">
+      <description>Calendar days</description>
+    </column>
+    <column name="STDAZ" data_type="DECIMAL">
+      <description>Attendance hours</description>
+    </column>
+    <column name="LGART" data_type="VARCHAR">
+      <description>Wage Type</description>
+    </column>
+    <column name="BWGRL" data_type="DECIMAL">
+      <description>Valuation Basis for Different Payment</description>
+    </column>
+    <column name="AUFKZ" data_type="VARCHAR">
+      <description>Extra Pay Indicator</description>
+    </column>
+    <column name="VERSL" data_type="VARCHAR">
+      <description>Overtime Compensation Type</description>
+    </column>
+    <column name="TRFGR" data_type="VARCHAR">
+      <description>Pay Scale Group</description>
+    </column>
+    <column name="TRFST" data_type="VARCHAR">
+      <description>Pay Scale Level</description>
+    </column>
+    <column name="PRAKN" data_type="VARCHAR">
+      <description>Premium Number</description>
+    </column>
+    <column name="PRAKZ" data_type="VARCHAR">
+      <description>Premium Indicator</description>
+    </column>
+    <column name="OTYPE" data_type="VARCHAR">
+      <description>Object Type</description>
+    </column>
+    <column name="PLANS" data_type="VARCHAR">
+      <description>Position</description>
+    </column>
+    <column name="GENER" data_type="VARCHAR">
+      <description>Generation flag</description>
+    </column>
+    <column name="EXBEL" data_type="VARCHAR">
+      <description>External Document Number</description>
+    </column>
+    <column name="HRSIF" data_type="VARCHAR">
+      <description>Set number of hours</description>
+    </column>
+    <column name="ALLDF" data_type="VARCHAR">
+      <description>Record is for Full Day</description>
+    </column>
+    <column name="WAERS" data_type="VARCHAR">
+      <description>Currency Key</description>
+    </column>
+    <column name="LOGSYS" data_type="VARCHAR">
+      <description>Logical System</description>
+    </column>
+    <column name="AWTYP" data_type="VARCHAR">
+      <description>Reference procedure</description>
+    </column>
+    <column name="AWREF" data_type="VARCHAR">
+      <description>Reference Doc. Number</description>
+    </column>
+    <column name="AWORG" data_type="VARCHAR">
+      <description>Reference organisational units</description>
+    </column>
+    <column name="DOCSY" data_type="VARCHAR">
+      <description>Logical system for document (personnel time)</description>
+    </column>
+    <column name="DOCNR" data_type="VARCHAR">
+      <description>Document number for time data</description>
+    </column>
+    <column name="WTART" data_type="VARCHAR">
+      <description>Work tax area</description>
+    </column>
+    <column name="FAPRS" data_type="VARCHAR">
+      <description>Evaluation Type for Attendances/Absences</description>
+    </column>
+    <column name="TDLANGU" data_type="VARCHAR">
+      <description>Definition Set for IDs</description>
+    </column>
+    <column name="TDSUBLA" data_type="VARCHAR">
+      <description>Definition Subset for IDs</description>
+    </column>
+    <column name="TDTYPE" data_type="VARCHAR">
+      <description>Time Data ID Type</description>
+    </column>
+    <column name="KEPAU" data_type="VARCHAR">
+      <description>No break</description>
+    </column>
+    <column name="EXPAU" data_type="VARCHAR">
+      <description>Breaks Specified Explicitly</description>
+    </column>
+    <column name="PBEG1" data_type="TIME">
+      <description>Start of Break</description>
+    </column>
+    <column name="PEND1" data_type="TIME">
+      <description>End of Break</description>
+    </column>
+    <column name="PBEZ1" data_type="DECIMAL">
+      <description>Paid Break Period</description>
+    </column>
+    <column name="PUNB1" data_type="DECIMAL">
+      <description>Unpaid Break Period</description>
+    </column>
+    <column name="PBEG2" data_type="TIME">
+      <description>Start of Break</description>
+    </column>
+    <column name="PEND2" data_type="TIME">
+      <description>End of Break</description>
+    </column>
+    <column name="PBEZ2" data_type="DECIMAL">
+      <description>Paid Break Period</description>
+    </column>
+    <column name="PUNB2" data_type="DECIMAL">
+      <description>Unpaid Break Period</description>
+    </column>
+    <column name="NXDFL" data_type="VARCHAR">
+      <description>Next Day Indicator</description>
+    </column>
+  </columns>
+</data_description>

@@ -1,0 +1,169 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="NE_SNSReportData">
+  <table_info name="NE_SNSReportData" total_columns="53" row_count="267747393" total_size_mb="53848.1" index_count="3" is_heap="true" />
+  <performance_hints>
+    <metric name="row_count">267747393</metric>
+    <metric name="total_size_mb">53848.1</metric>
+  </performance_hints>
+  <columns>
+    <column name="ClientDivision" data_type="varchar" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Client segmentation or division tags for the customer outlet (e.g., "Parlour,Both,Hair"), often used for channel/segment analysis. Values may be null/blank, so treat it as an optional attribute rather than a reliable key.</description>
+    </column>
+    <column name="Client_Id" data_type="bigint" is_primary_key="false" is_clustered="false" is_indexed="true" is_unique_key="false">
+      <description>Unique numeric identifier for the client/outlet, used to join to client masters and to filter the large heap table efficiently (indexed). Analysts should treat this as the primary client key; it is more stable than names.</description>
+    </column>
+    <column name="Client_Name" data_type="varchar" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Human-readable name of the client/outlet (e.g., store or parlour name). Use for reporting/display only; it may have casing/spacing variations and is not guaranteed unique.</description>
+    </column>
+    <column name="Client_Type" data_type="varchar" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Business classification of the client such as Retailer, Wholesale, Distributor, or Parlor. Useful for channel performance and inventory movement comparisons across customer types.</description>
+    </column>
+    <column name="ClosingImpactC1" data_type="bigint" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Closing stock adjustment/impact quantity in the C1 unit of measure (often the base/count unit), typically from audits or corrections. Usually 0; non-zero indicates post-calculation adjustments affecting closing quantity.</description>
+    </column>
+    <column name="ClosingImpactValueC1" data_type="bigint" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Monetary value corresponding to the ClosingImpactC1 adjustment. Use to quantify the financial impact of closing adjustments in the same valuation basis as other *ValueC1 fields.</description>
+    </column>
+    <column name="Function" data_type="varchar" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Additional client or product function/usage descriptor provided by source systems; often blank or "null". Treat as free-text/optional metadata and avoid using as a primary grouping without cleansing.</description>
+    </column>
+    <column name="MRP" data_type="float" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Maximum Retail Price for the SKU/variant as a numeric amount (e.g., 125.0, 310.0). This is a price reference for the item and may differ from the valuation used in the Value fields.</description>
+    </column>
+    <column name="OpeningImpactC1" data_type="bigint" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Opening stock adjustment/impact quantity in C1, representing corrections applied to the opening balance. Typically 0; non-zero suggests prior-period reconciliation or audit-driven adjustment.</description>
+    </column>
+    <column name="OpeningImpactValueC1" data_type="bigint" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Monetary value corresponding to the OpeningImpactC1 adjustment. Use to measure the financial effect of opening balance corrections.</description>
+    </column>
+    <column name="PName" data_type="varchar" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Concatenated or display product name often in the format "Product / Product" as received from the source. Useful for UI display but redundant with Product_Name and not ideal for deduplication.</description>
+    </column>
+    <column name="ProDivision" data_type="varchar" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Product/business division or line (e.g., Retail, Parlour, Both) indicating where the SKU is positioned organizationally. Use for high-level product portfolio reporting and division splits.</description>
+    </column>
+    <column name="ProductDescription" data_type="varchar" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Free-text description and/or extended attributes for the product, sometimes containing semi-structured key/value fragments. Content quality varies widely; use cautiously and consider parsing/standardization for analytics.</description>
+    </column>
+    <column name="Product_Category" data_type="varchar" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Category or sub-category label for the product (e.g., Aloe Soap, Gold Bleach 85g). Use for assortment/category performance; may be more granular than ProDivision.</description>
+    </column>
+    <column name="Product_Id" data_type="bigint" is_primary_key="false" is_clustered="false" is_indexed="true" is_unique_key="false">
+      <description>Unique numeric identifier for the product (indexed), used for joins to product masters and efficient filtering. Interpret as the product-level key (may aggregate multiple variants).</description>
+    </column>
+    <column name="Product_Name" data_type="varchar" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Primary product name as maintained in the product catalog (e.g., "Lacto Bleach 50g"). Use for reporting labels; not guaranteed unique across pack sizes/variants without Variant_Id or VSKU_Code.</description>
+    </column>
+    <column name="TotalAuditImpact" data_type="bigint" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Net quantity impact from audit/reconciliation activities over the period (non-C1 unit). Typically 0; non-zero indicates audit-driven stock corrections.</description>
+    </column>
+    <column name="TotalAuditImpactValue" data_type="bigint" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Value associated with TotalAuditImpact, representing the financial impact of audit adjustments. Use alongside TotalAuditImpact to assess shrinkage/overage valuation.</description>
+    </column>
+    <column name="TotalClosing" data_type="bigint" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Closing stock quantity at end of the period for the client and SKU/variant; can be negative when data corrections or timing issues exist. Use as the ending inventory position and investigate negatives as exceptions.</description>
+    </column>
+    <column name="TotalClosingC1" data_type="bigint" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Closing stock quantity expressed in the C1/base unit of measure. Often matches TotalClosing in samples, but treat as the standardized quantity field for cross-item comparisons.</description>
+    </column>
+    <column name="TotalClosingImpact" data_type="bigint" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Total quantity impact applied to derive closing stock (non-C1), aggregating adjustment components beyond normal movements. Generally 0; non-zero indicates closing-balance corrections.</description>
+    </column>
+    <column name="TotalClosingImpactValue" data_type="bigint" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Value of TotalClosingImpact adjustments. Use to quantify the financial effect of closing corrections separately from normal stock movement valuation.</description>
+    </column>
+    <column name="TotalClosingValue" data_type="bigint" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Valuation of the closing stock quantity (currency amount), based on the system’s valuation logic (not necessarily MRP). Use for inventory value reporting at period end; may be negative if TotalClosing is negative.</description>
+    </column>
+    <column name="TotalClosingValueC1" data_type="bigint" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Valuation of the closing stock in the C1/base unit context. Typically aligns with TotalClosingValue; use as the standardized closing value where C1 is the reporting basis.</description>
+    </column>
+    <column name="TotalDeletedSaleQty" data_type="bigint" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Quantity of sales transactions that were deleted/voided during the period. Use to identify corrections to sales activity; typically 0 in normal operations.</description>
+    </column>
+    <column name="TotalDeletedSaleValue" data_type="bigint" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Value associated with deleted/voided sales quantities. Useful for audit trails and to reconcile net sales vs. gross activity.</description>
+    </column>
+    <column name="TotalInterGodownTransfer" data_type="bigint" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Quantity moved via inter-godown (warehouse-to-warehouse) transfers for the client/SKU over the period. Typically 0 at retail outlets; non-zero indicates inventory rebalancing across locations.</description>
+    </column>
+    <column name="TotalInterGodownTransferValue" data_type="bigint" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Valuation of inter-godown transfer quantities. Use for stock movement valuation reconciliation rather than revenue analysis.</description>
+    </column>
+    <column name="TotalOpening" data_type="bigint" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Opening stock quantity at start of the period for the client and SKU/variant; can be negative in exceptional cases. Use as the starting inventory position for movement reconciliation.</description>
+    </column>
+    <column name="TotalOpeningC1" data_type="bigint" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Opening stock quantity expressed in C1/base unit of measure. Use as the standardized opening quantity for comparisons and reconciliation across items.</description>
+    </column>
+    <column name="TotalOpeningImpact" data_type="bigint" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Total quantity impact applied to opening stock (non-C1), reflecting adjustments/corrections to the opening balance. Usually 0; non-zero indicates prior-period reconciliation effects.</description>
+    </column>
+    <column name="TotalOpeningImpactValue" data_type="bigint" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Value of TotalOpeningImpact adjustments. Use to quantify financial corrections applied to opening inventory.</description>
+    </column>
+    <column name="TotalOpeningValue" data_type="bigint" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Valuation of opening stock quantity (currency amount) using the system’s valuation basis. Use to report beginning inventory value and to support inventory roll-forward analyses.</description>
+    </column>
+    <column name="TotalOpeningValueC1" data_type="bigint" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Valuation of opening stock in the C1/base unit context. Use as the standardized opening value when C1 is the reporting basis.</description>
+    </column>
+    <column name="TotalPurchaseReturn" data_type="bigint" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Quantity of goods returned back to supplier/stock source during the period. Use to analyze reverse flows and procurement quality; typically 0 for many outlet-level records.</description>
+    </column>
+    <column name="TotalPurchaseReturnValue" data_type="bigint" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Valuation of purchase return quantities. Use to reconcile inventory value decreases due to supplier returns.</description>
+    </column>
+    <column name="TotalRecieved" data_type="bigint" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Total quantity received into stock during the period (inbound receipts). Interpret as replenishment/inward movement; spelling suggests it is sourced as-is from upstream systems.</description>
+    </column>
+    <column name="TotalRecievedValue" data_type="bigint" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Valuation of received quantities. Use for inward stock value tracking and reconciliation with procurement/invoice data where applicable.</description>
+    </column>
+    <column name="TotalReturnRecieved" data_type="bigint" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Quantity received as returns (e.g., customer returns or reverse receipts) during the period. Use to separate normal receipts from return-driven inflows.</description>
+    </column>
+    <column name="TotalReturnRecievedValue" data_type="bigint" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Valuation associated with return receipts. Useful for quantifying the value impact of returns entering inventory.</description>
+    </column>
+    <column name="TotalSaleQty" data_type="bigint" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Total sold quantity for the client and SKU/variant during the period. Use as the primary outbound demand measure; typically non-negative and may be 0 when no sales occurred.</description>
+    </column>
+    <column name="TotalSaleValue" data_type="bigint" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Value associated with TotalSaleQty, representing sales amount per the source valuation logic. Use for sales performance, noting it may not equal MRP * quantity due to discounts/taxes/valuation rules.</description>
+    </column>
+    <column name="TotalStockIn" data_type="bigint" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Total inbound stock movement quantity (broad stock-in bucket) during the period, potentially including receipts and other inbound adjustments. Use for operational movement analysis and compare with TotalRecieved to understand composition.</description>
+    </column>
+    <column name="TotalStockInValue" data_type="bigint" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Valuation of TotalStockIn movements. Use to reconcile inventory value increases due to inbound movements.</description>
+    </column>
+    <column name="TotalStockOut" data_type="bigint" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Total outbound stock movement quantity (broad stock-out bucket) during the period, potentially including sales and other outbound adjustments. Use with TotalSaleQty to distinguish demand from other outflows.</description>
+    </column>
+    <column name="TotalStockOutIn" data_type="bigint" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Quantity of stock moved out and then in (or an out-in transfer bucket) as captured by the source system. Typically 0; non-zero may indicate internal transfers/returns workflows and should be interpreted with business rules from the source.</description>
+    </column>
+    <column name="TotalStockOutInValue" data_type="bigint" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Valuation corresponding to TotalStockOutIn movements. Use for reconciliation of internal movement value that is not pure sale/receipt.</description>
+    </column>
+    <column name="TotalStockOutValue" data_type="bigint" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Valuation of TotalStockOut movements. Useful for inventory value roll-forward and to quantify value leaving stock via various outflow types.</description>
+    </column>
+    <column name="TotalTarnsitQty" data_type="bigint" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Quantity currently in transit or moved through transit during the period (spelled "Tarnsit" in source). Use to analyze pipeline inventory; typically 0 at outlet level unless transfers are tracked.</description>
+    </column>
+    <column name="TotalTarnsitValue" data_type="bigint" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Valuation associated with in-transit quantities. Use to quantify the value tied up in transit/pipeline stock.</description>
+    </column>
+    <column name="VSKU_Code" data_type="varchar" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Variant/SKU code used operationally (e.g., numeric codes or alphanumeric like "NR10617/01"), often the most recognizable SKU identifier for business users. Use for SKU-level reporting and as a join key to variant catalogs when Product_Id is too coarse.</description>
+    </column>
+    <column name="Variant_Id" data_type="bigint" is_primary_key="false" is_clustered="false" is_indexed="true" is_unique_key="false">
+      <description>Unique numeric identifier for the product variant/SKU (indexed), representing the most granular item level in this table. Use as the primary key for variant-level joins and always prefer it over names for grouping/deduplication.</description>
+    </column>
+    <column name="Zone" data_type="varchar" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Geographical or sales zone assignment for the client/outlet (e.g., West, North, East-1). Use for regional rollups and territory performance comparisons; values reflect commercial zoning rather than administrative states.</description>
+    </column>
+  </columns>
+</data_description>

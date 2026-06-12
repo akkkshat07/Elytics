@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="MPOP">
+  <table_info name="MPOP" total_columns="25" />
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="MATNR" data_type="VARCHAR">
+      <description>Material Number</description>
+    </column>
+    <column name="WERKS" data_type="VARCHAR">
+      <description>Plant</description>
+    </column>
+    <column name="PERKZ" data_type="VARCHAR">
+      <description>Period indicator</description>
+    </column>
+    <column name="PERIV" data_type="VARCHAR">
+      <description>Fiscal year variant</description>
+    </column>
+    <column name="GJAHR" data_type="VARCHAR">
+      <description>Fiscal Year</description>
+    </column>
+    <column name="PERIO" data_type="VARCHAR">
+      <description>Posting Period</description>
+    </column>
+    <column name="BEDAE" data_type="VARCHAR">
+      <description>Forecast model</description>
+    </column>
+    <column name="BEDSP" data_type="VARCHAR">
+      <description>Forecast period indicator</description>
+    </column>
+    <column name="BEDGR" data_type="VARCHAR">
+      <description>Forecast group</description>
+    </column>
+    <column name="BEDKZ" data_type="VARCHAR">
+      <description>Forecast indicator</description>
+    </column>
+    <column name="BEDAR" data_type="DECIMAL">
+      <description>Forecast demand</description>
+    </column>
+    <column name="BEDAR_W" data_type="DECIMAL">
+      <description>Forecast demand in alternative unit</description>
+    </column>
+    <column name="BEDAR_V" data_type="DECIMAL">
+      <description>Forecast demand value</description>
+    </column>
+    <column name="BEDAR_P" data_type="DECIMAL">
+      <description>Forecast demand percentage</description>
+    </column>
+    <column name="BEDAR_S" data_type="DECIMAL">
+      <description>Forecast demand standard deviation</description>
+    </column>
+    <column name="BEDAR_M" data_type="DECIMAL">
+      <description>Forecast demand mean</description>
+    </column>
+    <column name="BEDAR_T" data_type="DECIMAL">
+      <description>Forecast demand trend</description>
+    </column>
+    <column name="BEDAR_SE" data_type="DECIMAL">
+      <description>Forecast demand seasonal factor</description>
+    </column>
+    <column name="BEDAR_SA" data_type="DECIMAL">
+      <description>Forecast demand seasonal adjustment</description>
+    </column>
+    <column name="BEDAR_C" data_type="DECIMAL">
+      <description>Forecast demand cycle</description>
+    </column>
+    <column name="BEDAR_R" data_type="DECIMAL">
+      <description>Forecast demand residual</description>
+    </column>
+    <column name="BEDAR_E" data_type="DECIMAL">
+      <description>Forecast demand error</description>
+    </column>
+    <column name="ERDAT" data_type="DATE">
+      <description>Date on Which Record Was Created</description>
+    </column>
+    <column name="ERNAM" data_type="VARCHAR">
+      <description>Name of Person Responsible for Creating the Object</description>
+    </column>
+  </columns>
+</data_description>

@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="T500P">
+  <table_info name="T500P" total_columns="15" />
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="PERSA" data_type="VARCHAR">
+      <description>Personnel Area</description>
+    </column>
+    <column name="MOLGA" data_type="VARCHAR">
+      <description>Country Grouping</description>
+    </column>
+    <column name="BUKRS" data_type="VARCHAR">
+      <description>Company Code</description>
+    </column>
+    <column name="NAME1" data_type="VARCHAR">
+      <description>Personnel Area Text</description>
+    </column>
+    <column name="NAME2" data_type="VARCHAR">
+      <description>Name 2</description>
+    </column>
+    <column name="STRAS" data_type="VARCHAR">
+      <description>Street and House Number</description>
+    </column>
+    <column name="PFACH" data_type="VARCHAR">
+      <description>PO Box</description>
+    </column>
+    <column name="PSTLZ" data_type="VARCHAR">
+      <description>Postal Code</description>
+    </column>
+    <column name="ORT01" data_type="VARCHAR">
+      <description>City</description>
+    </column>
+    <column name="LAND1" data_type="VARCHAR">
+      <description>Country Key</description>
+    </column>
+    <column name="REGIO" data_type="VARCHAR">
+      <description>Region (State, Province, County)</description>
+    </column>
+    <column name="COUNC" data_type="VARCHAR">
+      <description>County Code</description>
+    </column>
+    <column name="CITYC" data_type="VARCHAR">
+      <description>City Code</description>
+    </column>
+    <column name="ADRNR" data_type="VARCHAR">
+      <description>Address</description>
+    </column>
+  </columns>
+</data_description>

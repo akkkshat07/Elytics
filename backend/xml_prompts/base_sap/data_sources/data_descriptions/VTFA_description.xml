@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="VTFA">
+  <table_info name="VTFA" total_columns="16" />
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="TKNUM" data_type="VARCHAR">
+      <description>Shipment Number</description>
+    </column>
+    <column name="VBELV" data_type="VARCHAR">
+      <description>Preceding sales and distribution document</description>
+    </column>
+    <column name="POSNV" data_type="VARCHAR">
+      <description>Preceding item of an SD document</description>
+    </column>
+    <column name="VBTYP_V" data_type="VARCHAR">
+      <description>Document category of preceding SD document</description>
+    </column>
+    <column name="VBELN" data_type="VARCHAR">
+      <description>Subsequent sales and distribution document</description>
+    </column>
+    <column name="POSNN" data_type="VARCHAR">
+      <description>Subsequent item of an SD document</description>
+    </column>
+    <column name="VBTYP_N" data_type="VARCHAR">
+      <description>Document category of subsequent document</description>
+    </column>
+    <column name="RFMNG" data_type="DECIMAL">
+      <description>Referenced quantity in base unit of measure</description>
+    </column>
+    <column name="MEINS" data_type="VARCHAR">
+      <description>Base Unit of Measure</description>
+    </column>
+    <column name="ERDAT" data_type="DATE">
+      <description>Date on Which Record Was Created</description>
+    </column>
+    <column name="ERZET" data_type="TIME">
+      <description>Entry time</description>
+    </column>
+    <column name="AEDAT" data_type="DATE">
+      <description>Last Changed On</description>
+    </column>
+    <column name="RFMNG_FLO" data_type="FLOAT">
+      <description>Referenced quantity in sales unit (float)</description>
+    </column>
+    <column name="RFMNG_FLT" data_type="FLOAT">
+      <description>Referenced quantity in base unit of measure (float)</description>
+    </column>
+    <column name="VRKME" data_type="VARCHAR">
+      <description>Sales Unit</description>
+    </column>
+  </columns>
+</data_description>

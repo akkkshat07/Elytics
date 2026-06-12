@@ -1,0 +1,120 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="MARM">
+  <table_info name="MARM" total_columns="38"/>
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="MATNR" data_type="VARCHAR">
+      <description>Material Number</description>
+    </column>
+    <column name="MEINH" data_type="VARCHAR">
+      <description>Alternative Unit of Measure for Stockkeeping Unit</description>
+    </column>
+    <column name="UMREZ" data_type="DECIMAL">
+      <description>Numerator for Conversion to Base Units of Measure</description>
+    </column>
+    <column name="UMREN" data_type="DECIMAL">
+      <description>Denominator for conversion to base units of measure</description>
+    </column>
+    <column name="EANNR" data_type="VARCHAR">
+      <description>European Article Number (EAN) - obsolete!!!!!</description>
+    </column>
+    <column name="EAN11" data_type="VARCHAR">
+      <description>International Article Number (EAN/UPC)</description>
+    </column>
+    <column name="NUMTP" data_type="VARCHAR">
+      <description>Category of International Article Number (EAN)</description>
+    </column>
+    <column name="LAENG" data_type="DECIMAL">
+      <description>Length</description>
+    </column>
+    <column name="BREIT" data_type="DECIMAL">
+      <description>Width</description>
+    </column>
+    <column name="HOEHE" data_type="DECIMAL">
+      <description>Height</description>
+    </column>
+    <column name="MEABM" data_type="VARCHAR">
+      <description>Unit of Dimension for Length/Width/Height</description>
+    </column>
+    <column name="VOLUM" data_type="DECIMAL">
+      <description>Volume</description>
+    </column>
+    <column name="VOLEH" data_type="VARCHAR">
+      <description>Volume Unit</description>
+    </column>
+    <column name="BRGEW" data_type="DECIMAL">
+      <description>Gross Weight</description>
+    </column>
+    <column name="GEWEI" data_type="VARCHAR">
+      <description>Unit of Weight</description>
+    </column>
+    <column name="MESUB" data_type="VARCHAR">
+      <description>Lower-Level Unit of Measure in a Packing Hierarchy</description>
+    </column>
+    <column name="ATINN" data_type="VARCHAR">
+      <description>Internal characteristic</description>
+    </column>
+    <column name="MESRT" data_type="VARCHAR">
+      <description>Unit of measure sort number</description>
+    </column>
+    <column name="XFHDW" data_type="VARCHAR">
+      <description>Leading batch-specific unit of measure</description>
+    </column>
+    <column name="XBEWW" data_type="VARCHAR">
+      <description>Valuation based on the batch-specific unit of measure</description>
+    </column>
+    <column name="KZWSO" data_type="VARCHAR">
+      <description>Units of measure usage</description>
+    </column>
+    <column name="MSEHI" data_type="VARCHAR">
+      <description>Unit of Measurement of Characteristic</description>
+    </column>
+    <column name="BFLME_MARM" data_type="VARCHAR">
+      <description>Generic Material with Logistical Variants</description>
+    </column>
+    <column name="GTIN_VARIANT" data_type="VARCHAR">
+      <description>Global Trade Item Number Variant</description>
+    </column>
+    <column name="NEST_FTR" data_type="DECIMAL">
+      <description>Remaining Volume after Nesting (in Percentage)</description>
+    </column>
+    <column name="MAX_STACK" data_type="INTEGER">
+      <description>Maximum Stacking Factor</description>
+    </column>
+    <column name="CAPAUSE" data_type="DECIMAL">
+      <description>Capacity Usage</description>
+    </column>
+    <column name="TY2TQ" data_type="VARCHAR">
+      <description>EWM-CW: Category of Unit of Measure</description>
+    </column>
+    <column name="/STTPEC/GTIN" data_type="VARCHAR">
+      <description>GS1 Global Trade Item Number</description>
+    </column>
+    <column name="/STTPEC/NCODE" data_type="VARCHAR">
+      <description>National Code</description>
+    </column>
+    <column name="/STTPEC/NCODE_TY" data_type="VARCHAR">
+      <description>National Code Type</description>
+    </column>
+    <column name="/STTPEC/RCODE" data_type="VARCHAR">
+      <description>Registration Code</description>
+    </column>
+    <column name="/STTPEC/SERUSE" data_type="VARCHAR">
+      <description>Serialization Indicator</description>
+    </column>
+    <column name="/STTPEC/SYNCCHG" data_type="VARCHAR">
+      <description>Indicator Changed Since Integration</description>
+    </column>
+    <column name="/STTPEC/SERNO_MANAGED" data_type="VARCHAR">
+      <description>Serial Number Management Type</description>
+    </column>
+    <column name="/STTPEC/SERNO_PROV_BUP" data_type="VARCHAR">
+      <description>Business Partner (Customer) to Provide Serial Number</description>
+    </column>
+    <column name="/STTPEC/UOM_SYNC" data_type="VARCHAR">
+      <description>Synchronization Active for UoM</description>
+    </column>
+  </columns>
+</data_description>

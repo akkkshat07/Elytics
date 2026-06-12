@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="A002">
+  <table_info name="A002" total_columns="9" />
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="KAPPL" data_type="VARCHAR">
+      <description>Application</description>
+    </column>
+    <column name="KSCHL" data_type="VARCHAR">
+      <description>Condition Type</description>
+    </column>
+    <column name="ALAND" data_type="VARCHAR">
+      <description>Departure country (country from which the goods are sent)</description>
+    </column>
+    <column name="TAXK1" data_type="VARCHAR">
+      <description>Tax classification 1 for customer</description>
+    </column>
+    <column name="TAXM1" data_type="VARCHAR">
+      <description>Tax Classification of Material</description>
+    </column>
+    <column name="DATBI" data_type="DATE">
+      <description>Validity end date of the condition record</description>
+    </column>
+    <column name="DATAB" data_type="DATE">
+      <description>Validity start date of the condition record</description>
+    </column>
+    <column name="KNUMH" data_type="VARCHAR">
+      <description>Condition record number</description>
+    </column>
+  </columns>
+</data_description>

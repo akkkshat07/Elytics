@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml"
+  xmlns:o="urn:schemas-microsoft-com:office:office">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- Outlook dark-mode directives -->
+  <meta name="color-scheme" content="light dark" />
+  <meta name="supported-color-schemes" content="light dark" />
+  <title>Welcome to CORESight</title>
+  <!--[if mso]>
+  <noscript>
+    <xml>
+      <o:OfficeDocumentSettings>
+        <o:AllowPNG/>
+        <o:PixelsPerInch>96</o:PixelsPerInch>
+      </o:OfficeDocumentSettings>
+    </xml>
+  </noscript>
+  <![endif]-->
+  <style type="text/css">
+    /* Reset */
+    body,
+    table,
+    td,
+    a {
+      -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+    }
+
+    table,
+    td {
+      mso-table-lspace: 0pt;
+      mso-table-rspace: 0pt;
+    }
+
+    img {
+      -ms-interpolation-mode: bicubic;
+      border: 0;
+      height: auto;
+      line-height: 100%;
+      outline: none;
+      text-decoration: none;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      width: 100% !important;
+      height: 100% !important;
+    }
+
+    /* Force Outlook-365 / New Outlook dark-mode colours via [data-ogsc] (text) and [data-ogsb] (bg) */
+    :root {
+      color-scheme: light dark;
+      supported-color-schemes: light dark;
+    }
+
+    /* ── Dark mode ─────────────────────────────── */
+    @media (prefers-color-scheme: dark) {
+      .email-bg {
+        background-color: #0a0a0b !important;
+      }
+
+      .card-bg {
+        background-color: #141417 !important;
+      }
+
+      .accent-bar {
+        background: #3b82f6 !important;
+      }
+
+      .text-heading {
+        color: #93c5fd !important;
+      }
+
+      .text-main {
+        color: #e2e8f0 !important;
+      }
+
+      .text-muted {
+        color: #94a3b8 !important;
+      }
+
+      .text-strong {
+        color: #f1f5f9 !important;
+      }
+
+      .divider {
+        border-color: #2a2a30 !important;
+      }
+
+      .cta-btn {
+        background-color: #3b82f6 !important;
+      }
+
+      .icon-box {
+        background-color: #1e2a3a !important;
+      }
+
+      .footer-link {
+        color: #60a5fa !important;
+      }
+
+      .footer-text {
+        color: #64748b !important;
+      }
+
+      /* Logo swap: hide dark logo, show white logo */
+      .logo-light {
+        display: none !important;
+        mso-hide: all !important;
+      }
+
+      .logo-dark-wrapper {
+        display: block !important;
+        width: auto !important;
+        height: auto !important;
+        max-height: none !important;
+        line-height: normal !important;
+        visibility: visible !important;
+      }
+    }
+
+    /* Outlook App (iOS/Android) dark-mode overrides */
+    [data-ogsc] .text-heading {
+      color: #93c5fd !important;
+    }
+
+    [data-ogsc] .text-main {
+      color: #e2e8f0 !important;
+    }
+
+    [data-ogsc] .text-muted {
+      color: #94a3b8 !important;
+    }
+
+    [data-ogsc] .text-strong {
+      color: #f1f5f9 !important;
+    }
+
+    [data-ogsc] .footer-text {
+      color: #64748b !important;
+    }
+
+    [data-ogsc] .footer-link {
+      color: #60a5fa !important;
+    }
+
+    [data-ogsb] .email-bg {
+      background-color: #0a0a0b !important;
+    }
+
+    [data-ogsb] .card-bg {
+      background-color: #141417 !important;
+    }
+
+    [data-ogsb] .icon-box {
+      background-color: #1e2a3a !important;
+    }
+
+    [data-ogsb] .cta-btn {
+      background-color: #3b82f6 !important;
+    }
+
+    /* Outlook logo swap */
+    [data-ogsb] .logo-light {
+      display: none !important;
+      mso-hide: all !important;
+    }
+
+    [data-ogsb] .logo-dark-wrapper {
+      display: block !important;
+      width: auto !important;
+      height: auto !important;
+      line-height: normal !important;
+      visibility: visible !important;
+    }
+
+    /* Responsive */
+    @media only screen and (max-width: 620px) {
+      .email-container {
+        width: 100% !important;
+        padding: 0 12px !important;
+      }
+
+      .card-padding {
+        padding: 28px 20px !important;
+      }
+
+      .logo-img {
+        height: 32px !important;
+      }
+
+      .hero-title {
+        font-size: 22px !important;
+        line-height: 30px !important;
+      }
+
+      .feature-table {
+        width: 100% !important;
+      }
+
+      .feature-cell {
+        display: block !important;
+        width: 100% !important;
+        padding: 10px 0 !important;
+      }
+    }
+  </style>
+</head>
+
+<body
+  style="margin:0; padding:0; background-color:#f1f5f9; font-family:'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif;">
+
+  <!-- Outer wrapper -->
+  <table role="presentation" class="email-bg" width="100%" cellpadding="0" cellspacing="0"
+    style="background-color:#f1f5f9;">
+    <tr>
+      <td align="center" style="padding:32px 16px;">
+
+        <!-- Container 600px -->
+        <table role="presentation" class="email-container" width="600" cellpadding="0" cellspacing="0"
+          style="max-width:600px; width:100%;">
+
+          <!-- HEADER — Logo (clickable, with dark-mode swap) -->
+          <tr>
+            <td align="center" style="padding:24px 0 20px 0;">
+              <a href="https://coresight.coreops.ai" target="_blank" style="text-decoration:none;">
+                <!-- Light-mode logo (default) -->
+                <img src="https://coresight.coreops.ai/CoreSight_logo.png" alt="CORESight" class="logo-img logo-light"
+                  width="160" style="height:40px; width:auto; max-width:160px; display:inline-block;" />
+                
+                <!-- Dark-mode logo (white version via CSS filter) -->
+                <!-- We wrap it in a div that is hidden by default and shown only in dark mode -->
+                <div class="logo-dark-wrapper" style="mso-hide:all; display:none; width:0; height:0; overflow:hidden;">
+                  <img src="https://coresight.coreops.ai/CoreSight_logo.png" alt="CORESight" class="logo-img"
+                    width="160"
+                    style="height:40px; width:auto; max-width:160px; filter:brightness(0) invert(1); -webkit-filter:brightness(0) invert(1);" />
+                </div>
+              </a>
+            </td>
+          </tr>
+
+          <!-- MAIN CARD -->
+          <tr>
+            <td>
+              <table role="presentation" class="card-bg" width="100%" cellpadding="0" cellspacing="0"
+                style="background-color:#ffffff; border-radius:12px; overflow:hidden; box-shadow:0 1px 4px rgba(0,0,0,0.06);">
+
+                <!-- Blue accent bar -->
+                <tr>
+                  <td class="accent-bar" style="height:4px; background:#2563eb; font-size:0; line-height:0;">&nbsp;</td>
+                </tr>
+
+                <!-- Card body -->
+                <tr>
+                  <td class="card-padding" style="padding:40px 44px;">
+
+                    <!-- Greeting -->
+                    <h1 class="hero-title text-heading"
+                      style="margin:0 0 8px 0; font-size:26px; line-height:34px; font-weight:700; color:#1e3a8a;">
+                      Welcome to CORESight{user_greeting}!
+                    </h1>
+                    <p class="text-muted" style="margin:0 0 28px 0; font-size:15px; color:#64748b; line-height:1.6;">
+                      {intro_paragraph}
+                    </p>
+
+                    <!-- Divider -->
+                    <hr class="divider" style="border:none; border-top:1px solid #e2e8f0; margin:0 0 28px 0;" />
+
+                    <!-- What is CORESight? -->
+                    <h2 class="text-main" style="margin:0 0 12px 0; font-size:18px; font-weight:600; color:#1e293b;">
+                      What is CORESight?
+                    </h2>
+                    <p class="text-main" style="margin:0 0 28px 0; font-size:14px; color:#334155; line-height:1.7;">
+                      <strong class="text-strong" style="color:#0f172a;">CORESight</strong> is an AI-powered,
+                      multi-tenant decision-support platform that lets you ask questions about your business data in
+                      plain English.
+                      It orchestrates specialised AI agents to understand your query, generate code, execute it on your
+                      datasets, and synthesise clear, actionable business insights &mdash; no SQL or coding skills
+                      required.
+                    </p>
+
+                    <!-- ─── Feature grid (2 × 2) with outline-style icon boxes ─── -->
+                    <table role="presentation" class="feature-table" width="100%" cellpadding="0" cellspacing="0"
+                      style="margin-bottom:28px;">
+
+                      <!-- Row 1 -->
+                      <tr>
+                        <td class="feature-cell" width="50%" valign="top" style="padding:8px 10px 8px 0;">
+                          <table role="presentation" cellpadding="0" cellspacing="0">
+                            <tr>
+                              <!-- Icon box: bar-chart -->
+                              <td style="padding-right:12px; vertical-align:top;">
+                                <div class="icon-box"
+                                  style="width:36px; height:36px; border-radius:8px; background-color:#eff6ff; text-align:center; line-height:36px;">
+                                  <!--[if mso]>
+                                  <v:rect xmlns:v="urn:schemas-microsoft-com:vml" style="width:36px;height:36px;" fillcolor="#eff6ff" stroked="f">
+                                    <v:textbox inset="0,0,0,0" style="mso-fit-shape-to-text:true;"><center>
+                                  <![endif]-->
+                                  <img
+                                    src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAiIGhlaWdodD0iMjAiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNMTggMjBWMTBNMTIgMjBWNE02IDIwVjE0IiBzdHJva2U9IiMyNTYzZWIiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+PC9zdmc+"
+                                    alt="" width="20" height="20" style="vertical-align:middle;" />
+                                  <!--[if mso]>
+                                    </center></v:textbox>
+                                  </v:rect>
+                                  <![endif]-->
+                                </div>
+                              </td>
+                              <td>
+                                <p class="text-strong"
+                                  style="margin:0; font-size:13px; font-weight:600; color:#0f172a;">Natural Language
+                                  Queries</p>
+                                <p class="text-muted"
+                                  style="margin:3px 0 0 0; font-size:12px; color:#64748b; line-height:1.5;">Ask
+                                  questions in plain English &mdash; CORESight translates them into analytics.</p>
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                        <td class="feature-cell" width="50%" valign="top" style="padding:8px 0 8px 10px;">
+                          <table role="presentation" cellpadding="0" cellspacing="0">
+                            <tr>
+                              <!-- Icon box: cpu / AI -->
+                              <td style="padding-right:12px; vertical-align:top;">
+                                <div class="icon-box"
+                                  style="width:36px; height:36px; border-radius:8px; background-color:#eff6ff; text-align:center; line-height:36px;">
+                                  <img
+                                    src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAiIGhlaWdodD0iMjAiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB4PSI0IiB5PSI0IiB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHJ4PSIyIiBzdHJva2U9IiMyNTYzZWIiIHN0cm9rZS13aWR0aD0iMiIvPjxwYXRoIGQ9Ik05IDloNk05IDEzaDRNOSAxaDJ2M005IDIwaDJ2M00yMCA5djJoLTNNMSA5djJoM00yMCAxM3YyaC0zTTEgMTN2MmgzTTE1IDFoMnYzTTE1IDIwaDJ2M00xIDE1djJoM00yMCAxNXYyaC0zIiBzdHJva2U9IiMyNTYzZWIiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+PC9zdmc+"
+                                    alt="" width="20" height="20" style="vertical-align:middle;" />
+                                </div>
+                              </td>
+                              <td>
+                                <p class="text-strong"
+                                  style="margin:0; font-size:13px; font-weight:600; color:#0f172a;">Multi-Agent AI</p>
+                                <p class="text-muted"
+                                  style="margin:3px 0 0 0; font-size:12px; color:#64748b; line-height:1.5;">Specialised
+                                  agents collaborate to plan, code, execute, and summarise results.</p>
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+
+                      <!-- Row 2 -->
+                      <tr>
+                        <td class="feature-cell" width="50%" valign="top" style="padding:8px 10px 8px 0;">
+                          <table role="presentation" cellpadding="0" cellspacing="0">
+                            <tr>
+                              <!-- Icon box: shield / lock -->
+                              <td style="padding-right:12px; vertical-align:top;">
+                                <div class="icon-box"
+                                  style="width:36px; height:36px; border-radius:8px; background-color:#eff6ff; text-align:center; line-height:36px;">
+                                  <img
+                                    src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAiIGhlaWdodD0iMjAiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNMTIgMjJzOC00IDgtMTBWNWwtOC0zLTggM3Y3YzAgNiA4IDEwIDggMTBaIiBzdHJva2U9IiMyNTYzZWIiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+PHBhdGggZD0ibTkgMTIgMiAyIDQtNCIgc3Ryb2tlPSIjMjU2M2ViIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPjwvc3ZnPg=="
+                                    alt="" width="20" height="20" style="vertical-align:middle;" />
+                                </div>
+                              </td>
+                              <td>
+                                <p class="text-strong"
+                                  style="margin:0; font-size:13px; font-weight:600; color:#0f172a;">Secure &amp;
+                                  Multi-Tenant</p>
+                                <p class="text-muted"
+                                  style="margin:3px 0 0 0; font-size:12px; color:#64748b; line-height:1.5;">Your data
+                                  stays isolated &mdash; enterprise-grade security by design.</p>
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                        <td class="feature-cell" width="50%" valign="top" style="padding:8px 0 8px 10px;">
+                          <table role="presentation" cellpadding="0" cellspacing="0">
+                            <tr>
+                              <!-- Icon box: trending-up / insights -->
+                              <td style="padding-right:12px; vertical-align:top;">
+                                <div class="icon-box"
+                                  style="width:36px; height:36px; border-radius:8px; background-color:#eff6ff; text-align:center; line-height:36px;">
+                                  <img
+                                    src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAiIGhlaWdodD0iMjAiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJtMjIgN2wtOC41IDguNS00LTRMMiAxOSIgc3Ryb2tlPSIjMjU2M2ViIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPjxwYXRoIGQ9Ik0xNiA3aDZ2NiIgc3Ryb2tlPSIjMjU2M2ViIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPjwvc3ZnPg=="
+                                    alt="" width="20" height="20" style="vertical-align:middle;" />
+                                </div>
+                              </td>
+                              <td>
+                                <p class="text-strong"
+                                  style="margin:0; font-size:13px; font-weight:600; color:#0f172a;">Actionable Insights
+                                </p>
+                                <p class="text-muted"
+                                  style="margin:3px 0 0 0; font-size:12px; color:#64748b; line-height:1.5;">Get charts,
+                                  summaries, and recommendations &mdash; not just raw numbers.</p>
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+
+                    </table>
+
+                    <!-- CTA button -->
+                    <table role="presentation" width="100%" cellpadding="0" cellspacing="0">
+                      <tr>
+                        <td align="center" style="padding:8px 0 0 0;">
+                          <!--[if mso]>
+                          <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word"
+                            href="https://coresight.coreops.ai" style="height:48px;v-text-anchor:middle;width:220px;" arcsize="17%"
+                            strokecolor="#2563eb" fillcolor="#2563eb">
+                            <w:anchorlock/>
+                            <center style="color:#ffffff;font-family:'Segoe UI',sans-serif;font-size:15px;font-weight:600;">
+                              Go to CORESight &#8594;
+                            </center>
+                          </v:roundrect>
+                          <![endif]-->
+                          <!--[if !mso]><!-->
+                          <a href="https://coresight.coreops.ai" target="_blank" class="cta-btn" style="display:inline-block; background-color:#2563eb; color:#ffffff; font-size:15px; font-weight:600;
+                                    text-decoration:none; padding:13px 36px; border-radius:8px;
+                                    box-shadow:0 2px 8px rgba(37,99,235,0.3); mso-hide:all;">
+                            Go to CORESight &rarr;
+                          </a>
+                          <!--<![endif]-->
+                        </td>
+                      </tr>
+                    </table>
+
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+
+          <!-- FOOTER -->
+          <tr>
+            <td style="padding:28px 20px 16px 20px; text-align:center;">
+              <p class="footer-text" style="margin:0 0 6px 0; font-size:12px; color:#94a3b8; line-height:1.5;">
+                &copy; {year} CORESight &middot; Built by <a href="https://coreops.ai" target="_blank"
+                  class="footer-link" style="color:#2563eb; text-decoration:none;">CoreOps AI</a>
+              </p>
+              <p class="footer-text" style="margin:0; font-size:11px; color:#94a3b8; line-height:1.5;">
+                {footer_reason}
+              </p>
+            </td>
+          </tr>
+
+        </table>
+        <!-- /Container -->
+
+      </td>
+    </tr>
+  </table>
+
+</body>
+
+</html>

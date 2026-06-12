@@ -1,0 +1,201 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="LTAK">
+  <table_info name="LTAK" total_columns="65" />
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="LGNUM" data_type="VARCHAR">
+      <description>Warehouse Number / Warehouse Complex</description>
+    </column>
+    <column name="TANUM" data_type="VARCHAR">
+      <description>Transfer Order Number</description>
+    </column>
+    <column name="BWART" data_type="VARCHAR">
+      <description>Movement Type (Inventory Management)</description>
+    </column>
+    <column name="BWLVS" data_type="VARCHAR">
+      <description>Movement Type for Warehouse Management</description>
+    </column>
+    <column name="TBPRI" data_type="VARCHAR">
+      <description>Transfer Priority</description>
+    </column>
+    <column name="TRART" data_type="VARCHAR">
+      <description>Shipment Type</description>
+    </column>
+    <column name="BDATU" data_type="DATE">
+      <description>Creation Date of Transfer Order</description>
+    </column>
+    <column name="BZEIT" data_type="TIME">
+      <description>Creation time of transfer order</description>
+    </column>
+    <column name="BNAME" data_type="VARCHAR">
+      <description>User Name</description>
+    </column>
+    <column name="REFNR" data_type="VARCHAR">
+      <description>Group</description>
+    </column>
+    <column name="TBNUM" data_type="VARCHAR">
+      <description>Transfer Requirement Number</description>
+    </column>
+    <column name="UBNUM" data_type="VARCHAR">
+      <description>Posting Change Number</description>
+    </column>
+    <column name="VBELN" data_type="VARCHAR">
+      <description>Sales and Distribution Document Number</description>
+    </column>
+    <column name="KQUIT" data_type="VARCHAR">
+      <description>Indicator: Confirmation</description>
+    </column>
+    <column name="QDATU" data_type="DATE">
+      <description>Date of Confirmation</description>
+    </column>
+    <column name="MBLNR" data_type="VARCHAR">
+      <description>Number of Material Document</description>
+    </column>
+    <column name="MJAHR" data_type="VARCHAR">
+      <description>Material Document Year</description>
+    </column>
+    <column name="BETYP" data_type="VARCHAR">
+      <description>Requirement Type</description>
+    </column>
+    <column name="BENUM" data_type="VARCHAR">
+      <description>Requirement Number</description>
+    </column>
+    <column name="DRUKZ" data_type="VARCHAR">
+      <description>Indicator: form and sort code for printing transfer orders</description>
+    </column>
+    <column name="DRUCK" data_type="VARCHAR">
+      <description>Indicator: Transfer Order is Printed</description>
+    </column>
+    <column name="TEILK" data_type="VARCHAR">
+      <description>Ind.: partial supply for documents in multiple processing</description>
+    </column>
+    <column name="KR2SO" data_type="VARCHAR">
+      <description>Indicator: Call up R/2 immediately (RM posting)</description>
+    </column>
+    <column name="KR2KU" data_type="VARCHAR">
+      <description>Indicator: R/2 control accumulated (RM posting)</description>
+    </column>
+    <column name="KDISO" data_type="VARCHAR">
+      <description>Indicator: Pass on diff. to R/2 immediately (RM posting)</description>
+    </column>
+    <column name="KZPLA" data_type="VARCHAR">
+      <description>Indicator: preplanned transfer order</description>
+    </column>
+    <column name="PLDAT" data_type="DATE">
+      <description>Planned execution date for a transfer order</description>
+    </column>
+    <column name="RSNUM" data_type="VARCHAR">
+      <description>Number of reservation/dependent requirements</description>
+    </column>
+    <column name="LZNUM" data_type="VARCHAR">
+      <description>Additional Reference Number for Transport</description>
+    </column>
+    <column name="BDART" data_type="VARCHAR">
+      <description>Requirement type</description>
+    </column>
+    <column name="PKNUM" data_type="VARCHAR">
+      <description>Control cycle number</description>
+    </column>
+    <column name="PKPOS" data_type="VARCHAR">
+      <description>Kanban item number / control cycle item</description>
+    </column>
+    <column name="KZLEI" data_type="VARCHAR">
+      <description>Indicator for performance data</description>
+    </column>
+    <column name="KISTZ" data_type="VARCHAR">
+      <description>Indicator: Actual time required in TO</description>
+    </column>
+    <column name="KISTP" data_type="VARCHAR">
+      <description>Indicator: Input requirement for actual data</description>
+    </column>
+    <column name="PERNR" data_type="VARCHAR">
+      <description>Personnel Number of User</description>
+    </column>
+    <column name="SOLWM" data_type="DECIMAL">
+      <description>Planned Transfer Order Processing Time From WM</description>
+    </column>
+    <column name="SOLEX" data_type="DECIMAL">
+      <description>Planned Transfer Order Processing Time from External System</description>
+    </column>
+    <column name="ISTWM" data_type="DECIMAL">
+      <description>Actual Time of the WM Transfer Order</description>
+    </column>
+    <column name="ZEIEI" data_type="VARCHAR">
+      <description>Time unit for performance data</description>
+    </column>
+    <column name="HRSTS" data_type="VARCHAR">
+      <description>Transfer Order Human Resources (HR) Status</description>
+    </column>
+    <column name="STDAT" data_type="DATE">
+      <description>Start Date of the Transfer Order</description>
+    </column>
+    <column name="ENDAT" data_type="DATE">
+      <description>Transfer Order End Date</description>
+    </column>
+    <column name="STUZT" data_type="TIME">
+      <description>Start time of the transfer order</description>
+    </column>
+    <column name="ENUZT" data_type="TIME">
+      <description>Transfer Order End Time</description>
+    </column>
+    <column name="L2SKA" data_type="VARCHAR">
+      <description>Transfer Order Type in 2-Step Picking</description>
+    </column>
+    <column name="MINWM" data_type="VARCHAR">
+      <description>Transfer order transfers no real storage bin stock</description>
+    </column>
+    <column name="LGTOR" data_type="VARCHAR">
+      <description>Door for Warehouse Number</description>
+    </column>
+    <column name="LGBZO" data_type="VARCHAR">
+      <description>Staging Area for Warehouse Complex</description>
+    </column>
+    <column name="KZVEP" data_type="VARCHAR">
+      <description>Indicator: Connection to packaging in WM</description>
+    </column>
+    <column name="SWABW" data_type="VARCHAR">
+      <description>Threshold value of planned/actual time deviation as percent</description>
+    </column>
+    <column name="AUSFB" data_type="VARCHAR">
+      <description>TO processing comment (code)</description>
+    </column>
+    <column name="SPEZI" data_type="VARCHAR">
+      <description>Indicator special reference</description>
+    </column>
+    <column name="VBTYP" data_type="VARCHAR">
+      <description>SD document category</description>
+    </column>
+    <column name="QUEUE" data_type="VARCHAR">
+      <description>Queue</description>
+    </column>
+    <column name="KGVNQ" data_type="VARCHAR">
+      <description>Indicator: Separate confirmation possible</description>
+    </column>
+    <column name="TAPRI" data_type="VARCHAR">
+      <description>Transfer order priority</description>
+    </column>
+    <column name="KVQUI" data_type="VARCHAR">
+      <description>Indicator: Material pick has been confirmed</description>
+    </column>
+    <column name="HUCON" data_type="VARCHAR">
+      <description>Indicator, confirm HU</description>
+    </column>
+    <column name="NOITM" data_type="VARCHAR">
+      <description>Current number of items in TO</description>
+    </column>
+    <column name="KZTRM" data_type="VARCHAR">
+      <description>TRM Interface Active</description>
+    </column>
+    <column name="LATER" data_type="VARCHAR">
+      <description>Delayed Update of Outbound Delivery</description>
+    </column>
+    <column name="PASSD" data_type="VARCHAR">
+      <description>Confirmation Data Transferred To Delivery</description>
+    </column>
+    <column name="MULTL" data_type="VARCHAR">
+      <description>Transfer Order for Multiple Deliveries</description>
+    </column>
+  </columns>
+</data_description>

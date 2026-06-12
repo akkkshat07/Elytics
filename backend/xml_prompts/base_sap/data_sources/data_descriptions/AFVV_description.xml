@@ -1,0 +1,552 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="AFVV">
+  <table_info name="AFVV" total_columns="182"/>
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="AUFPL" data_type="VARCHAR">
+      <description>Routing number of operations in the order</description>
+    </column>
+    <column name="APLZL" data_type="VARCHAR">
+      <description>General counter for order</description>
+    </column>
+    <column name="MEINH" data_type="VARCHAR">
+      <description>Unit of measure for activity</description>
+    </column>
+    <column name="UMREN" data_type="DECIMAL">
+      <description>Denominator for converting rtg and op units of measure</description>
+    </column>
+    <column name="UMREZ" data_type="DECIMAL">
+      <description>Numerator for converting task list and oper. un. of measure</description>
+    </column>
+    <column name="BMSCH" data_type="DECIMAL">
+      <description>Base Quantity</description>
+    </column>
+    <column name="ZMERH" data_type="DECIMAL">
+      <description>Break</description>
+    </column>
+    <column name="ZEIER" data_type="VARCHAR">
+      <description>Unit for Break Time</description>
+    </column>
+    <column name="VGE01" data_type="VARCHAR">
+      <description>Unit of Measurement of Standard Value</description>
+    </column>
+    <column name="VGW01" data_type="DECIMAL">
+      <description>Standard Value</description>
+    </column>
+    <column name="VGE02" data_type="VARCHAR">
+      <description>Unit of Measurement of Standard Value</description>
+    </column>
+    <column name="VGW02" data_type="DECIMAL">
+      <description>Standard Value</description>
+    </column>
+    <column name="VGE03" data_type="VARCHAR">
+      <description>Unit of Measurement of Standard Value</description>
+    </column>
+    <column name="VGW03" data_type="DECIMAL">
+      <description>Standard Value</description>
+    </column>
+    <column name="VGE04" data_type="VARCHAR">
+      <description>Unit of Measurement of Standard Value</description>
+    </column>
+    <column name="VGW04" data_type="DECIMAL">
+      <description>Standard Value</description>
+    </column>
+    <column name="VGE05" data_type="VARCHAR">
+      <description>Unit of Measurement of Standard Value</description>
+    </column>
+    <column name="VGW05" data_type="DECIMAL">
+      <description>Standard Value</description>
+    </column>
+    <column name="VGE06" data_type="VARCHAR">
+      <description>Unit of Measurement of Standard Value</description>
+    </column>
+    <column name="VGW06" data_type="DECIMAL">
+      <description>Standard Value</description>
+    </column>
+    <column name="ZEIMU" data_type="VARCHAR">
+      <description>Unit for the minimum overlap time</description>
+    </column>
+    <column name="ZMINU" data_type="DECIMAL">
+      <description>Minimum overlap time</description>
+    </column>
+    <column name="MINWE" data_type="DECIMAL">
+      <description>Minimum Send-Ahead Quantity</description>
+    </column>
+    <column name="ZEIMB" data_type="VARCHAR">
+      <description>Unit for the minimum processing time</description>
+    </column>
+    <column name="ZMINB" data_type="DECIMAL">
+      <description>Minimum processing time</description>
+    </column>
+    <column name="ZEILM" data_type="VARCHAR">
+      <description>Unit for the maximum wait time</description>
+    </column>
+    <column name="ZLMAX" data_type="DECIMAL">
+      <description>Maximum wait time</description>
+    </column>
+    <column name="ZEILP" data_type="VARCHAR">
+      <description>Unit for the required wait time</description>
+    </column>
+    <column name="ZLPRO" data_type="DECIMAL">
+      <description>Minimum wait time</description>
+    </column>
+    <column name="ZEIWN" data_type="VARCHAR">
+      <description>Unit for the standard queue time</description>
+    </column>
+    <column name="ZWNOR" data_type="DECIMAL">
+      <description>Standard queue time</description>
+    </column>
+    <column name="ZEIWM" data_type="VARCHAR">
+      <description>Unit for the minumum queue time</description>
+    </column>
+    <column name="ZWMIN" data_type="DECIMAL">
+      <description>Minimum queue time</description>
+    </column>
+    <column name="ZEITN" data_type="VARCHAR">
+      <description>Unit for the standard move time</description>
+    </column>
+    <column name="ZTNOR" data_type="DECIMAL">
+      <description>Standard move time</description>
+    </column>
+    <column name="ZEITM" data_type="VARCHAR">
+      <description>Unit for the minimum move time</description>
+    </column>
+    <column name="ZTMIN" data_type="DECIMAL">
+      <description>Minimum move time</description>
+    </column>
+    <column name="PLIFZ" data_type="DECIMAL">
+      <description>Planned Delivery Time in Days</description>
+    </column>
+    <column name="DAUNO" data_type="DECIMAL">
+      <description>Normal duration of the activity</description>
+    </column>
+    <column name="DAUNE" data_type="VARCHAR">
+      <description>Normal duration/unit</description>
+    </column>
+    <column name="DAUMI" data_type="DECIMAL">
+      <description>Minimum activity duration</description>
+    </column>
+    <column name="DAUME" data_type="VARCHAR">
+      <description>Unit for the minimum duration</description>
+    </column>
+    <column name="EINSA" data_type="VARCHAR">
+      <description>Constraint on the basic start date for the activity</description>
+    </column>
+    <column name="EINSE" data_type="VARCHAR">
+      <description>Constraint on the finish date of the activity</description>
+    </column>
+    <column name="ARBEI" data_type="DECIMAL">
+      <description>Work involved in the activity</description>
+    </column>
+    <column name="ARBEH" data_type="VARCHAR">
+      <description>Unit for work</description>
+    </column>
+    <column name="MGVRG" data_type="DECIMAL">
+      <description>Operation Quantity</description>
+    </column>
+    <column name="ASVRG" data_type="DECIMAL">
+      <description>Operation Scrap Quantity</description>
+    </column>
+    <column name="LMNGA" data_type="DECIMAL">
+      <description>Total Yield Confirmed</description>
+    </column>
+    <column name="XMNGA" data_type="DECIMAL">
+      <description>Total Scrap Quantity Confirmed</description>
+    </column>
+    <column name="GMNGA" data_type="DECIMAL">
+      <description>Confirmed yield in order unit of measure</description>
+    </column>
+    <column name="ISM01" data_type="DECIMAL">
+      <description>Previously confirmed activity</description>
+    </column>
+    <column name="ISM02" data_type="DECIMAL">
+      <description>Previously confirmed activity</description>
+    </column>
+    <column name="ISM03" data_type="DECIMAL">
+      <description>Previously confirmed activity</description>
+    </column>
+    <column name="ISM04" data_type="DECIMAL">
+      <description>Previously confirmed activity</description>
+    </column>
+    <column name="ISM05" data_type="DECIMAL">
+      <description>Previously confirmed activity</description>
+    </column>
+    <column name="ISM06" data_type="DECIMAL">
+      <description>Previously confirmed activity</description>
+    </column>
+    <column name="ISMNW" data_type="DECIMAL">
+      <description>Actual work</description>
+    </column>
+    <column name="FSAVD" data_type="DATE">
+      <description>Earliest scheduled start: Execution (date)</description>
+    </column>
+    <column name="FSAVZ" data_type="TIME">
+      <description>Earliest scheduled start: Execution (time)</description>
+    </column>
+    <column name="FSSBD" data_type="DATE">
+      <description>Earliest scheduled start: Processing (date)</description>
+    </column>
+    <column name="FSSBZ" data_type="TIME">
+      <description>Earliest Scheduled Start: Processing (Time)</description>
+    </column>
+    <column name="FSSAD" data_type="DATE">
+      <description>Earliest scheduled start: Teardown (date)</description>
+    </column>
+    <column name="FSSAZ" data_type="TIME">
+      <description>Earliest Scheduled Start: Teardown (Time)</description>
+    </column>
+    <column name="FSEDD" data_type="DATE">
+      <description>Earliest scheduled finish: Execution (date)</description>
+    </column>
+    <column name="FSEDZ" data_type="TIME">
+      <description>Earliest scheduled finish: Execution (time)</description>
+    </column>
+    <column name="FSSLD" data_type="DATE">
+      <description>Earliest scheduled start: Wait (date)</description>
+    </column>
+    <column name="FSSLZ" data_type="TIME">
+      <description>Earliest Scheduled Start: Wait (Time)</description>
+    </column>
+    <column name="FSELD" data_type="DATE">
+      <description>Earliest scheduled finish: Wait (date)</description>
+    </column>
+    <column name="FSELZ" data_type="TIME">
+      <description>Earliest Scheduled Finish: Wait (Time)</description>
+    </column>
+    <column name="SSAVD" data_type="DATE">
+      <description>Latest scheduled start: Execution (date)</description>
+    </column>
+    <column name="SSAVZ" data_type="TIME">
+      <description>Latest scheduled start: Execution (time)</description>
+    </column>
+    <column name="SSSBD" data_type="DATE">
+      <description>Latest Scheduled Start: Processing (Date)</description>
+    </column>
+    <column name="SSSBZ" data_type="TIME">
+      <description>Latest Scheduled Start: Processing (Time)</description>
+    </column>
+    <column name="SSSAD" data_type="DATE">
+      <description>Latest Scheduled Start: Teardown (Date)</description>
+    </column>
+    <column name="SSSAZ" data_type="TIME">
+      <description>Latest Scheduled Start: Teardown (Time)</description>
+    </column>
+    <column name="SSEDD" data_type="DATE">
+      <description>Latest scheduled finish: Execution (date)</description>
+    </column>
+    <column name="SSEDZ" data_type="TIME">
+      <description>Latest scheduled finish: Execution (time)</description>
+    </column>
+    <column name="SSSLD" data_type="DATE">
+      <description>Latest Scheduled Start: Wait (Date)</description>
+    </column>
+    <column name="SSSLZ" data_type="TIME">
+      <description>Latest Scheduled Start: Wait (Time)</description>
+    </column>
+    <column name="SSELD" data_type="DATE">
+      <description>Latest scheduled finish: Wait time (date)</description>
+    </column>
+    <column name="SSELZ" data_type="TIME">
+      <description>Latest Scheduled Finish: Wait (Time)</description>
+    </column>
+    <column name="ISAVD" data_type="DATE">
+      <description>Actual operation start (date)</description>
+    </column>
+    <column name="IEAVD" data_type="DATE">
+      <description>Actual Finish of Operation (Date)</description>
+    </column>
+    <column name="ISDD" data_type="DATE">
+      <description>Actual start: Execution (date)</description>
+    </column>
+    <column name="ISDZ" data_type="TIME">
+      <description>Actual Start: Execution/Setup (Time)</description>
+    </column>
+    <column name="IERD" data_type="DATE">
+      <description>Actual finish: Setup (date)</description>
+    </column>
+    <column name="IERZ" data_type="TIME">
+      <description>Actual Finish: Setup (Time)</description>
+    </column>
+    <column name="ISBD" data_type="DATE">
+      <description>Actual Start: Processing (Date)</description>
+    </column>
+    <column name="ISBZ" data_type="TIME">
+      <description>Actual Start: Processing (Time)</description>
+    </column>
+    <column name="IEBD" data_type="DATE">
+      <description>Actual finish: Processing (date)</description>
+    </column>
+    <column name="IEBZ" data_type="TIME">
+      <description>Actual processing finish (time)</description>
+    </column>
+    <column name="ISAD" data_type="DATE">
+      <description>Actual Start: Teardown (Date)</description>
+    </column>
+    <column name="ISAZ" data_type="TIME">
+      <description>Actual Start: Teardown (Time)</description>
+    </column>
+    <column name="IEDD" data_type="DATE">
+      <description>Actual finish: Execution (date)</description>
+    </column>
+    <column name="IEDZ" data_type="TIME">
+      <description>Actual Finish: Execution (Time)</description>
+    </column>
+    <column name="PEDD" data_type="DATE">
+      <description>Forecast finish date of operation from confirmation</description>
+    </column>
+    <column name="PEDZ" data_type="TIME">
+      <description>Forecast End Time of Operation from Confirmation</description>
+    </column>
+    <column name="PUFFR" data_type="DECIMAL">
+      <description>Free float</description>
+    </column>
+    <column name="PUFGS" data_type="DECIMAL">
+      <description>Total float</description>
+    </column>
+    <column name="NTANF" data_type="DATE">
+      <description>Constraint for activity start (Basic)</description>
+    </column>
+    <column name="NTANZ" data_type="TIME">
+      <description>Constraint for activity start time (Basic)</description>
+    </column>
+    <column name="NTEND" data_type="DATE">
+      <description>Constraint for Finish of Activity (Basic)</description>
+    </column>
+    <column name="NTENZ" data_type="TIME">
+      <description>Basic finish time of the activity</description>
+    </column>
+    <column name="EWSTD" data_type="DATE">
+      <description>Forecasted start date for the activity</description>
+    </column>
+    <column name="EWSTZ" data_type="TIME">
+      <description>Forecast start time of the activity</description>
+    </column>
+    <column name="EWEND" data_type="DATE">
+      <description>Forecast finish date</description>
+    </column>
+    <column name="EWENZ" data_type="TIME">
+      <description>Forecast finish time for the activity</description>
+    </column>
+    <column name="EWDAN" data_type="DECIMAL">
+      <description>Normal duration (from forecast) of activity</description>
+    </column>
+    <column name="EWDNE" data_type="VARCHAR">
+      <description>Unit for forecast normal duration</description>
+    </column>
+    <column name="EWDAM" data_type="DECIMAL">
+      <description>Minimum duration (from forecast) for activity</description>
+    </column>
+    <column name="EWDME" data_type="VARCHAR">
+      <description>Unit for forecast minimum duration</description>
+    </column>
+    <column name="EWSTE" data_type="VARCHAR">
+      <description>Forecast date constraint on activity finish</description>
+    </column>
+    <column name="EWSTA" data_type="VARCHAR">
+      <description>Forecast date constraint on activity start</description>
+    </column>
+    <column name="WARTZ" data_type="FLOAT">
+      <description>Queue time used for scheduling</description>
+    </column>
+    <column name="WRTZE" data_type="VARCHAR">
+      <description>Unit of measure for queue time</description>
+    </column>
+    <column name="RUEST" data_type="FLOAT">
+      <description>Setup time</description>
+    </column>
+    <column name="RSTZE" data_type="VARCHAR">
+      <description>Unit of measure for setup time</description>
+    </column>
+    <column name="BEARZ" data_type="FLOAT">
+      <description>Processing time</description>
+    </column>
+    <column name="BEAZE" data_type="VARCHAR">
+      <description>Unit of measure for processing time</description>
+    </column>
+    <column name="ABRUE" data_type="FLOAT">
+      <description>Teardown</description>
+    </column>
+    <column name="ARUZE" data_type="VARCHAR">
+      <description>Unit of measure for teardown</description>
+    </column>
+    <column name="LIEGZ" data_type="FLOAT">
+      <description>Wait time used for scheduling</description>
+    </column>
+    <column name="LIGZE" data_type="VARCHAR">
+      <description>Unit of measure for wait time</description>
+    </column>
+    <column name="TRANZ" data_type="FLOAT">
+      <description>Move time used for scheduling</description>
+    </column>
+    <column name="TRAZE" data_type="VARCHAR">
+      <description>Unit of measure for move time</description>
+    </column>
+    <column name="ISERH" data_type="DECIMAL">
+      <description>Confirmed break time</description>
+    </column>
+    <column name="OFM01" data_type="DECIMAL">
+      <description>Forecast Value for Updating of Standard Value</description>
+    </column>
+    <column name="OFM02" data_type="DECIMAL">
+      <description>Forecast Value for Updating of Standard Value</description>
+    </column>
+    <column name="OFM03" data_type="DECIMAL">
+      <description>Forecast Value for Updating of Standard Value</description>
+    </column>
+    <column name="OFM04" data_type="DECIMAL">
+      <description>Forecast Value for Updating of Standard Value</description>
+    </column>
+    <column name="OFM05" data_type="DECIMAL">
+      <description>Forecast Value for Updating of Standard Value</description>
+    </column>
+    <column name="OFM06" data_type="DECIMAL">
+      <description>Forecast Value for Updating of Standard Value</description>
+    </column>
+    <column name="OFMNW" data_type="DECIMAL">
+      <description>Forecasted work (actual + remaining)</description>
+    </column>
+    <column name="BZOFFB" data_type="VARCHAR">
+      <description>Reference date for start of sub-operation</description>
+    </column>
+    <column name="EHOFFB" data_type="VARCHAR">
+      <description>Unit for offset to start</description>
+    </column>
+    <column name="OFFSTB" data_type="DECIMAL">
+      <description>Offset to sub-operation start</description>
+    </column>
+    <column name="OFFSTE" data_type="DECIMAL">
+      <description>Offset to sub-operation finish</description>
+    </column>
+    <column name="BZOFFE" data_type="VARCHAR">
+      <description>Reference date for finish of sub-operation</description>
+    </column>
+    <column name="EHOFFE" data_type="VARCHAR">
+      <description>Unit for offset to finish</description>
+    </column>
+    <column name="FPAVD" data_type="DATE">
+      <description>Earliest scheduled start date (forecast)</description>
+    </column>
+    <column name="FPAVZ" data_type="TIME">
+      <description>Earliest scheduled start time (forecast)</description>
+    </column>
+    <column name="FPEDD" data_type="DATE">
+      <description>Earliest scheduled finish date (forecast)</description>
+    </column>
+    <column name="FPEDZ" data_type="TIME">
+      <description>Earliest scheduled finish time (forecast)</description>
+    </column>
+    <column name="SPAVD" data_type="DATE">
+      <description>Latest scheduled start date (forecast)</description>
+    </column>
+    <column name="SPAVZ" data_type="TIME">
+      <description>Latest scheduled start time (forecast)</description>
+    </column>
+    <column name="SPEDD" data_type="DATE">
+      <description>Latest scheduled finish date (forecast)</description>
+    </column>
+    <column name="SPEDZ" data_type="TIME">
+      <description>Latest scheduled finish time (forecast)</description>
+    </column>
+    <column name="BEAZP" data_type="VARCHAR">
+      <description>Unit of processing time (Forecast)</description>
+    </column>
+    <column name="PUFGP" data_type="DECIMAL">
+      <description>Total float (from forecast)</description>
+    </column>
+    <column name="PUFFP" data_type="DECIMAL">
+      <description>Free float (from forecast)</description>
+    </column>
+    <column name="BEARP" data_type="FLOAT">
+      <description>Processing time (forecast)</description>
+    </column>
+    <column name="EPANF" data_type="DATE">
+      <description>Dispatched start date for operation</description>
+    </column>
+    <column name="EPANZ" data_type="TIME">
+      <description>Dispatched start time for operation</description>
+    </column>
+    <column name="EPEND" data_type="DATE">
+      <description>Dispatched finish date</description>
+    </column>
+    <column name="EPENZ" data_type="TIME">
+      <description>Dispatched finish time</description>
+    </column>
+    <column name="PDAU" data_type="DECIMAL">
+      <description>Forecasted duration of activity from confirmation</description>
+    </column>
+    <column name="PDAE" data_type="VARCHAR">
+      <description>Unit of the forecasted duration from the confirmation</description>
+    </column>
+    <column name="KNOTE" data_type="VARCHAR">
+      <description>Transportation Connection Points</description>
+    </column>
+    <column name="VSTZW" data_type="VARCHAR">
+      <description>Deadline function</description>
+    </column>
+    <column name="VSTGA" data_type="VARCHAR">
+      <description>Deadline deviation reason</description>
+    </column>
+    <column name="QRASTZEHT" data_type="VARCHAR">
+      <description>Time Unit</description>
+    </column>
+    <column name="QRASTZFAK" data_type="DECIMAL">
+      <description>Time Factor</description>
+    </column>
+    <column name="QRASTMENG" data_type="DECIMAL">
+      <description>Quantity Between Two Inspections</description>
+    </column>
+    <column name="QRASTEREH" data_type="VARCHAR">
+      <description>Grid Unit of Measure</description>
+    </column>
+    <column name="AUFKT" data_type="DECIMAL">
+      <description>Execution Factor</description>
+    </column>
+    <column name="RMNGA" data_type="DECIMAL">
+      <description>Total confirmed rework quantity</description>
+    </column>
+    <column name="ILE01" data_type="VARCHAR">
+      <description>Unit of measure for the activity to be confirmed</description>
+    </column>
+    <column name="ILE02" data_type="VARCHAR">
+      <description>Unit of measure for the activity to be confirmed</description>
+    </column>
+    <column name="ILE03" data_type="VARCHAR">
+      <description>Unit of measure for the activity to be confirmed</description>
+    </column>
+    <column name="ILE04" data_type="VARCHAR">
+      <description>Unit of measure for the activity to be confirmed</description>
+    </column>
+    <column name="ILE05" data_type="VARCHAR">
+      <description>Unit of measure for the activity to be confirmed</description>
+    </column>
+    <column name="ILE06" data_type="VARCHAR">
+      <description>Unit of measure for the activity to be confirmed</description>
+    </column>
+    <column name="RWFAK" data_type="DECIMAL">
+      <description>Rework factor (is not used yet)</description>
+    </column>
+    <column name="IPRZ1" data_type="DECIMAL">
+      <description>Confirmed Quantity/Activity for Business Process</description>
+    </column>
+    <column name="IPRE1" data_type="VARCHAR">
+      <description>Unit of Meas. for Qty to Be Confirmed for Business Process</description>
+    </column>
+    <column name="IPRK1" data_type="VARCHAR">
+      <description>No Remaining Quantity Expected for Business Process</description>
+    </column>
+    <column name="TAKT" data_type="VARCHAR">
+      <description>takt within a line segment</description>
+    </column>
+    <column name="OPRZ1" data_type="DECIMAL">
+      <description>Remaining quantity for business process</description>
+    </column>
+    <column name="OPRE1" data_type="VARCHAR">
+      <description>Unit for remaining quantity of business process</description>
+    </column>
+    <column name="PSPM_INDICATOR" data_type="VARCHAR">
+      <description>Indicates PMCS date influence activity scheduling</description>
+    </column>
+  </columns>
+</data_description>

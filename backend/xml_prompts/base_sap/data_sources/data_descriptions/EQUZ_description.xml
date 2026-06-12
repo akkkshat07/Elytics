@@ -1,0 +1,144 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="EQUZ">
+  <table_info name="EQUZ" total_columns="46" />
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="EQUNR" data_type="VARCHAR">
+      <description>Equipment Number</description>
+    </column>
+    <column name="DATBI" data_type="DATE">
+      <description>Valid To Date</description>
+    </column>
+    <column name="EQLFN" data_type="VARCHAR">
+      <description>Consecutive numbering of EquipUsagePeriods on same day</description>
+    </column>
+    <column name="EQUZN" data_type="VARCHAR">
+      <description>Number of next EquipUsagePeriod on same day</description>
+    </column>
+    <column name="ERDAT" data_type="DATE">
+      <description>Date on Which Record Was Created</description>
+    </column>
+    <column name="ERNAM" data_type="VARCHAR">
+      <description>Name of Person Responsible for Creating the Object</description>
+    </column>
+    <column name="AEDAT" data_type="DATE">
+      <description>Last Changed On</description>
+    </column>
+    <column name="AENAM" data_type="VARCHAR">
+      <description>Name of Person Who Changed Object</description>
+    </column>
+    <column name="TIMBI" data_type="TIME">
+      <description>Equipment usage period time stamp</description>
+    </column>
+    <column name="ESTAI" data_type="VARCHAR">
+      <description>SAP Development Reserve: Format CHAR, Length 1</description>
+    </column>
+    <column name="ESTAE" data_type="VARCHAR">
+      <description>SAP Development reserve: Format CHAR, length 4</description>
+    </column>
+    <column name="STNAM" data_type="VARCHAR">
+      <description>SAP Development Reserve: Format CHAR, Length 12</description>
+    </column>
+    <column name="LVORM" data_type="VARCHAR">
+      <description>SAP Development Reserve: Format CHAR, Length 1</description>
+    </column>
+    <column name="DATAB" data_type="DATE">
+      <description>Valid-From Date</description>
+    </column>
+    <column name="IWERK" data_type="VARCHAR">
+      <description>Maintenance Planning Plant</description>
+    </column>
+    <column name="IWERKI" data_type="VARCHAR">
+      <description>Data origin indicator</description>
+    </column>
+    <column name="SUBMT" data_type="VARCHAR">
+      <description>Construction type material of the object</description>
+    </column>
+    <column name="MAPAR" data_type="VARCHAR">
+      <description>Manufacturer part number</description>
+    </column>
+    <column name="HEQUI" data_type="VARCHAR">
+      <description>Superordinate Equipment</description>
+    </column>
+    <column name="HEQNR" data_type="VARCHAR">
+      <description>Equipment position at InstallLoc (Superior Equip./FunctLoc)</description>
+    </column>
+    <column name="INGRP" data_type="VARCHAR">
+      <description>Planner Group for Customer Service and Plant Maintenance</description>
+    </column>
+    <column name="INGRPI" data_type="VARCHAR">
+      <description>Data origin indicator</description>
+    </column>
+    <column name="PM_OBJTY" data_type="VARCHAR">
+      <description>Object Type of CIM Resources for Work Center</description>
+    </column>
+    <column name="GEWRK" data_type="VARCHAR">
+      <description>Object ID of the Work Center</description>
+    </column>
+    <column name="GEWRKI" data_type="VARCHAR">
+      <description>Data origin indicator</description>
+    </column>
+    <column name="TIDNR" data_type="VARCHAR">
+      <description>Technical identification number</description>
+    </column>
+    <column name="TIDNRI" data_type="VARCHAR">
+      <description>Data origin indicator</description>
+    </column>
+    <column name="ILOAN" data_type="VARCHAR">
+      <description>Location and account assignment for technical object</description>
+    </column>
+    <column name="KUND1" data_type="VARCHAR">
+      <description>Customer number</description>
+    </column>
+    <column name="KUND2" data_type="VARCHAR">
+      <description>End customer number</description>
+    </column>
+    <column name="KUND3" data_type="VARCHAR">
+      <description>Operator</description>
+    </column>
+    <column name="LIZNR" data_type="VARCHAR">
+      <description>Equipment license number</description>
+    </column>
+    <column name="RBNR" data_type="VARCHAR">
+      <description>Catalog Profile</description>
+    </column>
+    <column name="EZDAT" data_type="DATE">
+      <description>Date, intended for SAP internal use</description>
+    </column>
+    <column name="EZBER" data_type="VARCHAR">
+      <description>Technical information, intended for SAP internal use</description>
+    </column>
+    <column name="EZNUM" data_type="VARCHAR">
+      <description>Numerical field, intended for SAP internal use</description>
+    </column>
+    <column name="RBNR_I" data_type="VARCHAR">
+      <description>Data origin indicator</description>
+    </column>
+    <column name="IBLNR" data_type="VARCHAR">
+      <description>Physical Inventory Document</description>
+    </column>
+    <column name="BLDAT" data_type="DATE">
+      <description>Document Date in Document</description>
+    </column>
+    <column name="PVS_FOCUS" data_type="VARCHAR">
+      <description>Internal Identification for PVS Objects</description>
+    </column>
+    <column name="PPEGUID" data_type="VARCHAR">
+      <description>Internal Identification for PVS Objects</description>
+    </column>
+    <column name="TECHS" data_type="VARCHAR">
+      <description>Parameter Variant/Standard Variant</description>
+    </column>
+    <column name="FUNCID" data_type="VARCHAR">
+      <description>Function Identifier</description>
+    </column>
+    <column name="FRCFIT" data_type="VARCHAR">
+      <description>Indicator: Forced Installation/Dismantling</description>
+    </column>
+    <column name="FRCRMV" data_type="VARCHAR">
+      <description>Force Dismantling Flag</description>
+    </column>
+  </columns>
+</data_description>

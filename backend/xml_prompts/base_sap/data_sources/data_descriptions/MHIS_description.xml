@@ -1,0 +1,198 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="MHIS">
+  <table_info name="MHIS" total_columns="64"/>
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="WARPL" data_type="VARCHAR">
+      <description>Maintenance Plan</description>
+    </column>
+    <column name="ABNUM" data_type="INTEGER">
+      <description>Maintenance Plan Call Number</description>
+    </column>
+    <column name="ZAEHL" data_type="VARCHAR">
+      <description>Maintenance Package Number</description>
+    </column>
+    <column name="NPLDA" data_type="DATE">
+      <description>Next planned date</description>
+    </column>
+    <column name="TERMA" data_type="VARCHAR">
+      <description>Scheduling type</description>
+    </column>
+    <column name="STADT" data_type="DATE">
+      <description>Start date</description>
+    </column>
+    <column name="LRMDT" data_type="DATE">
+      <description>Date of last completion in maintenance plan</description>
+    </column>
+    <column name="OFFZE" data_type="FLOAT">
+      <description>Offset in current cycle</description>
+    </column>
+    <column name="OFFZO" data_type="FLOAT">
+      <description>Previous offset</description>
+    </column>
+    <column name="ABRUD" data_type="DATE">
+      <description>Date of the call</description>
+    </column>
+    <column name="ABRNA" data_type="VARCHAR">
+      <description>Name of the person who made the call</description>
+    </column>
+    <column name="SFAKT" data_type="DECIMAL">
+      <description>Cycle modification factor</description>
+    </column>
+    <column name="TERMK" data_type="VARCHAR">
+      <description>Scheduling indicator</description>
+    </column>
+    <column name="VERSCH" data_type="VARCHAR">
+      <description>Shift Factor for Late Completion</description>
+    </column>
+    <column name="TOLER" data_type="VARCHAR">
+      <description>Tolerance for Late Completion (%)</description>
+    </column>
+    <column name="KNNRM" data_type="VARCHAR">
+      <description>Indicator for negative completion confirmation</description>
+    </column>
+    <column name="KNPRM" data_type="VARCHAR">
+      <description>Indicator: planned counter reading set manually</description>
+    </column>
+    <column name="NPLDO" data_type="DATE">
+      <description>Last planned date</description>
+    </column>
+    <column name="NPLDZ" data_type="DATE">
+      <description>Completion for Predecessor</description>
+    </column>
+    <column name="MANDA" data_type="DATE">
+      <description>Manual call date</description>
+    </column>
+    <column name="OFFLE" data_type="FLOAT">
+      <description>Estimated annual performance</description>
+    </column>
+    <column name="OFFLO" data_type="FLOAT">
+      <description>Shift factor</description>
+    </column>
+    <column name="KNAUT" data_type="VARCHAR">
+      <description>Reserved</description>
+    </column>
+    <column name="KNASR" data_type="VARCHAR">
+      <description>Indicator for leading cycle (multi-counter plan) -&gt; internal</description>
+    </column>
+    <column name="TSABR" data_type="VARCHAR">
+      <description>Scheduling status: planned date called</description>
+    </column>
+    <column name="TSVBT" data_type="VARCHAR">
+      <description>Scheduling status: call outstanding</description>
+    </column>
+    <column name="TSENQ" data_type="VARCHAR">
+      <description>Scheduling status: call horizon not reached</description>
+    </column>
+    <column name="TSENM" data_type="VARCHAR">
+      <description>Scheduling status: stopped manually</description>
+    </column>
+    <column name="HORDA" data_type="DATE">
+      <description>Call date</description>
+    </column>
+    <column name="TSTAT" data_type="VARCHAR">
+      <description>Scheduling status</description>
+    </column>
+    <column name="FIXDU" data_type="VARCHAR">
+      <description>Fixed or skipped by</description>
+    </column>
+    <column name="FIXDA" data_type="DATE">
+      <description>Fixed/skipped on</description>
+    </column>
+    <column name="VGNUM" data_type="INTEGER">
+      <description>Previous maintenance plan call</description>
+    </column>
+    <column name="ZYKZT" data_type="FLOAT">
+      <description>Maintenance package cycle/offset</description>
+    </column>
+    <column name="ZYKLS" data_type="FLOAT">
+      <description>Total counter reading on call date</description>
+    </column>
+    <column name="PUFFP" data_type="VARCHAR">
+      <description>Lead Float in Days</description>
+    </column>
+    <column name="PUFFN" data_type="VARCHAR">
+      <description>Follow-up float in days</description>
+    </column>
+    <column name="SZAEH" data_type="FLOAT">
+      <description>Start counter reading</description>
+    </column>
+    <column name="RZAEH" data_type="FLOAT">
+      <description>Counter reading confirmation</description>
+    </column>
+    <column name="NZAEH" data_type="FLOAT">
+      <description>Next planned counter reading</description>
+    </column>
+    <column name="USERMOD" data_type="VARCHAR">
+      <description>Scheduling determined by user</description>
+    </column>
+    <column name="DEMAND_ID" data_type="VARCHAR">
+      <description>Demand Id</description>
+    </column>
+    <column name="DEMAND_NO" data_type="VARCHAR">
+      <description>APO Demand Number</description>
+    </column>
+    <column name="REVISION_NO" data_type="VARCHAR">
+      <description>Revision for Plant Maintenance and Customer Service</description>
+    </column>
+    <column name="REV_PLANT" data_type="VARCHAR">
+      <description>Maintenance Planning Plant</description>
+    </column>
+    <column name="ADPOINT" data_type="VARCHAR">
+      <description>Measuring Point</description>
+    </column>
+    <column name="ADANDOR" data_type="VARCHAR">
+      <description>Indicator for OR or AND link</description>
+    </column>
+    <column name="ADTGOON" data_type="VARCHAR">
+      <description>Scheduling to reoccur when lead float reached</description>
+    </column>
+    <column name="ADCYCLE" data_type="FLOAT">
+      <description>Maintenance package cycle/offset</description>
+    </column>
+    <column name="ADUNIT" data_type="VARCHAR">
+      <description>Unit for the performance of maintenance tasks</description>
+    </column>
+    <column name="ADOFFSET" data_type="FLOAT">
+      <description>Start offset of a time-based maintenance package</description>
+    </column>
+    <column name="ADNZAEH" data_type="FLOAT">
+      <description>Next planned counter reading</description>
+    </column>
+    <column name="ADSTTIME" data_type="TIME">
+      <description>Start Time for Scheduling</description>
+    </column>
+    <column name="ADCONFTIME" data_type="TIME">
+      <description>Time of Last Completion in Maintenance Plan</description>
+    </column>
+    <column name="CYCLESEQIND" data_type="VARCHAR">
+      <description>Cycle Set Sequence</description>
+    </column>
+    <column name="ADEXTSTARTDATE" data_type="DATE">
+      <description>Maintenance Plan Start Date Set Externally</description>
+    </column>
+    <column name="ADEXTSTARTTIME" data_type="TIME">
+      <description>Maintenance Plan Start Time Set Externally</description>
+    </column>
+    <column name="ADSYSTARTDATE" data_type="DATE">
+      <description>System Date for Maintenance Plan Start</description>
+    </column>
+    <column name="ADSYSTARTTIME" data_type="TIME">
+      <description>System Time for Maintenance Plan Start</description>
+    </column>
+    <column name="ADOBJECT" data_type="VARCHAR">
+      <description>Object number</description>
+    </column>
+    <column name="SETREPEATIND" data_type="VARCHAR">
+      <description>Repeat Factor for Cycle Set Sequence</description>
+    </column>
+    <column name="IND_MPLA_API" data_type="VARCHAR">
+      <description>Maintenance Plan Was Created/Changed by API</description>
+    </column>
+    <column name="DUE_DATE_TIME" data_type="TIME">
+      <description>Start Time for Scheduling</description>
+    </column>
+  </columns>
+</data_description>

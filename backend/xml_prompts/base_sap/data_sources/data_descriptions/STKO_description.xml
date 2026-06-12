@@ -1,0 +1,102 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="STKO">
+  <table_info name="STKO" total_columns="32"/>
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="STLTY" data_type="VARCHAR">
+      <description>BOM category</description>
+    </column>
+    <column name="STLNR" data_type="VARCHAR">
+      <description>Bill of material</description>
+    </column>
+    <column name="STLAL" data_type="VARCHAR">
+      <description>Alternative BOM</description>
+    </column>
+    <column name="STKOZ" data_type="VARCHAR">
+      <description>Internal counter</description>
+    </column>
+    <column name="DATUV" data_type="DATE">
+      <description>Valid-From Date</description>
+    </column>
+    <column name="TECHV" data_type="VARCHAR">
+      <description>Technical status from</description>
+    </column>
+    <column name="AENNR" data_type="VARCHAR">
+      <description>Change Number</description>
+    </column>
+    <column name="LKENZ" data_type="VARCHAR">
+      <description>Deletion Indicator</description>
+    </column>
+    <column name="LOEKZ" data_type="VARCHAR">
+      <description>Deletion flag for BOMs</description>
+    </column>
+    <column name="VGKZL" data_type="VARCHAR">
+      <description>Previous header counter</description>
+    </column>
+    <column name="ANDAT" data_type="DATE">
+      <description>Date record created on</description>
+    </column>
+    <column name="ANNAM" data_type="VARCHAR">
+      <description>User who created record</description>
+    </column>
+    <column name="AEDAT" data_type="DATE">
+      <description>Last Changed On</description>
+    </column>
+    <column name="AENAM" data_type="VARCHAR">
+      <description>Name of Person Who Changed Object</description>
+    </column>
+    <column name="BMEIN" data_type="VARCHAR">
+      <description>Base unit of measure for BOM</description>
+    </column>
+    <column name="BMENG" data_type="DECIMAL">
+      <description>Base quantity</description>
+    </column>
+    <column name="CADKZ" data_type="VARCHAR">
+      <description>CAD Indicator</description>
+    </column>
+    <column name="LABOR" data_type="VARCHAR">
+      <description>Laboratory/design office</description>
+    </column>
+    <column name="LTXSP" data_type="VARCHAR">
+      <description>Long Text Language, for Creation of a Change Document</description>
+    </column>
+    <column name="STKTX" data_type="VARCHAR">
+      <description>Alternative BOM Text</description>
+    </column>
+    <column name="STLST" data_type="VARCHAR">
+      <description>BOM status</description>
+    </column>
+    <column name="WRKAN" data_type="VARCHAR">
+      <description>Plant where BOM or alternative/variant created</description>
+    </column>
+    <column name="DVDAT" data_type="DATE">
+      <description>Date of last date shift</description>
+    </column>
+    <column name="DVNAM" data_type="VARCHAR">
+      <description>Name of the user who carried out the date shift</description>
+    </column>
+    <column name="AEHLP" data_type="VARCHAR">
+      <description>Date Shift Hierarchy Indicator</description>
+    </column>
+    <column name="ALEKZ" data_type="VARCHAR">
+      <description>ALE indicator</description>
+    </column>
+    <column name="GUIDX" data_type="VARCHAR">
+      <description>Global identification of a BOM header change status</description>
+    </column>
+    <column name="VALID_TO" data_type="DATE">
+      <description>Valid-to date</description>
+    </column>
+    <column name="VALID_TO_RKEY" data_type="DATE">
+      <description>Valid-to date</description>
+    </column>
+    <column name="ECN_TO" data_type="VARCHAR">
+      <description>Change Number To</description>
+    </column>
+    <column name="ECN_TO_RKEY" data_type="VARCHAR">
+      <description>Change Number To</description>
+    </column>
+  </columns>
+</data_description>

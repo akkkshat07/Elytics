@@ -1,0 +1,135 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="PA0031">
+  <table_info name="PA0031" total_columns="43"/>
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="PERNR" data_type="VARCHAR">
+      <description>Personnel Number</description>
+    </column>
+    <column name="SUBTY" data_type="VARCHAR">
+      <description>Subtype</description>
+    </column>
+    <column name="OBJPS" data_type="VARCHAR">
+      <description>Object Identification</description>
+    </column>
+    <column name="SPRPS" data_type="VARCHAR">
+      <description>Lock Indicator for HR Master Data Record</description>
+    </column>
+    <column name="ENDDA" data_type="DATE">
+      <description>End Date</description>
+    </column>
+    <column name="BEGDA" data_type="DATE">
+      <description>Start Date</description>
+    </column>
+    <column name="SEQNR" data_type="VARCHAR">
+      <description>Number of Infotype Record With Same Key</description>
+    </column>
+    <column name="AEDTM" data_type="DATE">
+      <description>Last Changed On</description>
+    </column>
+    <column name="UNAME" data_type="VARCHAR">
+      <description>Name of Person Who Changed Object</description>
+    </column>
+    <column name="HISTO" data_type="VARCHAR">
+      <description>Historical Record Flag</description>
+    </column>
+    <column name="ITXEX" data_type="VARCHAR">
+      <description>Text Exists for Infotype</description>
+    </column>
+    <column name="REFEX" data_type="VARCHAR">
+      <description>Reference Fields Exist (Primary/Secondary Costs)</description>
+    </column>
+    <column name="ORDEX" data_type="VARCHAR">
+      <description>Confirmation Fields Exist</description>
+    </column>
+    <column name="ITBLD" data_type="VARCHAR">
+      <description>Infotype Screen Control</description>
+    </column>
+    <column name="PREAS" data_type="VARCHAR">
+      <description>Reason for Changing Master Data</description>
+    </column>
+    <column name="FLAG1" data_type="VARCHAR">
+      <description>Reserved Field/Unused Field</description>
+    </column>
+    <column name="FLAG2" data_type="VARCHAR">
+      <description>Reserved Field/Unused Field</description>
+    </column>
+    <column name="FLAG3" data_type="VARCHAR">
+      <description>Reserved Field/Unused Field</description>
+    </column>
+    <column name="FLAG4" data_type="VARCHAR">
+      <description>Reserved Field/Unused Field</description>
+    </column>
+    <column name="RESE1" data_type="VARCHAR">
+      <description>Reserved Field/Unused Field of Length 2</description>
+    </column>
+    <column name="RESE2" data_type="VARCHAR">
+      <description>Reserved Field/Unused Field of Length 2</description>
+    </column>
+    <column name="GRPVL" data_type="VARCHAR">
+      <description>Grouping Value for Personnel Assignments</description>
+    </column>
+    <column name="RFP01" data_type="VARCHAR">
+      <description>Reference Personnel Number</description>
+    </column>
+    <column name="RFP02" data_type="VARCHAR">
+      <description>Reference Personnel Number</description>
+    </column>
+    <column name="RFP03" data_type="VARCHAR">
+      <description>Reference Personnel Number</description>
+    </column>
+    <column name="RFP04" data_type="VARCHAR">
+      <description>Reference Personnel Number</description>
+    </column>
+    <column name="RFP05" data_type="VARCHAR">
+      <description>Reference Personnel Number</description>
+    </column>
+    <column name="RFP06" data_type="VARCHAR">
+      <description>Reference Personnel Number</description>
+    </column>
+    <column name="RFP07" data_type="VARCHAR">
+      <description>Reference Personnel Number</description>
+    </column>
+    <column name="RFP08" data_type="VARCHAR">
+      <description>Reference Personnel Number</description>
+    </column>
+    <column name="RFP09" data_type="VARCHAR">
+      <description>Reference Personnel Number</description>
+    </column>
+    <column name="RFP10" data_type="VARCHAR">
+      <description>Reference Personnel Number</description>
+    </column>
+    <column name="RFP11" data_type="VARCHAR">
+      <description>Reference Personnel Number</description>
+    </column>
+    <column name="RFP12" data_type="VARCHAR">
+      <description>Reference Personnel Number</description>
+    </column>
+    <column name="RFP13" data_type="VARCHAR">
+      <description>Reference Personnel Number</description>
+    </column>
+    <column name="RFP14" data_type="VARCHAR">
+      <description>Reference Personnel Number</description>
+    </column>
+    <column name="RFP15" data_type="VARCHAR">
+      <description>Reference Personnel Number</description>
+    </column>
+    <column name="RFP16" data_type="VARCHAR">
+      <description>Reference Personnel Number</description>
+    </column>
+    <column name="RFP17" data_type="VARCHAR">
+      <description>Reference Personnel Number</description>
+    </column>
+    <column name="RFP18" data_type="VARCHAR">
+      <description>Reference Personnel Number</description>
+    </column>
+    <column name="RFP19" data_type="VARCHAR">
+      <description>Reference Personnel Number</description>
+    </column>
+    <column name="RFP20" data_type="VARCHAR">
+      <description>Reference Personnel Number</description>
+    </column>
+  </columns>
+</data_description>

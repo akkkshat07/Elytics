@@ -1,0 +1,114 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="T134">
+  <table_info name="T134" total_columns="36"/>
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="MTART" data_type="VARCHAR">
+      <description>Material Type</description>
+    </column>
+    <column name="MTREF" data_type="VARCHAR">
+      <description>Reference material type</description>
+    </column>
+    <column name="MBREF" data_type="VARCHAR">
+      <description>Screen reference depending on the material type</description>
+    </column>
+    <column name="FLREF" data_type="VARCHAR">
+      <description>Field reference for material master</description>
+    </column>
+    <column name="NUMKI" data_type="VARCHAR">
+      <description>Number Range</description>
+    </column>
+    <column name="NUMKE" data_type="VARCHAR">
+      <description>Number Range</description>
+    </column>
+    <column name="ENVOP" data_type="VARCHAR">
+      <description>External Number Assignment Without Validation</description>
+    </column>
+    <column name="BSEXT" data_type="VARCHAR">
+      <description>External Purchase Orders Allowed</description>
+    </column>
+    <column name="BSINT" data_type="VARCHAR">
+      <description>Internal purchase orders allowed</description>
+    </column>
+    <column name="PSTAT" data_type="VARCHAR">
+      <description>Maintenance status</description>
+    </column>
+    <column name="KKREF" data_type="VARCHAR">
+      <description>Account category reference</description>
+    </column>
+    <column name="VPRSV" data_type="VARCHAR">
+      <description>Price control indicator</description>
+    </column>
+    <column name="KZVPR" data_type="VARCHAR">
+      <description>Price Control Mandatory</description>
+    </column>
+    <column name="VMTPO" data_type="VARCHAR">
+      <description>Default value for material item category group</description>
+    </column>
+    <column name="EKALR" data_type="VARCHAR">
+      <description>Material Is Costed with Quantity Structure</description>
+    </column>
+    <column name="KZGRP" data_type="VARCHAR">
+      <description>Grouping indicator</description>
+    </column>
+    <column name="KZKFG" data_type="VARCHAR">
+      <description>Configurable Material</description>
+    </column>
+    <column name="BEGRU" data_type="VARCHAR">
+      <description>Authorization group in the material master</description>
+    </column>
+    <column name="KZPRC" data_type="VARCHAR">
+      <description>Material Master Record for a Process</description>
+    </column>
+    <column name="KZPIP" data_type="VARCHAR">
+      <description>Pipeline Handling Mandatory</description>
+    </column>
+    <column name="PRDRU" data_type="VARCHAR">
+      <description>Display price on cash register display and print on receipt</description>
+    </column>
+    <column name="ARANZ" data_type="VARCHAR">
+      <description>Display material on cash register display</description>
+    </column>
+    <column name="WMAKG" data_type="VARCHAR">
+      <description>Material type ID</description>
+    </column>
+    <column name="IZUST" data_type="VARCHAR">
+      <description>Initial status of a new batch</description>
+    </column>
+    <column name="ARDEL" data_type="VARCHAR">
+      <description>Time in days until a material is deleted</description>
+    </column>
+    <column name="KZMPN" data_type="VARCHAR">
+      <description>Manufacturer Part</description>
+    </column>
+    <column name="MSTAE" data_type="VARCHAR">
+      <description>Cross-Plant Material Status</description>
+    </column>
+    <column name="CCHIS" data_type="VARCHAR">
+      <description>Control (time) of history requirement: Material</description>
+    </column>
+    <column name="CTYPE" data_type="VARCHAR">
+      <description>Class Type</description>
+    </column>
+    <column name="CLASS" data_type="VARCHAR">
+      <description>Class number</description>
+    </column>
+    <column name="CHNEU" data_type="VARCHAR">
+      <description>Batch Creation Control (Automatic/Manual)</description>
+    </column>
+    <column name="VTYPE" data_type="VARCHAR">
+      <description>Version Category</description>
+    </column>
+    <column name="VNUMKI" data_type="VARCHAR">
+      <description>Number Range</description>
+    </column>
+    <column name="VNUMKE" data_type="VARCHAR">
+      <description>Number Range</description>
+    </column>
+    <column name="KZRAC" data_type="VARCHAR">
+      <description>Returnable Packaging Logistics is mandatory</description>
+    </column>
+  </columns>
+</data_description>

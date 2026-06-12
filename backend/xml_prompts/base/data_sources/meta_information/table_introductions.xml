@@ -1,0 +1,6 @@
+<?xml version="1.0" ?>
+<meta_information type="table_introductions">
+  <table_introductions>
+    <table_introduction table_name="{CLIENT}_DATA">Primary business dataset containing core operational metrics and dimension attributes. This centralized table consolidates key transaction or snapshot data, allowing for trend analysis across Categories, Segments, and Entities. It includes fundamental metrics like Value (monetary) and Quantity (volume) mapped against a timeline (Date) for period-over-period performance tracking and dimensional drill-downs.</table_introduction>
+  </table_introductions>
+</meta_information>

@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="T001P">
+  <table_info name="T001P" total_columns="23" />
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="WERKS" data_type="VARCHAR">
+      <description>Personnel Area</description>
+    </column>
+    <column name="BTRTL" data_type="VARCHAR">
+      <description>Personnel Subarea</description>
+    </column>
+    <column name="BTEXT" data_type="VARCHAR">
+      <description>Personnel Subarea Text</description>
+    </column>
+    <column name="MOLGA" data_type="VARCHAR">
+      <description>Country Grouping</description>
+    </column>
+    <column name="MOURA" data_type="VARCHAR">
+      <description>Personnel Subarea Grouping for Leave Types</description>
+    </column>
+    <column name="TRFGB" data_type="VARCHAR">
+      <description>Pay Scale Area</description>
+    </column>
+    <column name="TRFAR" data_type="VARCHAR">
+      <description>Pay scale type</description>
+    </column>
+    <column name="MOABW" data_type="VARCHAR">
+      <description>Personnel subarea grouping for absence and attendance types</description>
+    </column>
+    <column name="MOABT" data_type="VARCHAR">
+      <description>Reserved Field/Unused Field of Length 2</description>
+    </column>
+    <column name="MOTAT" data_type="VARCHAR">
+      <description>Reserved Field/Unused Field of Length 2</description>
+    </column>
+    <column name="MOVER" data_type="VARCHAR">
+      <description>Personnel Subarea Grpg for Substitution/Availability Types</description>
+    </column>
+    <column name="URLKL" data_type="VARCHAR">
+      <description>PS grouping for attendance and absence counting</description>
+    </column>
+    <column name="JUPER" data_type="VARCHAR">
+      <description>Legal Person</description>
+    </column>
+    <column name="MOBDE" data_type="VARCHAR">
+      <description>Grouping of Personnel Subareas for Time Recording</description>
+    </column>
+    <column name="MOZKO" data_type="VARCHAR">
+      <description>Grouping of Personnel Subareas for Time Quota Types</description>
+    </column>
+    <column name="MOPTB" data_type="VARCHAR">
+      <description>Personnel subarea grouping for premiums</description>
+    </column>
+    <column name="WKTYP" data_type="VARCHAR">
+      <description>Personnel Subarea for Primary Wage Type and Wage Maintenance</description>
+    </column>
+    <column name="MOSTA" data_type="VARCHAR">
+      <description>Statistics Modifier</description>
+    </column>
+    <column name="MOBUR" data_type="VARCHAR">
+      <description>Personnel Subarea Grouping for Appraisals</description>
+    </column>
+    <column name="MOFID" data_type="VARCHAR">
+      <description>Public Holiday Calendar</description>
+    </column>
+    <column name="MOSID" data_type="VARCHAR">
+      <description>Personnel Subarea Grouping for Work Schedules</description>
+    </column>
+    <column name="MODSZ" data_type="VARCHAR">
+      <description>Reserved Field/Unused Field of Length 2</description>
+    </column>
+  </columns>
+</data_description>

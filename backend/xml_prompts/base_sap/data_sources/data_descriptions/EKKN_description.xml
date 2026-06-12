@@ -1,0 +1,249 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="EKKN">
+  <table_info name="EKKN" total_columns="81"/>
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="EBELN" data_type="VARCHAR">
+      <description>Purchasing Document Number</description>
+    </column>
+    <column name="EBELP" data_type="VARCHAR">
+      <description>Item Number of Purchasing Document</description>
+    </column>
+    <column name="ZEKKN" data_type="VARCHAR">
+      <description>Sequential Number of Account Assignment</description>
+    </column>
+    <column name="LOEKZ" data_type="VARCHAR">
+      <description>Deletion Indicator: Purchasing Document Account Assignment</description>
+    </column>
+    <column name="AEDAT" data_type="DATE">
+      <description>Date on Which Record Was Created</description>
+    </column>
+    <column name="KFLAG" data_type="VARCHAR">
+      <description>Change flag: Purchasing (currently not used)</description>
+    </column>
+    <column name="MENGE" data_type="DECIMAL">
+      <description>Quantity</description>
+    </column>
+    <column name="VPROZ" data_type="DECIMAL">
+      <description>Distribution percentage in the case of multiple acct assgt</description>
+    </column>
+    <column name="NETWR" data_type="DECIMAL">
+      <description>Net Order Value in PO Currency</description>
+    </column>
+    <column name="SAKTO" data_type="VARCHAR">
+      <description>G/L Account Number</description>
+    </column>
+    <column name="GSBER" data_type="VARCHAR">
+      <description>Business Area</description>
+    </column>
+    <column name="KOSTL" data_type="VARCHAR">
+      <description>Cost Center</description>
+    </column>
+    <column name="PROJN" data_type="VARCHAR">
+      <description>Old: Project number : No longer used --&gt; PS_POSNR</description>
+    </column>
+    <column name="VBELN" data_type="VARCHAR">
+      <description>Sales and Distribution Document Number</description>
+    </column>
+    <column name="VBELP" data_type="VARCHAR">
+      <description>Sales Document Item</description>
+    </column>
+    <column name="VETEN" data_type="VARCHAR">
+      <description>Schedule Line Number</description>
+    </column>
+    <column name="KZBRB" data_type="VARCHAR">
+      <description>Gross requirements indicator</description>
+    </column>
+    <column name="ANLN1" data_type="VARCHAR">
+      <description>Main Asset Number</description>
+    </column>
+    <column name="ANLN2" data_type="VARCHAR">
+      <description>Asset Subnumber</description>
+    </column>
+    <column name="AUFNR" data_type="VARCHAR">
+      <description>Order Number</description>
+    </column>
+    <column name="WEMPF" data_type="VARCHAR">
+      <description>Goods recipient</description>
+    </column>
+    <column name="ABLAD" data_type="VARCHAR">
+      <description>Unloading Point</description>
+    </column>
+    <column name="KOKRS" data_type="VARCHAR">
+      <description>Controlling Area</description>
+    </column>
+    <column name="XBKST" data_type="VARCHAR">
+      <description>Posting to cost center?</description>
+    </column>
+    <column name="XBAUF" data_type="VARCHAR">
+      <description>Post To Order</description>
+    </column>
+    <column name="XBPRO" data_type="VARCHAR">
+      <description>Post to project</description>
+    </column>
+    <column name="EREKZ" data_type="VARCHAR">
+      <description>Final Invoice Indicator</description>
+    </column>
+    <column name="KSTRG" data_type="VARCHAR">
+      <description>Cost Object</description>
+    </column>
+    <column name="PAOBJNR" data_type="VARCHAR">
+      <description>Profitability Segment Number (CO-PA)</description>
+    </column>
+    <column name="PRCTR" data_type="VARCHAR">
+      <description>Profit Center</description>
+    </column>
+    <column name="PS_PSP_PNR" data_type="VARCHAR">
+      <description>Work Breakdown Structure Element (WBS Element)</description>
+    </column>
+    <column name="NPLNR" data_type="VARCHAR">
+      <description>Network Number for Account Assignment</description>
+    </column>
+    <column name="AUFPL" data_type="VARCHAR">
+      <description>Routing number of operations in the order</description>
+    </column>
+    <column name="IMKEY" data_type="VARCHAR">
+      <description>Internal Key for Real Estate Object</description>
+    </column>
+    <column name="APLZL" data_type="VARCHAR">
+      <description>Internal counter</description>
+    </column>
+    <column name="VPTNR" data_type="VARCHAR">
+      <description>Partner account number</description>
+    </column>
+    <column name="FIPOS" data_type="VARCHAR">
+      <description>Commitment Item</description>
+    </column>
+    <column name="RECID" data_type="VARCHAR">
+      <description>Recovery Indicator</description>
+    </column>
+    <column name="ZZSPREG" data_type="VARCHAR">
+      <description>Special Region</description>
+    </column>
+    <column name="ZZBUSPARTN" data_type="VARCHAR">
+      <description>Business partner</description>
+    </column>
+    <column name="ZZPRODUCT" data_type="VARCHAR">
+      <description>Product group</description>
+    </column>
+    <column name="ZZLOCA" data_type="VARCHAR">
+      <description>City</description>
+    </column>
+    <column name="ZZCHAN" data_type="VARCHAR">
+      <description>Distribution channel</description>
+    </column>
+    <column name="ZZLOB" data_type="VARCHAR">
+      <description>BUSINESS LINE</description>
+    </column>
+    <column name="ZZNFAL" data_type="VARCHAR">
+      <description/>
+    </column>
+    <column name="ZZUSERFLD1" data_type="VARCHAR">
+      <description>Territory</description>
+    </column>
+    <column name="ZZUSERFLD2" data_type="VARCHAR">
+      <description>Owner/Cont.</description>
+    </column>
+    <column name="ZZUSERFLD3" data_type="VARCHAR">
+      <description>Vein</description>
+    </column>
+    <column name="ZZREGION" data_type="VARCHAR">
+      <description>Location</description>
+    </column>
+    <column name="ZZSTATE" data_type="VARCHAR">
+      <description>State/Province Code</description>
+    </column>
+    <column name="FISTL" data_type="VARCHAR">
+      <description>Funds Center</description>
+    </column>
+    <column name="GEBER" data_type="VARCHAR">
+      <description>Fund</description>
+    </column>
+    <column name="FKBER" data_type="VARCHAR">
+      <description>Functional Area</description>
+    </column>
+    <column name="DABRZ" data_type="DATE">
+      <description>Reference date for settlement</description>
+    </column>
+    <column name="AUFPL_ORD" data_type="VARCHAR">
+      <description>Routing number of operations in the order</description>
+    </column>
+    <column name="APLZL_ORD" data_type="VARCHAR">
+      <description>General counter for order</description>
+    </column>
+    <column name="MWSKZ" data_type="VARCHAR">
+      <description>Tax on Sales/Purchases Code</description>
+    </column>
+    <column name="TXJCD" data_type="VARCHAR">
+      <description>Tax Jurisdiction</description>
+    </column>
+    <column name="NAVNW" data_type="DECIMAL">
+      <description>Non-deductible input tax</description>
+    </column>
+    <column name="KBLNR" data_type="VARCHAR">
+      <description>Document Number for Earmarked Funds</description>
+    </column>
+    <column name="KBLPOS" data_type="VARCHAR">
+      <description>Earmarked Funds: Document Item</description>
+    </column>
+    <column name="LSTAR" data_type="VARCHAR">
+      <description>Activity Type</description>
+    </column>
+    <column name="PRZNR" data_type="VARCHAR">
+      <description>Business Process</description>
+    </column>
+    <column name="GRANT_NBR" data_type="VARCHAR">
+      <description>Grant</description>
+    </column>
+    <column name="BUDGET_PD" data_type="VARCHAR">
+      <description>FM: Budget Period</description>
+    </column>
+    <column name="FM_SPLIT_BATCH" data_type="VARCHAR">
+      <description>Batch to group results from an PSM assignment distribution</description>
+    </column>
+    <column name="FM_SPLIT_BEGRU" data_type="VARCHAR">
+      <description>Authorization group for PSM account assignment distribution</description>
+    </column>
+    <column name="AA_FINAL_IND" data_type="VARCHAR">
+      <description>Final Account Assignment Indicator</description>
+    </column>
+    <column name="AA_FINAL_REASON" data_type="VARCHAR">
+      <description>Final Account Assignment Reason Code</description>
+    </column>
+    <column name="AA_FINAL_QTY" data_type="DECIMAL">
+      <description>Final Account Assignment Quantity</description>
+    </column>
+    <column name="AA_FINAL_QTY_F" data_type="FLOAT">
+      <description>Final Account Assignment Quantity (Floating Point Number)</description>
+    </column>
+    <column name="MENGE_F" data_type="FLOAT">
+      <description>Quantity (Floating Point Number - Internal Field)</description>
+    </column>
+    <column name="FMFGUS_KEY" data_type="VARCHAR">
+      <description>United States Federal Government Fields</description>
+    </column>
+    <column name="EGRUP" data_type="VARCHAR">
+      <description>Equity Group</description>
+    </column>
+    <column name="VNAME" data_type="VARCHAR">
+      <description>Joint Venture</description>
+    </column>
+    <column name="TCOBJNR" data_type="VARCHAR">
+      <description>Object number</description>
+    </column>
+    <column name="DATEOFSERVICE" data_type="DATE">
+      <description>Date of Service</description>
+    </column>
+    <column name="NOTAXCORR" data_type="VARCHAR">
+      <description>Do Not Consider Item in Input Tax Correction</description>
+    </column>
+    <column name="DIFFOPTRATE" data_type="DECIMAL">
+      <description>Real Estate Option Rate</description>
+    </column>
+    <column name="HASDIFFOPTRATE" data_type="VARCHAR">
+      <description>Use Different Option Rate</description>
+    </column>
+  </columns>
+</data_description>

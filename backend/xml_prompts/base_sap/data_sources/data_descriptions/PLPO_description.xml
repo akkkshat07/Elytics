@@ -1,0 +1,684 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="PLPO">
+  <table_info name="PLPO" total_columns="226"/>
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="PLNTY" data_type="VARCHAR">
+      <description>Task List Type</description>
+    </column>
+    <column name="PLNNR" data_type="VARCHAR">
+      <description>Key for Task List Group</description>
+    </column>
+    <column name="PLNKN" data_type="VARCHAR">
+      <description>Number of the task list node</description>
+    </column>
+    <column name="ZAEHL" data_type="VARCHAR">
+      <description>Internal counter</description>
+    </column>
+    <column name="DATUV" data_type="DATE">
+      <description>Valid-From Date</description>
+    </column>
+    <column name="TECHV" data_type="VARCHAR">
+      <description>Technical status from</description>
+    </column>
+    <column name="AENNR" data_type="VARCHAR">
+      <description>Change Number</description>
+    </column>
+    <column name="LOEKZ" data_type="VARCHAR">
+      <description>Deletion Indicator</description>
+    </column>
+    <column name="PARKZ" data_type="VARCHAR">
+      <description>Indicator: inactive changes</description>
+    </column>
+    <column name="ANDAT" data_type="DATE">
+      <description>Date record created on</description>
+    </column>
+    <column name="ANNAM" data_type="VARCHAR">
+      <description>User who created record</description>
+    </column>
+    <column name="AEDAT" data_type="DATE">
+      <description>Last Changed On</description>
+    </column>
+    <column name="AENAM" data_type="VARCHAR">
+      <description>Name of Person Who Changed Object</description>
+    </column>
+    <column name="SUMNR" data_type="VARCHAR">
+      <description>Node number of the superior operation</description>
+    </column>
+    <column name="VORNR" data_type="VARCHAR">
+      <description>Activity Number</description>
+    </column>
+    <column name="STEUS" data_type="VARCHAR">
+      <description>Control Key</description>
+    </column>
+    <column name="ARBID" data_type="VARCHAR">
+      <description>Object ID</description>
+    </column>
+    <column name="OBJTY" data_type="VARCHAR">
+      <description>Object types of the CIM resource</description>
+    </column>
+    <column name="WERKS" data_type="VARCHAR">
+      <description>Plant</description>
+    </column>
+    <column name="KTSCH" data_type="VARCHAR">
+      <description>Standard text key</description>
+    </column>
+    <column name="LTXA1" data_type="VARCHAR">
+      <description>Operation Short Text</description>
+    </column>
+    <column name="LTXA2" data_type="VARCHAR">
+      <description>Second line of the description</description>
+    </column>
+    <column name="TXTSP" data_type="VARCHAR">
+      <description>Language Key</description>
+    </column>
+    <column name="VPLTY" data_type="VARCHAR">
+      <description>Type of the referenced task list</description>
+    </column>
+    <column name="VPLNR" data_type="VARCHAR">
+      <description>Group of the referenced task list</description>
+    </column>
+    <column name="VPLAL" data_type="VARCHAR">
+      <description>Group counter of the referenced task list</description>
+    </column>
+    <column name="VPLFL" data_type="VARCHAR">
+      <description>Referenced sequence in routing</description>
+    </column>
+    <column name="VINTV" data_type="DECIMAL">
+      <description>Increment between referenced operations</description>
+    </column>
+    <column name="MEINH" data_type="VARCHAR">
+      <description>Unit of measure for activity</description>
+    </column>
+    <column name="UMREN" data_type="DECIMAL">
+      <description>Denominator for converting rtg and op units of measure</description>
+    </column>
+    <column name="UMREZ" data_type="DECIMAL">
+      <description>Numerator for converting task list and oper. un. of measure</description>
+    </column>
+    <column name="BMSCH" data_type="DECIMAL">
+      <description>Base Quantity</description>
+    </column>
+    <column name="ZMERH" data_type="DECIMAL">
+      <description>Break</description>
+    </column>
+    <column name="ZEIER" data_type="VARCHAR">
+      <description>Unit for Break Time</description>
+    </column>
+    <column name="LAR01" data_type="VARCHAR">
+      <description>Activity Type</description>
+    </column>
+    <column name="VGE01" data_type="VARCHAR">
+      <description>Unit of Measurement of Standard Value</description>
+    </column>
+    <column name="VGW01" data_type="DECIMAL">
+      <description>Standard Value</description>
+    </column>
+    <column name="LAR02" data_type="VARCHAR">
+      <description>Activity Type</description>
+    </column>
+    <column name="VGE02" data_type="VARCHAR">
+      <description>Unit of Measurement of Standard Value</description>
+    </column>
+    <column name="VGW02" data_type="DECIMAL">
+      <description>Standard Value</description>
+    </column>
+    <column name="LAR03" data_type="VARCHAR">
+      <description>Activity Type</description>
+    </column>
+    <column name="VGE03" data_type="VARCHAR">
+      <description>Unit of Measurement of Standard Value</description>
+    </column>
+    <column name="VGW03" data_type="DECIMAL">
+      <description>Standard Value</description>
+    </column>
+    <column name="LAR04" data_type="VARCHAR">
+      <description>Activity Type</description>
+    </column>
+    <column name="VGE04" data_type="VARCHAR">
+      <description>Unit of Measurement of Standard Value</description>
+    </column>
+    <column name="VGW04" data_type="DECIMAL">
+      <description>Standard Value</description>
+    </column>
+    <column name="LAR05" data_type="VARCHAR">
+      <description>Activity Type</description>
+    </column>
+    <column name="VGE05" data_type="VARCHAR">
+      <description>Unit of Measurement of Standard Value</description>
+    </column>
+    <column name="VGW05" data_type="DECIMAL">
+      <description>Standard Value</description>
+    </column>
+    <column name="LAR06" data_type="VARCHAR">
+      <description>Activity Type</description>
+    </column>
+    <column name="VGE06" data_type="VARCHAR">
+      <description>Unit of Measurement of Standard Value</description>
+    </column>
+    <column name="VGW06" data_type="DECIMAL">
+      <description>Standard Value</description>
+    </column>
+    <column name="ZERMA" data_type="VARCHAR">
+      <description>Type of standard value calculation</description>
+    </column>
+    <column name="ZGDAT" data_type="VARCHAR">
+      <description>Date when the standard value was calculated</description>
+    </column>
+    <column name="ZCODE" data_type="VARCHAR">
+      <description>Reference number for standard value code</description>
+    </column>
+    <column name="ZULNR" data_type="VARCHAR">
+      <description>Basis for standard value calculation</description>
+    </column>
+    <column name="RSANZ" data_type="VARCHAR">
+      <description>Number of confirmation slips</description>
+    </column>
+    <column name="PDEST" data_type="VARCHAR">
+      <description>Printer for shop papers</description>
+    </column>
+    <column name="LOANZ" data_type="DECIMAL">
+      <description>Number of Time Tickets</description>
+    </column>
+    <column name="LOART" data_type="VARCHAR">
+      <description>Wage type</description>
+    </column>
+    <column name="QUALF" data_type="VARCHAR">
+      <description>Suitability</description>
+    </column>
+    <column name="ANZMA" data_type="DECIMAL">
+      <description>Number of employees</description>
+    </column>
+    <column name="RFGRP" data_type="VARCHAR">
+      <description>Setup group category</description>
+    </column>
+    <column name="RFSCH" data_type="VARCHAR">
+      <description>Setup group key</description>
+    </column>
+    <column name="RASCH" data_type="VARCHAR">
+      <description>Setup Type Key</description>
+    </column>
+    <column name="AUFAK" data_type="DECIMAL">
+      <description>Scrap factor</description>
+    </column>
+    <column name="LOGRP" data_type="VARCHAR">
+      <description>Wage Group</description>
+    </column>
+    <column name="UEMUS" data_type="VARCHAR">
+      <description>Required overlapping</description>
+    </column>
+    <column name="UEKAN" data_type="VARCHAR">
+      <description>Optional overlapping</description>
+    </column>
+    <column name="FLIES" data_type="VARCHAR">
+      <description>Indicator: continuous flow production</description>
+    </column>
+    <column name="ZEIMU" data_type="VARCHAR">
+      <description>Unit for the minimum overlap time</description>
+    </column>
+    <column name="ZMINU" data_type="DECIMAL">
+      <description>Minimum overlap time</description>
+    </column>
+    <column name="MINWE" data_type="DECIMAL">
+      <description>Minimum Send-Ahead Quantity</description>
+    </column>
+    <column name="SPMUS" data_type="VARCHAR">
+      <description>Required splitting</description>
+    </column>
+    <column name="SPLIM" data_type="DECIMAL">
+      <description>Maximum number of splits</description>
+    </column>
+    <column name="ZEIMB" data_type="VARCHAR">
+      <description>Unit for the minimum processing time</description>
+    </column>
+    <column name="ZMINB" data_type="DECIMAL">
+      <description>Minimum processing time</description>
+    </column>
+    <column name="ZEILM" data_type="VARCHAR">
+      <description>Unit for the maximum wait time</description>
+    </column>
+    <column name="ZLMAX" data_type="DECIMAL">
+      <description>Maximum wait time</description>
+    </column>
+    <column name="ZEILP" data_type="VARCHAR">
+      <description>Unit for the required wait time</description>
+    </column>
+    <column name="ZLPRO" data_type="DECIMAL">
+      <description>Minimum wait time</description>
+    </column>
+    <column name="ZEIWN" data_type="VARCHAR">
+      <description>Unit for the standard queue time</description>
+    </column>
+    <column name="ZWNOR" data_type="DECIMAL">
+      <description>Standard queue time</description>
+    </column>
+    <column name="ZEIWM" data_type="VARCHAR">
+      <description>Unit for the minumum queue time</description>
+    </column>
+    <column name="ZWMIN" data_type="DECIMAL">
+      <description>Minimum queue time</description>
+    </column>
+    <column name="ZEITN" data_type="VARCHAR">
+      <description>Unit for the standard move time</description>
+    </column>
+    <column name="ZTNOR" data_type="DECIMAL">
+      <description>Standard move time</description>
+    </column>
+    <column name="ZEITM" data_type="VARCHAR">
+      <description>Unit for the minimum move time</description>
+    </column>
+    <column name="ZTMIN" data_type="DECIMAL">
+      <description>Minimum move time</description>
+    </column>
+    <column name="ABLIPKZ" data_type="VARCHAR">
+      <description>Indicator: simultaneous teardown and wait</description>
+    </column>
+    <column name="RSTRA" data_type="VARCHAR">
+      <description>Reduction Strategy per Operation</description>
+    </column>
+    <column name="BZOFFB" data_type="VARCHAR">
+      <description>Reference date for start of sub-operation</description>
+    </column>
+    <column name="OFFSTB" data_type="DECIMAL">
+      <description>Offset to sub-operation start</description>
+    </column>
+    <column name="EHOFFB" data_type="VARCHAR">
+      <description>Unit for offset to start</description>
+    </column>
+    <column name="BZOFFE" data_type="VARCHAR">
+      <description>Reference date for finish of sub-operation</description>
+    </column>
+    <column name="OFFSTE" data_type="DECIMAL">
+      <description>Offset to sub-operation finish</description>
+    </column>
+    <column name="EHOFFE" data_type="VARCHAR">
+      <description>Unit for offset to finish</description>
+    </column>
+    <column name="SORTL" data_type="VARCHAR">
+      <description>Sort Term for Non-Stock Info Records</description>
+    </column>
+    <column name="LIFNR" data_type="VARCHAR">
+      <description>Account Number of Supplier</description>
+    </column>
+    <column name="PLIFZ" data_type="DECIMAL">
+      <description>Planned Delivery Time in Days</description>
+    </column>
+    <column name="PREIS" data_type="DECIMAL">
+      <description>Net Price in Purchasing Info Record</description>
+    </column>
+    <column name="PEINH" data_type="DECIMAL">
+      <description>Price unit</description>
+    </column>
+    <column name="SAKTO" data_type="VARCHAR">
+      <description>Cost Element</description>
+    </column>
+    <column name="WAERS" data_type="VARCHAR">
+      <description>Currency Key</description>
+    </column>
+    <column name="INFNR" data_type="VARCHAR">
+      <description>Number of purchasing info record</description>
+    </column>
+    <column name="ESOKZ" data_type="VARCHAR">
+      <description>Purchasing info record category</description>
+    </column>
+    <column name="EKORG" data_type="VARCHAR">
+      <description>Purchasing Organization</description>
+    </column>
+    <column name="EKGRP" data_type="VARCHAR">
+      <description>Purchasing Group for External Processing Activity</description>
+    </column>
+    <column name="KZLGF" data_type="VARCHAR">
+      <description>Indicator: Lot-Size-Independent External Processing</description>
+    </column>
+    <column name="MATKL" data_type="VARCHAR">
+      <description>Material Group</description>
+    </column>
+    <column name="DAUNO" data_type="DECIMAL">
+      <description>Normal duration of the activity</description>
+    </column>
+    <column name="DAUNE" data_type="VARCHAR">
+      <description>Normal duration/unit</description>
+    </column>
+    <column name="DAUMI" data_type="DECIMAL">
+      <description>Minimum activity duration</description>
+    </column>
+    <column name="DAUME" data_type="VARCHAR">
+      <description>Unit for the minimum duration</description>
+    </column>
+    <column name="DDEHN" data_type="VARCHAR">
+      <description>Indicator: flexible duration</description>
+    </column>
+    <column name="EINSA" data_type="VARCHAR">
+      <description>Constraint on the basic start date for the activity</description>
+    </column>
+    <column name="EINSE" data_type="VARCHAR">
+      <description>Constraint on the finish date of the activity</description>
+    </column>
+    <column name="ARBEI" data_type="DECIMAL">
+      <description>Work involved in the activity</description>
+    </column>
+    <column name="ARBEH" data_type="VARCHAR">
+      <description>Unit for work</description>
+    </column>
+    <column name="ANZZL" data_type="INTEGER">
+      <description>Number of capacities required</description>
+    </column>
+    <column name="PRZNT" data_type="INTEGER">
+      <description>Work percentage</description>
+    </column>
+    <column name="VERTL" data_type="VARCHAR">
+      <description>Distribution function for capacity requirements</description>
+    </column>
+    <column name="MLSTN" data_type="VARCHAR">
+      <description>Usage</description>
+    </column>
+    <column name="PPRIO" data_type="VARCHAR">
+      <description>Priority</description>
+    </column>
+    <column name="BUKRS" data_type="VARCHAR">
+      <description>Company Code</description>
+    </column>
+    <column name="SLWID" data_type="VARCHAR">
+      <description>Key word ID for user-defined fields</description>
+    </column>
+    <column name="USR00" data_type="VARCHAR">
+      <description>User field with 20 characters</description>
+    </column>
+    <column name="USR01" data_type="VARCHAR">
+      <description>User field with 20 characters</description>
+    </column>
+    <column name="USR02" data_type="VARCHAR">
+      <description>User field with 10 characters</description>
+    </column>
+    <column name="USR03" data_type="VARCHAR">
+      <description>User field with 10 characters</description>
+    </column>
+    <column name="USR04" data_type="DECIMAL">
+      <description>User field for quantity (length 10.3)</description>
+    </column>
+    <column name="USE04" data_type="VARCHAR">
+      <description>User field: Unit for quantity fields</description>
+    </column>
+    <column name="USR05" data_type="DECIMAL">
+      <description>User field for quantity (length 10.3)</description>
+    </column>
+    <column name="USE05" data_type="VARCHAR">
+      <description>User field: Unit for quantity fields</description>
+    </column>
+    <column name="USR06" data_type="DECIMAL">
+      <description>User-defined field for values (length 10,3)</description>
+    </column>
+    <column name="USE06" data_type="VARCHAR">
+      <description>User field: Unit for value fields</description>
+    </column>
+    <column name="USR07" data_type="DECIMAL">
+      <description>User-defined field for values (length 10,3)</description>
+    </column>
+    <column name="USE07" data_type="VARCHAR">
+      <description>User field: Unit for value fields</description>
+    </column>
+    <column name="USR08" data_type="DATE">
+      <description>User field for date</description>
+    </column>
+    <column name="USR09" data_type="DATE">
+      <description>User field for date</description>
+    </column>
+    <column name="USR10" data_type="VARCHAR">
+      <description>User-defined field: Indicator for reports</description>
+    </column>
+    <column name="USR11" data_type="VARCHAR">
+      <description>User-defined field: Indicator for reports</description>
+    </column>
+    <column name="ANFKO" data_type="VARCHAR">
+      <description>Requesting cost center</description>
+    </column>
+    <column name="ANFKOKRS" data_type="VARCHAR">
+      <description>Controlling area of the requesting cost center</description>
+    </column>
+    <column name="KAPAR" data_type="VARCHAR">
+      <description>Capacity category</description>
+    </column>
+    <column name="INDET" data_type="VARCHAR">
+      <description>Key for calculation</description>
+    </column>
+    <column name="LARNT" data_type="VARCHAR">
+      <description>Activity Type</description>
+    </column>
+    <column name="PRKST" data_type="DECIMAL">
+      <description>Costs in the activity</description>
+    </column>
+    <column name="QRASTERMNG" data_type="DECIMAL">
+      <description>Quantity for Grid Point Definition</description>
+    </column>
+    <column name="QRASTEREH" data_type="VARCHAR">
+      <description>Grid Unit of Measure</description>
+    </column>
+    <column name="ANLZU" data_type="VARCHAR">
+      <description>Syst.Condition</description>
+    </column>
+    <column name="ISTRU" data_type="VARCHAR">
+      <description>Assembly</description>
+    </column>
+    <column name="ISTTY" data_type="VARCHAR">
+      <description>BOM category</description>
+    </column>
+    <column name="ISTNR" data_type="VARCHAR">
+      <description>Bill of material</description>
+    </column>
+    <column name="ISTKN" data_type="VARCHAR">
+      <description>BOM item node number</description>
+    </column>
+    <column name="ISTPO" data_type="VARCHAR">
+      <description>Internal counter</description>
+    </column>
+    <column name="IUPOZ" data_type="VARCHAR">
+      <description>Subitem Number</description>
+    </column>
+    <column name="EBORT" data_type="VARCHAR">
+      <description>Installation Point for Subitem</description>
+    </column>
+    <column name="KALID" data_type="VARCHAR">
+      <description>Factory Calendar</description>
+    </column>
+    <column name="FRSP" data_type="VARCHAR">
+      <description>Earliest possible activity / Latest possible activity</description>
+    </column>
+    <column name="VERTN" data_type="VARCHAR">
+      <description>Distr.cap.reqmts (plant maint.,process order, network)</description>
+    </column>
+    <column name="ZGR01" data_type="VARCHAR">
+      <description>Key for performance efficiency rate</description>
+    </column>
+    <column name="ZGR02" data_type="VARCHAR">
+      <description>Key for performance efficiency rate</description>
+    </column>
+    <column name="ZGR03" data_type="VARCHAR">
+      <description>Key for performance efficiency rate</description>
+    </column>
+    <column name="ZGR04" data_type="VARCHAR">
+      <description>Key for performance efficiency rate</description>
+    </column>
+    <column name="ZGR05" data_type="VARCHAR">
+      <description>Key for performance efficiency rate</description>
+    </column>
+    <column name="ZGR06" data_type="VARCHAR">
+      <description>Key for performance efficiency rate</description>
+    </column>
+    <column name="MDLID" data_type="VARCHAR">
+      <description>Model ID for charge calculation</description>
+    </column>
+    <column name="RUZUS" data_type="VARCHAR">
+      <description>Key: rounding and additional values</description>
+    </column>
+    <column name="BMEIH" data_type="VARCHAR">
+      <description>Operation order quantity unit</description>
+    </column>
+    <column name="BMVRG" data_type="DECIMAL">
+      <description>Purchase Order Quantity: Operation</description>
+    </column>
+    <column name="CKSELKZ" data_type="VARCHAR">
+      <description>Indicator for Relevancy to Costing</description>
+    </column>
+    <column name="KALKZ" data_type="VARCHAR">
+      <description>Cost</description>
+    </column>
+    <column name="NPRIO" data_type="VARCHAR">
+      <description>Priority</description>
+    </column>
+    <column name="PVZKN" data_type="VARCHAR">
+      <description>Number of the task list node</description>
+    </column>
+    <column name="PHFLG" data_type="VARCHAR">
+      <description>Indicator: Phase</description>
+    </column>
+    <column name="PHSEQ" data_type="VARCHAR">
+      <description>Control Recipe Destination</description>
+    </column>
+    <column name="KNOBJ" data_type="VARCHAR">
+      <description>Number of Object with Assigned Dependencies</description>
+    </column>
+    <column name="ERFSICHT" data_type="VARCHAR">
+      <description>Recording View</description>
+    </column>
+    <column name="PSPNR" data_type="VARCHAR">
+      <description>Standard WBS element</description>
+    </column>
+    <column name="QLOTYPE" data_type="VARCHAR">
+      <description>Object Type</description>
+    </column>
+    <column name="QLOBJEKTID" data_type="VARCHAR">
+      <description>Object ID</description>
+    </column>
+    <column name="QLKAPAR" data_type="VARCHAR">
+      <description>Capacity category</description>
+    </column>
+    <column name="QKZPRZEIT" data_type="VARCHAR">
+      <description>Interval = Time (Time-Related)</description>
+    </column>
+    <column name="QKZZTMG1" data_type="VARCHAR">
+      <description>Quantity Confirmation for Each Partial Lot</description>
+    </column>
+    <column name="QKZPRMENG" data_type="VARCHAR">
+      <description>Creation Cycle = Quantity  (Quantity-Reference)</description>
+    </column>
+    <column name="QKZPRFREI" data_type="VARCHAR">
+      <description>Interval Without Reference to Time or Quantity</description>
+    </column>
+    <column name="QRASTZEHT" data_type="VARCHAR">
+      <description>Time Unit</description>
+    </column>
+    <column name="QRASTZFAK" data_type="DECIMAL">
+      <description>Time Factor</description>
+    </column>
+    <column name="QRASTMENG" data_type="DECIMAL">
+      <description>Quantity Between Two Inspections</description>
+    </column>
+    <column name="QPPKTABS" data_type="VARCHAR">
+      <description>Flow Variants for Inspection Point Completion</description>
+    </column>
+    <column name="KRIT1" data_type="VARCHAR">
+      <description>Planning object</description>
+    </column>
+    <column name="CLASSID" data_type="VARCHAR">
+      <description>Internal Class Number</description>
+    </column>
+    <column name="PACKNO" data_type="VARCHAR">
+      <description>Package number</description>
+    </column>
+    <column name="EBELN" data_type="VARCHAR">
+      <description>Purchasing Document Number</description>
+    </column>
+    <column name="EBELP" data_type="VARCHAR">
+      <description>Item Number of Purchasing Document</description>
+    </column>
+    <column name="CAPOC" data_type="VARCHAR">
+      <description>Type of CAPP calculation at order creation</description>
+    </column>
+    <column name="FLG_CAPTXT" data_type="VARCHAR">
+      <description>Ind: CAPP text exists</description>
+    </column>
+    <column name="CN_WEIGHT" data_type="DECIMAL">
+      <description>Aggregation weight for POC (PS progress)</description>
+    </column>
+    <column name="QKZTLSBEST" data_type="VARCHAR">
+      <description>Operation with Stock-Related Partial Lot Assignment</description>
+    </column>
+    <column name="AUFKT" data_type="DECIMAL">
+      <description>Execution Factor</description>
+    </column>
+    <column name="DAFKT" data_type="DECIMAL">
+      <description>Average execution factor</description>
+    </column>
+    <column name="RWFAK" data_type="DECIMAL">
+      <description>Rework factor (is not used yet)</description>
+    </column>
+    <column name="AAUFG" data_type="VARCHAR">
+      <description>Indicator: Work center operation set</description>
+    </column>
+    <column name="VERDART" data_type="VARCHAR">
+      <description>Grouping Category</description>
+    </column>
+    <column name="UAVO_AUFL" data_type="VARCHAR">
+      <description>Suboper. do not apply to order</description>
+    </column>
+    <column name="FRDLB" data_type="VARCHAR">
+      <description>Indicator: External Processing Operation with Subcontracting</description>
+    </column>
+    <column name="QPART" data_type="VARCHAR">
+      <description>Inspection Type</description>
+    </column>
+    <column name="PRZ01" data_type="VARCHAR">
+      <description>Business Process</description>
+    </column>
+    <column name="TAKT" data_type="VARCHAR">
+      <description>takt within a line segment</description>
+    </column>
+    <column name="OPRID" data_type="VARCHAR">
+      <description>External operation ID</description>
+    </column>
+    <column name="NVADD" data_type="VARCHAR">
+      <description>Indicator for non-value-added operations</description>
+    </column>
+    <column name="EVGEW" data_type="DECIMAL">
+      <description>Aggregation weight for POC (PS progress)</description>
+    </column>
+    <column name="RFPNT" data_type="VARCHAR">
+      <description>Reference point for BOM transfer</description>
+    </column>
+    <column name="FLG_TSK_GROUP" data_type="VARCHAR">
+      <description>Group operation</description>
+    </column>
+    <column name="ADPSP" data_type="VARCHAR">
+      <description>Reference Element PM/PS</description>
+    </column>
+    <column name="TPLNR" data_type="VARCHAR">
+      <description>Functional Location</description>
+    </column>
+    <column name="EQUNR" data_type="VARCHAR">
+      <description>Equipment Number</description>
+    </column>
+    <column name="MES_OPERID" data_type="VARCHAR">
+      <description>Key of an Operation from an ME System</description>
+    </column>
+    <column name="MES_STEPID" data_type="VARCHAR">
+      <description>Key of a Step in a Routing (SAP ME)</description>
+    </column>
+    <column name="MANU_PROC" data_type="VARCHAR">
+      <description>Manufacturing Process</description>
+    </column>
+    <column name="SUBPLNAL" data_type="VARCHAR">
+      <description>Subordinate Task List Group Counter</description>
+    </column>
+    <column name="SUBPLNNR" data_type="VARCHAR">
+      <description>Key for Subordinate Task List Group</description>
+    </column>
+    <column name="SUBPLNTY" data_type="VARCHAR">
+      <description>Task List Type: Subordinate Task List</description>
+    </column>
+    <column name="XEXCLTL" data_type="VARCHAR">
+      <description>Sign: Exclude Subordinate Task List (and in All Tree)</description>
+    </column>
+  </columns>
+</data_description>

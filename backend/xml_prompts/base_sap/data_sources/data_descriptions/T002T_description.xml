@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="T002T">
+  <table_info name="T002T" total_columns="3" />
+  <columns>
+    <column name="SPRAS" data_type="VARCHAR">
+      <description>Language Key</description>
+    </column>
+    <column name="SPRSL" data_type="VARCHAR">
+      <description>Language Key</description>
+    </column>
+    <column name="SPTXT" data_type="VARCHAR">
+      <description>Name of Language</description>
+    </column>
+  </columns>
+</data_description>

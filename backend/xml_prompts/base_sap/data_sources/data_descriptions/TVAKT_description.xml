@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="TVAKT">
+  <table_info name="TVAKT" total_columns="5"/>
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="SPRAS" data_type="VARCHAR">
+      <description>Language Key</description>
+    </column>
+    <column name="AUART" data_type="VARCHAR">
+      <description>Sales Document Type</description>
+    </column>
+    <column name="BEZEI" data_type="VARCHAR">
+      <description>Description</description>
+    </column>
+    <column name="TXT_BUTTON" data_type="VARCHAR">
+      <description>Text on Browser Button</description>
+    </column>
+  </columns>
+</data_description>

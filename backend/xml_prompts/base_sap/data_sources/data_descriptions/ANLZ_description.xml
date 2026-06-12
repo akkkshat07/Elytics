@@ -1,0 +1,129 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="ANLZ">
+  <table_info name="ANLZ" total_columns="41"/>
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="BUKRS" data_type="VARCHAR">
+      <description>Company Code</description>
+    </column>
+    <column name="ANLN1" data_type="VARCHAR">
+      <description>Main Asset Number</description>
+    </column>
+    <column name="ANLN2" data_type="VARCHAR">
+      <description>Asset Subnumber</description>
+    </column>
+    <column name="BDATU" data_type="DATE">
+      <description>Date validity ends</description>
+    </column>
+    <column name="ADATU" data_type="DATE">
+      <description>Date for beginning of validity</description>
+    </column>
+    <column name="KOSTL" data_type="VARCHAR">
+      <description>Cost Center</description>
+    </column>
+    <column name="WERKS" data_type="VARCHAR">
+      <description>Plant</description>
+    </column>
+    <column name="GSBER" data_type="VARCHAR">
+      <description>Business Area</description>
+    </column>
+    <column name="LSTAR" data_type="VARCHAR">
+      <description>Activity Type</description>
+    </column>
+    <column name="MSFAK" data_type="DECIMAL">
+      <description>Multiple-shift factor for multiple shift operation</description>
+    </column>
+    <column name="XSTIL" data_type="VARCHAR">
+      <description>Asset shutdown</description>
+    </column>
+    <column name="STORT" data_type="VARCHAR">
+      <description>Asset location</description>
+    </column>
+    <column name="CAUFN" data_type="VARCHAR">
+      <description>Internal order</description>
+    </column>
+    <column name="PLAN1" data_type="VARCHAR">
+      <description>no longer used</description>
+    </column>
+    <column name="PLAN2" data_type="VARCHAR">
+      <description>No longer used</description>
+    </column>
+    <column name="RAUMN" data_type="VARCHAR">
+      <description>Room</description>
+    </column>
+    <column name="IAUFN" data_type="VARCHAR">
+      <description>Maintenance order</description>
+    </column>
+    <column name="IPROJ" data_type="VARCHAR">
+      <description>Old: Project number : No longer used --&gt; PS_POSNR</description>
+    </column>
+    <column name="TPLKZ" data_type="VARCHAR">
+      <description>Unused field length 3</description>
+    </column>
+    <column name="TPLNR" data_type="VARCHAR">
+      <description>Functional Location</description>
+    </column>
+    <column name="ANUPD" data_type="VARCHAR">
+      <description>Indicator: Type of change to table</description>
+    </column>
+    <column name="TXJCD" data_type="VARCHAR">
+      <description>Tax Jurisdiction</description>
+    </column>
+    <column name="IPSNR" data_type="VARCHAR">
+      <description>WBS element - maintenance project</description>
+    </column>
+    <column name="KFZKZ" data_type="VARCHAR">
+      <description>License plate no. of vehichle</description>
+    </column>
+    <column name="PERNR" data_type="VARCHAR">
+      <description>Personnel Number</description>
+    </column>
+    <column name="KOSTLV" data_type="VARCHAR">
+      <description>Cost center responsible for asset</description>
+    </column>
+    <column name="FISTL" data_type="VARCHAR">
+      <description>Funds Center</description>
+    </column>
+    <column name="GEBER" data_type="VARCHAR">
+      <description>Fund</description>
+    </column>
+    <column name="FKBER" data_type="VARCHAR">
+      <description>Functional Area</description>
+    </column>
+    <column name="GRANT_NBR" data_type="VARCHAR">
+      <description>Grant</description>
+    </column>
+    <column name="GEBER2" data_type="VARCHAR">
+      <description>Fund for APC Account Assignments</description>
+    </column>
+    <column name="FKBER2" data_type="VARCHAR">
+      <description>Functional Area for APC Account Assignments</description>
+    </column>
+    <column name="GRANT_NBR2" data_type="VARCHAR">
+      <description>Grant for APC Account Assignments</description>
+    </column>
+    <column name="FISTL2" data_type="VARCHAR">
+      <description>Funds Center for APC Account Assignments</description>
+    </column>
+    <column name="IMKEY" data_type="VARCHAR">
+      <description>Internal Key for Real Estate Object</description>
+    </column>
+    <column name="PS_PSP_PNR2" data_type="VARCHAR">
+      <description>WBS Element (Costs)</description>
+    </column>
+    <column name="BUDGET_PD" data_type="VARCHAR">
+      <description>FM: Budget Period</description>
+    </column>
+    <column name="BUDGET_PD2" data_type="VARCHAR">
+      <description>Budget Period for APC Account Assignments</description>
+    </column>
+    <column name="SEGMENT" data_type="VARCHAR">
+      <description>Segment for Segmental Reporting</description>
+    </column>
+    <column name="PRCTR" data_type="VARCHAR">
+      <description>Profit Center</description>
+    </column>
+  </columns>
+</data_description>

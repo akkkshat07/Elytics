@@ -1,0 +1,540 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="EBAN">
+  <table_info name="EBAN" total_columns="178"/>
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="BANFN" data_type="VARCHAR">
+      <description>Purchase Requisition Number</description>
+    </column>
+    <column name="BNFPO" data_type="VARCHAR">
+      <description>Item number of purchase requisition</description>
+    </column>
+    <column name="BSART" data_type="VARCHAR">
+      <description>Purchase Requisition Document Type</description>
+    </column>
+    <column name="BSTYP" data_type="VARCHAR">
+      <description>Purchasing document category</description>
+    </column>
+    <column name="BSAKZ" data_type="VARCHAR">
+      <description>Control indicator for purchasing document type</description>
+    </column>
+    <column name="LOEKZ" data_type="VARCHAR">
+      <description>Deletion Indicator in Purchasing Document</description>
+    </column>
+    <column name="STATU" data_type="VARCHAR">
+      <description>Processing status of purchase requisition</description>
+    </column>
+    <column name="ESTKZ" data_type="VARCHAR">
+      <description>Creation indicator (purchase requisition/schedule lines)</description>
+    </column>
+    <column name="FRGKZ" data_type="VARCHAR">
+      <description>Release Indicator</description>
+    </column>
+    <column name="FRGZU" data_type="VARCHAR">
+      <description>Release State</description>
+    </column>
+    <column name="FRGST" data_type="VARCHAR">
+      <description>Release strategy in the purchase requisition</description>
+    </column>
+    <column name="EKGRP" data_type="VARCHAR">
+      <description>Purchasing Group</description>
+    </column>
+    <column name="ERNAM" data_type="VARCHAR">
+      <description>Name of Person Responsible for Creating the Object</description>
+    </column>
+    <column name="ERDAT" data_type="DATE">
+      <description>Last Changed On</description>
+    </column>
+    <column name="AFNAM" data_type="VARCHAR">
+      <description>Name of requisitioner/requester</description>
+    </column>
+    <column name="TXZ01" data_type="VARCHAR">
+      <description>Short Text</description>
+    </column>
+    <column name="MATNR" data_type="VARCHAR">
+      <description>Material Number</description>
+    </column>
+    <column name="EMATN" data_type="VARCHAR">
+      <description>Material number corresponding to manufacturer part number</description>
+    </column>
+    <column name="WERKS" data_type="VARCHAR">
+      <description>Plant</description>
+    </column>
+    <column name="LGORT" data_type="VARCHAR">
+      <description>Storage Location</description>
+    </column>
+    <column name="BEDNR" data_type="VARCHAR">
+      <description>Requirement Tracking Number</description>
+    </column>
+    <column name="MATKL" data_type="VARCHAR">
+      <description>Material Group</description>
+    </column>
+    <column name="RESWK" data_type="VARCHAR">
+      <description>Supplying (issuing) plant in case of stock transport order</description>
+    </column>
+    <column name="MENGE" data_type="DECIMAL">
+      <description>Purchase requisition quantity</description>
+    </column>
+    <column name="MEINS" data_type="VARCHAR">
+      <description>Purchase requisition unit of measure</description>
+    </column>
+    <column name="BUMNG" data_type="DECIMAL">
+      <description>Shortage (stock undercoverage) quantity</description>
+    </column>
+    <column name="BADAT" data_type="DATE">
+      <description>Requisition (Request) Date</description>
+    </column>
+    <column name="LPEIN" data_type="VARCHAR">
+      <description>Category of delivery date</description>
+    </column>
+    <column name="LFDAT" data_type="DATE">
+      <description>Item Delivery Date</description>
+    </column>
+    <column name="FRGDT" data_type="DATE">
+      <description>Purchase Requisition Release Date</description>
+    </column>
+    <column name="WEBAZ" data_type="DECIMAL">
+      <description>Goods receipt processing time in days</description>
+    </column>
+    <column name="PREIS" data_type="DECIMAL">
+      <description>Price in Purchase Requisition</description>
+    </column>
+    <column name="PEINH" data_type="DECIMAL">
+      <description>Price unit</description>
+    </column>
+    <column name="PSTYP" data_type="VARCHAR">
+      <description>Item category in purchasing document</description>
+    </column>
+    <column name="KNTTP" data_type="VARCHAR">
+      <description>Account Assignment Category</description>
+    </column>
+    <column name="KZVBR" data_type="VARCHAR">
+      <description>Consumption posting</description>
+    </column>
+    <column name="KFLAG" data_type="VARCHAR">
+      <description>Acct.asst.modifiable</description>
+    </column>
+    <column name="VRTKZ" data_type="VARCHAR">
+      <description>Distribution indicator for multiple account assignment</description>
+    </column>
+    <column name="TWRKZ" data_type="VARCHAR">
+      <description>Partial invoice indicator</description>
+    </column>
+    <column name="WEPOS" data_type="VARCHAR">
+      <description>Goods Receipt Indicator</description>
+    </column>
+    <column name="WEUNB" data_type="VARCHAR">
+      <description>Goods Receipt, Non-Valuated</description>
+    </column>
+    <column name="REPOS" data_type="VARCHAR">
+      <description>Invoice Receipt Indicator</description>
+    </column>
+    <column name="LIFNR" data_type="VARCHAR">
+      <description>Desired Vendor</description>
+    </column>
+    <column name="FLIEF" data_type="VARCHAR">
+      <description>Fixed Vendor</description>
+    </column>
+    <column name="EKORG" data_type="VARCHAR">
+      <description>Purchasing Organization</description>
+    </column>
+    <column name="VRTYP" data_type="VARCHAR">
+      <description>Purchasing document category</description>
+    </column>
+    <column name="KONNR" data_type="VARCHAR">
+      <description>Number of principal purchase agreement</description>
+    </column>
+    <column name="KTPNR" data_type="VARCHAR">
+      <description>Item number of principal purchase agreement</description>
+    </column>
+    <column name="INFNR" data_type="VARCHAR">
+      <description>Number of purchasing info record</description>
+    </column>
+    <column name="ZUGBA" data_type="VARCHAR">
+      <description>Assigned Source of Supply</description>
+    </column>
+    <column name="QUNUM" data_type="VARCHAR">
+      <description>Number of quota arrangement</description>
+    </column>
+    <column name="QUPOS" data_type="VARCHAR">
+      <description>Quota arrangement item</description>
+    </column>
+    <column name="DISPO" data_type="VARCHAR">
+      <description>MRP Controller</description>
+    </column>
+    <column name="SERNR" data_type="VARCHAR">
+      <description>BOM explosion number</description>
+    </column>
+    <column name="BVDAT" data_type="DATE">
+      <description>Date of last resubmission</description>
+    </column>
+    <column name="BATOL" data_type="DECIMAL">
+      <description>Resubmission interval of purchase requisition</description>
+    </column>
+    <column name="BVDRK" data_type="DECIMAL">
+      <description>Number of resubmissions</description>
+    </column>
+    <column name="EBELN" data_type="VARCHAR">
+      <description>Purchase order number</description>
+    </column>
+    <column name="EBELP" data_type="VARCHAR">
+      <description>Purchase order item number</description>
+    </column>
+    <column name="BEDAT" data_type="DATE">
+      <description>Purchase Order Date</description>
+    </column>
+    <column name="BSMNG" data_type="DECIMAL">
+      <description>Quantity ordered against this purchase requisition</description>
+    </column>
+    <column name="LBLNI" data_type="VARCHAR">
+      <description>Entry Sheet Number</description>
+    </column>
+    <column name="BWTAR" data_type="VARCHAR">
+      <description>Valuation Type</description>
+    </column>
+    <column name="XOBLR" data_type="VARCHAR">
+      <description>Item affects commitments</description>
+    </column>
+    <column name="EBAKZ" data_type="VARCHAR">
+      <description>Purchase requisition closed</description>
+    </column>
+    <column name="RSNUM" data_type="VARCHAR">
+      <description>Number of reservation/dependent requirements</description>
+    </column>
+    <column name="SOBKZ" data_type="VARCHAR">
+      <description>Special Stock Indicator</description>
+    </column>
+    <column name="ARSNR" data_type="VARCHAR">
+      <description>Settlement reservation number</description>
+    </column>
+    <column name="ARSPS" data_type="VARCHAR">
+      <description>Item number of the settlement reservation</description>
+    </column>
+    <column name="FIXKZ" data_type="VARCHAR">
+      <description>Purchase requisition is fixed</description>
+    </column>
+    <column name="BMEIN" data_type="VARCHAR">
+      <description>Purchase Order Unit of Measure</description>
+    </column>
+    <column name="REVLV" data_type="VARCHAR">
+      <description>Revision Level</description>
+    </column>
+    <column name="VORAB" data_type="VARCHAR">
+      <description>Advance procurement: project stock</description>
+    </column>
+    <column name="PACKNO" data_type="VARCHAR">
+      <description>Package number</description>
+    </column>
+    <column name="KANBA" data_type="VARCHAR">
+      <description>Kanban Indicator</description>
+    </column>
+    <column name="BPUEB" data_type="VARCHAR">
+      <description>Use Requisition Price in Purchase Order</description>
+    </column>
+    <column name="CUOBJ" data_type="VARCHAR">
+      <description>Configuration (internal object number)</description>
+    </column>
+    <column name="FRGGR" data_type="VARCHAR">
+      <description>Release group</description>
+    </column>
+    <column name="FRGRL" data_type="VARCHAR">
+      <description>Release Not Yet Completely Effected</description>
+    </column>
+    <column name="AKTNR" data_type="VARCHAR">
+      <description>Promotion</description>
+    </column>
+    <column name="CHARG" data_type="VARCHAR">
+      <description>Batch Number</description>
+    </column>
+    <column name="UMSOK" data_type="VARCHAR">
+      <description>Special stock indicator for physical stock transfer</description>
+    </column>
+    <column name="VERID" data_type="VARCHAR">
+      <description>Production Version</description>
+    </column>
+    <column name="FIPOS" data_type="VARCHAR">
+      <description>Commitment Item</description>
+    </column>
+    <column name="FISTL" data_type="VARCHAR">
+      <description>Funds Center</description>
+    </column>
+    <column name="GEBER" data_type="VARCHAR">
+      <description>Fund</description>
+    </column>
+    <column name="KZKFG" data_type="VARCHAR">
+      <description>Origin of Configuration</description>
+    </column>
+    <column name="SATNR" data_type="VARCHAR">
+      <description>Cross-Plant Configurable Material</description>
+    </column>
+    <column name="MNG02" data_type="DECIMAL">
+      <description>Committed Quantity</description>
+    </column>
+    <column name="DAT01" data_type="DATE">
+      <description>Committed date</description>
+    </column>
+    <column name="ATTYP" data_type="VARCHAR">
+      <description>Material Category</description>
+    </column>
+    <column name="ADRNR" data_type="VARCHAR">
+      <description>Manual address number in purchasing document item</description>
+    </column>
+    <column name="ADRN2" data_type="VARCHAR">
+      <description>Number of delivery address</description>
+    </column>
+    <column name="KUNNR" data_type="VARCHAR">
+      <description>Customer</description>
+    </column>
+    <column name="EMLIF" data_type="VARCHAR">
+      <description>Vendor to be supplied/who is to receive delivery</description>
+    </column>
+    <column name="LBLKZ" data_type="VARCHAR">
+      <description>Subcontracting vendor</description>
+    </column>
+    <column name="KZBWS" data_type="VARCHAR">
+      <description>Valuation of Special Stock</description>
+    </column>
+    <column name="WAERS" data_type="VARCHAR">
+      <description>Currency Key</description>
+    </column>
+    <column name="IDNLF" data_type="VARCHAR">
+      <description>Material Number Used by Vendor</description>
+    </column>
+    <column name="GSFRG" data_type="VARCHAR">
+      <description>Overall release of purchase requisitions</description>
+    </column>
+    <column name="MPROF" data_type="VARCHAR">
+      <description>Mfr part profile</description>
+    </column>
+    <column name="KZFME" data_type="VARCHAR">
+      <description>Units of measure usage</description>
+    </column>
+    <column name="SPRAS" data_type="VARCHAR">
+      <description>Language Key</description>
+    </column>
+    <column name="TECHS" data_type="VARCHAR">
+      <description>Parameter Variant/Standard Variant</description>
+    </column>
+    <column name="MFRPN" data_type="VARCHAR">
+      <description>Manufacturer Part Number</description>
+    </column>
+    <column name="MFRNR" data_type="VARCHAR">
+      <description>Number of a Manufacturer</description>
+    </column>
+    <column name="EMNFR" data_type="VARCHAR">
+      <description>External manufacturer code name or number</description>
+    </column>
+    <column name="FORDN" data_type="VARCHAR">
+      <description>Framework Order</description>
+    </column>
+    <column name="FORDP" data_type="VARCHAR">
+      <description>Item of framework order</description>
+    </column>
+    <column name="PLIFZ" data_type="DECIMAL">
+      <description>Planned Delivery Time in Days</description>
+    </column>
+    <column name="BERID" data_type="VARCHAR">
+      <description>MRP Area</description>
+    </column>
+    <column name="UZEIT" data_type="TIME">
+      <description>Delivery Date Time-Spot</description>
+    </column>
+    <column name="FKBER" data_type="VARCHAR">
+      <description>Functional Area</description>
+    </column>
+    <column name="GRANT_NBR" data_type="VARCHAR">
+      <description>Grant</description>
+    </column>
+    <column name="MEMORY" data_type="VARCHAR">
+      <description>Purchase Requisition not yet Complete</description>
+    </column>
+    <column name="BANPR" data_type="VARCHAR">
+      <description>Requisition Processing State</description>
+    </column>
+    <column name="RLWRT" data_type="DECIMAL">
+      <description>Total value at time of release</description>
+    </column>
+    <column name="BLCKD" data_type="VARCHAR">
+      <description>Purchase Requisition Blocked</description>
+    </column>
+    <column name="REVNO" data_type="VARCHAR">
+      <description>Version number in Purchasing</description>
+    </column>
+    <column name="BLCKT" data_type="VARCHAR">
+      <description>Reason for Item Block</description>
+    </column>
+    <column name="BESWK" data_type="VARCHAR">
+      <description>Procuring Plant</description>
+    </column>
+    <column name="EPROFILE" data_type="VARCHAR">
+      <description>External Procurement Profile</description>
+    </column>
+    <column name="EPREFDOC" data_type="VARCHAR">
+      <description>External Procurement Reference Document</description>
+    </column>
+    <column name="EPREFITM" data_type="VARCHAR">
+      <description>External Procurement Reference Item</description>
+    </column>
+    <column name="GMMNG" data_type="DECIMAL">
+      <description>PO Quantity of Purchase Requisition in POs on Hold</description>
+    </column>
+    <column name="WRTKZ" data_type="VARCHAR">
+      <description>Value-Based Commitment Reduction for Service Purchase Reqs</description>
+    </column>
+    <column name="RESLO" data_type="VARCHAR">
+      <description>Issuing Storage Location for Stock Transport Order</description>
+    </column>
+    <column name="KBLNR" data_type="VARCHAR">
+      <description>Document Number for Earmarked Funds</description>
+    </column>
+    <column name="KBLPOS" data_type="VARCHAR">
+      <description>Earmarked Funds: Document Item</description>
+    </column>
+    <column name="PRIO_URG" data_type="VARCHAR">
+      <description>Requirement Urgency</description>
+    </column>
+    <column name="PRIO_REQ" data_type="VARCHAR">
+      <description>Requirement Priority</description>
+    </column>
+    <column name="MEMORYTYPE" data_type="VARCHAR">
+      <description>Category of Incompleteness</description>
+    </column>
+    <column name="ANZSN" data_type="INTEGER">
+      <description>Number of serial numbers</description>
+    </column>
+    <column name="MHDRZ" data_type="DECIMAL">
+      <description>Minimum Remaining Shelf Life</description>
+    </column>
+    <column name="IPRKZ" data_type="VARCHAR">
+      <description>Period Indicator for Shelf Life Expiration Date</description>
+    </column>
+    <column name="NODISP" data_type="VARCHAR">
+      <description>Ind: Reserv. not applicable to MRP;Purc. req. not created</description>
+    </column>
+    <column name="SRM_CONTRACT_ID" data_type="VARCHAR">
+      <description>Central Contract</description>
+    </column>
+    <column name="SRM_CONTRACT_ITM" data_type="VARCHAR">
+      <description>Central Contract Item Number</description>
+    </column>
+    <column name="BUDGET_PD" data_type="VARCHAR">
+      <description>FM: Budget Period</description>
+    </column>
+    <column name="EXPERT_MODE" data_type="VARCHAR">
+      <description>PR Created in Expert Mode</description>
+    </column>
+    <column name="STORENETWORKID" data_type="VARCHAR">
+      <description>128 character</description>
+    </column>
+    <column name="STORESUPPLIERID" data_type="VARCHAR">
+      <description>Character field, length 64</description>
+    </column>
+    <column name="CREATIONDATE" data_type="DATE">
+      <description>Purchasing Document Creation Date</description>
+    </column>
+    <column name="CREATIONTIME" data_type="TIME">
+      <description>Purchasing Document Creation Time</description>
+    </column>
+    <column name="ISCRREPLICATIONBEFOREAPPROVAL" data_type="VARCHAR">
+      <description>Is Replication Before Approval</description>
+    </column>
+    <column name="MMPUR_PR_CEN_REQN_APP_RPLD_PR" data_type="VARCHAR">
+      <description>Approval Status of Purchase Requisition in Hub</description>
+    </column>
+    <column name="EXT_REV_TMSTMP" data_type="DECIMAL">
+      <description>Timestamp for Revision of External Calls</description>
+    </column>
+    <column name="FMFGUS_KEY" data_type="VARCHAR">
+      <description>United States Federal Government Fields</description>
+    </column>
+    <column name="ADVCODE" data_type="VARCHAR">
+      <description>Advice Code</description>
+    </column>
+    <column name="STACODE" data_type="VARCHAR">
+      <description>Status Code</description>
+    </column>
+    <column name="BANFN_CS" data_type="VARCHAR">
+      <description>Cross-System PReq Number</description>
+    </column>
+    <column name="BNFPO_CS" data_type="VARCHAR">
+      <description>Cross-System PReq Item</description>
+    </column>
+    <column name="ITEM_CS" data_type="VARCHAR">
+      <description>Cross-System Item Category</description>
+    </column>
+    <column name="BSMNG_SND" data_type="DECIMAL">
+      <description>PO Quantity Sender</description>
+    </column>
+    <column name="NO_MARD_DATA" data_type="VARCHAR">
+      <description>No Storage Location Data Exists for Material</description>
+    </column>
+    <column name="SERRU" data_type="VARCHAR">
+      <description>Type of subcontracting</description>
+    </column>
+    <column name="DISUB_SOBKZ" data_type="VARCHAR">
+      <description>Special stock indicator Subcontracting</description>
+    </column>
+    <column name="DISUB_PSPNR" data_type="VARCHAR">
+      <description>Work Breakdown Structure Element (WBS Element)</description>
+    </column>
+    <column name="DISUB_KUNNR" data_type="VARCHAR">
+      <description>Customer Number</description>
+    </column>
+    <column name="DISUB_VBELN" data_type="VARCHAR">
+      <description>Sales and Distribution Document Number</description>
+    </column>
+    <column name="DISUB_POSNR" data_type="VARCHAR">
+      <description>Item number of the SD document</description>
+    </column>
+    <column name="DISUB_OWNER" data_type="VARCHAR">
+      <description>Owner of stock</description>
+    </column>
+    <column name="FSH_SEASON_YEAR" data_type="VARCHAR">
+      <description>Season Year</description>
+    </column>
+    <column name="FSH_SEASON" data_type="VARCHAR">
+      <description>Season</description>
+    </column>
+    <column name="FSH_COLLECTION" data_type="VARCHAR">
+      <description>Fashion Collection</description>
+    </column>
+    <column name="FSH_THEME" data_type="VARCHAR">
+      <description>Fashion Theme</description>
+    </column>
+    <column name="FSH_VAS_REL" data_type="VARCHAR">
+      <description>VAS Relevant</description>
+    </column>
+    <column name="FSH_VAS_PRNT_ID" data_type="VARCHAR">
+      <description>Item Number of Purchasing Document</description>
+    </column>
+    <column name="FSH_TRANSACTION" data_type="VARCHAR">
+      <description>Transaction Number</description>
+    </column>
+    <column name="FSH_ITEM_GROUP" data_type="VARCHAR">
+      <description>Item Group</description>
+    </column>
+    <column name="FSH_ITEM" data_type="VARCHAR">
+      <description>Item Number</description>
+    </column>
+    <column name="IUID_RELEVANT" data_type="VARCHAR">
+      <description>IUID-Relevant</description>
+    </column>
+    <column name="SGT_SCAT" data_type="VARCHAR">
+      <description>Stock Segment</description>
+    </column>
+    <column name="SGT_RCAT" data_type="VARCHAR">
+      <description>Requirement Segment</description>
+    </column>
+    <column name="WRF_CHARSTC1" data_type="VARCHAR">
+      <description>Characteristic Value 1</description>
+    </column>
+    <column name="WRF_CHARSTC2" data_type="VARCHAR">
+      <description>Characteristic Value 2</description>
+    </column>
+    <column name="WRF_CHARSTC3" data_type="VARCHAR">
+      <description>Characteristic Value 3</description>
+    </column>
+  </columns>
+</data_description>

@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="VTTP">
+  <table_info name="VTTP" total_columns="10" />
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="TKNUM" data_type="VARCHAR">
+      <description>Shipment Number</description>
+    </column>
+    <column name="TPNUM" data_type="VARCHAR">
+      <description>Shipment item</description>
+    </column>
+    <column name="VBELN" data_type="VARCHAR">
+      <description>Delivery</description>
+    </column>
+    <column name="TPRFO" data_type="VARCHAR">
+      <description>Itinerary of shipment items</description>
+    </column>
+    <column name="ERNAM" data_type="VARCHAR">
+      <description>Name of Person Responsible for Creating the Object</description>
+    </column>
+    <column name="ERDAT" data_type="DATE">
+      <description>Date on Which Record Was Created</description>
+    </column>
+    <column name="ERZET" data_type="TIME">
+      <description>Entry time</description>
+    </column>
+    <column name="PKSTA" data_type="VARCHAR">
+      <description>There are Packed Deliveries Dependent on Shipping</description>
+    </column>
+    <column name="KZHULFG" data_type="VARCHAR">
+      <description>Indicator: Delivery Items for HUs Generated</description>
+    </column>
+  </columns>
+</data_description>

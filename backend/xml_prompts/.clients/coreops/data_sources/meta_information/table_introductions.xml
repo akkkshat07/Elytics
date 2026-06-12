@@ -1,0 +1,6 @@
+<?xml version="1.0" ?>
+<meta_information type="table_introductions">
+  <table_introductions>
+    <table_introduction table_name="dsr_master">dsr_master stores business records used for analysis and reporting. It includes fields such as Emp_Id, PositionCode, Zone, State, City, User_Id, Emp_Name, Designation. Use this table for filtering, aggregation, and trend exploration.</table_introduction>
+  </table_introductions>
+</meta_information>

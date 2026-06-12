@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="EORD">
+  <table_info name="EORD" total_columns="26" />
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="MATNR" data_type="VARCHAR">
+      <description>Material Number</description>
+    </column>
+    <column name="WERKS" data_type="VARCHAR">
+      <description>Plant</description>
+    </column>
+    <column name="ZEORD" data_type="VARCHAR">
+      <description>Number of Source List Record</description>
+    </column>
+    <column name="ERDAT" data_type="DATE">
+      <description>Date on Which Record Was Created</description>
+    </column>
+    <column name="ERNAM" data_type="VARCHAR">
+      <description>Name of Person Responsible for Creating the Object</description>
+    </column>
+    <column name="VDATU" data_type="DATE">
+      <description>Source List Record Valid From</description>
+    </column>
+    <column name="BDATU" data_type="DATE">
+      <description>Source List Record Valid To</description>
+    </column>
+    <column name="LIFNR" data_type="VARCHAR">
+      <description>Supplier's Account Number</description>
+    </column>
+    <column name="FLIFN" data_type="VARCHAR">
+      <description>Indicator: Fixed vendor</description>
+    </column>
+    <column name="EBELN" data_type="VARCHAR">
+      <description>Agreement Number</description>
+    </column>
+    <column name="EBELP" data_type="VARCHAR">
+      <description>Agreement Item</description>
+    </column>
+    <column name="FEBEL" data_type="VARCHAR">
+      <description>Fixed Outline Purchase Agreement Item</description>
+    </column>
+    <column name="RESWK" data_type="VARCHAR">
+      <description>Plant from Which Material is Procured</description>
+    </column>
+    <column name="FRESW" data_type="VARCHAR">
+      <description>Fixed issuing plant in case of stock transport order</description>
+    </column>
+    <column name="EMATN" data_type="VARCHAR">
+      <description>Material number corresponding to manufacturer part number</description>
+    </column>
+    <column name="NOTKZ" data_type="VARCHAR">
+      <description>Blocked Source of Supply</description>
+    </column>
+    <column name="EKORG" data_type="VARCHAR">
+      <description>Purchasing Organization</description>
+    </column>
+    <column name="VRTYP" data_type="VARCHAR">
+      <description>Purchasing document category</description>
+    </column>
+    <column name="EORTP" data_type="VARCHAR">
+      <description>Category of Source List Record</description>
+    </column>
+    <column name="AUTET" data_type="VARCHAR">
+      <description>Source List Usage in Materials Planning</description>
+    </column>
+    <column name="MEINS" data_type="VARCHAR">
+      <description>Purchase Order Unit of Measure</description>
+    </column>
+    <column name="LOGSY" data_type="VARCHAR">
+      <description>Logical System</description>
+    </column>
+    <column name="SOBKZ" data_type="VARCHAR">
+      <description>Special Stock Indicator</description>
+    </column>
+    <column name="SRM_CONTRACT_ID" data_type="VARCHAR">
+      <description>Central Contract</description>
+    </column>
+    <column name="SRM_CONTRACT_ITM" data_type="VARCHAR">
+      <description>Central Contract Item Number</description>
+    </column>
+  </columns>
+</data_description>

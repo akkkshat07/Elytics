@@ -1,0 +1,150 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="CEPC">
+  <table_info name="CEPC" total_columns="48" />
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="PRCTR" data_type="VARCHAR">
+      <description>Profit Center</description>
+    </column>
+    <column name="DATBI" data_type="DATE">
+      <description>Valid To Date</description>
+    </column>
+    <column name="KOKRS" data_type="VARCHAR">
+      <description>Controlling Area</description>
+    </column>
+    <column name="DATAB" data_type="DATE">
+      <description>Valid-From Date</description>
+    </column>
+    <column name="ERSDA" data_type="DATE">
+      <description>Created on</description>
+    </column>
+    <column name="USNAM" data_type="VARCHAR">
+      <description>Entered By</description>
+    </column>
+    <column name="MERKMAL" data_type="VARCHAR">
+      <description>Field name of CO-PA characteristic</description>
+    </column>
+    <column name="ABTEI" data_type="VARCHAR">
+      <description>Department</description>
+    </column>
+    <column name="VERAK" data_type="VARCHAR">
+      <description>Person Responsible for Profit Center</description>
+    </column>
+    <column name="VERAK_USER" data_type="VARCHAR">
+      <description>User Responsible for the Profit Center</description>
+    </column>
+    <column name="WAERS" data_type="VARCHAR">
+      <description>Currency Key</description>
+    </column>
+    <column name="NPRCTR" data_type="VARCHAR">
+      <description>Successor profit center</description>
+    </column>
+    <column name="LAND1" data_type="VARCHAR">
+      <description>Country Key</description>
+    </column>
+    <column name="ANRED" data_type="VARCHAR">
+      <description>Title</description>
+    </column>
+    <column name="NAME1" data_type="VARCHAR">
+      <description>Name 1</description>
+    </column>
+    <column name="NAME2" data_type="VARCHAR">
+      <description>Name 2</description>
+    </column>
+    <column name="NAME3" data_type="VARCHAR">
+      <description>Name 3</description>
+    </column>
+    <column name="NAME4" data_type="VARCHAR">
+      <description>Name 4</description>
+    </column>
+    <column name="ORT01" data_type="VARCHAR">
+      <description>City</description>
+    </column>
+    <column name="ORT02" data_type="VARCHAR">
+      <description>District</description>
+    </column>
+    <column name="STRAS" data_type="VARCHAR">
+      <description>Street and House Number</description>
+    </column>
+    <column name="PFACH" data_type="VARCHAR">
+      <description>PO Box</description>
+    </column>
+    <column name="PSTLZ" data_type="VARCHAR">
+      <description>Postal Code</description>
+    </column>
+    <column name="PSTL2" data_type="VARCHAR">
+      <description>P.O. Box Postal Code</description>
+    </column>
+    <column name="SPRAS" data_type="VARCHAR">
+      <description>Language Key</description>
+    </column>
+    <column name="TELBX" data_type="VARCHAR">
+      <description>Telebox Number</description>
+    </column>
+    <column name="TELF1" data_type="VARCHAR">
+      <description>First telephone number</description>
+    </column>
+    <column name="TELF2" data_type="VARCHAR">
+      <description>Second telephone number</description>
+    </column>
+    <column name="TELFX" data_type="VARCHAR">
+      <description>Fax Number</description>
+    </column>
+    <column name="TELTX" data_type="VARCHAR">
+      <description>Teletex Number</description>
+    </column>
+    <column name="TELX1" data_type="VARCHAR">
+      <description>Telex Number</description>
+    </column>
+    <column name="DATLT" data_type="VARCHAR">
+      <description>Data communication line no.</description>
+    </column>
+    <column name="DRNAM" data_type="VARCHAR">
+      <description>Printer name for profit center</description>
+    </column>
+    <column name="KHINR" data_type="VARCHAR">
+      <description>Profit center area</description>
+    </column>
+    <column name="BUKRS" data_type="VARCHAR">
+      <description>Company Code</description>
+    </column>
+    <column name="VNAME" data_type="VARCHAR">
+      <description>Joint Venture</description>
+    </column>
+    <column name="RECID" data_type="VARCHAR">
+      <description>Recovery Indicator</description>
+    </column>
+    <column name="ETYPE" data_type="VARCHAR">
+      <description>Equity type</description>
+    </column>
+    <column name="TXJCD" data_type="VARCHAR">
+      <description>Tax Jurisdiction</description>
+    </column>
+    <column name="REGIO" data_type="VARCHAR">
+      <description>Region (State, Province, County)</description>
+    </column>
+    <column name="KVEWE" data_type="VARCHAR">
+      <description>Usage of the condition table</description>
+    </column>
+    <column name="KAPPL" data_type="VARCHAR">
+      <description>Application</description>
+    </column>
+    <column name="KALSM" data_type="VARCHAR">
+      <description>Procedure (Pricing, Output Control, Acct. Det., Costing,...)</description>
+    </column>
+    <column name="LOGSYSTEM" data_type="VARCHAR">
+      <description>Logical System</description>
+    </column>
+    <column name="LOCK_IND" data_type="VARCHAR">
+      <description>Lock indicator</description>
+    </column>
+    <column name="PCA_TEMPLATE" data_type="VARCHAR">
+      <description>Template for Formula Planning in Profit Centers</description>
+    </column>
+    <column name="SEGMENT" data_type="VARCHAR">
+      <description>Segment for Segmental Reporting</description>
+    </column>
+  </columns>
+</data_description>

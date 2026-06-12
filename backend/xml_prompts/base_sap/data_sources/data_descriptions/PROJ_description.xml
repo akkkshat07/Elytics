@@ -1,0 +1,342 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="PROJ">
+  <table_info name="PROJ" total_columns="112"/>
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="PSPNR" data_type="VARCHAR">
+      <description>Project definition (internal)</description>
+    </column>
+    <column name="PSPID" data_type="VARCHAR">
+      <description>Project definition</description>
+    </column>
+    <column name="POST1" data_type="VARCHAR">
+      <description>PS: Short description (1st text line)</description>
+    </column>
+    <column name="OBJNR" data_type="VARCHAR">
+      <description>Object number</description>
+    </column>
+    <column name="ERNAM" data_type="VARCHAR">
+      <description>Name of Person Responsible for Creating the Object</description>
+    </column>
+    <column name="ERDAT" data_type="DATE">
+      <description>Date on Which Record Was Created</description>
+    </column>
+    <column name="AENAM" data_type="VARCHAR">
+      <description>Name of Person Who Changed Object</description>
+    </column>
+    <column name="AEDAT" data_type="DATE">
+      <description>Date on which object was last changed</description>
+    </column>
+    <column name="KIMSK" data_type="VARCHAR">
+      <description>Selection mask for WBS element short IDs</description>
+    </column>
+    <column name="AUTOD" data_type="VARCHAR">
+      <description>Automatic value transfer from WBS element to project def.</description>
+    </column>
+    <column name="STSPD" data_type="VARCHAR">
+      <description>Status profile for project definition</description>
+    </column>
+    <column name="STSPR" data_type="VARCHAR">
+      <description>Status profile for WBS element</description>
+    </column>
+    <column name="VERNR" data_type="VARCHAR">
+      <description>Number of the responsible person (project manager)</description>
+    </column>
+    <column name="VERNA" data_type="VARCHAR">
+      <description>Name of responsible person (Project manager)</description>
+    </column>
+    <column name="ASTNR" data_type="VARCHAR">
+      <description>Applicant number</description>
+    </column>
+    <column name="ASTNA" data_type="VARCHAR">
+      <description>Applicant</description>
+    </column>
+    <column name="VBUKR" data_type="VARCHAR">
+      <description>Company code for the project</description>
+    </column>
+    <column name="VGSBR" data_type="VARCHAR">
+      <description>Business area for the project</description>
+    </column>
+    <column name="VKOKR" data_type="VARCHAR">
+      <description>Controlling area for the project</description>
+    </column>
+    <column name="PRCTR" data_type="VARCHAR">
+      <description>Profit Center</description>
+    </column>
+    <column name="PWHIE" data_type="VARCHAR">
+      <description>WBS currency (project definition)</description>
+    </column>
+    <column name="ZUORD" data_type="VARCHAR">
+      <description>Network assignment</description>
+    </column>
+    <column name="TRMEQ" data_type="VARCHAR">
+      <description>Indicator: WBS dates detailed by activity dates</description>
+    </column>
+    <column name="PLFAZ" data_type="DATE">
+      <description>Project planned start date</description>
+    </column>
+    <column name="PLSEZ" data_type="DATE">
+      <description>Project planned finish date</description>
+    </column>
+    <column name="WERKS" data_type="VARCHAR">
+      <description>Plant</description>
+    </column>
+    <column name="KALID" data_type="VARCHAR">
+      <description>Factory calendar key</description>
+    </column>
+    <column name="VGPLF" data_type="VARCHAR">
+      <description>Planning method for project basic dates</description>
+    </column>
+    <column name="EWPLF" data_type="VARCHAR">
+      <description>Planning method for project forecast dates</description>
+    </column>
+    <column name="ZTEHT" data_type="VARCHAR">
+      <description>Time unit in time scheduling</description>
+    </column>
+    <column name="NZANZ" data_type="VARCHAR">
+      <description>Indicator: Network header visible to end user</description>
+    </column>
+    <column name="PLNAW" data_type="VARCHAR">
+      <description>Application of the task list</description>
+    </column>
+    <column name="VPROF" data_type="VARCHAR">
+      <description>Network profile</description>
+    </column>
+    <column name="PROFL" data_type="VARCHAR">
+      <description>Project Profile</description>
+    </column>
+    <column name="BPROF" data_type="VARCHAR">
+      <description>Budget Profile</description>
+    </column>
+    <column name="TXTSP" data_type="VARCHAR">
+      <description>Language Key</description>
+    </column>
+    <column name="KOSTL" data_type="VARCHAR">
+      <description>Cost Center</description>
+    </column>
+    <column name="KTRG" data_type="VARCHAR">
+      <description>Cost Object</description>
+    </column>
+    <column name="AEDTE" data_type="DATE">
+      <description>Date of last scheduling of the overall network (basic dates)</description>
+    </column>
+    <column name="AEDTP" data_type="DATE">
+      <description>Date of last scheduling of the overall network (forecast)</description>
+    </column>
+    <column name="BERST" data_type="VARCHAR">
+      <description>Authorization key for project master data</description>
+    </column>
+    <column name="BERTR" data_type="VARCHAR">
+      <description>Authorization key for project dates (WBS)</description>
+    </column>
+    <column name="BERKO" data_type="VARCHAR">
+      <description>Authorization key for costs and revenues</description>
+    </column>
+    <column name="BERBU" data_type="VARCHAR">
+      <description>Authorization key for project budget</description>
+    </column>
+    <column name="SPSNR" data_type="VARCHAR">
+      <description>Current number for standard project</description>
+    </column>
+    <column name="BESTA" data_type="VARCHAR">
+      <description>Project stock</description>
+    </column>
+    <column name="SCOPE" data_type="VARCHAR">
+      <description>Object Class</description>
+    </column>
+    <column name="XSTAT" data_type="VARCHAR">
+      <description>Statistical WBS element</description>
+    </column>
+    <column name="TXJCD" data_type="VARCHAR">
+      <description>Tax Jurisdiction</description>
+    </column>
+    <column name="ZSCHM" data_type="VARCHAR">
+      <description>Interest Profile for Project/Order Interest Calculation</description>
+    </column>
+    <column name="SCPRF" data_type="VARCHAR">
+      <description>Profile for WBS scheduling</description>
+    </column>
+    <column name="IMPRF" data_type="VARCHAR">
+      <description>Investment measure profile</description>
+    </column>
+    <column name="FMPRF" data_type="VARCHAR">
+      <description>Payment plan profile</description>
+    </column>
+    <column name="ABGSL" data_type="VARCHAR">
+      <description>Results Analysis Key</description>
+    </column>
+    <column name="POSTU" data_type="VARCHAR">
+      <description>PS: Short description (1st text line) in all caps</description>
+    </column>
+    <column name="PPROF" data_type="VARCHAR">
+      <description>Planning profile</description>
+    </column>
+    <column name="PLINT" data_type="VARCHAR">
+      <description>Indicator for Integrated Planning</description>
+    </column>
+    <column name="LOEVM" data_type="VARCHAR">
+      <description>Deletion Indicator</description>
+    </column>
+    <column name="INACT" data_type="VARCHAR">
+      <description>Indicator: Project definition inactive</description>
+    </column>
+    <column name="KZBWS" data_type="VARCHAR">
+      <description>Valuation of Special Stock</description>
+    </column>
+    <column name="SMPRF" data_type="VARCHAR">
+      <description>Simulation profile</description>
+    </column>
+    <column name="FLGVRG" data_type="VARCHAR">
+      <description>Indicator: Bottom-up calculation with activity dates</description>
+    </column>
+    <column name="GRTOP" data_type="VARCHAR">
+      <description>Indicator: Automatic requirements grouping</description>
+    </column>
+    <column name="PGPRF" data_type="VARCHAR">
+      <description>Distribution profile</description>
+    </column>
+    <column name="STORT" data_type="VARCHAR">
+      <description>Location</description>
+    </column>
+    <column name="LOGSYSTEM" data_type="VARCHAR">
+      <description>Logical System</description>
+    </column>
+    <column name="KZERB" data_type="VARCHAR">
+      <description>Indicator: Project summarization via master data charact.</description>
+    </column>
+    <column name="PARGR" data_type="VARCHAR">
+      <description>Partner Determination Procedure</description>
+    </column>
+    <column name="FUNC_AREA" data_type="VARCHAR">
+      <description>Functional Area</description>
+    </column>
+    <column name="VKORG" data_type="VARCHAR">
+      <description>Sales Organization</description>
+    </column>
+    <column name="VTWEG" data_type="VARCHAR">
+      <description>Distribution Channel</description>
+    </column>
+    <column name="SPART" data_type="VARCHAR">
+      <description>Division</description>
+    </column>
+    <column name="DPPPROF" data_type="VARCHAR">
+      <description>Dynamic Item Processor Profile</description>
+    </column>
+    <column name="VPKSTU" data_type="VARCHAR">
+      <description>Node level</description>
+    </column>
+    <column name="PSPID_EDIT" data_type="VARCHAR">
+      <description>Project Number (External) Edited</description>
+    </column>
+    <column name="VNAME" data_type="VARCHAR">
+      <description>Joint Venture</description>
+    </column>
+    <column name="RECID" data_type="VARCHAR">
+      <description>Recovery Indicator</description>
+    </column>
+    <column name="ETYPE" data_type="VARCHAR">
+      <description>Equity type</description>
+    </column>
+    <column name="OTYPE" data_type="VARCHAR">
+      <description>Joint Venture Object Type</description>
+    </column>
+    <column name="JIBCL" data_type="VARCHAR">
+      <description>JIB/JIBE Class</description>
+    </column>
+    <column name="JIBSA" data_type="VARCHAR">
+      <description>JIB/JIBE Subclass A</description>
+    </column>
+    <column name="ZFILEPATH" data_type="VARCHAR">
+      <description>Character field of length 40</description>
+    </column>
+    <column name="ZFILE1NAME" data_type="VARCHAR">
+      <description>Char 20</description>
+    </column>
+    <column name="ZFILE1EXTE" data_type="VARCHAR">
+      <description>3-Byte field</description>
+    </column>
+    <column name="ZFILE2NAME" data_type="VARCHAR">
+      <description>Char 20</description>
+    </column>
+    <column name="ZFILE2EXTE" data_type="VARCHAR">
+      <description>3-Byte field</description>
+    </column>
+    <column name="ZFILE3NAME" data_type="VARCHAR">
+      <description>Char 20</description>
+    </column>
+    <column name="ZFILE3EXTE" data_type="VARCHAR">
+      <description>3-Byte field</description>
+    </column>
+    <column name="SCHTYP" data_type="VARCHAR">
+      <description>Scheduling scenario</description>
+    </column>
+    <column name="SPROG" data_type="DATE">
+      <description>Forecast start date of project definition</description>
+    </column>
+    <column name="EPROG" data_type="DATE">
+      <description>Forecast finish date for project definition</description>
+    </column>
+    <column name="SLWID" data_type="VARCHAR">
+      <description>Key word ID for user-defined fields</description>
+    </column>
+    <column name="USR00" data_type="VARCHAR">
+      <description>User field with 20 characters</description>
+    </column>
+    <column name="USR01" data_type="VARCHAR">
+      <description>User field with 20 characters</description>
+    </column>
+    <column name="USR02" data_type="VARCHAR">
+      <description>User field with 10 characters</description>
+    </column>
+    <column name="USR03" data_type="VARCHAR">
+      <description>User field with 10 characters</description>
+    </column>
+    <column name="USR04" data_type="DECIMAL">
+      <description>User field for quantity (length 10.3)</description>
+    </column>
+    <column name="USE04" data_type="VARCHAR">
+      <description>User field: Unit for quantity fields</description>
+    </column>
+    <column name="USR05" data_type="DECIMAL">
+      <description>User field for quantity (length 10.3)</description>
+    </column>
+    <column name="USE05" data_type="VARCHAR">
+      <description>User field: Unit for quantity fields</description>
+    </column>
+    <column name="USR06" data_type="DECIMAL">
+      <description>User-defined field for values (length 10,3)</description>
+    </column>
+    <column name="USE06" data_type="VARCHAR">
+      <description>User field: Unit for value fields</description>
+    </column>
+    <column name="USR07" data_type="DECIMAL">
+      <description>User-defined field for values (length 10,3)</description>
+    </column>
+    <column name="USE07" data_type="VARCHAR">
+      <description>User field: Unit for value fields</description>
+    </column>
+    <column name="USR08" data_type="DATE">
+      <description>User field for date</description>
+    </column>
+    <column name="USR09" data_type="DATE">
+      <description>User field for date</description>
+    </column>
+    <column name="USR10" data_type="VARCHAR">
+      <description>User-defined field: Indicator for reports</description>
+    </column>
+    <column name="USR11" data_type="VARCHAR">
+      <description>User-defined field: Indicator for reports</description>
+    </column>
+    <column name="CPD_UPDAT" data_type="DECIMAL">
+      <description>Time Stamp</description>
+    </column>
+    <column name="FERC_IND" data_type="VARCHAR">
+      <description>Regulatory indicator</description>
+    </column>
+    <column name="PROJ_STATUS" data_type="INTEGER">
+      <description>Status Combination</description>
+    </column>
+  </columns>
+</data_description>

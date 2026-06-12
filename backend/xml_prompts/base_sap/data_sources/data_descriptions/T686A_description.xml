@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="T686A">
+  <table_info name="T686A" total_columns="3" />
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="KAPPL" data_type="VARCHAR">
+      <description>Application</description>
+    </column>
+    <column name="KZNEP" data_type="VARCHAR">
+      <description>Condition exclusion indicator</description>
+    </column>
+  </columns>
+</data_description>

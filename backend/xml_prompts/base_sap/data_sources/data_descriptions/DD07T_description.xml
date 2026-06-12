@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="DD07T">
+  <table_info name="DD07T" total_columns="9" />
+  <columns>
+    <column name="DOMNAME" data_type="VARCHAR">
+      <description>Domain name</description>
+    </column>
+    <column name="DDLANGUAGE" data_type="VARCHAR">
+      <description>Language Key</description>
+    </column>
+    <column name="AS4LOCAL" data_type="VARCHAR">
+      <description>Activation Status of a Repository Object</description>
+    </column>
+    <column name="VALPOS" data_type="VARCHAR">
+      <description>Domain value key</description>
+    </column>
+    <column name="AS4VERS" data_type="VARCHAR">
+      <description>Version of the entry (not used)</description>
+    </column>
+    <column name="DDTEXT" data_type="VARCHAR">
+      <description>Short Text for Fixed Values</description>
+    </column>
+    <column name="DOMVAL_LD" data_type="VARCHAR">
+      <description>Language-specific values for domains, lower limit</description>
+    </column>
+    <column name="DOMVAL_HD" data_type="VARCHAR">
+      <description>Language-specific values for domains, upper limit</description>
+    </column>
+    <column name="DOMVALUE_L" data_type="VARCHAR">
+      <description>Values for Domains: Single Value / Upper Limit</description>
+    </column>
+  </columns>
+</data_description>

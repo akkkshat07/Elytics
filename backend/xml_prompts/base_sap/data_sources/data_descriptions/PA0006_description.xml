@@ -1,0 +1,195 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="PA0006">
+  <table_info name="PA0006" total_columns="63"/>
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="PERNR" data_type="VARCHAR">
+      <description>Personnel Number</description>
+    </column>
+    <column name="SUBTY" data_type="VARCHAR">
+      <description>Subtype</description>
+    </column>
+    <column name="OBJPS" data_type="VARCHAR">
+      <description>Object Identification</description>
+    </column>
+    <column name="SPRPS" data_type="VARCHAR">
+      <description>Lock Indicator for HR Master Data Record</description>
+    </column>
+    <column name="ENDDA" data_type="DATE">
+      <description>End Date</description>
+    </column>
+    <column name="BEGDA" data_type="DATE">
+      <description>Start Date</description>
+    </column>
+    <column name="SEQNR" data_type="VARCHAR">
+      <description>Number of Infotype Record With Same Key</description>
+    </column>
+    <column name="AEDTM" data_type="DATE">
+      <description>Last Changed On</description>
+    </column>
+    <column name="UNAME" data_type="VARCHAR">
+      <description>Name of Person Who Changed Object</description>
+    </column>
+    <column name="HISTO" data_type="VARCHAR">
+      <description>Historical Record Flag</description>
+    </column>
+    <column name="ITXEX" data_type="VARCHAR">
+      <description>Text Exists for Infotype</description>
+    </column>
+    <column name="REFEX" data_type="VARCHAR">
+      <description>Reference Fields Exist (Primary/Secondary Costs)</description>
+    </column>
+    <column name="ORDEX" data_type="VARCHAR">
+      <description>Confirmation Fields Exist</description>
+    </column>
+    <column name="ITBLD" data_type="VARCHAR">
+      <description>Infotype Screen Control</description>
+    </column>
+    <column name="PREAS" data_type="VARCHAR">
+      <description>Reason for Changing Master Data</description>
+    </column>
+    <column name="FLAG1" data_type="VARCHAR">
+      <description>Reserved Field/Unused Field</description>
+    </column>
+    <column name="FLAG2" data_type="VARCHAR">
+      <description>Reserved Field/Unused Field</description>
+    </column>
+    <column name="FLAG3" data_type="VARCHAR">
+      <description>Reserved Field/Unused Field</description>
+    </column>
+    <column name="FLAG4" data_type="VARCHAR">
+      <description>Reserved Field/Unused Field</description>
+    </column>
+    <column name="RESE1" data_type="VARCHAR">
+      <description>Reserved Field/Unused Field of Length 2</description>
+    </column>
+    <column name="RESE2" data_type="VARCHAR">
+      <description>Reserved Field/Unused Field of Length 2</description>
+    </column>
+    <column name="GRPVL" data_type="VARCHAR">
+      <description>Grouping Value for Personnel Assignments</description>
+    </column>
+    <column name="ANSSA" data_type="VARCHAR">
+      <description>Address Record Type</description>
+    </column>
+    <column name="NAME2" data_type="VARCHAR">
+      <description>Contact Name</description>
+    </column>
+    <column name="STRAS" data_type="VARCHAR">
+      <description>Street and House Number</description>
+    </column>
+    <column name="ORT01" data_type="VARCHAR">
+      <description>City</description>
+    </column>
+    <column name="ORT02" data_type="VARCHAR">
+      <description>District</description>
+    </column>
+    <column name="PSTLZ" data_type="VARCHAR">
+      <description>Postal Code</description>
+    </column>
+    <column name="LAND1" data_type="VARCHAR">
+      <description>Country Key</description>
+    </column>
+    <column name="TELNR" data_type="VARCHAR">
+      <description>Telephone Number</description>
+    </column>
+    <column name="ENTKM" data_type="DECIMAL">
+      <description>Distance in Kilometers</description>
+    </column>
+    <column name="WKWNG" data_type="VARCHAR">
+      <description>Company Housing</description>
+    </column>
+    <column name="BUSRT" data_type="VARCHAR">
+      <description>Bus Route</description>
+    </column>
+    <column name="LOCAT" data_type="VARCHAR">
+      <description>2nd address line</description>
+    </column>
+    <column name="ADR03" data_type="VARCHAR">
+      <description>Street 2</description>
+    </column>
+    <column name="ADR04" data_type="VARCHAR">
+      <description>Street 3</description>
+    </column>
+    <column name="STATE" data_type="VARCHAR">
+      <description>Region (State, Province, County)</description>
+    </column>
+    <column name="HSNMR" data_type="VARCHAR">
+      <description>House Number</description>
+    </column>
+    <column name="POSTA" data_type="VARCHAR">
+      <description>Identification of an apartment in a building</description>
+    </column>
+    <column name="BLDNG" data_type="VARCHAR">
+      <description>Building (number or code)</description>
+    </column>
+    <column name="FLOOR" data_type="VARCHAR">
+      <description>Floor in building</description>
+    </column>
+    <column name="STRDS" data_type="VARCHAR">
+      <description>Street Abbreviation</description>
+    </column>
+    <column name="ENTK2" data_type="DECIMAL">
+      <description>Distance in Kilometers</description>
+    </column>
+    <column name="COM01" data_type="VARCHAR">
+      <description>Communication Type</description>
+    </column>
+    <column name="NUM01" data_type="VARCHAR">
+      <description>Communication Number</description>
+    </column>
+    <column name="COM02" data_type="VARCHAR">
+      <description>Communication Type</description>
+    </column>
+    <column name="NUM02" data_type="VARCHAR">
+      <description>Communication Number</description>
+    </column>
+    <column name="COM03" data_type="VARCHAR">
+      <description>Communication Type</description>
+    </column>
+    <column name="NUM03" data_type="VARCHAR">
+      <description>Communication Number</description>
+    </column>
+    <column name="COM04" data_type="VARCHAR">
+      <description>Communication Type</description>
+    </column>
+    <column name="NUM04" data_type="VARCHAR">
+      <description>Communication Number</description>
+    </column>
+    <column name="COM05" data_type="VARCHAR">
+      <description>Communication Type</description>
+    </column>
+    <column name="NUM05" data_type="VARCHAR">
+      <description>Communication Number</description>
+    </column>
+    <column name="COM06" data_type="VARCHAR">
+      <description>Communication Type</description>
+    </column>
+    <column name="NUM06" data_type="VARCHAR">
+      <description>Communication Number</description>
+    </column>
+    <column name="INDRL" data_type="VARCHAR">
+      <description>Indicator for relationship (specification code)</description>
+    </column>
+    <column name="COUNC" data_type="VARCHAR">
+      <description>County Code</description>
+    </column>
+    <column name="RCTVC" data_type="VARCHAR">
+      <description>Municipal city code</description>
+    </column>
+    <column name="OR2KK" data_type="VARCHAR">
+      <description>Second address line (Katakana)</description>
+    </column>
+    <column name="CONKK" data_type="VARCHAR">
+      <description>Contact Person (Katakana) (Japan)</description>
+    </column>
+    <column name="OR1KK" data_type="VARCHAR">
+      <description>First address line (Katakana)</description>
+    </column>
+    <column name="RAILW" data_type="VARCHAR">
+      <description>Sozial Subscription Rail</description>
+    </column>
+  </columns>
+</data_description>

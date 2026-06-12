@@ -1,0 +1,26 @@
+{
+  "enabled": true,
+  "contexts": [
+    {
+      "datasource_key": "ne-ma_sqlserver",
+      "business_unit": "ne-ma",
+      "business_unit_label": "NE_MA",
+      "system": "sqlserver",
+      "system_label": "SQLSERVER"
+    },
+    {
+      "datasource_key": "bh-ma_sqlserver",
+      "business_unit": "bh-ma",
+      "business_unit_label": "BH_MA",
+      "system": "sqlserver",
+      "system_label": "SQLSERVER"
+    }
+  ],
+  "default_context": {
+    "datasource_key": "ne-ma_sqlserver",
+    "business_unit": "ne-ma",
+    "business_unit_label": "NE_MA",
+    "system": "sqlserver",
+    "system_label": "SQLSERVER"
+  }
+}

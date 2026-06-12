@@ -1,0 +1,10 @@
+{
+  "table_limit": 5000,
+  "column_limit": 7500,
+  "total_tables_available": 5,
+  "total_tables_loaded": 5,
+  "columns_per_table_loaded": 95,
+  "is_table_limit_reached": false,
+  "is_column_limit_reached": false,
+  "upgrade_required": false
+}

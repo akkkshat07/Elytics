@@ -1,0 +1,426 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="VTTK">
+  <table_info name="VTTK" total_columns="140"/>
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="TKNUM" data_type="VARCHAR">
+      <description>Shipment Number</description>
+    </column>
+    <column name="VBTYP" data_type="VARCHAR">
+      <description>SD document category</description>
+    </column>
+    <column name="SHTYP" data_type="VARCHAR">
+      <description>Shipment type</description>
+    </column>
+    <column name="TPLST" data_type="VARCHAR">
+      <description>Transportation planning point</description>
+    </column>
+    <column name="ERNAM" data_type="VARCHAR">
+      <description>Name of Person Responsible for Creating the Object</description>
+    </column>
+    <column name="ERDAT" data_type="DATE">
+      <description>Date on Which Record Was Created</description>
+    </column>
+    <column name="ERZET" data_type="TIME">
+      <description>Entry time</description>
+    </column>
+    <column name="AENAM" data_type="VARCHAR">
+      <description>Name of Person Who Changed Object</description>
+    </column>
+    <column name="AEDAT" data_type="DATE">
+      <description>Last Changed On</description>
+    </column>
+    <column name="AEZET" data_type="TIME">
+      <description>Time last change was made</description>
+    </column>
+    <column name="STERM" data_type="VARCHAR">
+      <description>Leg determination</description>
+    </column>
+    <column name="ABFER" data_type="VARCHAR">
+      <description>Shipment completion type</description>
+    </column>
+    <column name="ABWST" data_type="VARCHAR">
+      <description>Processing control</description>
+    </column>
+    <column name="BFART" data_type="VARCHAR">
+      <description>Service Level</description>
+    </column>
+    <column name="VSART" data_type="VARCHAR">
+      <description>Shipping type</description>
+    </column>
+    <column name="VSAVL" data_type="VARCHAR">
+      <description>Shipping type of preliminary leg</description>
+    </column>
+    <column name="VSANL" data_type="VARCHAR">
+      <description>Shipping type of subsequent leg</description>
+    </column>
+    <column name="LAUFK" data_type="VARCHAR">
+      <description>Leg Indicator</description>
+    </column>
+    <column name="VSBED" data_type="VARCHAR">
+      <description>Shipping Conditions</description>
+    </column>
+    <column name="ROUTE" data_type="VARCHAR">
+      <description>Shipment route</description>
+    </column>
+    <column name="SIGNI" data_type="VARCHAR">
+      <description>Container ID</description>
+    </column>
+    <column name="EXTI1" data_type="VARCHAR">
+      <description>External identification 1</description>
+    </column>
+    <column name="EXTI2" data_type="VARCHAR">
+      <description>External identification 2</description>
+    </column>
+    <column name="TPBEZ" data_type="VARCHAR">
+      <description>Description of Shipment</description>
+    </column>
+    <column name="STDIS" data_type="VARCHAR">
+      <description>Status of transportation planning</description>
+    </column>
+    <column name="DTDIS" data_type="DATE">
+      <description>Date of end of planning</description>
+    </column>
+    <column name="UZDIS" data_type="TIME">
+      <description>Scheduling end time</description>
+    </column>
+    <column name="STREG" data_type="VARCHAR">
+      <description>Status of check-in</description>
+    </column>
+    <column name="DPREG" data_type="DATE">
+      <description>Planned date of check-in</description>
+    </column>
+    <column name="UPREG" data_type="TIME">
+      <description>Planned check-in time</description>
+    </column>
+    <column name="DAREG" data_type="DATE">
+      <description>Actual date of check-in</description>
+    </column>
+    <column name="UAREG" data_type="TIME">
+      <description>Current time of check-in</description>
+    </column>
+    <column name="STLBG" data_type="VARCHAR">
+      <description>Status for start of loading</description>
+    </column>
+    <column name="DPLBG" data_type="DATE">
+      <description>Planned date for start of loading</description>
+    </column>
+    <column name="UPLBG" data_type="TIME">
+      <description>Planned loading start time</description>
+    </column>
+    <column name="DALBG" data_type="DATE">
+      <description>Current date for start of loading</description>
+    </column>
+    <column name="UALBG" data_type="TIME">
+      <description>Actual loading start time</description>
+    </column>
+    <column name="STLAD" data_type="VARCHAR">
+      <description>Status for end of loading</description>
+    </column>
+    <column name="DPLEN" data_type="DATE">
+      <description>Planned date for end of loading</description>
+    </column>
+    <column name="UPLEN" data_type="TIME">
+      <description>Planned loading end time</description>
+    </column>
+    <column name="DALEN" data_type="DATE">
+      <description>Actual date for end of loading</description>
+    </column>
+    <column name="UALEN" data_type="TIME">
+      <description>Actual loading end time</description>
+    </column>
+    <column name="STABF" data_type="VARCHAR">
+      <description>Status of shipment completion</description>
+    </column>
+    <column name="DPABF" data_type="DATE">
+      <description>Planned date for shipment completion</description>
+    </column>
+    <column name="UPABF" data_type="TIME">
+      <description>Planned time for processing</description>
+    </column>
+    <column name="DTABF" data_type="DATE">
+      <description>Current date of shipment completion</description>
+    </column>
+    <column name="UZABF" data_type="TIME">
+      <description>Time of transportation processing</description>
+    </column>
+    <column name="STTBG" data_type="VARCHAR">
+      <description>Status for start of shipment</description>
+    </column>
+    <column name="DPTBG" data_type="DATE">
+      <description>Planned date for start of shipment</description>
+    </column>
+    <column name="UPTBG" data_type="TIME">
+      <description>Planned transport start time</description>
+    </column>
+    <column name="DATBG" data_type="DATE">
+      <description>Current date for start of shipment</description>
+    </column>
+    <column name="UATBG" data_type="TIME">
+      <description>Actual transport start time</description>
+    </column>
+    <column name="STTEN" data_type="VARCHAR">
+      <description>Status for end of shipment</description>
+    </column>
+    <column name="DPTEN" data_type="DATE">
+      <description>Planned date for end of shipment</description>
+    </column>
+    <column name="UPTEN" data_type="TIME">
+      <description>Planned transport end time</description>
+    </column>
+    <column name="DATEN" data_type="DATE">
+      <description>Actual Date for End of Shipment</description>
+    </column>
+    <column name="UATEN" data_type="TIME">
+      <description>Actual shipment end time</description>
+    </column>
+    <column name="STTRG" data_type="VARCHAR">
+      <description>Overall transportation status</description>
+    </column>
+    <column name="TDLNR" data_type="VARCHAR">
+      <description>Number of forwarding agent</description>
+    </column>
+    <column name="TERNR" data_type="VARCHAR">
+      <description>Order Number</description>
+    </column>
+    <column name="PKSTK" data_type="VARCHAR">
+      <description>Shipment Contains Handling Units</description>
+    </column>
+    <column name="DTMEG" data_type="VARCHAR">
+      <description>Unit of Weight for Transportation Planning</description>
+    </column>
+    <column name="DTMEV" data_type="VARCHAR">
+      <description>Volume Unit for Transportation Planning</description>
+    </column>
+    <column name="DISTZ" data_type="DECIMAL">
+      <description>Distance</description>
+    </column>
+    <column name="MEDST" data_type="VARCHAR">
+      <description>Unit of measure for distance</description>
+    </column>
+    <column name="FAHZT" data_type="DECIMAL">
+      <description>Travelling time only between two locations</description>
+    </column>
+    <column name="GESZT" data_type="DECIMAL">
+      <description>Total travelling time between two locations incl. breaks</description>
+    </column>
+    <column name="MEIZT" data_type="VARCHAR">
+      <description>Unit of measure for travelling times</description>
+    </column>
+    <column name="STAFO" data_type="VARCHAR">
+      <description>Update group for statistics update</description>
+    </column>
+    <column name="FBSTA" data_type="VARCHAR">
+      <description>Status of shipment costs calculation</description>
+    </column>
+    <column name="FBGST" data_type="VARCHAR">
+      <description>Overall status of calculation of shipment costs for shipment</description>
+    </column>
+    <column name="ARSTA" data_type="VARCHAR">
+      <description>Status of shipment costs settlement</description>
+    </column>
+    <column name="ARGST" data_type="VARCHAR">
+      <description>Total status of shipment costs settlement for shipment</description>
+    </column>
+    <column name="STERM_DONE" data_type="VARCHAR">
+      <description>Leg determination complete</description>
+    </column>
+    <column name="VSE_FRK" data_type="VARCHAR">
+      <description>Handling Unit Data are Referred in Shipment Cost Document</description>
+    </column>
+    <column name="KKALSM" data_type="VARCHAR">
+      <description>Pricing procedure in shipment header</description>
+    </column>
+    <column name="SDABW" data_type="VARCHAR">
+      <description>Special processing indicator</description>
+    </column>
+    <column name="FRKRL" data_type="VARCHAR">
+      <description>Shipment costs relevance</description>
+    </column>
+    <column name="GESZTD" data_type="DECIMAL">
+      <description>Planned total time of transportation (in days)</description>
+    </column>
+    <column name="FAHZTD" data_type="DECIMAL">
+      <description>Planned duration of transportation (in hours:minutes)</description>
+    </column>
+    <column name="GESZTDA" data_type="DECIMAL">
+      <description>Actual total time of shipment (in days)</description>
+    </column>
+    <column name="FAHZTDA" data_type="DECIMAL">
+      <description>Actual time needed for transporation (in hours:minutes)</description>
+    </column>
+    <column name="ROCPY_DONE" data_type="VARCHAR">
+      <description>Route copied from delivery</description>
+    </column>
+    <column name="HANDLE" data_type="VARCHAR">
+      <description>Globally unique identifier (linked to time segment, etc)</description>
+    </column>
+    <column name="TSEGFL" data_type="VARCHAR">
+      <description>Time segment exists</description>
+    </column>
+    <column name="TSEGTP" data_type="VARCHAR">
+      <description>Time segment event group shipment header</description>
+    </column>
+    <column name="ADD01" data_type="VARCHAR">
+      <description>Suppl. 1</description>
+    </column>
+    <column name="ADD02" data_type="VARCHAR">
+      <description>Suppl. 2</description>
+    </column>
+    <column name="ADD03" data_type="VARCHAR">
+      <description>Suppl. 3</description>
+    </column>
+    <column name="ADD04" data_type="VARCHAR">
+      <description>Suppl. 4</description>
+    </column>
+    <column name="TEXT1" data_type="VARCHAR">
+      <description>Addit.text 1</description>
+    </column>
+    <column name="TEXT2" data_type="VARCHAR">
+      <description>Addit.text 2</description>
+    </column>
+    <column name="TEXT3" data_type="VARCHAR">
+      <description>Addit.text 3</description>
+    </column>
+    <column name="TEXT4" data_type="VARCHAR">
+      <description>Addit.text 4</description>
+    </column>
+    <column name="PROLI" data_type="VARCHAR">
+      <description>Dangerous Goods Management Profile in SD Documents</description>
+    </column>
+    <column name="DGTLOCK" data_type="VARCHAR">
+      <description>Block Indicator for Dangerous Goods</description>
+    </column>
+    <column name="DGMDDAT" data_type="DATE">
+      <description>Selection date dangerous goods master data</description>
+    </column>
+    <column name="CONT_DG" data_type="VARCHAR">
+      <description>Indicator: Document contains dangerous goods</description>
+    </column>
+    <column name="WARZTD" data_type="DECIMAL">
+      <description>Planned waiting time of shipment (in hours:minutes)</description>
+    </column>
+    <column name="WARZTDA" data_type="DECIMAL">
+      <description>Current waiting time of shipment (in hours:minutes)</description>
+    </column>
+    <column name="AULWE" data_type="VARCHAR">
+      <description>Route Schedule</description>
+    </column>
+    <column name="TNDRST" data_type="VARCHAR">
+      <description>Tender Status</description>
+    </column>
+    <column name="TNDRRC" data_type="VARCHAR">
+      <description>Acceptance Condition/Rejection Reason</description>
+    </column>
+    <column name="TNDR_TEXT" data_type="VARCHAR">
+      <description>Tendering Text</description>
+    </column>
+    <column name="TNDRDAT" data_type="DATE">
+      <description>Date of tender status</description>
+    </column>
+    <column name="TNDRZET" data_type="TIME">
+      <description>Time of tender status</description>
+    </column>
+    <column name="TNDR_MAXP" data_type="DECIMAL">
+      <description>Maximum Price for Shipment</description>
+    </column>
+    <column name="TNDR_MAXC" data_type="VARCHAR">
+      <description>Currency of Maximum Price</description>
+    </column>
+    <column name="TNDR_ACTP" data_type="DECIMAL">
+      <description>Actual Shipment Costs for Shipment</description>
+    </column>
+    <column name="TNDR_ACTC" data_type="VARCHAR">
+      <description>Currency of Actual Shipment Costs</description>
+    </column>
+    <column name="TNDR_CARR" data_type="VARCHAR">
+      <description>Forwarding Agent Who Accepted the Shipment</description>
+    </column>
+    <column name="TNDR_CRNM" data_type="VARCHAR">
+      <description>Name of Carrier Who Accepted the Shipment</description>
+    </column>
+    <column name="TNDR_TRKID" data_type="VARCHAR">
+      <description>Forwarding Agent Tracking ID</description>
+    </column>
+    <column name="TNDR_EXPD" data_type="DATE">
+      <description>Date on Which Offer Expires</description>
+    </column>
+    <column name="TNDR_EXPT" data_type="TIME">
+      <description>Time at Which Quotation Expires</description>
+    </column>
+    <column name="TNDR_ERPD" data_type="DATE">
+      <description>Earliest Pickup Date</description>
+    </column>
+    <column name="TNDR_ERPT" data_type="TIME">
+      <description>Earliest Pickup Time</description>
+    </column>
+    <column name="TNDR_LTPD" data_type="DATE">
+      <description>Latest Pickup Date</description>
+    </column>
+    <column name="TNDR_LTPT" data_type="TIME">
+      <description>Latest Pickup Time</description>
+    </column>
+    <column name="TNDR_ERDD" data_type="DATE">
+      <description>Earliest Delivery Date</description>
+    </column>
+    <column name="TNDR_ERDT" data_type="TIME">
+      <description>Earliest Delivery Time</description>
+    </column>
+    <column name="TNDR_LTDD" data_type="DATE">
+      <description>Latest Delivery Date</description>
+    </column>
+    <column name="TNDR_LTDT" data_type="TIME">
+      <description>Latest Delivery Time</description>
+    </column>
+    <column name="TNDR_LDLG" data_type="DECIMAL">
+      <description>Length of Loading Platform</description>
+    </column>
+    <column name="TNDR_LDLU" data_type="VARCHAR">
+      <description>Unit of Measure for Load Length</description>
+    </column>
+    <column name="KZHULFR" data_type="VARCHAR">
+      <description>Indicator: HUs Relevant for Delivery Item Generation</description>
+    </column>
+    <column name="ALLOWED_TWGT" data_type="DECIMAL">
+      <description>Allowed total weight of shipment</description>
+    </column>
+    <column name="VLSTK" data_type="VARCHAR">
+      <description>Distribution Status (Decentralized Warehouse Processing)</description>
+    </column>
+    <column name="VERURSYS" data_type="VARCHAR">
+      <description>Shipment Distribution: Original System</description>
+    </column>
+    <column name="CM_IDENT" data_type="VARCHAR">
+      <description>Identification Number for Continuous Moves</description>
+    </column>
+    <column name="CM_SEQUENCE" data_type="VARCHAR">
+      <description>Sequence of Transports in Connecting Traffice</description>
+    </column>
+    <column name="EXT_FREIGHT_ORD" data_type="VARCHAR">
+      <description>External Freight Order ID</description>
+    </column>
+    <column name="EXT_TM_SYS" data_type="VARCHAR">
+      <description>Key Name of Business System</description>
+    </column>
+    <column name="/BEV1/RPFAR1" data_type="VARCHAR">
+      <description>Driver 1</description>
+    </column>
+    <column name="/BEV1/RPFAR2" data_type="VARCHAR">
+      <description>Driver 2</description>
+    </column>
+    <column name="/BEV1/RPMOWA" data_type="VARCHAR">
+      <description>Vehicle</description>
+    </column>
+    <column name="/BEV1/RPANHAE" data_type="VARCHAR">
+      <description>Trailer</description>
+    </column>
+    <column name="/BEV1/RPFLGNR" data_type="VARCHAR">
+      <description>Loading Sequence Number in the Tour</description>
+    </column>
+    <column name="/VSO/R_STATUS" data_type="VARCHAR">
+      <description>Status of Vehicle Space Optimization</description>
+    </column>
+  </columns>
+</data_description>

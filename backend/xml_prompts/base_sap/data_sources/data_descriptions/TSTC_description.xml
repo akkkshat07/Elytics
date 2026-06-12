@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="TSTC">
+  <table_info name="TSTC" total_columns="6" />
+  <columns>
+    <column name="TCODE" data_type="VARCHAR">
+      <description>Transaction Code</description>
+    </column>
+    <column name="PGMNA" data_type="VARCHAR">
+      <description>Program Name</description>
+    </column>
+    <column name="DYPNO" data_type="VARCHAR">
+      <description>Screen number</description>
+    </column>
+    <column name="MENUE" data_type="VARCHAR">
+      <description>CHAR05 data element for SYST</description>
+    </column>
+    <column name="CINFO" data_type="VARCHAR">
+      <description>HEX01 data element for SYST</description>
+    </column>
+    <column name="ARBGB" data_type="VARCHAR">
+      <description>Message identification</description>
+    </column>
+  </columns>
+</data_description>

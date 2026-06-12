@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="VBRF">
+  <table_info name="VBRF" total_columns="20" />
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="VBELV" data_type="VARCHAR">
+      <description>Preceding document number</description>
+    </column>
+    <column name="POSNV" data_type="VARCHAR">
+      <description>Preceding document item number</description>
+    </column>
+    <column name="VBELN" data_type="VARCHAR">
+      <description>Billing Document</description>
+    </column>
+    <column name="POSNN" data_type="VARCHAR">
+      <description>Subsequent document item number</description>
+    </column>
+    <column name="VBTYPV" data_type="VARCHAR">
+      <description>Preceding document category</description>
+    </column>
+    <column name="VBTYPN" data_type="VARCHAR">
+      <description>Subsequent document category</description>
+    </column>
+    <column name="RFMNG" data_type="DECIMAL">
+      <description>Reference quantity</description>
+    </column>
+    <column name="MEINS" data_type="VARCHAR">
+      <description>Base Unit of Measure</description>
+    </column>
+    <column name="RFWRT" data_type="DECIMAL">
+      <description>Reference value</description>
+    </column>
+    <column name="WAERS" data_type="VARCHAR">
+      <description>Currency Key</description>
+    </column>
+    <column name="RFMNG_FLT" data_type="DECIMAL">
+      <description>Reference quantity in floating point</description>
+    </column>
+    <column name="RFWRT_FLT" data_type="DECIMAL">
+      <description>Reference value in floating point</description>
+    </column>
+    <column name="PLMIN" data_type="VARCHAR">
+      <description>Planning indicator</description>
+    </column>
+    <column name="ERDAT" data_type="DATE">
+      <description>Date on Which Record Was Created</description>
+    </column>
+    <column name="ERZET" data_type="VARCHAR">
+      <description>Entry time</description>
+    </column>
+    <column name="ERNAM" data_type="VARCHAR">
+      <description>Name of Person Responsible for Creating the Object</description>
+    </column>
+    <column name="AEDAT" data_type="DATE">
+      <description>Changed On</description>
+    </column>
+    <column name="AEZET" data_type="VARCHAR">
+      <description>Change time</description>
+    </column>
+    <column name="AENAM" data_type="VARCHAR">
+      <description>Name of Person Who Changed Object</description>
+    </column>
+  </columns>
+</data_description>

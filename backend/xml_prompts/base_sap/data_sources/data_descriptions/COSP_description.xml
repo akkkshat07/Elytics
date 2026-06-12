@@ -1,0 +1,459 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="COSP">
+  <table_info name="COSP" total_columns="151"/>
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="LEDNR" data_type="VARCHAR">
+      <description>Ledger for Controlling objects</description>
+    </column>
+    <column name="OBJNR" data_type="VARCHAR">
+      <description>Object number</description>
+    </column>
+    <column name="GJAHR" data_type="VARCHAR">
+      <description>Fiscal Year</description>
+    </column>
+    <column name="WRTTP" data_type="VARCHAR">
+      <description>Value Type</description>
+    </column>
+    <column name="VERSN" data_type="VARCHAR">
+      <description>Version</description>
+    </column>
+    <column name="KSTAR" data_type="VARCHAR">
+      <description>Cost Element</description>
+    </column>
+    <column name="HRKFT" data_type="VARCHAR">
+      <description>CO key subnumber</description>
+    </column>
+    <column name="VRGNG" data_type="VARCHAR">
+      <description>CO Business Transaction</description>
+    </column>
+    <column name="VBUND" data_type="VARCHAR">
+      <description>Company ID of Trading Partner</description>
+    </column>
+    <column name="PARGB" data_type="VARCHAR">
+      <description>Trading partner's business area</description>
+    </column>
+    <column name="BEKNZ" data_type="VARCHAR">
+      <description>Debit/credit indicator</description>
+    </column>
+    <column name="TWAER" data_type="VARCHAR">
+      <description>Transaction Currency</description>
+    </column>
+    <column name="PERBL" data_type="VARCHAR">
+      <description>Period block</description>
+    </column>
+    <column name="MEINH" data_type="VARCHAR">
+      <description>Unit of Measure</description>
+    </column>
+    <column name="WTG001" data_type="DECIMAL">
+      <description>Total Value in Transaction Currency</description>
+    </column>
+    <column name="WTG002" data_type="DECIMAL">
+      <description>Total Value in Transaction Currency</description>
+    </column>
+    <column name="WTG003" data_type="DECIMAL">
+      <description>Total Value in Transaction Currency</description>
+    </column>
+    <column name="WTG004" data_type="DECIMAL">
+      <description>Total Value in Transaction Currency</description>
+    </column>
+    <column name="WTG005" data_type="DECIMAL">
+      <description>Total Value in Transaction Currency</description>
+    </column>
+    <column name="WTG006" data_type="DECIMAL">
+      <description>Total Value in Transaction Currency</description>
+    </column>
+    <column name="WTG007" data_type="DECIMAL">
+      <description>Total Value in Transaction Currency</description>
+    </column>
+    <column name="WTG008" data_type="DECIMAL">
+      <description>Total Value in Transaction Currency</description>
+    </column>
+    <column name="WTG009" data_type="DECIMAL">
+      <description>Total Value in Transaction Currency</description>
+    </column>
+    <column name="WTG010" data_type="DECIMAL">
+      <description>Total Value in Transaction Currency</description>
+    </column>
+    <column name="WTG011" data_type="DECIMAL">
+      <description>Total Value in Transaction Currency</description>
+    </column>
+    <column name="WTG012" data_type="DECIMAL">
+      <description>Total Value in Transaction Currency</description>
+    </column>
+    <column name="WTG013" data_type="DECIMAL">
+      <description>Total Value in Transaction Currency</description>
+    </column>
+    <column name="WTG014" data_type="DECIMAL">
+      <description>Total Value in Transaction Currency</description>
+    </column>
+    <column name="WTG015" data_type="DECIMAL">
+      <description>Total Value in Transaction Currency</description>
+    </column>
+    <column name="WTG016" data_type="DECIMAL">
+      <description>Total Value in Transaction Currency</description>
+    </column>
+    <column name="WOG001" data_type="DECIMAL">
+      <description>Total Value in Object Currency</description>
+    </column>
+    <column name="WOG002" data_type="DECIMAL">
+      <description>Total Value in Object Currency</description>
+    </column>
+    <column name="WOG003" data_type="DECIMAL">
+      <description>Total Value in Object Currency</description>
+    </column>
+    <column name="WOG004" data_type="DECIMAL">
+      <description>Total Value in Object Currency</description>
+    </column>
+    <column name="WOG005" data_type="DECIMAL">
+      <description>Total Value in Object Currency</description>
+    </column>
+    <column name="WOG006" data_type="DECIMAL">
+      <description>Total Value in Object Currency</description>
+    </column>
+    <column name="WOG007" data_type="DECIMAL">
+      <description>Total Value in Object Currency</description>
+    </column>
+    <column name="WOG008" data_type="DECIMAL">
+      <description>Total Value in Object Currency</description>
+    </column>
+    <column name="WOG009" data_type="DECIMAL">
+      <description>Total Value in Object Currency</description>
+    </column>
+    <column name="WOG010" data_type="DECIMAL">
+      <description>Total Value in Object Currency</description>
+    </column>
+    <column name="WOG011" data_type="DECIMAL">
+      <description>Total Value in Object Currency</description>
+    </column>
+    <column name="WOG012" data_type="DECIMAL">
+      <description>Total Value in Object Currency</description>
+    </column>
+    <column name="WOG013" data_type="DECIMAL">
+      <description>Total Value in Object Currency</description>
+    </column>
+    <column name="WOG014" data_type="DECIMAL">
+      <description>Total Value in Object Currency</description>
+    </column>
+    <column name="WOG015" data_type="DECIMAL">
+      <description>Total Value in Object Currency</description>
+    </column>
+    <column name="WOG016" data_type="DECIMAL">
+      <description>Total Value in Object Currency</description>
+    </column>
+    <column name="WKG001" data_type="DECIMAL">
+      <description>Total Value in Controlling Area Currency</description>
+    </column>
+    <column name="WKG002" data_type="DECIMAL">
+      <description>Total Value in Controlling Area Currency</description>
+    </column>
+    <column name="WKG003" data_type="DECIMAL">
+      <description>Total Value in Controlling Area Currency</description>
+    </column>
+    <column name="WKG004" data_type="DECIMAL">
+      <description>Total Value in Controlling Area Currency</description>
+    </column>
+    <column name="WKG005" data_type="DECIMAL">
+      <description>Total Value in Controlling Area Currency</description>
+    </column>
+    <column name="WKG006" data_type="DECIMAL">
+      <description>Total Value in Controlling Area Currency</description>
+    </column>
+    <column name="WKG007" data_type="DECIMAL">
+      <description>Total Value in Controlling Area Currency</description>
+    </column>
+    <column name="WKG008" data_type="DECIMAL">
+      <description>Total Value in Controlling Area Currency</description>
+    </column>
+    <column name="WKG009" data_type="DECIMAL">
+      <description>Total Value in Controlling Area Currency</description>
+    </column>
+    <column name="WKG010" data_type="DECIMAL">
+      <description>Total Value in Controlling Area Currency</description>
+    </column>
+    <column name="WKG011" data_type="DECIMAL">
+      <description>Total Value in Controlling Area Currency</description>
+    </column>
+    <column name="WKG012" data_type="DECIMAL">
+      <description>Total Value in Controlling Area Currency</description>
+    </column>
+    <column name="WKG013" data_type="DECIMAL">
+      <description>Total Value in Controlling Area Currency</description>
+    </column>
+    <column name="WKG014" data_type="DECIMAL">
+      <description>Total Value in Controlling Area Currency</description>
+    </column>
+    <column name="WKG015" data_type="DECIMAL">
+      <description>Total Value in Controlling Area Currency</description>
+    </column>
+    <column name="WKG016" data_type="DECIMAL">
+      <description>Total Value in Controlling Area Currency</description>
+    </column>
+    <column name="WKF001" data_type="DECIMAL">
+      <description>Fixed Value in Controlling Area Currency</description>
+    </column>
+    <column name="WKF002" data_type="DECIMAL">
+      <description>Fixed Value in Controlling Area Currency</description>
+    </column>
+    <column name="WKF003" data_type="DECIMAL">
+      <description>Fixed Value in Controlling Area Currency</description>
+    </column>
+    <column name="WKF004" data_type="DECIMAL">
+      <description>Fixed Value in Controlling Area Currency</description>
+    </column>
+    <column name="WKF005" data_type="DECIMAL">
+      <description>Fixed Value in Controlling Area Currency</description>
+    </column>
+    <column name="WKF006" data_type="DECIMAL">
+      <description>Fixed Value in Controlling Area Currency</description>
+    </column>
+    <column name="WKF007" data_type="DECIMAL">
+      <description>Fixed Value in Controlling Area Currency</description>
+    </column>
+    <column name="WKF008" data_type="DECIMAL">
+      <description>Fixed Value in Controlling Area Currency</description>
+    </column>
+    <column name="WKF009" data_type="DECIMAL">
+      <description>Fixed Value in Controlling Area Currency</description>
+    </column>
+    <column name="WKF010" data_type="DECIMAL">
+      <description>Fixed Value in Controlling Area Currency</description>
+    </column>
+    <column name="WKF011" data_type="DECIMAL">
+      <description>Fixed Value in Controlling Area Currency</description>
+    </column>
+    <column name="WKF012" data_type="DECIMAL">
+      <description>Fixed Value in Controlling Area Currency</description>
+    </column>
+    <column name="WKF013" data_type="DECIMAL">
+      <description>Fixed Value in Controlling Area Currency</description>
+    </column>
+    <column name="WKF014" data_type="DECIMAL">
+      <description>Fixed Value in Controlling Area Currency</description>
+    </column>
+    <column name="WKF015" data_type="DECIMAL">
+      <description>Fixed Value in Controlling Area Currency</description>
+    </column>
+    <column name="WKF016" data_type="DECIMAL">
+      <description>Fixed Value in Controlling Area Currency</description>
+    </column>
+    <column name="PAG001" data_type="DECIMAL">
+      <description>Total Price Variance in CO Area Currency</description>
+    </column>
+    <column name="PAG002" data_type="DECIMAL">
+      <description>Total Price Variance in CO Area Currency</description>
+    </column>
+    <column name="PAG003" data_type="DECIMAL">
+      <description>Total Price Variance in CO Area Currency</description>
+    </column>
+    <column name="PAG004" data_type="DECIMAL">
+      <description>Total Price Variance in CO Area Currency</description>
+    </column>
+    <column name="PAG005" data_type="DECIMAL">
+      <description>Total Price Variance in CO Area Currency</description>
+    </column>
+    <column name="PAG006" data_type="DECIMAL">
+      <description>Total Price Variance in CO Area Currency</description>
+    </column>
+    <column name="PAG007" data_type="DECIMAL">
+      <description>Total Price Variance in CO Area Currency</description>
+    </column>
+    <column name="PAG008" data_type="DECIMAL">
+      <description>Total Price Variance in CO Area Currency</description>
+    </column>
+    <column name="PAG009" data_type="DECIMAL">
+      <description>Total Price Variance in CO Area Currency</description>
+    </column>
+    <column name="PAG010" data_type="DECIMAL">
+      <description>Total Price Variance in CO Area Currency</description>
+    </column>
+    <column name="PAG011" data_type="DECIMAL">
+      <description>Total Price Variance in CO Area Currency</description>
+    </column>
+    <column name="PAG012" data_type="DECIMAL">
+      <description>Total Price Variance in CO Area Currency</description>
+    </column>
+    <column name="PAG013" data_type="DECIMAL">
+      <description>Total Price Variance in CO Area Currency</description>
+    </column>
+    <column name="PAG014" data_type="DECIMAL">
+      <description>Total Price Variance in CO Area Currency</description>
+    </column>
+    <column name="PAG015" data_type="DECIMAL">
+      <description>Total Price Variance in CO Area Currency</description>
+    </column>
+    <column name="PAG016" data_type="DECIMAL">
+      <description>Total Price Variance in CO Area Currency</description>
+    </column>
+    <column name="MEG001" data_type="DECIMAL">
+      <description>Total Quantity</description>
+    </column>
+    <column name="MEG002" data_type="DECIMAL">
+      <description>Total Quantity</description>
+    </column>
+    <column name="MEG003" data_type="DECIMAL">
+      <description>Total Quantity</description>
+    </column>
+    <column name="MEG004" data_type="DECIMAL">
+      <description>Total Quantity</description>
+    </column>
+    <column name="MEG005" data_type="DECIMAL">
+      <description>Total Quantity</description>
+    </column>
+    <column name="MEG006" data_type="DECIMAL">
+      <description>Total Quantity</description>
+    </column>
+    <column name="MEG007" data_type="DECIMAL">
+      <description>Total Quantity</description>
+    </column>
+    <column name="MEG008" data_type="DECIMAL">
+      <description>Total Quantity</description>
+    </column>
+    <column name="MEG009" data_type="DECIMAL">
+      <description>Total Quantity</description>
+    </column>
+    <column name="MEG010" data_type="DECIMAL">
+      <description>Total Quantity</description>
+    </column>
+    <column name="MEG011" data_type="DECIMAL">
+      <description>Total Quantity</description>
+    </column>
+    <column name="MEG012" data_type="DECIMAL">
+      <description>Total Quantity</description>
+    </column>
+    <column name="MEG013" data_type="DECIMAL">
+      <description>Total Quantity</description>
+    </column>
+    <column name="MEG014" data_type="DECIMAL">
+      <description>Total Quantity</description>
+    </column>
+    <column name="MEG015" data_type="DECIMAL">
+      <description>Total Quantity</description>
+    </column>
+    <column name="MEG016" data_type="DECIMAL">
+      <description>Total Quantity</description>
+    </column>
+    <column name="MEF001" data_type="DECIMAL">
+      <description>Fixed Quantity</description>
+    </column>
+    <column name="MEF002" data_type="DECIMAL">
+      <description>Fixed Quantity</description>
+    </column>
+    <column name="MEF003" data_type="DECIMAL">
+      <description>Fixed Quantity</description>
+    </column>
+    <column name="MEF004" data_type="DECIMAL">
+      <description>Fixed Quantity</description>
+    </column>
+    <column name="MEF005" data_type="DECIMAL">
+      <description>Fixed Quantity</description>
+    </column>
+    <column name="MEF006" data_type="DECIMAL">
+      <description>Fixed Quantity</description>
+    </column>
+    <column name="MEF007" data_type="DECIMAL">
+      <description>Fixed Quantity</description>
+    </column>
+    <column name="MEF008" data_type="DECIMAL">
+      <description>Fixed Quantity</description>
+    </column>
+    <column name="MEF009" data_type="DECIMAL">
+      <description>Fixed Quantity</description>
+    </column>
+    <column name="MEF010" data_type="DECIMAL">
+      <description>Fixed Quantity</description>
+    </column>
+    <column name="MEF011" data_type="DECIMAL">
+      <description>Fixed Quantity</description>
+    </column>
+    <column name="MEF012" data_type="DECIMAL">
+      <description>Fixed Quantity</description>
+    </column>
+    <column name="MEF013" data_type="DECIMAL">
+      <description>Fixed Quantity</description>
+    </column>
+    <column name="MEF014" data_type="DECIMAL">
+      <description>Fixed Quantity</description>
+    </column>
+    <column name="MEF015" data_type="DECIMAL">
+      <description>Fixed Quantity</description>
+    </column>
+    <column name="MEF016" data_type="DECIMAL">
+      <description>Fixed Quantity</description>
+    </column>
+    <column name="MUV001" data_type="VARCHAR">
+      <description>Quantities Incomplete</description>
+    </column>
+    <column name="MUV002" data_type="VARCHAR">
+      <description>Quantities Incomplete</description>
+    </column>
+    <column name="MUV003" data_type="VARCHAR">
+      <description>Quantities Incomplete</description>
+    </column>
+    <column name="MUV004" data_type="VARCHAR">
+      <description>Quantities Incomplete</description>
+    </column>
+    <column name="MUV005" data_type="VARCHAR">
+      <description>Quantities Incomplete</description>
+    </column>
+    <column name="MUV006" data_type="VARCHAR">
+      <description>Quantities Incomplete</description>
+    </column>
+    <column name="MUV007" data_type="VARCHAR">
+      <description>Quantities Incomplete</description>
+    </column>
+    <column name="MUV008" data_type="VARCHAR">
+      <description>Quantities Incomplete</description>
+    </column>
+    <column name="MUV009" data_type="VARCHAR">
+      <description>Quantities Incomplete</description>
+    </column>
+    <column name="MUV010" data_type="VARCHAR">
+      <description>Quantities Incomplete</description>
+    </column>
+    <column name="MUV011" data_type="VARCHAR">
+      <description>Quantities Incomplete</description>
+    </column>
+    <column name="MUV012" data_type="VARCHAR">
+      <description>Quantities Incomplete</description>
+    </column>
+    <column name="MUV013" data_type="VARCHAR">
+      <description>Quantities Incomplete</description>
+    </column>
+    <column name="MUV014" data_type="VARCHAR">
+      <description>Quantities Incomplete</description>
+    </column>
+    <column name="MUV015" data_type="VARCHAR">
+      <description>Quantities Incomplete</description>
+    </column>
+    <column name="MUV016" data_type="VARCHAR">
+      <description>Quantities Incomplete</description>
+    </column>
+    <column name="BELTP" data_type="VARCHAR">
+      <description>Debit type</description>
+    </column>
+    <column name="TIMESTMP" data_type="DECIMAL">
+      <description>Time created (Greenwich Meantime)</description>
+    </column>
+    <column name="BUKRS" data_type="VARCHAR">
+      <description>Company Code</description>
+    </column>
+    <column name="FKBER" data_type="VARCHAR">
+      <description>Functional Area</description>
+    </column>
+    <column name="SEGMENT" data_type="VARCHAR">
+      <description>Segment for Segmental Reporting</description>
+    </column>
+    <column name="GEBER" data_type="VARCHAR">
+      <description>Fund</description>
+    </column>
+    <column name="GRANT_NBR" data_type="VARCHAR">
+      <description>Grant</description>
+    </column>
+    <column name="BUDGET_PD" data_type="VARCHAR">
+      <description>FM: Budget Period</description>
+    </column>
+  </columns>
+</data_description>

@@ -1,0 +1,195 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="KONP">
+  <table_info name="KONP" total_columns="63"/>
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="KNUMH" data_type="VARCHAR">
+      <description>Condition record number</description>
+    </column>
+    <column name="KOPOS" data_type="VARCHAR">
+      <description>Sequential number of the condition</description>
+    </column>
+    <column name="KAPPL" data_type="VARCHAR">
+      <description>Application</description>
+    </column>
+    <column name="KSCHL" data_type="VARCHAR">
+      <description>Condition Type</description>
+    </column>
+    <column name="KNUMT" data_type="VARCHAR">
+      <description>Number of texts</description>
+    </column>
+    <column name="STFKZ" data_type="VARCHAR">
+      <description>Scale Type</description>
+    </column>
+    <column name="KZBZG" data_type="VARCHAR">
+      <description>Scale basis indicator</description>
+    </column>
+    <column name="KSTBM" data_type="DECIMAL">
+      <description>Condition scale quantity</description>
+    </column>
+    <column name="KONMS" data_type="VARCHAR">
+      <description>Condition scale unit of measure</description>
+    </column>
+    <column name="KSTBW" data_type="DECIMAL">
+      <description>Scale value</description>
+    </column>
+    <column name="KONWS" data_type="VARCHAR">
+      <description>Scale currency</description>
+    </column>
+    <column name="KRECH" data_type="VARCHAR">
+      <description>Calculation type for condition</description>
+    </column>
+    <column name="KBETR" data_type="DECIMAL">
+      <description>Rate (condition amount or percentage) where no scale exists</description>
+    </column>
+    <column name="KONWA" data_type="VARCHAR">
+      <description>Rate unit (currency or percentage)</description>
+    </column>
+    <column name="KPEIN" data_type="DECIMAL">
+      <description>Condition pricing unit</description>
+    </column>
+    <column name="KMEIN" data_type="VARCHAR">
+      <description>Condition unit</description>
+    </column>
+    <column name="PRSCH" data_type="VARCHAR">
+      <description>Scale Group</description>
+    </column>
+    <column name="KUMZA" data_type="DECIMAL">
+      <description>Numerator for converting condition units to base units</description>
+    </column>
+    <column name="KUMNE" data_type="DECIMAL">
+      <description>Denominator for converting condition units to base units</description>
+    </column>
+    <column name="MEINS" data_type="VARCHAR">
+      <description>Base Unit of Measure</description>
+    </column>
+    <column name="MXWRT" data_type="DECIMAL">
+      <description>Lower limit of the condition rate/amount</description>
+    </column>
+    <column name="GKWRT" data_type="DECIMAL">
+      <description>Upper limit for the condition rate</description>
+    </column>
+    <column name="PKWRT" data_type="DECIMAL">
+      <description>Planned condition value</description>
+    </column>
+    <column name="FKWRT" data_type="DECIMAL">
+      <description>Cumulative guaranteed discount                   (not used)</description>
+    </column>
+    <column name="RSWRT" data_type="DECIMAL">
+      <description>Accumulated accruals values                       (not used)</description>
+    </column>
+    <column name="KWAEH" data_type="VARCHAR">
+      <description>Condition Currency (for Cumulation Fields)</description>
+    </column>
+    <column name="UKBAS" data_type="DECIMAL">
+      <description>Planned condition basis</description>
+    </column>
+    <column name="KZNEP" data_type="VARCHAR">
+      <description>Condition exclusion indicator</description>
+    </column>
+    <column name="KUNNR" data_type="VARCHAR">
+      <description>Customer Number</description>
+    </column>
+    <column name="LIFNR" data_type="VARCHAR">
+      <description>Account Number of Supplier</description>
+    </column>
+    <column name="MWSK1" data_type="VARCHAR">
+      <description>Tax on Sales/Purchases Code</description>
+    </column>
+    <column name="LOEVM_KO" data_type="VARCHAR">
+      <description>Deletion Indicator for Condition Item</description>
+    </column>
+    <column name="ZAEHK_IND" data_type="VARCHAR">
+      <description>Condition item index</description>
+    </column>
+    <column name="BOMAT" data_type="VARCHAR">
+      <description>Material for rebate settlement</description>
+    </column>
+    <column name="KBRUE" data_type="DECIMAL">
+      <description>Accrual Amount</description>
+    </column>
+    <column name="KSPAE" data_type="VARCHAR">
+      <description>Rebate was set up retroactively</description>
+    </column>
+    <column name="BOSTA" data_type="VARCHAR">
+      <description>Condition Record Status (Rebate)</description>
+    </column>
+    <column name="KNUMA_PI" data_type="VARCHAR">
+      <description>Promotion</description>
+    </column>
+    <column name="KNUMA_AG" data_type="VARCHAR">
+      <description>Sales deal</description>
+    </column>
+    <column name="KNUMA_SQ" data_type="VARCHAR">
+      <description>Sales quote</description>
+    </column>
+    <column name="VALTG" data_type="VARCHAR">
+      <description>Additional value days</description>
+    </column>
+    <column name="VALDT" data_type="DATE">
+      <description>Fixed value date</description>
+    </column>
+    <column name="ZTERM" data_type="VARCHAR">
+      <description>Terms of Payment Key</description>
+    </column>
+    <column name="ANZAUF" data_type="VARCHAR">
+      <description>Maximum number of sales orders per condition record</description>
+    </column>
+    <column name="MIKBAS" data_type="DECIMAL">
+      <description>Minimum condition base value</description>
+    </column>
+    <column name="MXKBAS" data_type="DECIMAL">
+      <description>Maximum condition base value</description>
+    </column>
+    <column name="KOMXWRT" data_type="DECIMAL">
+      <description>Maximum condition value</description>
+    </column>
+    <column name="KLF_STG" data_type="VARCHAR">
+      <description>Number of incremental scale</description>
+    </column>
+    <column name="KLF_KAL" data_type="VARCHAR">
+      <description>Scale number for pricing</description>
+    </column>
+    <column name="VKKAL" data_type="VARCHAR">
+      <description>Sales Price Calculation: Relevant to pricing</description>
+    </column>
+    <column name="AKTNR" data_type="VARCHAR">
+      <description>Promotion</description>
+    </column>
+    <column name="KNUMA_BO" data_type="VARCHAR">
+      <description>Agreement (subsequent settlement)</description>
+    </column>
+    <column name="MWSK2" data_type="VARCHAR">
+      <description>Withholding tax code</description>
+    </column>
+    <column name="VERTT" data_type="VARCHAR">
+      <description>Contract Type</description>
+    </column>
+    <column name="VERTN" data_type="VARCHAR">
+      <description>Contract Number</description>
+    </column>
+    <column name="VBEWA" data_type="VARCHAR">
+      <description>Flow Type</description>
+    </column>
+    <column name="MDFLG" data_type="VARCHAR">
+      <description>Indicator: Matrix maintenance</description>
+    </column>
+    <column name="KFRST" data_type="VARCHAR">
+      <description>Release status</description>
+    </column>
+    <column name="UASTA" data_type="VARCHAR">
+      <description>Status of business volume comparison for a condition</description>
+    </column>
+    <column name="/BEV1/ECRTT" data_type="VARCHAR">
+      <description>Contract Type</description>
+    </column>
+    <column name="/BEV1/ECRTN" data_type="VARCHAR">
+      <description>Contract Number</description>
+    </column>
+    <column name="/BEV1/ECEWA" data_type="VARCHAR">
+      <description>Flow Type</description>
+    </column>
+  </columns>
+</data_description>

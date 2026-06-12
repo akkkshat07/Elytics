@@ -1,0 +1,186 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="IFLOT">
+  <table_info name="IFLOT" total_columns="60"/>
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="TPLNR" data_type="VARCHAR">
+      <description>Functional Location</description>
+    </column>
+    <column name="MLANG" data_type="VARCHAR">
+      <description>Primary language for object texts</description>
+    </column>
+    <column name="TPLKZ" data_type="VARCHAR">
+      <description>Functional location structure indicator</description>
+    </column>
+    <column name="FLTYP" data_type="VARCHAR">
+      <description>Functional location category</description>
+    </column>
+    <column name="TPLMA" data_type="VARCHAR">
+      <description>Superior functional location</description>
+    </column>
+    <column name="ERDAT" data_type="DATE">
+      <description>Date on which the object was created</description>
+    </column>
+    <column name="ERNAM" data_type="VARCHAR">
+      <description>Name of User Who Created the Object</description>
+    </column>
+    <column name="AEDAT" data_type="DATE">
+      <description>Date on which the object was last changed</description>
+    </column>
+    <column name="AENAM" data_type="VARCHAR">
+      <description>Name of the user who last changed the object</description>
+    </column>
+    <column name="DATAB" data_type="DATE">
+      <description>Start-Up Date of the Technical Object</description>
+    </column>
+    <column name="BEGRU" data_type="VARCHAR">
+      <description>Technical object authorization group</description>
+    </column>
+    <column name="TRPNR" data_type="VARCHAR">
+      <description>Reference functional location</description>
+    </column>
+    <column name="PSTAE" data_type="VARCHAR">
+      <description>SAP Development reserve: Format CHAR, length 4</description>
+    </column>
+    <column name="STNAM" data_type="VARCHAR">
+      <description>SAP Development Reserve: Format CHAR, Length 12</description>
+    </column>
+    <column name="LVORM" data_type="VARCHAR">
+      <description>SAP Development Reserve: Format CHAR, Length 1</description>
+    </column>
+    <column name="SUBMT" data_type="VARCHAR">
+      <description>Construction type material of the object</description>
+    </column>
+    <column name="SUBMTI" data_type="VARCHAR">
+      <description>Data origin for construction type field</description>
+    </column>
+    <column name="MAPAR" data_type="VARCHAR">
+      <description>Manufacturer part number</description>
+    </column>
+    <column name="MAPARI" data_type="VARCHAR">
+      <description>SAP Development Reserve: Format CHAR, Length 1</description>
+    </column>
+    <column name="IEQUI" data_type="VARCHAR">
+      <description>Installation of equipment allowed at the functional location</description>
+    </column>
+    <column name="IEQUII" data_type="VARCHAR">
+      <description>Data origin for equip. inst. allowed field</description>
+    </column>
+    <column name="EINZL" data_type="VARCHAR">
+      <description>Single equipment installation at functional location</description>
+    </column>
+    <column name="EINZLI" data_type="VARCHAR">
+      <description>Data origin for authorization group field</description>
+    </column>
+    <column name="IWERK" data_type="VARCHAR">
+      <description>Maintenance Planning Plant</description>
+    </column>
+    <column name="IWERKI" data_type="VARCHAR">
+      <description>Data origin for planning plant field</description>
+    </column>
+    <column name="INGRP" data_type="VARCHAR">
+      <description>Planner Group for Customer Service and Plant Maintenance</description>
+    </column>
+    <column name="INGRPI" data_type="VARCHAR">
+      <description>Data origin for maintenance planner group field</description>
+    </column>
+    <column name="PM_OBJTY" data_type="VARCHAR">
+      <description>Object Type of CIM Resources for Work Center</description>
+    </column>
+    <column name="LGWID" data_type="VARCHAR">
+      <description>Object ID of the Work Center</description>
+    </column>
+    <column name="LGWIDI" data_type="VARCHAR">
+      <description>Data Origin for the Field 'Work Center'</description>
+    </column>
+    <column name="RBNR" data_type="VARCHAR">
+      <description>Catalog Profile</description>
+    </column>
+    <column name="RBNR_I" data_type="VARCHAR">
+      <description>Data origin for maintenance catalog field</description>
+    </column>
+    <column name="ILOAN" data_type="VARCHAR">
+      <description>Location and account assignment for technical object</description>
+    </column>
+    <column name="OBJNR" data_type="VARCHAR">
+      <description>Object number</description>
+    </column>
+    <column name="POSNR" data_type="VARCHAR">
+      <description>Position in superior technical object</description>
+    </column>
+    <column name="ISTYP" data_type="VARCHAR">
+      <description>Object category for Industry Solutions (IS)</description>
+    </column>
+    <column name="PREMS" data_type="VARCHAR">
+      <description>Premise</description>
+    </column>
+    <column name="EQART" data_type="VARCHAR">
+      <description>Type of Technical Object</description>
+    </column>
+    <column name="INVNR" data_type="VARCHAR">
+      <description>Inventory number</description>
+    </column>
+    <column name="GROES" data_type="VARCHAR">
+      <description>Size/dimension</description>
+    </column>
+    <column name="BRGEW" data_type="DECIMAL">
+      <description>Gross Weight</description>
+    </column>
+    <column name="GEWEI" data_type="VARCHAR">
+      <description>Unit of Weight</description>
+    </column>
+    <column name="ANSWT" data_type="DECIMAL">
+      <description>Acquisition Value</description>
+    </column>
+    <column name="WAERS" data_type="VARCHAR">
+      <description>Currency Key</description>
+    </column>
+    <column name="ANSDT" data_type="DATE">
+      <description>Acquisition date</description>
+    </column>
+    <column name="HERST" data_type="VARCHAR">
+      <description>Manufacturer of asset</description>
+    </column>
+    <column name="HERLD" data_type="VARCHAR">
+      <description>Country of manufacture</description>
+    </column>
+    <column name="BAUJJ" data_type="VARCHAR">
+      <description>Year of construction</description>
+    </column>
+    <column name="BAUMM" data_type="VARCHAR">
+      <description>Month of construction</description>
+    </column>
+    <column name="TYPBZ" data_type="VARCHAR">
+      <description>Manufacturer model number</description>
+    </column>
+    <column name="EMATN" data_type="VARCHAR">
+      <description>Material number corresponding to manufacturer part number</description>
+    </column>
+    <column name="SERGE" data_type="VARCHAR">
+      <description>Manufacturer serial number</description>
+    </column>
+    <column name="HANDLE" data_type="VARCHAR">
+      <description>SAP Development Reserve: Integration of Date Segment (Key)</description>
+    </column>
+    <column name="TSEGTP" data_type="VARCHAR">
+      <description>SAP Development Reserve: Integration Date Segment (Tempate)</description>
+    </column>
+    <column name="ENDOFUSE" data_type="DATE">
+      <description>End-of-Use Date of the Technical Object</description>
+    </column>
+    <column name="FLLB_DUTY" data_type="VARCHAR">
+      <description>Logbook Duty</description>
+    </column>
+    <column name="FLLB_HIDE" data_type="VARCHAR">
+      <description>Hide Logbook Display</description>
+    </column>
+    <column name="IFLOT_SRTYPE" data_type="VARCHAR">
+      <description>Shift Report Type for Object</description>
+    </column>
+    <column name="IFLOT_SNTYPE" data_type="VARCHAR">
+      <description>Notification Type for Shift Note for Object</description>
+    </column>
+  </columns>
+</data_description>

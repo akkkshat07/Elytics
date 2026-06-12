@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="VTSP">
+  <table_info name="VTSP" total_columns="4" />
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="TKNUM" data_type="VARCHAR">
+      <description>Shipment Number</description>
+    </column>
+    <column name="TSNUM" data_type="VARCHAR">
+      <description>Stage of transport number</description>
+    </column>
+    <column name="TPNUM" data_type="VARCHAR">
+      <description>Shipment item</description>
+    </column>
+  </columns>
+</data_description>

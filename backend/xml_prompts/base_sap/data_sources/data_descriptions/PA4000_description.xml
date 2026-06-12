@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="PA4000">
+  <table_info name="PA4000" total_columns="30" />
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="PERNR" data_type="VARCHAR">
+      <description>Personnel Number</description>
+    </column>
+    <column name="SUBTY" data_type="VARCHAR">
+      <description>Subtype</description>
+    </column>
+    <column name="OBJPS" data_type="VARCHAR">
+      <description>Object Identification</description>
+    </column>
+    <column name="SPRPS" data_type="VARCHAR">
+      <description>Lock Indicator for HR Master Data Record</description>
+    </column>
+    <column name="ENDDA" data_type="DATE">
+      <description>End Date</description>
+    </column>
+    <column name="BEGDA" data_type="DATE">
+      <description>Start Date</description>
+    </column>
+    <column name="SEQNR" data_type="VARCHAR">
+      <description>Number of Infotype Record With Same Key</description>
+    </column>
+    <column name="AEDTM" data_type="DATE">
+      <description>Last Changed On</description>
+    </column>
+    <column name="UNAME" data_type="VARCHAR">
+      <description>Name of Person Who Changed Object</description>
+    </column>
+    <column name="HISTO" data_type="VARCHAR">
+      <description>Historical Record Flag</description>
+    </column>
+    <column name="ITXEX" data_type="VARCHAR">
+      <description>Text Exists for Infotype</description>
+    </column>
+    <column name="REFEX" data_type="VARCHAR">
+      <description>Reference Fields Exist (Primary/Secondary Costs)</description>
+    </column>
+    <column name="ORDEX" data_type="VARCHAR">
+      <description>Order Fields Exist</description>
+    </column>
+    <column name="ITBLD" data_type="VARCHAR">
+      <description>Infotype Screen Group</description>
+    </column>
+    <column name="PREAS" data_type="VARCHAR">
+      <description>Reason for Change</description>
+    </column>
+    <column name="FLAG1" data_type="VARCHAR">
+      <description>Flag 1</description>
+    </column>
+    <column name="FLAG2" data_type="VARCHAR">
+      <description>Flag 2</description>
+    </column>
+    <column name="FLAG3" data_type="VARCHAR">
+      <description>Flag 3</description>
+    </column>
+    <column name="FLAG4" data_type="VARCHAR">
+      <description>Flag 4</description>
+    </column>
+    <column name="RESERV" data_type="VARCHAR">
+      <description>Reserved field</description>
+    </column>
+    <column name="ACTION" data_type="VARCHAR">
+      <description>Personnel action type</description>
+    </column>
+    <column name="ACTION_DATE" data_type="DATE">
+      <description>Action date</description>
+    </column>
+    <column name="ACTION_TIME" data_type="VARCHAR">
+      <description>Action time</description>
+    </column>
+    <column name="ACTION_STATUS" data_type="VARCHAR">
+      <description>Action status</description>
+    </column>
+    <column name="ACTION_RESULT" data_type="VARCHAR">
+      <description>Action result</description>
+    </column>
+    <column name="ACTION_REASON" data_type="VARCHAR">
+      <description>Action reason</description>
+    </column>
+    <column name="ACTION_COMMENT" data_type="VARCHAR">
+      <description>Action comment</description>
+    </column>
+    <column name="ACTION_APPROVER" data_type="VARCHAR">
+      <description>Action approver</description>
+    </column>
+    <column name="ACTION_APPROVAL_DATE" data_type="DATE">
+      <description>Action approval date</description>
+    </column>
+  </columns>
+</data_description>

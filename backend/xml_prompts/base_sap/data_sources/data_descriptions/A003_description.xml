@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="A003">
+  <table_info name="A003" total_columns="6" />
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="KAPPL" data_type="VARCHAR">
+      <description>Application</description>
+    </column>
+    <column name="KSCHL" data_type="VARCHAR">
+      <description>Condition Type</description>
+    </column>
+    <column name="ALAND" data_type="VARCHAR">
+      <description>Departure country (country from which the goods are sent)</description>
+    </column>
+    <column name="MWSKZ" data_type="VARCHAR">
+      <description>Tax on Sales/Purchases Code</description>
+    </column>
+    <column name="KNUMH" data_type="VARCHAR">
+      <description>Condition record number</description>
+    </column>
+  </columns>
+</data_description>

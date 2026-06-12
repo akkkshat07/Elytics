@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="T024F">
+  <table_info name="T024F" total_columns="5" />
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="WERKS" data_type="VARCHAR">
+      <description>Plant</description>
+    </column>
+    <column name="FEVOR" data_type="VARCHAR">
+      <description>Production Supervisor</description>
+    </column>
+    <column name="TXT" data_type="VARCHAR">
+      <description>Description of Production Supervisor</description>
+    </column>
+    <column name="SFCPF" data_type="VARCHAR">
+      <description>Production Scheduling Profile</description>
+    </column>
+  </columns>
+</data_description>

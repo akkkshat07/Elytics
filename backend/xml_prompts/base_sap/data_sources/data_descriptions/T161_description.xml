@@ -1,0 +1,174 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="T161">
+  <table_info name="T161" total_columns="56"/>
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="BSTYP" data_type="VARCHAR">
+      <description>Purchasing document category</description>
+    </column>
+    <column name="BSART" data_type="VARCHAR">
+      <description>Purchasing Document Type</description>
+    </column>
+    <column name="BSAKZ" data_type="VARCHAR">
+      <description>Control indicator for purchasing document type</description>
+    </column>
+    <column name="PINCR" data_type="VARCHAR">
+      <description>Item Number Interval</description>
+    </column>
+    <column name="NUMKI" data_type="VARCHAR">
+      <description>Number range in the case of internal number assignment</description>
+    </column>
+    <column name="NUMKE" data_type="VARCHAR">
+      <description>Number range in the case of external number assignment</description>
+    </column>
+    <column name="BREFN" data_type="VARCHAR">
+      <description>Field Selection Key</description>
+    </column>
+    <column name="REFBA" data_type="VARCHAR">
+      <description>Reference document type</description>
+    </column>
+    <column name="ABVOR" data_type="VARCHAR">
+      <description>Prepopulate Standard Release Order Quantity in Contract</description>
+    </column>
+    <column name="STAFO" data_type="VARCHAR">
+      <description>Update group for statistics update</description>
+    </column>
+    <column name="UPINC" data_type="VARCHAR">
+      <description>Item Number Interval for Subitems</description>
+    </column>
+    <column name="STAKO" data_type="VARCHAR">
+      <description>Document with time-dependent conditions</description>
+    </column>
+    <column name="PARGR" data_type="VARCHAR">
+      <description>Partner Determination Procedure</description>
+    </column>
+    <column name="NUMKA" data_type="VARCHAR">
+      <description>Number range in case of internal number assignment for ALE</description>
+    </column>
+    <column name="HITYP" data_type="VARCHAR">
+      <description>Hierarchy category: vendor hierarchy</description>
+    </column>
+    <column name="LPHIS" data_type="VARCHAR">
+      <description>Indicator for scheduling agreement release documentation</description>
+    </column>
+    <column name="GSFRG" data_type="VARCHAR">
+      <description>Overall release of purchase requisitions</description>
+    </column>
+    <column name="VARIANTE" data_type="VARCHAR">
+      <description>Layout</description>
+    </column>
+    <column name="SHENQ" data_type="VARCHAR">
+      <description>Only shared lock in case of contract release order</description>
+    </column>
+    <column name="KZALE" data_type="VARCHAR">
+      <description>Distributed contract (ALE)</description>
+    </column>
+    <column name="ABGEBOT" data_type="VARCHAR">
+      <description>Competitive bidding procedure using global percentage bids</description>
+    </column>
+    <column name="KORNR" data_type="VARCHAR">
+      <description>Correction of miscellaneous provisions</description>
+    </column>
+    <column name="UMLIF" data_type="VARCHAR">
+      <description>Stock transfer: Take vendor data into account</description>
+    </column>
+    <column name="KOETT" data_type="VARCHAR">
+      <description>Contract with delivery schedule</description>
+    </column>
+    <column name="AR_OBJECT" data_type="VARCHAR">
+      <description>Document type</description>
+    </column>
+    <column name="KOAKO" data_type="VARCHAR">
+      <description>Contract allowed as release order against contract</description>
+    </column>
+    <column name="OICSEGI" data_type="VARCHAR">
+      <description>Quantity schedule creation permitted</description>
+    </column>
+    <column name="OIRFQREQ" data_type="VARCHAR">
+      <description>Precedence for RFQ or default requisition for TDP PO</description>
+    </column>
+    <column name="WVVKZ" data_type="VARCHAR">
+      <description>Indicator for Further Processing of Summarized Documents</description>
+    </column>
+    <column name="XLOKZ" data_type="VARCHAR">
+      <description>Cross-System Transit</description>
+    </column>
+    <column name="CP_AKTIVE" data_type="VARCHAR">
+      <description>Commitment Plan is Active</description>
+    </column>
+    <column name="CPTYPE" data_type="VARCHAR">
+      <description>Category of Commitment Plan</description>
+    </column>
+    <column name="FLS_RSTO" data_type="VARCHAR">
+      <description>Store Return with Inbound and Outbound Delivery</description>
+    </column>
+    <column name="MSR_ACTIVE" data_type="VARCHAR">
+      <description>Advanced Returns Management Active</description>
+    </column>
+    <column name="RDP_PROFILE" data_type="VARCHAR">
+      <description>Risk Distribution Plan Profile</description>
+    </column>
+    <column name="NUMKC" data_type="VARCHAR">
+      <description>Number Range for SRM Central Contract</description>
+    </column>
+    <column name="/SAPMP/CEACT" data_type="VARCHAR">
+      <description>Fast Data Entry of Characteristics Is Active</description>
+    </column>
+    <column name="/SAPMP/PDACT" data_type="VARCHAR">
+      <description>Activate Inheritance</description>
+    </column>
+    <column name="/SAPMP/PPROT" data_type="VARCHAR">
+      <description>Log of Characteristic Value Inheritance</description>
+    </column>
+    <column name="/SAPMP/PUSER" data_type="VARCHAR">
+      <description>Inheritance: Overwrite User Values</description>
+    </column>
+    <column name="/SAPMP/PAUSW" data_type="VARCHAR">
+      <description>Inheritance of Characteristics Selection List</description>
+    </column>
+    <column name="/SAPMP/ATNAM" data_type="VARCHAR">
+      <description>Characteristic name</description>
+    </column>
+    <column name="/SAPMP/GAUF" data_type="VARCHAR">
+      <description>Global/Local Group May Be Undone</description>
+    </column>
+    <column name="TOLSL" data_type="VARCHAR">
+      <description>Tolerance Key for Overdraw Tolerance</description>
+    </column>
+    <column name="FSH_VAS_ACT" data_type="VARCHAR">
+      <description>VAS Active Flag</description>
+    </column>
+    <column name="FSH_VAS_KALSM" data_type="VARCHAR">
+      <description>Determination Procedure</description>
+    </column>
+    <column name="FSH_VAS_DEL" data_type="VARCHAR">
+      <description>Criteria for VAS Deletion during Determination</description>
+    </column>
+    <column name="FSH_VAS_DETDT" data_type="VARCHAR">
+      <description>Date for VAS Determination</description>
+    </column>
+    <column name="FSH_EXCL_RETURN" data_type="VARCHAR">
+      <description>Exclude Return Items</description>
+    </column>
+    <column name="FSH_VAR_KALSM" data_type="VARCHAR">
+      <description>Determination Procedure</description>
+    </column>
+    <column name="FSH_DPR_DETPRO" data_type="VARCHAR">
+      <description>Determination Procedure for Distribution Curve</description>
+    </column>
+    <column name="FSH_PO_IDOC" data_type="VARCHAR">
+      <description>Generic Article in PO Using IDoc</description>
+    </column>
+    <column name="FSH_AUTO_DC" data_type="VARCHAR">
+      <description>Automatic distribution indicator</description>
+    </column>
+    <column name="MILL_OMKZ" data_type="VARCHAR">
+      <description>Mill: Use reference characteristics in Purchasing</description>
+    </column>
+    <column name="WRF_ENABLE_DATELINE" data_type="VARCHAR">
+      <description>Enable Dateline</description>
+    </column>
+  </columns>
+</data_description>

@@ -1,0 +1,111 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="COVP">
+  <table_info name="COVP" total_columns="35" />
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="BELNR" data_type="VARCHAR">
+      <description>CO document number</description>
+    </column>
+    <column name="GJAHR" data_type="VARCHAR">
+      <description>Fiscal Year</description>
+    </column>
+    <column name="PERIO" data_type="VARCHAR">
+      <description>Posting Period</description>
+    </column>
+    <column name="KOKRS" data_type="VARCHAR">
+      <description>Controlling Area</description>
+    </column>
+    <column name="BUKRS" data_type="VARCHAR">
+      <description>Company Code</description>
+    </column>
+    <column name="VORGN" data_type="VARCHAR">
+      <description>Transaction type</description>
+    </column>
+    <column name="KSTAR" data_type="VARCHAR">
+      <description>Cost Element</description>
+    </column>
+    <column name="OBJNR" data_type="VARCHAR">
+      <description>Object Number</description>
+    </column>
+    <column name="OBJNR_TO" data_type="VARCHAR">
+      <description>Object number of receiver</description>
+    </column>
+    <column name="WERKS" data_type="VARCHAR">
+      <description>Plant</description>
+    </column>
+    <column name="KOSTL" data_type="VARCHAR">
+      <description>Cost Center</description>
+    </column>
+    <column name="AUFNR" data_type="VARCHAR">
+      <description>Order Number</description>
+    </column>
+    <column name="PROJN" data_type="VARCHAR">
+      <description>Project Number</description>
+    </column>
+    <column name="PRCTR" data_type="VARCHAR">
+      <description>Profit Center</description>
+    </column>
+    <column name="BELKZ" data_type="VARCHAR">
+      <description>Document category</description>
+    </column>
+    <column name="BEKNZ" data_type="VARCHAR">
+      <description>Debit/credit indicator</description>
+    </column>
+    <column name="WRTTP" data_type="VARCHAR">
+      <description>Value type</description>
+    </column>
+    <column name="WAERS" data_type="VARCHAR">
+      <description>Currency Key</description>
+    </column>
+    <column name="WTGBTR" data_type="DECIMAL">
+      <description>Amount in transaction currency</description>
+    </column>
+    <column name="BUDAT" data_type="DATE">
+      <description>Posting Date in the Document</description>
+    </column>
+    <column name="BLDAT" data_type="DATE">
+      <description>Document Date in Document</description>
+    </column>
+    <column name="USNAM" data_type="VARCHAR">
+      <description>User name</description>
+    </column>
+    <column name="BZOBJ" data_type="VARCHAR">
+      <description>Business transaction object</description>
+    </column>
+    <column name="BZBEZ" data_type="VARCHAR">
+      <description>Business transaction identifier</description>
+    </column>
+    <column name="BZPER" data_type="VARCHAR">
+      <description>Business transaction period</description>
+    </column>
+    <column name="BZORG" data_type="VARCHAR">
+      <description>Business transaction organization</description>
+    </column>
+    <column name="BZREF" data_type="VARCHAR">
+      <description>Reference field for business transaction</description>
+    </column>
+    <column name="BZGRP" data_type="VARCHAR">
+      <description>Business transaction group</description>
+    </column>
+    <column name="BZSTU" data_type="VARCHAR">
+      <description>Business transaction status</description>
+    </column>
+    <column name="BZKEY" data_type="VARCHAR">
+      <description>Business transaction key</description>
+    </column>
+    <column name="BZPOS" data_type="VARCHAR">
+      <description>Business transaction item</description>
+    </column>
+    <column name="BZUNI" data_type="VARCHAR">
+      <description>Business transaction unit</description>
+    </column>
+    <column name="BZMEN" data_type="DECIMAL">
+      <description>Business transaction quantity</description>
+    </column>
+    <column name="BZPRE" data_type="DECIMAL">
+      <description>Business transaction price</description>
+    </column>
+  </columns>
+</data_description>

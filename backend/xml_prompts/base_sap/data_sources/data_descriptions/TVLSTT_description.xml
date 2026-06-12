@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="TVLSTT">
+  <table_info name="TVLSTT" total_columns="5" />
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="SPRAS" data_type="VARCHAR">
+      <description>Language Key</description>
+    </column>
+    <column name="LSTEL" data_type="VARCHAR">
+      <description>Delivery status code</description>
+    </column>
+    <column name="VBTYP" data_type="VARCHAR">
+      <description>SD document category</description>
+    </column>
+    <column name="VTEXT" data_type="VARCHAR">
+      <description>Delivery Status Description</description>
+    </column>
+  </columns>
+</data_description>

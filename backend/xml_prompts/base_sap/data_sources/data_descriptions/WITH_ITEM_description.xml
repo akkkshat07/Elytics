@@ -1,0 +1,273 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="WITH_ITEM">
+  <table_info name="WITH_ITEM" total_columns="89"/>
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="BUKRS" data_type="VARCHAR">
+      <description>Company Code</description>
+    </column>
+    <column name="BELNR" data_type="VARCHAR">
+      <description>Document Number of an Accounting Document</description>
+    </column>
+    <column name="GJAHR" data_type="VARCHAR">
+      <description>Fiscal Year</description>
+    </column>
+    <column name="BUZEI" data_type="VARCHAR">
+      <description>Number of Line Item Within Accounting Document</description>
+    </column>
+    <column name="WITHT" data_type="VARCHAR">
+      <description>Indicator for withholding tax type</description>
+    </column>
+    <column name="WT_WITHCD" data_type="VARCHAR">
+      <description>Withholding tax code</description>
+    </column>
+    <column name="WT_QSSHH" data_type="DECIMAL">
+      <description>Withholding tax base amount (local currency)</description>
+    </column>
+    <column name="WT_QSSHB" data_type="DECIMAL">
+      <description>Withholding tax base amount in document currency</description>
+    </column>
+    <column name="WT_QSSH2" data_type="DECIMAL">
+      <description>Withholding tax base amount in 2nd local currency</description>
+    </column>
+    <column name="WT_QSSH3" data_type="DECIMAL">
+      <description>Withholding tax base amount in 3rd local currency</description>
+    </column>
+    <column name="WT_BASMAN" data_type="VARCHAR">
+      <description>Indicator: Withholding tax base amount entered manually</description>
+    </column>
+    <column name="WT_QSSHHC" data_type="DECIMAL">
+      <description>Withholding tax base amount in LC for calculation</description>
+    </column>
+    <column name="WT_QSSHBC" data_type="DECIMAL">
+      <description>Withholding tax base amount in doc. currency for calculation</description>
+    </column>
+    <column name="WT_QSSH2C" data_type="DECIMAL">
+      <description>With/tax base amount in 2nd local currency for calculation</description>
+    </column>
+    <column name="WT_QSSH3C" data_type="DECIMAL">
+      <description>Withholding tax base amount in 3rd local currency for calc.</description>
+    </column>
+    <column name="WT_QBSHH" data_type="DECIMAL">
+      <description>Withholding tax amount (in local currency)</description>
+    </column>
+    <column name="WT_QBSHB" data_type="DECIMAL">
+      <description>Withholding tax amount in document currency</description>
+    </column>
+    <column name="WT_QBSH2" data_type="DECIMAL">
+      <description>Withholding tax amount in 2nd local currency</description>
+    </column>
+    <column name="WT_QBSH3" data_type="DECIMAL">
+      <description>Withholding tax amount in 3rd local currency</description>
+    </column>
+    <column name="WT_AMNMAN" data_type="VARCHAR">
+      <description>Indicator: Withholding tax amount entered manually</description>
+    </column>
+    <column name="WT_QBSHHA" data_type="DECIMAL">
+      <description>W/tax auxiliary amount for reversal (in local currency)</description>
+    </column>
+    <column name="WT_QBSHHB" data_type="DECIMAL">
+      <description>W/tax auxiliary amount 2 in local currency for reversal</description>
+    </column>
+    <column name="WT_STAT" data_type="VARCHAR">
+      <description>Line item status</description>
+    </column>
+    <column name="WT_QSFHH" data_type="DECIMAL">
+      <description>Amount exempt from withholding tax in local currency</description>
+    </column>
+    <column name="WT_QSFHB" data_type="DECIMAL">
+      <description>Amount exempt from withholding tax in document currency</description>
+    </column>
+    <column name="WT_QSFH2" data_type="DECIMAL">
+      <description>Withholding tax exempt amount in 2nd local currency</description>
+    </column>
+    <column name="WT_QSFH3" data_type="DECIMAL">
+      <description>Withholding tax exempt amount in 3rd local currency</description>
+    </column>
+    <column name="WT_WTEXMN" data_type="VARCHAR">
+      <description>Exemption certificate number</description>
+    </column>
+    <column name="KOART" data_type="VARCHAR">
+      <description>Account Type</description>
+    </column>
+    <column name="WT_ACCO" data_type="VARCHAR">
+      <description>Vendor/customer account number</description>
+    </column>
+    <column name="HKONT" data_type="VARCHAR">
+      <description>General Ledger Account</description>
+    </column>
+    <column name="HKONT_OPP" data_type="VARCHAR">
+      <description>General Ledger Account</description>
+    </column>
+    <column name="QSREC" data_type="VARCHAR">
+      <description>Type of recipient</description>
+    </column>
+    <column name="AUGBL" data_type="VARCHAR">
+      <description>Document Number of the Clearing Document</description>
+    </column>
+    <column name="AUGDT" data_type="DATE">
+      <description>Clearing Date</description>
+    </column>
+    <column name="WT_QSZRT" data_type="DECIMAL">
+      <description>Exemption rate</description>
+    </column>
+    <column name="WT_WDMBTR" data_type="DECIMAL">
+      <description>Withholding tax amount (in local currency) already withheld</description>
+    </column>
+    <column name="WT_WWRBTR" data_type="DECIMAL">
+      <description>Withholding tax amount already withheld in document currency</description>
+    </column>
+    <column name="WT_WDMBT2" data_type="DECIMAL">
+      <description>Withholding tax amount already withheld in 2nd local curr.</description>
+    </column>
+    <column name="WT_WDMBT3" data_type="DECIMAL">
+      <description>With/tax amount already withheld in 3rd local currency</description>
+    </column>
+    <column name="TEXT15" data_type="VARCHAR">
+      <description>Text (15 characters)</description>
+    </column>
+    <column name="WT_QBUIHH" data_type="DECIMAL">
+      <description>Enter withholding tax amount in local currency manually</description>
+    </column>
+    <column name="WT_QBUIHB" data_type="DECIMAL">
+      <description>Enter withholding tax amount in document currency manually</description>
+    </column>
+    <column name="WT_QBUIH2" data_type="DECIMAL">
+      <description>Manually entered with/tax amount in 2nd local currency</description>
+    </column>
+    <column name="WT_QBUIH3" data_type="DECIMAL">
+      <description>With/tax amount in 3rd local currency entered manually</description>
+    </column>
+    <column name="WT_ACCBS" data_type="DECIMAL">
+      <description>Accumulated withholding tax base amount in local currency</description>
+    </column>
+    <column name="WT_ACCWT" data_type="DECIMAL">
+      <description>Accumulated withholding tax amount in local currency</description>
+    </column>
+    <column name="WT_ACCWTA" data_type="DECIMAL">
+      <description>Accumulated auxiliary with/tax amount in local currency</description>
+    </column>
+    <column name="WT_ACCWTHA" data_type="DECIMAL">
+      <description>Accumulated auxiliary with/tax amount in local currency</description>
+    </column>
+    <column name="WT_ACCBS1" data_type="DECIMAL">
+      <description>Accumulated withholding tax base amount in local currency</description>
+    </column>
+    <column name="WT_ACCWT1" data_type="DECIMAL">
+      <description>Accumulated withholding tax amount in local currency</description>
+    </column>
+    <column name="WT_ACCWTA1" data_type="DECIMAL">
+      <description>Accumulated auxiliary with/tax amount in local currency</description>
+    </column>
+    <column name="WT_ACCWTHA1" data_type="DECIMAL">
+      <description>Accumulated auxiliary with/tax amount in local currency</description>
+    </column>
+    <column name="WT_ACCBS2" data_type="DECIMAL">
+      <description>Accumulated withholding tax base amount in local currency</description>
+    </column>
+    <column name="WT_ACCWT2" data_type="DECIMAL">
+      <description>Accumulated withholding tax amount in local currency</description>
+    </column>
+    <column name="WT_ACCWTA2" data_type="DECIMAL">
+      <description>Accumulated auxiliary with/tax amount in local currency</description>
+    </column>
+    <column name="WT_ACCWTHA2" data_type="DECIMAL">
+      <description>Accumulated auxiliary with/tax amount in local currency</description>
+    </column>
+    <column name="QSATZ" data_type="DECIMAL">
+      <description>Withholding tax rate</description>
+    </column>
+    <column name="WT_SLFWTPD" data_type="VARCHAR">
+      <description>Indicator: Entry posted as self-withholding tax</description>
+    </column>
+    <column name="WT_GRUWTPD" data_type="VARCHAR">
+      <description>Indicator: Entry posted as &quot;Grossing up&quot;</description>
+    </column>
+    <column name="WT_OPOWTPD" data_type="VARCHAR">
+      <description>Indicator: Entry posted as a debit/credit</description>
+    </column>
+    <column name="WT_GIVENPD" data_type="VARCHAR">
+      <description>Indicator: Withholding tax amount entered manually with pmnt</description>
+    </column>
+    <column name="CTNUMBER" data_type="VARCHAR">
+      <description>Withholding Tax Certificate Number</description>
+    </column>
+    <column name="WT_DOWNC" data_type="VARCHAR">
+      <description>Indicator: Entry belongs to a down payment clearing item</description>
+    </column>
+    <column name="WT_RESITEM" data_type="VARCHAR">
+      <description>Indicator: Entry belongs to a residual item</description>
+    </column>
+    <column name="CTISSUEDATE" data_type="DATE">
+      <description>Issue or Print Date of Withholding Tax Certificate</description>
+    </column>
+    <column name="J_1AF_WT_REPBS" data_type="DECIMAL">
+      <description>Withholding tax base amount in local currency for  reporting</description>
+    </column>
+    <column name="WT_CALC" data_type="VARCHAR">
+      <description>Withholding Tax Already Calculated/Determined?</description>
+    </column>
+    <column name="WT_LOGSYS" data_type="VARCHAR">
+      <description>Logical System in Which the Withholding Tax Was Calculated</description>
+    </column>
+    <column name="FIWTCO_PEN_VOL_DEDO" data_type="DECIMAL">
+      <description>Voluntary Pension Contribution</description>
+    </column>
+    <column name="VOL_CONTRIBUTION" data_type="DECIMAL">
+      <description>Volunteers' Pension Contribution</description>
+    </column>
+    <column name="CO_MAX_DEDUCTION" data_type="DECIMAL">
+      <description>Maximum Deduction</description>
+    </column>
+    <column name="FIWTCO_MAND_BASE" data_type="DECIMAL">
+      <description>Mandatory Contributions Base</description>
+    </column>
+    <column name="J_1BWHTCOLLCODE" data_type="VARCHAR">
+      <description>Official Withholding Tax Collection Code</description>
+    </column>
+    <column name="J_1BWHTRATE" data_type="DECIMAL">
+      <description>Tax Rate</description>
+    </column>
+    <column name="J_1BWHT_BS" data_type="DECIMAL">
+      <description>Withholding Tax Base Amount from Nota Fiscal</description>
+    </column>
+    <column name="J_1BWHTACCBS" data_type="DECIMAL">
+      <description>Accumulated withholding tax real base amount(local currency)</description>
+    </column>
+    <column name="J_1BWHTACCBS1" data_type="DECIMAL">
+      <description>Accumulated withholding tax real base amount(local currency)</description>
+    </column>
+    <column name="J_1BWHTACCBS2" data_type="DECIMAL">
+      <description>Accumulated withholding tax real base amount(local currency)</description>
+    </column>
+    <column name="J_1IINTCHLN" data_type="VARCHAR">
+      <description>Challan Number</description>
+    </column>
+    <column name="J_1IINTCHDT" data_type="DATE">
+      <description>Challan Date</description>
+    </column>
+    <column name="J_1IEWTREC" data_type="VARCHAR">
+      <description>Record type for EWT transactions-India</description>
+    </column>
+    <column name="J_1IBUZEI" data_type="VARCHAR">
+      <description>Number of Line Item Within Accounting Document</description>
+    </column>
+    <column name="J_1ICERTDT" data_type="DATE">
+      <description>Certificate Date</description>
+    </column>
+    <column name="J_1ICLRAMT" data_type="DECIMAL">
+      <description>Amount of EWT for which certificate is received from Custome</description>
+    </column>
+    <column name="J_1IREBZG" data_type="VARCHAR">
+      <description>Document no. of the invoice to which the transaction belongs</description>
+    </column>
+    <column name="J_1ISURAMT" data_type="DECIMAL">
+      <description>Surcharge amount</description>
+    </column>
+    <column name="FIWTIN_PAR_EXEM" data_type="VARCHAR">
+      <description>Partial Exemption</description>
+    </column>
+  </columns>
+</data_description>

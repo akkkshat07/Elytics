@@ -1,0 +1,186 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="LFM1">
+  <table_info name="LFM1" total_columns="60"/>
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="LIFNR" data_type="VARCHAR">
+      <description>Supplier's Account Number</description>
+    </column>
+    <column name="EKORG" data_type="VARCHAR">
+      <description>Purchasing Organization</description>
+    </column>
+    <column name="ERDAT" data_type="DATE">
+      <description>Date on Which Record Was Created</description>
+    </column>
+    <column name="ERNAM" data_type="VARCHAR">
+      <description>Name of Person Responsible for Creating the Object</description>
+    </column>
+    <column name="SPERM" data_type="VARCHAR">
+      <description>Purchasing block at purchasing organization level</description>
+    </column>
+    <column name="LOEVM" data_type="VARCHAR">
+      <description>Delete flag for vendor at purchasing level</description>
+    </column>
+    <column name="LFABC" data_type="VARCHAR">
+      <description>ABC indicator</description>
+    </column>
+    <column name="WAERS" data_type="VARCHAR">
+      <description>Purchase order currency</description>
+    </column>
+    <column name="VERKF" data_type="VARCHAR">
+      <description>Responsible Salesperson at Vendor's Office</description>
+    </column>
+    <column name="TELF1" data_type="VARCHAR">
+      <description>Vendor's telephone number</description>
+    </column>
+    <column name="MINBW" data_type="DECIMAL">
+      <description>Minimum order value</description>
+    </column>
+    <column name="ZTERM" data_type="VARCHAR">
+      <description>Terms of Payment Key</description>
+    </column>
+    <column name="INCO1" data_type="VARCHAR">
+      <description>Incoterms (Part 1)</description>
+    </column>
+    <column name="INCO2" data_type="VARCHAR">
+      <description>Incoterms (Part 2)</description>
+    </column>
+    <column name="WEBRE" data_type="VARCHAR">
+      <description>Indicator: GR-Based Invoice Verification</description>
+    </column>
+    <column name="KZABS" data_type="VARCHAR">
+      <description>Order Acknowledgment Requirement</description>
+    </column>
+    <column name="KALSK" data_type="VARCHAR">
+      <description>Group for Calculation Schema (Vendor)</description>
+    </column>
+    <column name="KZAUT" data_type="VARCHAR">
+      <description>Automatic Generation of Purchase Order Allowed</description>
+    </column>
+    <column name="EXPVZ" data_type="VARCHAR">
+      <description>Mode of Transport for Foreign Trade</description>
+    </column>
+    <column name="ZOLLA" data_type="VARCHAR">
+      <description>Customs Office: Office of Exit/Entry for Foreign Trade</description>
+    </column>
+    <column name="MEPRF" data_type="VARCHAR">
+      <description>Price Determination (Pricing) Date Control</description>
+    </column>
+    <column name="EKGRP" data_type="VARCHAR">
+      <description>Purchasing Group</description>
+    </column>
+    <column name="XERSY" data_type="VARCHAR">
+      <description>Evaluated Receipt Settlement (ERS)</description>
+    </column>
+    <column name="PLIFZ" data_type="DECIMAL">
+      <description>Planned Delivery Time in Days</description>
+    </column>
+    <column name="MRPPP" data_type="VARCHAR">
+      <description>Planning calendar</description>
+    </column>
+    <column name="LFRHY" data_type="VARCHAR">
+      <description>Planning cycle</description>
+    </column>
+    <column name="LIBES" data_type="VARCHAR">
+      <description>Order entry by vendor</description>
+    </column>
+    <column name="LIPRE" data_type="VARCHAR">
+      <description>Price marking, vendor</description>
+    </column>
+    <column name="LISER" data_type="VARCHAR">
+      <description>Rack-jobbing: vendor</description>
+    </column>
+    <column name="INCOV" data_type="VARCHAR">
+      <description>Incoterms Version</description>
+    </column>
+    <column name="INCO2_L" data_type="VARCHAR">
+      <description>Incoterms Location 1</description>
+    </column>
+    <column name="INCO3_L" data_type="VARCHAR">
+      <description>Incoterms Location 2</description>
+    </column>
+    <column name="PRFRE" data_type="VARCHAR">
+      <description>Indicator: &quot;relev. to price determination (vend. hierarchy)</description>
+    </column>
+    <column name="NRGEW" data_type="VARCHAR">
+      <description>Indicator whether discount in kind granted</description>
+    </column>
+    <column name="BOIND" data_type="VARCHAR">
+      <description>Indicator: index compilation for subseq. settlement active</description>
+    </column>
+    <column name="BLIND" data_type="VARCHAR">
+      <description>Indicator: Doc. index compilation active for purchase orders</description>
+    </column>
+    <column name="KZRET" data_type="VARCHAR">
+      <description>Indicates whether vendor is returns vendor</description>
+    </column>
+    <column name="SKRIT" data_type="VARCHAR">
+      <description>Vendor sort criterion for materials</description>
+    </column>
+    <column name="BSTAE" data_type="VARCHAR">
+      <description>Confirmation Control Key</description>
+    </column>
+    <column name="RDPRF" data_type="VARCHAR">
+      <description>Rounding Profile</description>
+    </column>
+    <column name="MEGRU" data_type="VARCHAR">
+      <description>Unit of Measure Group</description>
+    </column>
+    <column name="VENSL" data_type="DECIMAL">
+      <description>Vendor service level</description>
+    </column>
+    <column name="BOPNR" data_type="VARCHAR">
+      <description>Restriction Profile for PO-Based Load Building</description>
+    </column>
+    <column name="XERSR" data_type="VARCHAR">
+      <description>Automatic evaluated receipt settlement for return items</description>
+    </column>
+    <column name="EIKTO" data_type="VARCHAR">
+      <description>Our account number with the vendor</description>
+    </column>
+    <column name="ABUEB" data_type="VARCHAR">
+      <description>Release Creation Profile</description>
+    </column>
+    <column name="PAPRF" data_type="VARCHAR">
+      <description>Profile for transferring material data via IDoc PROACT</description>
+    </column>
+    <column name="AGREL" data_type="VARCHAR">
+      <description>Indicator: Relevant for agency business</description>
+    </column>
+    <column name="XNBWY" data_type="VARCHAR">
+      <description>Revaluation allowed</description>
+    </column>
+    <column name="VSBED" data_type="VARCHAR">
+      <description>Shipping Conditions</description>
+    </column>
+    <column name="LEBRE" data_type="VARCHAR">
+      <description>Indicator for Service-Based Invoice Verification</description>
+    </column>
+    <column name="BOLRE" data_type="VARCHAR">
+      <description>Indicator: vendor subject to subseq. settlement accounting</description>
+    </column>
+    <column name="UMSAE" data_type="VARCHAR">
+      <description>Comparison/agreement of business volumes necessary</description>
+    </column>
+    <column name="VENDOR_RMA_REQ" data_type="VARCHAR">
+      <description>Vendor RMA Number Required</description>
+    </column>
+    <column name="FSH_SC_CID" data_type="VARCHAR">
+      <description>Customer/Vendor ID</description>
+    </column>
+    <column name="FSH_VAS_DETC" data_type="VARCHAR">
+      <description>VAS Determination Mode</description>
+    </column>
+    <column name="ACTIVITY_PROFIL" data_type="VARCHAR">
+      <description>Activity Profile for PO Controlling</description>
+    </column>
+    <column name="TRANSPORT_CHAIN" data_type="VARCHAR">
+      <description>Transportation Chain</description>
+    </column>
+    <column name="STAGING_TIME" data_type="DECIMAL">
+      <description>Staging Time in Days</description>
+    </column>
+  </columns>
+</data_description>

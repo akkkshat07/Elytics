@@ -1,0 +1,264 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="EKBE">
+  <table_info name="EKBE" total_columns="86"/>
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="EBELN" data_type="VARCHAR">
+      <description>Purchasing Document Number</description>
+    </column>
+    <column name="EBELP" data_type="VARCHAR">
+      <description>Item Number of Purchasing Document</description>
+    </column>
+    <column name="ZEKKN" data_type="VARCHAR">
+      <description>Sequential Number of Account Assignment</description>
+    </column>
+    <column name="VGABE" data_type="VARCHAR">
+      <description>Transaction/event type, purchase order history</description>
+    </column>
+    <column name="GJAHR" data_type="VARCHAR">
+      <description>Material Document Year</description>
+    </column>
+    <column name="BELNR" data_type="VARCHAR">
+      <description>Number of Material Document</description>
+    </column>
+    <column name="BUZEI" data_type="VARCHAR">
+      <description>Item in Material Document</description>
+    </column>
+    <column name="BEWTP" data_type="VARCHAR">
+      <description>Purchase Order History Category</description>
+    </column>
+    <column name="BWART" data_type="VARCHAR">
+      <description>Movement Type (Inventory Management)</description>
+    </column>
+    <column name="BUDAT" data_type="DATE">
+      <description>Posting Date in the Document</description>
+    </column>
+    <column name="MENGE" data_type="DECIMAL">
+      <description>Quantity</description>
+    </column>
+    <column name="BPMNG" data_type="DECIMAL">
+      <description>Quantity in purchase order price unit</description>
+    </column>
+    <column name="DMBTR" data_type="DECIMAL">
+      <description>Amount in local currency</description>
+    </column>
+    <column name="WRBTR" data_type="DECIMAL">
+      <description>Amount in document currency</description>
+    </column>
+    <column name="WAERS" data_type="VARCHAR">
+      <description>Currency Key</description>
+    </column>
+    <column name="AREWR" data_type="DECIMAL">
+      <description>GR/IR account clearing value in local currency</description>
+    </column>
+    <column name="WESBS" data_type="DECIMAL">
+      <description>Goods Receipt Blocked Stock in Order Unit</description>
+    </column>
+    <column name="BPWES" data_type="DECIMAL">
+      <description>Quantity in GR blocked stock in order price unit</description>
+    </column>
+    <column name="SHKZG" data_type="VARCHAR">
+      <description>Debit/Credit Indicator</description>
+    </column>
+    <column name="BWTAR" data_type="VARCHAR">
+      <description>Valuation Type</description>
+    </column>
+    <column name="ELIKZ" data_type="VARCHAR">
+      <description>&quot;Delivery Completed&quot; Indicator</description>
+    </column>
+    <column name="XBLNR" data_type="VARCHAR">
+      <description>Reference Document Number</description>
+    </column>
+    <column name="LFGJA" data_type="VARCHAR">
+      <description>Fiscal Year of a Reference Document</description>
+    </column>
+    <column name="LFBNR" data_type="VARCHAR">
+      <description>Document No. of a Reference Document</description>
+    </column>
+    <column name="LFPOS" data_type="VARCHAR">
+      <description>Item of a Reference Document</description>
+    </column>
+    <column name="GRUND" data_type="VARCHAR">
+      <description>Reason for Movement</description>
+    </column>
+    <column name="CPUDT" data_type="DATE">
+      <description>Day On Which Accounting Document Was Entered</description>
+    </column>
+    <column name="CPUTM" data_type="TIME">
+      <description>Time of Entry</description>
+    </column>
+    <column name="REEWR" data_type="DECIMAL">
+      <description>Invoice Value Entered (in Local Currency)</description>
+    </column>
+    <column name="EVERE" data_type="VARCHAR">
+      <description>Compliance with Shipping Instructions</description>
+    </column>
+    <column name="REFWR" data_type="DECIMAL">
+      <description>Invoice Value in Foreign Currency</description>
+    </column>
+    <column name="MATNR" data_type="VARCHAR">
+      <description>Material Number</description>
+    </column>
+    <column name="WERKS" data_type="VARCHAR">
+      <description>Plant</description>
+    </column>
+    <column name="XWSBR" data_type="VARCHAR">
+      <description>Reversal of GR allowed for GR-based IV despite invoice</description>
+    </column>
+    <column name="ETENS" data_type="VARCHAR">
+      <description>Sequential Number of Vendor Confirmation</description>
+    </column>
+    <column name="KNUMV" data_type="VARCHAR">
+      <description>Number of the document condition</description>
+    </column>
+    <column name="MWSKZ" data_type="VARCHAR">
+      <description>Tax on Sales/Purchases Code</description>
+    </column>
+    <column name="LSMNG" data_type="DECIMAL">
+      <description>Quantity in Unit of Measure from Delivery Note</description>
+    </column>
+    <column name="LSMEH" data_type="VARCHAR">
+      <description>Unit of Measure From Delivery Note</description>
+    </column>
+    <column name="EMATN" data_type="VARCHAR">
+      <description>Material number</description>
+    </column>
+    <column name="AREWW" data_type="DECIMAL">
+      <description>Clearing value on GR/IR clearing account (transac. currency)</description>
+    </column>
+    <column name="HSWAE" data_type="VARCHAR">
+      <description>Local currency key</description>
+    </column>
+    <column name="BAMNG" data_type="DECIMAL">
+      <description>Quantity</description>
+    </column>
+    <column name="CHARG" data_type="VARCHAR">
+      <description>Batch Number</description>
+    </column>
+    <column name="BLDAT" data_type="DATE">
+      <description>Document Date in Document</description>
+    </column>
+    <column name="XWOFF" data_type="VARCHAR">
+      <description>Calculation of val. open</description>
+    </column>
+    <column name="XUNPL" data_type="VARCHAR">
+      <description>Unplanned Account Assignment from Invoice Verification</description>
+    </column>
+    <column name="ERNAM" data_type="VARCHAR">
+      <description>Name of Person Responsible for Creating the Object</description>
+    </column>
+    <column name="SRVPOS" data_type="VARCHAR">
+      <description>Service number</description>
+    </column>
+    <column name="PACKNO" data_type="VARCHAR">
+      <description>Package Number of Service</description>
+    </column>
+    <column name="INTROW" data_type="VARCHAR">
+      <description>Line Number of Service</description>
+    </column>
+    <column name="BEKKN" data_type="VARCHAR">
+      <description>Number of PO Account Assignment</description>
+    </column>
+    <column name="LEMIN" data_type="VARCHAR">
+      <description>Returns Indicator</description>
+    </column>
+    <column name="AREWB" data_type="DECIMAL">
+      <description>Clearing Value on GR/IR Account in PO Currency</description>
+    </column>
+    <column name="REWRB" data_type="DECIMAL">
+      <description>Invoice Amount in PO Currency</description>
+    </column>
+    <column name="SAPRL" data_type="VARCHAR">
+      <description>SAP Release</description>
+    </column>
+    <column name="MENGE_POP" data_type="DECIMAL">
+      <description>Quantity</description>
+    </column>
+    <column name="BPMNG_POP" data_type="DECIMAL">
+      <description>Quantity in purchase order price unit</description>
+    </column>
+    <column name="DMBTR_POP" data_type="DECIMAL">
+      <description>Amount in local currency</description>
+    </column>
+    <column name="WRBTR_POP" data_type="DECIMAL">
+      <description>Amount in document currency</description>
+    </column>
+    <column name="WESBB" data_type="DECIMAL">
+      <description>Valuated Goods Receipt Blocked Stock in Order Unit</description>
+    </column>
+    <column name="BPWEB" data_type="DECIMAL">
+      <description>Quantity in Valuated GR Blocked Stock in Order Price Unit</description>
+    </column>
+    <column name="WEORA" data_type="VARCHAR">
+      <description>Acceptance At Origin</description>
+    </column>
+    <column name="AREWR_POP" data_type="DECIMAL">
+      <description>GR/IR account clearing value in local currency</description>
+    </column>
+    <column name="KUDIF" data_type="DECIMAL">
+      <description>Exchange Rate Difference Amount</description>
+    </column>
+    <column name="RETAMT_FC" data_type="DECIMAL">
+      <description>Retention Amount in Document Currency</description>
+    </column>
+    <column name="RETAMT_LC" data_type="DECIMAL">
+      <description>Retention Amount in Company Code Currency</description>
+    </column>
+    <column name="RETAMTP_FC" data_type="DECIMAL">
+      <description>Posted Retention Amount in Document Currency</description>
+    </column>
+    <column name="RETAMTP_LC" data_type="DECIMAL">
+      <description>Posted Security Retention Amount in Company Code Currency</description>
+    </column>
+    <column name="XMACC" data_type="VARCHAR">
+      <description>Multiple Account Assignment</description>
+    </column>
+    <column name="WKURS" data_type="DECIMAL">
+      <description>Exchange Rate</description>
+    </column>
+    <column name="INV_ITEM_ORIGIN" data_type="VARCHAR">
+      <description>Origin of an Invoice Item</description>
+    </column>
+    <column name="VBELN_ST" data_type="VARCHAR">
+      <description>Delivery</description>
+    </column>
+    <column name="VBELP_ST" data_type="VARCHAR">
+      <description>Delivery Item</description>
+    </column>
+    <column name="SGT_SCAT" data_type="VARCHAR">
+      <description>Stock Segment</description>
+    </column>
+    <column name="LOGSY" data_type="VARCHAR">
+      <description>Logical System</description>
+    </column>
+    <column name="ET_UPD" data_type="VARCHAR">
+      <description>Procedure for Updating the Schedule Line Quantity</description>
+    </column>
+    <column name="J_SC_DIE_COMP_F" data_type="VARCHAR">
+      <description>Depreciation completion flag</description>
+    </column>
+    <column name="FSH_SEASON_YEAR" data_type="VARCHAR">
+      <description>Season Year</description>
+    </column>
+    <column name="FSH_SEASON" data_type="VARCHAR">
+      <description>Season</description>
+    </column>
+    <column name="FSH_COLLECTION" data_type="VARCHAR">
+      <description>Fashion Collection</description>
+    </column>
+    <column name="FSH_THEME" data_type="VARCHAR">
+      <description>Fashion Theme</description>
+    </column>
+    <column name="WRF_CHARSTC1" data_type="VARCHAR">
+      <description>Characteristic Value 1</description>
+    </column>
+    <column name="WRF_CHARSTC2" data_type="VARCHAR">
+      <description>Characteristic Value 2</description>
+    </column>
+    <column name="WRF_CHARSTC3" data_type="VARCHAR">
+      <description>Characteristic Value 3</description>
+    </column>
+  </columns>
+</data_description>

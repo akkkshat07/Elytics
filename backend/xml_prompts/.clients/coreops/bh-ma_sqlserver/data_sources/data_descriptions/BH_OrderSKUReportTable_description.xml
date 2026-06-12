@@ -1,0 +1,199 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="BH_OrderSKUReportTable">
+  <table_info name="BH_OrderSKUReportTable" total_columns="63" row_count="147005934" total_size_mb="37262.98" index_count="4" is_heap="true" />
+  <performance_hints>
+    <metric name="row_count">147005934</metric>
+    <metric name="total_size_mb">37262.98</metric>
+  </performance_hints>
+  <columns>
+    <column name="BeatId" data_type="varchar" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Identifier of the assigned sales beat/territory for the outlet visit or order capture, typically a numeric string (e.g., "49798") and sometimes null/blank when a beat is not mapped. Use with BeatName/BeatType to segment orders by route planning unit.</description>
+    </column>
+    <column name="BeatName" data_type="varchar" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Human-readable name of the beat/territory (e.g., "Puri", "Jalandhar Cantt") used for reporting and field coverage analysis. May be blank when BeatId is null or the beat mapping is missing.</description>
+    </column>
+    <column name="BeatRoute" data_type="varchar" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Optional free-text or coded description of the beat route path; often blank in the sample data. Analysts should treat blanks as 'route not provided' rather than 'no beat'.</description>
+    </column>
+    <column name="BeatSchedule" data_type="varchar" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Beat scheduling indicator (often "0" or blank) representing the configured visit cadence or schedule code. Interpret as an operational setting; validate against source definitions before using in metrics.</description>
+    </column>
+    <column name="BeatType" data_type="varchar" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Configured visit frequency for the beat such as "Weekly", "Monthly", or "Fortnight". Useful for comparing expected coverage versus actual ordering patterns.</description>
+    </column>
+    <column name="BillNo" data_type="varchar" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Invoice/bill reference number associated with the order, often blank in this dataset (possibly not captured at SKU order stage). When populated, it can be used to reconcile orders to billing systems.</description>
+    </column>
+    <column name="ClientCity" data_type="varchar" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>City of the client/outlet placing the order (e.g., "Puri", "Central Delhi"). Use for geographic rollups; note spelling variations and data-entry inconsistencies.</description>
+    </column>
+    <column name="ClientCreationDate" data_type="date" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Date the client/outlet record was created/onboarded in the system. Useful for cohorting new outlets and analyzing ramp-up after onboarding.</description>
+    </column>
+    <column name="ClientRefrence" data_type="varchar" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>External or internal reference string for the client (often blank or "null" as text). Treat as an optional identifier for cross-system mapping and cleanse literal "null" values.</description>
+    </column>
+    <column name="ClientState" data_type="varchar" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>State/region label for the client, sometimes including business-specific variants (e.g., "West Bengal - KMSA"). Use for regional reporting but consider standardizing to canonical state names.</description>
+    </column>
+    <column name="ClientZone" data_type="varchar" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Higher-level sales zone for the client such as "North", "South", or "East-1/East 2". This is a key management rollup dimension and may not match distributor/employee zones in edge cases.</description>
+    </column>
+    <column name="Client_Id" data_type="bigint" is_primary_key="false" is_clustered="false" is_indexed="true" is_unique_key="false">
+      <description>Unique numeric identifier for the client/outlet (indexed; best for filtering and joins). Use as the primary key to link outlet attributes and to de-duplicate clients across reports.</description>
+    </column>
+    <column name="Client_Name" data_type="varchar" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Name of the outlet/client as entered by field teams (e.g., "Meri Saheli"). Expect casing/spelling inconsistencies; do not use as a join key.</description>
+    </column>
+    <column name="Client_Type" data_type="varchar" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Classification of the client such as "Retailer" (and potentially other channel types in broader data). Use to segment performance by customer type/channel.</description>
+    </column>
+    <column name="ContactType" data_type="varchar" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Sub-classification of outlet category/segment (e.g., "Cosmetics", "Retail- General Merchants"). Useful for assortment and productivity analysis by outlet format.</description>
+    </column>
+    <column name="Designation" data_type="varchar" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Role/designation of the field user associated with the order capture (e.g., "TSO", "TSI"). Use for productivity reporting by role; not necessarily the employee’s HR title.</description>
+    </column>
+    <column name="DistributerCode" data_type="varchar" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Identifier/code for the distributor serving the order, sometimes numeric-like string and occasionally blank. Use to join to distributor masters; validate blanks against DistributerName before excluding.</description>
+    </column>
+    <column name="DistributerDivision" data_type="varchar" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Distributor’s internal division/branch classification; frequently blank in sample data. Treat as optional enrichment for distributor segmentation.</description>
+    </column>
+    <column name="DistributerName" data_type="varchar" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Name of the distributor fulfilling/supplying the order (e.g., "Omm Kalki Agency"). Use for reporting but prefer DistributerCode for joins due to name variations.</description>
+    </column>
+    <column name="DistributerSubType" data_type="varchar" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>More granular distributor categorization (often blank). Use only when populated and defined in reference data.</description>
+    </column>
+    <column name="DistributerType" data_type="varchar" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Broad distributor type such as "Distributor". Helps separate distributor entities from other partner types if present in the wider dataset.</description>
+    </column>
+    <column name="Division" data_type="varchar" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Business division/channel grouping for the transaction (e.g., "Retail"). Use for high-level segmentation; may overlap with ProDivision depending on source mapping.</description>
+    </column>
+    <column name="DstrCity" data_type="varchar" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>City of the distributor (e.g., "Puri", "Noida Khora"). Useful for supply footprint analysis; may differ from client city for cross-city servicing.</description>
+    </column>
+    <column name="DstrState" data_type="varchar" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>State/region label of the distributor. Use for distributor geography rollups and to compare against client geography for service patterns.</description>
+    </column>
+    <column name="DstrZone" data_type="varchar" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Sales zone assigned to the distributor (e.g., "North", "East-1"). Useful for distribution structure reporting and may differ from client/employee zones.</description>
+    </column>
+    <column name="EmpCity" data_type="varchar" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>City of the employee/field territory associated with the order capture. Use for workforce deployment analysis; may reflect posting rather than residence.</description>
+    </column>
+    <column name="EmpName" data_type="varchar" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Name of the field employee responsible for the order capture (e.g., "Mayank Sharma"). Treat as descriptive; prefer PositionCode/TLCode or employee IDs from HR systems for joins.</description>
+    </column>
+    <column name="EmpState" data_type="varchar" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>State/region associated with the employee’s territory. Useful for workforce rollups; may not always align with client/distributor state.</description>
+    </column>
+    <column name="EmpZone" data_type="varchar" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Zone associated with the employee’s territory (e.g., "Upper North", "South"). Use for organizational reporting and to validate coverage alignment.</description>
+    </column>
+    <column name="Function" data_type="varchar" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Optional functional grouping field (often blank or literal "null"). Treat as missing unless you have a controlled list of function values from source documentation.</description>
+    </column>
+    <column name="GST" data_type="varchar" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>GST rate/amount indicator stored as text (e.g., "18.00", "0.00"); interpret carefully as it may represent a percentage rate rather than a calculated tax value. Use as a tax configuration attribute and reconcile with pricing fields when needed.</description>
+    </column>
+    <column name="HQState" data_type="varchar" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Headquarter state for the employee/distributor hierarchy used for organizational mapping (e.g., "Odisha"). Helpful for management reporting when EmpState/ClientState differ.</description>
+    </column>
+    <column name="Label" data_type="varchar" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Label/lot/pack or internal tracking code associated with the SKU/order line (e.g., "500958", "CAN594347", "GS10225482"). Treat as an operational identifier that may encode packaging or campaign info depending on source.</description>
+    </column>
+    <column name="MRP" data_type="float" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Maximum Retail Price for the product/variant at the time of record (float), often a rounded value like 10, 40, 130 and occasionally null. Use as list price for margin/discount comparisons, not as the transacted price.</description>
+    </column>
+    <column name="OrderDateTime" data_type="datetime" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Timestamp when the order was created/recorded in the system. Use for intraday analyses and to derive Order_Date; prefer Order_Date for partition-like filtering due to indexing.</description>
+    </column>
+    <column name="OrderValueWODiscount" data_type="decimal" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Order line value before discounts (decimal) for the SKU line, typically equals Unit_Price * Quantity in many cases. Use as the gross line amount baseline when analyzing discounts and net sales.</description>
+    </column>
+    <column name="Order_Amt" data_type="float" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Net order amount for the SKU line (float) after applying discounts/taxes as per system logic; compare with OrderValueWODiscount and TotalDiscountAmount to understand pricing. Because it is float, be cautious with rounding in financial reporting.</description>
+    </column>
+    <column name="Order_Date" data_type="date" is_primary_key="false" is_clustered="false" is_indexed="true" is_unique_key="false">
+      <description>Business/order date (date) derived from order creation, indexed and recommended for filtering large scans. Use as the primary date dimension for daily/period aggregations.</description>
+    </column>
+    <column name="Order_Id" data_type="bigint" is_primary_key="false" is_clustered="false" is_indexed="true" is_unique_key="false">
+      <description>Unique identifier for the order header (indexed). Use to group multiple SKU lines into a single order and to join to order-level tables if available.</description>
+    </column>
+    <column name="PDDescription" data_type="varchar" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Product detail description blob containing extended attributes or key-value style metadata, often blank or literal "null". Use only for text mining or debugging; not reliable for structured analysis without parsing.</description>
+    </column>
+    <column name="PositionCode" data_type="varchar" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Sales position/territory code for the field employee (e.g., "BH_DEL_FF18"), sometimes "null" as text. Useful for org hierarchy joins and performance by territory; prefer this over EmpName for stable reporting.</description>
+    </column>
+    <column name="ProDivision" data_type="varchar" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Product or business division classification associated with the transaction (e.g., "Retail"). Use to segment by portfolio/division and validate against Division for consistency.</description>
+    </column>
+    <column name="ProductCategory" data_type="varchar" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Product category name used for merchandising/assortment reporting (e.g., "Pearl Glow Compact Powder"). Treat as a marketing category and standardize where duplicates exist.</description>
+    </column>
+    <column name="ProductCode" data_type="varchar" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Product code/SKU code as provided by master data, sometimes numeric-like (e.g., "6100003091") or descriptive (e.g., "Classic Kajal 2gm"). Use for mapping to master catalogs; do not assume numeric-only.</description>
+    </column>
+    <column name="ProductCreationDate" data_type="varchar" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Product master creation timestamp stored as text (e.g., "Apr  5 2021  6:45PM"), occasionally defaulted ("Jan  1 1900 12:00AM"). Use cautiously and convert to datetime if needed for product cohorting.</description>
+    </column>
+    <column name="ProductPrice" data_type="float" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Configured product/variant price from master data (float), often closer to MRP but not necessarily equal. Use as reference price; transaction pricing is better represented by Unit_Price and Order_Amt.</description>
+    </column>
+    <column name="Product_Category" data_type="varchar" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Alternate/duplicate product category field that often mirrors ProductCategory. Analysts should confirm equivalence and select one standardized category column for reporting.</description>
+    </column>
+    <column name="Product_Id" data_type="bigint" is_primary_key="false" is_clustered="false" is_indexed="true" is_unique_key="false">
+      <description>Unique numeric identifier for the product in the master catalog (indexed). Use as the primary join key to product dimension tables and for de-duplicating products across code/name changes.</description>
+    </column>
+    <column name="Product_Name" data_type="varchar" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Display name of the product (e.g., "Pearl Glow Compact 9gm"). Use for readable outputs; avoid using as a join key due to formatting changes.</description>
+    </column>
+    <column name="Quantity" data_type="int" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Number of units ordered for the SKU line (integer), commonly 1 but can be higher (e.g., 48). Use for volume/units sold metrics and to compute extended values with Unit_Price.</description>
+    </column>
+    <column name="SSId" data_type="bigint" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Internal sales system/user/session identifier associated with the record (bigint). Use for operational tracing or joining to salesforce/system tables when available; not a business-friendly identifier.</description>
+    </column>
+    <column name="ServiceTaxApplicableOn" data_type="bigint" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Entity ID indicating where tax applicability is evaluated, typically matching the distributor code/id in samples. Use for tax logic reconciliation and to identify the tax-responsible party.</description>
+    </column>
+    <column name="TLCode" data_type="varchar" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Team lead/manager code for the employee hierarchy (e.g., "500686", "100101"). Use to roll up performance under managers and for org-structure joins.</description>
+    </column>
+    <column name="TLDesignation" data_type="varchar" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Designation of the team lead/manager in the hierarchy (e.g., "ASM", "TSM", "ASE"). Useful for managerial span analysis and reporting by leadership level.</description>
+    </column>
+    <column name="TLName" data_type="varchar" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Name of the team lead/manager (e.g., "Sanjeev Kumar"), sometimes containing placeholders like "vacant-...". Treat as descriptive; prefer TLCode for stable grouping.</description>
+    </column>
+    <column name="TodayBeatId" data_type="varchar" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Beat identifier as of the day of the order/visit (may match BeatId), sometimes null when not assigned. Use to analyze actual beat worked on that date if BeatId represents a default mapping.</description>
+    </column>
+    <column name="TodayBeatName" data_type="varchar" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Beat name as of the day of the order/visit, sometimes literal "null". Use alongside TodayBeatId for daily beat reporting and to distinguish from the client’s default beat.</description>
+    </column>
+    <column name="TotalDiscountAmount" data_type="decimal" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Total discount applied to the SKU line (decimal), often 0.00 in samples. Use to quantify promotional impact and to reconcile gross (OrderValueWODiscount) versus net (Order_Amt).</description>
+    </column>
+    <column name="Unit_Price" data_type="float" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Effective unit selling price used for calculation (float), often lower than MRP/ProductPrice and used with Quantity to derive line values. Use as the transactional price per unit; beware float rounding for financial totals.</description>
+    </column>
+    <column name="VDDescription" data_type="varchar" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Variant detail description blob with extended metadata, often blank or key-value text similar to PDDescription. Use only for unstructured enrichment or troubleshooting variant mapping.</description>
+    </column>
+    <column name="VSKUCode" data_type="varchar" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Variant-level SKU code, sometimes matching ProductCode or a descriptive SKU string. Use when the same product has multiple variants and you need the specific sellable item code.</description>
+    </column>
+    <column name="Variant_Id" data_type="bigint" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Unique numeric identifier for the product variant. Use as the preferred key for variant-level analysis (shade/size) and to join to variant master data.</description>
+    </column>
+    <column name="Variant_Name" data_type="varchar" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Human-readable variant name (e.g., shade like "Jet black" or "Red-S-107"). Useful for assortment and shade-level performance; standardize naming if variants are duplicated or renamed.</description>
+    </column>
+  </columns>
+</data_description>

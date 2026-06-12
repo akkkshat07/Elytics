@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="IHPA">
+  <table_info name="IHPA" total_columns="16" />
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="OBJNR" data_type="VARCHAR">
+      <description>Object number</description>
+    </column>
+    <column name="PARVW" data_type="VARCHAR">
+      <description>Partner Function</description>
+    </column>
+    <column name="COUNTER" data_type="VARCHAR">
+      <description>Counter for differentiation 6-digit</description>
+    </column>
+    <column name="OBTYP" data_type="VARCHAR">
+      <description>Object Category</description>
+    </column>
+    <column name="PARNR" data_type="VARCHAR">
+      <description>Partner</description>
+    </column>
+    <column name="INHER" data_type="VARCHAR">
+      <description>Data origin indicator</description>
+    </column>
+    <column name="ERDAT" data_type="DATE">
+      <description>Date on Which Record Was Created</description>
+    </column>
+    <column name="ERZEIT" data_type="TIME">
+      <description>Time, at Which Record Was Added</description>
+    </column>
+    <column name="ERNAM" data_type="VARCHAR">
+      <description>Name of Person Responsible for Creating the Object</description>
+    </column>
+    <column name="AEDAT" data_type="DATE">
+      <description>Last Changed On</description>
+    </column>
+    <column name="AEZEIT" data_type="TIME">
+      <description>Time of Change</description>
+    </column>
+    <column name="AENAM" data_type="VARCHAR">
+      <description>Name of Person Who Changed Object</description>
+    </column>
+    <column name="KZLOESCH" data_type="VARCHAR">
+      <description>Delete Data Record</description>
+    </column>
+    <column name="ADRNR" data_type="VARCHAR">
+      <description>Address Number</description>
+    </column>
+    <column name="TZONSP" data_type="VARCHAR">
+      <description>Time Zone for Partner</description>
+    </column>
+  </columns>
+</data_description>

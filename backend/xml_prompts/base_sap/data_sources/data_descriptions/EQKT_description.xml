@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="EQKT">
+  <table_info name="EQKT" total_columns="7" />
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="EQUNR" data_type="VARCHAR">
+      <description>Equipment Number</description>
+    </column>
+    <column name="SPRAS" data_type="VARCHAR">
+      <description>Language Key</description>
+    </column>
+    <column name="EQKTX" data_type="VARCHAR">
+      <description>Description of Technical Object</description>
+    </column>
+    <column name="KZLTX" data_type="VARCHAR">
+      <description>Long Text Indicator</description>
+    </column>
+    <column name="TXASP" data_type="VARCHAR">
+      <description>Primary language indicator for text segment</description>
+    </column>
+    <column name="EQKTU" data_type="VARCHAR">
+      <description>Equipment description in capital letters</description>
+    </column>
+  </columns>
+</data_description>

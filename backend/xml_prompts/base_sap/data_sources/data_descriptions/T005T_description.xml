@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="T005T">
+  <table_info name="T005T" total_columns="8"/>
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="SPRAS" data_type="VARCHAR">
+      <description>Language Key</description>
+    </column>
+    <column name="LAND1" data_type="VARCHAR">
+      <description>Country Key</description>
+    </column>
+    <column name="LANDX" data_type="VARCHAR">
+      <description>Country Name</description>
+    </column>
+    <column name="NATIO" data_type="VARCHAR">
+      <description>Nationality</description>
+    </column>
+    <column name="LANDX50" data_type="VARCHAR">
+      <description>Country Name (Max. 50 Characters)</description>
+    </column>
+    <column name="NATIO50" data_type="VARCHAR">
+      <description>Nationality (Max. 50 Characters)</description>
+    </column>
+    <column name="PRQ_SPREGT" data_type="VARCHAR">
+      <description>Super region per country text</description>
+    </column>
+  </columns>
+</data_description>

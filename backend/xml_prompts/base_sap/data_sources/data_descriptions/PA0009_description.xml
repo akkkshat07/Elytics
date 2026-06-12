@@ -1,0 +1,186 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="PA0009">
+  <table_info name="PA0009" total_columns="60"/>
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="PERNR" data_type="VARCHAR">
+      <description>Personnel Number</description>
+    </column>
+    <column name="SUBTY" data_type="VARCHAR">
+      <description>Subtype</description>
+    </column>
+    <column name="OBJPS" data_type="VARCHAR">
+      <description>Object Identification</description>
+    </column>
+    <column name="SPRPS" data_type="VARCHAR">
+      <description>Lock Indicator for HR Master Data Record</description>
+    </column>
+    <column name="ENDDA" data_type="DATE">
+      <description>End Date</description>
+    </column>
+    <column name="BEGDA" data_type="DATE">
+      <description>Start Date</description>
+    </column>
+    <column name="SEQNR" data_type="VARCHAR">
+      <description>Number of Infotype Record With Same Key</description>
+    </column>
+    <column name="AEDTM" data_type="DATE">
+      <description>Last Changed On</description>
+    </column>
+    <column name="UNAME" data_type="VARCHAR">
+      <description>Name of Person Who Changed Object</description>
+    </column>
+    <column name="HISTO" data_type="VARCHAR">
+      <description>Historical Record Flag</description>
+    </column>
+    <column name="ITXEX" data_type="VARCHAR">
+      <description>Text Exists for Infotype</description>
+    </column>
+    <column name="REFEX" data_type="VARCHAR">
+      <description>Reference Fields Exist (Primary/Secondary Costs)</description>
+    </column>
+    <column name="ORDEX" data_type="VARCHAR">
+      <description>Confirmation Fields Exist</description>
+    </column>
+    <column name="ITBLD" data_type="VARCHAR">
+      <description>Infotype Screen Control</description>
+    </column>
+    <column name="PREAS" data_type="VARCHAR">
+      <description>Reason for Changing Master Data</description>
+    </column>
+    <column name="FLAG1" data_type="VARCHAR">
+      <description>Reserved Field/Unused Field</description>
+    </column>
+    <column name="FLAG2" data_type="VARCHAR">
+      <description>Reserved Field/Unused Field</description>
+    </column>
+    <column name="FLAG3" data_type="VARCHAR">
+      <description>Reserved Field/Unused Field</description>
+    </column>
+    <column name="FLAG4" data_type="VARCHAR">
+      <description>Reserved Field/Unused Field</description>
+    </column>
+    <column name="RESE1" data_type="VARCHAR">
+      <description>Reserved Field/Unused Field of Length 2</description>
+    </column>
+    <column name="RESE2" data_type="VARCHAR">
+      <description>Reserved Field/Unused Field of Length 2</description>
+    </column>
+    <column name="GRPVL" data_type="VARCHAR">
+      <description>Grouping Value for Personnel Assignments</description>
+    </column>
+    <column name="OPKEN" data_type="VARCHAR">
+      <description>Operation Indicator for Wage Types</description>
+    </column>
+    <column name="BETRG" data_type="DECIMAL">
+      <description>Standard value</description>
+    </column>
+    <column name="WAERS" data_type="VARCHAR">
+      <description>Payment Currency</description>
+    </column>
+    <column name="ANZHL" data_type="DECIMAL">
+      <description>Standard Percentage</description>
+    </column>
+    <column name="ZEINH" data_type="VARCHAR">
+      <description>Time/Measurement Unit</description>
+    </column>
+    <column name="BNKSA" data_type="VARCHAR">
+      <description>Type of Bank Details Record</description>
+    </column>
+    <column name="ZLSCH" data_type="VARCHAR">
+      <description>Payment Method</description>
+    </column>
+    <column name="EMFTX" data_type="VARCHAR">
+      <description>Payee Text</description>
+    </column>
+    <column name="BKPLZ" data_type="VARCHAR">
+      <description>Postal Code</description>
+    </column>
+    <column name="BKORT" data_type="VARCHAR">
+      <description>City</description>
+    </column>
+    <column name="BANKS" data_type="VARCHAR">
+      <description>Bank Country Key</description>
+    </column>
+    <column name="BANKL" data_type="VARCHAR">
+      <description>Bank Keys</description>
+    </column>
+    <column name="BANKN" data_type="VARCHAR">
+      <description>Bank Account Number</description>
+    </column>
+    <column name="BANKP" data_type="VARCHAR">
+      <description>Check Digit for Bank No./Account</description>
+    </column>
+    <column name="BKONT" data_type="VARCHAR">
+      <description>Bank Control Key</description>
+    </column>
+    <column name="SWIFT" data_type="VARCHAR">
+      <description>SWIFT/BIC for International Payments</description>
+    </column>
+    <column name="DTAWS" data_type="VARCHAR">
+      <description>Instruction Key for Data Medium Exchange</description>
+    </column>
+    <column name="DTAMS" data_type="VARCHAR">
+      <description>Recipient Code for Data Medium Exchange</description>
+    </column>
+    <column name="STCD1" data_type="VARCHAR">
+      <description>Tax Number 1</description>
+    </column>
+    <column name="STCD2" data_type="VARCHAR">
+      <description>Tax Number 2</description>
+    </column>
+    <column name="PSKTO" data_type="VARCHAR">
+      <description>PO Bank Current Acct No. or Building Society Ref. No.</description>
+    </column>
+    <column name="ESRNR" data_type="VARCHAR">
+      <description>ISR Subscriber Number</description>
+    </column>
+    <column name="ESRRE" data_type="VARCHAR">
+      <description>ISR/QR Reference Number</description>
+    </column>
+    <column name="ESRPZ" data_type="VARCHAR">
+      <description>POR check digit</description>
+    </column>
+    <column name="EMFSL" data_type="VARCHAR">
+      <description>Payee key for bank transfers</description>
+    </column>
+    <column name="ZWECK" data_type="VARCHAR">
+      <description>Purpose of Bank Transfers</description>
+    </column>
+    <column name="BTTYP" data_type="VARCHAR">
+      <description>PBS Transfer Type</description>
+    </column>
+    <column name="PAYTY" data_type="VARCHAR">
+      <description>Payroll type</description>
+    </column>
+    <column name="PAYID" data_type="VARCHAR">
+      <description>Payroll Identifier</description>
+    </column>
+    <column name="OCRSN" data_type="VARCHAR">
+      <description>Reason for Off-Cycle Payroll</description>
+    </column>
+    <column name="BONDT" data_type="DATE">
+      <description>Off-cycle payroll payment date</description>
+    </column>
+    <column name="BKREF" data_type="VARCHAR">
+      <description>Reference Details for Bank Details</description>
+    </column>
+    <column name="STRAS" data_type="VARCHAR">
+      <description>Street and House Number</description>
+    </column>
+    <column name="STATE" data_type="VARCHAR">
+      <description>Region (State, Province, County)</description>
+    </column>
+    <column name="DEBIT" data_type="VARCHAR">
+      <description>Automatic Debit Authorization Indicator</description>
+    </column>
+    <column name="IBAN" data_type="VARCHAR">
+      <description>IBAN (International Bank Account Number)</description>
+    </column>
+    <column name="ADRS_BANKS" data_type="VARCHAR">
+      <description>Country Key</description>
+    </column>
+  </columns>
+</data_description>

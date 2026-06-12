@@ -1,0 +1,354 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="KNB4">
+  <table_info name="KNB4" total_columns="116" />
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="KUNNR" data_type="VARCHAR">
+      <description>Customer Number</description>
+    </column>
+    <column name="BUKRS" data_type="VARCHAR">
+      <description>Company Code</description>
+    </column>
+    <column name="AUFZD" data_type="DATE">
+      <description>Date as from when the payment history was recorded</description>
+    </column>
+    <column name="JAH01" data_type="VARCHAR">
+      <description>Calendar Year</description>
+    </column>
+    <column name="MON01" data_type="VARCHAR">
+      <description>Calendar Month</description>
+    </column>
+    <column name="AGS01" data_type="DECIMAL">
+      <description>Gross Total of Cleared Items without Cash Discount Loss</description>
+    </column>
+    <column name="VZS01" data_type="DECIMAL">
+      <description>Average arrears with cash discount payments</description>
+    </column>
+    <column name="AGN01" data_type="DECIMAL">
+      <description>Gross Total of Cleared Items with Cash Discount Not Taken</description>
+    </column>
+    <column name="VZN01" data_type="DECIMAL">
+      <description>Average Arrears for Payments Where No Cash Discount Taken</description>
+    </column>
+    <column name="ANZ01" data_type="DECIMAL">
+      <description>Number of Incoming Payments during the Period</description>
+    </column>
+    <column name="JAH02" data_type="VARCHAR">
+      <description>Calendar Year</description>
+    </column>
+    <column name="MON02" data_type="VARCHAR">
+      <description>Calendar Month</description>
+    </column>
+    <column name="AGS02" data_type="DECIMAL">
+      <description>Gross Total of Cleared Items without Cash Discount Loss</description>
+    </column>
+    <column name="VZS02" data_type="DECIMAL">
+      <description>Average arrears with cash discount payments</description>
+    </column>
+    <column name="AGN02" data_type="DECIMAL">
+      <description>Gross Total of Cleared Items with Cash Discount Not Taken</description>
+    </column>
+    <column name="VZN02" data_type="DECIMAL">
+      <description>Average Arrears for Payments Where No Cash Discount Taken</description>
+    </column>
+    <column name="ANZ02" data_type="DECIMAL">
+      <description>Number of Incoming Payments during the Period</description>
+    </column>
+    <column name="JAH03" data_type="VARCHAR">
+      <description>Calendar Year</description>
+    </column>
+    <column name="MON03" data_type="VARCHAR">
+      <description>Calendar Month</description>
+    </column>
+    <column name="AGS03" data_type="DECIMAL">
+      <description>Gross Total of Cleared Items without Cash Discount Loss</description>
+    </column>
+    <column name="VZS03" data_type="DECIMAL">
+      <description>Average arrears with cash discount payments</description>
+    </column>
+    <column name="AGN03" data_type="DECIMAL">
+      <description>Gross Total of Cleared Items with Cash Discount Not Taken</description>
+    </column>
+    <column name="VZN03" data_type="DECIMAL">
+      <description>Average Arrears for Payments Where No Cash Discount Taken</description>
+    </column>
+    <column name="ANZ03" data_type="DECIMAL">
+      <description>Number of Incoming Payments during the Period</description>
+    </column>
+    <column name="JAH04" data_type="VARCHAR">
+      <description>Calendar Year</description>
+    </column>
+    <column name="MON04" data_type="VARCHAR">
+      <description>Calendar Month</description>
+    </column>
+    <column name="AGS04" data_type="DECIMAL">
+      <description>Gross Total of Cleared Items without Cash Discount Loss</description>
+    </column>
+    <column name="VZS04" data_type="DECIMAL">
+      <description>Average arrears with cash discount payments</description>
+    </column>
+    <column name="AGN04" data_type="DECIMAL">
+      <description>Gross Total of Cleared Items with Cash Discount Not Taken</description>
+    </column>
+    <column name="VZN04" data_type="DECIMAL">
+      <description>Average Arrears for Payments Where No Cash Discount Taken</description>
+    </column>
+    <column name="ANZ04" data_type="DECIMAL">
+      <description>Number of Incoming Payments during the Period</description>
+    </column>
+    <column name="JAH05" data_type="VARCHAR">
+      <description>Calendar Year</description>
+    </column>
+    <column name="MON05" data_type="VARCHAR">
+      <description>Calendar Month</description>
+    </column>
+    <column name="AGS05" data_type="DECIMAL">
+      <description>Gross Total of Cleared Items without Cash Discount Loss</description>
+    </column>
+    <column name="VZS05" data_type="DECIMAL">
+      <description>Average arrears with cash discount payments</description>
+    </column>
+    <column name="AGN05" data_type="DECIMAL">
+      <description>Gross Total of Cleared Items with Cash Discount Not Taken</description>
+    </column>
+    <column name="VZN05" data_type="DECIMAL">
+      <description>Average Arrears for Payments Where No Cash Discount Taken</description>
+    </column>
+    <column name="ANZ05" data_type="DECIMAL">
+      <description>Number of Incoming Payments during the Period</description>
+    </column>
+    <column name="JAH06" data_type="VARCHAR">
+      <description>Calendar Year</description>
+    </column>
+    <column name="MON06" data_type="VARCHAR">
+      <description>Calendar Month</description>
+    </column>
+    <column name="AGS06" data_type="DECIMAL">
+      <description>Gross Total of Cleared Items without Cash Discount Loss</description>
+    </column>
+    <column name="VZS06" data_type="DECIMAL">
+      <description>Average arrears with cash discount payments</description>
+    </column>
+    <column name="AGN06" data_type="DECIMAL">
+      <description>Gross Total of Cleared Items with Cash Discount Not Taken</description>
+    </column>
+    <column name="VZN06" data_type="DECIMAL">
+      <description>Average Arrears for Payments Where No Cash Discount Taken</description>
+    </column>
+    <column name="ANZ06" data_type="DECIMAL">
+      <description>Number of Incoming Payments during the Period</description>
+    </column>
+    <column name="JAH07" data_type="VARCHAR">
+      <description>Calendar Year</description>
+    </column>
+    <column name="MON07" data_type="VARCHAR">
+      <description>Calendar Month</description>
+    </column>
+    <column name="AGS07" data_type="DECIMAL">
+      <description>Gross Total of Cleared Items without Cash Discount Loss</description>
+    </column>
+    <column name="VZS07" data_type="DECIMAL">
+      <description>Average arrears with cash discount payments</description>
+    </column>
+    <column name="AGN07" data_type="DECIMAL">
+      <description>Gross Total of Cleared Items with Cash Discount Not Taken</description>
+    </column>
+    <column name="VZN07" data_type="DECIMAL">
+      <description>Average Arrears for Payments Where No Cash Discount Taken</description>
+    </column>
+    <column name="ANZ07" data_type="DECIMAL">
+      <description>Number of Incoming Payments during the Period</description>
+    </column>
+    <column name="JAH08" data_type="VARCHAR">
+      <description>Calendar Year</description>
+    </column>
+    <column name="MON08" data_type="VARCHAR">
+      <description>Calendar Month</description>
+    </column>
+    <column name="AGS08" data_type="DECIMAL">
+      <description>Gross Total of Cleared Items without Cash Discount Loss</description>
+    </column>
+    <column name="VZS08" data_type="DECIMAL">
+      <description>Average arrears with cash discount payments</description>
+    </column>
+    <column name="AGN08" data_type="DECIMAL">
+      <description>Gross Total of Cleared Items with Cash Discount Not Taken</description>
+    </column>
+    <column name="VZN08" data_type="DECIMAL">
+      <description>Average Arrears for Payments Where No Cash Discount Taken</description>
+    </column>
+    <column name="ANZ08" data_type="DECIMAL">
+      <description>Number of Incoming Payments during the Period</description>
+    </column>
+    <column name="JAH09" data_type="VARCHAR">
+      <description>Calendar Year</description>
+    </column>
+    <column name="MON09" data_type="VARCHAR">
+      <description>Calendar Month</description>
+    </column>
+    <column name="AGS09" data_type="DECIMAL">
+      <description>Gross Total of Cleared Items without Cash Discount Loss</description>
+    </column>
+    <column name="VZS09" data_type="DECIMAL">
+      <description>Average arrears with cash discount payments</description>
+    </column>
+    <column name="AGN09" data_type="DECIMAL">
+      <description>Gross Total of Cleared Items with Cash Discount Not Taken</description>
+    </column>
+    <column name="VZN09" data_type="DECIMAL">
+      <description>Average Arrears for Payments Where No Cash Discount Taken</description>
+    </column>
+    <column name="ANZ09" data_type="DECIMAL">
+      <description>Number of Incoming Payments during the Period</description>
+    </column>
+    <column name="JAH10" data_type="VARCHAR">
+      <description>Calendar Year</description>
+    </column>
+    <column name="MON10" data_type="VARCHAR">
+      <description>Calendar Month</description>
+    </column>
+    <column name="AGS10" data_type="DECIMAL">
+      <description>Gross Total of Cleared Items without Cash Discount Loss</description>
+    </column>
+    <column name="VZS10" data_type="DECIMAL">
+      <description>Average arrears with cash discount payments</description>
+    </column>
+    <column name="AGN10" data_type="DECIMAL">
+      <description>Gross Total of Cleared Items with Cash Discount Not Taken</description>
+    </column>
+    <column name="VZN10" data_type="DECIMAL">
+      <description>Average Arrears for Payments Where No Cash Discount Taken</description>
+    </column>
+    <column name="ANZ10" data_type="DECIMAL">
+      <description>Number of Incoming Payments during the Period</description>
+    </column>
+    <column name="JAH11" data_type="VARCHAR">
+      <description>Calendar Year</description>
+    </column>
+    <column name="MON11" data_type="VARCHAR">
+      <description>Calendar Month</description>
+    </column>
+    <column name="AGS11" data_type="DECIMAL">
+      <description>Gross Total of Cleared Items without Cash Discount Loss</description>
+    </column>
+    <column name="VZS11" data_type="DECIMAL">
+      <description>Average arrears with cash discount payments</description>
+    </column>
+    <column name="AGN11" data_type="DECIMAL">
+      <description>Gross Total of Cleared Items with Cash Discount Not Taken</description>
+    </column>
+    <column name="VZN11" data_type="DECIMAL">
+      <description>Average Arrears for Payments Where No Cash Discount Taken</description>
+    </column>
+    <column name="ANZ11" data_type="DECIMAL">
+      <description>Number of Incoming Payments during the Period</description>
+    </column>
+    <column name="JAH12" data_type="VARCHAR">
+      <description>Calendar Year</description>
+    </column>
+    <column name="MON12" data_type="VARCHAR">
+      <description>Calendar Month</description>
+    </column>
+    <column name="AGS12" data_type="DECIMAL">
+      <description>Gross Total of Cleared Items without Cash Discount Loss</description>
+    </column>
+    <column name="VZS12" data_type="DECIMAL">
+      <description>Average arrears with cash discount payments</description>
+    </column>
+    <column name="AGN12" data_type="DECIMAL">
+      <description>Gross Total of Cleared Items with Cash Discount Not Taken</description>
+    </column>
+    <column name="VZN12" data_type="DECIMAL">
+      <description>Average Arrears for Payments Where No Cash Discount Taken</description>
+    </column>
+    <column name="ANZ12" data_type="DECIMAL">
+      <description>Number of Incoming Payments during the Period</description>
+    </column>
+    <column name="JAH13" data_type="VARCHAR">
+      <description>Calendar Year</description>
+    </column>
+    <column name="MON13" data_type="VARCHAR">
+      <description>Calendar Month</description>
+    </column>
+    <column name="AGS13" data_type="DECIMAL">
+      <description>Gross Total of Cleared Items without Cash Discount Loss</description>
+    </column>
+    <column name="VZS13" data_type="DECIMAL">
+      <description>Average arrears with cash discount payments</description>
+    </column>
+    <column name="AGN13" data_type="DECIMAL">
+      <description>Gross Total of Cleared Items with Cash Discount Not Taken</description>
+    </column>
+    <column name="VZN13" data_type="DECIMAL">
+      <description>Average Arrears for Payments Where No Cash Discount Taken</description>
+    </column>
+    <column name="ANZ13" data_type="DECIMAL">
+      <description>Number of Incoming Payments during the Period</description>
+    </column>
+    <column name="JAH14" data_type="VARCHAR">
+      <description>Calendar Year</description>
+    </column>
+    <column name="MON14" data_type="VARCHAR">
+      <description>Calendar Month</description>
+    </column>
+    <column name="AGS14" data_type="DECIMAL">
+      <description>Gross Total of Cleared Items without Cash Discount Loss</description>
+    </column>
+    <column name="VZS14" data_type="DECIMAL">
+      <description>Average arrears with cash discount payments</description>
+    </column>
+    <column name="AGN14" data_type="DECIMAL">
+      <description>Gross Total of Cleared Items with Cash Discount Not Taken</description>
+    </column>
+    <column name="VZN14" data_type="DECIMAL">
+      <description>Average Arrears for Payments Where No Cash Discount Taken</description>
+    </column>
+    <column name="ANZ14" data_type="DECIMAL">
+      <description>Number of Incoming Payments during the Period</description>
+    </column>
+    <column name="JAH15" data_type="VARCHAR">
+      <description>Calendar Year</description>
+    </column>
+    <column name="MON15" data_type="VARCHAR">
+      <description>Calendar Month</description>
+    </column>
+    <column name="AGS15" data_type="DECIMAL">
+      <description>Gross Total of Cleared Items without Cash Discount Loss</description>
+    </column>
+    <column name="VZS15" data_type="DECIMAL">
+      <description>Average arrears with cash discount payments</description>
+    </column>
+    <column name="AGN15" data_type="DECIMAL">
+      <description>Gross Total of Cleared Items with Cash Discount Not Taken</description>
+    </column>
+    <column name="VZN15" data_type="DECIMAL">
+      <description>Average Arrears for Payments Where No Cash Discount Taken</description>
+    </column>
+    <column name="ANZ15" data_type="DECIMAL">
+      <description>Number of Incoming Payments during the Period</description>
+    </column>
+    <column name="JAH16" data_type="VARCHAR">
+      <description>Calendar Year</description>
+    </column>
+    <column name="MON16" data_type="VARCHAR">
+      <description>Calendar Month</description>
+    </column>
+    <column name="AGS16" data_type="DECIMAL">
+      <description>Gross Total of Cleared Items without Cash Discount Loss</description>
+    </column>
+    <column name="VZS16" data_type="DECIMAL">
+      <description>Average arrears with cash discount payments</description>
+    </column>
+    <column name="AGN16" data_type="DECIMAL">
+      <description>Gross Total of Cleared Items with Cash Discount Not Taken</description>
+    </column>
+    <column name="VZN16" data_type="DECIMAL">
+      <description>Average Arrears for Payments Where No Cash Discount Taken</description>
+    </column>
+    <column name="ANZ16" data_type="DECIMAL">
+      <description>Number of Incoming Payments during the Period</description>
+    </column>
+  </columns>
+</data_description>

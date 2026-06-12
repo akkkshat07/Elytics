@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="QPCT">
+  <table_info name="QPCT" total_columns="11" />
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="KATALOGART" data_type="VARCHAR">
+      <description>Catalog</description>
+    </column>
+    <column name="CODEGRUPPE" data_type="VARCHAR">
+      <description>Code Group</description>
+    </column>
+    <column name="CODE" data_type="VARCHAR">
+      <description>Code</description>
+    </column>
+    <column name="SPRACHE" data_type="VARCHAR">
+      <description>Language Key</description>
+    </column>
+    <column name="VERSION" data_type="VARCHAR">
+      <description>Version Number</description>
+    </column>
+    <column name="GUELTIGAB" data_type="DATE">
+      <description>Valid-From Date</description>
+    </column>
+    <column name="KURZTEXT" data_type="VARCHAR">
+      <description>Short Text for Code (Up to 40 Characters in Length)</description>
+    </column>
+    <column name="LTEXTV" data_type="VARCHAR">
+      <description>Long Text Exists for the Code</description>
+    </column>
+    <column name="INAKTIV" data_type="VARCHAR">
+      <description>Status of Code Group or Code Record</description>
+    </column>
+    <column name="GELOESCHT" data_type="VARCHAR">
+      <description>Data Record Was Deleted</description>
+    </column>
+  </columns>
+</data_description>

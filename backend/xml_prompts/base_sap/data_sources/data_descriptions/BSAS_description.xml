@@ -1,0 +1,270 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="BSAS">
+  <table_info name="BSAS" total_columns="88"/>
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="BUKRS" data_type="VARCHAR">
+      <description>Company Code</description>
+    </column>
+    <column name="HKONT" data_type="VARCHAR">
+      <description>General Ledger Account</description>
+    </column>
+    <column name="AUGDT" data_type="DATE">
+      <description>Clearing Date</description>
+    </column>
+    <column name="AUGBL" data_type="VARCHAR">
+      <description>Document Number of the Clearing Document</description>
+    </column>
+    <column name="ZUONR" data_type="VARCHAR">
+      <description>Assignment number</description>
+    </column>
+    <column name="GJAHR" data_type="VARCHAR">
+      <description>Fiscal Year</description>
+    </column>
+    <column name="BELNR" data_type="VARCHAR">
+      <description>Document Number of an Accounting Document</description>
+    </column>
+    <column name="BUZEI" data_type="VARCHAR">
+      <description>Number of Line Item Within Accounting Document</description>
+    </column>
+    <column name="BUDAT" data_type="DATE">
+      <description>Posting Date in the Document</description>
+    </column>
+    <column name="BLDAT" data_type="DATE">
+      <description>Document Date in Document</description>
+    </column>
+    <column name="WAERS" data_type="VARCHAR">
+      <description>Currency Key</description>
+    </column>
+    <column name="XBLNR" data_type="VARCHAR">
+      <description>Reference Document Number</description>
+    </column>
+    <column name="BLART" data_type="VARCHAR">
+      <description>Document Type</description>
+    </column>
+    <column name="MONAT" data_type="VARCHAR">
+      <description>Fiscal period</description>
+    </column>
+    <column name="BSCHL" data_type="VARCHAR">
+      <description>Posting Key</description>
+    </column>
+    <column name="SHKZG" data_type="VARCHAR">
+      <description>Debit/Credit Indicator</description>
+    </column>
+    <column name="GSBER" data_type="VARCHAR">
+      <description>Business Area</description>
+    </column>
+    <column name="MWSKZ" data_type="VARCHAR">
+      <description>Tax on Sales/Purchases Code</description>
+    </column>
+    <column name="FKONT" data_type="VARCHAR">
+      <description>Financial Budget Item</description>
+    </column>
+    <column name="DMBTR" data_type="DECIMAL">
+      <description>Amount in local currency</description>
+    </column>
+    <column name="WRBTR" data_type="DECIMAL">
+      <description>Amount in document currency</description>
+    </column>
+    <column name="MWSTS" data_type="DECIMAL">
+      <description>Tax Amount in Local Currency</description>
+    </column>
+    <column name="WMWST" data_type="DECIMAL">
+      <description>Tax Amount in Document Currency</description>
+    </column>
+    <column name="SGTXT" data_type="VARCHAR">
+      <description>Item Text</description>
+    </column>
+    <column name="PROJN" data_type="VARCHAR">
+      <description>Old: Project number : No longer used --&gt; PS_POSNR</description>
+    </column>
+    <column name="AUFNR" data_type="VARCHAR">
+      <description>Order Number</description>
+    </column>
+    <column name="WERKS" data_type="VARCHAR">
+      <description>Plant</description>
+    </column>
+    <column name="KOSTL" data_type="VARCHAR">
+      <description>Cost Center</description>
+    </column>
+    <column name="ZFBDT" data_type="DATE">
+      <description>Baseline Date for Due Date Calculation</description>
+    </column>
+    <column name="XOPVW" data_type="VARCHAR">
+      <description>Indicator: Open Item Management?</description>
+    </column>
+    <column name="VALUT" data_type="DATE">
+      <description>Value date</description>
+    </column>
+    <column name="BSTAT" data_type="VARCHAR">
+      <description>Document Status</description>
+    </column>
+    <column name="BDIFF" data_type="DECIMAL">
+      <description>Valuation Difference</description>
+    </column>
+    <column name="BDIF2" data_type="DECIMAL">
+      <description>Valuation Difference for the Second Local Currency</description>
+    </column>
+    <column name="VBUND" data_type="VARCHAR">
+      <description>Company ID of Trading Partner</description>
+    </column>
+    <column name="PSWSL" data_type="VARCHAR">
+      <description>Update Currency for General Ledger Transaction Figures</description>
+    </column>
+    <column name="WVERW" data_type="VARCHAR">
+      <description>Bill of Exchange Usage Type</description>
+    </column>
+    <column name="DMBE2" data_type="DECIMAL">
+      <description>Amount in Second Local Currency</description>
+    </column>
+    <column name="DMBE3" data_type="DECIMAL">
+      <description>Amount in Third Local Currency</description>
+    </column>
+    <column name="MWST2" data_type="DECIMAL">
+      <description>Tax Amount in Second Local Currency</description>
+    </column>
+    <column name="MWST3" data_type="DECIMAL">
+      <description>Tax Amount in Third Local Currency</description>
+    </column>
+    <column name="BDIF3" data_type="DECIMAL">
+      <description>Valuation Difference for the Third Local Currency</description>
+    </column>
+    <column name="RDIF3" data_type="DECIMAL">
+      <description>Exchange Rate Difference Realized for Third Local Currency</description>
+    </column>
+    <column name="XRAGL" data_type="VARCHAR">
+      <description>Indicator: Clearing was Reversed</description>
+    </column>
+    <column name="PROJK" data_type="VARCHAR">
+      <description>Work Breakdown Structure Element (WBS Element)</description>
+    </column>
+    <column name="PRCTR" data_type="VARCHAR">
+      <description>Profit Center</description>
+    </column>
+    <column name="XSTOV" data_type="VARCHAR">
+      <description>Indicator: Document is flagged for reversal</description>
+    </column>
+    <column name="XARCH" data_type="VARCHAR">
+      <description>Indicator: Document already archived ?</description>
+    </column>
+    <column name="PSWBT" data_type="DECIMAL">
+      <description>Amount for Updating in General Ledger</description>
+    </column>
+    <column name="XNEGP" data_type="VARCHAR">
+      <description>Indicator: Negative posting</description>
+    </column>
+    <column name="RFZEI" data_type="VARCHAR">
+      <description>Payment Card Item</description>
+    </column>
+    <column name="CCBTC" data_type="VARCHAR">
+      <description>Payment cards: Settlement run</description>
+    </column>
+    <column name="XREF3" data_type="VARCHAR">
+      <description>Reference key for line item</description>
+    </column>
+    <column name="BUPLA" data_type="VARCHAR">
+      <description>Business Place</description>
+    </column>
+    <column name="PPDIFF" data_type="DECIMAL">
+      <description>Realized Exchange Rate Gain/Loss 1.Loc.Curr.(Part Payments)</description>
+    </column>
+    <column name="PPDIF2" data_type="DECIMAL">
+      <description>Realized Exchange Rate Gain/Loss 2.Loc. Curr.(Part Payments)</description>
+    </column>
+    <column name="PPDIF3" data_type="DECIMAL">
+      <description>Realized Exchange Rate Gain/Loss 3.Loc.Curr.(Part Payments)</description>
+    </column>
+    <column name="BEWAR" data_type="VARCHAR">
+      <description>Transaction type</description>
+    </column>
+    <column name="IMKEY" data_type="VARCHAR">
+      <description>Internal Key for Real Estate Object</description>
+    </column>
+    <column name="DABRZ" data_type="DATE">
+      <description>Reference date for settlement</description>
+    </column>
+    <column name="INTRENO" data_type="VARCHAR">
+      <description>Internal Real Estate Master Data Code</description>
+    </column>
+    <column name="GRANT_NBR" data_type="VARCHAR">
+      <description>Grant</description>
+    </column>
+    <column name="FKBER" data_type="VARCHAR">
+      <description>Functional Area</description>
+    </column>
+    <column name="FIPOS" data_type="VARCHAR">
+      <description>Commitment Item</description>
+    </column>
+    <column name="FISTL" data_type="VARCHAR">
+      <description>Funds Center</description>
+    </column>
+    <column name="GEBER" data_type="VARCHAR">
+      <description>Fund</description>
+    </column>
+    <column name="PPRCT" data_type="VARCHAR">
+      <description>Partner Profit Center</description>
+    </column>
+    <column name="BUZID" data_type="VARCHAR">
+      <description>Identification of the Line Item</description>
+    </column>
+    <column name="AUGGJ" data_type="VARCHAR">
+      <description>Fiscal Year of Clearing Document</description>
+    </column>
+    <column name="UZAWE" data_type="VARCHAR">
+      <description>Payment method supplement</description>
+    </column>
+    <column name="SEGMENT" data_type="VARCHAR">
+      <description>Segment for Segmental Reporting</description>
+    </column>
+    <column name="PSEGMENT" data_type="VARCHAR">
+      <description>Partner Segment for Segmental Reporting</description>
+    </column>
+    <column name="PGEBER" data_type="VARCHAR">
+      <description>Partner Fund</description>
+    </column>
+    <column name="PGRANT_NBR" data_type="VARCHAR">
+      <description>Partner Grant</description>
+    </column>
+    <column name="MEASURE" data_type="VARCHAR">
+      <description>Funded Program</description>
+    </column>
+    <column name="BUDGET_PD" data_type="VARCHAR">
+      <description>FM: Budget Period</description>
+    </column>
+    <column name="PBUDGET_PD" data_type="VARCHAR">
+      <description>FM: Partner Budget Period</description>
+    </column>
+    <column name="KIDNO" data_type="VARCHAR">
+      <description>Payment Reference</description>
+    </column>
+    <column name="FIPEX" data_type="VARCHAR">
+      <description>Commitment item - Do not use field - see note 447805</description>
+    </column>
+    <column name="PRODPER" data_type="VARCHAR">
+      <description>Production Month</description>
+    </column>
+    <column name="QSSKZ" data_type="VARCHAR">
+      <description>Withholding Tax Code</description>
+    </column>
+    <column name="PROPMANO" data_type="VARCHAR">
+      <description>Mandate, Mandate-Opening Contract</description>
+    </column>
+    <column name="INWARD_NO" data_type="VARCHAR">
+      <description>Incoming Document Number</description>
+    </column>
+    <column name="INWARD_DT" data_type="DATE">
+      <description>Incoming Document Date</description>
+    </column>
+    <column name="GROUND_NO" data_type="VARCHAR">
+      <description>Payment Basis Document Number</description>
+    </column>
+    <column name="GROUND_DT" data_type="DATE">
+      <description>Payment Basis Document Date</description>
+    </column>
+    <column name="GROUND_TYP" data_type="VARCHAR">
+      <description>Type of Payment Basis Document</description>
+    </column>
+  </columns>
+</data_description>

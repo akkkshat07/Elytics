@@ -1,0 +1,102 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="TVST">
+  <table_info name="TVST" total_columns="32" />
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="VSTEL" data_type="VARCHAR">
+      <description>Shipping Point/Receiving Point</description>
+    </column>
+    <column name="FABKL" data_type="VARCHAR">
+      <description>Factory calendar key</description>
+    </column>
+    <column name="VTRZT" data_type="DECIMAL">
+      <description>Rounding-up period for delivery scheduling (in days)</description>
+    </column>
+    <column name="ADRNR" data_type="VARCHAR">
+      <description>Address</description>
+    </column>
+    <column name="ALAND" data_type="VARCHAR">
+      <description>Departure country (country from which the goods are sent)</description>
+    </column>
+    <column name="AZONE" data_type="VARCHAR">
+      <description>Departure zone</description>
+    </column>
+    <column name="TXNAM_ADR" data_type="VARCHAR">
+      <description>Text name for form text module short address</description>
+    </column>
+    <column name="TXNAM_KOP" data_type="VARCHAR">
+      <description>Text name for form text module letter header</description>
+    </column>
+    <column name="TXNAM_FUS" data_type="VARCHAR">
+      <description>Text name for formula text module footer lines</description>
+    </column>
+    <column name="TXNAM_GRU" data_type="VARCHAR">
+      <description>Text name for form text module: Greeting</description>
+    </column>
+    <column name="KSCHL" data_type="VARCHAR">
+      <description>Output Type</description>
+    </column>
+    <column name="SPRAS" data_type="VARCHAR">
+      <description>Message language</description>
+    </column>
+    <column name="ANZAL" data_type="DECIMAL">
+      <description>Number of messages (original + copies)</description>
+    </column>
+    <column name="VSZTP" data_type="VARCHAR">
+      <description>Dispatch time</description>
+    </column>
+    <column name="NACHA" data_type="VARCHAR">
+      <description>Message transmission medium</description>
+    </column>
+    <column name="LAZBS" data_type="VARCHAR">
+      <description>Determine loading time</description>
+    </column>
+    <column name="RIZBS" data_type="VARCHAR">
+      <description>Determine pick/pack time</description>
+    </column>
+    <column name="LAZZT" data_type="DECIMAL">
+      <description>Default loading time</description>
+    </column>
+    <column name="RIZZT" data_type="DECIMAL">
+      <description>Default pick/pack time</description>
+    </column>
+    <column name="KOQUI" data_type="VARCHAR">
+      <description>Subject to pick confirmation</description>
+    </column>
+    <column name="KOMSU" data_type="VARCHAR">
+      <description>Picking subsystem</description>
+    </column>
+    <column name="IMESS" data_type="VARCHAR">
+      <description>Display information messages in collective processing log</description>
+    </column>
+    <column name="TXNAM_SDB" data_type="VARCHAR">
+      <description>Text names for layout-set module SDS sender</description>
+    </column>
+    <column name="ALW_SW" data_type="VARCHAR">
+      <description>Switch: use route schedules</description>
+    </column>
+    <column name="LOADTG" data_type="DECIMAL">
+      <description>Gross loading time (ignoring work times)</description>
+    </column>
+    <column name="LOADTN" data_type="DECIMAL">
+      <description>Loading time in working hours</description>
+    </column>
+    <column name="PIPATG" data_type="DECIMAL">
+      <description>Pick/pack time in workdays</description>
+    </column>
+    <column name="PIPATN" data_type="DECIMAL">
+      <description>Pick/pack time in work hours</description>
+    </column>
+    <column name="TSTRID" data_type="VARCHAR">
+      <description>Working time from sales view</description>
+    </column>
+    <column name="ROUNDG" data_type="DECIMAL">
+      <description>Rounding period for shipping scheduling</description>
+    </column>
+    <column name="ROUNDN" data_type="DECIMAL">
+      <description>Rounding period in work hours</description>
+    </column>
+  </columns>
+</data_description>

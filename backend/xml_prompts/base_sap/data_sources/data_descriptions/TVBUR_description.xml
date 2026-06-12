@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="TVBUR">
+  <table_info name="TVBUR" total_columns="11"/>
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="VKBUR" data_type="VARCHAR">
+      <description>Sales Office</description>
+    </column>
+    <column name="ADRNR" data_type="VARCHAR">
+      <description>Address</description>
+    </column>
+    <column name="ERNAM" data_type="VARCHAR">
+      <description>User Creating Record</description>
+    </column>
+    <column name="TXNAM_ADR" data_type="VARCHAR">
+      <description>Text name for form text module short address</description>
+    </column>
+    <column name="TXNAM_KOP" data_type="VARCHAR">
+      <description>Text name for form text module letter header</description>
+    </column>
+    <column name="TXNAM_FUS" data_type="VARCHAR">
+      <description>Text name for formula text module footer lines</description>
+    </column>
+    <column name="TXNAM_GRU" data_type="VARCHAR">
+      <description>Text name for form text module: Greeting</description>
+    </column>
+    <column name="TXNAM_SDB" data_type="VARCHAR">
+      <description>Text names for layout-set module SDS sender</description>
+    </column>
+    <column name="HIDE" data_type="VARCHAR">
+      <description>Customization of SD Input Help Entries</description>
+    </column>
+    <column name="ISPVKBURUE" data_type="VARCHAR">
+      <description>IS-M: Higher level sales office</description>
+    </column>
+  </columns>
+</data_description>

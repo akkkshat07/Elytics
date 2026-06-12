@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="T009T">
+  <table_info name="T009T" total_columns="4" />
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="SPRAS" data_type="VARCHAR">
+      <description>Language Key</description>
+    </column>
+    <column name="PERIV" data_type="VARCHAR">
+      <description>Fiscal Year Variant</description>
+    </column>
+    <column name="LTEXT" data_type="VARCHAR">
+      <description>Description of fiscal year variant</description>
+    </column>
+  </columns>
+</data_description>

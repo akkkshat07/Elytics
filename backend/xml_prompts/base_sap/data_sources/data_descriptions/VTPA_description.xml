@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="VTPA">
+  <table_info name="VTPA" total_columns="20" />
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="VBELN" data_type="VARCHAR">
+      <description>Sales and Distribution Document Number</description>
+    </column>
+    <column name="POSNR" data_type="VARCHAR">
+      <description>Item number of the SD document</description>
+    </column>
+    <column name="PARVW" data_type="VARCHAR">
+      <description>Partner Function</description>
+    </column>
+    <column name="KUNNR" data_type="VARCHAR">
+      <description>Customer Number</description>
+    </column>
+    <column name="LIFNR" data_type="VARCHAR">
+      <description>Account Number of Supplier</description>
+    </column>
+    <column name="PERNR" data_type="VARCHAR">
+      <description>Personnel Number</description>
+    </column>
+    <column name="PARNR" data_type="VARCHAR">
+      <description>Number of contact person</description>
+    </column>
+    <column name="ADRNR" data_type="VARCHAR">
+      <description>Address</description>
+    </column>
+    <column name="ABLAD" data_type="VARCHAR">
+      <description>Unloading Point</description>
+    </column>
+    <column name="LAND1" data_type="VARCHAR">
+      <description>Country Key</description>
+    </column>
+    <column name="ADRDA" data_type="VARCHAR">
+      <description>Address indicator</description>
+    </column>
+    <column name="XCPDK" data_type="VARCHAR">
+      <description>Indicator: Is the account a one-time account?</description>
+    </column>
+    <column name="HITYP" data_type="VARCHAR">
+      <description>Customer hierarchy type</description>
+    </column>
+    <column name="PRFRE" data_type="VARCHAR">
+      <description>Relevant for price determination ID</description>
+    </column>
+    <column name="BOKRE" data_type="VARCHAR">
+      <description>Indicator: Customer Is Rebate-Relevant</description>
+    </column>
+    <column name="HISTUNR" data_type="VARCHAR">
+      <description>Level number within hierarchy</description>
+    </column>
+    <column name="KNREF" data_type="VARCHAR">
+      <description>Customer description of partner (plant, storage location)</description>
+    </column>
+    <column name="LZONE" data_type="VARCHAR">
+      <description>Transportation zone to or from which the goods are delivered</description>
+    </column>
+    <column name="HZUOR" data_type="VARCHAR">
+      <description>Assignment to Hierarchy</description>
+    </column>
+  </columns>
+</data_description>

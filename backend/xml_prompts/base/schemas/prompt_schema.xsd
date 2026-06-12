@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+           targetNamespace="http://coresight.com/prompts" 
+           xmlns="http://coresight.com/prompts" 
+           elementFormDefault="qualified">
+
+  <!-- Core System Configuration -->
+  <xs:element name="coresight_prompts">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="system_config" type="SystemConfigType"/>
+        <xs:element name="agents" type="AgentsType"/>
+        <xs:element name="data_sources" type="DataSourcesType"/>
+        <xs:element name="domain_knowledge" type="DomainKnowledgeType"/>
+      </xs:sequence>
+      <xs:attribute name="version" type="xs:string" use="required" default="1.0"/>
+    </xs:complexType>
+  </xs:element>
+
+  <!-- System Configuration Type -->
+  <xs:complexType name="SystemConfigType">
+    <xs:sequence>
+      <xs:element name="base_instructions" type="xs:string"/>
+      <xs:element name="domain_context" type="xs:string"/>
+      <xs:element name="output_format" type="OutputFormatType"/>
+      <xs:element name="compression_rules" type="CompressionRulesType"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <!-- Output Format Type -->
+  <xs:complexType name="OutputFormatType">
+    <xs:sequence>
+      <xs:element name="json_structure" type="xs:string"/>
+      <xs:element name="validation_rules" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <!-- Compression Rules Type -->
+  <xs:complexType name="CompressionRulesType">
+    <xs:sequence>
+      <xs:element name="eliminate_redundancy" type="xs:boolean" default="true"/>
+      <xs:element name="use_abbreviations" type="xs:boolean" default="true"/>
+      <xs:element name="conditional_inclusion" type="xs:boolean" default="true"/>
+      <xs:element name="max_tokens" type="xs:integer" default="2000"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <!-- Agents Type -->
+  <xs:complexType name="AgentsType">
+    <xs:sequence>
+      <xs:element name="agent" type="AgentType" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <!-- Individual Agent Type -->
+  <xs:complexType name="AgentType">
+    <xs:sequence>
+      <xs:element name="role" type="xs:string"/>
+      <xs:element name="core_instructions" type="CoreInstructionsType"/>
+      <xs:element name="rules" type="RulesType"/>
+      <xs:element name="data_access" type="DataAccessType"/>
+      <xs:element name="output_schema" type="OutputSchemaType"/>
+      <xs:element name="examples" type="ExamplesType" minOccurs="0"/>
+    </xs:sequence>
+    <xs:attribute name="name" type="xs:string" use="required"/>
+    <xs:attribute name="priority" type="xs:integer" default="1"/>
+  </xs:complexType>
+
+  <!-- Core Instructions Type -->
+  <xs:complexType name="CoreInstructionsType">
+    <xs:sequence>
+      <xs:element name="analyze" type="xs:string" minOccurs="0"/>
+      <xs:element name="detect_followup" type="xs:string" minOccurs="0"/>
+      <xs:element name="create_plan" type="xs:string" minOccurs="0"/>
+      <xs:element name="generate_code" type="xs:string" minOccurs="0"/>
+      <xs:element name="execute" type="xs:string" minOccurs="0"/>
+      <xs:element name="validate" type="xs:string" minOccurs="0"/>
+      <xs:element name="synthesize" type="xs:string" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <!-- Rules Type -->
+  <xs:complexType name="RulesType">
+    <xs:sequence>
+      <xs:element name="rule" type="RuleType" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <!-- Individual Rule Type -->
+  <xs:complexType name="RuleType">
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+        <xs:attribute name="type" type="RuleTypeEnum" use="required"/>
+        <xs:attribute name="priority" type="xs:integer" default="1"/>
+        <xs:attribute name="mandatory" type="xs:boolean" default="true"/>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+
+  <!-- Rule Type Enumeration -->
+  <xs:simpleType name="RuleTypeEnum">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="business"/>
+      <xs:enumeration value="technical"/>
+      <xs:enumeration value="validation"/>
+      <xs:enumeration value="format"/>
+      <xs:enumeration value="security"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <!-- Data Access Type -->
+  <xs:complexType name="DataAccessType">
+    <xs:sequence>
+      <xs:element name="primary_table" type="xs:string"/>
+      <xs:element name="required_columns" type="xs:string"/>
+      <xs:element name="optional_columns" type="xs:string" minOccurs="0"/>
+      <xs:element name="filters" type="xs:string" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <!-- Output Schema Type -->
+  <xs:complexType name="OutputSchemaType">
+    <xs:sequence>
+      <xs:element name="format" type="xs:string"/>
+      <xs:element name="required_fields" type="xs:string"/>
+      <xs:element name="optional_fields" type="xs:string" minOccurs="0"/>
+      <xs:element name="validation_rules" type="xs:string" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <!-- Examples Type -->
+  <xs:complexType name="ExamplesType">
+    <xs:sequence>
+      <xs:element name="example" type="ExampleType" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <!-- Individual Example Type -->
+  <xs:complexType name="ExampleType">
+    <xs:sequence>
+      <xs:element name="input" type="xs:string"/>
+      <xs:element name="output" type="xs:string"/>
+    </xs:sequence>
+    <xs:attribute name="type" type="xs:string" use="required"/>
+  </xs:complexType>
+
+  <!-- Data Sources Type -->
+  <xs:complexType name="DataSourcesType">
+    <xs:sequence>
+      <xs:element name="tables" type="TablesType"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <!-- Tables Type -->
+  <xs:complexType name="TablesType">
+    <xs:sequence>
+      <xs:element name="table" type="TableType" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <!-- Individual Table Type -->
+  <xs:complexType name="TableType">
+    <xs:sequence>
+      <xs:element name="schema" type="SchemaType"/>
+      <xs:element name="descriptions" type="DescriptionsType"/>
+      <xs:element name="business_rules" type="BusinessRulesType"/>
+    </xs:sequence>
+    <xs:attribute name="name" type="xs:string" use="required"/>
+    <xs:attribute name="primary" type="xs:boolean" default="false"/>
+  </xs:complexType>
+
+  <!-- Schema Type -->
+  <xs:complexType name="SchemaType">
+    <xs:sequence>
+      <xs:element name="columns" type="ColumnsType"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <!-- Columns Type -->
+  <xs:complexType name="ColumnsType">
+    <xs:sequence>
+      <xs:element name="column" type="ColumnType" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <!-- Individual Column Type -->
+  <xs:complexType name="ColumnType">
+    <xs:sequence>
+      <xs:element name="description" type="xs:string"/>
+      <xs:element name="business_meaning" type="xs:string" minOccurs="0"/>
+      <xs:element name="sample_values" type="xs:string" minOccurs="0"/>
+    </xs:sequence>
+    <xs:attribute name="name" type="xs:string" use="required"/>
+    <xs:attribute name="type" type="xs:string" use="required"/>
+    <xs:attribute name="key" type="xs:boolean" default="false"/>
+    <xs:attribute name="business" type="xs:string"/>
+  </xs:complexType>
+
+  <!-- Descriptions Type -->
+  <xs:complexType name="DescriptionsType">
+    <xs:sequence>
+      <xs:element name="file_description" type="xs:string"/>
+      <xs:element name="usage_guidelines" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <!-- Business Rules Type -->
+  <xs:complexType name="BusinessRulesType">
+    <xs:sequence>
+      <xs:element name="rule" type="BusinessRuleType" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <!-- Individual Business Rule Type -->
+  <xs:complexType name="BusinessRuleType">
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+        <xs:attribute name="name" type="xs:string" use="required"/>
+        <xs:attribute name="scope" type="xs:string" use="required"/>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+
+  <!-- Domain Knowledge Type -->
+  <xs:complexType name="DomainKnowledgeType">
+    <xs:sequence>
+      <xs:element name="terminology" type="TerminologyType"/>
+      <xs:element name="personas" type="PersonasType"/>
+      <xs:element name="guidelines" type="GuidelinesType"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <!-- Terminology Type -->
+  <xs:complexType name="TerminologyType">
+    <xs:sequence>
+      <xs:element name="term" type="TermType" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <!-- Individual Term Type -->
+  <xs:complexType name="TermType">
+    <xs:sequence>
+      <xs:element name="definition" type="xs:string"/>
+      <xs:element name="usage" type="xs:string" minOccurs="0"/>
+    </xs:sequence>
+    <xs:attribute name="key" type="xs:string" use="required"/>
+    <xs:attribute name="category" type="xs:string"/>
+  </xs:complexType>
+
+  <!-- Personas Type -->
+  <xs:complexType name="PersonasType">
+    <xs:sequence>
+      <xs:element name="persona" type="PersonaType" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <!-- Individual Persona Type -->
+  <xs:complexType name="PersonaType">
+    <xs:sequence>
+      <xs:element name="focus" type="xs:string"/>
+      <xs:element name="communication" type="xs:string"/>
+      <xs:element name="preferences" type="xs:string" minOccurs="0"/>
+    </xs:sequence>
+    <xs:attribute name="name" type="xs:string" use="required"/>
+  </xs:complexType>
+
+  <!-- Guidelines Type -->
+  <xs:complexType name="GuidelinesType">
+    <xs:sequence>
+      <xs:element name="guideline" type="GuidelineType" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <!-- Individual Guideline Type -->
+  <xs:complexType name="GuidelineType">
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+        <xs:attribute name="category" type="xs:string" use="required"/>
+        <xs:attribute name="priority" type="xs:integer" default="1"/>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+
+</xs:schema>

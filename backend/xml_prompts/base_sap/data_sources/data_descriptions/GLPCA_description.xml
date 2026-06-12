@@ -1,0 +1,312 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="GLPCA">
+  <table_info name="GLPCA" total_columns="102" />
+  <columns>
+    <column name="RCLNT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="GL_SIRID" data_type="VARCHAR">
+      <description>Record number of the line item record</description>
+    </column>
+    <column name="RLDNR" data_type="VARCHAR">
+      <description>Ledger</description>
+    </column>
+    <column name="RRCTY" data_type="VARCHAR">
+      <description>Record Type</description>
+    </column>
+    <column name="RVERS" data_type="VARCHAR">
+      <description>Version</description>
+    </column>
+    <column name="RYEAR" data_type="VARCHAR">
+      <description>Fiscal Year</description>
+    </column>
+    <column name="RTCUR" data_type="VARCHAR">
+      <description>Currency Key</description>
+    </column>
+    <column name="RUNIT" data_type="VARCHAR">
+      <description>Base Unit of Measure</description>
+    </column>
+    <column name="DRCRK" data_type="VARCHAR">
+      <description>Debit/Credit Indicator</description>
+    </column>
+    <column name="POPER" data_type="VARCHAR">
+      <description>Posting Period</description>
+    </column>
+    <column name="DOCCT" data_type="VARCHAR">
+      <description>Document Type</description>
+    </column>
+    <column name="DOCNR" data_type="VARCHAR">
+      <description>Document Number of an Accounting Document</description>
+    </column>
+    <column name="DOCLN" data_type="VARCHAR">
+      <description>Document line</description>
+    </column>
+    <column name="RBUKRS" data_type="VARCHAR">
+      <description>Company Code</description>
+    </column>
+    <column name="RPRCTR" data_type="VARCHAR">
+      <description>Profit Center</description>
+    </column>
+    <column name="RHOART" data_type="VARCHAR">
+      <description>Type of origin object (EC-PCA)</description>
+    </column>
+    <column name="RFAREA" data_type="VARCHAR">
+      <description>Functional Area</description>
+    </column>
+    <column name="KOKRS" data_type="VARCHAR">
+      <description>Controlling Area</description>
+    </column>
+    <column name="RACCT" data_type="VARCHAR">
+      <description>Account Number</description>
+    </column>
+    <column name="HRKFT" data_type="VARCHAR">
+      <description>Origin Group as Subdivision of Cost Element</description>
+    </column>
+    <column name="RASSC" data_type="VARCHAR">
+      <description>Company ID of Trading Partner</description>
+    </column>
+    <column name="EPRCTR" data_type="VARCHAR">
+      <description>Partner profit center for elimination of internal business</description>
+    </column>
+    <column name="ACTIV" data_type="VARCHAR">
+      <description>FI-SL Business Transaction</description>
+    </column>
+    <column name="AFABE" data_type="VARCHAR">
+      <description>Real depreciation area</description>
+    </column>
+    <column name="OCLNT" data_type="VARCHAR">
+      <description>Original client</description>
+    </column>
+    <column name="SBUKRS" data_type="VARCHAR">
+      <description>Sender company code</description>
+    </column>
+    <column name="SPRCTR" data_type="VARCHAR">
+      <description>Partner Profit Center</description>
+    </column>
+    <column name="SHOART" data_type="VARCHAR">
+      <description>Type of receiver object</description>
+    </column>
+    <column name="SFAREA" data_type="VARCHAR">
+      <description>Partner Functional Area</description>
+    </column>
+    <column name="TSL" data_type="DECIMAL">
+      <description>Amount in transaction currency</description>
+    </column>
+    <column name="HSL" data_type="DECIMAL">
+      <description>Amount in company code currency</description>
+    </column>
+    <column name="KSL" data_type="DECIMAL">
+      <description>Amount in profit center local currency</description>
+    </column>
+    <column name="MSL" data_type="DECIMAL">
+      <description>Quantity</description>
+    </column>
+    <column name="CPUDT" data_type="DATE">
+      <description>Day On Which Accounting Document Was Entered</description>
+    </column>
+    <column name="CPUTM" data_type="TIME">
+      <description>Time of Entry</description>
+    </column>
+    <column name="USNAM" data_type="VARCHAR">
+      <description>User Name</description>
+    </column>
+    <column name="SGTXT" data_type="VARCHAR">
+      <description>Item Text</description>
+    </column>
+    <column name="AUTOM" data_type="VARCHAR">
+      <description>Indicator: Automatic posting lines</description>
+    </column>
+    <column name="DOCTY" data_type="VARCHAR">
+      <description>FI-SL Document Type</description>
+    </column>
+    <column name="BLDAT" data_type="DATE">
+      <description>Document Date in Document</description>
+    </column>
+    <column name="BUDAT" data_type="DATE">
+      <description>Posting Date in the Document</description>
+    </column>
+    <column name="WSDAT" data_type="DATE">
+      <description>Value Date for Currency Translation</description>
+    </column>
+    <column name="REFDOCNR" data_type="VARCHAR">
+      <description>Reference Document Number (External Document Number)</description>
+    </column>
+    <column name="REFRYEAR" data_type="VARCHAR">
+      <description>Fiscal Year</description>
+    </column>
+    <column name="REFDOCLN" data_type="VARCHAR">
+      <description>Number of Line Item Within Accounting Document</description>
+    </column>
+    <column name="REFDOCCT" data_type="VARCHAR">
+      <description>Document Type</description>
+    </column>
+    <column name="REFACTIV" data_type="VARCHAR">
+      <description>FI-SL Business Transaction</description>
+    </column>
+    <column name="AWTYP" data_type="VARCHAR">
+      <description>Reference procedure</description>
+    </column>
+    <column name="AWORG" data_type="VARCHAR">
+      <description>Reference organisational units</description>
+    </column>
+    <column name="WERKS" data_type="VARCHAR">
+      <description>Plant</description>
+    </column>
+    <column name="GSBER" data_type="VARCHAR">
+      <description>Business Area</description>
+    </column>
+    <column name="KOSTL" data_type="VARCHAR">
+      <description>Cost Center</description>
+    </column>
+    <column name="LSTAR" data_type="VARCHAR">
+      <description>Activity Type</description>
+    </column>
+    <column name="AUFNR" data_type="VARCHAR">
+      <description>Order Number</description>
+    </column>
+    <column name="AUFPL" data_type="VARCHAR">
+      <description>Routing number of operations in the order</description>
+    </column>
+    <column name="ANLN1" data_type="VARCHAR">
+      <description>Main Asset Number</description>
+    </column>
+    <column name="ANLN2" data_type="VARCHAR">
+      <description>Asset Subnumber</description>
+    </column>
+    <column name="MATNR" data_type="VARCHAR">
+      <description>Material Number</description>
+    </column>
+    <column name="BWKEY" data_type="VARCHAR">
+      <description>Valuation Area</description>
+    </column>
+    <column name="BWTAR" data_type="VARCHAR">
+      <description>Valuation Type</description>
+    </column>
+    <column name="ANBWA" data_type="VARCHAR">
+      <description>Asset Transaction Type</description>
+    </column>
+    <column name="KUNNR" data_type="VARCHAR">
+      <description>Customer Number</description>
+    </column>
+    <column name="LIFNR" data_type="VARCHAR">
+      <description>Account Number of Supplier</description>
+    </column>
+    <column name="RMVCT" data_type="VARCHAR">
+      <description>Transaction type</description>
+    </column>
+    <column name="EBELN" data_type="VARCHAR">
+      <description>Purchasing Document Number</description>
+    </column>
+    <column name="EBELP" data_type="VARCHAR">
+      <description>Item Number of Purchasing Document</description>
+    </column>
+    <column name="KSTRG" data_type="VARCHAR">
+      <description>Cost Object</description>
+    </column>
+    <column name="ERKRS" data_type="VARCHAR">
+      <description>Operating concern</description>
+    </column>
+    <column name="PAOBJNR" data_type="VARCHAR">
+      <description>Profitability Segment Number (CO-PA)</description>
+    </column>
+    <column name="PASUBNR" data_type="VARCHAR">
+      <description>Profitability Segment Changes (CO-PA)</description>
+    </column>
+    <column name="PS_PSP_PNR" data_type="VARCHAR">
+      <description>Work Breakdown Structure Element (WBS Element)</description>
+    </column>
+    <column name="KDAUF" data_type="VARCHAR">
+      <description>Sales Order Number</description>
+    </column>
+    <column name="KDPOS" data_type="VARCHAR">
+      <description>Item Number in Sales Order</description>
+    </column>
+    <column name="FKART" data_type="VARCHAR">
+      <description>Billing Type</description>
+    </column>
+    <column name="VKORG" data_type="VARCHAR">
+      <description>Sales Organization</description>
+    </column>
+    <column name="VTWEG" data_type="VARCHAR">
+      <description>Distribution Channel</description>
+    </column>
+    <column name="AUBEL" data_type="VARCHAR">
+      <description>Sales Document</description>
+    </column>
+    <column name="AUPOS" data_type="VARCHAR">
+      <description>Sales Document Item</description>
+    </column>
+    <column name="SPART" data_type="VARCHAR">
+      <description>Division</description>
+    </column>
+    <column name="VBELN" data_type="VARCHAR">
+      <description>Sales and Distribution Document Number</description>
+    </column>
+    <column name="POSNR" data_type="VARCHAR">
+      <description>Item number of the SD document</description>
+    </column>
+    <column name="VKGRP" data_type="VARCHAR">
+      <description>Sales Group</description>
+    </column>
+    <column name="VKBUR" data_type="VARCHAR">
+      <description>Sales Office</description>
+    </column>
+    <column name="VBUND" data_type="VARCHAR">
+      <description>Company ID of Trading Partner</description>
+    </column>
+    <column name="LOGSYS" data_type="VARCHAR">
+      <description>Logical System</description>
+    </column>
+    <column name="ALEBN" data_type="VARCHAR">
+      <description>ALE: PCA document number in system where created</description>
+    </column>
+    <column name="AWSYS" data_type="VARCHAR">
+      <description>Logical system of source document</description>
+    </column>
+    <column name="VERSA" data_type="VARCHAR">
+      <description>Results Analysis Version</description>
+    </column>
+    <column name="STFLG" data_type="VARCHAR">
+      <description>Identifier for reversal document</description>
+    </column>
+    <column name="STOKZ" data_type="VARCHAR">
+      <description>Indicator: Document was reversed</description>
+    </column>
+    <column name="STAGR" data_type="VARCHAR">
+      <description>Statistical key figure</description>
+    </column>
+    <column name="GRTYP" data_type="VARCHAR">
+      <description>Statistical Key Figure Category</description>
+    </column>
+    <column name="REP_MATNR" data_type="VARCHAR">
+      <description>Representative material for Profit Center Accounting</description>
+    </column>
+    <column name="CO_PRZNR" data_type="VARCHAR">
+      <description>Business Process</description>
+    </column>
+    <column name="IMKEY" data_type="VARCHAR">
+      <description>Internal Key for Real Estate Object</description>
+    </column>
+    <column name="DABRZ" data_type="DATE">
+      <description>Reference date for settlement</description>
+    </column>
+    <column name="VALUT" data_type="DATE">
+      <description>Value date</description>
+    </column>
+    <column name="RSCOPE" data_type="VARCHAR">
+      <description>Object Class</description>
+    </column>
+    <column name="AWREF_REV" data_type="VARCHAR">
+      <description>Reversal: Reverse Document Reference Document Number</description>
+    </column>
+    <column name="AWORG_REV" data_type="VARCHAR">
+      <description>Reversal: Reverse Document Reference Organization</description>
+    </column>
+    <column name="BWART" data_type="VARCHAR">
+      <description>Movement Type (Inventory Management)</description>
+    </column>
+    <column name="BLART" data_type="VARCHAR">
+      <description>Document Type</description>
+    </column>
+  </columns>
+</data_description>

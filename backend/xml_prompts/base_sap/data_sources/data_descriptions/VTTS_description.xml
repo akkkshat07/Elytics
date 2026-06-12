@@ -1,0 +1,231 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="VTTS">
+  <table_info name="VTTS" total_columns="75" />
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="TKNUM" data_type="VARCHAR">
+      <description>Shipment Number</description>
+    </column>
+    <column name="TSNUM" data_type="VARCHAR">
+      <description>Stage of transport number</description>
+    </column>
+    <column name="TSTYP" data_type="VARCHAR">
+      <description>Stage category</description>
+    </column>
+    <column name="TSRFO" data_type="VARCHAR">
+      <description>Stage of transport sequence</description>
+    </column>
+    <column name="ELUPD" data_type="VARCHAR">
+      <description>Change Indicator</description>
+    </column>
+    <column name="ERNAM" data_type="VARCHAR">
+      <description>Name of Person Responsible for Creating the Object</description>
+    </column>
+    <column name="ERDAT" data_type="DATE">
+      <description>Date on Which Record Was Created</description>
+    </column>
+    <column name="ERZET" data_type="TIME">
+      <description>Entry time</description>
+    </column>
+    <column name="AENAM" data_type="VARCHAR">
+      <description>Name of Person Who Changed Object</description>
+    </column>
+    <column name="AEDAT" data_type="DATE">
+      <description>Last Changed On</description>
+    </column>
+    <column name="AEZET" data_type="TIME">
+      <description>Time last change was made</description>
+    </column>
+    <column name="ROUTE" data_type="VARCHAR">
+      <description>Route for shipment stage</description>
+    </column>
+    <column name="VSART" data_type="VARCHAR">
+      <description>Shipping type for shipment stage</description>
+    </column>
+    <column name="INCO1" data_type="VARCHAR">
+      <description>Incoterms for printout</description>
+    </column>
+    <column name="LAUFK" data_type="VARCHAR">
+      <description>Leg indicator for shipment stage</description>
+    </column>
+    <column name="ADRNA" data_type="VARCHAR">
+      <description>Departure point: Address</description>
+    </column>
+    <column name="KNOTA" data_type="VARCHAR">
+      <description>Departure Point</description>
+    </column>
+    <column name="VSTEL" data_type="VARCHAR">
+      <description>Shipping point at point of departure</description>
+    </column>
+    <column name="LSTEL" data_type="VARCHAR">
+      <description>Point of departure: Loading point at shipping point</description>
+    </column>
+    <column name="WERKA" data_type="VARCHAR">
+      <description>Plant at point of departure</description>
+    </column>
+    <column name="LGORTA" data_type="VARCHAR">
+      <description>Departure point: Storage location in plant</description>
+    </column>
+    <column name="KUNNA" data_type="VARCHAR">
+      <description>Departure point: Customer</description>
+    </column>
+    <column name="LIFNA" data_type="VARCHAR">
+      <description>Vendor number of departure point</description>
+    </column>
+    <column name="BELAD" data_type="VARCHAR">
+      <description>Point of departure: Additional info (e.g. loading point)</description>
+    </column>
+    <column name="ADRNZ" data_type="VARCHAR">
+      <description>Destination address</description>
+    </column>
+    <column name="KNOTZ" data_type="VARCHAR">
+      <description>Destination point</description>
+    </column>
+    <column name="VSTEZ" data_type="VARCHAR">
+      <description>Shipping point at destination</description>
+    </column>
+    <column name="LSTEZ" data_type="VARCHAR">
+      <description>Destination: Loading point at shipping point</description>
+    </column>
+    <column name="WERKZ" data_type="VARCHAR">
+      <description>Plant at destination point</description>
+    </column>
+    <column name="LGORTZ" data_type="VARCHAR">
+      <description>Destination: Storage location in plant</description>
+    </column>
+    <column name="KUNNZ" data_type="VARCHAR">
+      <description>Customer number for destination point</description>
+    </column>
+    <column name="LIFNZ" data_type="VARCHAR">
+      <description>Vendor number of destination point</description>
+    </column>
+    <column name="ABLAD" data_type="VARCHAR">
+      <description>Destination: Additional information (e.g. unloading point)</description>
+    </column>
+    <column name="DPTBG" data_type="DATE">
+      <description>Stage: Planned date for start of shipment</description>
+    </column>
+    <column name="UPTBG" data_type="TIME">
+      <description>Stage: Planned shipment start time</description>
+    </column>
+    <column name="DATBG" data_type="DATE">
+      <description>Stage: Current date for start of shipment</description>
+    </column>
+    <column name="UATBG" data_type="TIME">
+      <description>Stage: Current shipment start time</description>
+    </column>
+    <column name="DPTEN" data_type="DATE">
+      <description>Stage: Planned date for end of shipment</description>
+    </column>
+    <column name="UPTEN" data_type="TIME">
+      <description>Stage: Planned shipemnt end time</description>
+    </column>
+    <column name="DATEN" data_type="DATE">
+      <description>Stage: Actual Date for End of Shipment</description>
+    </column>
+    <column name="UATEN" data_type="TIME">
+      <description>Stage: Actual shipment end time</description>
+    </column>
+    <column name="TDLNR" data_type="VARCHAR">
+      <description>Number of forwarding agent in the shipment stage</description>
+    </column>
+    <column name="DISTZ" data_type="DECIMAL">
+      <description>Distance</description>
+    </column>
+    <column name="MEDST" data_type="VARCHAR">
+      <description>Unit of measure for distance</description>
+    </column>
+    <column name="FAHZT" data_type="DECIMAL">
+      <description>Travelling time only between two locations</description>
+    </column>
+    <column name="GESZT" data_type="DECIMAL">
+      <description>Total travelling time between two locations incl. breaks</description>
+    </column>
+    <column name="MEIZT" data_type="VARCHAR">
+      <description>Unit of measure for travelling times</description>
+    </column>
+    <column name="LGNUMA" data_type="VARCHAR">
+      <description>Point of departure: Warehouse number</description>
+    </column>
+    <column name="TORA" data_type="VARCHAR">
+      <description>Point of departure: Gate for warehouse number</description>
+    </column>
+    <column name="ADRKNZA" data_type="VARCHAR">
+      <description>Point of departure: Origin indicator of address</description>
+    </column>
+    <column name="KUNABLA" data_type="VARCHAR">
+      <description>Point of departure: Customer's unloading point</description>
+    </column>
+    <column name="LGNUMZ" data_type="VARCHAR">
+      <description>Destination: Warehouse number</description>
+    </column>
+    <column name="TORZ" data_type="VARCHAR">
+      <description>Destination. Gate for warehouse number</description>
+    </column>
+    <column name="ADRKNZZ" data_type="VARCHAR">
+      <description>Destination: Origin indicator of address</description>
+    </column>
+    <column name="KUNABLZ" data_type="VARCHAR">
+      <description>Destination: Customer's unloading point</description>
+    </column>
+    <column name="GESZTD" data_type="DECIMAL">
+      <description>Planned total time at stage level (in days)</description>
+    </column>
+    <column name="FAHZTD" data_type="DECIMAL">
+      <description>Plan: Actual duration at stage level (in hours:minutes)</description>
+    </column>
+    <column name="GESZTDA" data_type="DECIMAL">
+      <description>Actual total time at stage of shipment (in days)</description>
+    </column>
+    <column name="FAHZTDA" data_type="DECIMAL">
+      <description>Actual duration of shipment stage (in hours:minutes)</description>
+    </column>
+    <column name="SDABW" data_type="VARCHAR">
+      <description>Special processing indicator</description>
+    </column>
+    <column name="FRKRL" data_type="VARCHAR">
+      <description>Shipment costs relevance</description>
+    </column>
+    <column name="SKALSM" data_type="VARCHAR">
+      <description>Pricing procedure in stage of shipment</description>
+    </column>
+    <column name="FBSTA" data_type="VARCHAR">
+      <description>Status of shipment costs calculation</description>
+    </column>
+    <column name="ARSTA" data_type="VARCHAR">
+      <description>Status of shipment costs settlement</description>
+    </column>
+    <column name="STAFO" data_type="VARCHAR">
+      <description>Update group for statistics update</description>
+    </column>
+    <column name="CONT_DG" data_type="VARCHAR">
+      <description>Indicator: Section contains dangerous goods</description>
+    </column>
+    <column name="WARZTD" data_type="DECIMAL">
+      <description>Planned waiting time in shipment stage (in hrs:min)</description>
+    </column>
+    <column name="WARZTDA" data_type="DECIMAL">
+      <description>Current waiting time in shipment stage (in hrs:min)</description>
+    </column>
+    <column name="ABLAND1" data_type="VARCHAR">
+      <description>Country of departure</description>
+    </column>
+    <column name="ABPSTLZ" data_type="VARCHAR">
+      <description>Departure postal code</description>
+    </column>
+    <column name="ABORT01" data_type="VARCHAR">
+      <description>Point of departure</description>
+    </column>
+    <column name="EDLAND1" data_type="VARCHAR">
+      <description>Destination Country</description>
+    </column>
+    <column name="EDPSTLZ" data_type="VARCHAR">
+      <description>Destination Postal Code</description>
+    </column>
+    <column name="EDORT01" data_type="VARCHAR">
+      <description>Destination</description>
+    </column>
+  </columns>
+</data_description>

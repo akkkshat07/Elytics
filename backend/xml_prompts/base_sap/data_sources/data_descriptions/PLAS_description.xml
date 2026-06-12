@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="PLAS">
+  <table_info name="PLAS" total_columns="16" />
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="PLNTY" data_type="VARCHAR">
+      <description>Task List Type</description>
+    </column>
+    <column name="PLNNR" data_type="VARCHAR">
+      <description>Key for Task List Group</description>
+    </column>
+    <column name="PLNAL" data_type="VARCHAR">
+      <description>Group Counter</description>
+    </column>
+    <column name="PLNFL" data_type="VARCHAR">
+      <description>Sequence</description>
+    </column>
+    <column name="PLNKN" data_type="VARCHAR">
+      <description>Number of the task list node</description>
+    </column>
+    <column name="ZAEHL" data_type="VARCHAR">
+      <description>Internal counter</description>
+    </column>
+    <column name="DATUV" data_type="DATE">
+      <description>Valid-From Date</description>
+    </column>
+    <column name="TECHV" data_type="VARCHAR">
+      <description>Technical status from</description>
+    </column>
+    <column name="AENNR" data_type="VARCHAR">
+      <description>Change Number</description>
+    </column>
+    <column name="LOEKZ" data_type="VARCHAR">
+      <description>Deletion Indicator</description>
+    </column>
+    <column name="PARKZ" data_type="VARCHAR">
+      <description>Indicator: inactive changes</description>
+    </column>
+    <column name="ANDAT" data_type="DATE">
+      <description>Date record created on</description>
+    </column>
+    <column name="ANNAM" data_type="VARCHAR">
+      <description>User who created record</description>
+    </column>
+    <column name="AEDAT" data_type="DATE">
+      <description>Last Changed On</description>
+    </column>
+    <column name="AENAM" data_type="VARCHAR">
+      <description>Name of Person Who Changed Object</description>
+    </column>
+  </columns>
+</data_description>

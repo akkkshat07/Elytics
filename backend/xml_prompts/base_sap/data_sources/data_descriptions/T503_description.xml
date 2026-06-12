@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="T503">
+  <table_info name="T503" total_columns="16" />
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="PERSG" data_type="VARCHAR">
+      <description>Employee Group</description>
+    </column>
+    <column name="PERSK" data_type="VARCHAR">
+      <description>Employee Subgroup</description>
+    </column>
+    <column name="ABART" data_type="VARCHAR">
+      <description>Employee subgroup grouping for personnel calculation rule</description>
+    </column>
+    <column name="ABTYP" data_type="VARCHAR">
+      <description>Employee subgroup grouping for primary wage tpyes</description>
+    </column>
+    <column name="ANTYP" data_type="VARCHAR">
+      <description>Employee category</description>
+    </column>
+    <column name="TRFKZ" data_type="VARCHAR">
+      <description>ES grouping for collective agreement provision</description>
+    </column>
+    <column name="ZEITY" data_type="VARCHAR">
+      <description>Employee Subgroup Grouping for Work Schedules</description>
+    </column>
+    <column name="AKSTA" data_type="VARCHAR">
+      <description>Activity status</description>
+    </column>
+    <column name="ANSTA" data_type="VARCHAR">
+      <description>Employment status</description>
+    </column>
+    <column name="AUSTA" data_type="VARCHAR">
+      <description>Training status</description>
+    </column>
+    <column name="KONTY" data_type="VARCHAR">
+      <description>Employee Subgroup Grouping for Time Quota Types</description>
+    </column>
+    <column name="BURKZ" data_type="VARCHAR">
+      <description>Employee subgroup grouping for appraisal</description>
+    </column>
+    <column name="MOLGA" data_type="VARCHAR">
+      <description>Reserved Field/Unused Field of Length 2</description>
+    </column>
+    <column name="TYPSZ" data_type="VARCHAR">
+      <description>Single-Character Flag</description>
+    </column>
+    <column name="INWID" data_type="VARCHAR">
+      <description>Participation in Incentive Wages</description>
+    </column>
+  </columns>
+</data_description>

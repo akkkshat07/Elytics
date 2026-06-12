@@ -1,0 +1,138 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="PA0007">
+  <table_info name="PA0007" total_columns="44"/>
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="PERNR" data_type="VARCHAR">
+      <description>Personnel Number</description>
+    </column>
+    <column name="SUBTY" data_type="VARCHAR">
+      <description>Subtype</description>
+    </column>
+    <column name="OBJPS" data_type="VARCHAR">
+      <description>Object Identification</description>
+    </column>
+    <column name="SPRPS" data_type="VARCHAR">
+      <description>Lock Indicator for HR Master Data Record</description>
+    </column>
+    <column name="ENDDA" data_type="DATE">
+      <description>End Date</description>
+    </column>
+    <column name="BEGDA" data_type="DATE">
+      <description>Start Date</description>
+    </column>
+    <column name="SEQNR" data_type="VARCHAR">
+      <description>Number of Infotype Record With Same Key</description>
+    </column>
+    <column name="AEDTM" data_type="DATE">
+      <description>Last Changed On</description>
+    </column>
+    <column name="UNAME" data_type="VARCHAR">
+      <description>Name of Person Who Changed Object</description>
+    </column>
+    <column name="HISTO" data_type="VARCHAR">
+      <description>Historical Record Flag</description>
+    </column>
+    <column name="ITXEX" data_type="VARCHAR">
+      <description>Text Exists for Infotype</description>
+    </column>
+    <column name="REFEX" data_type="VARCHAR">
+      <description>Reference Fields Exist (Primary/Secondary Costs)</description>
+    </column>
+    <column name="ORDEX" data_type="VARCHAR">
+      <description>Confirmation Fields Exist</description>
+    </column>
+    <column name="ITBLD" data_type="VARCHAR">
+      <description>Infotype Screen Control</description>
+    </column>
+    <column name="PREAS" data_type="VARCHAR">
+      <description>Reason for Changing Master Data</description>
+    </column>
+    <column name="FLAG1" data_type="VARCHAR">
+      <description>Reserved Field/Unused Field</description>
+    </column>
+    <column name="FLAG2" data_type="VARCHAR">
+      <description>Reserved Field/Unused Field</description>
+    </column>
+    <column name="FLAG3" data_type="VARCHAR">
+      <description>Reserved Field/Unused Field</description>
+    </column>
+    <column name="FLAG4" data_type="VARCHAR">
+      <description>Reserved Field/Unused Field</description>
+    </column>
+    <column name="RESE1" data_type="VARCHAR">
+      <description>Reserved Field/Unused Field of Length 2</description>
+    </column>
+    <column name="RESE2" data_type="VARCHAR">
+      <description>Reserved Field/Unused Field of Length 2</description>
+    </column>
+    <column name="GRPVL" data_type="VARCHAR">
+      <description>Grouping Value for Personnel Assignments</description>
+    </column>
+    <column name="SCHKZ" data_type="VARCHAR">
+      <description>Work Schedule Rule</description>
+    </column>
+    <column name="ZTERF" data_type="VARCHAR">
+      <description>Employee Time Management Status</description>
+    </column>
+    <column name="EMPCT" data_type="DECIMAL">
+      <description>Employment percentage</description>
+    </column>
+    <column name="MOSTD" data_type="DECIMAL">
+      <description>Monthly hours</description>
+    </column>
+    <column name="WOSTD" data_type="DECIMAL">
+      <description>Hours per week</description>
+    </column>
+    <column name="ARBST" data_type="DECIMAL">
+      <description>Daily Working Hours</description>
+    </column>
+    <column name="WKWDY" data_type="DECIMAL">
+      <description>Weekly Workdays</description>
+    </column>
+    <column name="JRSTD" data_type="DECIMAL">
+      <description>Annual working hours</description>
+    </column>
+    <column name="TEILK" data_type="VARCHAR">
+      <description>Indicator Part-Time Employee</description>
+    </column>
+    <column name="MINTA" data_type="DECIMAL">
+      <description>Minimum number of work hours per day</description>
+    </column>
+    <column name="MAXTA" data_type="DECIMAL">
+      <description>Maximum number of work hours per day</description>
+    </column>
+    <column name="MINWO" data_type="DECIMAL">
+      <description>Minimum weekly working hours</description>
+    </column>
+    <column name="MAXWO" data_type="DECIMAL">
+      <description>Maximum number of work hours per week</description>
+    </column>
+    <column name="MINMO" data_type="DECIMAL">
+      <description>Minimum number of work hours per month</description>
+    </column>
+    <column name="MAXMO" data_type="DECIMAL">
+      <description>Maximum number of work hours per month</description>
+    </column>
+    <column name="MINJA" data_type="DECIMAL">
+      <description>Minimum annual working hours</description>
+    </column>
+    <column name="MAXJA" data_type="DECIMAL">
+      <description>Maximum Number of Working Hours Per Year</description>
+    </column>
+    <column name="DYSCH" data_type="VARCHAR">
+      <description>Create Daily Work Schedule Dynamically</description>
+    </column>
+    <column name="KZTIM" data_type="VARCHAR">
+      <description>Additional indicator for time management</description>
+    </column>
+    <column name="WWEEK" data_type="VARCHAR">
+      <description>Working week</description>
+    </column>
+    <column name="AWTYP" data_type="VARCHAR">
+      <description>Reference procedure</description>
+    </column>
+  </columns>
+</data_description>

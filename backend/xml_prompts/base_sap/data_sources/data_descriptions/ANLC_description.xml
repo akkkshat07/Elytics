@@ -1,0 +1,237 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="ANLC">
+  <table_info name="ANLC" total_columns="77" />
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="BUKRS" data_type="VARCHAR">
+      <description>Company Code</description>
+    </column>
+    <column name="ANLN1" data_type="VARCHAR">
+      <description>Main Asset Number</description>
+    </column>
+    <column name="ANLN2" data_type="VARCHAR">
+      <description>Asset Subnumber</description>
+    </column>
+    <column name="GJAHR" data_type="VARCHAR">
+      <description>Fiscal Year</description>
+    </column>
+    <column name="AFABE" data_type="VARCHAR">
+      <description>Real depreciation area</description>
+    </column>
+    <column name="ZUJHR" data_type="VARCHAR">
+      <description>Asset acquisition year (currently not used)</description>
+    </column>
+    <column name="ZUCOD" data_type="VARCHAR">
+      <description>Sub-classification of asset acquisitions(currently not used)</description>
+    </column>
+    <column name="AFBLPE" data_type="VARCHAR">
+      <description>Period in which last depreciation was posted</description>
+    </column>
+    <column name="AFBANZ" data_type="VARCHAR">
+      <description>Number of depreciation posting runs in the period</description>
+    </column>
+    <column name="XAFAR" data_type="VARCHAR">
+      <description>Indicator: Errors in depreciation</description>
+    </column>
+    <column name="NDABJ" data_type="VARCHAR">
+      <description>Expired useful life in years at start of the fiscal year</description>
+    </column>
+    <column name="NDABP" data_type="VARCHAR">
+      <description>Expired useful life in periods at start of fiscal year</description>
+    </column>
+    <column name="ANDSJ" data_type="VARCHAR">
+      <description>Yrs Expired up to Fisc.Yr Start from Start of Spec.Dep.</description>
+    </column>
+    <column name="ANDSP" data_type="VARCHAR">
+      <description>Expired useful life in periods during FY from SDep start dat</description>
+    </column>
+    <column name="RSTCK" data_type="DECIMAL">
+      <description>Number of units depreciated in unit-of-prod. depreciation</description>
+    </column>
+    <column name="KANSW" data_type="DECIMAL">
+      <description>Cumulative acquisition and production costs</description>
+    </column>
+    <column name="KAUFW" data_type="DECIMAL">
+      <description>Cumulative revaluation on the replacement value</description>
+    </column>
+    <column name="KINVZ" data_type="DECIMAL">
+      <description>Cumulative investment grants</description>
+    </column>
+    <column name="KNAFA" data_type="DECIMAL">
+      <description>Accumulated ordinary depreciation</description>
+    </column>
+    <column name="KSAFA" data_type="DECIMAL">
+      <description>Cumulative special depreciation</description>
+    </column>
+    <column name="KAAFA" data_type="DECIMAL">
+      <description>Cumulative unplanned depreciation</description>
+    </column>
+    <column name="KMAFA" data_type="DECIMAL">
+      <description>Cumulative reserves transfer</description>
+    </column>
+    <column name="KZINW" data_type="DECIMAL">
+      <description>Cumulative interest</description>
+    </column>
+    <column name="KAUFN" data_type="DECIMAL">
+      <description>Cumulative revaluation of ordinary depreciation</description>
+    </column>
+    <column name="KANZA" data_type="DECIMAL">
+      <description>Cumulative down payments</description>
+    </column>
+    <column name="KVOST" data_type="DECIMAL">
+      <description>Cumulative input tax</description>
+    </column>
+    <column name="AUFWP" data_type="DECIMAL">
+      <description>Planned revaluation on replacement value</description>
+    </column>
+    <column name="NAFAP" data_type="DECIMAL">
+      <description>Planned ordinary depreciation for the year</description>
+    </column>
+    <column name="SAFAP" data_type="DECIMAL">
+      <description>Planned special depreciation for the year</description>
+    </column>
+    <column name="AAFAP" data_type="DECIMAL">
+      <description>Scheduled unplanned depreciation for the year</description>
+    </column>
+    <column name="MAFAP" data_type="DECIMAL">
+      <description>Planned transfer of reserves for the year</description>
+    </column>
+    <column name="ZINSP" data_type="DECIMAL">
+      <description>Interest planned for the year</description>
+    </column>
+    <column name="AUFNP" data_type="DECIMAL">
+      <description>Planned revaluation of accumulated ordinary depreciation</description>
+    </column>
+    <column name="AUFWB" data_type="DECIMAL">
+      <description>Revaluation posted on replacement value</description>
+    </column>
+    <column name="NAFAG" data_type="DECIMAL">
+      <description>Ordinary depreciation posted in the current year</description>
+    </column>
+    <column name="SAFAG" data_type="DECIMAL">
+      <description>Special depreciation posted in the current fiscal year</description>
+    </column>
+    <column name="AAFAG" data_type="DECIMAL">
+      <description>Unplanned depreciation posted for the year</description>
+    </column>
+    <column name="MAFAG" data_type="DECIMAL">
+      <description>Acquisition value reducing depreciation posted for the year</description>
+    </column>
+    <column name="ZINSG" data_type="DECIMAL">
+      <description>Interest posted for the year</description>
+    </column>
+    <column name="AUFNG" data_type="DECIMAL">
+      <description>Posted revaluation of accumulated ordinary depreciation</description>
+    </column>
+    <column name="ANSWL" data_type="DECIMAL">
+      <description>Transactions for the year affecting asset values</description>
+    </column>
+    <column name="ABGAN" data_type="DECIMAL">
+      <description>Total retirements and retiring transfers</description>
+    </column>
+    <column name="ANSAZ" data_type="DECIMAL">
+      <description>Down payments on asset</description>
+    </column>
+    <column name="AUFWM" data_type="DECIMAL">
+      <description>Manual revaluation on replacement value</description>
+    </column>
+    <column name="INVZM" data_type="DECIMAL">
+      <description>Investment grant for the year</description>
+    </column>
+    <column name="NAFAM" data_type="DECIMAL">
+      <description>Manually planned ordinary depreciation for the year</description>
+    </column>
+    <column name="SAFAM" data_type="DECIMAL">
+      <description>Manual special depreciation planned for the year</description>
+    </column>
+    <column name="AAFAM" data_type="DECIMAL">
+      <description>Manual unplanned depreciation for the year</description>
+    </column>
+    <column name="MAFAM" data_type="DECIMAL">
+      <description>Manual transfer of reserves for the year</description>
+    </column>
+    <column name="ZINSM" data_type="DECIMAL">
+      <description>Manual interest planned for the year</description>
+    </column>
+    <column name="AUFNM" data_type="DECIMAL">
+      <description>Manual revaluation of cumulative ordinary depreciation</description>
+    </column>
+    <column name="ZUSNA" data_type="DECIMAL">
+      <description>Write-up on ordinary depreciation</description>
+    </column>
+    <column name="ZUSSA" data_type="DECIMAL">
+      <description>Write-up on special depreciation</description>
+    </column>
+    <column name="ZUSAA" data_type="DECIMAL">
+      <description>Write-up on unplanned depreciation</description>
+    </column>
+    <column name="ZUSMA" data_type="DECIMAL">
+      <description>Write-up on transferred reserves</description>
+    </column>
+    <column name="AUFWV" data_type="DECIMAL">
+      <description>Proportional cumulative revaluation on replacement value</description>
+    </column>
+    <column name="INVZV" data_type="DECIMAL">
+      <description>Proportional cumulative investment grants</description>
+    </column>
+    <column name="NAFAV" data_type="DECIMAL">
+      <description>Proportional accumulated ordinary depreciation</description>
+    </column>
+    <column name="SAFAV" data_type="DECIMAL">
+      <description>Proportional cumulative special depreciation</description>
+    </column>
+    <column name="AAFAV" data_type="DECIMAL">
+      <description>Proportional cumulative unplanned depreciation</description>
+    </column>
+    <column name="MAFAV" data_type="DECIMAL">
+      <description>Proportional cumulative transfer of reserves</description>
+    </column>
+    <column name="AUFNV" data_type="DECIMAL">
+      <description>Proportional cum. revaluation on ordinary depreciation</description>
+    </column>
+    <column name="AUFWL" data_type="DECIMAL">
+      <description>Proportional revaluation for the year on replacement value</description>
+    </column>
+    <column name="INVZL" data_type="DECIMAL">
+      <description>Proportional investment grant for the year</description>
+    </column>
+    <column name="NAFAL" data_type="DECIMAL">
+      <description>Proportional ordinary depreciation for the year</description>
+    </column>
+    <column name="SAFAL" data_type="DECIMAL">
+      <description>Proportional special depreciation for the year</description>
+    </column>
+    <column name="AAFAL" data_type="DECIMAL">
+      <description>Proportional unplanned depreciation for the year</description>
+    </column>
+    <column name="MAFAL" data_type="DECIMAL">
+      <description>Proportional transfer of reserves for the year</description>
+    </column>
+    <column name="AUFNL" data_type="DECIMAL">
+      <description>Proportional revaluation of annual ordinary dep.</description>
+    </column>
+    <column name="ANUPD" data_type="VARCHAR">
+      <description>Indicator: Type of change to table</description>
+    </column>
+    <column name="KSANS" data_type="DECIMAL">
+      <description>Cumulative statistical acquisition value</description>
+    </column>
+    <column name="SANSL" data_type="DECIMAL">
+      <description>Statistical aquisition value of current year</description>
+    </column>
+    <column name="PSTBEG" data_type="VARCHAR">
+      <description>FI-AA: Posting depreciation as of period xy</description>
+    </column>
+    <column name="PSTEND" data_type="VARCHAR">
+      <description>FI-AA: Posting depreciation up to period xy</description>
+    </column>
+    <column name="PSTCALC" data_type="VARCHAR">
+      <description>FI-AA: New calculation of depreciation during posting</description>
+    </column>
+    <column name="PSTPER" data_type="VARCHAR">
+      <description>FI-AA: Depreciation calculation from period X</description>
+    </column>
+  </columns>
+</data_description>

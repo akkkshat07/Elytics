@@ -1,0 +1,177 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="QMFE">
+  <table_info name="QMFE" total_columns="57"/>
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="QMNUM" data_type="VARCHAR">
+      <description>Notification No</description>
+    </column>
+    <column name="FENUM" data_type="VARCHAR">
+      <description>Item Number in Item Record</description>
+    </column>
+    <column name="ERNAM" data_type="VARCHAR">
+      <description>Name of Person Responsible for Creating the Object</description>
+    </column>
+    <column name="ERDAT" data_type="DATE">
+      <description>Date on Which Record Was Created</description>
+    </column>
+    <column name="AENAM" data_type="VARCHAR">
+      <description>Name of Person Who Changed Object</description>
+    </column>
+    <column name="AEDAT" data_type="DATE">
+      <description>Last Changed On</description>
+    </column>
+    <column name="FETXT" data_type="VARCHAR">
+      <description>Notification Item Short Text</description>
+    </column>
+    <column name="FEKAT" data_type="VARCHAR">
+      <description>Catalog Type - Problems/Defects</description>
+    </column>
+    <column name="FEGRP" data_type="VARCHAR">
+      <description>Code Group - Problem</description>
+    </column>
+    <column name="FECOD" data_type="VARCHAR">
+      <description>Problem or Damage Code</description>
+    </column>
+    <column name="FEVER" data_type="VARCHAR">
+      <description>Version Number</description>
+    </column>
+    <column name="OTKAT" data_type="VARCHAR">
+      <description>Catalog Type - Object Parts</description>
+    </column>
+    <column name="OTGRP" data_type="VARCHAR">
+      <description>Code Group - Object Parts</description>
+    </column>
+    <column name="OTEIL" data_type="VARCHAR">
+      <description>Part of Object</description>
+    </column>
+    <column name="OTVER" data_type="VARCHAR">
+      <description>Version Number</description>
+    </column>
+    <column name="BAUTL" data_type="VARCHAR">
+      <description>Assembly</description>
+    </column>
+    <column name="EBORT" data_type="VARCHAR">
+      <description>Installation Point for Subitem</description>
+    </column>
+    <column name="INDTX" data_type="VARCHAR">
+      <description>Object Long Text Available</description>
+    </column>
+    <column name="KZMLA" data_type="VARCHAR">
+      <description>Primary language indicator for text segment</description>
+    </column>
+    <column name="ERZEIT" data_type="TIME">
+      <description>Time, at Which Record Was Added</description>
+    </column>
+    <column name="AEZEIT" data_type="TIME">
+      <description>Time of Change</description>
+    </column>
+    <column name="KZORG" data_type="VARCHAR">
+      <description>Originating Defect</description>
+    </column>
+    <column name="WDFEH" data_type="VARCHAR">
+      <description>Repetitive Defect</description>
+    </column>
+    <column name="FEQKLAS" data_type="VARCHAR">
+      <description>Defect Class</description>
+    </column>
+    <column name="FCOAUFNR" data_type="VARCHAR">
+      <description>Order Number (CO Order) for Item</description>
+    </column>
+    <column name="FMGFRD" data_type="DECIMAL">
+      <description>Defective Quantity for Item (External)</description>
+    </column>
+    <column name="FMGEIG" data_type="DECIMAL">
+      <description>Defective Quantity for Item (Internal)</description>
+    </column>
+    <column name="FMGEIN" data_type="VARCHAR">
+      <description>Unit of Measure for Item</description>
+    </column>
+    <column name="ANZFEHLER" data_type="INTEGER">
+      <description>Number of Defects Found</description>
+    </column>
+    <column name="FEHLBEW" data_type="FLOAT">
+      <description>Defect Valuation</description>
+    </column>
+    <column name="UNITFLBEW" data_type="VARCHAR">
+      <description>Unit for Defect Valuation</description>
+    </column>
+    <column name="FEART" data_type="VARCHAR">
+      <description>Report Type for Defects Recording</description>
+    </column>
+    <column name="PNLKN" data_type="VARCHAR">
+      <description>Current Node Number from Order Counter APLZL</description>
+    </column>
+    <column name="MERKNR" data_type="VARCHAR">
+      <description>Inspection Characteristic Number</description>
+    </column>
+    <column name="PROBENR" data_type="VARCHAR">
+      <description>Sample Number</description>
+    </column>
+    <column name="PHYNR" data_type="VARCHAR">
+      <description>Physical Sample Number</description>
+    </column>
+    <column name="PRUEFLINR" data_type="VARCHAR">
+      <description>Single-Unit Number for the Unit to Be Inspected</description>
+    </column>
+    <column name="CROBJTY" data_type="VARCHAR">
+      <description>Object types of the CIM resource</description>
+    </column>
+    <column name="ARBPL" data_type="VARCHAR">
+      <description>Object ID of the Work Center</description>
+    </column>
+    <column name="ARBPLWERK" data_type="VARCHAR">
+      <description>Plant for Work Center</description>
+    </column>
+    <column name="FENUMORG" data_type="VARCHAR">
+      <description>Number of Original Item to Which Reference Is Made</description>
+    </column>
+    <column name="KZSYSFE" data_type="VARCHAR">
+      <description>Systematic Defect</description>
+    </column>
+    <column name="KZLOESCH" data_type="VARCHAR">
+      <description>Delete Data Record</description>
+    </column>
+    <column name="POSNR" data_type="VARCHAR">
+      <description>Sort Number for Item</description>
+    </column>
+    <column name="HERPOS" data_type="VARCHAR">
+      <description>Origin of Item Record</description>
+    </column>
+    <column name="AUTKZ" data_type="VARCHAR">
+      <description>Data Record Created with Function 'Create with Copy Model'</description>
+    </column>
+    <column name="MATNR" data_type="VARCHAR">
+      <description>Material Number</description>
+    </column>
+    <column name="WERKS" data_type="VARCHAR">
+      <description>Plant</description>
+    </column>
+    <column name="EKORG" data_type="VARCHAR">
+      <description>Purchasing Organization</description>
+    </column>
+    <column name="INFNR" data_type="VARCHAR">
+      <description>Number of purchasing info record</description>
+    </column>
+    <column name="KOSTL" data_type="VARCHAR">
+      <description>Cost Center</description>
+    </column>
+    <column name="LSTAR" data_type="VARCHAR">
+      <description>Activity Type</description>
+    </column>
+    <column name="PRZNR" data_type="VARCHAR">
+      <description>Business Process</description>
+    </column>
+    <column name="MENGE" data_type="DECIMAL">
+      <description>Defective Quantity for Item (Internal)</description>
+    </column>
+    <column name="EQUNR" data_type="VARCHAR">
+      <description>Equipment Number</description>
+    </column>
+    <column name="TPLNR" data_type="VARCHAR">
+      <description>Functional Location</description>
+    </column>
+  </columns>
+</data_description>

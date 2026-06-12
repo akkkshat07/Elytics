@@ -1,0 +1,231 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="CSKS">
+  <table_info name="CSKS" total_columns="75"/>
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="KOKRS" data_type="VARCHAR">
+      <description>Controlling Area</description>
+    </column>
+    <column name="KOSTL" data_type="VARCHAR">
+      <description>Cost Center</description>
+    </column>
+    <column name="DATBI" data_type="DATE">
+      <description>Valid To Date</description>
+    </column>
+    <column name="DATAB" data_type="DATE">
+      <description>Valid-From Date</description>
+    </column>
+    <column name="BKZKP" data_type="VARCHAR">
+      <description>Lock Indicator for Actual Primary Postings</description>
+    </column>
+    <column name="PKZKP" data_type="VARCHAR">
+      <description>Lock Indicator for Plan Primary Costs</description>
+    </column>
+    <column name="BUKRS" data_type="VARCHAR">
+      <description>Company Code</description>
+    </column>
+    <column name="GSBER" data_type="VARCHAR">
+      <description>Business Area</description>
+    </column>
+    <column name="KOSAR" data_type="VARCHAR">
+      <description>Cost Center Category</description>
+    </column>
+    <column name="VERAK" data_type="VARCHAR">
+      <description>Person Responsible</description>
+    </column>
+    <column name="VERAK_USER" data_type="VARCHAR">
+      <description>User Responsible</description>
+    </column>
+    <column name="WAERS" data_type="VARCHAR">
+      <description>Currency Key</description>
+    </column>
+    <column name="KALSM" data_type="VARCHAR">
+      <description>Costing Sheet</description>
+    </column>
+    <column name="TXJCD" data_type="VARCHAR">
+      <description>Tax Jurisdiction</description>
+    </column>
+    <column name="PRCTR" data_type="VARCHAR">
+      <description>Profit Center</description>
+    </column>
+    <column name="WERKS" data_type="VARCHAR">
+      <description>Plant</description>
+    </column>
+    <column name="LOGSYSTEM" data_type="VARCHAR">
+      <description>Logical System</description>
+    </column>
+    <column name="ERSDA" data_type="DATE">
+      <description>Created on</description>
+    </column>
+    <column name="USNAM" data_type="VARCHAR">
+      <description>Entered By</description>
+    </column>
+    <column name="BKZKS" data_type="VARCHAR">
+      <description>Lock Indicator for Actual Secondary Costs</description>
+    </column>
+    <column name="BKZER" data_type="VARCHAR">
+      <description>Lock Indicator for Actual Revenue Postings</description>
+    </column>
+    <column name="BKZOB" data_type="VARCHAR">
+      <description>Lock Indicator for Commitment Update</description>
+    </column>
+    <column name="PKZKS" data_type="VARCHAR">
+      <description>Lock Indicator for Plan Secondary Costs</description>
+    </column>
+    <column name="PKZER" data_type="VARCHAR">
+      <description>Lock Indicator for Planning Revenues</description>
+    </column>
+    <column name="VMETH" data_type="VARCHAR">
+      <description>Indicator for Allowed Allocation Methods</description>
+    </column>
+    <column name="MGEFL" data_type="VARCHAR">
+      <description>Indicator for Recording Consumption Quantities</description>
+    </column>
+    <column name="ABTEI" data_type="VARCHAR">
+      <description>Department</description>
+    </column>
+    <column name="NKOST" data_type="VARCHAR">
+      <description>Subsequent cost center</description>
+    </column>
+    <column name="KVEWE" data_type="VARCHAR">
+      <description>Usage of the condition table</description>
+    </column>
+    <column name="KAPPL" data_type="VARCHAR">
+      <description>Application</description>
+    </column>
+    <column name="KOSZSCHL" data_type="VARCHAR">
+      <description>CO-CCA Overhead Key</description>
+    </column>
+    <column name="LAND1" data_type="VARCHAR">
+      <description>Country Key</description>
+    </column>
+    <column name="ANRED" data_type="VARCHAR">
+      <description>Title</description>
+    </column>
+    <column name="NAME1" data_type="VARCHAR">
+      <description>Name 1</description>
+    </column>
+    <column name="NAME2" data_type="VARCHAR">
+      <description>Name 2</description>
+    </column>
+    <column name="NAME3" data_type="VARCHAR">
+      <description>Name 3</description>
+    </column>
+    <column name="NAME4" data_type="VARCHAR">
+      <description>Name 4</description>
+    </column>
+    <column name="ORT01" data_type="VARCHAR">
+      <description>City</description>
+    </column>
+    <column name="ORT02" data_type="VARCHAR">
+      <description>District</description>
+    </column>
+    <column name="STRAS" data_type="VARCHAR">
+      <description>Street and House Number</description>
+    </column>
+    <column name="PFACH" data_type="VARCHAR">
+      <description>PO Box</description>
+    </column>
+    <column name="PSTLZ" data_type="VARCHAR">
+      <description>Postal Code</description>
+    </column>
+    <column name="PSTL2" data_type="VARCHAR">
+      <description>P.O. Box Postal Code</description>
+    </column>
+    <column name="REGIO" data_type="VARCHAR">
+      <description>Region (State, Province, County)</description>
+    </column>
+    <column name="SPRAS" data_type="VARCHAR">
+      <description>Language Key</description>
+    </column>
+    <column name="TELBX" data_type="VARCHAR">
+      <description>Telebox Number</description>
+    </column>
+    <column name="TELF1" data_type="VARCHAR">
+      <description>First telephone number</description>
+    </column>
+    <column name="TELF2" data_type="VARCHAR">
+      <description>Second telephone number</description>
+    </column>
+    <column name="TELFX" data_type="VARCHAR">
+      <description>Fax Number</description>
+    </column>
+    <column name="TELTX" data_type="VARCHAR">
+      <description>Teletex Number</description>
+    </column>
+    <column name="TELX1" data_type="VARCHAR">
+      <description>Telex Number</description>
+    </column>
+    <column name="DATLT" data_type="VARCHAR">
+      <description>Data communication line no.</description>
+    </column>
+    <column name="DRNAM" data_type="VARCHAR">
+      <description>Printer destination for CCtr report</description>
+    </column>
+    <column name="KHINR" data_type="VARCHAR">
+      <description>Standard Hierarchy Area</description>
+    </column>
+    <column name="CCKEY" data_type="VARCHAR">
+      <description>Cost collector key</description>
+    </column>
+    <column name="KOMPL" data_type="VARCHAR">
+      <description>Completion flag for the cost center master record</description>
+    </column>
+    <column name="STAKZ" data_type="VARCHAR">
+      <description>Indicator. object is statistical</description>
+    </column>
+    <column name="OBJNR" data_type="VARCHAR">
+      <description>Object number</description>
+    </column>
+    <column name="FUNKT" data_type="VARCHAR">
+      <description>Function of cost center</description>
+    </column>
+    <column name="AFUNK" data_type="VARCHAR">
+      <description>Alternative function of cost center</description>
+    </column>
+    <column name="CPI_TEMPL" data_type="VARCHAR">
+      <description>Template for Activity-Independent Formula Planning</description>
+    </column>
+    <column name="CPD_TEMPL" data_type="VARCHAR">
+      <description>Template for Activity-Dependent Formula Planning</description>
+    </column>
+    <column name="FUNC_AREA" data_type="VARCHAR">
+      <description>Functional Area</description>
+    </column>
+    <column name="SCI_TEMPL" data_type="VARCHAR">
+      <description>Template: Activity-Independent Allocation to Cost Center</description>
+    </column>
+    <column name="SCD_TEMPL" data_type="VARCHAR">
+      <description>Template: Activity-Dependent Allocation to Cost Center</description>
+    </column>
+    <column name="SKI_TEMPL" data_type="VARCHAR">
+      <description>Template: Actual Statistical Key Figure on Cost Center</description>
+    </column>
+    <column name="SKD_TEMPL" data_type="VARCHAR">
+      <description>Template: Act. Stat. Key Figure - Cost Center/Activity Type</description>
+    </column>
+    <column name="VNAME" data_type="VARCHAR">
+      <description>Joint Venture</description>
+    </column>
+    <column name="RECID" data_type="VARCHAR">
+      <description>Recovery Indicator</description>
+    </column>
+    <column name="ETYPE" data_type="VARCHAR">
+      <description>Equity type</description>
+    </column>
+    <column name="JV_OTYPE" data_type="VARCHAR">
+      <description>Joint Venture Object Type</description>
+    </column>
+    <column name="JV_JIBCL" data_type="VARCHAR">
+      <description>JIB/JIBE Class</description>
+    </column>
+    <column name="JV_JIBSA" data_type="VARCHAR">
+      <description>JIB/JIBE Subclass A</description>
+    </column>
+    <column name="FERC_IND" data_type="VARCHAR">
+      <description>Regulatory indicator</description>
+    </column>
+  </columns>
+</data_description>

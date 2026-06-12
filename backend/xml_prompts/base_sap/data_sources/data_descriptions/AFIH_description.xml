@@ -1,0 +1,156 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="AFIH">
+  <table_info name="AFIH" total_columns="50"/>
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="AUFNR" data_type="VARCHAR">
+      <description>Order Number</description>
+    </column>
+    <column name="ARTPR" data_type="VARCHAR">
+      <description>Priority Type</description>
+    </column>
+    <column name="PRIOK" data_type="VARCHAR">
+      <description>Priority</description>
+    </column>
+    <column name="EQUNR" data_type="VARCHAR">
+      <description>Equipment Number</description>
+    </column>
+    <column name="BAUTL" data_type="VARCHAR">
+      <description>Assembly</description>
+    </column>
+    <column name="ILOAN" data_type="VARCHAR">
+      <description>Location and account assignment for technical object</description>
+    </column>
+    <column name="ILOAI" data_type="VARCHAR">
+      <description>ILOA Individual</description>
+    </column>
+    <column name="ANLZU" data_type="VARCHAR">
+      <description>Syst.Condition</description>
+    </column>
+    <column name="IWERK" data_type="VARCHAR">
+      <description>Maintenance Planning Plant</description>
+    </column>
+    <column name="INGPR" data_type="VARCHAR">
+      <description>Planner Group for Customer Service and Plant Maintenance</description>
+    </column>
+    <column name="APGRP" data_type="VARCHAR">
+      <description>Responsible planner group/department</description>
+    </column>
+    <column name="PM_OBJTY" data_type="VARCHAR">
+      <description>Object Type of CIM Resources for Work Center</description>
+    </column>
+    <column name="GEWRK" data_type="VARCHAR">
+      <description>Object ID of the Work Center</description>
+    </column>
+    <column name="KUNUM" data_type="VARCHAR">
+      <description>Customer Number</description>
+    </column>
+    <column name="ANING" data_type="VARCHAR">
+      <description>Name of Person Reponsible for System</description>
+    </column>
+    <column name="GAUZT" data_type="FLOAT">
+      <description>Planned downtime in hours</description>
+    </column>
+    <column name="GAUEH" data_type="VARCHAR">
+      <description>Unit for Breakdown Duration</description>
+    </column>
+    <column name="ANLBD" data_type="DATE">
+      <description>Date until which the system is available</description>
+    </column>
+    <column name="ANLVD" data_type="DATE">
+      <description>Date from which the system is available</description>
+    </column>
+    <column name="ANLBZ" data_type="TIME">
+      <description>Time until which the system is available</description>
+    </column>
+    <column name="ANLVZ" data_type="TIME">
+      <description>Time from Which System is Available</description>
+    </column>
+    <column name="INSPK" data_type="VARCHAR">
+      <description>Name of Person Responsible for Technical Inspection</description>
+    </column>
+    <column name="DATAN" data_type="DATE">
+      <description>Date of Technical Inspection</description>
+    </column>
+    <column name="WARPL" data_type="VARCHAR">
+      <description>Maintenance Plan</description>
+    </column>
+    <column name="ABNUM" data_type="INTEGER">
+      <description>Maintenance Plan Call Number</description>
+    </column>
+    <column name="WAPOS" data_type="VARCHAR">
+      <description>Maintenance Item</description>
+    </column>
+    <column name="LAUFN" data_type="VARCHAR">
+      <description>Order number</description>
+    </column>
+    <column name="OBKNR" data_type="INTEGER">
+      <description>Object list number</description>
+    </column>
+    <column name="REVNR" data_type="VARCHAR">
+      <description>Revision for Plant Maintenance and Customer Service</description>
+    </column>
+    <column name="ADDAT" data_type="DATE">
+      <description>PM Order: Reference Date</description>
+    </column>
+    <column name="ADUHR" data_type="TIME">
+      <description>Time of Reference Date</description>
+    </column>
+    <column name="IPHAS" data_type="VARCHAR">
+      <description>Maintenance Processing Phase</description>
+    </column>
+    <column name="ILART" data_type="VARCHAR">
+      <description>Maintenance activity type</description>
+    </column>
+    <column name="QMNUM" data_type="VARCHAR">
+      <description>Notification No</description>
+    </column>
+    <column name="HISDA" data_type="DATE">
+      <description>PM request: History date</description>
+    </column>
+    <column name="AKKNZ" data_type="VARCHAR">
+      <description>Order Category Indicator Plant Maintenance</description>
+    </column>
+    <column name="PLKNZ" data_type="VARCHAR">
+      <description>Maintenance order planning indicator</description>
+    </column>
+    <column name="SERIALNR" data_type="VARCHAR">
+      <description>Serial Number</description>
+    </column>
+    <column name="SERMAT" data_type="VARCHAR">
+      <description>Material Number</description>
+    </column>
+    <column name="DEVICEID" data_type="VARCHAR">
+      <description>Additional Device Data</description>
+    </column>
+    <column name="SCREENTY" data_type="VARCHAR">
+      <description>Scenario or Subscreen Category</description>
+    </column>
+    <column name="ADPSP" data_type="VARCHAR">
+      <description>Reference Element PM/PS</description>
+    </column>
+    <column name="RSUPG" data_type="VARCHAR">
+      <description>Upgrade Order Indicator</description>
+    </column>
+    <column name="/ISDFPS/OBJNR" data_type="VARCHAR">
+      <description>Object number</description>
+    </column>
+    <column name="/ISDFPS/MEQUI" data_type="VARCHAR">
+      <description>Master Equipment</description>
+    </column>
+    <column name="/ISDFPS/MHIO_ADDATE" data_type="DATE">
+      <description>Completion Date for Call Object</description>
+    </column>
+    <column name="/ISDFPS/MHIO_ADTIME" data_type="TIME">
+      <description>Completion Time for Call Object</description>
+    </column>
+    <column name="/ISDFPS/USERMODE" data_type="VARCHAR">
+      <description>Scheduling determined by user</description>
+    </column>
+    <column name="UII" data_type="VARCHAR">
+      <description>Unique Item Identifier</description>
+    </column>
+  </columns>
+</data_description>

@@ -1,0 +1,792 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="MARC">
+  <table_info name="MARC" total_columns="262"/>
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="MATNR" data_type="VARCHAR">
+      <description>Material Number</description>
+    </column>
+    <column name="WERKS" data_type="VARCHAR">
+      <description>Plant</description>
+    </column>
+    <column name="PSTAT" data_type="VARCHAR">
+      <description>Maintenance status</description>
+    </column>
+    <column name="LVORM" data_type="VARCHAR">
+      <description>Flag Material for Deletion at Plant Level</description>
+    </column>
+    <column name="BWTTY" data_type="VARCHAR">
+      <description>Valuation Category</description>
+    </column>
+    <column name="XCHAR" data_type="VARCHAR">
+      <description>Batch management indicator (internal)</description>
+    </column>
+    <column name="MMSTA" data_type="VARCHAR">
+      <description>Plant-Specific Material Status</description>
+    </column>
+    <column name="MMSTD" data_type="DATE">
+      <description>Date from which the plant-specific material status is valid</description>
+    </column>
+    <column name="MAABC" data_type="VARCHAR">
+      <description>ABC Indicator</description>
+    </column>
+    <column name="KZKRI" data_type="VARCHAR">
+      <description>Indicator: Critical part</description>
+    </column>
+    <column name="EKGRP" data_type="VARCHAR">
+      <description>Purchasing Group</description>
+    </column>
+    <column name="AUSME" data_type="VARCHAR">
+      <description>Ouput Unit of Measure</description>
+    </column>
+    <column name="DISPR" data_type="VARCHAR">
+      <description>Material: MRP profile</description>
+    </column>
+    <column name="DISMM" data_type="VARCHAR">
+      <description>MRP Type</description>
+    </column>
+    <column name="DISPO" data_type="VARCHAR">
+      <description>MRP Controller</description>
+    </column>
+    <column name="KZDIE" data_type="VARCHAR">
+      <description>Indicator: MRP controller is buyer (deactivated)</description>
+    </column>
+    <column name="PLIFZ" data_type="DECIMAL">
+      <description>Planned Delivery Time in Days</description>
+    </column>
+    <column name="WEBAZ" data_type="DECIMAL">
+      <description>Goods receipt processing time in days</description>
+    </column>
+    <column name="PERKZ" data_type="VARCHAR">
+      <description>Period Indicator</description>
+    </column>
+    <column name="AUSSS" data_type="DECIMAL">
+      <description>Assembly scrap in percent</description>
+    </column>
+    <column name="DISLS" data_type="VARCHAR">
+      <description>Lot size (materials planning)</description>
+    </column>
+    <column name="BESKZ" data_type="VARCHAR">
+      <description>Procurement Type</description>
+    </column>
+    <column name="SOBSL" data_type="VARCHAR">
+      <description>Special procurement type</description>
+    </column>
+    <column name="MINBE" data_type="DECIMAL">
+      <description>Reorder Point</description>
+    </column>
+    <column name="EISBE" data_type="DECIMAL">
+      <description>Safety Stock</description>
+    </column>
+    <column name="BSTMI" data_type="DECIMAL">
+      <description>Minimum Lot Size</description>
+    </column>
+    <column name="BSTMA" data_type="DECIMAL">
+      <description>Maximum Lot Size</description>
+    </column>
+    <column name="BSTFE" data_type="DECIMAL">
+      <description>Fixed lot size</description>
+    </column>
+    <column name="BSTRF" data_type="DECIMAL">
+      <description>Rounding value for purchase order quantity</description>
+    </column>
+    <column name="MABST" data_type="DECIMAL">
+      <description>Maximum stock level</description>
+    </column>
+    <column name="LOSFX" data_type="DECIMAL">
+      <description>Ordering costs</description>
+    </column>
+    <column name="SBDKZ" data_type="VARCHAR">
+      <description>Dependent requirements ind. for individual and coll. reqmts</description>
+    </column>
+    <column name="LAGPR" data_type="VARCHAR">
+      <description>Storage costs indicator</description>
+    </column>
+    <column name="ALTSL" data_type="VARCHAR">
+      <description>Method for Selecting Alternative Bills of Material</description>
+    </column>
+    <column name="KZAUS" data_type="VARCHAR">
+      <description>Discontinuation indicator</description>
+    </column>
+    <column name="AUSDT" data_type="DATE">
+      <description>Effective-Out Date</description>
+    </column>
+    <column name="NFMAT" data_type="VARCHAR">
+      <description>Follow-Up Material</description>
+    </column>
+    <column name="KZBED" data_type="VARCHAR">
+      <description>Indicator for Requirements Grouping</description>
+    </column>
+    <column name="MISKZ" data_type="VARCHAR">
+      <description>Mixed MRP indicator</description>
+    </column>
+    <column name="FHORI" data_type="VARCHAR">
+      <description>Scheduling Margin Key for Floats</description>
+    </column>
+    <column name="PFREI" data_type="VARCHAR">
+      <description>Indicator: automatic fixing of planned orders</description>
+    </column>
+    <column name="FFREI" data_type="VARCHAR">
+      <description>Release indicator for production orders</description>
+    </column>
+    <column name="RGEKZ" data_type="VARCHAR">
+      <description>Indicator: Backflush</description>
+    </column>
+    <column name="FEVOR" data_type="VARCHAR">
+      <description>Production Supervisor</description>
+    </column>
+    <column name="BEARZ" data_type="DECIMAL">
+      <description>Processing time</description>
+    </column>
+    <column name="RUEZT" data_type="DECIMAL">
+      <description>Setup and teardown time</description>
+    </column>
+    <column name="TRANZ" data_type="DECIMAL">
+      <description>Interoperation time</description>
+    </column>
+    <column name="BASMG" data_type="DECIMAL">
+      <description>Base quantity</description>
+    </column>
+    <column name="DZEIT" data_type="DECIMAL">
+      <description>In-house production time</description>
+    </column>
+    <column name="MAXLZ" data_type="DECIMAL">
+      <description>Maximum Storage Period</description>
+    </column>
+    <column name="LZEIH" data_type="VARCHAR">
+      <description>Unit for maximum storage period</description>
+    </column>
+    <column name="KZPRO" data_type="VARCHAR">
+      <description>Indicator: withdrawal of stock from production bin</description>
+    </column>
+    <column name="GPMKZ" data_type="VARCHAR">
+      <description>Indicator: Material Included in Rough-Cut Planning</description>
+    </column>
+    <column name="UEETO" data_type="DECIMAL">
+      <description>Overdelivery tolerance limit</description>
+    </column>
+    <column name="UEETK" data_type="VARCHAR">
+      <description>Indicator: Unlimited Overdelivery Allowed</description>
+    </column>
+    <column name="UNETO" data_type="DECIMAL">
+      <description>Underdelivery tolerance limit</description>
+    </column>
+    <column name="WZEIT" data_type="DECIMAL">
+      <description>Total replenishment lead time (in workdays)</description>
+    </column>
+    <column name="ATPKZ" data_type="VARCHAR">
+      <description>Replacement part</description>
+    </column>
+    <column name="VZUSL" data_type="DECIMAL">
+      <description>Surcharge factor for cost in percent</description>
+    </column>
+    <column name="HERBL" data_type="VARCHAR">
+      <description>State of manufacture</description>
+    </column>
+    <column name="INSMK" data_type="VARCHAR">
+      <description>Post to Inspection Stock</description>
+    </column>
+    <column name="SPROZ" data_type="DECIMAL">
+      <description>Sample for quality inspection (in %) (deactivated)</description>
+    </column>
+    <column name="QUAZT" data_type="DECIMAL">
+      <description>Quarantine period (deactivated)</description>
+    </column>
+    <column name="SSQSS" data_type="VARCHAR">
+      <description>Control Key for Quality Management in Procurement</description>
+    </column>
+    <column name="MPDAU" data_type="DECIMAL">
+      <description>Mean inspection duration (deactivated)</description>
+    </column>
+    <column name="KZPPV" data_type="VARCHAR">
+      <description>Indicator for inspection plan (deactivated)</description>
+    </column>
+    <column name="KZDKZ" data_type="VARCHAR">
+      <description>Documentation required indicator</description>
+    </column>
+    <column name="WSTGH" data_type="DECIMAL">
+      <description>Active substance content (deactivated)</description>
+    </column>
+    <column name="PRFRQ" data_type="DECIMAL">
+      <description>Interval until next recurring inspection</description>
+    </column>
+    <column name="NKMPR" data_type="DATE">
+      <description>Date according to check sampling inspection (deactivated)</description>
+    </column>
+    <column name="UMLMC" data_type="DECIMAL">
+      <description>Stock in transfer (plant to plant)</description>
+    </column>
+    <column name="LADGR" data_type="VARCHAR">
+      <description>Loading Group</description>
+    </column>
+    <column name="XCHPF" data_type="VARCHAR">
+      <description>Batch management requirement indicator</description>
+    </column>
+    <column name="USEQU" data_type="VARCHAR">
+      <description>Quota arrangement usage</description>
+    </column>
+    <column name="LGRAD" data_type="DECIMAL">
+      <description>Service level</description>
+    </column>
+    <column name="AUFTL" data_type="VARCHAR">
+      <description>Splitting Indicator</description>
+    </column>
+    <column name="PLVAR" data_type="VARCHAR">
+      <description>Plan Version</description>
+    </column>
+    <column name="OTYPE" data_type="VARCHAR">
+      <description>Object Type</description>
+    </column>
+    <column name="OBJID" data_type="VARCHAR">
+      <description>Object ID</description>
+    </column>
+    <column name="MTVFP" data_type="VARCHAR">
+      <description>Checking Group for Availability Check</description>
+    </column>
+    <column name="PERIV" data_type="VARCHAR">
+      <description>Fiscal Year Variant</description>
+    </column>
+    <column name="KZKFK" data_type="VARCHAR">
+      <description>Indicator: take correction factors into account</description>
+    </column>
+    <column name="VRVEZ" data_type="DECIMAL">
+      <description>Shipping setup time</description>
+    </column>
+    <column name="VBAMG" data_type="DECIMAL">
+      <description>Base quantity for capacity planning in shipping</description>
+    </column>
+    <column name="VBEAZ" data_type="DECIMAL">
+      <description>Shipping processing time</description>
+    </column>
+    <column name="LIZYK" data_type="VARCHAR">
+      <description>Deactivated</description>
+    </column>
+    <column name="BWSCL" data_type="VARCHAR">
+      <description>Source of Supply</description>
+    </column>
+    <column name="KAUTB" data_type="VARCHAR">
+      <description>Indicator: &quot;automatic purchase order allowed&quot;</description>
+    </column>
+    <column name="KORDB" data_type="VARCHAR">
+      <description>Indicator: Source list requirement</description>
+    </column>
+    <column name="STAWN" data_type="VARCHAR">
+      <description>Commodity Code/Import Code Number for Foreign Trade</description>
+    </column>
+    <column name="HERKL" data_type="VARCHAR">
+      <description>Country of Origin of Material (Non-Preferential Origin)</description>
+    </column>
+    <column name="HERKR" data_type="VARCHAR">
+      <description>Region of Origin of Material (Non-Preferential Origin)</description>
+    </column>
+    <column name="EXPME" data_type="VARCHAR">
+      <description>Unit of measure for commodity code (foreign trade)</description>
+    </column>
+    <column name="MTVER" data_type="VARCHAR">
+      <description>Material Group Export for Foreign Trade</description>
+    </column>
+    <column name="PRCTR" data_type="VARCHAR">
+      <description>Profit Center</description>
+    </column>
+    <column name="TRAME" data_type="DECIMAL">
+      <description>Stock in Transit</description>
+    </column>
+    <column name="MRPPP" data_type="VARCHAR">
+      <description>PPC planning calendar</description>
+    </column>
+    <column name="SAUFT" data_type="VARCHAR">
+      <description>Ind.: Repetitive mfg allowed</description>
+    </column>
+    <column name="FXHOR" data_type="VARCHAR">
+      <description>Planning time fence</description>
+    </column>
+    <column name="VRMOD" data_type="VARCHAR">
+      <description>Consumption mode</description>
+    </column>
+    <column name="VINT1" data_type="VARCHAR">
+      <description>Consumption period: backward</description>
+    </column>
+    <column name="VINT2" data_type="VARCHAR">
+      <description>Consumption period: forward</description>
+    </column>
+    <column name="VERKZ" data_type="VARCHAR">
+      <description>Version Indicator</description>
+    </column>
+    <column name="STLAL" data_type="VARCHAR">
+      <description>Alternative BOM</description>
+    </column>
+    <column name="STLAN" data_type="VARCHAR">
+      <description>BOM Usage</description>
+    </column>
+    <column name="PLNNR" data_type="VARCHAR">
+      <description>Key for Task List Group</description>
+    </column>
+    <column name="APLAL" data_type="VARCHAR">
+      <description>Group Counter</description>
+    </column>
+    <column name="LOSGR" data_type="DECIMAL">
+      <description>Lot Size for Product Costing</description>
+    </column>
+    <column name="SOBSK" data_type="VARCHAR">
+      <description>Special Procurement Type for Costing</description>
+    </column>
+    <column name="FRTME" data_type="VARCHAR">
+      <description>Production unit</description>
+    </column>
+    <column name="LGPRO" data_type="VARCHAR">
+      <description>Issue Storage Location</description>
+    </column>
+    <column name="DISGR" data_type="VARCHAR">
+      <description>MRP Group</description>
+    </column>
+    <column name="KAUSF" data_type="DECIMAL">
+      <description>Component scrap in percent</description>
+    </column>
+    <column name="QZGTP" data_type="VARCHAR">
+      <description>Certificate Type</description>
+    </column>
+    <column name="QMATV" data_type="VARCHAR">
+      <description>Inspection Setup Exists for Material/Plant</description>
+    </column>
+    <column name="TAKZT" data_type="DECIMAL">
+      <description>Takt time</description>
+    </column>
+    <column name="RWPRO" data_type="VARCHAR">
+      <description>Range of coverage profile</description>
+    </column>
+    <column name="COPAM" data_type="VARCHAR">
+      <description>Local field name for CO/PA link to SOP</description>
+    </column>
+    <column name="ABCIN" data_type="VARCHAR">
+      <description>Physical inventory indicator for cycle counting</description>
+    </column>
+    <column name="AWSLS" data_type="VARCHAR">
+      <description>Variance Key</description>
+    </column>
+    <column name="SERNP" data_type="VARCHAR">
+      <description>Serial Number Profile</description>
+    </column>
+    <column name="CUOBJ" data_type="VARCHAR">
+      <description>Internal object number</description>
+    </column>
+    <column name="STDPD" data_type="VARCHAR">
+      <description>Configurable material</description>
+    </column>
+    <column name="SFEPR" data_type="VARCHAR">
+      <description>Repetitive manufacturing profile</description>
+    </column>
+    <column name="XMCNG" data_type="VARCHAR">
+      <description>Negative stocks allowed in plant</description>
+    </column>
+    <column name="QSSYS" data_type="VARCHAR">
+      <description>Required QM System for Vendor</description>
+    </column>
+    <column name="LFRHY" data_type="VARCHAR">
+      <description>Planning cycle</description>
+    </column>
+    <column name="RDPRF" data_type="VARCHAR">
+      <description>Rounding Profile</description>
+    </column>
+    <column name="VRBMT" data_type="VARCHAR">
+      <description>Reference material for consumption</description>
+    </column>
+    <column name="VRBWK" data_type="VARCHAR">
+      <description>Reference plant for consumption</description>
+    </column>
+    <column name="VRBDT" data_type="DATE">
+      <description>To date of the material to be copied for consumption</description>
+    </column>
+    <column name="VRBFK" data_type="DECIMAL">
+      <description>Multiplier for reference material for consumption</description>
+    </column>
+    <column name="AUTRU" data_type="VARCHAR">
+      <description>Reset Forecast Model Automatically</description>
+    </column>
+    <column name="PREFE" data_type="VARCHAR">
+      <description>Preference indicator in export/import</description>
+    </column>
+    <column name="PRENC" data_type="VARCHAR">
+      <description>Exemption certificate: Indicator for legal control</description>
+    </column>
+    <column name="PRENO" data_type="VARCHAR">
+      <description>Exemption certificate number for legal control</description>
+    </column>
+    <column name="PREND" data_type="DATE">
+      <description>Exemption certificate: Issue date of exemption certificate</description>
+    </column>
+    <column name="PRENE" data_type="VARCHAR">
+      <description>Indicator: Vendor declaration exists</description>
+    </column>
+    <column name="PRENG" data_type="DATE">
+      <description>Validity date of vendor declaration</description>
+    </column>
+    <column name="ITARK" data_type="VARCHAR">
+      <description>Indicator: Military goods</description>
+    </column>
+    <column name="SERVG" data_type="VARCHAR">
+      <description>IS-R service level</description>
+    </column>
+    <column name="KZKUP" data_type="VARCHAR">
+      <description>Indicator: Material can be co-product</description>
+    </column>
+    <column name="STRGR" data_type="VARCHAR">
+      <description>Planning strategy group</description>
+    </column>
+    <column name="CUOBV" data_type="VARCHAR">
+      <description>Internal object number of configurable material for planning</description>
+    </column>
+    <column name="LGFSB" data_type="VARCHAR">
+      <description>Default storage location for external procurement</description>
+    </column>
+    <column name="SCHGT" data_type="VARCHAR">
+      <description>Indicator: bulk material</description>
+    </column>
+    <column name="CCFIX" data_type="VARCHAR">
+      <description>CC indicator is fixed</description>
+    </column>
+    <column name="EPRIO" data_type="VARCHAR">
+      <description>Stock determination group</description>
+    </column>
+    <column name="QMATA" data_type="VARCHAR">
+      <description>Material Authorization Group for Activities in QM</description>
+    </column>
+    <column name="RESVP" data_type="DECIMAL">
+      <description>Period of adjustment for planned independent requirements</description>
+    </column>
+    <column name="PLNTY" data_type="VARCHAR">
+      <description>Task List Type</description>
+    </column>
+    <column name="UOMGR" data_type="VARCHAR">
+      <description>Unit of Mearsure Group (Oil, Natural Gas,...)</description>
+    </column>
+    <column name="UMRSL" data_type="VARCHAR">
+      <description>Conversion Group (Oil, Natural Gas,..)</description>
+    </column>
+    <column name="ABFAC" data_type="DECIMAL">
+      <description>Air Bouyancy Factor</description>
+    </column>
+    <column name="SFCPF" data_type="VARCHAR">
+      <description>Production Scheduling Profile</description>
+    </column>
+    <column name="SHFLG" data_type="VARCHAR">
+      <description>Safety time indicator (with or without safety time)</description>
+    </column>
+    <column name="SHZET" data_type="VARCHAR">
+      <description>Safety time (in workdays)</description>
+    </column>
+    <column name="MDACH" data_type="VARCHAR">
+      <description>Action control: planned order processing</description>
+    </column>
+    <column name="KZECH" data_type="VARCHAR">
+      <description>Determination of batch entry in the production/process order</description>
+    </column>
+    <column name="MEGRU" data_type="VARCHAR">
+      <description>Unit of Measure Group</description>
+    </column>
+    <column name="MFRGR" data_type="VARCHAR">
+      <description>Material freight group</description>
+    </column>
+    <column name="VKUMC" data_type="DECIMAL">
+      <description>Stock transfer sales value (plant to plant) for VO material</description>
+    </column>
+    <column name="VKTRW" data_type="DECIMAL">
+      <description>Transit value at sales price for value-only material</description>
+    </column>
+    <column name="KZAGL" data_type="VARCHAR">
+      <description>Indicator: smooth promotion consumption</description>
+    </column>
+    <column name="FVIDK" data_type="VARCHAR">
+      <description>Production Version To Be Costed</description>
+    </column>
+    <column name="FXPRU" data_type="VARCHAR">
+      <description>Fixed-Price Co-Product</description>
+    </column>
+    <column name="LOGGR" data_type="VARCHAR">
+      <description>Logistics handling group for workload calculation</description>
+    </column>
+    <column name="FPRFM" data_type="VARCHAR">
+      <description>Distribution profile of material in plant</description>
+    </column>
+    <column name="GLGMG" data_type="DECIMAL">
+      <description>Tied Empties Stock</description>
+    </column>
+    <column name="VKGLG" data_type="DECIMAL">
+      <description>Sales value of tied empties stock</description>
+    </column>
+    <column name="INDUS" data_type="VARCHAR">
+      <description>Material CFOP category</description>
+    </column>
+    <column name="MOWNR" data_type="VARCHAR">
+      <description>CAP: Number of CAP products list</description>
+    </column>
+    <column name="MOGRU" data_type="VARCHAR">
+      <description>Common Agricultural Policy: CAP products group-Foreign Trade</description>
+    </column>
+    <column name="CASNR" data_type="VARCHAR">
+      <description>CAS number for pharmaceutical products in foreign trade</description>
+    </column>
+    <column name="GPNUM" data_type="VARCHAR">
+      <description>Production statistics: PRODCOM number for foreign trade</description>
+    </column>
+    <column name="STEUC" data_type="VARCHAR">
+      <description>Control code for consumption taxes in foreign trade</description>
+    </column>
+    <column name="FABKZ" data_type="VARCHAR">
+      <description>Indicator: Item Relevant to JIT Delivery Schedules</description>
+    </column>
+    <column name="MATGR" data_type="VARCHAR">
+      <description>Group of Materials for Transition Matrix</description>
+    </column>
+    <column name="VSPVB" data_type="VARCHAR">
+      <description>Proposed Supply Area in Material Master Record</description>
+    </column>
+    <column name="DPLFS" data_type="VARCHAR">
+      <description>Fair share rule</description>
+    </column>
+    <column name="DPLPU" data_type="VARCHAR">
+      <description>Indicator: push distribution</description>
+    </column>
+    <column name="DPLHO" data_type="DECIMAL">
+      <description>Deployment horizon in days</description>
+    </column>
+    <column name="MINLS" data_type="DECIMAL">
+      <description>Minimum lot size for Supply Demand Match</description>
+    </column>
+    <column name="MAXLS" data_type="DECIMAL">
+      <description>Maximum lot size for Supply Demand Match</description>
+    </column>
+    <column name="FIXLS" data_type="DECIMAL">
+      <description>Fixed lot size for Supply Demand Match</description>
+    </column>
+    <column name="LTINC" data_type="DECIMAL">
+      <description>Lot size increment for  Supply Demand Match</description>
+    </column>
+    <column name="COMPL" data_type="VARCHAR">
+      <description>This field is no longer used</description>
+    </column>
+    <column name="CONVT" data_type="VARCHAR">
+      <description>Conversion types for production figures</description>
+    </column>
+    <column name="SHPRO" data_type="VARCHAR">
+      <description>Period Profile for Safety Time</description>
+    </column>
+    <column name="AHDIS" data_type="VARCHAR">
+      <description>MRP relevancy for dependent requirements</description>
+    </column>
+    <column name="DIBER" data_type="VARCHAR">
+      <description>Indicator: MRP area exists</description>
+    </column>
+    <column name="KZPSP" data_type="VARCHAR">
+      <description>Indicator for cross-project material</description>
+    </column>
+    <column name="OCMPF" data_type="VARCHAR">
+      <description>Overall profile for order change management</description>
+    </column>
+    <column name="APOKZ" data_type="VARCHAR">
+      <description>Indicator: Is material relevant for APO</description>
+    </column>
+    <column name="MCRUE" data_type="VARCHAR">
+      <description>MARDH rec. already exists for per. before last of MARD per.</description>
+    </column>
+    <column name="LFMON" data_type="VARCHAR">
+      <description>Current period (posting period)</description>
+    </column>
+    <column name="LFGJA" data_type="VARCHAR">
+      <description>Fiscal Year of Current Period</description>
+    </column>
+    <column name="EISLO" data_type="DECIMAL">
+      <description>Minimum Safety Stock</description>
+    </column>
+    <column name="NCOST" data_type="VARCHAR">
+      <description>Do Not Cost</description>
+    </column>
+    <column name="ROTATION_DATE" data_type="VARCHAR">
+      <description>Strategy for Putaway and Stock Removal</description>
+    </column>
+    <column name="UCHKZ" data_type="VARCHAR">
+      <description>Indicator for Original Batch Management</description>
+    </column>
+    <column name="UCMAT" data_type="VARCHAR">
+      <description>Reference Material for Original Batches</description>
+    </column>
+    <column name="BWESB" data_type="DECIMAL">
+      <description>Valuated Goods Receipt Blocked Stock</description>
+    </column>
+    <column name="SGT_COVS" data_type="VARCHAR">
+      <description>Segmentation Strategy</description>
+    </column>
+    <column name="SGT_STATC" data_type="VARCHAR">
+      <description>Segmentation Status</description>
+    </column>
+    <column name="SGT_SCOPE" data_type="VARCHAR">
+      <description>Segmentation Strategy Scope</description>
+    </column>
+    <column name="SGT_MRPSI" data_type="VARCHAR">
+      <description>Sort Stock based on Segment</description>
+    </column>
+    <column name="SGT_PRCM" data_type="VARCHAR">
+      <description>Consumption Priority</description>
+    </column>
+    <column name="SGT_CHINT" data_type="VARCHAR">
+      <description>Discrete Batch Number</description>
+    </column>
+    <column name="SGT_STK_PRT" data_type="VARCHAR">
+      <description>Stock Protection Indicator</description>
+    </column>
+    <column name="SGT_DEFSC" data_type="VARCHAR">
+      <description>Default Stock Segment value</description>
+    </column>
+    <column name="SGT_MRP_ATP_STATUS" data_type="VARCHAR">
+      <description>ATP/MRP Status for Material and Segment</description>
+    </column>
+    <column name="SGT_MMSTD" data_type="DATE">
+      <description>Date from which the plant-specific material status is valid</description>
+    </column>
+    <column name="FSH_MG_ARUN_REQ" data_type="VARCHAR">
+      <description>Order Allocation Run</description>
+    </column>
+    <column name="FSH_SEAIM" data_type="VARCHAR">
+      <description>Indicator: Season Active in Inventory Management</description>
+    </column>
+    <column name="FSH_VAR_GROUP" data_type="VARCHAR">
+      <description>Variant Group</description>
+    </column>
+    <column name="FSH_KZECH" data_type="VARCHAR">
+      <description>Indicator: Batch Assignment during TR to TO conversion</description>
+    </column>
+    <column name="FSH_CALENDAR_GROUP" data_type="VARCHAR">
+      <description>Calendar Group</description>
+    </column>
+    <column name="PPSKZ" data_type="VARCHAR">
+      <description>Advanced Planning</description>
+    </column>
+    <column name="PPS_STRATEGY" data_type="VARCHAR">
+      <description>PP/DS Proposed Strategy</description>
+    </column>
+    <column name="PPS_PLANNING_TYPE" data_type="VARCHAR">
+      <description>Planning Procedure</description>
+    </column>
+    <column name="PPS_HEUR_ID" data_type="VARCHAR">
+      <description>Product Heuristic ID</description>
+    </column>
+    <column name="PPS_FIXPEG" data_type="VARCHAR">
+      <description>Fixed Pegging</description>
+    </column>
+    <column name="PPS_PEG_STRATEGY" data_type="VARCHAR">
+      <description>Pegging Strategy</description>
+    </column>
+    <column name="PPS_GRPRT" data_type="DECIMAL">
+      <description>Goods Receipt Processing Time</description>
+    </column>
+    <column name="PPS_GIPRT" data_type="DECIMAL">
+      <description>Goods Issue Processing Time</description>
+    </column>
+    <column name="PPS_CONHAP" data_type="DECIMAL">
+      <description>Handling Capacity Consumption in Unit of Measure (Gds Rcpt)</description>
+    </column>
+    <column name="PPS_HUNIT" data_type="VARCHAR">
+      <description>Unit of Measure: Handling Capacity in Goods Receipt</description>
+    </column>
+    <column name="PPS_CONHAP_OUT" data_type="DECIMAL">
+      <description>Handling Capacity Consumption in Unit of Measure (Gds Issue)</description>
+    </column>
+    <column name="PPS_HUNIT_OUT" data_type="VARCHAR">
+      <description>Unit of Measure: Handling Capacity in Goods Issue</description>
+    </column>
+    <column name="PPS_ATPCHECK" data_type="VARCHAR">
+      <description>Advanced Planning ATP Check</description>
+    </column>
+    <column name="PPS_PEG_FUT_AL" data_type="DECIMAL">
+      <description>Alert Threshold for Early Receipts</description>
+    </column>
+    <column name="PPS_PEG_PAST_AL" data_type="DECIMAL">
+      <description>Alert Threshold for Delayed Receipts</description>
+    </column>
+    <column name="/MRSS/PROF_GUID" data_type="VARCHAR">
+      <description>GUID in 'CHAR' Format in Uppercase</description>
+    </column>
+    <column name="/MRSS/PROF_KEY" data_type="VARCHAR">
+      <description>Profile Key</description>
+    </column>
+    <column name="/MRSS/DATACHANGE" data_type="VARCHAR">
+      <description>Data was changed in the controls on the user screen</description>
+    </column>
+    <column name="/SAPMP/TOLPRPL" data_type="DECIMAL">
+      <description>Percentage Tolerance Plus</description>
+    </column>
+    <column name="/SAPMP/TOLPRMI" data_type="DECIMAL">
+      <description>Percentage Tolerance Minus</description>
+    </column>
+    <column name="/VSO/R_PKGRP" data_type="VARCHAR">
+      <description>Packing Group of the Material (VSO)</description>
+    </column>
+    <column name="/VSO/R_LANE_NUM" data_type="VARCHAR">
+      <description>Line within the Automatic Picking Zone (VSO)</description>
+    </column>
+    <column name="/VSO/R_PAL_VEND" data_type="VARCHAR">
+      <description>Material No. of the Packaging Material of the Vendor (VSO)</description>
+    </column>
+    <column name="/VSO/R_FORK_DIR" data_type="VARCHAR">
+      <description>Pick Packaging Materials only Lengthwise (VSO)</description>
+    </column>
+    <column name="IUID_RELEVANT" data_type="VARCHAR">
+      <description>IUID-Relevant</description>
+    </column>
+    <column name="IUID_TYPE" data_type="VARCHAR">
+      <description>Structure Type of UII</description>
+    </column>
+    <column name="UID_IEA" data_type="VARCHAR">
+      <description>External Allocation of UII</description>
+    </column>
+    <column name="CONS_PROCG" data_type="VARCHAR">
+      <description>Consignment Control</description>
+    </column>
+    <column name="GI_PR_TIME" data_type="DECIMAL">
+      <description>Goods Issue Processing Time in Days</description>
+    </column>
+    <column name="MULTIPLE_EKGRP" data_type="VARCHAR">
+      <description>Purchasing Across Purchasing Group</description>
+    </column>
+    <column name="REF_SCHEMA" data_type="VARCHAR">
+      <description>Reference Determination Schema</description>
+    </column>
+    <column name="MIN_TROC" data_type="VARCHAR">
+      <description>Minimum Target Range of Coverage</description>
+    </column>
+    <column name="MAX_TROC" data_type="VARCHAR">
+      <description>Maximum Target Range of Coverage</description>
+    </column>
+    <column name="TARGET_STOCK" data_type="DECIMAL">
+      <description>Target Stock</description>
+    </column>
+    <column name="/ACCGO/TRADE_REL" data_type="VARCHAR">
+      <description>Trade Relevant Indicator of Material</description>
+    </column>
+    <column name="/ACCGO/STORE_REL" data_type="VARCHAR">
+      <description>Storage Relevant Indicator of Material</description>
+    </column>
+    <column name="/ACCGO/ASSGD_UOM" data_type="VARCHAR">
+      <description>Assignment UoM</description>
+    </column>
+    <column name="/STTPEC/SERVALID" data_type="DATE">
+      <description>Serialization Valid From</description>
+    </column>
+    <column name="OITAXGRP" data_type="VARCHAR">
+      <description>Excise Duty Group</description>
+    </column>
+    <column name="OIOILCON" data_type="DECIMAL">
+      <description>Oil content in a material as a percentage</description>
+    </column>
+    <column name="OIEDCODE" data_type="VARCHAR">
+      <description>Customs tariff number</description>
+    </column>
+    <column name="FDICH" data_type="FLOAT">
+      <description>Fixed Density</description>
+    </column>
+    <column name="COEFF" data_type="FLOAT">
+      <description>Quantity Conversion Coefficient</description>
+    </column>
+  </columns>
+</data_description>

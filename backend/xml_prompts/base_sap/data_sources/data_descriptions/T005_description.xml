@@ -1,0 +1,204 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="T005">
+  <table_info name="T005" total_columns="66"/>
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="LAND1" data_type="VARCHAR">
+      <description>Country Key</description>
+    </column>
+    <column name="LANDK" data_type="VARCHAR">
+      <description>Vehicle country key</description>
+    </column>
+    <column name="LNPLZ" data_type="VARCHAR">
+      <description>Postal code length</description>
+    </column>
+    <column name="PRPLZ" data_type="VARCHAR">
+      <description>Rule for the postal code field check</description>
+    </column>
+    <column name="ADDRS" data_type="VARCHAR">
+      <description>Formatting routine key for printing addresses</description>
+    </column>
+    <column name="XPLZS" data_type="VARCHAR">
+      <description>Flag: Street address postal code required entry?</description>
+    </column>
+    <column name="XPLPF" data_type="VARCHAR">
+      <description>Flag: PO Box postal code required?</description>
+    </column>
+    <column name="SPRAS" data_type="VARCHAR">
+      <description>Language Key</description>
+    </column>
+    <column name="XLAND" data_type="VARCHAR">
+      <description>Country version flag</description>
+    </column>
+    <column name="XADDR" data_type="VARCHAR">
+      <description>Flag: Print country name in foreign addresses?</description>
+    </column>
+    <column name="NMFMT" data_type="VARCHAR">
+      <description>Standard name format</description>
+    </column>
+    <column name="XREGS" data_type="VARCHAR">
+      <description>Flag: City file address check</description>
+    </column>
+    <column name="XPLST" data_type="VARCHAR">
+      <description>Flag: Street-specific postal code? (City file)</description>
+    </column>
+    <column name="INTCA" data_type="VARCHAR">
+      <description>Country ISO code</description>
+    </column>
+    <column name="INTCA3" data_type="VARCHAR">
+      <description>ISO country code 3 char</description>
+    </column>
+    <column name="INTCN3" data_type="VARCHAR">
+      <description>ISO Country Code Numeric 3-Characters</description>
+    </column>
+    <column name="XEGLD" data_type="VARCHAR">
+      <description>Indicator: European Union Member?</description>
+    </column>
+    <column name="XSKFN" data_type="VARCHAR">
+      <description>Indicator: Discount base amount is the net value</description>
+    </column>
+    <column name="XMWSN" data_type="VARCHAR">
+      <description>Indicator: Base amount for tax is net of discount ?</description>
+    </column>
+    <column name="LNBKN" data_type="VARCHAR">
+      <description>Bank account number length</description>
+    </column>
+    <column name="PRBKN" data_type="VARCHAR">
+      <description>Rule for checking bank account number field</description>
+    </column>
+    <column name="LNBLZ" data_type="VARCHAR">
+      <description>Bank number length</description>
+    </column>
+    <column name="PRBLZ" data_type="VARCHAR">
+      <description>Rule for checking bank number field</description>
+    </column>
+    <column name="LNPSK" data_type="VARCHAR">
+      <description>Post office bank current account number length</description>
+    </column>
+    <column name="PRPSK" data_type="VARCHAR">
+      <description>Rule for checking postal check account number field</description>
+    </column>
+    <column name="XPRBK" data_type="VARCHAR">
+      <description>Indicator: Use check module for bank fields ?</description>
+    </column>
+    <column name="BNKEY" data_type="VARCHAR">
+      <description>Name of the bank key</description>
+    </column>
+    <column name="LNBKS" data_type="VARCHAR">
+      <description>Length of Bank Key</description>
+    </column>
+    <column name="PRBKS" data_type="VARCHAR">
+      <description>Rule for checking bank key field</description>
+    </column>
+    <column name="XPRSO" data_type="VARCHAR">
+      <description>Indicator: Use check module for tax fields etc. ?</description>
+    </column>
+    <column name="PRUIN" data_type="VARCHAR">
+      <description>Rule for checking VAT registration number field</description>
+    </column>
+    <column name="UINLN" data_type="VARCHAR">
+      <description>VAT registration number length</description>
+    </column>
+    <column name="LNST1" data_type="VARCHAR">
+      <description>Permitted Input Length for Tax Numbre 1</description>
+    </column>
+    <column name="PRST1" data_type="VARCHAR">
+      <description>Rule for checking tax code 1 field</description>
+    </column>
+    <column name="LNST2" data_type="VARCHAR">
+      <description>Permitted Input Length for Tax Number 2</description>
+    </column>
+    <column name="PRST2" data_type="VARCHAR">
+      <description>Rule for checking tax code 2 field</description>
+    </column>
+    <column name="LNST3" data_type="VARCHAR">
+      <description>Permitted Input Length for Tax Number 3</description>
+    </column>
+    <column name="PRST3" data_type="VARCHAR">
+      <description>Rule for checking tax code 3 field</description>
+    </column>
+    <column name="LNST4" data_type="VARCHAR">
+      <description>Permitted Input Length for Tax Number 4</description>
+    </column>
+    <column name="PRST4" data_type="VARCHAR">
+      <description>Rule for checking tax code 4 field</description>
+    </column>
+    <column name="LNST5" data_type="VARCHAR">
+      <description>Permitted Input Length for Tax Number 5</description>
+    </column>
+    <column name="PRST5" data_type="VARCHAR">
+      <description>Rule for checking tax code 5 field</description>
+    </column>
+    <column name="LANDD" data_type="VARCHAR">
+      <description>DUEVO: Nationality</description>
+    </column>
+    <column name="KALSM" data_type="VARCHAR">
+      <description>Procedure (Pricing, Output Control, Acct. Det., Costing,...)</description>
+    </column>
+    <column name="LANDA" data_type="VARCHAR">
+      <description>Alternative Country Key</description>
+    </column>
+    <column name="WECHF" data_type="VARCHAR">
+      <description>Payment period for bill of exchange</description>
+    </column>
+    <column name="LKVRZ" data_type="VARCHAR">
+      <description>Short Name for Foreign Trade Statistics</description>
+    </column>
+    <column name="INTCN" data_type="VARCHAR">
+      <description>Intrastat Code</description>
+    </column>
+    <column name="XDEZP" data_type="VARCHAR">
+      <description>Decimal point format</description>
+    </column>
+    <column name="DATFM" data_type="VARCHAR">
+      <description>Date Format</description>
+    </column>
+    <column name="CURIN" data_type="VARCHAR">
+      <description>Currency Key of the Index-Based Currency</description>
+    </column>
+    <column name="CURHA" data_type="VARCHAR">
+      <description>Currency Key of the Hard Currency</description>
+    </column>
+    <column name="WAERS" data_type="VARCHAR">
+      <description>Country currency</description>
+    </column>
+    <column name="KURST" data_type="VARCHAR">
+      <description>Exchange Rate Type for Translation into Country Currency</description>
+    </column>
+    <column name="AFAPL" data_type="VARCHAR">
+      <description>Chart of Depreciation for Asset Valuation</description>
+    </column>
+    <column name="GWGWRT" data_type="DECIMAL">
+      <description>Maximum low-value asset amount</description>
+    </column>
+    <column name="UMRWRT" data_type="DECIMAL">
+      <description>Net book value for changeover of depreciation method</description>
+    </column>
+    <column name="KZRBWB" data_type="VARCHAR">
+      <description>Indicator post net book value for retirement</description>
+    </column>
+    <column name="XANZUM" data_type="VARCHAR">
+      <description>Indicator transfer down payments from previous years</description>
+    </column>
+    <column name="CTNCONCEPT" data_type="VARCHAR">
+      <description>Withholding tax certificate numbering: Concepts</description>
+    </column>
+    <column name="KZSRV" data_type="VARCHAR">
+      <description>Taxes at individual service level</description>
+    </column>
+    <column name="XXINVE" data_type="VARCHAR">
+      <description>Indicator: Display Capital Goods Indicator?</description>
+    </column>
+    <column name="XGCCV" data_type="VARCHAR">
+      <description>Indicator: GCC Countries Member?</description>
+    </column>
+    <column name="SUREG" data_type="VARCHAR">
+      <description>Super region per country</description>
+    </column>
+    <column name="LANDGRP_VP" data_type="VARCHAR">
+      <description>Country grouping for shipping schedule</description>
+    </column>
+  </columns>
+</data_description>

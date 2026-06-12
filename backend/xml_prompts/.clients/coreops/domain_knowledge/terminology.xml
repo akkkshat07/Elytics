@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<domain_knowledge xmlns="http://coresight.generic.com/prompts">
+  
+  <terminology>
+    
+<?xml version="1.0" encoding="UTF-8"?>
+<domain_knowledge>
+  <client>GENERIC_BASE</client>
+  <!-- 
+      GENERIC TERMINOLOGY TEMPLATE
+      This file provides universal business terms applicable across industries (Retail, Mfg, Finance, HR).
+      Client-specific overrides should be placed in xml_prompts/clients/{CLIENT_ID}/domain_knowledge/terminology.xml
+  -->
+  <terminology>
+    
+    <!-- Universal Time & Trend Terms -->
+    <term key="ytd" category="temporal">
+      <definition>Year To Date - Period from the start of the current year (fiscal or calendar) to the present.</definition>
+      <usage>Standard metric for cumulative performance analysis.</usage>
+    </term>
+    <term key="mom" category="temporal">
+      <definition>Month over Month - Comparison of a metric's value to the previous month.</definition>
+      <usage>Used to track short-term growth or decline.</usage>
+    </term>
+    <term key="yoy" category="temporal">
+      <definition>Year over Year - Comparison of a metric's value to the same period in the previous year.</definition>
+      <usage>Used to eliminate seasonality when analyzing growth.</usage>
+    </term>
+    <term key="trend" category="analysis">
+      <definition>Trend - The general direction of data over a specific period.</definition>
+      <usage>Identify pattern: Increasing, Decreasing, Flat, or Volatile.</usage>
+    </term>
+
+    <!-- General Business Concepts -->
+    <term key="entity" category="structure">
+      <definition>Entity - A generic term for a distinct business unit involved in the data.</definition>
+      <usage>Can refer to a Store, Plant, Department, Employee, or Region depending on context.</usage>
+    </term>
+    <term key="metric" category="analysis">
+      <definition>Metric - A quantifiable measure used to track and assess the status of a specific process.</definition>
+      <usage>Examples: Revenue, Count, Score, Efficiency, Cost.</usage>
+    </term>
+    <term key="kpi" category="analysis">
+      <definition>Key Performance Indicator - A critical metric that demonstrates how effectively key business objectives are achieved.</definition>
+      <usage>High-priority metrics for executive reporting.</usage>
+    </term>
+    <term key="variance" category="analysis">
+      <definition>Variance - The difference between an expected/budgeted value and the actual result.</definition>
+      <usage>Positive or negative deviation from the target.</usage>
+    </term>
+
+    <!-- Data Quality & Classification -->
+    <term key="outlier" category="statistics">
+      <definition>Outlier - A data point that differs significantly from other observations.</definition>
+      <usage>Important for anomaly detection and fraud analysis.</usage>
+    </term>
+    <term key="segment" category="classification">
+      <definition>Segment - A subset of data grouped by shared characteristics.</definition>
+      <usage>Used for categorical analysis (e.g., Customer Segment, Product Category).</usage>
+    </term>
+
+  </terminology>
+  
+  <personas>
+    <!-- Generic Personas adaptable to any domain -->
+    
+    <persona name="executive_leader">
+      <focus>Strategic oversight, high-level KPIs, growth, and risks.</focus>
+      <communication>Concise, summary-driven, focuses on "What" and "So What".</communication>
+      <preferences>Executive summaries, trend lines, red/green status indicators.</preferences>
+    </persona>
+    
+    <persona name="operational_manager">
+      <focus>Efficiency, process status, daily/weekly targets, resource allocation.</focus>
+      <communication>Action-oriented, problem-solving, detailed.</communication>
+      <preferences>Granular reports, exception lists, actionable insights.</preferences>
+    </persona>
+    
+    <persona name="analyst">
+      <focus>Data accuracy, trends, correlations, deep-dive investigations.</focus>
+      <communication>Technical, data-backed, comprehensive.</communication>
+      <preferences>Raw data access, statistical definitions, detailed breakdowns.</preferences>
+    </persona>
+    
+  </personas>
+</domain_knowledge>
+  
+  <guidelines>
+    
+    <guideline category="communication" priority="1">Use domain-specific terminology consistently throughout analysis</guideline>
+    <guideline category="communication" priority="1">Adapt communication style based on identified user persona</guideline>
+    <guideline category="analysis" priority="1">Focus on business impact and actionable insights</guideline>
+    <guideline category="analysis" priority="2">Use quantitative metrics to support qualitative insights</guideline>
+    <guideline category="format" priority="1">Maintain professional, concise communication style</guideline>
+    <guideline category="format" priority="2">Use bullet points and structured formatting for clarity</guideline>
+    <guideline category="business" priority="1">Align recommendations with client's industry and business context</guideline>
+    <guideline category="business" priority="2">Consider operational constraints and business priorities</guideline>
+    
+  </guidelines>
+  
+</domain_knowledge>
+

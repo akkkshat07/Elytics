@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="T683T">
+  <table_info name="T683T" total_columns="8" />
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="SPRAS" data_type="VARCHAR">
+      <description>Language Key</description>
+    </column>
+    <column name="KVEWE" data_type="VARCHAR">
+      <description>Usage of the condition table</description>
+    </column>
+    <column name="KAPPL" data_type="VARCHAR">
+      <description>Application</description>
+    </column>
+    <column name="KALSM" data_type="VARCHAR">
+      <description>Procedure (Pricing, Output Control, Acct. Det., Costing,...)</description>
+    </column>
+    <column name="STUNR" data_type="VARCHAR">
+      <description>Step number</description>
+    </column>
+    <column name="ZAEHK" data_type="VARCHAR">
+      <description>Condition counter</description>
+    </column>
+    <column name="VTEXT" data_type="VARCHAR">
+      <description>Description</description>
+    </column>
+  </columns>
+</data_description>

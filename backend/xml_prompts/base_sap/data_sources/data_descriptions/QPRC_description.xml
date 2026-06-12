@@ -1,0 +1,111 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="QPRC">
+  <table_info name="QPRC" total_columns="35" />
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="PRUEFLOS" data_type="VARCHAR">
+      <description>Inspection lot number</description>
+    </column>
+    <column name="MERKNR" data_type="VARCHAR">
+      <description>Inspection characteristic number</description>
+    </column>
+    <column name="VORNR" data_type="VARCHAR">
+      <description>Operation number</description>
+    </column>
+    <column name="ERFELGRP" data_type="VARCHAR">
+      <description>Result group</description>
+    </column>
+    <column name="ERFELNR" data_type="VARCHAR">
+      <description>Result number</description>
+    </column>
+    <column name="ERFELDATUM" data_type="DATE">
+      <description>Result date</description>
+    </column>
+    <column name="ERFELZEIT" data_type="VARCHAR">
+      <description>Result time</description>
+    </column>
+    <column name="ERFELUSER" data_type="VARCHAR">
+      <description>User who recorded result</description>
+    </column>
+    <column name="ERFELWERT" data_type="DECIMAL">
+      <description>Result value</description>
+    </column>
+    <column name="ERFELWERT_ALT" data_type="DECIMAL">
+      <description>Alternative result value</description>
+    </column>
+    <column name="ERFELWERT_REF" data_type="DECIMAL">
+      <description>Reference result value</description>
+    </column>
+    <column name="ERFELWERT_TARGET" data_type="DECIMAL">
+      <description>Target result value</description>
+    </column>
+    <column name="ERFELWERT_UPPER" data_type="DECIMAL">
+      <description>Upper limit result value</description>
+    </column>
+    <column name="ERFELWERT_LOWER" data_type="DECIMAL">
+      <description>Lower limit result value</description>
+    </column>
+    <column name="ERFELWERT_MEAN" data_type="DECIMAL">
+      <description>Mean result value</description>
+    </column>
+    <column name="ERFELWERT_STDDEV" data_type="DECIMAL">
+      <description>Standard deviation result value</description>
+    </column>
+    <column name="ERFELWERT_UNIT" data_type="VARCHAR">
+      <description>Result value unit of measure</description>
+    </column>
+    <column name="ERFELWERT_FORMAT" data_type="VARCHAR">
+      <description>Result value format</description>
+    </column>
+    <column name="ERFELWERT_DECIMALS" data_type="VARCHAR">
+      <description>Number of decimal places for result value</description>
+    </column>
+    <column name="ERFELWERT_LENGTH" data_type="VARCHAR">
+      <description>Length of result value</description>
+    </column>
+    <column name="ERFELWERT_SCALE" data_type="VARCHAR">
+      <description>Scale for result value</description>
+    </column>
+    <column name="ERFELWERT_TOLERANCE" data_type="VARCHAR">
+      <description>Tolerance for result value</description>
+    </column>
+    <column name="ERFELVALUATION" data_type="VARCHAR">
+      <description>Result valuation</description>
+    </column>
+    <column name="ERFELVALUATION_REASON" data_type="VARCHAR">
+      <description>Reason for result valuation</description>
+    </column>
+    <column name="ERFELVALUATION_USER" data_type="VARCHAR">
+      <description>User who performed valuation</description>
+    </column>
+    <column name="ERFELVALUATION_DATE" data_type="DATE">
+      <description>Date when valuation was performed</description>
+    </column>
+    <column name="ERFELVALUATION_TIME" data_type="VARCHAR">
+      <description>Time when valuation was performed</description>
+    </column>
+    <column name="ERFELMETHOD" data_type="VARCHAR">
+      <description>Inspection method used</description>
+    </column>
+    <column name="ERFELSAMPLING" data_type="VARCHAR">
+      <description>Sampling procedure used</description>
+    </column>
+    <column name="ERFELSAMPLE_SIZE" data_type="DECIMAL">
+      <description>Sample size used</description>
+    </column>
+    <column name="ERFELSAMPLE_UNIT" data_type="VARCHAR">
+      <description>Sample unit of measure</description>
+    </column>
+    <column name="ERFELFREQUENCY" data_type="VARCHAR">
+      <description>Inspection frequency used</description>
+    </column>
+    <column name="ERFELPRIORITY" data_type="VARCHAR">
+      <description>Inspection priority used</description>
+    </column>
+    <column name="ERFELSTATUS" data_type="VARCHAR">
+      <description>Status of result</description>
+    </column>
+  </columns>
+</data_description>

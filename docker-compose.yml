@@ -1,0 +1,24 @@
+version: '3.8'
+
+services:
+  mongodb:
+    image: mongo:6.0
+    container_name: elytics-mongo
+    ports:
+      - "27017:27017"
+    volumes:
+      - elytics_mongo_data:/data/db
+    restart: unless-stopped
+
+  redis:
+    image: redis:7.0-alpine
+    container_name: elytics-redis
+    ports:
+      - "6379:6379"
+    volumes:
+      - elytics_redis_data:/data
+    restart: unless-stopped
+
+volumes:
+  elytics_mongo_data:
+  elytics_redis_data:

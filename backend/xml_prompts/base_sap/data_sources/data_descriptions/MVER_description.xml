@@ -1,0 +1,180 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="MVER">
+  <table_info name="MVER" total_columns="58" />
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="MATNR" data_type="VARCHAR">
+      <description>Material Number</description>
+    </column>
+    <column name="WERKS" data_type="VARCHAR">
+      <description>Plant</description>
+    </column>
+    <column name="GJAHR" data_type="VARCHAR">
+      <description>Fiscal Year</description>
+    </column>
+    <column name="PERKZ" data_type="VARCHAR">
+      <description>Period Indicator</description>
+    </column>
+    <column name="ZAHLR" data_type="VARCHAR">
+      <description>Number of follow-on records in Table MVER</description>
+    </column>
+    <column name="GSV01" data_type="DECIMAL">
+      <description>Total consumption</description>
+    </column>
+    <column name="GSV02" data_type="DECIMAL">
+      <description>Total consumption</description>
+    </column>
+    <column name="GSV03" data_type="DECIMAL">
+      <description>Total consumption</description>
+    </column>
+    <column name="GSV04" data_type="DECIMAL">
+      <description>Total consumption</description>
+    </column>
+    <column name="GSV05" data_type="DECIMAL">
+      <description>Total consumption</description>
+    </column>
+    <column name="GSV06" data_type="DECIMAL">
+      <description>Total consumption</description>
+    </column>
+    <column name="GSV07" data_type="DECIMAL">
+      <description>Total consumption</description>
+    </column>
+    <column name="GSV08" data_type="DECIMAL">
+      <description>Total consumption</description>
+    </column>
+    <column name="GSV09" data_type="DECIMAL">
+      <description>Total consumption</description>
+    </column>
+    <column name="GSV10" data_type="DECIMAL">
+      <description>Total consumption</description>
+    </column>
+    <column name="GSV11" data_type="DECIMAL">
+      <description>Total consumption</description>
+    </column>
+    <column name="GSV12" data_type="DECIMAL">
+      <description>Total consumption</description>
+    </column>
+    <column name="GSV13" data_type="DECIMAL">
+      <description>Total consumption</description>
+    </column>
+    <column name="UNV01" data_type="DECIMAL">
+      <description>Unplanned consumption</description>
+    </column>
+    <column name="UNV02" data_type="DECIMAL">
+      <description>Unplanned consumption</description>
+    </column>
+    <column name="UNV03" data_type="DECIMAL">
+      <description>Unplanned consumption</description>
+    </column>
+    <column name="UNV04" data_type="DECIMAL">
+      <description>Unplanned consumption</description>
+    </column>
+    <column name="UNV05" data_type="DECIMAL">
+      <description>Unplanned consumption</description>
+    </column>
+    <column name="UNV06" data_type="DECIMAL">
+      <description>Unplanned consumption</description>
+    </column>
+    <column name="UNV07" data_type="DECIMAL">
+      <description>Unplanned consumption</description>
+    </column>
+    <column name="UNV08" data_type="DECIMAL">
+      <description>Unplanned consumption</description>
+    </column>
+    <column name="UNV09" data_type="DECIMAL">
+      <description>Unplanned consumption</description>
+    </column>
+    <column name="UNV10" data_type="DECIMAL">
+      <description>Unplanned consumption</description>
+    </column>
+    <column name="UNV11" data_type="DECIMAL">
+      <description>Unplanned consumption</description>
+    </column>
+    <column name="UNV12" data_type="DECIMAL">
+      <description>Unplanned consumption</description>
+    </column>
+    <column name="UNV13" data_type="DECIMAL">
+      <description>Unplanned consumption</description>
+    </column>
+    <column name="MGV01" data_type="DECIMAL">
+      <description>Manually corrected total consumption</description>
+    </column>
+    <column name="MGV02" data_type="DECIMAL">
+      <description>Manually corrected total consumption</description>
+    </column>
+    <column name="MGV03" data_type="DECIMAL">
+      <description>Manually corrected total consumption</description>
+    </column>
+    <column name="MGV04" data_type="DECIMAL">
+      <description>Manually corrected total consumption</description>
+    </column>
+    <column name="MGV05" data_type="DECIMAL">
+      <description>Manually corrected total consumption</description>
+    </column>
+    <column name="MGV06" data_type="DECIMAL">
+      <description>Manually corrected total consumption</description>
+    </column>
+    <column name="MGV07" data_type="DECIMAL">
+      <description>Manually corrected total consumption</description>
+    </column>
+    <column name="MGV08" data_type="DECIMAL">
+      <description>Manually corrected total consumption</description>
+    </column>
+    <column name="MGV09" data_type="DECIMAL">
+      <description>Manually corrected total consumption</description>
+    </column>
+    <column name="MGV10" data_type="DECIMAL">
+      <description>Manually corrected total consumption</description>
+    </column>
+    <column name="MGV11" data_type="DECIMAL">
+      <description>Manually corrected total consumption</description>
+    </column>
+    <column name="MGV12" data_type="DECIMAL">
+      <description>Manually corrected total consumption</description>
+    </column>
+    <column name="MGV13" data_type="DECIMAL">
+      <description>Manually corrected total consumption</description>
+    </column>
+    <column name="MUV01" data_type="DECIMAL">
+      <description>Manually corrected unplanned consumption</description>
+    </column>
+    <column name="MUV02" data_type="DECIMAL">
+      <description>Manually corrected unplanned consumption</description>
+    </column>
+    <column name="MUV03" data_type="DECIMAL">
+      <description>Manually corrected unplanned consumption</description>
+    </column>
+    <column name="MUV04" data_type="DECIMAL">
+      <description>Manually corrected unplanned consumption</description>
+    </column>
+    <column name="MUV05" data_type="DECIMAL">
+      <description>Manually corrected unplanned consumption</description>
+    </column>
+    <column name="MUV06" data_type="DECIMAL">
+      <description>Manually corrected unplanned consumption</description>
+    </column>
+    <column name="MUV07" data_type="DECIMAL">
+      <description>Manually corrected unplanned consumption</description>
+    </column>
+    <column name="MUV08" data_type="DECIMAL">
+      <description>Manually corrected unplanned consumption</description>
+    </column>
+    <column name="MUV09" data_type="DECIMAL">
+      <description>Manually corrected unplanned consumption</description>
+    </column>
+    <column name="MUV10" data_type="DECIMAL">
+      <description>Manually corrected unplanned consumption</description>
+    </column>
+    <column name="MUV11" data_type="DECIMAL">
+      <description>Manually corrected unplanned consumption</description>
+    </column>
+    <column name="MUV12" data_type="DECIMAL">
+      <description>Manually corrected unplanned consumption</description>
+    </column>
+    <column name="MUV13" data_type="DECIMAL">
+      <description>Manually corrected unplanned consumption</description>
+    </column>
+  </columns>
+</data_description>

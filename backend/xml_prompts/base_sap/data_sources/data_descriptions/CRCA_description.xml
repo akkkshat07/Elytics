@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="CRCA">
+  <table_info name="CRCA" total_columns="27" />
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="OBJTY" data_type="VARCHAR">
+      <description>Object types of the CIM resource</description>
+    </column>
+    <column name="OBJID" data_type="VARCHAR">
+      <description>Object ID of the resource</description>
+    </column>
+    <column name="CANUM" data_type="VARCHAR">
+      <description>Capacity allocation number</description>
+    </column>
+    <column name="BEGDA" data_type="DATE">
+      <description>Start Date</description>
+    </column>
+    <column name="ENDDA" data_type="DATE">
+      <description>End Date</description>
+    </column>
+    <column name="AEDAT_KAPA" data_type="DATE">
+      <description>Changed on</description>
+    </column>
+    <column name="AENAM_KAPA" data_type="VARCHAR">
+      <description>User Name</description>
+    </column>
+    <column name="KAPID" data_type="VARCHAR">
+      <description>Capacity ID</description>
+    </column>
+    <column name="FORK1" data_type="VARCHAR">
+      <description>Formula for setup capacity requirements</description>
+    </column>
+    <column name="FORK2" data_type="VARCHAR">
+      <description>Formula for processing capacity requirements</description>
+    </column>
+    <column name="FORK3" data_type="VARCHAR">
+      <description>Formula for teardown capacity requirements</description>
+    </column>
+    <column name="FORKN" data_type="VARCHAR">
+      <description>Formula for cap. reqmts. for other types of int. processing</description>
+    </column>
+    <column name="PROZT" data_type="VARCHAR">
+      <description>Percentage share of available capacity</description>
+    </column>
+    <column name="VERT1" data_type="VARCHAR">
+      <description>Distribution of capacity requirements (Planned/prod.order)</description>
+    </column>
+    <column name="VERT2" data_type="VARCHAR">
+      <description>Key for distributing requirements over processing time</description>
+    </column>
+    <column name="VERT3" data_type="VARCHAR">
+      <description>Distribution key for teardown requirements</description>
+    </column>
+    <column name="VERTN" data_type="VARCHAR">
+      <description>Distr.cap.reqmts (plant maint.,process order, network)</description>
+    </column>
+    <column name="CAROL" data_type="VARCHAR">
+      <description>Role of work center capacity</description>
+    </column>
+    <column name="ISTBED_KZ" data_type="VARCHAR">
+      <description>Calculation of actual capacity requirements</description>
+    </column>
+    <column name="VGWT1" data_type="VARCHAR">
+      <description>Actual requirements for operation segment setup</description>
+    </column>
+    <column name="VGWT2" data_type="VARCHAR">
+      <description>Actual requirements for operation segment processing</description>
+    </column>
+    <column name="VGWT3" data_type="VARCHAR">
+      <description>Actual capacity requirements for operation segment teardown</description>
+    </column>
+    <column name="VGWTN" data_type="VARCHAR">
+      <description>Actual capacity requirements for in-house processing</description>
+    </column>
+    <column name="CAP_BACKFLUSH_SU" data_type="VARCHAR">
+      <description>Control: Calc. of Remaining Req./Duration After Confirmation</description>
+    </column>
+    <column name="CAP_BACKFLUSH_PR" data_type="VARCHAR">
+      <description>Control: Calc. of Remaining Req./Duration After Confirmation</description>
+    </column>
+    <column name="CAP_BACKFLUSH_TD" data_type="VARCHAR">
+      <description>Control: Calc. of Remaining Req./Duration After Confirmation</description>
+    </column>
+  </columns>
+</data_description>

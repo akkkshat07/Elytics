@@ -1,0 +1,171 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="PA2010">
+  <table_info name="PA2010" total_columns="55"/>
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="PERNR" data_type="VARCHAR">
+      <description>Personnel Number</description>
+    </column>
+    <column name="SUBTY" data_type="VARCHAR">
+      <description>Subtype</description>
+    </column>
+    <column name="OBJPS" data_type="VARCHAR">
+      <description>Object Identification</description>
+    </column>
+    <column name="SPRPS" data_type="VARCHAR">
+      <description>Lock Indicator for HR Master Data Record</description>
+    </column>
+    <column name="ENDDA" data_type="DATE">
+      <description>End Date</description>
+    </column>
+    <column name="BEGDA" data_type="DATE">
+      <description>Start Date</description>
+    </column>
+    <column name="SEQNR" data_type="VARCHAR">
+      <description>Number of Infotype Record With Same Key</description>
+    </column>
+    <column name="AEDTM" data_type="DATE">
+      <description>Last Changed On</description>
+    </column>
+    <column name="UNAME" data_type="VARCHAR">
+      <description>Name of Person Who Changed Object</description>
+    </column>
+    <column name="HISTO" data_type="VARCHAR">
+      <description>Historical Record Flag</description>
+    </column>
+    <column name="ITXEX" data_type="VARCHAR">
+      <description>Text Exists for Infotype</description>
+    </column>
+    <column name="REFEX" data_type="VARCHAR">
+      <description>Reference Fields Exist (Primary/Secondary Costs)</description>
+    </column>
+    <column name="ORDEX" data_type="VARCHAR">
+      <description>Confirmation Fields Exist</description>
+    </column>
+    <column name="ITBLD" data_type="VARCHAR">
+      <description>Infotype Screen Control</description>
+    </column>
+    <column name="PREAS" data_type="VARCHAR">
+      <description>Reason for Changing Master Data</description>
+    </column>
+    <column name="FLAG1" data_type="VARCHAR">
+      <description>Reserved Field/Unused Field</description>
+    </column>
+    <column name="FLAG2" data_type="VARCHAR">
+      <description>Reserved Field/Unused Field</description>
+    </column>
+    <column name="FLAG3" data_type="VARCHAR">
+      <description>Reserved Field/Unused Field</description>
+    </column>
+    <column name="FLAG4" data_type="VARCHAR">
+      <description>Reserved Field/Unused Field</description>
+    </column>
+    <column name="RESE1" data_type="VARCHAR">
+      <description>Reserved Field/Unused Field of Length 2</description>
+    </column>
+    <column name="RESE2" data_type="VARCHAR">
+      <description>Reserved Field/Unused Field of Length 2</description>
+    </column>
+    <column name="GRPVL" data_type="VARCHAR">
+      <description>Grouping Value for Personnel Assignments</description>
+    </column>
+    <column name="BEGUZ" data_type="TIME">
+      <description>Start Time</description>
+    </column>
+    <column name="ENDUZ" data_type="TIME">
+      <description>End Time</description>
+    </column>
+    <column name="VTKEN" data_type="VARCHAR">
+      <description>Previous Day Indicator</description>
+    </column>
+    <column name="STDAZ" data_type="DECIMAL">
+      <description>No.of hours for remuneration info.</description>
+    </column>
+    <column name="LGART" data_type="VARCHAR">
+      <description>Wage Type</description>
+    </column>
+    <column name="ANZHL" data_type="DECIMAL">
+      <description>Number per Time Unit for EE Remuneration Info</description>
+    </column>
+    <column name="ZEINH" data_type="VARCHAR">
+      <description>Time/Measurement Unit</description>
+    </column>
+    <column name="BWGRL" data_type="DECIMAL">
+      <description>Valuation Basis for Different Payment</description>
+    </column>
+    <column name="AUFKZ" data_type="VARCHAR">
+      <description>Extra Pay Indicator</description>
+    </column>
+    <column name="BETRG" data_type="DECIMAL">
+      <description>Wage Type Amount for Payments</description>
+    </column>
+    <column name="ENDOF" data_type="VARCHAR">
+      <description>Indicator for final confirmation</description>
+    </column>
+    <column name="UFLD1" data_type="VARCHAR">
+      <description>User field</description>
+    </column>
+    <column name="UFLD2" data_type="VARCHAR">
+      <description>User field</description>
+    </column>
+    <column name="UFLD3" data_type="VARCHAR">
+      <description>User field</description>
+    </column>
+    <column name="KEYPR" data_type="VARCHAR">
+      <description>Number of Infotype Record with Identical Key</description>
+    </column>
+    <column name="TRFGR" data_type="VARCHAR">
+      <description>Pay Scale Group</description>
+    </column>
+    <column name="TRFST" data_type="VARCHAR">
+      <description>Pay Scale Level</description>
+    </column>
+    <column name="PRAKN" data_type="VARCHAR">
+      <description>Premium Number</description>
+    </column>
+    <column name="PRAKZ" data_type="VARCHAR">
+      <description>Premium Indicator</description>
+    </column>
+    <column name="OTYPE" data_type="VARCHAR">
+      <description>Object Type</description>
+    </column>
+    <column name="PLANS" data_type="VARCHAR">
+      <description>Position</description>
+    </column>
+    <column name="VERSL" data_type="VARCHAR">
+      <description>Overtime Compensation Type</description>
+    </column>
+    <column name="EXBEL" data_type="VARCHAR">
+      <description>External Document Number</description>
+    </column>
+    <column name="WAERS" data_type="VARCHAR">
+      <description>Currency Key</description>
+    </column>
+    <column name="LOGSYS" data_type="VARCHAR">
+      <description>Logical System</description>
+    </column>
+    <column name="AWTYP" data_type="VARCHAR">
+      <description>Reference procedure</description>
+    </column>
+    <column name="AWREF" data_type="VARCHAR">
+      <description>Reference Doc. Number</description>
+    </column>
+    <column name="AWORG" data_type="VARCHAR">
+      <description>Reference organisational units</description>
+    </column>
+    <column name="WTART" data_type="VARCHAR">
+      <description>Work tax area</description>
+    </column>
+    <column name="TDLANGU" data_type="VARCHAR">
+      <description>Definition Set for IDs</description>
+    </column>
+    <column name="TDSUBLA" data_type="VARCHAR">
+      <description>Definition Subset for IDs</description>
+    </column>
+    <column name="TDTYPE" data_type="VARCHAR">
+      <description>Time Data ID Type</description>
+    </column>
+  </columns>
+</data_description>

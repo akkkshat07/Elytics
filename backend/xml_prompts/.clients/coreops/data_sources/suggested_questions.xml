@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8'?>
+<suggested_questions client_id="coreops" generated_at="2026-05-19T15:24:07.713158" count="30">
+  <question id="1">How many sales employees are in each zone and division within the roster?</question>
+  <question id="2">Which states have the highest field sales headcount, split by employee designation?</question>
+  <question id="3">How are employees distributed by city across the Retail division versus other divisions?</question>
+  <question id="4">What percentage of employees are in the Sales department within each zone?</question>
+  <question id="5">Which position codes have the most employees assigned, and which zones are they in?</question>
+  <question id="6">What are the top 10 cities by count of unique employee user logins?</question>
+  <question id="7">How many unique employees have multiple position codes within the same state?</question>
+  <question id="8">Which employees are listed under more than one city, and how frequently does this occur?</question>
+  <question id="9">How does employee headcount by zone compare for TSI designation versus all other designations?</question>
+  <question id="10">Which states have the widest variety of employee designations in the sales roster?</question>
+  <question id="11">What is the average employee headcount per city, segmented by division?</question>
+  <question id="12">Which zones have employee assignments concentrated into the fewest position codes?</question>
+  <question id="13">Which cities have unusually high headcount compared with their state’s total headcount?</question>
+  <question id="14">What is the employee designation breakdown within each zone to identify hierarchy coverage gaps?</question>
+  <question id="15">Which position codes span multiple states, and how many states does each cover?</question>
+  <question id="16">How many distinct user logins exist per designation, and how common are duplicate logins?</question>
+  <question id="17">Which user logins appear shared across different employee IDs in the roster?</question>
+  <question id="18">Which states have the highest proportion of employees outside the Sales department?</question>
+  <question id="19">How evenly are Retail division employees distributed across zones and states?</question>
+  <question id="20">What are the top 10 position codes with the broadest coverage across multiple cities?</question>
+  <question id="21">Which zones have the highest ratio of employees to assigned position codes?</question>
+  <question id="22">Are there cities where a single designation represents more than 80% of employees?</question>
+  <question id="23">Which states show frequent repeats of employee names, suggesting possible roster duplication?</question>
+  <question id="24">What is the unique employee count by zone, further broken down by department?</question>
+  <question id="25">Which cities contain the most diverse mix of divisions among employees?</question>
+  <question id="26">What share of each zone’s employees sits in its top three cities?</question>
+  <question id="27">Which employee designations appear in every zone, and which are specific to certain zones?</question>
+  <question id="28">Within each zone, how do states rank by total employee headcount?</question>
+  <question id="29">Which position codes are associated with multiple divisions, and how many divisions per code?</question>
+  <question id="30">Which cities have low employee headcount but many position codes, indicating fragmented assignments?</question>
+</suggested_questions>

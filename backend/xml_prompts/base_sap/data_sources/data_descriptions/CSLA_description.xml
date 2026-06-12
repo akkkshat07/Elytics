@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="CSLA">
+  <table_info name="CSLA" total_columns="24"/>
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="KOKRS" data_type="VARCHAR">
+      <description>Controlling Area</description>
+    </column>
+    <column name="LSTAR" data_type="VARCHAR">
+      <description>Activity Type</description>
+    </column>
+    <column name="DATBI" data_type="DATE">
+      <description>Valid To Date</description>
+    </column>
+    <column name="DATAB" data_type="DATE">
+      <description>Valid-From Date</description>
+    </column>
+    <column name="LEINH" data_type="VARCHAR">
+      <description>Activity Unit</description>
+    </column>
+    <column name="LATYP" data_type="VARCHAR">
+      <description>Activity Type Category</description>
+    </column>
+    <column name="LATYPI" data_type="VARCHAR">
+      <description>Variant Activity Type Category for Actual Postings</description>
+    </column>
+    <column name="ERSDA" data_type="DATE">
+      <description>Created on</description>
+    </column>
+    <column name="USNAM" data_type="VARCHAR">
+      <description>Entered By</description>
+    </column>
+    <column name="KSTTY" data_type="VARCHAR">
+      <description>Valid Cost Center Categories</description>
+    </column>
+    <column name="AUSEH" data_type="VARCHAR">
+      <description>Output Unit</description>
+    </column>
+    <column name="AUSFK" data_type="DECIMAL">
+      <description>Output factor</description>
+    </column>
+    <column name="VKSTA" data_type="VARCHAR">
+      <description>Allocation Cost Element</description>
+    </column>
+    <column name="LARK1" data_type="VARCHAR">
+      <description>Indicator for component relevancy CO</description>
+    </column>
+    <column name="LARK2" data_type="VARCHAR">
+      <description>Indicator: Component Relevance, HR</description>
+    </column>
+    <column name="SPRKZ" data_type="VARCHAR">
+      <description>Lock Indicator</description>
+    </column>
+    <column name="HRKFT" data_type="VARCHAR">
+      <description>Origin Group as Subdivision of Cost Element</description>
+    </column>
+    <column name="FIXVO" data_type="VARCHAR">
+      <description>Predistribution of fixed costs for acty type/bus. process</description>
+    </column>
+    <column name="TARKZ" data_type="VARCHAR">
+      <description>Price Indicator: Calculate Allocation Price</description>
+    </column>
+    <column name="YRATE" data_type="VARCHAR">
+      <description>Price Calculation with Period-Based Average Prices</description>
+    </column>
+    <column name="TARKZ_I" data_type="VARCHAR">
+      <description>Indicator: Actual Allocation Price</description>
+    </column>
+    <column name="MANIST" data_type="VARCHAR">
+      <description>Indicator: Confirm quantity manually in actual</description>
+    </column>
+    <column name="MANPLAN" data_type="VARCHAR">
+      <description>Indicator: Plan quantity manually set.</description>
+    </column>
+  </columns>
+</data_description>

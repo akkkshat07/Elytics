@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="QPMI">
+  <table_info name="QPMI" total_columns="30" />
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="PLNNR" data_type="VARCHAR">
+      <description>Inspection plan number</description>
+    </column>
+    <column name="PLNAL" data_type="VARCHAR">
+      <description>Inspection plan alternative</description>
+    </column>
+    <column name="PLNFL" data_type="VARCHAR">
+      <description>Inspection plan item number</description>
+    </column>
+    <column name="MERKNR" data_type="VARCHAR">
+      <description>Inspection characteristic number</description>
+    </column>
+    <column name="CHAR_TYPE" data_type="VARCHAR">
+      <description>Characteristic type</description>
+    </column>
+    <column name="CHAR_FORMAT" data_type="VARCHAR">
+      <description>Characteristic format</description>
+    </column>
+    <column name="CHAR_UNIT" data_type="VARCHAR">
+      <description>Characteristic unit of measure</description>
+    </column>
+    <column name="CHAR_DECIMALS" data_type="VARCHAR">
+      <description>Number of decimal places</description>
+    </column>
+    <column name="CHAR_LENGTH" data_type="VARCHAR">
+      <description>Length of characteristic value</description>
+    </column>
+    <column name="CHAR_SCALE" data_type="VARCHAR">
+      <description>Scale for characteristic value</description>
+    </column>
+    <column name="CHAR_TOLERANCE" data_type="VARCHAR">
+      <description>Tolerance for characteristic value</description>
+    </column>
+    <column name="CHAR_TARGET" data_type="DECIMAL">
+      <description>Target value for characteristic</description>
+    </column>
+    <column name="CHAR_UPPER" data_type="DECIMAL">
+      <description>Upper limit for characteristic</description>
+    </column>
+    <column name="CHAR_LOWER" data_type="DECIMAL">
+      <description>Lower limit for characteristic</description>
+    </column>
+    <column name="CHAR_MEAN" data_type="DECIMAL">
+      <description>Mean value for characteristic</description>
+    </column>
+    <column name="CHAR_STDDEV" data_type="DECIMAL">
+      <description>Standard deviation for characteristic</description>
+    </column>
+    <column name="CHAR_METHOD" data_type="VARCHAR">
+      <description>Inspection method</description>
+    </column>
+    <column name="CHAR_SAMPLING" data_type="VARCHAR">
+      <description>Sampling procedure</description>
+    </column>
+    <column name="CHAR_SAMPLE_SIZE" data_type="DECIMAL">
+      <description>Sample size</description>
+    </column>
+    <column name="CHAR_SAMPLE_UNIT" data_type="VARCHAR">
+      <description>Sample unit of measure</description>
+    </column>
+    <column name="CHAR_FREQUENCY" data_type="VARCHAR">
+      <description>Inspection frequency</description>
+    </column>
+    <column name="CHAR_PRIORITY" data_type="VARCHAR">
+      <description>Inspection priority</description>
+    </column>
+    <column name="CHAR_STATUS" data_type="VARCHAR">
+      <description>Status of inspection characteristic</description>
+    </column>
+    <column name="CHAR_REQUIRED" data_type="VARCHAR">
+      <description>Required indicator</description>
+    </column>
+    <column name="CHAR_HIDDEN" data_type="VARCHAR">
+      <description>Hidden indicator</description>
+    </column>
+    <column name="CHAR_READONLY" data_type="VARCHAR">
+      <description>Read-only indicator</description>
+    </column>
+    <column name="CHAR_DEFAULT" data_type="VARCHAR">
+      <description>Default value</description>
+    </column>
+    <column name="ERDAT" data_type="DATE">
+      <description>Date on Which Record Was Created</description>
+    </column>
+    <column name="ERNAM" data_type="VARCHAR">
+      <description>Name of Person Responsible for Creating the Object</description>
+    </column>
+  </columns>
+</data_description>

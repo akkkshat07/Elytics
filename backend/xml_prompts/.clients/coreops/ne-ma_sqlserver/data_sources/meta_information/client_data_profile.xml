@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<client_data_profile client_id="coreops" generated_at="2026-04-01T07:35:38.722906Z">
+  <company_profile>
+    <industry confidence="0.85">retail</industry>
+    <geography confidence="0.88">india</geography>
+    <locale>en_IN</locale>
+  </company_profile>
+  <formatting>
+    <date_formats>
+      <format pattern="YYYY-MM-DD" confidence="0.51"/>
+      <format pattern="YYYYMMDD" confidence="0.35"/>
+      <format pattern="DD/MM/YYYY" confidence="0.09"/>
+      <format pattern="MM/DD/YYYY" confidence="0.05"/>
+    </date_formats>
+    <fiscal_year start_month="4" label="April-"/>
+  </formatting>
+  <data_characteristics>
+    <table_relationships>
+      <relationship from_table="NE_ClientRetailMasterDataTable" from_col="Client_Id" to_table="NE_DMSSaleReportTable" to_col="Client_Id"/>
+      <relationship from_table="NE_ClientRetailMasterDataTable" from_col="Client_Id" to_table="NE_EmployeeWorkReportTable" to_col="Client_Id"/>
+      <relationship from_table="NE_ClientRetailMasterDataTable" from_col="Client_Id" to_table="NE_OrderSKUReportTable" to_col="Client_Id"/>
+      <relationship from_table="NE_ClientRetailMasterDataTable" from_col="Client_Id" to_table="NE_SNSReportData" to_col="Client_Id"/>
+      <relationship from_table="NE_DMSSaleReportTable" from_col="Client_Id" to_table="NE_EmployeeWorkReportTable" to_col="Client_Id"/>
+      <relationship from_table="NE_DMSSaleReportTable" from_col="Client_Id" to_table="NE_OrderSKUReportTable" to_col="Client_Id"/>
+      <relationship from_table="NE_DMSSaleReportTable" from_col="Client_Id" to_table="NE_SNSReportData" to_col="Client_Id"/>
+      <relationship from_table="NE_EmployeeWorkReportTable" from_col="Client_Id" to_table="NE_OrderSKUReportTable" to_col="Client_Id"/>
+      <relationship from_table="NE_EmployeeWorkReportTable" from_col="Client_Id" to_table="NE_SNSReportData" to_col="Client_Id"/>
+      <relationship from_table="NE_OrderSKUReportTable" from_col="Client_Id" to_table="NE_SNSReportData" to_col="Client_Id"/>
+      <relationship from_table="NE_ClientRetailMasterDataTable" from_col="Emp_Id" to_table="NE_DMSSaleReportTable" to_col="Emp_Id"/>
+      <relationship from_table="NE_ClientRetailMasterDataTable" from_col="Emp_Id" to_table="NE_EmployeeWorkReportTable" to_col="Emp_Id"/>
+      <relationship from_table="NE_DMSSaleReportTable" from_col="Emp_Id" to_table="NE_EmployeeWorkReportTable" to_col="Emp_Id"/>
+      <relationship from_table="NE_DMSSaleReportTable" from_col="Order_Id" to_table="NE_OrderSKUReportTable" to_col="Order_Id"/>
+      <relationship from_table="NE_DMSSaleReportTable" from_col="Variant_Id" to_table="NE_OrderSKUReportTable" to_col="Variant_Id"/>
+      <relationship from_table="NE_DMSSaleReportTable" from_col="Variant_Id" to_table="NE_SNSReportData" to_col="Variant_Id"/>
+      <relationship from_table="NE_OrderSKUReportTable" from_col="Variant_Id" to_table="NE_SNSReportData" to_col="Variant_Id"/>
+      <relationship from_table="NE_OrderSKUReportTable" from_col="Product_Id" to_table="NE_SNSReportData" to_col="Product_Id"/>
+    </table_relationships>
+  </data_characteristics>
+</client_data_profile>

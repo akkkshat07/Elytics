@@ -1,0 +1,486 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="RBKP">
+  <table_info name="RBKP" total_columns="160"/>
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="BELNR" data_type="VARCHAR">
+      <description>Document Number of an Invoice Document</description>
+    </column>
+    <column name="GJAHR" data_type="VARCHAR">
+      <description>Fiscal Year</description>
+    </column>
+    <column name="BLART" data_type="VARCHAR">
+      <description>Document Type</description>
+    </column>
+    <column name="BLDAT" data_type="DATE">
+      <description>Document Date in Document</description>
+    </column>
+    <column name="BUDAT" data_type="DATE">
+      <description>Posting Date in the Document</description>
+    </column>
+    <column name="USNAM" data_type="VARCHAR">
+      <description>User Name</description>
+    </column>
+    <column name="TCODE" data_type="VARCHAR">
+      <description>Transaction Code</description>
+    </column>
+    <column name="CPUDT" data_type="DATE">
+      <description>Day On Which Accounting Document Was Entered</description>
+    </column>
+    <column name="CPUTM" data_type="TIME">
+      <description>Time of Entry</description>
+    </column>
+    <column name="VGART" data_type="VARCHAR">
+      <description>Transaction Type in AG08 (Internal Document Type)</description>
+    </column>
+    <column name="XBLNR" data_type="VARCHAR">
+      <description>Reference Document Number</description>
+    </column>
+    <column name="BUKRS" data_type="VARCHAR">
+      <description>Company Code</description>
+    </column>
+    <column name="LIFNR" data_type="VARCHAR">
+      <description>Different Invoicing Party</description>
+    </column>
+    <column name="WAERS" data_type="VARCHAR">
+      <description>Currency Key</description>
+    </column>
+    <column name="KURSF" data_type="DECIMAL">
+      <description>Exchange rate</description>
+    </column>
+    <column name="RMWWR" data_type="DECIMAL">
+      <description>Gross invoice amount in document currency</description>
+    </column>
+    <column name="BEZNK" data_type="DECIMAL">
+      <description>Unplanned delivery costs</description>
+    </column>
+    <column name="WMWST1" data_type="DECIMAL">
+      <description>Tax Amount in Document Currency with +/- Sign</description>
+    </column>
+    <column name="MWSKZ1" data_type="VARCHAR">
+      <description>Tax code</description>
+    </column>
+    <column name="WMWST2" data_type="DECIMAL">
+      <description>Obsolete: tax amount in document currency - do NOT use!</description>
+    </column>
+    <column name="MWSKZ2" data_type="VARCHAR">
+      <description>Obsolete: sales tax code</description>
+    </column>
+    <column name="ZTERM" data_type="VARCHAR">
+      <description>Terms of Payment Key</description>
+    </column>
+    <column name="ZBD1T" data_type="DECIMAL">
+      <description>Cash discount days 1</description>
+    </column>
+    <column name="ZBD1P" data_type="DECIMAL">
+      <description>Cash discount percentage 1</description>
+    </column>
+    <column name="ZBD2T" data_type="DECIMAL">
+      <description>Cash discount days 2</description>
+    </column>
+    <column name="ZBD2P" data_type="DECIMAL">
+      <description>Cash Discount Percentage 2</description>
+    </column>
+    <column name="ZBD3T" data_type="DECIMAL">
+      <description>Net Payment Terms Period</description>
+    </column>
+    <column name="WSKTO" data_type="DECIMAL">
+      <description>Cash Discount Amount in Document Currency</description>
+    </column>
+    <column name="XRECH" data_type="VARCHAR">
+      <description>Indicator: post invoice</description>
+    </column>
+    <column name="BKTXT" data_type="VARCHAR">
+      <description>Document Header Text</description>
+    </column>
+    <column name="SAPRL" data_type="VARCHAR">
+      <description>SAP Release</description>
+    </column>
+    <column name="LOGSYS" data_type="VARCHAR">
+      <description>Logical System</description>
+    </column>
+    <column name="XMWST" data_type="VARCHAR">
+      <description>Calculate tax automatically</description>
+    </column>
+    <column name="STBLG" data_type="VARCHAR">
+      <description>Reversal document number</description>
+    </column>
+    <column name="STJAH" data_type="VARCHAR">
+      <description>Fiscal year of reversal document</description>
+    </column>
+    <column name="MWSKZ_BNK" data_type="VARCHAR">
+      <description>Tax Code</description>
+    </column>
+    <column name="TXJCD_BNK" data_type="VARCHAR">
+      <description>Tax Jurisdiction</description>
+    </column>
+    <column name="IVTYP" data_type="VARCHAR">
+      <description>Origin of a Logistics Invoice Verification Document</description>
+    </column>
+    <column name="XRBTX" data_type="VARCHAR">
+      <description>Indicator: more than one tax code</description>
+    </column>
+    <column name="REPART" data_type="VARCHAR">
+      <description>Indicator: Invoice Verification Type</description>
+    </column>
+    <column name="RBSTAT" data_type="VARCHAR">
+      <description>Invoice document status</description>
+    </column>
+    <column name="KNUMVE" data_type="VARCHAR">
+      <description>Document condition - own conditions</description>
+    </column>
+    <column name="KNUMVL" data_type="VARCHAR">
+      <description>Document condition - vendor error</description>
+    </column>
+    <column name="ARKUEN" data_type="DECIMAL">
+      <description>Automatic Invoice Reduction Amount (Net)</description>
+    </column>
+    <column name="ARKUEMW" data_type="DECIMAL">
+      <description>Sales Tax Portion of Automatic Invoice Reduction Amount</description>
+    </column>
+    <column name="MAKZN" data_type="DECIMAL">
+      <description>Manually accepted net difference amount</description>
+    </column>
+    <column name="MAKZMW" data_type="DECIMAL">
+      <description>Tax Amount Accepted Manually</description>
+    </column>
+    <column name="LIEFFN" data_type="DECIMAL">
+      <description>Vendor error (exclusive of tax)</description>
+    </column>
+    <column name="LIEFFMW" data_type="DECIMAL">
+      <description>Tax in vendor error</description>
+    </column>
+    <column name="XAUTAKZ" data_type="VARCHAR">
+      <description>Indicates automatically accepted invoices</description>
+    </column>
+    <column name="ESRNR" data_type="VARCHAR">
+      <description>ISR Subscriber Number</description>
+    </column>
+    <column name="ESRPZ" data_type="VARCHAR">
+      <description>POR check digit</description>
+    </column>
+    <column name="ESRRE" data_type="VARCHAR">
+      <description>ISR/QR Reference Number</description>
+    </column>
+    <column name="QSSHB" data_type="DECIMAL">
+      <description>Withholding Tax Base Amount</description>
+    </column>
+    <column name="QSFBT" data_type="DECIMAL">
+      <description>Withholding Tax-Exempt Amount (in Document Currency)</description>
+    </column>
+    <column name="QSSKZ" data_type="VARCHAR">
+      <description>Withholding Tax Code</description>
+    </column>
+    <column name="DIEKZ" data_type="VARCHAR">
+      <description>Service Indicator (Foreign Payment)</description>
+    </column>
+    <column name="LANDL" data_type="VARCHAR">
+      <description>Supplying Country</description>
+    </column>
+    <column name="LZBKZ" data_type="VARCHAR">
+      <description>State Central Bank Indicator</description>
+    </column>
+    <column name="TXKRS" data_type="DECIMAL">
+      <description>Exchange Rate for Taxes</description>
+    </column>
+    <column name="CTXKRS" data_type="DECIMAL">
+      <description>Rate for Tax Values in Local Currency (Plants Abroad)</description>
+    </column>
+    <column name="EMPFB" data_type="VARCHAR">
+      <description>Payee/Payer</description>
+    </column>
+    <column name="BVTYP" data_type="VARCHAR">
+      <description>Partner bank type</description>
+    </column>
+    <column name="HBKID" data_type="VARCHAR">
+      <description>Short Key for a House Bank</description>
+    </column>
+    <column name="ZUONR" data_type="VARCHAR">
+      <description>Assignment number</description>
+    </column>
+    <column name="ZLSPR" data_type="VARCHAR">
+      <description>Payment Block Key</description>
+    </column>
+    <column name="ZLSCH" data_type="VARCHAR">
+      <description>Payment Method</description>
+    </column>
+    <column name="ZFBDT" data_type="DATE">
+      <description>Baseline Date for Due Date Calculation</description>
+    </column>
+    <column name="KIDNO" data_type="VARCHAR">
+      <description>Payment Reference</description>
+    </column>
+    <column name="REBZG" data_type="VARCHAR">
+      <description>Invoice reference: Document number for invoice reference</description>
+    </column>
+    <column name="REBZJ" data_type="VARCHAR">
+      <description>Fiscal Year of the Relevant Invoice (for Credit Memo)</description>
+    </column>
+    <column name="XINVE" data_type="VARCHAR">
+      <description>Indicator: Capital Goods Affected?</description>
+    </column>
+    <column name="EGMLD" data_type="VARCHAR">
+      <description>Reporting Country for Delivery of Goods within the EU</description>
+    </column>
+    <column name="XEGDR" data_type="VARCHAR">
+      <description>Indicator: Triangular deal within the EU ?</description>
+    </column>
+    <column name="VATDATE" data_type="DATE">
+      <description>Tax Reporting Date</description>
+    </column>
+    <column name="HKONT" data_type="VARCHAR">
+      <description>General Ledger Account</description>
+    </column>
+    <column name="J_1BNFTYPE" data_type="VARCHAR">
+      <description>Nota Fiscal Type</description>
+    </column>
+    <column name="BRNCH" data_type="VARCHAR">
+      <description>Branch Number</description>
+    </column>
+    <column name="ERFPR" data_type="VARCHAR">
+      <description>Entry profile: Logistics Invoice Verification</description>
+    </column>
+    <column name="SECCO" data_type="VARCHAR">
+      <description>Section Code</description>
+    </column>
+    <column name="NAME1" data_type="VARCHAR">
+      <description>Name 1</description>
+    </column>
+    <column name="NAME2" data_type="VARCHAR">
+      <description>Name 2</description>
+    </column>
+    <column name="NAME3" data_type="VARCHAR">
+      <description>Name 3</description>
+    </column>
+    <column name="NAME4" data_type="VARCHAR">
+      <description>Name 4</description>
+    </column>
+    <column name="PSTLZ" data_type="VARCHAR">
+      <description>Postal Code</description>
+    </column>
+    <column name="ORT01" data_type="VARCHAR">
+      <description>City</description>
+    </column>
+    <column name="LAND1" data_type="VARCHAR">
+      <description>Country Key</description>
+    </column>
+    <column name="STRAS" data_type="VARCHAR">
+      <description>Street and House Number</description>
+    </column>
+    <column name="PFACH" data_type="VARCHAR">
+      <description>PO Box</description>
+    </column>
+    <column name="PSTL2" data_type="VARCHAR">
+      <description>P.O. Box Postal Code</description>
+    </column>
+    <column name="PSKTO" data_type="VARCHAR">
+      <description>PO Bank Current Acct No. or Building Society Ref. No.</description>
+    </column>
+    <column name="BANKN" data_type="VARCHAR">
+      <description>Bank Account Number</description>
+    </column>
+    <column name="BANKL" data_type="VARCHAR">
+      <description>Bank Number</description>
+    </column>
+    <column name="BANKS" data_type="VARCHAR">
+      <description>Bank Country Key</description>
+    </column>
+    <column name="STCD1" data_type="VARCHAR">
+      <description>Tax Number 1</description>
+    </column>
+    <column name="STCD2" data_type="VARCHAR">
+      <description>Tax Number 2</description>
+    </column>
+    <column name="STKZU" data_type="VARCHAR">
+      <description>Liable for VAT</description>
+    </column>
+    <column name="STKZA" data_type="VARCHAR">
+      <description>Indicator: Business Partner Subject to Equalization Tax?</description>
+    </column>
+    <column name="REGIO" data_type="VARCHAR">
+      <description>Region (State, Province, County)</description>
+    </column>
+    <column name="BKONT" data_type="VARCHAR">
+      <description>Bank Control Key</description>
+    </column>
+    <column name="DTAWS" data_type="VARCHAR">
+      <description>Instruction Key for Data Medium Exchange</description>
+    </column>
+    <column name="DTAMS" data_type="VARCHAR">
+      <description>Recipient Code for Data Medium Exchange</description>
+    </column>
+    <column name="SPRAS" data_type="VARCHAR">
+      <description>Character field of length 1</description>
+    </column>
+    <column name="XCPDK" data_type="VARCHAR">
+      <description>Indicator: Is the account a one-time account?</description>
+    </column>
+    <column name="EMPFG" data_type="VARCHAR">
+      <description>Payment Recipient Code</description>
+    </column>
+    <column name="FITYP" data_type="VARCHAR">
+      <description>Tax Type</description>
+    </column>
+    <column name="STCDT" data_type="VARCHAR">
+      <description>Tax Number Type</description>
+    </column>
+    <column name="STKZN" data_type="VARCHAR">
+      <description>Natural Person</description>
+    </column>
+    <column name="STCD3" data_type="VARCHAR">
+      <description>Tax Number 3</description>
+    </column>
+    <column name="STCD4" data_type="VARCHAR">
+      <description>Tax Number 4</description>
+    </column>
+    <column name="BKREF" data_type="VARCHAR">
+      <description>Reference Details for Bank Details</description>
+    </column>
+    <column name="J_1KFREPRE" data_type="VARCHAR">
+      <description>Name of Representative</description>
+    </column>
+    <column name="J_1KFTBUS" data_type="VARCHAR">
+      <description>Type of Business</description>
+    </column>
+    <column name="J_1KFTIND" data_type="VARCHAR">
+      <description>Type of Industry</description>
+    </column>
+    <column name="ANRED" data_type="VARCHAR">
+      <description>Title</description>
+    </column>
+    <column name="STCEG" data_type="VARCHAR">
+      <description>VAT Registration Number</description>
+    </column>
+    <column name="STCD5" data_type="VARCHAR">
+      <description>Tax Number 5</description>
+    </column>
+    <column name="INTAD" data_type="VARCHAR">
+      <description>Internet address of partner company clerk</description>
+    </column>
+    <column name="GLO_RE1_OT" data_type="VARCHAR">
+      <description>Country specific Reference in the One Time Account Data</description>
+    </column>
+    <column name="ERNAME" data_type="VARCHAR">
+      <description>Entered by external system user</description>
+    </column>
+    <column name="REINDAT" data_type="DATE">
+      <description>Invoice Receipt Date</description>
+    </column>
+    <column name="UZAWE" data_type="VARCHAR">
+      <description>Payment method supplement</description>
+    </column>
+    <column name="FDLEV" data_type="VARCHAR">
+      <description>Planning Level</description>
+    </column>
+    <column name="FDTAG" data_type="DATE">
+      <description>Planning Date</description>
+    </column>
+    <column name="ZBFIX" data_type="VARCHAR">
+      <description>Fixed Payment Terms</description>
+    </column>
+    <column name="FRGKZ" data_type="VARCHAR">
+      <description>Indicator: Release Required</description>
+    </column>
+    <column name="ERFNAM" data_type="VARCHAR">
+      <description>Name of the Processor Who Entered the Object</description>
+    </column>
+    <column name="BUPLA" data_type="VARCHAR">
+      <description>Business Place</description>
+    </column>
+    <column name="FILKD" data_type="VARCHAR">
+      <description>Account Number of the Branch</description>
+    </column>
+    <column name="GSBER" data_type="VARCHAR">
+      <description>Business Area</description>
+    </column>
+    <column name="LOTKZ" data_type="VARCHAR">
+      <description>Lot Number for Documents</description>
+    </column>
+    <column name="SGTXT" data_type="VARCHAR">
+      <description>Item Text</description>
+    </column>
+    <column name="INV_TRAN" data_type="VARCHAR">
+      <description>Transaction in Logistics Invoice Verification</description>
+    </column>
+    <column name="PREPAY_STATUS" data_type="VARCHAR">
+      <description>Prepayment Status</description>
+    </column>
+    <column name="PREPAY_AWKEY" data_type="VARCHAR">
+      <description>Invoice Document Number Created for Prepayment</description>
+    </column>
+    <column name="ASSIGN_STATUS" data_type="VARCHAR">
+      <description>Is the invoice in the assignment test process?</description>
+    </column>
+    <column name="ASSIGN_NEXT_DATE" data_type="DATE">
+      <description>Date of Next Assignment Test</description>
+    </column>
+    <column name="ASSIGN_END_DATE" data_type="DATE">
+      <description>End Date of Assignment Test Period</description>
+    </column>
+    <column name="COPY_BY_BELNR" data_type="VARCHAR">
+      <description>Invoice Document Number of Original Invoice</description>
+    </column>
+    <column name="COPY_BY_YEAR" data_type="VARCHAR">
+      <description>Fiscal Year of Original Invoice</description>
+    </column>
+    <column name="COPY_TO_BELNR" data_type="VARCHAR">
+      <description>Invoice Document Number of Copied Invoice</description>
+    </column>
+    <column name="COPY_TO_YEAR" data_type="VARCHAR">
+      <description>Fiscal Year of Copied Invoice</description>
+    </column>
+    <column name="COPY_USER" data_type="VARCHAR">
+      <description>User That Reversed and Copied the Invoice</description>
+    </column>
+    <column name="KURSX" data_type="DECIMAL">
+      <description>Market Data Exchange Rate</description>
+    </column>
+    <column name="WWERT" data_type="DATE">
+      <description>Translation Date</description>
+    </column>
+    <column name="XREF3" data_type="VARCHAR">
+      <description>Reference key for line item</description>
+    </column>
+    <column name="J_1TPBUPL" data_type="VARCHAR">
+      <description>Branch Code</description>
+    </column>
+    <column name="ISEOPBLOCKED" data_type="VARCHAR">
+      <description>Business Purpose Completed</description>
+    </column>
+    <column name="LASTCHANGEDATETIME" data_type="DECIMAL">
+      <description>UTC Time Stamp in Long Form (YYYYMMDDhhmmssmmmuuun)</description>
+    </column>
+    <column name="CIM_REPLICATIONTIMESTAMP" data_type="DECIMAL">
+      <description>UTC Time Stamp in Long Form (YYYYMMDDhhmmssmmmuuun)</description>
+    </column>
+    <column name="GST_PART" data_type="VARCHAR">
+      <description>GST Partner</description>
+    </column>
+    <column name="PLC_SUP" data_type="VARCHAR">
+      <description>Place of Supply</description>
+    </column>
+    <column name="IRN" data_type="VARCHAR">
+      <description>Invoice Reference Number</description>
+    </column>
+    <column name="PYBASTYP" data_type="VARCHAR">
+      <description>Type of Payment Basis Document</description>
+    </column>
+    <column name="PYBASNO" data_type="VARCHAR">
+      <description>Payment Basis Document Number</description>
+    </column>
+    <column name="PYBASDAT" data_type="DATE">
+      <description>Payment Basis Document Date</description>
+    </column>
+    <column name="PYIBAN" data_type="VARCHAR">
+      <description>IBAN (International Bank Account Number)</description>
+    </column>
+    <column name="INWARDNO_HD" data_type="VARCHAR">
+      <description>Incoming Document Number</description>
+    </column>
+    <column name="INWARDDT_HD" data_type="DATE">
+      <description>Incoming Document Date</description>
+    </column>
+  </columns>
+</data_description>

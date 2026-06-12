@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="CSKA">
+  <table_info name="CSKA" total_columns="9"/>
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="KTOPL" data_type="VARCHAR">
+      <description>Chart of Accounts</description>
+    </column>
+    <column name="KSTAR" data_type="VARCHAR">
+      <description>Cost Element</description>
+    </column>
+    <column name="ERSDA" data_type="DATE">
+      <description>Created on</description>
+    </column>
+    <column name="USNAM" data_type="VARCHAR">
+      <description>Entered By</description>
+    </column>
+    <column name="STEKZ" data_type="VARCHAR">
+      <description>Cost element is tax-relevant</description>
+    </column>
+    <column name="ZAHKZ" data_type="VARCHAR">
+      <description>Cost element affecting payment</description>
+    </column>
+    <column name="KSTSN" data_type="VARCHAR">
+      <description>Cost element</description>
+    </column>
+    <column name="FUNC_AREA" data_type="VARCHAR">
+      <description>Functional Area</description>
+    </column>
+  </columns>
+</data_description>

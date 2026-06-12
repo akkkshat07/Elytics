@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="OBJK">
+  <table_info name="OBJK" total_columns="17" />
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client identifier in the SAP system (e.g., 100, 200). Used to separate data belonging to different corporate entities or environments.</description>
+    </column>
+    <column name="OBKNR" data_type="INTEGER">
+      <description>Primary key of the object record – a unique alphanumeric identifier for the business object (e.g., equipment, functional location). Analysts use it to join with related tables.</description>
+    </column>
+    <column name="OBZAE" data_type="INTEGER">
+      <description>Object status code indicating the current lifecycle phase (e.g., 'A' for active, 'I' for inactive). Helps filter objects by operational status.</description>
+    </column>
+    <column name="EQUNR" data_type="VARCHAR">
+      <description>Equipment number assigned by SAP Plant Maintenance. Typical values are numeric strings like '00012345' and are used to track individual pieces of equipment.</description>
+    </column>
+    <column name="IHNUM" data_type="VARCHAR">
+      <description>Technical identification number for the installation hierarchy (often a functional location). Allows grouping of equipment under a common location.</description>
+    </column>
+    <column name="BAUTL" data_type="VARCHAR">
+      <description>Business area or utility code that classifies the object by functional domain (e.g., 'ELEC' for electrical). Used for reporting across business segments.</description>
+    </column>
+    <column name="ILOAN" data_type="VARCHAR">
+      <description>Indicator flag showing whether the object is on loan or temporarily assigned (e.g., 'X' for yes, blank for no). Important for asset availability analysis.</description>
+    </column>
+    <column name="SORTF" data_type="VARCHAR">
+      <description>User‑defined sort field that determines the display order of objects in SAP screens. Analysts can sort reports using this column for custom sequencing.</description>
+    </column>
+    <column name="BEARB" data_type="VARCHAR">
+      <description>User ID of the person who last processed or changed the record. Typical values are SAP usernames like 'JSMITH'. Useful for audit trails.</description>
+    </column>
+    <column name="OBJVW" data_type="VARCHAR">
+      <description>Object view type that specifies the perspective of the data (e.g., 'E' for equipment view, 'F' for functional location view). Determines which attributes are relevant for the row.</description>
+    </column>
+    <column name="SERNR" data_type="VARCHAR">
+      <description>Serial number of the equipment, often supplied by the manufacturer. Appears as a mixed alphanumeric string such as 'SN12345' and is key for warranty tracking.</description>
+    </column>
+    <column name="MATNR" data_type="VARCHAR">
+      <description>Material number linked to the object, referencing the SAP material master (e.g., '40000123'). Enables cost and inventory analysis tied to the object.</description>
+    </column>
+    <column name="DATUM" data_type="DATE">
+      <description>Date field (YYYYMMDD) indicating the reference date for the record, such as creation or last status change. Analysts use it for time‑based reporting.</description>
+    </column>
+    <column name="EQSNR" data_type="VARCHAR">
+      <description>Equipment serial number used internally by SAP for unique identification when multiple serial numbers exist. Usually a numeric sequence.</description>
+    </column>
+    <column name="TASER" data_type="VARCHAR">
+      <description>Technical attribute set identifier that groups objects with similar technical characteristics. Helps in bulk maintenance planning.</description>
+    </column>
+    <column name="UII" data_type="VARCHAR">
+      <description>Unique Item Identifier – a globally unique reference (often a GUID) for the object, used in integration scenarios and external systems.</description>
+    </column>
+    <column name="EAM_BADI_FLAG" data_type="VARCHAR">
+      <description>Boolean flag (e.g., 'X' or blank) indicating whether a custom BADI (Business Add‑In) has been applied to the object. Useful for tracing custom logic execution.</description>
+    </column>
+  </columns>
+</data_description>

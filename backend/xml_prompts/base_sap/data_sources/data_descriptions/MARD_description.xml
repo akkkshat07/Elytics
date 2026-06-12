@@ -1,0 +1,159 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="MARD">
+  <table_info name="MARD" total_columns="51"/>
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="MATNR" data_type="VARCHAR">
+      <description>Material Number</description>
+    </column>
+    <column name="WERKS" data_type="VARCHAR">
+      <description>Plant</description>
+    </column>
+    <column name="LGORT" data_type="VARCHAR">
+      <description>Storage Location</description>
+    </column>
+    <column name="PSTAT" data_type="VARCHAR">
+      <description>Maintenance status</description>
+    </column>
+    <column name="LVORM" data_type="VARCHAR">
+      <description>Flag Material for Deletion at Storage Location Level</description>
+    </column>
+    <column name="LFGJA" data_type="VARCHAR">
+      <description>Fiscal Year of Current Period</description>
+    </column>
+    <column name="LFMON" data_type="VARCHAR">
+      <description>Current period (posting period)</description>
+    </column>
+    <column name="SPERR" data_type="VARCHAR">
+      <description>Physical Inventory Blocking Indicator</description>
+    </column>
+    <column name="LABST" data_type="DECIMAL">
+      <description>Valuated Unrestricted-Use Stock</description>
+    </column>
+    <column name="UMLME" data_type="DECIMAL">
+      <description>Stock in transfer (from one storage location to another)</description>
+    </column>
+    <column name="INSME" data_type="DECIMAL">
+      <description>Stock in Quality Inspection</description>
+    </column>
+    <column name="EINME" data_type="DECIMAL">
+      <description>Total Stock of All Restricted Batches</description>
+    </column>
+    <column name="SPEME" data_type="DECIMAL">
+      <description>Blocked Stock</description>
+    </column>
+    <column name="RETME" data_type="DECIMAL">
+      <description>Blocked Stock Returns</description>
+    </column>
+    <column name="VMLAB" data_type="DECIMAL">
+      <description>Valuated unrestricted-use stock in previous period</description>
+    </column>
+    <column name="VMUML" data_type="DECIMAL">
+      <description>Stock in Transfer in Previous Period</description>
+    </column>
+    <column name="VMINS" data_type="DECIMAL">
+      <description>Stock in Quality Inspection in Previous Period</description>
+    </column>
+    <column name="VMEIN" data_type="DECIMAL">
+      <description>Restricted-Use Stock in Previous Period</description>
+    </column>
+    <column name="VMSPE" data_type="DECIMAL">
+      <description>Blocked stock of previous period</description>
+    </column>
+    <column name="VMRET" data_type="DECIMAL">
+      <description>Blocked Stock Returns in Previous Period</description>
+    </column>
+    <column name="KZILL" data_type="VARCHAR">
+      <description>Physical inventory indicator for whse stock in current year</description>
+    </column>
+    <column name="KZILQ" data_type="VARCHAR">
+      <description>Phys. inventory ind. f. stock in qual. insp. in current year</description>
+    </column>
+    <column name="KZILE" data_type="VARCHAR">
+      <description>Physical inventory indicator for restricted-use stock</description>
+    </column>
+    <column name="KZILS" data_type="VARCHAR">
+      <description>Physical inventory indicator for blocked stock</description>
+    </column>
+    <column name="KZVLL" data_type="VARCHAR">
+      <description>Physical inventory indicator for stock in previous year</description>
+    </column>
+    <column name="KZVLQ" data_type="VARCHAR">
+      <description>Phys. inventory ind. f. stock in qual. insp. in prev. period</description>
+    </column>
+    <column name="KZVLE" data_type="VARCHAR">
+      <description>Physical inventory ind. for restricted-use stock, prev.pd</description>
+    </column>
+    <column name="KZVLS" data_type="VARCHAR">
+      <description>Phys. inventory indicator for blocked stock in prev. period</description>
+    </column>
+    <column name="DISKZ" data_type="VARCHAR">
+      <description>Storage location MRP indicator</description>
+    </column>
+    <column name="LSOBS" data_type="VARCHAR">
+      <description>Special procurement type at storage location level</description>
+    </column>
+    <column name="LMINB" data_type="DECIMAL">
+      <description>Reorder point for storage location MRP</description>
+    </column>
+    <column name="LBSTF" data_type="DECIMAL">
+      <description>Replenishment quantity for storage location MRP</description>
+    </column>
+    <column name="HERKL" data_type="VARCHAR">
+      <description>Country of Origin of Material (Non-Preferential Origin)</description>
+    </column>
+    <column name="EXPPG" data_type="VARCHAR">
+      <description>Preference indicator (deactivated)</description>
+    </column>
+    <column name="EXVER" data_type="VARCHAR">
+      <description>Export indicator (deactivated)</description>
+    </column>
+    <column name="LGPBE" data_type="VARCHAR">
+      <description>Storage Bin</description>
+    </column>
+    <column name="KLABS" data_type="DECIMAL">
+      <description>Unrestricted-Use Consignment Stock</description>
+    </column>
+    <column name="KINSM" data_type="DECIMAL">
+      <description>Consignment Stock in Quality Inspection</description>
+    </column>
+    <column name="KEINM" data_type="DECIMAL">
+      <description>Restricted-Use Consignment Stock</description>
+    </column>
+    <column name="KSPEM" data_type="DECIMAL">
+      <description>Blocked Consignment Stock</description>
+    </column>
+    <column name="DLINL" data_type="DATE">
+      <description>Date of Last Posted Count</description>
+    </column>
+    <column name="PRCTL" data_type="VARCHAR">
+      <description>Profit Center</description>
+    </column>
+    <column name="ERSDA" data_type="DATE">
+      <description>Created On</description>
+    </column>
+    <column name="VKLAB" data_type="DECIMAL">
+      <description>Stock value of a value-only material at sales price</description>
+    </column>
+    <column name="VKUML" data_type="DECIMAL">
+      <description>Sales value in stock transfer (SLOc to SLoc)</description>
+    </column>
+    <column name="LWMKB" data_type="VARCHAR">
+      <description>Picking area for lean WM</description>
+    </column>
+    <column name="BSKRF" data_type="FLOAT">
+      <description>Inventory correction factor</description>
+    </column>
+    <column name="MDRUE" data_type="VARCHAR">
+      <description>MARDH rec. already exists for per. before last of MARD per.</description>
+    </column>
+    <column name="MDJIN" data_type="VARCHAR">
+      <description>Fiscal year of current physical inventory indicator</description>
+    </column>
+    <column name="FSH_SALLOC_QTY_S" data_type="DECIMAL">
+      <description>Allocated Stock Quantity</description>
+    </column>
+  </columns>
+</data_description>

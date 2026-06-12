@@ -1,0 +1,231 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="KNVK">
+  <table_info name="KNVK" total_columns="75"/>
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="PARNR" data_type="VARCHAR">
+      <description>Number of contact person</description>
+    </column>
+    <column name="KUNNR" data_type="VARCHAR">
+      <description>Customer Number</description>
+    </column>
+    <column name="NAMEV" data_type="VARCHAR">
+      <description>First name</description>
+    </column>
+    <column name="NAME1" data_type="VARCHAR">
+      <description>Name 1</description>
+    </column>
+    <column name="ORT01" data_type="VARCHAR">
+      <description>City</description>
+    </column>
+    <column name="ADRND" data_type="VARCHAR">
+      <description>Business address</description>
+    </column>
+    <column name="ADRNP" data_type="VARCHAR">
+      <description>Home address</description>
+    </column>
+    <column name="ABTPA" data_type="VARCHAR">
+      <description>Contact person's department at customer</description>
+    </column>
+    <column name="ABTNR" data_type="VARCHAR">
+      <description>Contact person department</description>
+    </column>
+    <column name="UEPAR" data_type="VARCHAR">
+      <description>Higher-level partner</description>
+    </column>
+    <column name="TELF1" data_type="VARCHAR">
+      <description>First telephone number</description>
+    </column>
+    <column name="ANRED" data_type="VARCHAR">
+      <description>Form of address for contact person (Mr, Mrs...etc)</description>
+    </column>
+    <column name="PAFKT" data_type="VARCHAR">
+      <description>Contact person function</description>
+    </column>
+    <column name="PARVO" data_type="VARCHAR">
+      <description>Partner's Authority</description>
+    </column>
+    <column name="PAVIP" data_type="VARCHAR">
+      <description>VIP Partner</description>
+    </column>
+    <column name="PARGE" data_type="VARCHAR">
+      <description>Partner's gender</description>
+    </column>
+    <column name="PARLA" data_type="VARCHAR">
+      <description>Partner language</description>
+    </column>
+    <column name="GBDAT" data_type="DATE">
+      <description>Date of Birth</description>
+    </column>
+    <column name="VRTNR" data_type="VARCHAR">
+      <description>Representative number</description>
+    </column>
+    <column name="BRYTH" data_type="VARCHAR">
+      <description>Call frequency</description>
+    </column>
+    <column name="AKVER" data_type="VARCHAR">
+      <description>Buying habits</description>
+    </column>
+    <column name="NMAIL" data_type="VARCHAR">
+      <description>Advertising material indicator</description>
+    </column>
+    <column name="PARAU" data_type="VARCHAR">
+      <description>Notes about contact person</description>
+    </column>
+    <column name="PARH1" data_type="VARCHAR">
+      <description>Contact person: Attribute 1</description>
+    </column>
+    <column name="PARH2" data_type="VARCHAR">
+      <description>Contact person: Attribute 2</description>
+    </column>
+    <column name="PARH3" data_type="VARCHAR">
+      <description>Contact person: Attribute 3</description>
+    </column>
+    <column name="PARH4" data_type="VARCHAR">
+      <description>Contact person: Attribute 4</description>
+    </column>
+    <column name="PARH5" data_type="VARCHAR">
+      <description>Contact person: Attribute 5</description>
+    </column>
+    <column name="MOAB1" data_type="TIME">
+      <description>Contact person's visiting hours: Monday morning from ...</description>
+    </column>
+    <column name="MOBI1" data_type="TIME">
+      <description>Contact person's visiting hours: Monday morning until ...</description>
+    </column>
+    <column name="MOAB2" data_type="TIME">
+      <description>Contact person's visiting hours: Monday afternoon from ...</description>
+    </column>
+    <column name="MOBI2" data_type="TIME">
+      <description>Contact person's visiting hours: Monday afternoon until ...</description>
+    </column>
+    <column name="DIAB1" data_type="TIME">
+      <description>Contact person's visiting hours: Tuesday morning from...</description>
+    </column>
+    <column name="DIBI1" data_type="TIME">
+      <description>Contact person's visiting hours: Tuesday morning until ...</description>
+    </column>
+    <column name="DIAB2" data_type="TIME">
+      <description>Contact person's visiting hours: Tuesday afternoon from..</description>
+    </column>
+    <column name="DIBI2" data_type="TIME">
+      <description>Contact person's visiting hours: Tuesday afternoon until ...</description>
+    </column>
+    <column name="MIAB1" data_type="TIME">
+      <description>Contact person's visiting hours: Wednesday morning from...</description>
+    </column>
+    <column name="MIBI1" data_type="TIME">
+      <description>Contact person's visiting hours: Wednesday morning until ...</description>
+    </column>
+    <column name="MIAB2" data_type="TIME">
+      <description>Contact person's visiting hours: Wednesday afternoon from ..</description>
+    </column>
+    <column name="MIBI2" data_type="TIME">
+      <description>Contact person's visiting hours: Wednesday afternoon until..</description>
+    </column>
+    <column name="DOAB1" data_type="TIME">
+      <description>Contact person's visiting hours: Thursday morning from ....</description>
+    </column>
+    <column name="DOBI1" data_type="TIME">
+      <description>Contact person's visiting hours: Thursday morning until ....</description>
+    </column>
+    <column name="DOAB2" data_type="TIME">
+      <description>Contact person's visiting hours: Thursday afternoon from...</description>
+    </column>
+    <column name="DOBI2" data_type="TIME">
+      <description>Contact person's visiting hours: Thursday afternoon until ..</description>
+    </column>
+    <column name="FRAB1" data_type="TIME">
+      <description>Contact person's visiting hours: Friday morning from ...</description>
+    </column>
+    <column name="FRBI1" data_type="TIME">
+      <description>Contact person's visiting hours: Friday morning until ...</description>
+    </column>
+    <column name="FRAB2" data_type="TIME">
+      <description>Contact person's visiting hours: Friday afternoon from ...</description>
+    </column>
+    <column name="FRBI2" data_type="TIME">
+      <description>Contact person's visiting hours: Friday afternoon until ...</description>
+    </column>
+    <column name="SAAB1" data_type="TIME">
+      <description>Contact person's visiting hours: Saturday morning from ...</description>
+    </column>
+    <column name="SABI1" data_type="TIME">
+      <description>Contact person's visiting hours: Saturday morning until ...</description>
+    </column>
+    <column name="SAAB2" data_type="TIME">
+      <description>Contact person's visiting hours: Saturday afternoon from ...</description>
+    </column>
+    <column name="SABI2" data_type="TIME">
+      <description>Contact person's visiting hours: Saturday afternoon until ..</description>
+    </column>
+    <column name="SOAB1" data_type="TIME">
+      <description>Contact person's visiting hours: Sunday morning from ...</description>
+    </column>
+    <column name="SOBI1" data_type="TIME">
+      <description>Contact person's visiting hours: Sunday morning until ...</description>
+    </column>
+    <column name="SOAB2" data_type="TIME">
+      <description>Contact person's visiting hours: Sunday afternoon from ...</description>
+    </column>
+    <column name="SOBI2" data_type="TIME">
+      <description>Contact person's visiting hours: Sunday afternoon until ...</description>
+    </column>
+    <column name="PAKN1" data_type="VARCHAR">
+      <description>Contact person: Attribute 6</description>
+    </column>
+    <column name="PAKN2" data_type="VARCHAR">
+      <description>Contact person: Attribute 7</description>
+    </column>
+    <column name="PAKN3" data_type="VARCHAR">
+      <description>Contact person: Attribute 8</description>
+    </column>
+    <column name="PAKN4" data_type="VARCHAR">
+      <description>Contact person: Attribute 9</description>
+    </column>
+    <column name="PAKN5" data_type="VARCHAR">
+      <description>Contact person: Attribute 10</description>
+    </column>
+    <column name="SORTL" data_type="VARCHAR">
+      <description>Sort field</description>
+    </column>
+    <column name="FAMST" data_type="VARCHAR">
+      <description>Marital Status Key</description>
+    </column>
+    <column name="SPNAM" data_type="VARCHAR">
+      <description>Nickname</description>
+    </column>
+    <column name="TITEL_AP" data_type="VARCHAR">
+      <description>Title of contact person (description of function)</description>
+    </column>
+    <column name="ERDAT" data_type="DATE">
+      <description>Date on which the Record Was Created</description>
+    </column>
+    <column name="ERNAM" data_type="VARCHAR">
+      <description>Name of Person who Created the Object</description>
+    </column>
+    <column name="DUEFL" data_type="VARCHAR">
+      <description>Status of Data Transfer into Subsequent Release</description>
+    </column>
+    <column name="LIFNR" data_type="VARCHAR">
+      <description>Account Number of Supplier</description>
+    </column>
+    <column name="LOEVM" data_type="VARCHAR">
+      <description>Central Deletion Flag for Master Record</description>
+    </column>
+    <column name="KZHERK" data_type="VARCHAR">
+      <description>Internal indicator for origin of the CP: Customer or Vendor</description>
+    </column>
+    <column name="ADRNP_2" data_type="VARCHAR">
+      <description>Address Number</description>
+    </column>
+    <column name="PRSNR" data_type="VARCHAR">
+      <description>Person Number</description>
+    </column>
+    <column name="CVP_XBLCK_K" data_type="VARCHAR">
+      <description>Business Purpose Completed Flag</description>
+    </column>
+  </columns>
+</data_description>

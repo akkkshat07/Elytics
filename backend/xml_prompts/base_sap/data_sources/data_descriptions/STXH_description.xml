@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="STXH">
+  <table_info name="STXH" total_columns="31" />
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="TDOBJECT" data_type="VARCHAR">
+      <description>Texts: application object</description>
+    </column>
+    <column name="TDNAME" data_type="VARCHAR">
+      <description>Name</description>
+    </column>
+    <column name="TDID" data_type="VARCHAR">
+      <description>Text ID</description>
+    </column>
+    <column name="TDSPRAS" data_type="VARCHAR">
+      <description>Language Key</description>
+    </column>
+    <column name="TDTITLE" data_type="VARCHAR">
+      <description>Title in dialog box</description>
+    </column>
+    <column name="TDFRELES" data_type="VARCHAR">
+      <description>Release</description>
+    </column>
+    <column name="TDFUSER" data_type="VARCHAR">
+      <description>Created by</description>
+    </column>
+    <column name="TDFDATE" data_type="DATE">
+      <description>Date created</description>
+    </column>
+    <column name="TDFTIME" data_type="TIME">
+      <description>Time Created</description>
+    </column>
+    <column name="TDLRELES" data_type="VARCHAR">
+      <description>Last Changed in Release</description>
+    </column>
+    <column name="TDLUSER" data_type="VARCHAR">
+      <description>Last changed by</description>
+    </column>
+    <column name="TDLDATE" data_type="DATE">
+      <description>Changed On</description>
+    </column>
+    <column name="TDLTIME" data_type="TIME">
+      <description>Last Changed At</description>
+    </column>
+    <column name="TDVERSION" data_type="VARCHAR">
+      <description>Version</description>
+    </column>
+    <column name="TDSTYLE" data_type="VARCHAR">
+      <description>Style Name</description>
+    </column>
+    <column name="TDFORM" data_type="VARCHAR">
+      <description>Form name</description>
+    </column>
+    <column name="TDHYPHENAT" data_type="VARCHAR">
+      <description>Hyphenation Active</description>
+    </column>
+    <column name="TDTRANSTAT" data_type="VARCHAR">
+      <description>Translation status</description>
+    </column>
+    <column name="TDOSPRAS" data_type="VARCHAR">
+      <description>Original language</description>
+    </column>
+    <column name="TDMACODE1" data_type="VARCHAR">
+      <description>Short Title 1</description>
+    </column>
+    <column name="TDMACODE2" data_type="VARCHAR">
+      <description>Short Title 2</description>
+    </column>
+    <column name="TDTXTLINES" data_type="VARCHAR">
+      <description>Number of Text Lines in Line Table</description>
+    </column>
+    <column name="TDREF" data_type="VARCHAR">
+      <description>Reference text</description>
+    </column>
+    <column name="TDREFOBJ" data_type="VARCHAR">
+      <description>Object of Referenced Text</description>
+    </column>
+    <column name="TDREFNAME" data_type="VARCHAR">
+      <description>Name of Referenced Text</description>
+    </column>
+    <column name="TDREFID" data_type="VARCHAR">
+      <description>ID of Referenced Text</description>
+    </column>
+    <column name="TDTEXTTYPE" data_type="VARCHAR">
+      <description>SAPscript: Format of Text</description>
+    </column>
+    <column name="TDCOMPRESS" data_type="VARCHAR">
+      <description>SAPscript: Text is compressed</description>
+    </column>
+    <column name="TDOCLASS" data_type="VARCHAR">
+      <description>SAPscript: Object Class</description>
+    </column>
+    <column name="LOGSYS" data_type="VARCHAR">
+      <description>Logical System</description>
+    </column>
+  </columns>
+</data_description>

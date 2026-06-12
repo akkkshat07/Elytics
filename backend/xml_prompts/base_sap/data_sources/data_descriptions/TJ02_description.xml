@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="TJ02">
+  <table_info name="TJ02" total_columns="3" />
+  <columns>
+    <column name="ISTAT" data_type="VARCHAR">
+      <description>System status</description>
+    </column>
+    <column name="NODIS" data_type="VARCHAR">
+      <description>'Do not display status' flag</description>
+    </column>
+    <column name="SETONLY" data_type="VARCHAR">
+      <description>'Status can only be set' flag</description>
+    </column>
+  </columns>
+</data_description>

@@ -1,0 +1,219 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="ISEG">
+  <table_info name="ISEG" total_columns="71"/>
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="IBLNR" data_type="VARCHAR">
+      <description>Physical Inventory Document</description>
+    </column>
+    <column name="GJAHR" data_type="VARCHAR">
+      <description>Fiscal Year</description>
+    </column>
+    <column name="ZEILI" data_type="VARCHAR">
+      <description>Line Number</description>
+    </column>
+    <column name="MATNR" data_type="VARCHAR">
+      <description>Material Number</description>
+    </column>
+    <column name="WERKS" data_type="VARCHAR">
+      <description>Plant</description>
+    </column>
+    <column name="LGORT" data_type="VARCHAR">
+      <description>Storage Location</description>
+    </column>
+    <column name="CHARG" data_type="VARCHAR">
+      <description>Batch Number</description>
+    </column>
+    <column name="SOBKZ" data_type="VARCHAR">
+      <description>Special Stock Indicator</description>
+    </column>
+    <column name="BSTAR" data_type="VARCHAR">
+      <description>Stock Type (Physical Inventory</description>
+    </column>
+    <column name="KDAUF" data_type="VARCHAR">
+      <description>Sales Order Number</description>
+    </column>
+    <column name="KDPOS" data_type="VARCHAR">
+      <description>Item Number in Sales Order</description>
+    </column>
+    <column name="KDEIN" data_type="VARCHAR">
+      <description>Delivery schedule for sales order</description>
+    </column>
+    <column name="LIFNR" data_type="VARCHAR">
+      <description>Supplier's Account Number</description>
+    </column>
+    <column name="KUNNR" data_type="VARCHAR">
+      <description>Account number of customer</description>
+    </column>
+    <column name="PLPLA" data_type="VARCHAR">
+      <description>Distribution of Differences</description>
+    </column>
+    <column name="USNAM" data_type="VARCHAR">
+      <description>Changed by</description>
+    </column>
+    <column name="AEDAT" data_type="DATE">
+      <description>Last Changed On</description>
+    </column>
+    <column name="USNAZ" data_type="VARCHAR">
+      <description>Counted By</description>
+    </column>
+    <column name="ZLDAT" data_type="DATE">
+      <description>Date of last count</description>
+    </column>
+    <column name="USNAD" data_type="VARCHAR">
+      <description>Adjustment posting made by</description>
+    </column>
+    <column name="BUDAT" data_type="DATE">
+      <description>Posting Date in the Document</description>
+    </column>
+    <column name="XBLNI" data_type="VARCHAR">
+      <description>Reference Number for Physical Inventory</description>
+    </column>
+    <column name="XZAEL" data_type="VARCHAR">
+      <description>Item has been counted</description>
+    </column>
+    <column name="XDIFF" data_type="VARCHAR">
+      <description>Difference posted</description>
+    </column>
+    <column name="XNZAE" data_type="VARCHAR">
+      <description>Item will be recounted</description>
+    </column>
+    <column name="XLOEK" data_type="VARCHAR">
+      <description>Item is Deleted (Physical Inventory)</description>
+    </column>
+    <column name="XAMEI" data_type="VARCHAR">
+      <description>Handling in Alternative Unit of Measure</description>
+    </column>
+    <column name="BUCHM" data_type="DECIMAL">
+      <description>Book quantity immediately prior to count</description>
+    </column>
+    <column name="XNULL" data_type="VARCHAR">
+      <description>Zero count</description>
+    </column>
+    <column name="MENGE" data_type="DECIMAL">
+      <description>Quantity</description>
+    </column>
+    <column name="MEINS" data_type="VARCHAR">
+      <description>Base Unit of Measure</description>
+    </column>
+    <column name="ERFMG" data_type="DECIMAL">
+      <description>Quantity in unit of entry (physical inventory)</description>
+    </column>
+    <column name="ERFME" data_type="VARCHAR">
+      <description>Unit of entry (physical inventory)</description>
+    </column>
+    <column name="MBLNR" data_type="VARCHAR">
+      <description>Number of Material Document</description>
+    </column>
+    <column name="MJAHR" data_type="VARCHAR">
+      <description>Material Document Year</description>
+    </column>
+    <column name="ZEILE" data_type="VARCHAR">
+      <description>Item in Material Document</description>
+    </column>
+    <column name="NBLNR" data_type="VARCHAR">
+      <description>Number of recount document</description>
+    </column>
+    <column name="DMBTR" data_type="DECIMAL">
+      <description>Difference amount in local currency</description>
+    </column>
+    <column name="WAERS" data_type="VARCHAR">
+      <description>Currency Key</description>
+    </column>
+    <column name="ABCIN" data_type="VARCHAR">
+      <description>Physical inventory indicator for cycle counting</description>
+    </column>
+    <column name="PS_PSP_PNR" data_type="VARCHAR">
+      <description>Work Breakdown Structure Element (WBS Element)</description>
+    </column>
+    <column name="VKWRT" data_type="DECIMAL">
+      <description>Value at Sales Prices Including Value-Added Tax</description>
+    </column>
+    <column name="EXVKW" data_type="DECIMAL">
+      <description>Externally Entered Sales Value in Local Currency</description>
+    </column>
+    <column name="BUCHW" data_type="DECIMAL">
+      <description>Book value based on sales prices (SP) at time of count</description>
+    </column>
+    <column name="KWART" data_type="VARCHAR">
+      <description>Indicates that the value-only material is to be inventoried</description>
+    </column>
+    <column name="VKWRA" data_type="DECIMAL">
+      <description>Value at sales prices excluding value-added tax</description>
+    </column>
+    <column name="VKMZL" data_type="DECIMAL">
+      <description>Sales Value of Inv. Differences (with VAT) on Count Entry</description>
+    </column>
+    <column name="VKNZL" data_type="DECIMAL">
+      <description>Sales Value of Inventory Difference (w/o VAT) on Count Entry</description>
+    </column>
+    <column name="WRTZL" data_type="DECIMAL">
+      <description>Value of physical inventory count</description>
+    </column>
+    <column name="WRTBM" data_type="DECIMAL">
+      <description>Value of book quantity</description>
+    </column>
+    <column name="DIWZL" data_type="DECIMAL">
+      <description>Inventory difference value upon count entry</description>
+    </column>
+    <column name="ATTYP" data_type="VARCHAR">
+      <description>Material Category</description>
+    </column>
+    <column name="GRUND" data_type="VARCHAR">
+      <description>Reason for inventory diff.</description>
+    </column>
+    <column name="SAMAT" data_type="VARCHAR">
+      <description>Cross-Plant Configurable Material</description>
+    </column>
+    <column name="XDISPATCH" data_type="VARCHAR">
+      <description>Distribution of Physical Inventory Differences</description>
+    </column>
+    <column name="SGT_SCAT" data_type="VARCHAR">
+      <description>Stock Segment</description>
+    </column>
+    <column name="DISUB_OWNER" data_type="VARCHAR">
+      <description>Owner of stock</description>
+    </column>
+    <column name="FSH_SEASON_YEAR" data_type="VARCHAR">
+      <description>Season Year</description>
+    </column>
+    <column name="FSH_SEASON" data_type="VARCHAR">
+      <description>Season</description>
+    </column>
+    <column name="FSH_COLLECTION" data_type="VARCHAR">
+      <description>Fashion Collection</description>
+    </column>
+    <column name="FSH_THEME" data_type="VARCHAR">
+      <description>Fashion Theme</description>
+    </column>
+    <column name="WSTI_COUNTDATE" data_type="DATE">
+      <description>Date of Count During Opening Time</description>
+    </column>
+    <column name="WSTI_COUNTTIME" data_type="TIME">
+      <description>Time of Count During Opening Time</description>
+    </column>
+    <column name="WSTI_FREEZEDATE" data_type="DATE">
+      <description>Freeze Date for Inventory Balance</description>
+    </column>
+    <column name="WSTI_FREEZETIME" data_type="TIME">
+      <description>Freeze Time for Inventory Balance</description>
+    </column>
+    <column name="WSTI_POSM" data_type="DECIMAL">
+      <description>Quantity to Which Book Quantity was Changed</description>
+    </column>
+    <column name="WSTI_POSW" data_type="DECIMAL">
+      <description>Retail Value to Which Retail Book Value was Changed</description>
+    </column>
+    <column name="WSTI_XCALC" data_type="VARCHAR">
+      <description>Book Inventory Calculated at Count Time</description>
+    </column>
+    <column name="WSTI_ENTERDATE" data_type="DATE">
+      <description>Entry Date of Physical Inventory Count in System</description>
+    </column>
+    <column name="WSTI_ENTERTIME" data_type="TIME">
+      <description>Entry Time of Physical Inventory Count in System</description>
+    </column>
+  </columns>
+</data_description>

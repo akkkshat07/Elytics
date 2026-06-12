@@ -1,0 +1,120 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="LTBK">
+  <table_info name="LTBK" total_columns="38" />
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="LGNUM" data_type="VARCHAR">
+      <description>Warehouse Number / Warehouse Complex</description>
+    </column>
+    <column name="TBNUM" data_type="VARCHAR">
+      <description>Transfer Requirement Number</description>
+    </column>
+    <column name="STATU" data_type="VARCHAR">
+      <description>Header Status of Transfer Requirement</description>
+    </column>
+    <column name="TRART" data_type="VARCHAR">
+      <description>Shipment Type</description>
+    </column>
+    <column name="TBPRI" data_type="VARCHAR">
+      <description>Transfer Priority</description>
+    </column>
+    <column name="BNAME" data_type="VARCHAR">
+      <description>User Name</description>
+    </column>
+    <column name="BDATU" data_type="DATE">
+      <description>Creation Date of Transfer Request</description>
+    </column>
+    <column name="BZEIT" data_type="TIME">
+      <description>Creation time of transfer request</description>
+    </column>
+    <column name="TBKTX" data_type="VARCHAR">
+      <description>Header Text of Transfer Requirement</description>
+    </column>
+    <column name="BETYP" data_type="VARCHAR">
+      <description>Requirement Type</description>
+    </column>
+    <column name="BENUM" data_type="VARCHAR">
+      <description>Requirement Number</description>
+    </column>
+    <column name="BWART" data_type="VARCHAR">
+      <description>Movement Type (Inventory Management)</description>
+    </column>
+    <column name="BWLVS" data_type="VARCHAR">
+      <description>Movement Type for Warehouse Management</description>
+    </column>
+    <column name="VLTYP" data_type="VARCHAR">
+      <description>Source Storage Type</description>
+    </column>
+    <column name="VLPLA" data_type="VARCHAR">
+      <description>Source storage bin</description>
+    </column>
+    <column name="VKDYN" data_type="VARCHAR">
+      <description>Indicator: dynamic source bin</description>
+    </column>
+    <column name="NLTYP" data_type="VARCHAR">
+      <description>Destination Storage Type</description>
+    </column>
+    <column name="NLPLA" data_type="VARCHAR">
+      <description>Destination Storage Bin</description>
+    </column>
+    <column name="NKDYN" data_type="VARCHAR">
+      <description>Indicator: dynamic destination bin</description>
+    </column>
+    <column name="PDATU" data_type="DATE">
+      <description>Date of Planned Execution of Transfer Request</description>
+    </column>
+    <column name="PZEIT" data_type="TIME">
+      <description>Time of Planned Execution of Transfer Requirement</description>
+    </column>
+    <column name="MBLNR" data_type="VARCHAR">
+      <description>Number of Material Document</description>
+    </column>
+    <column name="MJAHR" data_type="VARCHAR">
+      <description>Material Document Year</description>
+    </column>
+    <column name="ANZPS" data_type="DECIMAL">
+      <description>Number of Transfer Requirement Items</description>
+    </column>
+    <column name="BRGEW" data_type="DECIMAL">
+      <description>Total Weight of Transfer Request</description>
+    </column>
+    <column name="GEWEI" data_type="VARCHAR">
+      <description>Unit of Weight</description>
+    </column>
+    <column name="KLFR2" data_type="VARCHAR">
+      <description>Indicator: Delivery document from superior system (R/2)</description>
+    </column>
+    <column name="KFAR2" data_type="VARCHAR">
+      <description>Indicator: Production order from superior system (R/2)</description>
+    </column>
+    <column name="TBRUE" data_type="VARCHAR">
+      <description>Indicator: confirm transfer requriement</description>
+    </column>
+    <column name="RSNUM" data_type="VARCHAR">
+      <description>Number of reservation/dependent requirements</description>
+    </column>
+    <column name="LZNUM" data_type="VARCHAR">
+      <description>Additional Reference Number for Transport</description>
+    </column>
+    <column name="AUTTA" data_type="VARCHAR">
+      <description>Automatic Transfer Order Creation</description>
+    </column>
+    <column name="BDART" data_type="VARCHAR">
+      <description>Requirement type</description>
+    </column>
+    <column name="PKNUM" data_type="VARCHAR">
+      <description>Control cycle number</description>
+    </column>
+    <column name="PKPOS" data_type="VARCHAR">
+      <description>Kanban item number / control cycle item</description>
+    </column>
+    <column name="DIRTA" data_type="VARCHAR">
+      <description>Automatic TO Creation Immediately After TR Generation</description>
+    </column>
+    <column name="KBNKZ" data_type="VARCHAR">
+      <description>Kanban Indicator</description>
+    </column>
+  </columns>
+</data_description>

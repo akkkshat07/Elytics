@@ -1,0 +1,150 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="QMIH">
+  <table_info name="QMIH" total_columns="48"/>
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="QMNUM" data_type="VARCHAR">
+      <description>Notification No</description>
+    </column>
+    <column name="IWERK" data_type="VARCHAR">
+      <description>Maintenance Planning Plant</description>
+    </column>
+    <column name="ILOAN" data_type="VARCHAR">
+      <description>Location and account assignment for technical object</description>
+    </column>
+    <column name="ILOAI" data_type="VARCHAR">
+      <description>ILOA Individual</description>
+    </column>
+    <column name="EQUNR" data_type="VARCHAR">
+      <description>Equipment Number</description>
+    </column>
+    <column name="BAUTL" data_type="VARCHAR">
+      <description>Assembly</description>
+    </column>
+    <column name="EBORT" data_type="VARCHAR">
+      <description>Installation Point for Subitem</description>
+    </column>
+    <column name="MSAUS" data_type="VARCHAR">
+      <description>Breakdown Indicator</description>
+    </column>
+    <column name="AUSVN" data_type="DATE">
+      <description>Start of Malfunction (Date)</description>
+    </column>
+    <column name="AUSBS" data_type="DATE">
+      <description>End of Malfunction (Date)</description>
+    </column>
+    <column name="AUZTV" data_type="TIME">
+      <description>Start of Malfunction (Time)</description>
+    </column>
+    <column name="AUZTB" data_type="TIME">
+      <description>End of Malfunction (Time)</description>
+    </column>
+    <column name="AUSZT" data_type="FLOAT">
+      <description>Breakdown Duration</description>
+    </column>
+    <column name="MAUEH" data_type="VARCHAR">
+      <description>Unit for Breakdown Duration</description>
+    </column>
+    <column name="BTPLN" data_type="VARCHAR">
+      <description>Functional Location Affected</description>
+    </column>
+    <column name="BEQUI" data_type="VARCHAR">
+      <description>Equipment Affected</description>
+    </column>
+    <column name="AUSWK" data_type="VARCHAR">
+      <description>Effect on Operation</description>
+    </column>
+    <column name="VERFV" data_type="VARCHAR">
+      <description>Availability Before Malfunction</description>
+    </column>
+    <column name="VERFN" data_type="VARCHAR">
+      <description>Availability After Malfunction</description>
+    </column>
+    <column name="VERFM" data_type="VARCHAR">
+      <description>Availability After Completion of Task</description>
+    </column>
+    <column name="ANLZV" data_type="VARCHAR">
+      <description>System Condition Before Malfunction</description>
+    </column>
+    <column name="ANLZN" data_type="VARCHAR">
+      <description>System Condition After Malfunction</description>
+    </column>
+    <column name="ANLZE" data_type="VARCHAR">
+      <description>System Condition After Completion of Task</description>
+    </column>
+    <column name="INSPK" data_type="VARCHAR">
+      <description>Name of Person Responsible for Technical Inspection</description>
+    </column>
+    <column name="DATAN" data_type="DATE">
+      <description>Date of Technical Inspection</description>
+    </column>
+    <column name="INGRP" data_type="VARCHAR">
+      <description>Planner Group for Customer Service and Plant Maintenance</description>
+    </column>
+    <column name="WARPL" data_type="VARCHAR">
+      <description>Maintenance Plan</description>
+    </column>
+    <column name="ABNUM" data_type="INTEGER">
+      <description>Maintenance Plan Call Number</description>
+    </column>
+    <column name="WAPOS" data_type="VARCHAR">
+      <description>Maintenance Item</description>
+    </column>
+    <column name="KDAUF" data_type="VARCHAR">
+      <description>Sales Document</description>
+    </column>
+    <column name="KDPOS" data_type="VARCHAR">
+      <description>Sales Document Item</description>
+    </column>
+    <column name="SCREENTY" data_type="VARCHAR">
+      <description>Scenario or Subscreen Category</description>
+    </column>
+    <column name="PLNTY" data_type="VARCHAR">
+      <description>Task List Type</description>
+    </column>
+    <column name="PLNNR" data_type="VARCHAR">
+      <description>Key for Task List Group</description>
+    </column>
+    <column name="PLNAL" data_type="VARCHAR">
+      <description>Group Counter</description>
+    </column>
+    <column name="REVNR" data_type="VARCHAR">
+      <description>Revision for Plant Maintenance and Customer Service</description>
+    </column>
+    <column name="ILART" data_type="VARCHAR">
+      <description>Maintenance activity type</description>
+    </column>
+    <column name="ZAEHL" data_type="VARCHAR">
+      <description>Internal counter</description>
+    </column>
+    <column name="PAMS_PTSTF" data_type="DECIMAL">
+      <description>Planned Time Stamp (from)</description>
+    </column>
+    <column name="PAMS_PTSTT" data_type="DECIMAL">
+      <description>Planned Time Stamp (to)</description>
+    </column>
+    <column name="PAMS_ATSTF" data_type="DECIMAL">
+      <description>Actual Start Time</description>
+    </column>
+    <column name="PAMS_ATSTT" data_type="DECIMAL">
+      <description>Actual End Time</description>
+    </column>
+    <column name="PAMS_POOL" data_type="VARCHAR">
+      <description>PAM Pool</description>
+    </column>
+    <column name="PAMS_KOSTL" data_type="VARCHAR">
+      <description>Cost Center</description>
+    </column>
+    <column name="PAMS_AUFNR" data_type="VARCHAR">
+      <description>Order Number</description>
+    </column>
+    <column name="PAMS_PROID" data_type="VARCHAR">
+      <description>Work Breakdown Structure Element (WBS Element)</description>
+    </column>
+    <column name="PAMS_KOKRS" data_type="VARCHAR">
+      <description>Controlling Area</description>
+    </column>
+  </columns>
+</data_description>

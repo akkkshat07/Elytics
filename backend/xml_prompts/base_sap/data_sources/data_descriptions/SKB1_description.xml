@@ -1,0 +1,132 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="SKB1">
+  <table_info name="SKB1" total_columns="42" />
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="BUKRS" data_type="VARCHAR">
+      <description>Company Code</description>
+    </column>
+    <column name="SAKNR" data_type="VARCHAR">
+      <description>G/L Account Number</description>
+    </column>
+    <column name="BEGRU" data_type="VARCHAR">
+      <description>Authorization Group</description>
+    </column>
+    <column name="BUSAB" data_type="VARCHAR">
+      <description>Accounting Clerk Abbreviation</description>
+    </column>
+    <column name="DATLZ" data_type="DATE">
+      <description>Date of the last interest calculation run</description>
+    </column>
+    <column name="ERDAT" data_type="DATE">
+      <description>Date on which the Record Was Created</description>
+    </column>
+    <column name="ERNAM" data_type="VARCHAR">
+      <description>Name of Person who Created the Object</description>
+    </column>
+    <column name="FDGRV" data_type="VARCHAR">
+      <description>Planning group</description>
+    </column>
+    <column name="FDLEV" data_type="VARCHAR">
+      <description>Planning Level</description>
+    </column>
+    <column name="FIPLS" data_type="VARCHAR">
+      <description>Financial Budget Item</description>
+    </column>
+    <column name="FSTAG" data_type="VARCHAR">
+      <description>Field status group</description>
+    </column>
+    <column name="HBKID" data_type="VARCHAR">
+      <description>Short Key for a House Bank</description>
+    </column>
+    <column name="HKTID" data_type="VARCHAR">
+      <description>ID for account details</description>
+    </column>
+    <column name="KDFSL" data_type="VARCHAR">
+      <description>Key for Exchange Rate Differences in Foreign Currency Accts</description>
+    </column>
+    <column name="MITKZ" data_type="VARCHAR">
+      <description>Account is reconciliation account</description>
+    </column>
+    <column name="MWSKZ" data_type="VARCHAR">
+      <description>Tax Category in Account Master Record</description>
+    </column>
+    <column name="STEXT" data_type="VARCHAR">
+      <description>G/L account additional text</description>
+    </column>
+    <column name="VZSKZ" data_type="VARCHAR">
+      <description>Interest calculation indicator</description>
+    </column>
+    <column name="WAERS" data_type="VARCHAR">
+      <description>Account Currency</description>
+    </column>
+    <column name="WMETH" data_type="VARCHAR">
+      <description>Indicator: Account Managed in External System</description>
+    </column>
+    <column name="XGKON" data_type="VARCHAR">
+      <description>Cash receipt account / cash disbursement account</description>
+    </column>
+    <column name="XINTB" data_type="VARCHAR">
+      <description>Indicator: Is account only posted to automatically?</description>
+    </column>
+    <column name="XKRES" data_type="VARCHAR">
+      <description>Indicator: Can Line Items Be Displayed by Account?</description>
+    </column>
+    <column name="XLOEB" data_type="VARCHAR">
+      <description>Indicator: Account marked for deletion?</description>
+    </column>
+    <column name="XNKON" data_type="VARCHAR">
+      <description>Indicator: Supplement for automatic postings ?</description>
+    </column>
+    <column name="XOPVW" data_type="VARCHAR">
+      <description>Indicator: Open Item Management?</description>
+    </column>
+    <column name="XSPEB" data_type="VARCHAR">
+      <description>Indicator: Is account blocked for posting?</description>
+    </column>
+    <column name="ZINDT" data_type="DATE">
+      <description>Key Date of Last Interest Calculation</description>
+    </column>
+    <column name="ZINRT" data_type="VARCHAR">
+      <description>Interest Calculation Frequency in Months</description>
+    </column>
+    <column name="ZUAWA" data_type="VARCHAR">
+      <description>Key for sorting according to assignment numbers</description>
+    </column>
+    <column name="ALTKT" data_type="VARCHAR">
+      <description>Alternative Account Number in Company Code</description>
+    </column>
+    <column name="XMITK" data_type="VARCHAR">
+      <description>Indicator: Reconcil.acct ready for input at time of posting?</description>
+    </column>
+    <column name="RECID" data_type="VARCHAR">
+      <description>Recovery Indicator</description>
+    </column>
+    <column name="FIPOS" data_type="VARCHAR">
+      <description>Commitment Item</description>
+    </column>
+    <column name="XMWNO" data_type="VARCHAR">
+      <description>Indicator: Tax code is not a required field</description>
+    </column>
+    <column name="XSALH" data_type="VARCHAR">
+      <description>Indicator: Manage Balances in Local Currency Only</description>
+    </column>
+    <column name="BEWGP" data_type="VARCHAR">
+      <description>Valuation Group</description>
+    </column>
+    <column name="INFKY" data_type="VARCHAR">
+      <description>Inflation Key</description>
+    </column>
+    <column name="TOGRU" data_type="VARCHAR">
+      <description>Tolerance Group for G/L Accounts</description>
+    </column>
+    <column name="XLGCLR" data_type="VARCHAR">
+      <description>Clearing Specific to Ledger Groups</description>
+    </column>
+    <column name="MCAKEY" data_type="VARCHAR">
+      <description>MCA Key</description>
+    </column>
+  </columns>
+</data_description>

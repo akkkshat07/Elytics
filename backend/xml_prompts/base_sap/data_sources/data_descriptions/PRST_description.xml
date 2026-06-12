@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="PRST">
+  <table_info name="PRST" total_columns="11" />
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="PSPNR" data_type="VARCHAR">
+      <description>Work breakdown structure element (WBS element)</description>
+    </column>
+    <column name="MATNR" data_type="VARCHAR">
+      <description>Material Number</description>
+    </column>
+    <column name="WERKS" data_type="VARCHAR">
+      <description>Plant</description>
+    </column>
+    <column name="STLAN" data_type="VARCHAR">
+      <description>BOM Usage</description>
+    </column>
+    <column name="STLNR" data_type="VARCHAR">
+      <description>Bill of material</description>
+    </column>
+    <column name="STLAL" data_type="VARCHAR">
+      <description>Alternative BOM</description>
+    </column>
+    <column name="ANDAT" data_type="DATE">
+      <description>Date record created on</description>
+    </column>
+    <column name="ANNAM" data_type="VARCHAR">
+      <description>User who created record</description>
+    </column>
+    <column name="AEDAT" data_type="DATE">
+      <description>Last Changed On</description>
+    </column>
+    <column name="AENAM" data_type="VARCHAR">
+      <description>Name of Person Who Changed Object</description>
+    </column>
+  </columns>
+</data_description>

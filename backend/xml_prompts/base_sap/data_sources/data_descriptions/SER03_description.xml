@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="SER03">
+  <table_info name="SER03" total_columns="18" />
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client identifier in the SAP system (usually a three‑digit numeric code). It separates data belonging to different corporate groups; analysts filter on this column to isolate the business unit they are reporting on.</description>
+    </column>
+    <column name="OBKNR" data_type="INTEGER">
+      <description>Object number that links the entry to a higher‑level business object (e.g., a purchase order, sales order, or production order). It is an alphanumeric key used for cross‑referencing related documents.</description>
+    </column>
+    <column name="MBLNR" data_type="VARCHAR">
+      <description>Material document number that records a goods movement (receipt, issue, transfer, etc.). This numeric key is unique per posting and is the primary reference for inventory audit trails.</description>
+    </column>
+    <column name="MJAHR" data_type="VARCHAR">
+      <description>Fiscal year of the material document (four‑digit year, e.g., 2024). Together with MBLNR it uniquely identifies a posting; analysts use it for period‑based reporting.</description>
+    </column>
+    <column name="ZEILE" data_type="VARCHAR">
+      <description>Line‑item number within the material document. It distinguishes multiple movements recorded under the same MBLNR; typical values are sequential integers starting at 1.</description>
+    </column>
+    <column name="BLART" data_type="VARCHAR">
+      <description>Document type (e.g., 'WE' for goods receipt, 'WA' for goods issue, 'WR' for transfer posting). This character field indicates the business process that generated the entry.</description>
+    </column>
+    <column name="BWART" data_type="VARCHAR">
+      <description>Movement type code (e.g., 101 for goods receipt, 201 for goods issue, 301 for transfer posting). It determines the inventory impact and the posting logic applied.</description>
+    </column>
+    <column name="SHKZG" data_type="VARCHAR">
+      <description>Debit/credit indicator – 'S' for a debit (stock increase) and 'H' for a credit (stock decrease). Analysts use this to calculate net inventory changes.</description>
+    </column>
+    <column name="DATUM" data_type="DATE">
+      <description>Posting date of the material document in YYYYMMDD format. It is the date the inventory movement is considered effective for financial and logistical reporting.</description>
+    </column>
+    <column name="UZEIT" data_type="TIME">
+      <description>Posting time (HHMMSS) that records the exact time of the transaction on the posting date. Useful for high‑frequency environments where multiple postings occur on the same day.</description>
+    </column>
+    <column name="LETZNR" data_type="VARCHAR">
+      <description>Sequential number of the last processed line for the given document; often used internally for error handling or re‑processing. Typically a small integer.</description>
+    </column>
+    <column name="ANZSN" data_type="INTEGER">
+      <description>Quantity posted (numeric, with unit of measure defined elsewhere). Positive values represent stock additions, negative values represent removals, depending on SHKZG.</description>
+    </column>
+    <column name="VORGANG" data_type="VARCHAR">
+      <description>Transaction code or business process identifier (e.g., 'MIGO', 'MB1A'). It provides context on which SAP transaction created the entry.</description>
+    </column>
+    <column name="LIEFERANT" data_type="VARCHAR">
+      <description>Vendor (supplier) number associated with the movement, if applicable. Empty for internal transfers or customer‑driven issues.</description>
+    </column>
+    <column name="KUNDE" data_type="VARCHAR">
+      <description>Customer number linked to the movement, used mainly for sales‑related issues such as deliveries or returns.</description>
+    </column>
+    <column name="WERK" data_type="VARCHAR">
+      <description>Plant code where the material movement took place (four‑character alphanumeric). It defines the organizational location for inventory valuation.</description>
+    </column>
+    <column name="LAGERORT" data_type="VARCHAR">
+      <description>Storage location within the plant (e.g., '0010', 'A001'). It pinpoints the exact bin or area affected by the posting.</description>
+    </column>
+    <column name="CHARGE" data_type="VARCHAR">
+      <description>Batch or lot number of the material, if the material is batch‑managed. This field enables traceability of specific production lots.</description>
+    </column>
+  </columns>
+</data_description>

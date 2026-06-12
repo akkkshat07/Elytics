@@ -1,0 +1,186 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="FPLT">
+  <table_info name="FPLT" total_columns="60"/>
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="FPLNR" data_type="VARCHAR">
+      <description>Billing Plan Number / Invoicing Plan Number</description>
+    </column>
+    <column name="FPLTR" data_type="VARCHAR">
+      <description>Item for billing plan/invoice plan/payment cards</description>
+    </column>
+    <column name="FPTTP" data_type="VARCHAR">
+      <description>Date category</description>
+    </column>
+    <column name="TETXT" data_type="VARCHAR">
+      <description>Date description</description>
+    </column>
+    <column name="FKDAT" data_type="DATE">
+      <description>Settlement date for deadline</description>
+    </column>
+    <column name="FPFIX" data_type="VARCHAR">
+      <description>ID for adopting billing/invoice date</description>
+    </column>
+    <column name="FAREG" data_type="VARCHAR">
+      <description>Rule in billing plan/invoice plan</description>
+    </column>
+    <column name="FPROZ" data_type="DECIMAL">
+      <description>Percentage of value to be invoiced</description>
+    </column>
+    <column name="WAERS" data_type="VARCHAR">
+      <description>Currency Key of Credit Control Area</description>
+    </column>
+    <column name="KURFP" data_type="DECIMAL">
+      <description>Exchange rate for date in billing plan</description>
+    </column>
+    <column name="FAKWR" data_type="DECIMAL">
+      <description>Value to be billed/calc. on date in billing/invoice plan</description>
+    </column>
+    <column name="FAKSP" data_type="VARCHAR">
+      <description>Billing block for billing plan/invoice plan dates</description>
+    </column>
+    <column name="FKARV" data_type="VARCHAR">
+      <description>Proposed billing type for an order-related billing document</description>
+    </column>
+    <column name="FKSAF" data_type="VARCHAR">
+      <description>Billing status for the billing plan/invoice plan date</description>
+    </column>
+    <column name="PERIO" data_type="VARCHAR">
+      <description>Rule for Origin of Next Billing/Invoice Date</description>
+    </column>
+    <column name="FPLAE" data_type="VARCHAR">
+      <description>Length of a standard period in the billing plan</description>
+    </column>
+    <column name="MLSTN" data_type="VARCHAR">
+      <description>Milestone number</description>
+    </column>
+    <column name="MLBEZ" data_type="VARCHAR">
+      <description>Usage</description>
+    </column>
+    <column name="ZTERM" data_type="VARCHAR">
+      <description>Terms of Payment Key</description>
+    </column>
+    <column name="KUNRG" data_type="VARCHAR">
+      <description>Payer</description>
+    </column>
+    <column name="TAXK1" data_type="VARCHAR">
+      <description>Tax classification 1 for customer</description>
+    </column>
+    <column name="TAXK2" data_type="VARCHAR">
+      <description>Tax classification 2 for customer</description>
+    </column>
+    <column name="TAXK3" data_type="VARCHAR">
+      <description>Tax classification 3 for customer</description>
+    </column>
+    <column name="TAXK4" data_type="VARCHAR">
+      <description>Tax Classification 4 Customer</description>
+    </column>
+    <column name="TAXK5" data_type="VARCHAR">
+      <description>Tax classification 5 for customer</description>
+    </column>
+    <column name="TAXK6" data_type="VARCHAR">
+      <description>Tax classification 6 for customer</description>
+    </column>
+    <column name="TAXK7" data_type="VARCHAR">
+      <description>Tax classification 7 for customer</description>
+    </column>
+    <column name="TAXK8" data_type="VARCHAR">
+      <description>Tax classification 8 for customer</description>
+    </column>
+    <column name="TAXK9" data_type="VARCHAR">
+      <description>Tax classification 9 for customer</description>
+    </column>
+    <column name="VALTG" data_type="VARCHAR">
+      <description>Additional value days</description>
+    </column>
+    <column name="VALDT" data_type="DATE">
+      <description>Fixed value date</description>
+    </column>
+    <column name="NFDAT" data_type="DATE">
+      <description>Settlement date for deadline</description>
+    </column>
+    <column name="TEMAN" data_type="VARCHAR">
+      <description>Process as for manually entered date</description>
+    </column>
+    <column name="FAKCA" data_type="VARCHAR">
+      <description>Calendar for Defining Days Relevant to Billing/Invoicing</description>
+    </column>
+    <column name="AFDAT" data_type="DATE">
+      <description>Billing Date for Billing Index and Printout</description>
+    </column>
+    <column name="NETWR" data_type="DECIMAL">
+      <description>Net value of the order item in document currency</description>
+    </column>
+    <column name="NETPR" data_type="DECIMAL">
+      <description>Net price</description>
+    </column>
+    <column name="WAVWR" data_type="DECIMAL">
+      <description>Cost in document currency</description>
+    </column>
+    <column name="KZWI1" data_type="DECIMAL">
+      <description>Subtotal 1 from pricing procedure for condition</description>
+    </column>
+    <column name="KZWI2" data_type="DECIMAL">
+      <description>Subtotal 2 from pricing procedure for condition</description>
+    </column>
+    <column name="KZWI3" data_type="DECIMAL">
+      <description>Subtotal 3 from pricing procedure for condition</description>
+    </column>
+    <column name="KZWI4" data_type="DECIMAL">
+      <description>Subtotal 4 from pricing procedure for condition</description>
+    </column>
+    <column name="KZWI5" data_type="DECIMAL">
+      <description>Subtotal 5 from pricing procedure for condition</description>
+    </column>
+    <column name="KZWI6" data_type="DECIMAL">
+      <description>Subtotal 6 from pricing procedure for condition</description>
+    </column>
+    <column name="CMPRE" data_type="DECIMAL">
+      <description>Item credit price</description>
+    </column>
+    <column name="SKFBP" data_type="DECIMAL">
+      <description>Amount Eligible for Cash Discount in Document Currency</description>
+    </column>
+    <column name="BONBA" data_type="DECIMAL">
+      <description>Rebate basis 1</description>
+    </column>
+    <column name="PRSOK" data_type="VARCHAR">
+      <description>Pricing is OK</description>
+    </column>
+    <column name="TYPZM" data_type="VARCHAR">
+      <description>Means of payment for classifying payment card plan lines</description>
+    </column>
+    <column name="CMPRE_FLT" data_type="FLOAT">
+      <description>Item credit price</description>
+    </column>
+    <column name="UELNR" data_type="VARCHAR">
+      <description>Higher-level payment card plan number for billing</description>
+    </column>
+    <column name="UELTR" data_type="VARCHAR">
+      <description>Higher-level item in billing plan</description>
+    </column>
+    <column name="KURRF" data_type="DECIMAL">
+      <description>Exchange rate for FI postings</description>
+    </column>
+    <column name="CCACT" data_type="VARCHAR">
+      <description>G/L Account Number for Payment Card Receivables</description>
+    </column>
+    <column name="KORTE" data_type="VARCHAR">
+      <description>Indicator for correction date in billing plan</description>
+    </column>
+    <column name="OFKDAT" data_type="DATE">
+      <description>Baseline date for determining AFDAT</description>
+    </column>
+    <column name="_DATAAGING" data_type="DATE">
+      <description>Data Filter Value for Data Aging</description>
+    </column>
+    <column name="PEROP_BEG" data_type="DATE">
+      <description>Period of Performance Start Date</description>
+    </column>
+    <column name="PEROP_END" data_type="DATE">
+      <description>Period of Performance End Date</description>
+    </column>
+  </columns>
+</data_description>

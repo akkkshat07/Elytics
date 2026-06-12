@@ -1,0 +1,153 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="ANLB">
+  <table_info name="ANLB" total_columns="49" />
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="BUKRS" data_type="VARCHAR">
+      <description>Company Code</description>
+    </column>
+    <column name="ANLN1" data_type="VARCHAR">
+      <description>Main Asset Number</description>
+    </column>
+    <column name="ANLN2" data_type="VARCHAR">
+      <description>Asset Subnumber</description>
+    </column>
+    <column name="AFABE" data_type="VARCHAR">
+      <description>Real depreciation area</description>
+    </column>
+    <column name="BDATU" data_type="DATE">
+      <description>Date validity ends</description>
+    </column>
+    <column name="ADATU" data_type="DATE">
+      <description>Date for beginning of validity</description>
+    </column>
+    <column name="ERNAM" data_type="VARCHAR">
+      <description>Name of Person Responsible for Creating the Object</description>
+    </column>
+    <column name="ERDAT" data_type="DATE">
+      <description>Date on Which Record Was Created</description>
+    </column>
+    <column name="AENAM" data_type="VARCHAR">
+      <description>Name of Person Who Changed Object</description>
+    </column>
+    <column name="AEDAT" data_type="DATE">
+      <description>Changed on</description>
+    </column>
+    <column name="XLOEV" data_type="VARCHAR">
+      <description>Indicator: Account marked for deletion?</description>
+    </column>
+    <column name="XSPEB" data_type="VARCHAR">
+      <description>Indicator: Is account blocked for posting?</description>
+    </column>
+    <column name="FELEI" data_type="VARCHAR">
+      <description>Screen layout for Asset Accounting</description>
+    </column>
+    <column name="XNEGA" data_type="VARCHAR">
+      <description>Indicator: Negative values allowed</description>
+    </column>
+    <column name="XGWGK" data_type="VARCHAR">
+      <description>Low-Value Asset Amount and Quantity Check</description>
+    </column>
+    <column name="XUNTA" data_type="VARCHAR">
+      <description>Indicator: Depreciate main asset number totally</description>
+    </column>
+    <column name="AFABG" data_type="DATE">
+      <description>Depreciation calculation start date</description>
+    </column>
+    <column name="ZINBG" data_type="DATE">
+      <description>Start date for interest calculation</description>
+    </column>
+    <column name="SAFBG" data_type="DATE">
+      <description>Start date for special depreciation</description>
+    </column>
+    <column name="INVSL" data_type="VARCHAR">
+      <description>Investment support key</description>
+    </column>
+    <column name="AFASL" data_type="VARCHAR">
+      <description>Depreciation key</description>
+    </column>
+    <column name="NDJAR" data_type="VARCHAR">
+      <description>Planned useful life in years</description>
+    </column>
+    <column name="NDPER" data_type="VARCHAR">
+      <description>Planned useful life in periods</description>
+    </column>
+    <column name="NAPRZ" data_type="DECIMAL">
+      <description>Ordinary depreciation percentage rate</description>
+    </column>
+    <column name="SAPRZ" data_type="DECIMAL">
+      <description>Special depreciation percentage rate</description>
+    </column>
+    <column name="WBIND" data_type="VARCHAR">
+      <description>Index series for replacement values</description>
+    </column>
+    <column name="ALIND" data_type="VARCHAR">
+      <description>Index series for replacement values by age</description>
+    </column>
+    <column name="APROP" data_type="DECIMAL">
+      <description>Variable depreciation portion</description>
+    </column>
+    <column name="UMJAR" data_type="VARCHAR">
+      <description>Depreciation key for the changeover year</description>
+    </column>
+    <column name="NDURJ" data_type="VARCHAR">
+      <description>Original useful life in years</description>
+    </column>
+    <column name="NDURP" data_type="VARCHAR">
+      <description>Original Useful Life in Periods</description>
+    </column>
+    <column name="SCHRW" data_type="DECIMAL">
+      <description>Asset scrap value</description>
+    </column>
+    <column name="LGJAN" data_type="VARCHAR">
+      <description>Last fiscal year for the annual values in Asset Acct.</description>
+    </column>
+    <column name="PERFY" data_type="VARCHAR">
+      <description>Period scaling in depreciation start year</description>
+    </column>
+    <column name="ANUPD" data_type="VARCHAR">
+      <description>Indicator: Type of change to table</description>
+    </column>
+    <column name="AUFWTG" data_type="VARCHAR">
+      <description>Revaluation</description>
+    </column>
+    <column name="XAFBE" data_type="VARCHAR">
+      <description>Indicator: Depreciation area is deactivated</description>
+    </column>
+    <column name="ANLGR" data_type="VARCHAR">
+      <description>Group asset</description>
+    </column>
+    <column name="ANLGR2" data_type="VARCHAR">
+      <description>Subnumber of group asset</description>
+    </column>
+    <column name="VYEAR" data_type="VARCHAR">
+      <description>Acquisition year of the asset (manually changeable)</description>
+    </column>
+    <column name="VMNTH" data_type="VARCHAR">
+      <description>Asset Accounting: Acquis. month (in depreciation area)</description>
+    </column>
+    <column name="INBDA" data_type="DATE">
+      <description>Asset Accounting:  Date of operating readiness</description>
+    </column>
+    <column name="ABGDAT_B" data_type="DATE">
+      <description>Value date of last retirement for the depreciation area</description>
+    </column>
+    <column name="J_1AARVKEY" data_type="VARCHAR">
+      <description>Revaluation Key</description>
+    </column>
+    <column name="J_1AALTDAT" data_type="DATE">
+      <description>Last Revaluation Date</description>
+    </column>
+    <column name="J_1AALTIDX" data_type="VARCHAR">
+      <description>Last Index Used</description>
+    </column>
+    <column name="SCHRW_PROZ" data_type="DECIMAL">
+      <description>Scrap Value as Percentage of APC</description>
+    </column>
+    <column name="UMPER" data_type="VARCHAR">
+      <description>Changeover Period of Depreciation Key</description>
+    </column>
+  </columns>
+</data_description>

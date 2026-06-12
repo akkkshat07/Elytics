@@ -1,0 +1,144 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="PA0016">
+  <table_info name="PA0016" total_columns="46"/>
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="PERNR" data_type="VARCHAR">
+      <description>Personnel Number</description>
+    </column>
+    <column name="SUBTY" data_type="VARCHAR">
+      <description>Subtype</description>
+    </column>
+    <column name="OBJPS" data_type="VARCHAR">
+      <description>Object Identification</description>
+    </column>
+    <column name="SPRPS" data_type="VARCHAR">
+      <description>Lock Indicator for HR Master Data Record</description>
+    </column>
+    <column name="ENDDA" data_type="DATE">
+      <description>End Date</description>
+    </column>
+    <column name="BEGDA" data_type="DATE">
+      <description>Start Date</description>
+    </column>
+    <column name="SEQNR" data_type="VARCHAR">
+      <description>Number of Infotype Record With Same Key</description>
+    </column>
+    <column name="AEDTM" data_type="DATE">
+      <description>Last Changed On</description>
+    </column>
+    <column name="UNAME" data_type="VARCHAR">
+      <description>Name of Person Who Changed Object</description>
+    </column>
+    <column name="HISTO" data_type="VARCHAR">
+      <description>Historical Record Flag</description>
+    </column>
+    <column name="ITXEX" data_type="VARCHAR">
+      <description>Text Exists for Infotype</description>
+    </column>
+    <column name="REFEX" data_type="VARCHAR">
+      <description>Reference Fields Exist (Primary/Secondary Costs)</description>
+    </column>
+    <column name="ORDEX" data_type="VARCHAR">
+      <description>Confirmation Fields Exist</description>
+    </column>
+    <column name="ITBLD" data_type="VARCHAR">
+      <description>Infotype Screen Control</description>
+    </column>
+    <column name="PREAS" data_type="VARCHAR">
+      <description>Reason for Changing Master Data</description>
+    </column>
+    <column name="FLAG1" data_type="VARCHAR">
+      <description>Reserved Field/Unused Field</description>
+    </column>
+    <column name="FLAG2" data_type="VARCHAR">
+      <description>Reserved Field/Unused Field</description>
+    </column>
+    <column name="FLAG3" data_type="VARCHAR">
+      <description>Reserved Field/Unused Field</description>
+    </column>
+    <column name="FLAG4" data_type="VARCHAR">
+      <description>Reserved Field/Unused Field</description>
+    </column>
+    <column name="RESE1" data_type="VARCHAR">
+      <description>Reserved Field/Unused Field of Length 2</description>
+    </column>
+    <column name="RESE2" data_type="VARCHAR">
+      <description>Reserved Field/Unused Field of Length 2</description>
+    </column>
+    <column name="GRPVL" data_type="VARCHAR">
+      <description>Grouping Value for Personnel Assignments</description>
+    </column>
+    <column name="NBTGK" data_type="VARCHAR">
+      <description>Sideline Job</description>
+    </column>
+    <column name="WTTKL" data_type="VARCHAR">
+      <description>Competition Clause</description>
+    </column>
+    <column name="LFZFR" data_type="DECIMAL">
+      <description>Period of Continued Pay (Number)</description>
+    </column>
+    <column name="LFZZH" data_type="VARCHAR">
+      <description>Period of Continued Pay (Unit)</description>
+    </column>
+    <column name="LFZSO" data_type="VARCHAR">
+      <description>Special Rule for Continued Pay</description>
+    </column>
+    <column name="KGZFR" data_type="DECIMAL">
+      <description>Sick Pay Supplement Period (Number)</description>
+    </column>
+    <column name="KGZZH" data_type="VARCHAR">
+      <description>Sick Pay Supplement Period (Unit)</description>
+    </column>
+    <column name="PRBZT" data_type="DECIMAL">
+      <description>Probationary Period (Number)</description>
+    </column>
+    <column name="PRBEH" data_type="VARCHAR">
+      <description>Probationary Period (Unit)</description>
+    </column>
+    <column name="KDGFR" data_type="VARCHAR">
+      <description>Dismissals Notice Period for Employer</description>
+    </column>
+    <column name="KDGF2" data_type="VARCHAR">
+      <description>Dismissals Notice Period for Employee</description>
+    </column>
+    <column name="ARBER" data_type="DATE">
+      <description>Expiration Date of Work Permit</description>
+    </column>
+    <column name="EINDT" data_type="DATE">
+      <description>Initial Entry</description>
+    </column>
+    <column name="KONDT" data_type="DATE">
+      <description>Date of Entry into Group</description>
+    </column>
+    <column name="KONSL" data_type="VARCHAR">
+      <description>Group Key</description>
+    </column>
+    <column name="CTTYP" data_type="VARCHAR">
+      <description>Contract Type</description>
+    </column>
+    <column name="CTEDT" data_type="DATE">
+      <description>Contract End Date</description>
+    </column>
+    <column name="PERSG" data_type="VARCHAR">
+      <description>Employee Group</description>
+    </column>
+    <column name="PERSK" data_type="VARCHAR">
+      <description>Employee Subgroup</description>
+    </column>
+    <column name="WRKPL" data_type="VARCHAR">
+      <description>Work Location (Contract Elements Infotype)</description>
+    </column>
+    <column name="CTBEG" data_type="DATE">
+      <description>Contract Start</description>
+    </column>
+    <column name="CTNUM" data_type="VARCHAR">
+      <description>Contract number</description>
+    </column>
+    <column name="OBJNB" data_type="VARCHAR">
+      <description>Object Number (France)</description>
+    </column>
+  </columns>
+</data_description>

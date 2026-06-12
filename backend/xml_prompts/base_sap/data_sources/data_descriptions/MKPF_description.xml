@@ -1,0 +1,114 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="MKPF">
+  <table_info name="MKPF" total_columns="36"/>
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="MBLNR" data_type="VARCHAR">
+      <description>Number of Material Document</description>
+    </column>
+    <column name="MJAHR" data_type="VARCHAR">
+      <description>Material Document Year</description>
+    </column>
+    <column name="VGART" data_type="VARCHAR">
+      <description>Transaction/Event Type</description>
+    </column>
+    <column name="BLART" data_type="VARCHAR">
+      <description>Document Type</description>
+    </column>
+    <column name="BLAUM" data_type="VARCHAR">
+      <description>Document type of revaluation document</description>
+    </column>
+    <column name="BLDAT" data_type="DATE">
+      <description>Document Date in Document</description>
+    </column>
+    <column name="BUDAT" data_type="DATE">
+      <description>Posting Date in the Document</description>
+    </column>
+    <column name="CPUDT" data_type="DATE">
+      <description>Day On Which Accounting Document Was Entered</description>
+    </column>
+    <column name="CPUTM" data_type="TIME">
+      <description>Time of Entry</description>
+    </column>
+    <column name="AEDAT" data_type="DATE">
+      <description>Last Changed On</description>
+    </column>
+    <column name="USNAM" data_type="VARCHAR">
+      <description>User Name</description>
+    </column>
+    <column name="TCODE" data_type="VARCHAR">
+      <description>Not More Closely Defined Area, Possibly Used for Patchlevels</description>
+    </column>
+    <column name="XBLNR" data_type="VARCHAR">
+      <description>Reference Document Number</description>
+    </column>
+    <column name="BKTXT" data_type="VARCHAR">
+      <description>Document Header Text</description>
+    </column>
+    <column name="FRATH" data_type="DECIMAL">
+      <description>Unplanned delivery costs</description>
+    </column>
+    <column name="FRBNR" data_type="VARCHAR">
+      <description>Number of Bill of Lading at Time of Goods Receipt</description>
+    </column>
+    <column name="WEVER" data_type="VARCHAR">
+      <description>Version for Printing GR/GI Slip</description>
+    </column>
+    <column name="XABLN" data_type="VARCHAR">
+      <description>Goods Receipt/Issue Slip Number</description>
+    </column>
+    <column name="AWSYS" data_type="VARCHAR">
+      <description>Logical System</description>
+    </column>
+    <column name="BLA2D" data_type="VARCHAR">
+      <description>Doc. type for additional doc. in purchase account management</description>
+    </column>
+    <column name="TCODE2" data_type="VARCHAR">
+      <description>Transaction Code</description>
+    </column>
+    <column name="BFWMS" data_type="VARCHAR">
+      <description>Control posting for external WMS</description>
+    </column>
+    <column name="EXNUM" data_type="VARCHAR">
+      <description>Number of foreign trade data in MM and SD documents</description>
+    </column>
+    <column name="SPE_BUDAT_UHR" data_type="TIME">
+      <description>Time of Goods Issue (Local, Relating to a Plant)</description>
+    </column>
+    <column name="SPE_BUDAT_ZONE" data_type="VARCHAR">
+      <description>Time Zone</description>
+    </column>
+    <column name="LE_VBELN" data_type="VARCHAR">
+      <description>Delivery</description>
+    </column>
+    <column name="SPE_LOGSYS" data_type="VARCHAR">
+      <description>Logical System of EWM Material Document</description>
+    </column>
+    <column name="SPE_MDNUM_EWM" data_type="VARCHAR">
+      <description>Number of Material Document in EWM</description>
+    </column>
+    <column name="GTS_CUSREF_NO" data_type="VARCHAR">
+      <description>Customs Reference Number for Scrapping</description>
+    </column>
+    <column name="FLS_RSTO" data_type="VARCHAR">
+      <description>Store Return with Inbound and Outbound Delivery</description>
+    </column>
+    <column name="MSR_ACTIVE" data_type="VARCHAR">
+      <description>Advanced Returns Management Active</description>
+    </column>
+    <column name="TICKET_KEY" data_type="VARCHAR">
+      <description>OIL-TSW: Ticket key</description>
+    </column>
+    <column name="KNUMV" data_type="VARCHAR">
+      <description>Number of the document condition</description>
+    </column>
+    <column name="LFSNR" data_type="VARCHAR">
+      <description>Number of External Delivery Note</description>
+    </column>
+    <column name="OIB_BLTIME" data_type="TIME">
+      <description>Posting time in the document</description>
+    </column>
+  </columns>
+</data_description>

@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="T510G">
+  <table_info name="T510G" total_columns="4" />
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="MOLGA" data_type="VARCHAR">
+      <description>Country Grouping</description>
+    </column>
+    <column name="TRFGB" data_type="VARCHAR">
+      <description>Pay Scale Area</description>
+    </column>
+    <column name="TGBTX" data_type="VARCHAR">
+      <description>Name of pay scale area (Basic Pay infotype)</description>
+    </column>
+  </columns>
+</data_description>

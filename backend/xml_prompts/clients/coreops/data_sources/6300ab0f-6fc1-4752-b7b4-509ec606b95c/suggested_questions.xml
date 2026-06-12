@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8'?>
+<suggested_questions client_id="coreops" generated_at="2026-06-01T21:41:41.471341" count="30">
+  <question id="1">What is the total net sales value by sales segment for the current business month?</question>
+  <question id="2">Which field employees generated the highest order value during the latest reporting week?</question>
+  <question id="3">How have daily order quantities trended for Retail and Parlor during the last month?</question>
+  <question id="4">Which sales territories have the lowest month-to-date target achievement percentage?</question>
+  <question id="5">How does gross sales value break down by product category and sales segment this quarter?</question>
+  <question id="6">Which distributors contributed the most productive calls in the current business month?</question>
+  <question id="7">How many unique outlets were covered by each field employee this month?</question>
+  <question id="8">Which new outlets contributed the highest net sales value since onboarding?</question>
+  <question id="9">How does average order value compare between Retail and Parlor for the latest month?</question>
+  <question id="10">Which SKUs show declining sales quantities across three consecutive reporting weeks?</question>
+  <question id="11">Which ten field employees rank highest for month-to-date net sales versus target achievement?</question>
+  <question id="12">Which beats have the highest outlet coverage but lowest productivity rates?</question>
+  <question id="13">What is the distribution of order transactions across reporting dates this month?</question>
+  <question id="14">Which product categories underperformed sales targets despite high outlet coverage this month?</question>
+  <question id="15">Which employees recorded zero productive calls on any reporting day this week?</question>
+  <question id="16">What percentage of total sales came from new outlets within each sales segment?</question>
+  <question id="17">Which sales positions show the largest gap between month-to-date sales and targets?</question>
+  <question id="18">What are the outlet counts and productive call counts by distributor and beat?</question>
+  <question id="19">Which geographies achieved the highest net sales growth compared with the previous month?</question>
+  <question id="20">Which ten products generated the lowest net sales value this month?</question>
+  <question id="21">How does average ECO vary across field employees and sales segments this month?</question>
+  <question id="22">Which clients placed repeat orders on multiple days during the latest week?</question>
+  <question id="23">How have gross and net sales values trended by business month for NE division?</question>
+  <question id="24">Which Retail employees have high outlet coverage but low order conversion?</question>
+  <question id="25">How do sales quantities break down by SKU attributes and product category this month?</question>
+  <question id="26">Which outlets recorded orders above the average order value last week?</question>
+  <question id="27">How do target achievement percentages compare across employee hierarchy levels this business month?</question>
+  <question id="28">Which reporting dates had unusually low order volume compared with the monthly average?</question>
+  <question id="29">What is each sales segment’s contribution to total productive calls?</question>
+  <question id="30">Which territories had Parlor net sales exceeding Retail sales in the same month?</question>
+</suggested_questions>

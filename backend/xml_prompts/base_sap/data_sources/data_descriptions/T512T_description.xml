@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="T512T">
+  <table_info name="T512T" total_columns="6" />
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="SPRSL" data_type="VARCHAR">
+      <description>Language Key</description>
+    </column>
+    <column name="MOLGA" data_type="VARCHAR">
+      <description>Country Grouping</description>
+    </column>
+    <column name="LGART" data_type="VARCHAR">
+      <description>Wage Type</description>
+    </column>
+    <column name="LGTXT" data_type="VARCHAR">
+      <description>Wage Type Long Text</description>
+    </column>
+    <column name="KZTXT" data_type="VARCHAR">
+      <description>Short Text for Wage Type</description>
+    </column>
+  </columns>
+</data_description>

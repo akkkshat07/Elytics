@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="SKAT">
+  <table_info name="SKAT" total_columns="7" />
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="SPRAS" data_type="VARCHAR">
+      <description>Language Key</description>
+    </column>
+    <column name="KTOPL" data_type="VARCHAR">
+      <description>Chart of Accounts</description>
+    </column>
+    <column name="SAKNR" data_type="VARCHAR">
+      <description>G/L Account Number</description>
+    </column>
+    <column name="TXT20" data_type="VARCHAR">
+      <description>G/L Account Short Text</description>
+    </column>
+    <column name="TXT50" data_type="VARCHAR">
+      <description>G/L Account Long Text</description>
+    </column>
+    <column name="MCOD1" data_type="VARCHAR">
+      <description>Search Term for Matchcode Search</description>
+    </column>
+  </columns>
+</data_description>

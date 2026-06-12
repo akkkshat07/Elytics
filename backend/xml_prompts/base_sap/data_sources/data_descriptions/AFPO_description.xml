@@ -1,0 +1,306 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="AFPO">
+  <table_info name="AFPO" total_columns="100"/>
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="AUFNR" data_type="VARCHAR">
+      <description>Order Number</description>
+    </column>
+    <column name="POSNR" data_type="VARCHAR">
+      <description>Order item number</description>
+    </column>
+    <column name="PSOBS" data_type="VARCHAR">
+      <description>Special procurement type</description>
+    </column>
+    <column name="QUNUM" data_type="VARCHAR">
+      <description>Number of quota arrangement</description>
+    </column>
+    <column name="QUPOS" data_type="VARCHAR">
+      <description>Quota arrangement item</description>
+    </column>
+    <column name="PROJN" data_type="VARCHAR">
+      <description>Work breakdown structure element (WBS element)</description>
+    </column>
+    <column name="PLNUM" data_type="VARCHAR">
+      <description>Planned order number</description>
+    </column>
+    <column name="STRMP" data_type="DATE">
+      <description>Start Date of Planned Order</description>
+    </column>
+    <column name="ETRMP" data_type="DATE">
+      <description>Opening date of the planned order</description>
+    </column>
+    <column name="KDAUF" data_type="VARCHAR">
+      <description>Sales Order Number</description>
+    </column>
+    <column name="KDPOS" data_type="VARCHAR">
+      <description>Sales Order Item</description>
+    </column>
+    <column name="KDEIN" data_type="VARCHAR">
+      <description>Delivery schedule for sales order</description>
+    </column>
+    <column name="BESKZ" data_type="VARCHAR">
+      <description>Procurement Type</description>
+    </column>
+    <column name="PSAMG" data_type="DECIMAL">
+      <description>Scrap quantity in item</description>
+    </column>
+    <column name="PSMNG" data_type="DECIMAL">
+      <description>Order item quantity</description>
+    </column>
+    <column name="WEMNG" data_type="DECIMAL">
+      <description>Quantity of goods received for the order item</description>
+    </column>
+    <column name="IAMNG" data_type="DECIMAL">
+      <description>Expected surplus/deficit for goods receipt</description>
+    </column>
+    <column name="AMEIN" data_type="VARCHAR">
+      <description>Unit of measure for in-house production</description>
+    </column>
+    <column name="MEINS" data_type="VARCHAR">
+      <description>Base Unit of Measure</description>
+    </column>
+    <column name="MATNR" data_type="VARCHAR">
+      <description>Material Number for Order</description>
+    </column>
+    <column name="PAMNG" data_type="DECIMAL">
+      <description>Fixed quantity of scrap from production</description>
+    </column>
+    <column name="PGMNG" data_type="DECIMAL">
+      <description>Total planned order quantity</description>
+    </column>
+    <column name="KNTTP" data_type="VARCHAR">
+      <description>Account Assignment Category</description>
+    </column>
+    <column name="TPAUF" data_type="VARCHAR">
+      <description>Indicator: Partial conversion</description>
+    </column>
+    <column name="LTRMI" data_type="DATE">
+      <description>Actual delivery/finish date</description>
+    </column>
+    <column name="LTRMP" data_type="DATE">
+      <description>Deliv. Date fr. Planned Ord.</description>
+    </column>
+    <column name="KALNR" data_type="VARCHAR">
+      <description>Cost Estimate Number for Cost Est. w/o Qty Structure</description>
+    </column>
+    <column name="UEBTO" data_type="DECIMAL">
+      <description>Overdelivery Tolerance Limit</description>
+    </column>
+    <column name="UEBTK" data_type="VARCHAR">
+      <description>Indicator: Unlimited Overdelivery Allowed</description>
+    </column>
+    <column name="UNTTO" data_type="DECIMAL">
+      <description>Underdelivery Tolerance Limit</description>
+    </column>
+    <column name="INSMK" data_type="VARCHAR">
+      <description>Stock Type</description>
+    </column>
+    <column name="WEPOS" data_type="VARCHAR">
+      <description>Goods Receipt Indicator</description>
+    </column>
+    <column name="BWTAR" data_type="VARCHAR">
+      <description>Valuation Type</description>
+    </column>
+    <column name="BWTTY" data_type="VARCHAR">
+      <description>Valuation Category</description>
+    </column>
+    <column name="PWERK" data_type="VARCHAR">
+      <description>Planning plant for the order</description>
+    </column>
+    <column name="LGORT" data_type="VARCHAR">
+      <description>Storage Location</description>
+    </column>
+    <column name="UMREZ" data_type="DECIMAL">
+      <description>Numerator for Conversion to Base Units of Measure</description>
+    </column>
+    <column name="UMREN" data_type="DECIMAL">
+      <description>Denominator for conversion to base units of measure</description>
+    </column>
+    <column name="WEBAZ" data_type="DECIMAL">
+      <description>Goods receipt processing time in days</description>
+    </column>
+    <column name="ELIKZ" data_type="VARCHAR">
+      <description>&quot;Delivery Completed&quot; Indicator</description>
+    </column>
+    <column name="SAFNR" data_type="VARCHAR">
+      <description>Run schedule header number</description>
+    </column>
+    <column name="VERID" data_type="VARCHAR">
+      <description>Production Version</description>
+    </column>
+    <column name="SERNR" data_type="VARCHAR">
+      <description>BOM explosion number</description>
+    </column>
+    <column name="TECHS" data_type="VARCHAR">
+      <description>Parameter Variant/Standard Variant</description>
+    </column>
+    <column name="DWERK" data_type="VARCHAR">
+      <description>Plant</description>
+    </column>
+    <column name="DAUTY" data_type="VARCHAR">
+      <description>Order category</description>
+    </column>
+    <column name="DAUAT" data_type="VARCHAR">
+      <description>Order Type</description>
+    </column>
+    <column name="DGLTP" data_type="DATE">
+      <description>Basic finish date</description>
+    </column>
+    <column name="DGLTS" data_type="DATE">
+      <description>Scheduled finish</description>
+    </column>
+    <column name="DFREI" data_type="VARCHAR">
+      <description>Indicator: Order released/partially released (for MRP)</description>
+    </column>
+    <column name="DNREL" data_type="VARCHAR">
+      <description>Indicator: Order item not relevant for MRP</description>
+    </column>
+    <column name="VERTO" data_type="VARCHAR">
+      <description>MRP Distribution Key</description>
+    </column>
+    <column name="SOBKZ" data_type="VARCHAR">
+      <description>Special Stock Indicator</description>
+    </column>
+    <column name="KZVBR" data_type="VARCHAR">
+      <description>Consumption posting</description>
+    </column>
+    <column name="WEWRT" data_type="DECIMAL">
+      <description>Value of goods received in local currency</description>
+    </column>
+    <column name="WEUNB" data_type="VARCHAR">
+      <description>Goods Receipt, Non-Valuated</description>
+    </column>
+    <column name="ABLAD" data_type="VARCHAR">
+      <description>Unloading Point</description>
+    </column>
+    <column name="WEMPF" data_type="VARCHAR">
+      <description>Goods recipient</description>
+    </column>
+    <column name="CHARG" data_type="VARCHAR">
+      <description>Batch Number</description>
+    </column>
+    <column name="GSBER" data_type="VARCHAR">
+      <description>Business Area</description>
+    </column>
+    <column name="WEAED" data_type="VARCHAR">
+      <description>Indicator: Goods receipt indicator can be changed</description>
+    </column>
+    <column name="CUOBJ" data_type="VARCHAR">
+      <description>Configuration (internal object number)</description>
+    </column>
+    <column name="KBNKZ" data_type="VARCHAR">
+      <description>Kanban Indicator</description>
+    </column>
+    <column name="ARSNR" data_type="VARCHAR">
+      <description>Settlement reservation number</description>
+    </column>
+    <column name="ARSPS" data_type="VARCHAR">
+      <description>Item number of the settlement reservation</description>
+    </column>
+    <column name="KRSNR" data_type="VARCHAR">
+      <description>Number of reservation/dependent requirements</description>
+    </column>
+    <column name="KRSPS" data_type="VARCHAR">
+      <description>Item Number of Reservation / Dependent Requirements</description>
+    </column>
+    <column name="KCKEY" data_type="VARCHAR">
+      <description>Cost collector key</description>
+    </column>
+    <column name="RTP01" data_type="VARCHAR">
+      <description>Cost collector for repetitive manufacturing</description>
+    </column>
+    <column name="RTP02" data_type="VARCHAR">
+      <description>Cost collector for KANBAN</description>
+    </column>
+    <column name="RTP03" data_type="VARCHAR">
+      <description>Cost collector for valuated sales order stock</description>
+    </column>
+    <column name="RTP04" data_type="VARCHAR">
+      <description>Cost collector for external PPC</description>
+    </column>
+    <column name="KSVON" data_type="DATE">
+      <description>Cost collector valid from</description>
+    </column>
+    <column name="KSBIS" data_type="DATE">
+      <description>Cost collector valid to</description>
+    </column>
+    <column name="OBJNP" data_type="VARCHAR">
+      <description>Object number</description>
+    </column>
+    <column name="NDISR" data_type="VARCHAR">
+      <description>Ind.: Material in order item is not relevant for MRP</description>
+    </column>
+    <column name="VFMNG" data_type="DECIMAL">
+      <description>Committed Quantity for Order After ATP Check Components</description>
+    </column>
+    <column name="GSBTR" data_type="DATE">
+      <description>Overall commitment date</description>
+    </column>
+    <column name="KZAVC" data_type="VARCHAR">
+      <description>Indicator for type of availability check</description>
+    </column>
+    <column name="KZBWS" data_type="VARCHAR">
+      <description>Valuation of Special Stock</description>
+    </column>
+    <column name="XLOEK" data_type="VARCHAR">
+      <description>Deletion flag</description>
+    </column>
+    <column name="SERNP" data_type="VARCHAR">
+      <description>Serial Number Profile</description>
+    </column>
+    <column name="ANZSN" data_type="INTEGER">
+      <description>Number of serial numbers</description>
+    </column>
+    <column name="OBJTYPE" data_type="VARCHAR">
+      <description>Change indicator</description>
+    </column>
+    <column name="CH_PROC" data_type="VARCHAR">
+      <description>Process that has lead to the change of an object</description>
+    </column>
+    <column name="FXPRU" data_type="VARCHAR">
+      <description>Fixed-Price Co-Product</description>
+    </column>
+    <column name="CUOBJ_ROOT" data_type="VARCHAR">
+      <description>Configuration (internal object number)</description>
+    </column>
+    <column name="BERID" data_type="VARCHAR">
+      <description>MRP Area</description>
+    </column>
+    <column name="TECHS_COPY" data_type="VARCHAR">
+      <description>Parameter Variant/Standard Variant</description>
+    </column>
+    <column name="SGT_SCAT" data_type="VARCHAR">
+      <description>Stock Segment</description>
+    </column>
+    <column name="KUNNR2" data_type="VARCHAR">
+      <description>Customer Number</description>
+    </column>
+    <column name="FSH_SEASON_YEAR" data_type="VARCHAR">
+      <description>Season Year</description>
+    </column>
+    <column name="FSH_SEASON" data_type="VARCHAR">
+      <description>Season</description>
+    </column>
+    <column name="FSH_COLLECTION" data_type="VARCHAR">
+      <description>Fashion Collection</description>
+    </column>
+    <column name="FSH_THEME" data_type="VARCHAR">
+      <description>Fashion Theme</description>
+    </column>
+    <column name="FSH_SALLOC_QTY" data_type="DECIMAL">
+      <description>Allocated Stock Quantity</description>
+    </column>
+    <column name="MILL_OC_AUFNR_U" data_type="VARCHAR">
+      <description>Number of original order</description>
+    </column>
+    <column name="MILL_OC_RUMNG" data_type="DECIMAL">
+      <description>Confirmed Quantity for Item</description>
+    </column>
+    <column name="MILL_OC_SORT" data_type="VARCHAR">
+      <description>Item Sequence</description>
+    </column>
+  </columns>
+</data_description>

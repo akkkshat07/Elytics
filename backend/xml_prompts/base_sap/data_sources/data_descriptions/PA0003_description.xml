@@ -1,0 +1,147 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="PA0003">
+  <table_info name="PA0003" total_columns="47"/>
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="PERNR" data_type="VARCHAR">
+      <description>Personnel Number</description>
+    </column>
+    <column name="SUBTY" data_type="VARCHAR">
+      <description>Subtype</description>
+    </column>
+    <column name="OBJPS" data_type="VARCHAR">
+      <description>Object Identification</description>
+    </column>
+    <column name="SPRPS" data_type="VARCHAR">
+      <description>Lock Indicator for HR Master Data Record</description>
+    </column>
+    <column name="ENDDA" data_type="DATE">
+      <description>End Date</description>
+    </column>
+    <column name="BEGDA" data_type="DATE">
+      <description>Start Date</description>
+    </column>
+    <column name="SEQNR" data_type="VARCHAR">
+      <description>Number of Infotype Record With Same Key</description>
+    </column>
+    <column name="AEDTM" data_type="DATE">
+      <description>Last Changed On</description>
+    </column>
+    <column name="UNAME" data_type="VARCHAR">
+      <description>Name of Person Who Changed Object</description>
+    </column>
+    <column name="HISTO" data_type="VARCHAR">
+      <description>Historical Record Flag</description>
+    </column>
+    <column name="ITXEX" data_type="VARCHAR">
+      <description>Text Exists for Infotype</description>
+    </column>
+    <column name="REFEX" data_type="VARCHAR">
+      <description>Reference Fields Exist (Primary/Secondary Costs)</description>
+    </column>
+    <column name="ORDEX" data_type="VARCHAR">
+      <description>Confirmation Fields Exist</description>
+    </column>
+    <column name="ITBLD" data_type="VARCHAR">
+      <description>Infotype Screen Control</description>
+    </column>
+    <column name="PREAS" data_type="VARCHAR">
+      <description>Reason for Changing Master Data</description>
+    </column>
+    <column name="FLAG1" data_type="VARCHAR">
+      <description>Reserved Field/Unused Field</description>
+    </column>
+    <column name="FLAG2" data_type="VARCHAR">
+      <description>Reserved Field/Unused Field</description>
+    </column>
+    <column name="FLAG3" data_type="VARCHAR">
+      <description>Reserved Field/Unused Field</description>
+    </column>
+    <column name="FLAG4" data_type="VARCHAR">
+      <description>Reserved Field/Unused Field</description>
+    </column>
+    <column name="RESE1" data_type="VARCHAR">
+      <description>Reserved Field/Unused Field of Length 2</description>
+    </column>
+    <column name="RESE2" data_type="VARCHAR">
+      <description>Reserved Field/Unused Field of Length 2</description>
+    </column>
+    <column name="GRPVL" data_type="VARCHAR">
+      <description>Grouping Value for Personnel Assignments</description>
+    </column>
+    <column name="ABRSP" data_type="VARCHAR">
+      <description>Indicator: Personnel number locked for payroll</description>
+    </column>
+    <column name="ABRDT" data_type="DATE">
+      <description>Accounted to</description>
+    </column>
+    <column name="RRDAT" data_type="DATE">
+      <description>Earliest master data change since last payroll run</description>
+    </column>
+    <column name="RRDAF" data_type="DATE">
+      <description>not in use</description>
+    </column>
+    <column name="KOABR" data_type="VARCHAR">
+      <description>Internal Use</description>
+    </column>
+    <column name="PRDAT" data_type="DATE">
+      <description>Earliest personal retroactive accounting date</description>
+    </column>
+    <column name="PKGAB" data_type="DATE">
+      <description>Date as of which personal calendar must be generated</description>
+    </column>
+    <column name="ABWD1" data_type="DATE">
+      <description>End of processing 1 (run payroll for pers.no. up to)</description>
+    </column>
+    <column name="ABWD2" data_type="DATE">
+      <description>End of processing (do not run payroll for pers.no. after)</description>
+    </column>
+    <column name="BDERR" data_type="DATE">
+      <description>Recalculation date for PDC</description>
+    </column>
+    <column name="BDER1" data_type="DATE">
+      <description>Effective recalculation date for PDC</description>
+    </column>
+    <column name="KOBDE" data_type="VARCHAR">
+      <description>PDC Error Indicator</description>
+    </column>
+    <column name="TIMRC" data_type="VARCHAR">
+      <description>Date of initial PDC entry</description>
+    </column>
+    <column name="DAT00" data_type="DATE">
+      <description>Initial input date for a personnel number</description>
+    </column>
+    <column name="UHR00" data_type="TIME">
+      <description>Time of initial input</description>
+    </column>
+    <column name="INUMK" data_type="VARCHAR">
+      <description>Character field, 8 characters long</description>
+    </column>
+    <column name="WERKS" data_type="VARCHAR">
+      <description>Administrator Group</description>
+    </column>
+    <column name="SACHZ" data_type="VARCHAR">
+      <description>Administrator for Time Recording</description>
+    </column>
+    <column name="SFELD" data_type="VARCHAR">
+      <description>Sort field for infotype 0003</description>
+    </column>
+    <column name="ADRUN" data_type="VARCHAR">
+      <description>HR: Special payroll run</description>
+    </column>
+    <column name="VIEKN" data_type="VARCHAR">
+      <description>Infotype View Indicator</description>
+    </column>
+    <column name="TRVFL" data_type="VARCHAR">
+      <description>Indicator for recorded trips</description>
+    </column>
+    <column name="RCBON" data_type="DATE">
+      <description>Earliest payroll-relevant master data change (bonus)</description>
+    </column>
+    <column name="PRTEV" data_type="DATE">
+      <description>Earliest personal recalculation date for time evaluation</description>
+    </column>
+  </columns>
+</data_description>

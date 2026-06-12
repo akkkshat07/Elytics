@@ -1,0 +1,252 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="EINE">
+  <table_info name="EINE" total_columns="82"/>
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="INFNR" data_type="VARCHAR">
+      <description>Number of purchasing info record</description>
+    </column>
+    <column name="EKORG" data_type="VARCHAR">
+      <description>Purchasing Organization</description>
+    </column>
+    <column name="ESOKZ" data_type="VARCHAR">
+      <description>Purchasing info record category</description>
+    </column>
+    <column name="WERKS" data_type="VARCHAR">
+      <description>Plant</description>
+    </column>
+    <column name="LOEKZ" data_type="VARCHAR">
+      <description>Purch. info: Purch. organization data flagged for deletion</description>
+    </column>
+    <column name="ERDAT" data_type="DATE">
+      <description>Date on Which Record Was Created</description>
+    </column>
+    <column name="ERNAM" data_type="VARCHAR">
+      <description>Name of Person Responsible for Creating the Object</description>
+    </column>
+    <column name="EKGRP" data_type="VARCHAR">
+      <description>Purchasing Group</description>
+    </column>
+    <column name="WAERS" data_type="VARCHAR">
+      <description>Currency Key</description>
+    </column>
+    <column name="BONUS" data_type="VARCHAR">
+      <description>Indicator: Volume-Based Rebate</description>
+    </column>
+    <column name="MGBON" data_type="VARCHAR">
+      <description>Indicator: Quantity-Based Volume Rebate</description>
+    </column>
+    <column name="MINBM" data_type="DECIMAL">
+      <description>Minimum Purchase Order Quantity</description>
+    </column>
+    <column name="NORBM" data_type="DECIMAL">
+      <description>Standard Purchase Order Quantity</description>
+    </column>
+    <column name="APLFZ" data_type="DECIMAL">
+      <description>Planned Delivery Time in Days</description>
+    </column>
+    <column name="UEBTO" data_type="DECIMAL">
+      <description>Overdelivery Tolerance Limit</description>
+    </column>
+    <column name="UEBTK" data_type="VARCHAR">
+      <description>Indicator: Unlimited Overdelivery Allowed</description>
+    </column>
+    <column name="UNTTO" data_type="DECIMAL">
+      <description>Underdelivery Tolerance Limit</description>
+    </column>
+    <column name="ANGNR" data_type="VARCHAR">
+      <description>Quotation Number</description>
+    </column>
+    <column name="ANGDT" data_type="DATE">
+      <description>Quotation Validity Date</description>
+    </column>
+    <column name="ANFNR" data_type="VARCHAR">
+      <description>RFQ Number</description>
+    </column>
+    <column name="ANFPS" data_type="VARCHAR">
+      <description>Item Number of RFQ</description>
+    </column>
+    <column name="ABSKZ" data_type="VARCHAR">
+      <description>Rejection Indicator</description>
+    </column>
+    <column name="AMODV" data_type="DATE">
+      <description>Amortization period from</description>
+    </column>
+    <column name="AMODB" data_type="DATE">
+      <description>Amortization period to</description>
+    </column>
+    <column name="AMOBM" data_type="DECIMAL">
+      <description>Amortized planned quantity</description>
+    </column>
+    <column name="AMOBW" data_type="DECIMAL">
+      <description>Amortized planned value</description>
+    </column>
+    <column name="AMOAM" data_type="DECIMAL">
+      <description>Amortized actual quantity</description>
+    </column>
+    <column name="AMOAW" data_type="DECIMAL">
+      <description>Amortized actual value</description>
+    </column>
+    <column name="AMORS" data_type="VARCHAR">
+      <description>Indicator: Amortization reset</description>
+    </column>
+    <column name="BSTYP" data_type="VARCHAR">
+      <description>Purchasing document category</description>
+    </column>
+    <column name="EBELN" data_type="VARCHAR">
+      <description>Purchasing Document Number</description>
+    </column>
+    <column name="EBELP" data_type="VARCHAR">
+      <description>Item Number of Purchasing Document</description>
+    </column>
+    <column name="DATLB" data_type="DATE">
+      <description>Date of Last PO or Sched. Agreement Document in Info Record</description>
+    </column>
+    <column name="NETPR" data_type="DECIMAL">
+      <description>Net Price in Purchasing Info Record</description>
+    </column>
+    <column name="PEINH" data_type="DECIMAL">
+      <description>Price unit</description>
+    </column>
+    <column name="BPRME" data_type="VARCHAR">
+      <description>Order Price Unit (Purchasing)</description>
+    </column>
+    <column name="PRDAT" data_type="DATE">
+      <description>Price Valid Until</description>
+    </column>
+    <column name="BPUMZ" data_type="DECIMAL">
+      <description>Numerator for Conversion of Order Price Unit into Order Unit</description>
+    </column>
+    <column name="BPUMN" data_type="DECIMAL">
+      <description>Denominator for Conv. of Order Price Unit into Order Unit</description>
+    </column>
+    <column name="MTXNO" data_type="VARCHAR">
+      <description>Material Master Record PO Text Not Relevant</description>
+    </column>
+    <column name="WEBRE" data_type="VARCHAR">
+      <description>Indicator: GR-Based Invoice Verification</description>
+    </column>
+    <column name="EFFPR" data_type="DECIMAL">
+      <description>Effective Price in Purchasing Info Record</description>
+    </column>
+    <column name="EKKOL" data_type="VARCHAR">
+      <description>Condition Group with Vendor</description>
+    </column>
+    <column name="SKTOF" data_type="VARCHAR">
+      <description>Item Does Not Qualify for Cash Discount</description>
+    </column>
+    <column name="KZABS" data_type="VARCHAR">
+      <description>Order Acknowledgment Requirement</description>
+    </column>
+    <column name="MWSKZ" data_type="VARCHAR">
+      <description>Tax on Sales/Purchases Code</description>
+    </column>
+    <column name="BWTAR" data_type="VARCHAR">
+      <description>Valuation Type</description>
+    </column>
+    <column name="EBONU" data_type="VARCHAR">
+      <description>Settlement Group 1 (Purchasing)</description>
+    </column>
+    <column name="EVERS" data_type="VARCHAR">
+      <description>Shipping Instructions</description>
+    </column>
+    <column name="EXPRF" data_type="VARCHAR">
+      <description>Export/Import Procedure for Foreign Trade</description>
+    </column>
+    <column name="BSTAE" data_type="VARCHAR">
+      <description>Confirmation Control Key</description>
+    </column>
+    <column name="MEPRF" data_type="VARCHAR">
+      <description>Price Determination (Pricing) Date Control</description>
+    </column>
+    <column name="INCO1" data_type="VARCHAR">
+      <description>Incoterms (Part 1)</description>
+    </column>
+    <column name="INCO2" data_type="VARCHAR">
+      <description>Incoterms (Part 2)</description>
+    </column>
+    <column name="XERSN" data_type="VARCHAR">
+      <description>No Evaluated Receipt Settlement (ERS)</description>
+    </column>
+    <column name="EBON2" data_type="VARCHAR">
+      <description>Settlement Group 2 (Rebate Settlement, Purchasing)</description>
+    </column>
+    <column name="EBON3" data_type="VARCHAR">
+      <description>Settlement Group 3 (Rebate Settlement, Purchasing)</description>
+    </column>
+    <column name="EBONF" data_type="VARCHAR">
+      <description>Item Not Relevant to Subseq. (Period-End Rebate) Settlement</description>
+    </column>
+    <column name="MHDRZ" data_type="DECIMAL">
+      <description>Minimum Remaining Shelf Life</description>
+    </column>
+    <column name="VERID" data_type="VARCHAR">
+      <description>Production Version</description>
+    </column>
+    <column name="BSTMA" data_type="DECIMAL">
+      <description>Maximum Purchase Order Quantity</description>
+    </column>
+    <column name="RDPRF" data_type="VARCHAR">
+      <description>Rounding Profile</description>
+    </column>
+    <column name="MEGRU" data_type="VARCHAR">
+      <description>Unit of Measure Group</description>
+    </column>
+    <column name="J_1BNBM" data_type="VARCHAR">
+      <description>Brazilian NCM Code</description>
+    </column>
+    <column name="SPE_CRE_REF_DOC" data_type="VARCHAR">
+      <description>Create Purchase Order for Delivery Without Reference</description>
+    </column>
+    <column name="IPRKZ" data_type="VARCHAR">
+      <description>Period Indicator for Shelf Life Expiration Date</description>
+    </column>
+    <column name="CO_ORDER" data_type="VARCHAR">
+      <description>Real-Time Consumption Posting of Subcontracting Components</description>
+    </column>
+    <column name="VENDOR_RMA_REQ" data_type="VARCHAR">
+      <description>Vendor RMA Number Required</description>
+    </column>
+    <column name="DIFF_INVOICE" data_type="VARCHAR">
+      <description>Differential Invoicing</description>
+    </column>
+    <column name="INCOV" data_type="VARCHAR">
+      <description>Incoterms Version</description>
+    </column>
+    <column name="INCO2_L" data_type="VARCHAR">
+      <description>Incoterms Location 1</description>
+    </column>
+    <column name="INCO3_L" data_type="VARCHAR">
+      <description>Incoterms Location 2</description>
+    </column>
+    <column name="FSH_DCI_CORR" data_type="VARCHAR">
+      <description>Delivery Completion Indicator Correlation</description>
+    </column>
+    <column name="FSH_RLT" data_type="DECIMAL">
+      <description>Replenishment Lead Time for Raw Material</description>
+    </column>
+    <column name="FSH_MLT" data_type="DECIMAL">
+      <description>Manufacturing Lead Time</description>
+    </column>
+    <column name="FSH_PLT" data_type="DECIMAL">
+      <description>Packing Lead time</description>
+    </column>
+    <column name="FSH_TLT" data_type="DECIMAL">
+      <description>Transportation Lead time</description>
+    </column>
+    <column name="MRPIND" data_type="VARCHAR">
+      <description>Max. Retail Price Relevant</description>
+    </column>
+    <column name="SGT_SSREL" data_type="VARCHAR">
+      <description>Stock Segment Relevant Indicator</description>
+    </column>
+    <column name="TRANSPORT_CHAIN" data_type="VARCHAR">
+      <description>Transportation Chain</description>
+    </column>
+    <column name="STAGING_TIME" data_type="DECIMAL">
+      <description>Staging Time in Days</description>
+    </column>
+  </columns>
+</data_description>

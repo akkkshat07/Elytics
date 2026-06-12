@@ -1,0 +1,111 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="PBIM">
+  <table_info name="PBIM" total_columns="35" />
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="MATNR" data_type="VARCHAR">
+      <description>Material Number</description>
+    </column>
+    <column name="WERKS" data_type="VARCHAR">
+      <description>Plant</description>
+    </column>
+    <column name="BEDAE" data_type="VARCHAR">
+      <description>Requirements type</description>
+    </column>
+    <column name="VERSB" data_type="VARCHAR">
+      <description>Version Number for Independent Requirements</description>
+    </column>
+    <column name="PBDNR" data_type="VARCHAR">
+      <description>Requirements Plan Number</description>
+    </column>
+    <column name="BDZEI" data_type="VARCHAR">
+      <description>Independent requirements pointer</description>
+    </column>
+    <column name="ZUVKZ" data_type="VARCHAR">
+      <description>Consumption indicator</description>
+    </column>
+    <column name="VERVS" data_type="VARCHAR">
+      <description>Indicator: Version Active</description>
+    </column>
+    <column name="VERKZ" data_type="VARCHAR">
+      <description>Consumption indicator for planning requirements</description>
+    </column>
+    <column name="ZUOKR" data_type="VARCHAR">
+      <description>Criterion for allocation</description>
+    </column>
+    <column name="PLNKZ" data_type="VARCHAR">
+      <description>Planning Indicator</description>
+    </column>
+    <column name="TXTKZ" data_type="VARCHAR">
+      <description>Indicator: long text exists</description>
+    </column>
+    <column name="LOEVR" data_type="VARCHAR">
+      <description>Deletion indicator</description>
+    </column>
+    <column name="UEBKZ" data_type="VARCHAR">
+      <description>Indicator: data copied</description>
+    </column>
+    <column name="DATLP" data_type="DATE">
+      <description>Date</description>
+    </column>
+    <column name="UHRLP" data_type="TIME">
+      <description>Time</description>
+    </column>
+    <column name="AGGPB" data_type="VARCHAR">
+      <description>Aggregation indicator for planned independent requirements</description>
+    </column>
+    <column name="PLSCN" data_type="VARCHAR">
+      <description>Planning Scenario of Long-Term Planning</description>
+    </column>
+    <column name="VRSIO" data_type="VARCHAR">
+      <description>Version number in the information structure</description>
+    </column>
+    <column name="MCINF" data_type="VARCHAR">
+      <description>Name of information structure</description>
+    </column>
+    <column name="STFNA" data_type="VARCHAR">
+      <description>Field name in the generated DDIC structure</description>
+    </column>
+    <column name="OPLKZ" data_type="VARCHAR">
+      <description>With no MRP</description>
+    </column>
+    <column name="MCINC" data_type="VARCHAR">
+      <description>Name of info structure - characteristic values</description>
+    </column>
+    <column name="VRSIC" data_type="VARCHAR">
+      <description>Version number in the information structure</description>
+    </column>
+    <column name="KNTTP" data_type="VARCHAR">
+      <description>Account Assignment Category</description>
+    </column>
+    <column name="SOBKZ" data_type="VARCHAR">
+      <description>Special Stock Indicator</description>
+    </column>
+    <column name="KZVBR" data_type="VARCHAR">
+      <description>Consumption posting</description>
+    </column>
+    <column name="PSPEL" data_type="VARCHAR">
+      <description>Work Breakdown Structure Element (WBS Element)</description>
+    </column>
+    <column name="KDPOS" data_type="VARCHAR">
+      <description>Item Number in Sales Order</description>
+    </column>
+    <column name="KDAUF" data_type="VARCHAR">
+      <description>Sales Order Number</description>
+    </column>
+    <column name="PROFILID" data_type="VARCHAR">
+      <description>Name of planning profile</description>
+    </column>
+    <column name="KZBWS" data_type="VARCHAR">
+      <description>Valuation of Special Stock</description>
+    </column>
+    <column name="PBDNR_EXT" data_type="VARCHAR">
+      <description>External Requirements Plan ID</description>
+    </column>
+    <column name="SGT_RCAT" data_type="VARCHAR">
+      <description>Requirement Segment</description>
+    </column>
+  </columns>
+</data_description>

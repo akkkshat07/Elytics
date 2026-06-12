@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="T184T">
+  <table_info name="T184T" total_columns="7" />
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="SPRAS" data_type="VARCHAR">
+      <description>Language Key</description>
+    </column>
+    <column name="AUART" data_type="VARCHAR">
+      <description>Sales Document Type</description>
+    </column>
+    <column name="MTPOS" data_type="VARCHAR">
+      <description>Item category group from material master</description>
+    </column>
+    <column name="VWPOS" data_type="VARCHAR">
+      <description>Item usage</description>
+    </column>
+    <column name="PSTYV" data_type="VARCHAR">
+      <description>Default item category for the document</description>
+    </column>
+    <column name="VTEXT" data_type="VARCHAR">
+      <description>Item Category Description</description>
+    </column>
+  </columns>
+</data_description>

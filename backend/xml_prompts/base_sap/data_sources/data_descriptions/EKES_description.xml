@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="EKES">
+  <table_info name="EKES" total_columns="31"/>
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="EBELN" data_type="VARCHAR">
+      <description>Purchasing Document Number</description>
+    </column>
+    <column name="EBELP" data_type="VARCHAR">
+      <description>Item Number of Purchasing Document</description>
+    </column>
+    <column name="ETENS" data_type="VARCHAR">
+      <description>Sequential Number of Vendor Confirmation</description>
+    </column>
+    <column name="EBTYP" data_type="VARCHAR">
+      <description>Confirmation Category</description>
+    </column>
+    <column name="EINDT" data_type="DATE">
+      <description>Delivery Date of Vendor Confirmation</description>
+    </column>
+    <column name="LPEIN" data_type="VARCHAR">
+      <description>Date category of delivery date in vendor confirmation</description>
+    </column>
+    <column name="UZEIT" data_type="TIME">
+      <description>Delivery Date Time-Spot in Vendor Confirmation</description>
+    </column>
+    <column name="ERDAT" data_type="DATE">
+      <description>Creation Date of Confirmation</description>
+    </column>
+    <column name="EZEIT" data_type="TIME">
+      <description>Time at Which Vendor Confirmation was Created</description>
+    </column>
+    <column name="MENGE" data_type="DECIMAL">
+      <description>Quantity as Per Vendor Confirmation</description>
+    </column>
+    <column name="DABMG" data_type="DECIMAL">
+      <description>Quantity Reduced (MRP)</description>
+    </column>
+    <column name="ESTKZ" data_type="VARCHAR">
+      <description>Creation Indicator: Vendor Confirmation</description>
+    </column>
+    <column name="LOEKZ" data_type="VARCHAR">
+      <description>Vendor confirmation deletion indicator</description>
+    </column>
+    <column name="KZDIS" data_type="VARCHAR">
+      <description>Indicator: Confirmation is Relevant to Materials Planning</description>
+    </column>
+    <column name="XBLNR" data_type="VARCHAR">
+      <description>Reference Document Number (for Dependencies see Long Text)</description>
+    </column>
+    <column name="VBELN" data_type="VARCHAR">
+      <description>Delivery</description>
+    </column>
+    <column name="VBELP" data_type="VARCHAR">
+      <description>Delivery Item</description>
+    </column>
+    <column name="MPROF" data_type="VARCHAR">
+      <description>Mfr part profile</description>
+    </column>
+    <column name="EMATN" data_type="VARCHAR">
+      <description>Material number corresponding to manufacturer part number</description>
+    </column>
+    <column name="MAHNZ" data_type="DECIMAL">
+      <description>Number of Reminders/Expediters</description>
+    </column>
+    <column name="CHARG" data_type="VARCHAR">
+      <description>Batch Number</description>
+    </column>
+    <column name="UECHA" data_type="VARCHAR">
+      <description>Higher-Level Item of Batch Split Item</description>
+    </column>
+    <column name="REF_ETENS" data_type="VARCHAR">
+      <description>Sequential Number of Vendor Confirmation</description>
+    </column>
+    <column name="IMWRK" data_type="VARCHAR">
+      <description>Delivery has Status 'In Plant'</description>
+    </column>
+    <column name="VBELN_ST" data_type="VARCHAR">
+      <description>Delivery</description>
+    </column>
+    <column name="VBELP_ST" data_type="VARCHAR">
+      <description>Delivery Item</description>
+    </column>
+    <column name="HANDOVERDATE" data_type="DATE">
+      <description>Handover Date at the Handover Location</description>
+    </column>
+    <column name="HANDOVERTIME" data_type="TIME">
+      <description>Handover time at the handover location</description>
+    </column>
+    <column name="SGT_SCAT" data_type="VARCHAR">
+      <description>Stock Segment</description>
+    </column>
+    <column name="FSH_SALLOC_QTY" data_type="DECIMAL">
+      <description>Allocated Stock Quantity</description>
+    </column>
+  </columns>
+</data_description>

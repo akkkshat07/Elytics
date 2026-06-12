@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="T685">
+  <table_info name="T685" total_columns="11"/>
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="KVEWE" data_type="VARCHAR">
+      <description>Usage of the condition table</description>
+    </column>
+    <column name="KAPPL" data_type="VARCHAR">
+      <description>Application</description>
+    </column>
+    <column name="KSCHL" data_type="VARCHAR">
+      <description>Condition Type</description>
+    </column>
+    <column name="KOZGF" data_type="VARCHAR">
+      <description>Access sequence</description>
+    </column>
+    <column name="DATVO" data_type="VARCHAR">
+      <description>Date proposed as valid-to date</description>
+    </column>
+    <column name="DTVOB" data_type="VARCHAR">
+      <description>Proposed starting date for the rebate validity period</description>
+    </column>
+    <column name="OBSOLETE" data_type="VARCHAR">
+      <description>Restrict Ability to Modify Condition Records</description>
+    </column>
+    <column name="J_3GPRAEND" data_type="VARCHAR">
+      <description>Take Price Change Over Time Into Account</description>
+    </column>
+    <column name="J_3GBUARTL" data_type="VARCHAR">
+      <description>Posting Type - Providing Party</description>
+    </column>
+    <column name="J_3GBUARTB" data_type="VARCHAR">
+      <description>Posting Type - Debited Party</description>
+    </column>
+  </columns>
+</data_description>

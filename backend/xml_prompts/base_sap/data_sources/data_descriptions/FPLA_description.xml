@@ -1,0 +1,114 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="FPLA">
+  <table_info name="FPLA" total_columns="36" />
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="FPLNR" data_type="VARCHAR">
+      <description>Billing Plan Number / Invoicing Plan Number</description>
+    </column>
+    <column name="FPTYP" data_type="VARCHAR">
+      <description>Billing plan category</description>
+    </column>
+    <column name="FPART" data_type="VARCHAR">
+      <description>Billing/Invoicing Plan Type</description>
+    </column>
+    <column name="SORTL" data_type="VARCHAR">
+      <description>Sort field</description>
+    </column>
+    <column name="BEDAT" data_type="DATE">
+      <description>Start date for billing plan/invoice plan</description>
+    </column>
+    <column name="ENDAT" data_type="DATE">
+      <description>End date billing plan/invoice plan</description>
+    </column>
+    <column name="HORIZ" data_type="VARCHAR">
+      <description>Rule for Determining Horizon in Billing/Invoicing Plan</description>
+    </column>
+    <column name="VBELN" data_type="VARCHAR">
+      <description>Sales and Distribution Document Number</description>
+    </column>
+    <column name="BEDAR" data_type="VARCHAR">
+      <description>Rule for Origin of Start Date of Billing/Invoicing Plan</description>
+    </column>
+    <column name="ENDAR" data_type="VARCHAR">
+      <description>Rule for Origin of End Date for Billing/Invoicing Plan</description>
+    </column>
+    <column name="PERIO" data_type="VARCHAR">
+      <description>Rule for Origin of Next Billing/Invoice Date</description>
+    </column>
+    <column name="FPLAE" data_type="VARCHAR">
+      <description>Length of a standard period in the billing plan</description>
+    </column>
+    <column name="RFPLN" data_type="VARCHAR">
+      <description>Standard Billing/Invoicing Plan Number</description>
+    </column>
+    <column name="LODAT" data_type="DATE">
+      <description>Dates from</description>
+    </column>
+    <column name="AUTTE" data_type="VARCHAR">
+      <description>Billing/Invoice Creation in Advance</description>
+    </column>
+    <column name="LODAR" data_type="VARCHAR">
+      <description>Rule for Origin of Start Dates</description>
+    </column>
+    <column name="PERAF" data_type="VARCHAR">
+      <description>Rule for Determination of a Deviating Billing/Invoice Date</description>
+    </column>
+    <column name="FAKCA" data_type="VARCHAR">
+      <description>Calendar for Defining Days Relevant to Billing/Invoicing</description>
+    </column>
+    <column name="TNDAT" data_type="DATE">
+      <description>Dates to</description>
+    </column>
+    <column name="TNDAR" data_type="VARCHAR">
+      <description>Rule for Origin of End Dates</description>
+    </column>
+    <column name="AUFPL" data_type="VARCHAR">
+      <description>Routing number of operations in the order</description>
+    </column>
+    <column name="APLZL" data_type="VARCHAR">
+      <description>General counter for order</description>
+    </column>
+    <column name="RSNUM" data_type="VARCHAR">
+      <description>Number of reservation/dependent requirements</description>
+    </column>
+    <column name="RSPOS" data_type="VARCHAR">
+      <description>Item Number of Reservation / Dependent Requirements</description>
+    </column>
+    <column name="EBELN" data_type="VARCHAR">
+      <description>Purchasing Document Number</description>
+    </column>
+    <column name="FPLTU" data_type="VARCHAR">
+      <description>Item unlimited in value</description>
+    </column>
+    <column name="AUST1" data_type="VARCHAR">
+      <description>Payment cards: Status regarding requirements</description>
+    </column>
+    <column name="AUST2" data_type="VARCHAR">
+      <description>Payment cards: Totals status - Call external system</description>
+    </column>
+    <column name="AUST3" data_type="VARCHAR">
+      <description>Payment cards: Overall status - Responses from ext. system</description>
+    </column>
+    <column name="AUST4" data_type="VARCHAR">
+      <description>Payment cards: Reserve</description>
+    </column>
+    <column name="AUST5" data_type="VARCHAR">
+      <description>Payment cards: Authorization block</description>
+    </column>
+    <column name="BASISWRT" data_type="DECIMAL">
+      <description>Target value</description>
+    </column>
+    <column name="PSPNR" data_type="VARCHAR">
+      <description>WBS Element</description>
+    </column>
+    <column name="AUTKOR" data_type="VARCHAR">
+      <description>Automatic creation of correction dates in billing plan</description>
+    </column>
+    <column name="_DATAAGING" data_type="DATE">
+      <description>Data Filter Value for Data Aging</description>
+    </column>
+  </columns>
+</data_description>

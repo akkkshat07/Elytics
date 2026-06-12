@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="VAKPA">
+  <table_info name="VAKPA" total_columns="20" />
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="KUNDE" data_type="VARCHAR">
+      <description>Partner number (KUNNR, LIFNR, or PERNR)</description>
+    </column>
+    <column name="PARVW" data_type="VARCHAR">
+      <description>Partner Function</description>
+    </column>
+    <column name="VKORG" data_type="VARCHAR">
+      <description>Sales Organization</description>
+    </column>
+    <column name="TRVOG" data_type="VARCHAR">
+      <description>Transaction group</description>
+    </column>
+    <column name="AUDAT" data_type="DATE">
+      <description>Document Date (Date Received/Sent)</description>
+    </column>
+    <column name="VKBUR" data_type="VARCHAR">
+      <description>Sales Office</description>
+    </column>
+    <column name="VKGRP" data_type="VARCHAR">
+      <description>Sales Group</description>
+    </column>
+    <column name="VTWEG" data_type="VARCHAR">
+      <description>Distribution Channel</description>
+    </column>
+    <column name="SPART" data_type="VARCHAR">
+      <description>Division</description>
+    </column>
+    <column name="AUART" data_type="VARCHAR">
+      <description>Sales Document Type</description>
+    </column>
+    <column name="BSTNK" data_type="VARCHAR">
+      <description>Customer purchase order number</description>
+    </column>
+    <column name="KUNNR" data_type="VARCHAR">
+      <description>Sold-To Party</description>
+    </column>
+    <column name="ERNAM" data_type="VARCHAR">
+      <description>Name of Person Responsible for Creating the Object</description>
+    </column>
+    <column name="VBELN" data_type="VARCHAR">
+      <description>Sales and Distribution Document Number</description>
+    </column>
+    <column name="ADRNR_AG" data_type="VARCHAR">
+      <description>Address number of the sold-to party</description>
+    </column>
+    <column name="ADRNR" data_type="VARCHAR">
+      <description>Address</description>
+    </column>
+    <column name="DATAB" data_type="DATE">
+      <description>Quotation or contract valid from</description>
+    </column>
+    <column name="DATBI" data_type="DATE">
+      <description>Quotation or contract valid to</description>
+    </column>
+    <column name="_DATAAGING" data_type="DATE">
+      <description>Data Filter Value for Data Aging</description>
+    </column>
+  </columns>
+</data_description>

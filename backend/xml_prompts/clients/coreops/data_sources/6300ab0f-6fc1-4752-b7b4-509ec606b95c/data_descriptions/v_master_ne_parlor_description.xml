@@ -1,0 +1,258 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="v_master_ne_parlor">
+  <table_info name="v_master_ne_parlor" total_columns="84" />
+  <columns>
+    <column name="record_type" data_type="text">
+      <description>Indicates the type of row in the table, such as ORDER for sales transaction lines or VISIT for outlet calls without product-level sales. Analysts should use this to separate transactional sales records from coverage or visit activity records.</description>
+    </column>
+    <column name="division" data_type="text">
+      <description>Business division for the record, typically NE in this table. Use it to filter or aggregate performance for the relevant commercial division.</description>
+    </column>
+    <column name="segment" data_type="text">
+      <description>Customer or channel segment served by the division, such as Parlor. This helps analysts distinguish parlor-focused activity from other channel segments if combined with other data.</description>
+    </column>
+    <column name="order_date" data_type="timestamp without time zone">
+      <description>Date associated with the order or visit activity. For ORDER records it represents the sales order date, while for VISIT records it represents the visit date.</description>
+    </column>
+    <column name="business_month" data_type="text">
+      <description>Year-month period used for monthly reporting and target tracking, formatted like YYYY-MM. Analysts should use this for month-level aggregation instead of deriving month from dates when official reporting periods matter.</description>
+    </column>
+    <column name="report_date" data_type="timestamp without time zone">
+      <description>Reporting date on which the activity or metric is recognized. It may match the order or visit date and is useful for daily trend reporting.</description>
+    </column>
+    <column name="uuid" data_type="text">
+      <description>Composite unique identifier tying together employee position, employee name, and contact or assignment information. Analysts can use it as a field-force level key, but should validate uniqueness before using it as a primary identifier.</description>
+    </column>
+    <column name="position_code" data_type="text">
+      <description>Sales position or territory code assigned to the employee, such as NEP_GUJ_FF6. It is useful for territory-level performance, routing, and hierarchy mapping.</description>
+    </column>
+    <column name="emp_id" data_type="bigint">
+      <description>Unique employee identifier for the field employee responsible for the visit or order. Use this for joining with employee master data or tracking individual productivity.</description>
+    </column>
+    <column name="emp_name" data_type="text">
+      <description>Name of the field employee associated with the transaction or visit. This is a descriptive field for reporting and should not be used as a unique key.</description>
+    </column>
+    <column name="designation" data_type="text">
+      <description>Role or job title of the employee, such as TSO or Sr. TSI. Analysts can use it to compare performance by role level.</description>
+    </column>
+    <column name="tl_name" data_type="text">
+      <description>Name of the team leader or immediate supervisor mapped to the employee. Null values indicate missing or unavailable supervisor mapping.</description>
+    </column>
+    <column name="tl_designation" data_type="text">
+      <description>Designation of the team leader, such as ASM. Use it to understand the supervisory level above the field employee.</description>
+    </column>
+    <column name="rsm_name" data_type="text">
+      <description>Name of the regional or national sales manager mapped to the employee hierarchy. It supports rollups of sales and activity performance by senior manager.</description>
+    </column>
+    <column name="rsm_designation" data_type="text">
+      <description>Designation of the RSM-level manager, such as NSM. This provides context for the hierarchy level represented by rsm_name.</description>
+    </column>
+    <column name="asm_name" data_type="text">
+      <description>Name of the Area Sales Manager responsible for the employee or territory. Use it for ASM-level performance reporting and accountability.</description>
+    </column>
+    <column name="asm_designation" data_type="text">
+      <description>Designation of the area manager, typically ASM. This helps interpret the management hierarchy for the employee assignment.</description>
+    </column>
+    <column name="emp_zone" data_type="text">
+      <description>Sales zone of the employee, such as West. Analysts can use it for regional aggregation of employee activity and sales.</description>
+    </column>
+    <column name="emp_state" data_type="text">
+      <description>State or regional market assigned to the employee, such as Gujarat or Mah-Mum. This may reflect business geography rather than standard administrative state names.</description>
+    </column>
+    <column name="emp_city" data_type="text">
+      <description>Employee headquarters city or assigned city, such as Vadodara. Null values indicate that the city is not available in the employee mapping.</description>
+    </column>
+    <column name="hq_state" data_type="text">
+      <description>Headquarter state or sub-region for the employee, such as west-2 or Mah-Mum. This field may represent internal HQ grouping rather than a formal state name.</description>
+    </column>
+    <column name="emp_type" data_type="text">
+      <description>Employee type or classification, if available. In the sample it is null, so analysts should treat it as optional metadata.</description>
+    </column>
+    <column name="state_group" data_type="text">
+      <description>Internal grouping of states or markets, if available. Null values indicate that this grouping was not populated for the row.</description>
+    </column>
+    <column name="is_active" data_type="boolean">
+      <description>Flag indicating whether the employee is active in the master data. Null values mean the active status is unavailable and should not be interpreted as inactive.</description>
+    </column>
+    <column name="is_field_employee" data_type="boolean">
+      <description>Boolean-style flag indicating whether the employee is part of the field sales force. True values identify employees whose visits and outlet coverage should be counted in field productivity metrics.</description>
+    </column>
+    <column name="deactive_date" data_type="timestamp without time zone">
+      <description>Date on which the employee was deactivated, if applicable. Null values usually indicate no deactivation date is recorded or the employee is still active.</description>
+    </column>
+    <column name="client_id" data_type="bigint">
+      <description>Unique identifier of the outlet, salon, parlor, or client involved in the visit or order. Use this as the primary key for outlet-level aggregation where available.</description>
+    </column>
+    <column name="client_name" data_type="text">
+      <description>Name of the client or outlet, such as a beauty studio or salon. This is descriptive and may not be unique across geographies.</description>
+    </column>
+    <column name="client_type" data_type="text">
+      <description>Type of client or outlet, typically Parlor in this table. Analysts can use it to filter the relevant channel or validate segment alignment.</description>
+    </column>
+    <column name="contact_type" data_type="text">
+      <description>Classification of the outlet contact or salon type, such as Ladies or Mens. It helps segment parlors by customer service orientation or target audience.</description>
+    </column>
+    <column name="client_zone" data_type="text">
+      <description>Sales zone of the client or outlet, such as West. It may be null for visit-only rows or where outlet geography is incomplete.</description>
+    </column>
+    <column name="client_state" data_type="text">
+      <description>State or market where the client outlet is located, such as Gujarat. Use this for outlet-location analysis, distinct from employee-assigned geography.</description>
+    </column>
+    <column name="client_city" data_type="text">
+      <description>City where the client outlet is located, such as Vadodara. It supports city-level sales, coverage, and outlet universe reporting.</description>
+    </column>
+    <column name="is_in_universe" data_type="boolean">
+      <description>Flag indicating whether the client is part of the defined outlet universe for coverage and productivity tracking. True outlets are eligible for universe-based KPIs; null means universe status is unavailable.</description>
+    </column>
+    <column name="is_new_outlet" data_type="boolean">
+      <description>Flag indicating whether the client is considered a newly added outlet in the reporting period or program. Analysts should use it for new outlet acquisition and new outlet sales metrics.</description>
+    </column>
+    <column name="product_id" data_type="bigint">
+      <description>Unique product master identifier for the item sold. It is populated on ORDER records and null on visit records without product sales.</description>
+    </column>
+    <column name="variant_id" data_type="bigint">
+      <description>Unique identifier for the specific product variant or SKU variant sold. Use it for variant-level analysis when product_id alone is not granular enough.</description>
+    </column>
+    <column name="product_code" data_type="text">
+      <description>Business product code or SKU code associated with the sold product. It may appear as a numeric string with decimals and should generally be treated as text to preserve formatting.</description>
+    </column>
+    <column name="vsku_code" data_type="text">
+      <description>Variant SKU code representing the sellable SKU variant. Analysts can use it for SKU-level sales reporting and joins to SKU master data.</description>
+    </column>
+    <column name="product_name" data_type="text">
+      <description>Commercial product name sold in the order line, such as Facial Kit or Hair Spa products. Null values occur on non-order visit records.</description>
+    </column>
+    <column name="variant_name" data_type="text">
+      <description>Name of the specific SKU variant sold, often including pack size or formulation. This is useful for detailed product mix analysis.</description>
+    </column>
+    <column name="category" data_type="text">
+      <description>High-level product category, such as Facial Kit, HOME CARE, DETAN, or Spa. Use it for category-level sales and portfolio performance reporting.</description>
+    </column>
+    <column name="subcategory" data_type="text">
+      <description>More detailed product grouping within category, such as Mainline Kits, Serum, Cream, or Luxury Edit. It helps analyze mix at a level below category.</description>
+    </column>
+    <column name="product_category" data_type="text">
+      <description>Business-defined product category or franchise label, often combining product family and pack description. It may be more commercially meaningful than the generic category field.</description>
+    </column>
+    <column name="mrp" data_type="double precision">
+      <description>Maximum retail price of the product or variant. Analysts can use it as price reference metadata, not necessarily the actual transaction price.</description>
+    </column>
+    <column name="is_npd" data_type="boolean">
+      <description>Flag indicating whether the product is a new product development or newly launched item. Use it to isolate NPD performance from existing portfolio sales.</description>
+    </column>
+    <column name="distributer_name" data_type="text">
+      <description>Name of the distributor fulfilling or associated with the order, such as R.S Marketing-Parlor. The column name appears misspelled but represents distributor name.</description>
+    </column>
+    <column name="distributer_type" data_type="text">
+      <description>Type of distributor or channel partner, such as Distributor. Use it to distinguish distributor, super-stockist, or other source structures where populated.</description>
+    </column>
+    <column name="source_name" data_type="text">
+      <description>Name of the source entity for the order or supply chain flow, if captured. Null values indicate no source entity was recorded for the row.</description>
+    </column>
+    <column name="source_type" data_type="text">
+      <description>Type of source entity, if available. This can help differentiate sales sources or channel origins, but is often null in the sample.</description>
+    </column>
+    <column name="ss_id" data_type="bigint">
+      <description>Identifier for the super stockist or secondary sales source, where applicable. Null values indicate that no super stockist mapping is present for the record.</description>
+    </column>
+    <column name="beat_name" data_type="text">
+      <description>Sales beat or route name associated with the client visit or order. Use it to analyze outlet coverage and sales performance by route plan.</description>
+    </column>
+    <column name="quantity" data_type="double precision">
+      <description>Number of units or packs sold for the product line. It is populated for ORDER records and should be summed for volume analysis.</description>
+    </column>
+    <column name="gross_value" data_type="double precision">
+      <description>Gross sales value for the order line before applicable deductions used for net sales calculations. Analysts should aggregate it for top-line order value reporting.</description>
+    </column>
+    <column name="p3_val" data_type="double precision">
+      <description>Sales value classified under the P3 metric or portfolio bucket. It is typically populated when the sold product qualifies for P3 reporting.</description>
+    </column>
+    <column name="p3_nsv" data_type="double precision">
+      <description>Net sales value for the P3 bucket after adjustments such as tax or deductions. This is commonly used for achievement against P3 NSV targets.</description>
+    </column>
+    <column name="p2_val" data_type="double precision">
+      <description>Sales value classified under the P2 metric or portfolio bucket. Zero values indicate the transaction did not contribute to P2 for that line.</description>
+    </column>
+    <column name="p2_nsv" data_type="double precision">
+      <description>Net sales value for the P2 bucket after adjustments. Use it for P2 performance and target achievement analysis.</description>
+    </column>
+    <column name="tc" data_type="integer">
+      <description>Total call indicator/count for an outlet visit on the row. VISIT rows often carry tc=1, while product order lines may carry tc=0 to avoid double counting calls.</description>
+    </column>
+    <column name="pc" data_type="integer">
+      <description>Productive call indicator/count showing whether the outlet call resulted in a productive sale. Analysts should sum it carefully at outlet-call grain to avoid duplicate counting across multiple order lines.</description>
+    </column>
+    <column name="tlsd" data_type="integer">
+      <description>Total lines sold indicator/count for the row or transaction context. It is used to measure breadth of selling, but analysts should confirm grain before summing across order lines.</description>
+    </column>
+    <column name="ulsd" data_type="integer">
+      <description>Unique lines sold indicator/count for the row or transaction context. It supports product line penetration analysis and may require deduplication at order or outlet level.</description>
+    </column>
+    <column name="eco" data_type="integer">
+      <description>Effective coverage outlet indicator/count, typically 1 when an outlet contributes to effective coverage or productive activity. Use it for outlet coverage KPIs, taking care to avoid duplication on multi-line orders.</description>
+    </column>
+    <column name="mtd_tc" data_type="double precision">
+      <description>Month-to-date total calls for the employee, territory, or reporting context. It is populated on summary or KPI rows and null on many detail transaction rows.</description>
+    </column>
+    <column name="mtd_pc" data_type="double precision">
+      <description>Month-to-date productive calls for the relevant employee or territory context. Use it to track cumulative productivity within the business month.</description>
+    </column>
+    <column name="mtd_tlsd" data_type="double precision">
+      <description>Month-to-date total lines sold metric for the reporting context. It summarizes line-selling activity across the month where populated.</description>
+    </column>
+    <column name="mtd_ulsd" data_type="double precision">
+      <description>Month-to-date unique lines sold metric for the reporting context. This helps evaluate product assortment breadth over the month.</description>
+    </column>
+    <column name="mtd_eco" data_type="double precision">
+      <description>Month-to-date effective coverage outlet count or indicator total. Analysts can use it for cumulative coverage tracking against outlet universe or focus targets.</description>
+    </column>
+    <column name="mtd_p3_nsv" data_type="double precision">
+      <description>Month-to-date P3 net sales value. Use it for cumulative P3 sales performance and target achievement calculations.</description>
+    </column>
+    <column name="mtd_p2_nsv" data_type="double precision">
+      <description>Month-to-date P2 net sales value. Use it for cumulative P2 sales performance and target achievement calculations.</description>
+    </column>
+    <column name="universe" data_type="double precision">
+      <description>Count of eligible outlets in the employee, beat, territory, or reporting universe. It is used as the denominator for coverage and productivity measures when populated.</description>
+    </column>
+    <column name="lppc" data_type="double precision">
+      <description>Lines per productive call, a productivity metric showing average line breadth per productive call. Higher values generally indicate stronger cross-selling or assortment depth.</description>
+    </column>
+    <column name="productivity_pct" data_type="double precision">
+      <description>Productivity percentage, typically productive calls divided by total calls. Analysts should interpret it as the effectiveness of visits in generating productive outcomes.</description>
+    </column>
+    <column name="pc_target" data_type="double precision">
+      <description>Target number of productive calls for the reporting period or employee context. Use it as the denominator for productive call achievement calculations.</description>
+    </column>
+    <column name="lppc_target" data_type="double precision">
+      <description>Target for lines per productive call. It provides the benchmark for evaluating selling breadth productivity.</description>
+    </column>
+    <column name="p3_target_nsv" data_type="double precision">
+      <description>Target net sales value for the P3 bucket. Analysts should compare mtd_p3_nsv or aggregated p3_nsv against this value for achievement reporting.</description>
+    </column>
+    <column name="p2_target_nsv" data_type="double precision">
+      <description>Target net sales value for the P2 bucket. Use it to assess P2 sales achievement against plan.</description>
+    </column>
+    <column name="focus_target_vol" data_type="double precision">
+      <description>Volume target for focus products or focus categories. This is used to measure execution against specific focus-product campaigns.</description>
+    </column>
+    <column name="focus_target_eco" data_type="double precision">
+      <description>Effective coverage target for focus products or focus outlets. Analysts can compare focus ECO actuals against this target to evaluate execution reach.</description>
+    </column>
+    <column name="pc_achievement_pct" data_type="double precision">
+      <description>Percentage achievement of productive call target. It is generally calculated as actual productive calls divided by pc_target.</description>
+    </column>
+    <column name="p3_achievement_pct" data_type="double precision">
+      <description>Percentage achievement of P3 NSV target. It indicates how much of the planned P3 net sales has been delivered.</description>
+    </column>
+    <column name="p2_achievement_pct" data_type="double precision">
+      <description>Percentage achievement of P2 NSV target. It indicates progress against the planned P2 net sales objective.</description>
+    </column>
+    <column name="new_outlet_count" data_type="integer">
+      <description>Count of outlets classified as newly added or newly activated in the reporting context. Use it for outlet expansion and acquisition tracking.</description>
+    </column>
+    <column name="new_outlet_p3_nsv" data_type="double precision">
+      <description>P3 net sales value generated from new outlets. This helps analysts evaluate sales contribution from newly acquired outlets.</description>
+    </column>
+  </columns>
+</data_description>

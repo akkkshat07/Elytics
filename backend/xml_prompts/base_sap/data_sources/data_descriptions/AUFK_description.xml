@@ -1,0 +1,372 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="AUFK">
+  <table_info name="AUFK" total_columns="122"/>
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="AUFNR" data_type="VARCHAR">
+      <description>Order Number</description>
+    </column>
+    <column name="AUART" data_type="VARCHAR">
+      <description>Order Type</description>
+    </column>
+    <column name="AUTYP" data_type="VARCHAR">
+      <description>Order category</description>
+    </column>
+    <column name="REFNR" data_type="VARCHAR">
+      <description>Reference order number</description>
+    </column>
+    <column name="ERNAM" data_type="VARCHAR">
+      <description>Entered by</description>
+    </column>
+    <column name="ERDAT" data_type="DATE">
+      <description>Created on</description>
+    </column>
+    <column name="AENAM" data_type="VARCHAR">
+      <description>Last Changed By</description>
+    </column>
+    <column name="AEDAT" data_type="DATE">
+      <description>Change date for Order Master</description>
+    </column>
+    <column name="KTEXT" data_type="VARCHAR">
+      <description>Description</description>
+    </column>
+    <column name="LTEXT" data_type="VARCHAR">
+      <description>Long Text Exists</description>
+    </column>
+    <column name="BUKRS" data_type="VARCHAR">
+      <description>Company Code</description>
+    </column>
+    <column name="WERKS" data_type="VARCHAR">
+      <description>Plant</description>
+    </column>
+    <column name="GSBER" data_type="VARCHAR">
+      <description>Business Area</description>
+    </column>
+    <column name="KOKRS" data_type="VARCHAR">
+      <description>Controlling Area</description>
+    </column>
+    <column name="CCKEY" data_type="VARCHAR">
+      <description>Cost collector key</description>
+    </column>
+    <column name="KOSTV" data_type="VARCHAR">
+      <description>Responsible cost center</description>
+    </column>
+    <column name="STORT" data_type="VARCHAR">
+      <description>Location</description>
+    </column>
+    <column name="SOWRK" data_type="VARCHAR">
+      <description>Location plant</description>
+    </column>
+    <column name="ASTKZ" data_type="VARCHAR">
+      <description>Identifier for statistical order</description>
+    </column>
+    <column name="WAERS" data_type="VARCHAR">
+      <description>Order Currency</description>
+    </column>
+    <column name="ASTNR" data_type="VARCHAR">
+      <description>Order status</description>
+    </column>
+    <column name="STDAT" data_type="DATE">
+      <description>Date of last status change</description>
+    </column>
+    <column name="ESTNR" data_type="VARCHAR">
+      <description>Status reached so far</description>
+    </column>
+    <column name="PHAS0" data_type="VARCHAR">
+      <description>Phase &quot;Order created&quot;</description>
+    </column>
+    <column name="PHAS1" data_type="VARCHAR">
+      <description>Phase &quot;Order released&quot;</description>
+    </column>
+    <column name="PHAS2" data_type="VARCHAR">
+      <description>Phase &quot;order completed&quot;</description>
+    </column>
+    <column name="PHAS3" data_type="VARCHAR">
+      <description>Phase &quot;order closed&quot;</description>
+    </column>
+    <column name="PDAT1" data_type="DATE">
+      <description>Planned release date</description>
+    </column>
+    <column name="PDAT2" data_type="DATE">
+      <description>Planned completion date</description>
+    </column>
+    <column name="PDAT3" data_type="DATE">
+      <description>Planned closing date</description>
+    </column>
+    <column name="IDAT1" data_type="DATE">
+      <description>Release date</description>
+    </column>
+    <column name="IDAT2" data_type="DATE">
+      <description>Technical completion date</description>
+    </column>
+    <column name="IDAT3" data_type="DATE">
+      <description>Close date</description>
+    </column>
+    <column name="OBJID" data_type="VARCHAR">
+      <description>Object ID</description>
+    </column>
+    <column name="VOGRP" data_type="VARCHAR">
+      <description>Group of disallowed transactions</description>
+    </column>
+    <column name="LOEKZ" data_type="VARCHAR">
+      <description>Deletion flag</description>
+    </column>
+    <column name="PLGKZ" data_type="VARCHAR">
+      <description>Identifier for planning with line items</description>
+    </column>
+    <column name="KVEWE" data_type="VARCHAR">
+      <description>Usage of the condition table</description>
+    </column>
+    <column name="KAPPL" data_type="VARCHAR">
+      <description>Application</description>
+    </column>
+    <column name="KALSM" data_type="VARCHAR">
+      <description>Costing Sheet</description>
+    </column>
+    <column name="ZSCHL" data_type="VARCHAR">
+      <description>Overhead key</description>
+    </column>
+    <column name="ABKRS" data_type="VARCHAR">
+      <description>Processing group</description>
+    </column>
+    <column name="KSTAR" data_type="VARCHAR">
+      <description>Settlement cost element</description>
+    </column>
+    <column name="KOSTL" data_type="VARCHAR">
+      <description>Cost Center for Basic Settlement</description>
+    </column>
+    <column name="SAKNR" data_type="VARCHAR">
+      <description>G/L account for basic settlement</description>
+    </column>
+    <column name="SETNM" data_type="VARCHAR">
+      <description>Allocation set</description>
+    </column>
+    <column name="CYCLE" data_type="VARCHAR">
+      <description>Cost center to which costs are actually posted</description>
+    </column>
+    <column name="SDATE" data_type="DATE">
+      <description>Start Date</description>
+    </column>
+    <column name="SEQNR" data_type="VARCHAR">
+      <description>Sequence number</description>
+    </column>
+    <column name="USER0" data_type="VARCHAR">
+      <description>Applicant</description>
+    </column>
+    <column name="USER1" data_type="VARCHAR">
+      <description>Applicant's telephone number</description>
+    </column>
+    <column name="USER2" data_type="VARCHAR">
+      <description>Person Responsible</description>
+    </column>
+    <column name="USER3" data_type="VARCHAR">
+      <description>Telephone number of person in charge</description>
+    </column>
+    <column name="USER4" data_type="DECIMAL">
+      <description>Estimated total costs of order</description>
+    </column>
+    <column name="USER5" data_type="DATE">
+      <description>Application date</description>
+    </column>
+    <column name="USER6" data_type="VARCHAR">
+      <description>Department</description>
+    </column>
+    <column name="USER7" data_type="DATE">
+      <description>Work Start</description>
+    </column>
+    <column name="USER8" data_type="DATE">
+      <description>End of Work</description>
+    </column>
+    <column name="USER9" data_type="VARCHAR">
+      <description>Identifier for work permit issued</description>
+    </column>
+    <column name="OBJNR" data_type="VARCHAR">
+      <description>Object number</description>
+    </column>
+    <column name="PRCTR" data_type="VARCHAR">
+      <description>Profit Center</description>
+    </column>
+    <column name="PSPEL" data_type="VARCHAR">
+      <description>Work breakdown structure element (WBS element)</description>
+    </column>
+    <column name="AWSLS" data_type="VARCHAR">
+      <description>Variance Key</description>
+    </column>
+    <column name="ABGSL" data_type="VARCHAR">
+      <description>Results Analysis Key</description>
+    </column>
+    <column name="TXJCD" data_type="VARCHAR">
+      <description>Tax Jurisdiction</description>
+    </column>
+    <column name="FUNC_AREA" data_type="VARCHAR">
+      <description>Functional Area</description>
+    </column>
+    <column name="SCOPE" data_type="VARCHAR">
+      <description>Object Class</description>
+    </column>
+    <column name="PLINT" data_type="VARCHAR">
+      <description>Indicator for Integrated Planning</description>
+    </column>
+    <column name="KDAUF" data_type="VARCHAR">
+      <description>Sales Order Number</description>
+    </column>
+    <column name="KDPOS" data_type="VARCHAR">
+      <description>Item Number in Sales Order</description>
+    </column>
+    <column name="AUFEX" data_type="VARCHAR">
+      <description>External order number</description>
+    </column>
+    <column name="IVPRO" data_type="VARCHAR">
+      <description>Investment measure profile</description>
+    </column>
+    <column name="LOGSYSTEM" data_type="VARCHAR">
+      <description>Logical System</description>
+    </column>
+    <column name="FLG_MLTPS" data_type="VARCHAR">
+      <description>Order with Multiple Items</description>
+    </column>
+    <column name="ABUKR" data_type="VARCHAR">
+      <description>Requesting company code</description>
+    </column>
+    <column name="AKSTL" data_type="VARCHAR">
+      <description>Requesting cost center</description>
+    </column>
+    <column name="SIZECL" data_type="VARCHAR">
+      <description>Scale of investment objects</description>
+    </column>
+    <column name="IZWEK" data_type="VARCHAR">
+      <description>Reason for investment</description>
+    </column>
+    <column name="UMWKZ" data_type="VARCHAR">
+      <description>Reason for environmental investment</description>
+    </column>
+    <column name="KSTEMPF" data_type="VARCHAR">
+      <description>Indicator: Direct cost collector</description>
+    </column>
+    <column name="ZSCHM" data_type="VARCHAR">
+      <description>Interest Profile for Project/Order Interest Calculation</description>
+    </column>
+    <column name="PKOSA" data_type="VARCHAR">
+      <description>Cost collector for production process PROCNR</description>
+    </column>
+    <column name="ANFAUFNR" data_type="VARCHAR">
+      <description>Requesting order</description>
+    </column>
+    <column name="PROCNR" data_type="VARCHAR">
+      <description>Production Process</description>
+    </column>
+    <column name="PROTY" data_type="VARCHAR">
+      <description>Process Category (Procurement/Consumption)</description>
+    </column>
+    <column name="RSORD" data_type="VARCHAR">
+      <description>Refurbishment order indicator (PM)</description>
+    </column>
+    <column name="BEMOT" data_type="VARCHAR">
+      <description>Accounting Indicator</description>
+    </column>
+    <column name="ADRNRA" data_type="VARCHAR">
+      <description>Address Number</description>
+    </column>
+    <column name="ERFZEIT" data_type="TIME">
+      <description>Time created</description>
+    </column>
+    <column name="AEZEIT" data_type="TIME">
+      <description>Changed at</description>
+    </column>
+    <column name="CSTG_VRNT" data_type="VARCHAR">
+      <description>Costing Variant</description>
+    </column>
+    <column name="COSTESTNR" data_type="VARCHAR">
+      <description>Cost Estimate Number for Cost Est. w/o Qty Structure</description>
+    </column>
+    <column name="VERAA_USER" data_type="VARCHAR">
+      <description>Person Responsible for CO Internal Order</description>
+    </column>
+    <column name="DUMMY_CI_AUFK" data_type="VARCHAR">
+      <description>Single-Character Flag</description>
+    </column>
+    <column name="VNAME" data_type="VARCHAR">
+      <description>Joint Venture</description>
+    </column>
+    <column name="RECID" data_type="VARCHAR">
+      <description>Recovery Indicator</description>
+    </column>
+    <column name="ETYPE" data_type="VARCHAR">
+      <description>Equity type</description>
+    </column>
+    <column name="OTYPE" data_type="VARCHAR">
+      <description>Joint Venture Object Type</description>
+    </column>
+    <column name="JV_JIBCL" data_type="VARCHAR">
+      <description>JIB/JIBE Class</description>
+    </column>
+    <column name="JV_JIBSA" data_type="VARCHAR">
+      <description>JIB/JIBE Subclass A</description>
+    </column>
+    <column name="JV_OCO" data_type="VARCHAR">
+      <description>JV original cost object</description>
+    </column>
+    <column name="CPD_UPDAT" data_type="DECIMAL">
+      <description>Time Stamp</description>
+    </column>
+    <column name="/CUM/INDCU" data_type="VARCHAR">
+      <description>CU: Order is Used for Compatible Units</description>
+    </column>
+    <column name="/CUM/CMNUM" data_type="VARCHAR">
+      <description>CU: Construction Measure Number</description>
+    </column>
+    <column name="/CUM/AUEST" data_type="VARCHAR">
+      <description>CU: Automatic Copy of Estimated Costs</description>
+    </column>
+    <column name="/CUM/DESNUM" data_type="VARCHAR">
+      <description>CU: Design Number</description>
+    </column>
+    <column name="/MRSS/PL_STRU_ID" data_type="VARCHAR">
+      <description>Resource planning nodes</description>
+    </column>
+    <column name="/MRSS/PL_MAN_TYP" data_type="VARCHAR">
+      <description>Assignment to resource planner or contact person</description>
+    </column>
+    <column name="/MRSS/ORDER_PROB" data_type="VARCHAR">
+      <description>Order probability in percent</description>
+    </column>
+    <column name="/MRSS/ACT_TYPE" data_type="VARCHAR">
+      <description>Process Variant</description>
+    </column>
+    <column name="/MRSS/INIT_DONE" data_type="VARCHAR">
+      <description>Internal initialization carried out once</description>
+    </column>
+    <column name="/MRSS/DATACHANGE" data_type="VARCHAR">
+      <description>Data was changed in the controls on the user screen</description>
+    </column>
+    <column name="/MRSS/SALES_ORG" data_type="VARCHAR">
+      <description>Sales Organization</description>
+    </column>
+    <column name="/MRSS/NW_BOOKED" data_type="VARCHAR">
+      <description>Network Set to &quot;Booked&quot;</description>
+    </column>
+    <column name="VAPLZ" data_type="VARCHAR">
+      <description>Main work center for maintenance tasks</description>
+    </column>
+    <column name="WAWRK" data_type="VARCHAR">
+      <description>Plant associated with main work center</description>
+    </column>
+    <column name="FERC_IND" data_type="VARCHAR">
+      <description>Regulatory indicator</description>
+    </column>
+    <column name="AUFK_STATUS" data_type="INTEGER">
+      <description>Status Combination</description>
+    </column>
+    <column name="CLAIM_CONTROL" data_type="VARCHAR">
+      <description>Claim creation control indicator</description>
+    </column>
+    <column name="UPDATE_NEEDED" data_type="VARCHAR">
+      <description>Claim inconsistency with order indicator</description>
+    </column>
+    <column name="UPDATE_CONTROL" data_type="VARCHAR">
+      <description>Claim update trigger point from service order</description>
+    </column>
+  </columns>
+</data_description>

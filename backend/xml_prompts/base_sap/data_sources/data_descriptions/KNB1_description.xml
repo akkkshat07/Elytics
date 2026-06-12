@@ -1,0 +1,243 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="KNB1">
+  <table_info name="KNB1" total_columns="79"/>
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="KUNNR" data_type="VARCHAR">
+      <description>Customer Number</description>
+    </column>
+    <column name="BUKRS" data_type="VARCHAR">
+      <description>Company Code</description>
+    </column>
+    <column name="PERNR" data_type="VARCHAR">
+      <description>Personnel Number</description>
+    </column>
+    <column name="ERDAT" data_type="DATE">
+      <description>Date on which the Record Was Created</description>
+    </column>
+    <column name="ERNAM" data_type="VARCHAR">
+      <description>Name of Person who Created the Object</description>
+    </column>
+    <column name="SPERR" data_type="VARCHAR">
+      <description>Posting block for company code</description>
+    </column>
+    <column name="LOEVM" data_type="VARCHAR">
+      <description>Deletion Flag for Master Record (Company Code Level)</description>
+    </column>
+    <column name="ZUAWA" data_type="VARCHAR">
+      <description>Key for sorting according to assignment numbers</description>
+    </column>
+    <column name="BUSAB" data_type="VARCHAR">
+      <description>Accounting Clerk Abbreviation</description>
+    </column>
+    <column name="AKONT" data_type="VARCHAR">
+      <description>Reconciliation Account in General Ledger</description>
+    </column>
+    <column name="BEGRU" data_type="VARCHAR">
+      <description>Authorization Group</description>
+    </column>
+    <column name="KNRZE" data_type="VARCHAR">
+      <description>Head Office Account Number (in branch accounts)</description>
+    </column>
+    <column name="KNRZB" data_type="VARCHAR">
+      <description>Account number of an alternative payer</description>
+    </column>
+    <column name="ZAMIM" data_type="VARCHAR">
+      <description>Indicator: Payment notice to customer (with cleared items)?</description>
+    </column>
+    <column name="ZAMIV" data_type="VARCHAR">
+      <description>Indicator: payment notice to sales department?</description>
+    </column>
+    <column name="ZAMIR" data_type="VARCHAR">
+      <description>Indicator: payment notice to legal department?</description>
+    </column>
+    <column name="ZAMIB" data_type="VARCHAR">
+      <description>Indicator: Payment notice to the accounting department ?</description>
+    </column>
+    <column name="ZAMIO" data_type="VARCHAR">
+      <description>Indicator: payment notice to customer (w/o cleared items)?</description>
+    </column>
+    <column name="ZWELS" data_type="VARCHAR">
+      <description>List of Respected Payment Methods</description>
+    </column>
+    <column name="XVERR" data_type="VARCHAR">
+      <description>Indicator: Clearing between customer and vendor ?</description>
+    </column>
+    <column name="ZAHLS" data_type="VARCHAR">
+      <description>Block Key for Payment</description>
+    </column>
+    <column name="ZTERM" data_type="VARCHAR">
+      <description>Terms of Payment Key</description>
+    </column>
+    <column name="WAKON" data_type="VARCHAR">
+      <description>Terms of payment key for bill of exchange charges</description>
+    </column>
+    <column name="VZSKZ" data_type="VARCHAR">
+      <description>Interest calculation indicator</description>
+    </column>
+    <column name="ZINDT" data_type="DATE">
+      <description>Key Date of Last Interest Calculation</description>
+    </column>
+    <column name="ZINRT" data_type="VARCHAR">
+      <description>Interest Calculation Frequency in Months</description>
+    </column>
+    <column name="EIKTO" data_type="VARCHAR">
+      <description>Our account number at customer</description>
+    </column>
+    <column name="ZSABE" data_type="VARCHAR">
+      <description>User at customer</description>
+    </column>
+    <column name="KVERM" data_type="VARCHAR">
+      <description>Memo</description>
+    </column>
+    <column name="FDGRV" data_type="VARCHAR">
+      <description>Planning group</description>
+    </column>
+    <column name="VRBKZ" data_type="VARCHAR">
+      <description>Export credit insurance institution number</description>
+    </column>
+    <column name="VLIBB" data_type="DECIMAL">
+      <description>Amount Insured</description>
+    </column>
+    <column name="VRSZL" data_type="DECIMAL">
+      <description>Insurance lead months</description>
+    </column>
+    <column name="VRSPR" data_type="DECIMAL">
+      <description>Deductible percentage rate</description>
+    </column>
+    <column name="VRSNR" data_type="VARCHAR">
+      <description>Insurance number</description>
+    </column>
+    <column name="VERDT" data_type="DATE">
+      <description>Insurance validity date</description>
+    </column>
+    <column name="PERKZ" data_type="VARCHAR">
+      <description>Collective invoice variant</description>
+    </column>
+    <column name="XDEZV" data_type="VARCHAR">
+      <description>Indicator: Local processing?</description>
+    </column>
+    <column name="XAUSZ" data_type="VARCHAR">
+      <description>Indicator for periodic account statements</description>
+    </column>
+    <column name="WEBTR" data_type="DECIMAL">
+      <description>Bill of exchange limit (in local currency)</description>
+    </column>
+    <column name="REMIT" data_type="VARCHAR">
+      <description>Next payee</description>
+    </column>
+    <column name="DATLZ" data_type="DATE">
+      <description>Date of the last interest calculation run</description>
+    </column>
+    <column name="XZVER" data_type="VARCHAR">
+      <description>Indicator: Record Payment History ?</description>
+    </column>
+    <column name="TOGRU" data_type="VARCHAR">
+      <description>Tolerance group for the business partner/G/L account</description>
+    </column>
+    <column name="KULTG" data_type="DECIMAL">
+      <description>Probable time until check is paid</description>
+    </column>
+    <column name="HBKID" data_type="VARCHAR">
+      <description>Short Key for a House Bank</description>
+    </column>
+    <column name="XPORE" data_type="VARCHAR">
+      <description>Indicator: Pay all items separately ?</description>
+    </column>
+    <column name="BLNKZ" data_type="VARCHAR">
+      <description>Subsidy Indicator for Determining the Reduction Rates</description>
+    </column>
+    <column name="ALTKN" data_type="VARCHAR">
+      <description>Previous Master Record Number</description>
+    </column>
+    <column name="ZGRUP" data_type="VARCHAR">
+      <description>Key for Payment Grouping</description>
+    </column>
+    <column name="URLID" data_type="VARCHAR">
+      <description>Short Key for Known/Negotiated Leave</description>
+    </column>
+    <column name="MGRUP" data_type="VARCHAR">
+      <description>Key for dunning notice grouping</description>
+    </column>
+    <column name="LOCKB" data_type="VARCHAR">
+      <description>Key of the Lockbox to Which the Customer Is To Pay</description>
+    </column>
+    <column name="UZAWE" data_type="VARCHAR">
+      <description>Payment method supplement</description>
+    </column>
+    <column name="EKVBD" data_type="VARCHAR">
+      <description>Account Number of Buying Group</description>
+    </column>
+    <column name="SREGL" data_type="VARCHAR">
+      <description>Selection Rule for Payment Advices</description>
+    </column>
+    <column name="XEDIP" data_type="VARCHAR">
+      <description>Indicator: Send Payment Advices by EDI</description>
+    </column>
+    <column name="FRGRP" data_type="VARCHAR">
+      <description>Release Approval Group</description>
+    </column>
+    <column name="VRSDG" data_type="VARCHAR">
+      <description>Reason Code Conversion Version</description>
+    </column>
+    <column name="TLFXS" data_type="VARCHAR">
+      <description>Accounting clerk's fax number at the customer/vendor</description>
+    </column>
+    <column name="INTAD" data_type="VARCHAR">
+      <description>Internet address of partner company clerk</description>
+    </column>
+    <column name="XKNZB" data_type="VARCHAR">
+      <description>Indicator: Alternative payer using account number</description>
+    </column>
+    <column name="GUZTE" data_type="VARCHAR">
+      <description>Payment Terms Key for Credit Memos</description>
+    </column>
+    <column name="GRICD" data_type="VARCHAR">
+      <description>Activity Code for Gross Income Tax</description>
+    </column>
+    <column name="GRIDT" data_type="VARCHAR">
+      <description>Distribution Type for Employment Tax</description>
+    </column>
+    <column name="WBRSL" data_type="VARCHAR">
+      <description>Value Adjustment Key</description>
+    </column>
+    <column name="CONFS" data_type="VARCHAR">
+      <description>Status of Change Authorization (Company Code Level)</description>
+    </column>
+    <column name="UPDAT" data_type="DATE">
+      <description>Date on Which the Changes Were Confirmed</description>
+    </column>
+    <column name="UPTIM" data_type="TIME">
+      <description>Time of Last Change Confirmation</description>
+    </column>
+    <column name="NODEL" data_type="VARCHAR">
+      <description>Deletion bock for master record (company code level)</description>
+    </column>
+    <column name="TLFNS" data_type="VARCHAR">
+      <description>Accounting clerk's telephone number at business partner</description>
+    </column>
+    <column name="CESSION_KZ" data_type="VARCHAR">
+      <description>Accounts Receivable Pledging Indicator</description>
+    </column>
+    <column name="AVSND" data_type="VARCHAR">
+      <description>Indicator: Send Payment Advice by XML</description>
+    </column>
+    <column name="AD_HASH" data_type="VARCHAR">
+      <description>E-Mail Address for Avis: Hash Value</description>
+    </column>
+    <column name="QLAND" data_type="VARCHAR">
+      <description>Withholding Tax Country Key</description>
+    </column>
+    <column name="CVP_XBLCK_B" data_type="VARCHAR">
+      <description>Business Purpose Completed Flag</description>
+    </column>
+    <column name="CIIUCODE" data_type="VARCHAR">
+      <description>Main economic activity</description>
+    </column>
+    <column name="GMVKZD" data_type="VARCHAR">
+      <description>Customer is in execution</description>
+    </column>
+  </columns>
+</data_description>

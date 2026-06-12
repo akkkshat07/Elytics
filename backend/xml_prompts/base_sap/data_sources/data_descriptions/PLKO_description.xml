@@ -1,0 +1,240 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="PLKO">
+  <table_info name="PLKO" total_columns="78"/>
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="PLNTY" data_type="VARCHAR">
+      <description>Task List Type</description>
+    </column>
+    <column name="PLNNR" data_type="VARCHAR">
+      <description>Key for Task List Group</description>
+    </column>
+    <column name="PLNAL" data_type="VARCHAR">
+      <description>Group Counter</description>
+    </column>
+    <column name="ZAEHL" data_type="VARCHAR">
+      <description>Internal counter</description>
+    </column>
+    <column name="DATUV" data_type="DATE">
+      <description>Valid-From Date</description>
+    </column>
+    <column name="TECHV" data_type="VARCHAR">
+      <description>Technical status from</description>
+    </column>
+    <column name="AENNR" data_type="VARCHAR">
+      <description>Change Number</description>
+    </column>
+    <column name="LOEKZ" data_type="VARCHAR">
+      <description>Deletion Indicator</description>
+    </column>
+    <column name="PARKZ" data_type="VARCHAR">
+      <description>Indicator: inactive changes</description>
+    </column>
+    <column name="ANDAT" data_type="DATE">
+      <description>Date record created on</description>
+    </column>
+    <column name="ANNAM" data_type="VARCHAR">
+      <description>User who created record</description>
+    </column>
+    <column name="AEDAT" data_type="DATE">
+      <description>Last Changed On</description>
+    </column>
+    <column name="AENAM" data_type="VARCHAR">
+      <description>Name of Person Who Changed Object</description>
+    </column>
+    <column name="VERWE" data_type="VARCHAR">
+      <description>Task list usage</description>
+    </column>
+    <column name="WERKS" data_type="VARCHAR">
+      <description>Plant</description>
+    </column>
+    <column name="STATU" data_type="VARCHAR">
+      <description>Status</description>
+    </column>
+    <column name="PLNME" data_type="VARCHAR">
+      <description>Task list unit of measure</description>
+    </column>
+    <column name="LOSVN" data_type="DECIMAL">
+      <description>From Lot Size</description>
+    </column>
+    <column name="LOSBS" data_type="DECIMAL">
+      <description>To lot size</description>
+    </column>
+    <column name="VAGRP" data_type="VARCHAR">
+      <description>Responsible planner group/department</description>
+    </column>
+    <column name="AESZN" data_type="VARCHAR">
+      <description>Document change number (without document management system)</description>
+    </column>
+    <column name="KTEXT" data_type="VARCHAR">
+      <description>Task list description</description>
+    </column>
+    <column name="TXTSP" data_type="VARCHAR">
+      <description>Language Key</description>
+    </column>
+    <column name="ABDAT" data_type="DATE">
+      <description>Date of the last call</description>
+    </column>
+    <column name="ABANZ" data_type="DECIMAL">
+      <description>Number of calls</description>
+    </column>
+    <column name="PROFIDNETZ" data_type="VARCHAR">
+      <description>Profile</description>
+    </column>
+    <column name="KOKRS" data_type="VARCHAR">
+      <description>Controlling Area</description>
+    </column>
+    <column name="QVEWERKS" data_type="VARCHAR">
+      <description>Plant of Selected Set for Automatic Usage Decision</description>
+    </column>
+    <column name="QVEMENGE" data_type="VARCHAR">
+      <description>Selected Set for Usage Decision</description>
+    </column>
+    <column name="QVEVERSION" data_type="VARCHAR">
+      <description>Code Version Used for an Automatic Usage Decision</description>
+    </column>
+    <column name="QVEDATUM" data_type="DATE">
+      <description>Date of Code Used for Usage Decision</description>
+    </column>
+    <column name="QVEGRUPPE" data_type="VARCHAR">
+      <description>Code Group for Automatic Usage Decision</description>
+    </column>
+    <column name="QVECODE" data_type="VARCHAR">
+      <description>Code for Automatic Usage Decision</description>
+    </column>
+    <column name="QDYNREGEL" data_type="VARCHAR">
+      <description>Dynamic Modification Rule</description>
+    </column>
+    <column name="QDYNHEAD" data_type="VARCHAR">
+      <description>Level at Which Dynamic Modification Parameters Are Defined</description>
+    </column>
+    <column name="QPRZIEHVER" data_type="VARCHAR">
+      <description>Sample-Drawing Procedure</description>
+    </column>
+    <column name="QVERSNPRZV" data_type="VARCHAR">
+      <description>Version No. of the Sample-Drawing Procedure</description>
+    </column>
+    <column name="QKZRASTER" data_type="VARCHAR">
+      <description>Inspection Point</description>
+    </column>
+    <column name="QDYNSTRING" data_type="VARCHAR">
+      <description>String for Dynamic Modification Criteria (Database Relevant)</description>
+    </column>
+    <column name="STRAT" data_type="VARCHAR">
+      <description>Maintenance strategy</description>
+    </column>
+    <column name="PPOOL" data_type="VARCHAR">
+      <description>Maintenance package pool</description>
+    </column>
+    <column name="ISTRU" data_type="VARCHAR">
+      <description>Assembly</description>
+    </column>
+    <column name="IWERK" data_type="VARCHAR">
+      <description>Maintenance Planning Plant</description>
+    </column>
+    <column name="ANLZU" data_type="VARCHAR">
+      <description>Syst.Condition</description>
+    </column>
+    <column name="ARBID" data_type="VARCHAR">
+      <description>Work center group with planning function</description>
+    </column>
+    <column name="EXTNUM" data_type="VARCHAR">
+      <description>External Numbering of Units to be Inspected</description>
+    </column>
+    <column name="DELKZ" data_type="VARCHAR">
+      <description>Indicator: Delete completely in reorganization run</description>
+    </column>
+    <column name="ARBTY" data_type="VARCHAR">
+      <description>Object types of the CIM resource</description>
+    </column>
+    <column name="STUPR" data_type="VARCHAR">
+      <description>Setup recipe</description>
+    </column>
+    <column name="CLNDR" data_type="VARCHAR">
+      <description>Clean-out recipe</description>
+    </column>
+    <column name="PRTYP" data_type="VARCHAR">
+      <description>Process type</description>
+    </column>
+    <column name="REODAT" data_type="DATE">
+      <description>Archive date</description>
+    </column>
+    <column name="NETID" data_type="VARCHAR">
+      <description>Object ID of the resource</description>
+    </column>
+    <column name="FLG_CHK" data_type="VARCHAR">
+      <description>Ind: Task list was submitted for consistency check</description>
+    </column>
+    <column name="PSPNR" data_type="VARCHAR">
+      <description>Standard WBS element</description>
+    </column>
+    <column name="TTRAS" data_type="VARCHAR">
+      <description>Task lists: Internal representation of the period pattern</description>
+    </column>
+    <column name="KZKFG" data_type="VARCHAR">
+      <description>Ind: Configurable object</description>
+    </column>
+    <column name="PLNNR_ALT" data_type="VARCHAR">
+      <description>Old number</description>
+    </column>
+    <column name="FLG_CAPO" data_type="VARCHAR">
+      <description>Recalculate standard values at order creation using CAPP</description>
+    </column>
+    <column name="STLTY" data_type="VARCHAR">
+      <description>BOM category</description>
+    </column>
+    <column name="STLNR" data_type="VARCHAR">
+      <description>Bill of material</description>
+    </column>
+    <column name="STLAL" data_type="VARCHAR">
+      <description>Alternative BOM</description>
+    </column>
+    <column name="SLWBEZ" data_type="VARCHAR">
+      <description>Identification for the Inspection Point Field Combination</description>
+    </column>
+    <column name="PPKZTLZU" data_type="VARCHAR">
+      <description>Partial Lot Assignment in an Inspection During Production</description>
+    </column>
+    <column name="CHRULE" data_type="VARCHAR">
+      <description>Change rule</description>
+    </column>
+    <column name="CCOAA" data_type="VARCHAR">
+      <description>Change Type for Object</description>
+    </column>
+    <column name="ST_ARBID" data_type="VARCHAR">
+      <description>Object ID</description>
+    </column>
+    <column name="MEINH" data_type="VARCHAR">
+      <description>Unit of measure for activity</description>
+    </column>
+    <column name="UMREZ" data_type="DECIMAL">
+      <description>Numerator for converting task list and oper. un. of measure</description>
+    </column>
+    <column name="UMREN" data_type="DECIMAL">
+      <description>Denominator for converting rtg and op units of measure</description>
+    </column>
+    <column name="BMSCH" data_type="DECIMAL">
+      <description>Base Quantity</description>
+    </column>
+    <column name="ADPSP" data_type="VARCHAR">
+      <description>Reference Element PM/PS</description>
+    </column>
+    <column name="MS_FLAG" data_type="VARCHAR">
+      <description>Indicator: Multiple Specifications</description>
+    </column>
+    <column name="TSTMP_BW" data_type="DECIMAL">
+      <description>Time Stamp for BI Delta Extraction</description>
+    </column>
+    <column name="MES_ROUTINGID" data_type="VARCHAR">
+      <description>Key of a Routing from an ME System</description>
+    </column>
+    <column name="XHIERTL" data_type="VARCHAR">
+      <description>Sign: Task List Contains Hierarchical Operations</description>
+    </column>
+    <column name="TL_EXTID" data_type="VARCHAR">
+      <description>A&amp;D: External ID of Task List</description>
+    </column>
+  </columns>
+</data_description>

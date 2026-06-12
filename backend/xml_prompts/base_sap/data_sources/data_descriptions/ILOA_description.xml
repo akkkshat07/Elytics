@@ -1,0 +1,150 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="ILOA">
+  <table_info name="ILOA" total_columns="48"/>
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="ILOAN" data_type="VARCHAR">
+      <description>Location and account assignment for technical object</description>
+    </column>
+    <column name="TPLNR" data_type="VARCHAR">
+      <description>Functional Location</description>
+    </column>
+    <column name="ABCKZ" data_type="VARCHAR">
+      <description>ABC indicator for technical object</description>
+    </column>
+    <column name="ABCKZI" data_type="VARCHAR">
+      <description>Data origin for ABC indicator field</description>
+    </column>
+    <column name="EQFNR" data_type="VARCHAR">
+      <description>Sort field</description>
+    </column>
+    <column name="EQFNRI" data_type="VARCHAR">
+      <description>Data origin for sort field</description>
+    </column>
+    <column name="SWERK" data_type="VARCHAR">
+      <description>Maintenance plant</description>
+    </column>
+    <column name="SWERKI" data_type="VARCHAR">
+      <description>Data origin for maintenance plant field</description>
+    </column>
+    <column name="STORT" data_type="VARCHAR">
+      <description>Location of maintenance object</description>
+    </column>
+    <column name="STORTI" data_type="VARCHAR">
+      <description>Data origin for location field</description>
+    </column>
+    <column name="MSGRP" data_type="VARCHAR">
+      <description>Room</description>
+    </column>
+    <column name="MSGRPI" data_type="VARCHAR">
+      <description>Data origin for room number field</description>
+    </column>
+    <column name="BEBER" data_type="VARCHAR">
+      <description>Plant section</description>
+    </column>
+    <column name="BEBERI" data_type="VARCHAR">
+      <description>Data origin for plant section field</description>
+    </column>
+    <column name="CR_OBJTY" data_type="VARCHAR">
+      <description>Object types of the CIM resource</description>
+    </column>
+    <column name="PPSID" data_type="VARCHAR">
+      <description>Object ID of PP work center</description>
+    </column>
+    <column name="PPSIDI" data_type="VARCHAR">
+      <description>Data origin for PP work center field</description>
+    </column>
+    <column name="GSBER" data_type="VARCHAR">
+      <description>Business Area</description>
+    </column>
+    <column name="GSBERI" data_type="VARCHAR">
+      <description>Data origin for business area field</description>
+    </column>
+    <column name="KOKRS" data_type="VARCHAR">
+      <description>Controlling Area</description>
+    </column>
+    <column name="KOKRSI" data_type="VARCHAR">
+      <description>Data origin for controlling area field</description>
+    </column>
+    <column name="KOSTL" data_type="VARCHAR">
+      <description>Cost Center</description>
+    </column>
+    <column name="KOSTLI" data_type="VARCHAR">
+      <description>Data origin for cost center field</description>
+    </column>
+    <column name="PROID" data_type="VARCHAR">
+      <description>Work Breakdown Structure Element (WBS Element)</description>
+    </column>
+    <column name="PROIDI" data_type="VARCHAR">
+      <description>Data origin for WBS element field</description>
+    </column>
+    <column name="BUKRS" data_type="VARCHAR">
+      <description>Company Code</description>
+    </column>
+    <column name="BUKRSI" data_type="VARCHAR">
+      <description>Data origin for company code field</description>
+    </column>
+    <column name="ANLNR" data_type="VARCHAR">
+      <description>Main Asset Number</description>
+    </column>
+    <column name="ANLNRI" data_type="VARCHAR">
+      <description>Data origin for asset main no./sub-no. fields</description>
+    </column>
+    <column name="ANLUN" data_type="VARCHAR">
+      <description>Asset Subnumber</description>
+    </column>
+    <column name="ANLUNI" data_type="VARCHAR">
+      <description>Data origin indicator</description>
+    </column>
+    <column name="DAUFN" data_type="VARCHAR">
+      <description>Standing order number</description>
+    </column>
+    <column name="DAUFNI" data_type="VARCHAR">
+      <description>Data origin of standing order number field</description>
+    </column>
+    <column name="AUFNR" data_type="VARCHAR">
+      <description>Settlement order</description>
+    </column>
+    <column name="AUFNRI" data_type="VARCHAR">
+      <description>Data origin for settlement order field</description>
+    </column>
+    <column name="TPLNRI" data_type="VARCHAR">
+      <description>Data origin for functional location field</description>
+    </column>
+    <column name="VKORG" data_type="VARCHAR">
+      <description>Sales Organization</description>
+    </column>
+    <column name="VKORGI" data_type="VARCHAR">
+      <description>Data origin for sales organization field</description>
+    </column>
+    <column name="VTWEG" data_type="VARCHAR">
+      <description>Distribution Channel</description>
+    </column>
+    <column name="VTWEGI" data_type="VARCHAR">
+      <description>Data origin of distribution channel field</description>
+    </column>
+    <column name="SPART" data_type="VARCHAR">
+      <description>Division</description>
+    </column>
+    <column name="SPARTI" data_type="VARCHAR">
+      <description>Data origin for division field</description>
+    </column>
+    <column name="ADRNR" data_type="VARCHAR">
+      <description>Address Number</description>
+    </column>
+    <column name="ADRNRI" data_type="VARCHAR">
+      <description>Data origin for address field</description>
+    </column>
+    <column name="OWNER" data_type="VARCHAR">
+      <description>Object reference indicator</description>
+    </column>
+    <column name="VKBUR" data_type="VARCHAR">
+      <description>Sales Office</description>
+    </column>
+    <column name="VKGRP" data_type="VARCHAR">
+      <description>Sales Group</description>
+    </column>
+  </columns>
+</data_description>

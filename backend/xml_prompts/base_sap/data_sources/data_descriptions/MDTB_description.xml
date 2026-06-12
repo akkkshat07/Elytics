@@ -1,0 +1,186 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="MDTB">
+  <table_info name="MDTB" total_columns="60" />
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="DTNUM" data_type="VARCHAR">
+      <description>Number of material requirements planning table</description>
+    </column>
+    <column name="DTPOS" data_type="VARCHAR">
+      <description>Item number of MRP list</description>
+    </column>
+    <column name="PLAKZ" data_type="VARCHAR">
+      <description>Indicator for planning segment</description>
+    </column>
+    <column name="PLANR" data_type="VARCHAR">
+      <description>Planning segment number</description>
+    </column>
+    <column name="DAT00" data_type="DATE">
+      <description>Receipt/Requirements date</description>
+    </column>
+    <column name="SORT1" data_type="VARCHAR">
+      <description>Sort indicator 01</description>
+    </column>
+    <column name="SORT2" data_type="VARCHAR">
+      <description>Sort indicator 02</description>
+    </column>
+    <column name="DELKZ" data_type="VARCHAR">
+      <description>MRP element</description>
+    </column>
+    <column name="VSTAT" data_type="VARCHAR">
+      <description>Processing Status</description>
+    </column>
+    <column name="VRFKZ" data_type="VARCHAR">
+      <description>Availability indicator</description>
+    </column>
+    <column name="PLUMI" data_type="VARCHAR">
+      <description>Receipt/issue indicator</description>
+    </column>
+    <column name="MNG01" data_type="DECIMAL">
+      <description>Quantity received or quantity required</description>
+    </column>
+    <column name="MNG02" data_type="DECIMAL">
+      <description>Variable scrap quantity</description>
+    </column>
+    <column name="MNG03" data_type="DECIMAL">
+      <description>Shortage Quantity</description>
+    </column>
+    <column name="DAT01" data_type="DATE">
+      <description>Delivery/order finish date</description>
+    </column>
+    <column name="DAT02" data_type="DATE">
+      <description>Start/release date</description>
+    </column>
+    <column name="DAT03" data_type="DATE">
+      <description>Opening date</description>
+    </column>
+    <column name="PERKZ" data_type="VARCHAR">
+      <description>Period Indicator</description>
+    </column>
+    <column name="PRPER" data_type="VARCHAR">
+      <description>Forecast period</description>
+    </column>
+    <column name="WEBAZ" data_type="DECIMAL">
+      <description>Goods receipt processing time in days</description>
+    </column>
+    <column name="FIX01" data_type="VARCHAR">
+      <description>Indicator: Fixing of Lot Size in Planned Order</description>
+    </column>
+    <column name="FIX02" data_type="VARCHAR">
+      <description>Indicator: fixing explosion in planned order</description>
+    </column>
+    <column name="BAART" data_type="VARCHAR">
+      <description>P.O./Order type</description>
+    </column>
+    <column name="BESKZ" data_type="VARCHAR">
+      <description>Procurement Type</description>
+    </column>
+    <column name="SOBES" data_type="VARCHAR">
+      <description>Special procurement type</description>
+    </column>
+    <column name="UMSKZ" data_type="VARCHAR">
+      <description>Special G/L Indicator</description>
+    </column>
+    <column name="PLART" data_type="VARCHAR">
+      <description>Planning type</description>
+    </column>
+    <column name="AUSSL" data_type="VARCHAR">
+      <description>Exception message key</description>
+    </column>
+    <column name="WRK02" data_type="VARCHAR">
+      <description>Planning/production plant</description>
+    </column>
+    <column name="LGORT" data_type="VARCHAR">
+      <description>Storage Location</description>
+    </column>
+    <column name="DELNR" data_type="VARCHAR">
+      <description>MRP element number</description>
+    </column>
+    <column name="DELPS" data_type="VARCHAR">
+      <description>MRP element item</description>
+    </column>
+    <column name="DELET" data_type="VARCHAR">
+      <description>Schedule Line Number MRP Element</description>
+    </column>
+    <column name="AUFVR" data_type="VARCHAR">
+      <description>Source number for order</description>
+    </column>
+    <column name="POSVR" data_type="VARCHAR">
+      <description>Source item number</description>
+    </column>
+    <column name="EINVR" data_type="VARCHAR">
+      <description>Source schedule line number</description>
+    </column>
+    <column name="UKZ01" data_type="VARCHAR">
+      <description>Indicator: MRP element can be brought forward</description>
+    </column>
+    <column name="UMDAT" data_type="DATE">
+      <description>Rescheduling date</description>
+    </column>
+    <column name="DEL12" data_type="VARCHAR">
+      <description>MRP element number</description>
+    </column>
+    <column name="BAUGR" data_type="VARCHAR">
+      <description>Material number of higher-level assembly</description>
+    </column>
+    <column name="DELVR" data_type="VARCHAR">
+      <description>MRP element</description>
+    </column>
+    <column name="VERSB" data_type="VARCHAR">
+      <description>Version Number for Independent Requirements</description>
+    </column>
+    <column name="OLDSL" data_type="VARCHAR">
+      <description>Key of the second exception message</description>
+    </column>
+    <column name="RDMNG" data_type="DECIMAL">
+      <description>Excess stock quantity</description>
+    </column>
+    <column name="PLAAB" data_type="VARCHAR">
+      <description>Material requirements planning segment</description>
+    </column>
+    <column name="TAG00" data_type="VARCHAR">
+      <description>Daily shift (sort indicator 0)</description>
+    </column>
+    <column name="ABEKZ" data_type="VARCHAR">
+      <description>Exception indicator</description>
+    </column>
+    <column name="MDFST" data_type="VARCHAR">
+      <description>Production order status: internal ind. for MRP</description>
+    </column>
+    <column name="MDMNG" data_type="DECIMAL">
+      <description>MRP: quantity field (stock in transit, receipt qty, ...)</description>
+    </column>
+    <column name="VERID" data_type="VARCHAR">
+      <description>Production Version</description>
+    </column>
+    <column name="WRK01" data_type="VARCHAR">
+      <description>Planning Plant</description>
+    </column>
+    <column name="SERNR" data_type="VARCHAR">
+      <description>BOM explosion number</description>
+    </column>
+    <column name="REVLV" data_type="VARCHAR">
+      <description>Revision Level</description>
+    </column>
+    <column name="DBSKZ" data_type="VARCHAR">
+      <description>Direct procurement indicator</description>
+    </column>
+    <column name="EXTNL" data_type="VARCHAR">
+      <description>Indicator for External Procurement</description>
+    </column>
+    <column name="ADINF" data_type="VARCHAR">
+      <description>Field for Additional Information</description>
+    </column>
+    <column name="RESLO" data_type="VARCHAR">
+      <description>Issuing Storage Location for Stock Transport Order</description>
+    </column>
+    <column name="PRIO_URG" data_type="VARCHAR">
+      <description>Requirement Urgency</description>
+    </column>
+    <column name="PRIO_REQ" data_type="VARCHAR">
+      <description>Requirement Priority</description>
+    </column>
+  </columns>
+</data_description>

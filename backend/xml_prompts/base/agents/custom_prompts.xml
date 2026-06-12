@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  REFERENCE TEMPLATE ONLY — this file is NOT loaded at runtime.
+  Client-specific custom_prompts.xml files are created on-demand via the
+  Admin API (admin/custom_prompts_routes.py) when an admin first accesses
+  the custom prompts feature.  See xml_prompt_loader.load_custom_prompts().
+-->
+<custom_prompts xmlns="http://coresight.generic.com/prompts" client_id="example_client" version="1.0">
+  
+  <metadata>
+    <description>Custom prompts for agent enhancement</description>
+  </metadata>
+  
+  <prompts>
+    <!-- Example custom prompt -->
+    <prompt id="custom_rule_1" category="rules" priority="5" active="true">
+      <title>Custom Data Validation Rule</title>
+      <content>Always validate date ranges before querying data. Ensure start_date is before end_date.</content>
+   
+    </prompt>
+    
+    <prompt id="custom_guideline_1" category="guidelines" priority="3" active="true">
+      <title>Custom Aggregation Guideline</title>
+      <content>When aggregating sales data, always group by region first, then by product category.</content>
+  
+    </prompt>
+    
+    <prompt id="custom_example_1" category="examples" priority="2" active="false">
+      <title>Example Query Pattern</title>
+      <content>For trend analysis: Use rolling averages with a 7-day window for daily data, 4-week window for weekly data.</content>
+  
+    </prompt>
+  </prompts>
+  
+</custom_prompts>
+

@@ -1,0 +1,132 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="MKOL">
+  <table_info name="MKOL" total_columns="42"/>
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="MATNR" data_type="VARCHAR">
+      <description>Material Number</description>
+    </column>
+    <column name="WERKS" data_type="VARCHAR">
+      <description>Plant</description>
+    </column>
+    <column name="LGORT" data_type="VARCHAR">
+      <description>Storage Location</description>
+    </column>
+    <column name="CHARG" data_type="VARCHAR">
+      <description>Batch Number</description>
+    </column>
+    <column name="SOBKZ" data_type="VARCHAR">
+      <description>Special Stock Indicator</description>
+    </column>
+    <column name="LIFNR" data_type="VARCHAR">
+      <description>Account Number of Supplier</description>
+    </column>
+    <column name="LVORM" data_type="VARCHAR">
+      <description>Deletion Flag for All Data on a Consignment Stock</description>
+    </column>
+    <column name="ERSDA" data_type="DATE">
+      <description>Created On</description>
+    </column>
+    <column name="ERNAM" data_type="VARCHAR">
+      <description>Name of Person Responsible for Creating the Object</description>
+    </column>
+    <column name="AENAM" data_type="VARCHAR">
+      <description>Name of Person Who Changed Object</description>
+    </column>
+    <column name="LAEDA" data_type="DATE">
+      <description>Date of Last Change</description>
+    </column>
+    <column name="LFGJA" data_type="VARCHAR">
+      <description>Fiscal Year of Current Period</description>
+    </column>
+    <column name="LFMON" data_type="VARCHAR">
+      <description>Current period (posting period)</description>
+    </column>
+    <column name="SPERS" data_type="VARCHAR">
+      <description>Physical Inventory Blocking Indicator</description>
+    </column>
+    <column name="SLABS" data_type="DECIMAL">
+      <description>Unrestricted-Use Consignment Stock</description>
+    </column>
+    <column name="SINSM" data_type="DECIMAL">
+      <description>Consignment Stock in Quality Inspection</description>
+    </column>
+    <column name="SEINM" data_type="DECIMAL">
+      <description>Restricted-Use Consignment Stock</description>
+    </column>
+    <column name="SSPEM" data_type="DECIMAL">
+      <description>Blocked Consignment Stock</description>
+    </column>
+    <column name="SVMLA" data_type="DECIMAL">
+      <description>Unrestricted-use consignment stock, previous period</description>
+    </column>
+    <column name="SVMIN" data_type="DECIMAL">
+      <description>Consignment stock in quality inspection, previous period</description>
+    </column>
+    <column name="SVMEI" data_type="DECIMAL">
+      <description>Restricted-use consignment stock in the previous period</description>
+    </column>
+    <column name="SVMSP" data_type="DECIMAL">
+      <description>Blocked consignment stock, previous period</description>
+    </column>
+    <column name="KZISL" data_type="VARCHAR">
+      <description>Physical inventory indicator for whse stock in current year</description>
+    </column>
+    <column name="KZISQ" data_type="VARCHAR">
+      <description>Phys. inventory ind. f. stock in qual. insp. in current year</description>
+    </column>
+    <column name="KZISE" data_type="VARCHAR">
+      <description>Physical inventory indicator for restricted-use stock</description>
+    </column>
+    <column name="KZISS" data_type="VARCHAR">
+      <description>Physical inventory indicator for blocked stock</description>
+    </column>
+    <column name="KZVSL" data_type="VARCHAR">
+      <description>Physical inventory indicator for stock in previous year</description>
+    </column>
+    <column name="KZVSQ" data_type="VARCHAR">
+      <description>Phys. inventory ind. f. stock in qual. insp. in prev. period</description>
+    </column>
+    <column name="KZVSE" data_type="VARCHAR">
+      <description>Physical inventory ind. for restricted-use stock, prev.pd</description>
+    </column>
+    <column name="KZVSS" data_type="VARCHAR">
+      <description>Phys. inventory indicator for blocked stock in prev. period</description>
+    </column>
+    <column name="MMENG" data_type="DECIMAL">
+      <description>Minimum order quantity</description>
+    </column>
+    <column name="AMENG" data_type="DECIMAL">
+      <description>Replenishment quantity</description>
+    </column>
+    <column name="KODLL" data_type="DATE">
+      <description>Date of Last Posted Count</description>
+    </column>
+    <column name="KOJIN" data_type="VARCHAR">
+      <description>Fiscal year of current physical inventory indicator</description>
+    </column>
+    <column name="KORUE" data_type="VARCHAR">
+      <description>MxxxH rec. already exists for per. before last of Mxxx per.</description>
+    </column>
+    <column name="SGT_SCAT" data_type="VARCHAR">
+      <description>Stock Segment</description>
+    </column>
+    <column name="FSH_SEASON_YEAR" data_type="VARCHAR">
+      <description>Season Year</description>
+    </column>
+    <column name="FSH_SEASON" data_type="VARCHAR">
+      <description>Season</description>
+    </column>
+    <column name="FSH_COLLECTION" data_type="VARCHAR">
+      <description>Fashion Collection</description>
+    </column>
+    <column name="FSH_THEME" data_type="VARCHAR">
+      <description>Fashion Theme</description>
+    </column>
+    <column name="FSH_SALLOC_QTY" data_type="DECIMAL">
+      <description>Allocated Stock Quantity</description>
+    </column>
+  </columns>
+</data_description>

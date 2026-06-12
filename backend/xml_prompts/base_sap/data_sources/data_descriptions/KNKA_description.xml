@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="KNKA">
+  <table_info name="KNKA" total_columns="6" />
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="KUNNR" data_type="VARCHAR">
+      <description>Customer Number</description>
+    </column>
+    <column name="KLIMG" data_type="DECIMAL">
+      <description>Credit limit: Total limit across all control areas</description>
+    </column>
+    <column name="KLIME" data_type="DECIMAL">
+      <description>Credit limit: Limit for individual control area</description>
+    </column>
+    <column name="WAERS" data_type="VARCHAR">
+      <description>Currency Key</description>
+    </column>
+    <column name="DLAUS" data_type="DATE">
+      <description>Date of the last general information</description>
+    </column>
+  </columns>
+</data_description>

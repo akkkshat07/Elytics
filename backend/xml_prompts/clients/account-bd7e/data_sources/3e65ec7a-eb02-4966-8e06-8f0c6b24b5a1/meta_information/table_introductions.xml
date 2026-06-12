@@ -1,0 +1,6 @@
+<?xml version="1.0" ?>
+<meta_information type="table_introductions">
+  <table_introductions>
+    <table_introduction table_name="master_bh">master_bh stores business records used for analysis and reporting. It includes fields such as record_type, division, segment, order_date, business_month, report_date, uuid, position_code. Use this table for filtering, aggregation, and trend exploration.</table_introduction>
+  </table_introductions>
+</meta_information>

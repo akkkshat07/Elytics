@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="MAST">
+  <table_info name="MAST" total_columns="13" />
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="MATNR" data_type="VARCHAR">
+      <description>Material Number</description>
+    </column>
+    <column name="WERKS" data_type="VARCHAR">
+      <description>Plant</description>
+    </column>
+    <column name="STLAN" data_type="VARCHAR">
+      <description>BOM Usage</description>
+    </column>
+    <column name="STLNR" data_type="VARCHAR">
+      <description>Bill of material</description>
+    </column>
+    <column name="STLAL" data_type="VARCHAR">
+      <description>Alternative BOM</description>
+    </column>
+    <column name="LOSVN" data_type="DECIMAL">
+      <description>From Lot Size</description>
+    </column>
+    <column name="LOSBS" data_type="DECIMAL">
+      <description>To Lot Size</description>
+    </column>
+    <column name="ANDAT" data_type="DATE">
+      <description>Date record created on</description>
+    </column>
+    <column name="ANNAM" data_type="VARCHAR">
+      <description>User who created record</description>
+    </column>
+    <column name="AEDAT" data_type="DATE">
+      <description>Last Changed On</description>
+    </column>
+    <column name="AENAM" data_type="VARCHAR">
+      <description>Name of Person Who Changed Object</description>
+    </column>
+    <column name="CSLTY" data_type="VARCHAR">
+      <description>Indicator: configured material (material variant)</description>
+    </column>
+  </columns>
+</data_description>

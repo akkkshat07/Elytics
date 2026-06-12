@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="ILTYP">
+  <table_info name="ILTYP" total_columns="20" />
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="ILART" data_type="VARCHAR">
+      <description>Functional location category</description>
+    </column>
+    <column name="KZML" data_type="VARCHAR">
+      <description>Multi-level indicator</description>
+    </column>
+    <column name="KZSTR" data_type="VARCHAR">
+      <description>Structure indicator</description>
+    </column>
+    <column name="KZPLA" data_type="VARCHAR">
+      <description>Planning indicator</description>
+    </column>
+    <column name="KZORD" data_type="VARCHAR">
+      <description>Order indicator</description>
+    </column>
+    <column name="KZNOT" data_type="VARCHAR">
+      <description>Notification indicator</description>
+    </column>
+    <column name="KZMEI" data_type="VARCHAR">
+      <description>Measurement indicator</description>
+    </column>
+    <column name="KZINV" data_type="VARCHAR">
+      <description>Inventory indicator</description>
+    </column>
+    <column name="KZPRU" data_type="VARCHAR">
+      <description>Inspection indicator</description>
+    </column>
+    <column name="KZPRO" data_type="VARCHAR">
+      <description>Project indicator</description>
+    </column>
+    <column name="KZCO" data_type="VARCHAR">
+      <description>Controlling indicator</description>
+    </column>
+    <column name="KZFI" data_type="VARCHAR">
+      <description>Financial Accounting indicator</description>
+    </column>
+    <column name="KZPS" data_type="VARCHAR">
+      <description>Project System indicator</description>
+    </column>
+    <column name="KZMM" data_type="VARCHAR">
+      <description>Materials Management indicator</description>
+    </column>
+    <column name="KZSD" data_type="VARCHAR">
+      <description>Sales and Distribution indicator</description>
+    </column>
+    <column name="KZPP" data_type="VARCHAR">
+      <description>Production Planning indicator</description>
+    </column>
+    <column name="KZQM" data_type="VARCHAR">
+      <description>Quality Management indicator</description>
+    </column>
+    <column name="ERDAT" data_type="DATE">
+      <description>Date on Which Record Was Created</description>
+    </column>
+    <column name="ERNAM" data_type="VARCHAR">
+      <description>Name of Person Responsible for Creating the Object</description>
+    </column>
+  </columns>
+</data_description>

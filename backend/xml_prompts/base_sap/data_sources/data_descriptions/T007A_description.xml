@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="T007A">
+  <table_info name="T007A" total_columns="28"/>
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="KALSM" data_type="VARCHAR">
+      <description>Procedure (Pricing, Output Control, Acct. Det., Costing,...)</description>
+    </column>
+    <column name="MWSKZ" data_type="VARCHAR">
+      <description>Tax on Sales/Purchases Code</description>
+    </column>
+    <column name="PRUEF" data_type="VARCHAR">
+      <description>Indicator: Error Message for Invalid Tax Amount ?</description>
+    </column>
+    <column name="MWART" data_type="VARCHAR">
+      <description>Tax Type</description>
+    </column>
+    <column name="XMSTU" data_type="VARCHAR">
+      <description>Single-Character Flag</description>
+    </column>
+    <column name="ZMWSK" data_type="VARCHAR">
+      <description>Target Tax Code (for Deferred Tax)</description>
+    </column>
+    <column name="EGRKZ" data_type="VARCHAR">
+      <description>EU Code / Code</description>
+    </column>
+    <column name="XSLTA" data_type="VARCHAR">
+      <description>Indicator: Tax code for sales taxes</description>
+    </column>
+    <column name="PROCD" data_type="VARCHAR">
+      <description>SAP internal product code (external interface)</description>
+    </column>
+    <column name="TXIND" data_type="VARCHAR">
+      <description>Tax Category for US Taxes</description>
+    </column>
+    <column name="TXREL" data_type="VARCHAR">
+      <description>'Tax Relevant' Indicator (Only for External Tax System)</description>
+    </column>
+    <column name="LSTML" data_type="VARCHAR">
+      <description>Country for Tax Return</description>
+    </column>
+    <column name="J_1BUSAGE" data_type="VARCHAR">
+      <description>Tax Calculation: Material Usage</description>
+    </column>
+    <column name="J_1BISS" data_type="VARCHAR">
+      <description>Tax Calculation: Service Without ICMS/IPI</description>
+    </column>
+    <column name="J_1BTAXLW1" data_type="VARCHAR">
+      <description>Tax law: ICMS</description>
+    </column>
+    <column name="J_1BTAXLW2" data_type="VARCHAR">
+      <description>Tax law: IPI</description>
+    </column>
+    <column name="J_1BTXICEX" data_type="VARCHAR">
+      <description>ICMS Stored as &quot;Exempt&quot; Instead of &quot;Other Basis&quot;</description>
+    </column>
+    <column name="J_1BTXIPEX" data_type="VARCHAR">
+      <description>IPI Stored as &quot;Exempt&quot; Instead of &quot;Other Basis&quot;</description>
+    </column>
+    <column name="TOLERANCE" data_type="DECIMAL">
+      <description>Tolerance Percentage Rate for Tax Calculation</description>
+    </column>
+    <column name="ZMWSK_ESA" data_type="VARCHAR">
+      <description>Target Tax Code for Deferred EU Acquisition Tax, Output Tax</description>
+    </column>
+    <column name="ZMWSK_ESE" data_type="VARCHAR">
+      <description>Target Tax Code for Deferred EU Acquisition Tax, Input Tax</description>
+    </column>
+    <column name="NEWDEFTAX" data_type="VARCHAR">
+      <description>New Deferred Tax Code: Yes/No</description>
+    </column>
+    <column name="J_1BTAXLW4" data_type="VARCHAR">
+      <description>COFINS Tax Law</description>
+    </column>
+    <column name="J_1BTAXLW5" data_type="VARCHAR">
+      <description>PIS Tax Law</description>
+    </column>
+    <column name="XINACT" data_type="VARCHAR">
+      <description>Set Tax Code to &quot;Inactive&quot; - No Further Use</description>
+    </column>
+    <column name="MOSSC" data_type="VARCHAR">
+      <description>OSS Tax Reporting Country/Region</description>
+    </column>
+    <column name="OSS_CLASSIFICATION" data_type="VARCHAR">
+      <description>OSS Classification</description>
+    </column>
+  </columns>
+</data_description>

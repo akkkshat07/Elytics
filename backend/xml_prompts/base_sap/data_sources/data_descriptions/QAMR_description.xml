@@ -1,0 +1,261 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="QAMR">
+  <table_info name="QAMR" total_columns="85" />
+  <columns>
+    <column name="MANDANT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="PRUEFLOS" data_type="VARCHAR">
+      <description>Inspection Lot Number</description>
+    </column>
+    <column name="VORGLFNR" data_type="VARCHAR">
+      <description>Current Node Number from Order Counter APLZL</description>
+    </column>
+    <column name="MERKNR" data_type="VARCHAR">
+      <description>Inspection Characteristic Number</description>
+    </column>
+    <column name="SATZSTATUS" data_type="VARCHAR">
+      <description>Results Record Status</description>
+    </column>
+    <column name="ATTRIBUT" data_type="VARCHAR">
+      <description>Attribute of the Results Record (Valid, Invalid,...)</description>
+    </column>
+    <column name="QERGDATH" data_type="VARCHAR">
+      <description>Origin of Results Data</description>
+    </column>
+    <column name="ERSTELLER" data_type="VARCHAR">
+      <description>Name of User Who Created the Data Record</description>
+    </column>
+    <column name="ERSTELLDAT" data_type="DATE">
+      <description>Date on Which the Data Record Was Created</description>
+    </column>
+    <column name="AENDERER" data_type="VARCHAR">
+      <description>Name of User who Most Recently Changed the Data Record</description>
+    </column>
+    <column name="AENDERDAT" data_type="DATE">
+      <description>Date on Which Data Record Was Changed</description>
+    </column>
+    <column name="DBEWERTG" data_type="VARCHAR">
+      <description>Valuation of the Characteristic for Dynamic Modification</description>
+    </column>
+    <column name="MBEWERTG" data_type="VARCHAR">
+      <description>Inspection Result Valuation</description>
+    </column>
+    <column name="PRUEFER" data_type="VARCHAR">
+      <description>Name of the Inspector</description>
+    </column>
+    <column name="PRUEFDATUV" data_type="DATE">
+      <description>Inspection Start Date</description>
+    </column>
+    <column name="PRUEFDATUB" data_type="DATE">
+      <description>End Date of the Inspection</description>
+    </column>
+    <column name="PRUEFZEITV" data_type="TIME">
+      <description>Starting Time of the Inspection</description>
+    </column>
+    <column name="PRUEFZEITB" data_type="TIME">
+      <description>End Time of the Inspection</description>
+    </column>
+    <column name="PRUEFBEMKT" data_type="VARCHAR">
+      <description>Short Text</description>
+    </column>
+    <column name="PRLTEXTKZ" data_type="VARCHAR">
+      <description>Inspection Characteristic Long Text Exists</description>
+    </column>
+    <column name="LTEXTSPR" data_type="VARCHAR">
+      <description>Language Key</description>
+    </column>
+    <column name="ISTSTPANZ" data_type="INTEGER">
+      <description>Number of Partial Samples for the Characteristic</description>
+    </column>
+    <column name="ISTSTPUMF" data_type="INTEGER">
+      <description>Number of Recorded Sample Units</description>
+    </column>
+    <column name="ANZFEHLEH" data_type="INTEGER">
+      <description>Number of Nonconforming Sample Units</description>
+    </column>
+    <column name="ANTEILNI" data_type="VARCHAR">
+      <description>Not Initialized for Fraction</description>
+    </column>
+    <column name="ANTEIL" data_type="FLOAT">
+      <description>Estimated Fraction of Nonconforming Sample Units</description>
+    </column>
+    <column name="ANZFEHLER" data_type="INTEGER">
+      <description>Number of Defects Found</description>
+    </column>
+    <column name="ANZWERTO" data_type="INTEGER">
+      <description>Number of Measured Values Above the Tolerance Range</description>
+    </column>
+    <column name="ANZWERTU" data_type="INTEGER">
+      <description>Number of Measured Values Below the Tolerance Range</description>
+    </column>
+    <column name="ANZWERTG" data_type="INTEGER">
+      <description>Number of Inspected Sample Units</description>
+    </column>
+    <column name="MAXWERTNI" data_type="VARCHAR">
+      <description>Value Not Initial if Set</description>
+    </column>
+    <column name="MEDIANNI" data_type="VARCHAR">
+      <description>Value Not Initial if Set</description>
+    </column>
+    <column name="MINWERTNI" data_type="VARCHAR">
+      <description>Value Not Initial if Set</description>
+    </column>
+    <column name="MITTELWNI" data_type="VARCHAR">
+      <description>Value Not Initial if Set</description>
+    </column>
+    <column name="VARIANZNI" data_type="VARCHAR">
+      <description>Value Not Initial if Set</description>
+    </column>
+    <column name="MOMENT3NI" data_type="VARCHAR">
+      <description>Value Not Initial if Set</description>
+    </column>
+    <column name="MOMENT4NI" data_type="VARCHAR">
+      <description>Value Not Initial if Set</description>
+    </column>
+    <column name="ANTEILONI" data_type="VARCHAR">
+      <description>Value Not Initial if Set</description>
+    </column>
+    <column name="ANTEILUNI" data_type="VARCHAR">
+      <description>Value Not Initial if Set</description>
+    </column>
+    <column name="MAXWERT" data_type="FLOAT">
+      <description>Maximum Value of the Valid Measured Values</description>
+    </column>
+    <column name="MEDIANWERT" data_type="FLOAT">
+      <description>Median of Valid Measured Values</description>
+    </column>
+    <column name="MINWERT" data_type="FLOAT">
+      <description>Minimum Value of the Valid Measured Values</description>
+    </column>
+    <column name="MITTELWERT" data_type="FLOAT">
+      <description>Arithmetic Mean of Valid Measured Values</description>
+    </column>
+    <column name="VARIANZ" data_type="FLOAT">
+      <description>Dispersion (Variance) of Valid Measured Values</description>
+    </column>
+    <column name="MOMENT3" data_type="FLOAT">
+      <description>Third Central Moment of Valid Measured Values</description>
+    </column>
+    <column name="MOMENT4" data_type="FLOAT">
+      <description>Fourth Central Moment of Valid Measured Values</description>
+    </column>
+    <column name="ANTEILO" data_type="FLOAT">
+      <description>Estimated Fraction Above the Tolerance Range</description>
+    </column>
+    <column name="ANTEILU" data_type="FLOAT">
+      <description>Estimated Fraction Below the Tolerance Range</description>
+    </column>
+    <column name="GUELSTPANZ" data_type="INTEGER">
+      <description>Number of Valid Partial Samples</description>
+    </column>
+    <column name="IVARIANZNI" data_type="VARCHAR">
+      <description>Value Not Initial if Set</description>
+    </column>
+    <column name="IVARIANZ" data_type="FLOAT">
+      <description>Internal Dispersion of Valid Measured Values</description>
+    </column>
+    <column name="KATALGART1" data_type="VARCHAR">
+      <description>Catalog Type of Assigned Code Group or Selected Set</description>
+    </column>
+    <column name="GRUPPE1" data_type="VARCHAR">
+      <description>Code Group</description>
+    </column>
+    <column name="CODE1" data_type="VARCHAR">
+      <description>Code</description>
+    </column>
+    <column name="VERSION1" data_type="VARCHAR">
+      <description>Version Number</description>
+    </column>
+    <column name="KATALGART2" data_type="VARCHAR">
+      <description>Catalog Type of Assigned Code Group or Selected Set</description>
+    </column>
+    <column name="GRUPPE2" data_type="VARCHAR">
+      <description>Code Group</description>
+    </column>
+    <column name="CODE2" data_type="VARCHAR">
+      <description>Code</description>
+    </column>
+    <column name="VERSION2" data_type="VARCHAR">
+      <description>Version Number</description>
+    </column>
+    <column name="KATALGART3" data_type="VARCHAR">
+      <description>Catalog Type of Assigned Code Group or Selected Set</description>
+    </column>
+    <column name="GRUPPE3" data_type="VARCHAR">
+      <description>Code Group</description>
+    </column>
+    <column name="CODE3" data_type="VARCHAR">
+      <description>Code</description>
+    </column>
+    <column name="VERSION3" data_type="VARCHAR">
+      <description>Version Number</description>
+    </column>
+    <column name="KATALGART4" data_type="VARCHAR">
+      <description>Catalog Type of Assigned Code Group or Selected Set</description>
+    </column>
+    <column name="GRUPPE4" data_type="VARCHAR">
+      <description>Code Group</description>
+    </column>
+    <column name="CODE4" data_type="VARCHAR">
+      <description>Code</description>
+    </column>
+    <column name="VERSION4" data_type="VARCHAR">
+      <description>Version Number</description>
+    </column>
+    <column name="KATALGART5" data_type="VARCHAR">
+      <description>Catalog Type of Assigned Code Group or Selected Set</description>
+    </column>
+    <column name="GRUPPE5" data_type="VARCHAR">
+      <description>Code Group</description>
+    </column>
+    <column name="CODE5" data_type="VARCHAR">
+      <description>Code</description>
+    </column>
+    <column name="VERSION5" data_type="VARCHAR">
+      <description>Version Number</description>
+    </column>
+    <column name="FEHLKLAS" data_type="VARCHAR">
+      <description>Defect Class</description>
+    </column>
+    <column name="SENDEFLAG" data_type="VARCHAR">
+      <description>Characteristic Result Confirmation from Control Station</description>
+    </column>
+    <column name="MASCHINE" data_type="VARCHAR">
+      <description>General Information</description>
+    </column>
+    <column name="POSITION" data_type="VARCHAR">
+      <description>Test Position</description>
+    </column>
+    <column name="AENDBELEG" data_type="VARCHAR">
+      <description>Create Change Documents During Results Recording</description>
+    </column>
+    <column name="KZBEWERTG" data_type="VARCHAR">
+      <description>Valuation Copied or Forced</description>
+    </column>
+    <column name="ZEITERSTL" data_type="TIME">
+      <description>Time at which data record was created</description>
+    </column>
+    <column name="ZEITAEND" data_type="TIME">
+      <description>Time at which data record was last changed</description>
+    </column>
+    <column name="KZVERDICHT" data_type="VARCHAR">
+      <description>Reduced No. of Samples for Characteristic Summarization</description>
+    </column>
+    <column name="ORIGINAL_INPUT" data_type="VARCHAR">
+      <description>Original Value Before Input Processing</description>
+    </column>
+    <column name="DIFF_DEC_PLACES" data_type="INTEGER">
+      <description>Different Number of Decimal Places</description>
+    </column>
+    <column name="INPPROC_READY" data_type="VARCHAR">
+      <description>Input Processing Successfully Completed</description>
+    </column>
+    <column name="SIGN_ID" data_type="VARCHAR">
+      <description>Digital Signature for Process</description>
+    </column>
+    <column name="SIGN_STATE" data_type="VARCHAR">
+      <description>Status of Signature Process</description>
+    </column>
+  </columns>
+</data_description>

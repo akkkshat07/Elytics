@@ -1,0 +1,321 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="KNVV">
+  <table_info name="KNVV" total_columns="105"/>
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="KUNNR" data_type="VARCHAR">
+      <description>Customer Number</description>
+    </column>
+    <column name="VKORG" data_type="VARCHAR">
+      <description>Sales Organization</description>
+    </column>
+    <column name="VTWEG" data_type="VARCHAR">
+      <description>Distribution Channel</description>
+    </column>
+    <column name="SPART" data_type="VARCHAR">
+      <description>Division</description>
+    </column>
+    <column name="ERNAM" data_type="VARCHAR">
+      <description>Name of Person Responsible for Creating the Object</description>
+    </column>
+    <column name="ERDAT" data_type="DATE">
+      <description>Date on Which Record Was Created</description>
+    </column>
+    <column name="BEGRU" data_type="VARCHAR">
+      <description>Authorization Group</description>
+    </column>
+    <column name="LOEVM" data_type="VARCHAR">
+      <description>Deletion flag for customer (sales level)</description>
+    </column>
+    <column name="VERSG" data_type="VARCHAR">
+      <description>Customer Statistics Group</description>
+    </column>
+    <column name="AUFSD" data_type="VARCHAR">
+      <description>Customer order block (sales area)</description>
+    </column>
+    <column name="KALKS" data_type="VARCHAR">
+      <description>Pricing procedure assigned to this customer</description>
+    </column>
+    <column name="KDGRP" data_type="VARCHAR">
+      <description>Customer group</description>
+    </column>
+    <column name="BZIRK" data_type="VARCHAR">
+      <description>Sales district</description>
+    </column>
+    <column name="KONDA" data_type="VARCHAR">
+      <description>Price group (customer)</description>
+    </column>
+    <column name="PLTYP" data_type="VARCHAR">
+      <description>Price list type</description>
+    </column>
+    <column name="AWAHR" data_type="VARCHAR">
+      <description>Order probability of the item</description>
+    </column>
+    <column name="INCO1" data_type="VARCHAR">
+      <description>Incoterms (Part 1)</description>
+    </column>
+    <column name="INCO2" data_type="VARCHAR">
+      <description>Incoterms (Part 2)</description>
+    </column>
+    <column name="LIFSD" data_type="VARCHAR">
+      <description>Customer delivery block (sales area)</description>
+    </column>
+    <column name="AUTLF" data_type="VARCHAR">
+      <description>Complete delivery defined for each sales order?</description>
+    </column>
+    <column name="ANTLF" data_type="DECIMAL">
+      <description>Maximum Number of Partial Deliveries Allowed Per Item</description>
+    </column>
+    <column name="KZTLF" data_type="VARCHAR">
+      <description>Partial Delivery at Item Level</description>
+    </column>
+    <column name="KZAZU" data_type="VARCHAR">
+      <description>Order Combination Indicator</description>
+    </column>
+    <column name="CHSPL" data_type="VARCHAR">
+      <description>Batch split allowed</description>
+    </column>
+    <column name="LPRIO" data_type="VARCHAR">
+      <description>Delivery Priority</description>
+    </column>
+    <column name="EIKTO" data_type="VARCHAR">
+      <description>Shipper's (Our) Account Number at the Customer or Vendor</description>
+    </column>
+    <column name="VSBED" data_type="VARCHAR">
+      <description>Shipping Conditions</description>
+    </column>
+    <column name="FAKSD" data_type="VARCHAR">
+      <description>Billing block for customer (sales and distribution)</description>
+    </column>
+    <column name="MRNKZ" data_type="VARCHAR">
+      <description>Manual invoice maintenance</description>
+    </column>
+    <column name="PERFK" data_type="VARCHAR">
+      <description>Invoice dates (calendar identification)</description>
+    </column>
+    <column name="PERRL" data_type="VARCHAR">
+      <description>Invoice list schedule (calendar identification)</description>
+    </column>
+    <column name="KVAKZ" data_type="VARCHAR">
+      <description>Cost estimate indicator (inactive)</description>
+    </column>
+    <column name="KVAWT" data_type="DECIMAL">
+      <description>Value limit for cost estimate (inactive)</description>
+    </column>
+    <column name="WAERS" data_type="VARCHAR">
+      <description>Currency</description>
+    </column>
+    <column name="KLABC" data_type="VARCHAR">
+      <description>Customer classification (ABC analysis)</description>
+    </column>
+    <column name="KTGRD" data_type="VARCHAR">
+      <description>Account Assignment Group for Customer</description>
+    </column>
+    <column name="ZTERM" data_type="VARCHAR">
+      <description>Terms of Payment Key</description>
+    </column>
+    <column name="VWERK" data_type="VARCHAR">
+      <description>Delivering Plant (Own or External)</description>
+    </column>
+    <column name="VKGRP" data_type="VARCHAR">
+      <description>Sales Group</description>
+    </column>
+    <column name="VKBUR" data_type="VARCHAR">
+      <description>Sales Office</description>
+    </column>
+    <column name="VSORT" data_type="VARCHAR">
+      <description>Item proposal</description>
+    </column>
+    <column name="KVGR1" data_type="VARCHAR">
+      <description>Customer group 1</description>
+    </column>
+    <column name="KVGR2" data_type="VARCHAR">
+      <description>Customer group 2</description>
+    </column>
+    <column name="KVGR3" data_type="VARCHAR">
+      <description>Customer group 3</description>
+    </column>
+    <column name="KVGR4" data_type="VARCHAR">
+      <description>Customer group 4</description>
+    </column>
+    <column name="KVGR5" data_type="VARCHAR">
+      <description>Customer group 5</description>
+    </column>
+    <column name="BOKRE" data_type="VARCHAR">
+      <description>Indicator: Customer Is Rebate-Relevant</description>
+    </column>
+    <column name="BOIDT" data_type="DATE">
+      <description>Start of validity per.for the rebate index for the customer</description>
+    </column>
+    <column name="KURST" data_type="VARCHAR">
+      <description>Exchange Rate Type</description>
+    </column>
+    <column name="PRFRE" data_type="VARCHAR">
+      <description>Relevant for price determination ID</description>
+    </column>
+    <column name="PRAT1" data_type="VARCHAR">
+      <description>ID for product attribute 1</description>
+    </column>
+    <column name="PRAT2" data_type="VARCHAR">
+      <description>ID for product attribute 2</description>
+    </column>
+    <column name="PRAT3" data_type="VARCHAR">
+      <description>ID for product attribute 3</description>
+    </column>
+    <column name="PRAT4" data_type="VARCHAR">
+      <description>ID for product attribute 4</description>
+    </column>
+    <column name="PRAT5" data_type="VARCHAR">
+      <description>ID for product attribute 5</description>
+    </column>
+    <column name="PRAT6" data_type="VARCHAR">
+      <description>ID for product attribute 6</description>
+    </column>
+    <column name="PRAT7" data_type="VARCHAR">
+      <description>ID for product attribute 7</description>
+    </column>
+    <column name="PRAT8" data_type="VARCHAR">
+      <description>ID for product attribute 8</description>
+    </column>
+    <column name="PRAT9" data_type="VARCHAR">
+      <description>ID for product attribute 9</description>
+    </column>
+    <column name="PRATA" data_type="VARCHAR">
+      <description>ID for product attribute 10</description>
+    </column>
+    <column name="KABSS" data_type="VARCHAR">
+      <description>Customer payment guarantee procedure</description>
+    </column>
+    <column name="KKBER" data_type="VARCHAR">
+      <description>Credit Control Area</description>
+    </column>
+    <column name="CASSD" data_type="VARCHAR">
+      <description>Sales block for customer (sales area)</description>
+    </column>
+    <column name="RDOFF" data_type="VARCHAR">
+      <description>Switch off rounding?</description>
+    </column>
+    <column name="AGREL" data_type="VARCHAR">
+      <description>Indicator: Relevant for agency business</description>
+    </column>
+    <column name="MEGRU" data_type="VARCHAR">
+      <description>Unit of Measure Group</description>
+    </column>
+    <column name="UEBTO" data_type="DECIMAL">
+      <description>Overdelivery Tolerance Limit</description>
+    </column>
+    <column name="UNTTO" data_type="DECIMAL">
+      <description>Underdelivery Tolerance Limit</description>
+    </column>
+    <column name="UEBTK" data_type="VARCHAR">
+      <description>Unlimited overdelivery allowed</description>
+    </column>
+    <column name="PVKSM" data_type="VARCHAR">
+      <description>Customer procedure for product proposal</description>
+    </column>
+    <column name="PODKZ" data_type="VARCHAR">
+      <description>Relevant for POD processing</description>
+    </column>
+    <column name="PODTG" data_type="DECIMAL">
+      <description>Timeframe for Confirmation of POD</description>
+    </column>
+    <column name="BLIND" data_type="VARCHAR">
+      <description>Index Structure Active for Subsequent Settlement (in AB)</description>
+    </column>
+    <column name="CARRIER_NOTIF" data_type="VARCHAR">
+      <description>Carrier is to be notified</description>
+    </column>
+    <column name="CVP_XBLCK_V" data_type="VARCHAR">
+      <description>Business Purpose Completed Flag</description>
+    </column>
+    <column name="INCOV" data_type="VARCHAR">
+      <description>Incoterms Version</description>
+    </column>
+    <column name="INCO2_L" data_type="VARCHAR">
+      <description>Incoterms Location 1</description>
+    </column>
+    <column name="INCO3_L" data_type="VARCHAR">
+      <description>Incoterms Location 2</description>
+    </column>
+    <column name="/BEV1/EMLGPFAND" data_type="VARCHAR">
+      <description>Deposit on Empties</description>
+    </column>
+    <column name="/BEV1/EMLGFORTS" data_type="VARCHAR">
+      <description>Indicator for Empties Update</description>
+    </column>
+    <column name="/XLSO/CUST_DIS" data_type="DECIMAL">
+      <description>Rate (condition amount or percentage) where no scale exists</description>
+    </column>
+    <column name="/XLSO/COMP_NAME" data_type="VARCHAR">
+      <description>Name 1</description>
+    </column>
+    <column name="/XLSO/INDUSTRY" data_type="VARCHAR">
+      <description>Industry key</description>
+    </column>
+    <column name="/XLSO/H_NUMBER" data_type="VARCHAR">
+      <description>House Number</description>
+    </column>
+    <column name="/XLSO/STREET" data_type="VARCHAR">
+      <description>Street</description>
+    </column>
+    <column name="/XLSO/POST_CODE" data_type="VARCHAR">
+      <description>Postal Code</description>
+    </column>
+    <column name="/XLSO/CITY" data_type="VARCHAR">
+      <description>City</description>
+    </column>
+    <column name="/XLSO/REGION" data_type="VARCHAR">
+      <description>Region (State, Province, County)</description>
+    </column>
+    <column name="/XLSO/COUNTRY" data_type="VARCHAR">
+      <description>Country Key</description>
+    </column>
+    <column name="/XLSO/INACTIVE" data_type="VARCHAR">
+      <description>Single-Character Flag</description>
+    </column>
+    <column name="FSH_KVGR6" data_type="VARCHAR">
+      <description>Customer Group 6</description>
+    </column>
+    <column name="FSH_KVGR7" data_type="VARCHAR">
+      <description>Customer Group 7</description>
+    </column>
+    <column name="FSH_KVGR8" data_type="VARCHAR">
+      <description>Customer Group 8</description>
+    </column>
+    <column name="FSH_KVGR9" data_type="VARCHAR">
+      <description>Customer Group 9</description>
+    </column>
+    <column name="FSH_KVGR10" data_type="VARCHAR">
+      <description>Customer Group 10</description>
+    </column>
+    <column name="FSH_GRREG" data_type="VARCHAR">
+      <description>Grouping Rule</description>
+    </column>
+    <column name="FSH_RESGY" data_type="VARCHAR">
+      <description>Release Strategy</description>
+    </column>
+    <column name="FSH_SC_CID" data_type="VARCHAR">
+      <description>Customer/Vendor ID</description>
+    </column>
+    <column name="FSH_VAS_DETC" data_type="VARCHAR">
+      <description>VAS Determination Mode</description>
+    </column>
+    <column name="FSH_VAS_CG" data_type="VARCHAR">
+      <description>Value-Added Services Customer Group</description>
+    </column>
+    <column name="FSH_GRSGY" data_type="VARCHAR">
+      <description>ARUN Grouping Strategy</description>
+    </column>
+    <column name="FSH_SS" data_type="VARCHAR">
+      <description>Order Scheduling Strategy</description>
+    </column>
+    <column name="FSH_MSOCDC" data_type="VARCHAR">
+      <description>Distribution Center of Customer</description>
+    </column>
+    <column name="FSH_MSOPID" data_type="VARCHAR">
+      <description>Identification of the Customer in the Partner System</description>
+    </column>
+  </columns>
+</data_description>

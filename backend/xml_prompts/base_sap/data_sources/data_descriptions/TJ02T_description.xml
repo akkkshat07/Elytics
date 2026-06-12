@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="TJ02T">
+  <table_info name="TJ02T" total_columns="4" />
+  <columns>
+    <column name="ISTAT" data_type="VARCHAR">
+      <description>System status</description>
+    </column>
+    <column name="SPRAS" data_type="VARCHAR">
+      <description>Language Key</description>
+    </column>
+    <column name="TXT04" data_type="VARCHAR">
+      <description>Individual status of an object (short form)</description>
+    </column>
+    <column name="TXT30" data_type="VARCHAR">
+      <description>Individual Status of an Object</description>
+    </column>
+  </columns>
+</data_description>

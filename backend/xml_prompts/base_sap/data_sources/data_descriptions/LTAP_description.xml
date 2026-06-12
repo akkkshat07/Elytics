@@ -1,0 +1,489 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="LTAP">
+  <table_info name="LTAP" total_columns="161"/>
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="LGNUM" data_type="VARCHAR">
+      <description>Warehouse Number / Warehouse Complex</description>
+    </column>
+    <column name="TANUM" data_type="VARCHAR">
+      <description>Transfer Order Number</description>
+    </column>
+    <column name="TAPOS" data_type="VARCHAR">
+      <description>Transfer order item</description>
+    </column>
+    <column name="TBPOS" data_type="VARCHAR">
+      <description>Transfer Requirement Item</description>
+    </column>
+    <column name="POSNR" data_type="VARCHAR">
+      <description>Item number of the SD document</description>
+    </column>
+    <column name="MATNR" data_type="VARCHAR">
+      <description>Material Number</description>
+    </column>
+    <column name="WERKS" data_type="VARCHAR">
+      <description>Plant</description>
+    </column>
+    <column name="CHARG" data_type="VARCHAR">
+      <description>Batch Number</description>
+    </column>
+    <column name="BESTQ" data_type="VARCHAR">
+      <description>Stock Category in the Warehouse Management System</description>
+    </column>
+    <column name="SOBKZ" data_type="VARCHAR">
+      <description>Special Stock Indicator</description>
+    </column>
+    <column name="SONUM" data_type="VARCHAR">
+      <description>Special Stock Number</description>
+    </column>
+    <column name="STOFF" data_type="VARCHAR">
+      <description>Hazardous material number</description>
+    </column>
+    <column name="MEINS" data_type="VARCHAR">
+      <description>Base Unit of Measure</description>
+    </column>
+    <column name="ALTME" data_type="VARCHAR">
+      <description>Alternative Unit of Measure for Stockkeeping Unit</description>
+    </column>
+    <column name="UMREZ" data_type="DECIMAL">
+      <description>Numerator for Conversion to Base Units of Measure</description>
+    </column>
+    <column name="UMREN" data_type="DECIMAL">
+      <description>Denominator for conversion to base units of measure</description>
+    </column>
+    <column name="LETYP" data_type="VARCHAR">
+      <description>Storage Unit Type</description>
+    </column>
+    <column name="KZFEH" data_type="VARCHAR">
+      <description>Indicator: pre-allocated stock</description>
+    </column>
+    <column name="LANUM" data_type="VARCHAR">
+      <description>Sequence number</description>
+    </column>
+    <column name="KZQUI" data_type="VARCHAR">
+      <description>Indicator: confirmation required</description>
+    </column>
+    <column name="KZNKO" data_type="VARCHAR">
+      <description>Indicator: Execute Zero Stock Check</description>
+    </column>
+    <column name="NULKO" data_type="VARCHAR">
+      <description>Status of zero stock check in transfer order item</description>
+    </column>
+    <column name="KZINV" data_type="VARCHAR">
+      <description>Inventory indicators</description>
+    </column>
+    <column name="IVNUM" data_type="VARCHAR">
+      <description>Number of system inventory record</description>
+    </column>
+    <column name="PQUIT" data_type="VARCHAR">
+      <description>Indicator: confirmation complete</description>
+    </column>
+    <column name="QDATU" data_type="DATE">
+      <description>Date of confirmation</description>
+    </column>
+    <column name="QZEIT" data_type="TIME">
+      <description>Time of confirmation</description>
+    </column>
+    <column name="QNAME" data_type="VARCHAR">
+      <description>User name</description>
+    </column>
+    <column name="BRGEW" data_type="DECIMAL">
+      <description>Gross weight of transfer order item</description>
+    </column>
+    <column name="GEWEI" data_type="VARCHAR">
+      <description>Unit of Weight</description>
+    </column>
+    <column name="MBPOS" data_type="VARCHAR">
+      <description>Item in Material Document</description>
+    </column>
+    <column name="WEMPF" data_type="VARCHAR">
+      <description>Goods recipient</description>
+    </column>
+    <column name="ABLAD" data_type="VARCHAR">
+      <description>Unloading Point</description>
+    </column>
+    <column name="WDATU" data_type="DATE">
+      <description>Date of Goods Receipt</description>
+    </column>
+    <column name="WENUM" data_type="VARCHAR">
+      <description>Goods Receipt Number</description>
+    </column>
+    <column name="WEPOS" data_type="VARCHAR">
+      <description>Goods receipt item</description>
+    </column>
+    <column name="ZEUGN" data_type="VARCHAR">
+      <description>Certificate Number</description>
+    </column>
+    <column name="LDEST" data_type="VARCHAR">
+      <description>Name of printer</description>
+    </column>
+    <column name="VORGA" data_type="VARCHAR">
+      <description>Transfer procedure</description>
+    </column>
+    <column name="VLTYP" data_type="VARCHAR">
+      <description>Source Storage Type</description>
+    </column>
+    <column name="VLBER" data_type="VARCHAR">
+      <description>Source storage section</description>
+    </column>
+    <column name="VLPLA" data_type="VARCHAR">
+      <description>Source Storage Bin</description>
+    </column>
+    <column name="VKDYN" data_type="VARCHAR">
+      <description>Indicator: dynamic storage bin</description>
+    </column>
+    <column name="VPPOS" data_type="VARCHAR">
+      <description>Position in source storage bin</description>
+    </column>
+    <column name="VANZL" data_type="DECIMAL">
+      <description>Number of storage units to be transferred from bulk storage</description>
+    </column>
+    <column name="VANBR" data_type="VARCHAR">
+      <description>Indicator: partial pallet quantity exists</description>
+    </column>
+    <column name="VSOLM" data_type="DECIMAL">
+      <description>Source target quantity in stockkeeping unit</description>
+    </column>
+    <column name="VISTM" data_type="DECIMAL">
+      <description>Source actual quantity in stockkeeping unit</description>
+    </column>
+    <column name="VDIFM" data_type="DECIMAL">
+      <description>Difference in source storage bin in stockkeeping unit</description>
+    </column>
+    <column name="VSOLA" data_type="DECIMAL">
+      <description>Source target quantity in alternate unit</description>
+    </column>
+    <column name="VISTA" data_type="DECIMAL">
+      <description>Source actual quantity in alternative unit of measure</description>
+    </column>
+    <column name="VDIFA" data_type="DECIMAL">
+      <description>Difference in source storage bin in alternative unit</description>
+    </column>
+    <column name="VLQNR" data_type="VARCHAR">
+      <description>Quant</description>
+    </column>
+    <column name="VAPPC" data_type="VARCHAR">
+      <description>Ind.: Pass on source item to APPC interface</description>
+    </column>
+    <column name="NLTYP" data_type="VARCHAR">
+      <description>Destination Storage Type</description>
+    </column>
+    <column name="NLBER" data_type="VARCHAR">
+      <description>Destination storage section</description>
+    </column>
+    <column name="NLPLA" data_type="VARCHAR">
+      <description>Destination Storage Bin</description>
+    </column>
+    <column name="NKDYN" data_type="VARCHAR">
+      <description>Indicator: dynamic storage bin</description>
+    </column>
+    <column name="NPPOS" data_type="VARCHAR">
+      <description>Position in destination storage bin</description>
+    </column>
+    <column name="NANZL" data_type="DECIMAL">
+      <description>Number of storage units to be transferred to bulk storage</description>
+    </column>
+    <column name="NANBR" data_type="VARCHAR">
+      <description>Indicator: partial pallet quantity exists</description>
+    </column>
+    <column name="NSOLM" data_type="DECIMAL">
+      <description>Destination target quantity in stockkeeping unit</description>
+    </column>
+    <column name="NISTM" data_type="DECIMAL">
+      <description>Destination actual quantity in stockkeeping unit</description>
+    </column>
+    <column name="NDIFM" data_type="DECIMAL">
+      <description>Destination difference quantity in stockkeeping unit</description>
+    </column>
+    <column name="NSOLA" data_type="DECIMAL">
+      <description>Destination target quantity in alternative unit</description>
+    </column>
+    <column name="NISTA" data_type="DECIMAL">
+      <description>Actual destination quantity in alternative unit</description>
+    </column>
+    <column name="NDIFA" data_type="DECIMAL">
+      <description>Destination difference qty. in alternative unit</description>
+    </column>
+    <column name="NLQNR" data_type="VARCHAR">
+      <description>Quant</description>
+    </column>
+    <column name="NAPPC" data_type="VARCHAR">
+      <description>Indicator: pass on destination item to APPC interface</description>
+    </column>
+    <column name="RLTYP" data_type="VARCHAR">
+      <description>Return storage type</description>
+    </column>
+    <column name="RLBER" data_type="VARCHAR">
+      <description>Return storage area</description>
+    </column>
+    <column name="RLPLA" data_type="VARCHAR">
+      <description>Return storage bin</description>
+    </column>
+    <column name="RPPOS" data_type="VARCHAR">
+      <description>Position in return storage bin</description>
+    </column>
+    <column name="RSOLM" data_type="DECIMAL">
+      <description>Return target quantity in stockkeeping unit</description>
+    </column>
+    <column name="RISTM" data_type="DECIMAL">
+      <description>Actual returned quantity in stockkeeping unit</description>
+    </column>
+    <column name="RDIFM" data_type="DECIMAL">
+      <description>Return difference quantity in stockkeeping unit</description>
+    </column>
+    <column name="RSOLA" data_type="DECIMAL">
+      <description>Return target quantity in alternative unit</description>
+    </column>
+    <column name="RISTA" data_type="DECIMAL">
+      <description>Actual return quantity in alternate unit of measure</description>
+    </column>
+    <column name="RDIFA" data_type="DECIMAL">
+      <description>Return difference quantity in alternative unit</description>
+    </column>
+    <column name="RLQNR" data_type="VARCHAR">
+      <description>Quant</description>
+    </column>
+    <column name="RAPPC" data_type="VARCHAR">
+      <description>Indicator: pass on return item to APPC interface</description>
+    </column>
+    <column name="DLTYP" data_type="VARCHAR">
+      <description>Difference storage type</description>
+    </column>
+    <column name="DLPLA" data_type="VARCHAR">
+      <description>Difference storage bin</description>
+    </column>
+    <column name="DLQNR" data_type="VARCHAR">
+      <description>Difference quant</description>
+    </column>
+    <column name="DMENG" data_type="DECIMAL">
+      <description>Quantity of difference posting in stockkeeping unit</description>
+    </column>
+    <column name="DMENA" data_type="DECIMAL">
+      <description>Difference quantity in alternate unit of measure</description>
+    </column>
+    <column name="KZDIF" data_type="VARCHAR">
+      <description>Difference indicator</description>
+    </column>
+    <column name="MAKTX" data_type="VARCHAR">
+      <description>Material Description</description>
+    </column>
+    <column name="DRUCK" data_type="VARCHAR">
+      <description>Indicator: transfer order item is printed</description>
+    </column>
+    <column name="VLENR" data_type="VARCHAR">
+      <description>Source storage unit number</description>
+    </column>
+    <column name="NLENR" data_type="VARCHAR">
+      <description>Destination storage unit number</description>
+    </column>
+    <column name="DLENR" data_type="VARCHAR">
+      <description>Number of storage unit for difference quantities</description>
+    </column>
+    <column name="VLEST" data_type="VARCHAR">
+      <description>Status of source storage unit</description>
+    </column>
+    <column name="NLEST" data_type="VARCHAR">
+      <description>Status of destination storage unit</description>
+    </column>
+    <column name="LELAS" data_type="VARCHAR">
+      <description>Indicator: print storage unit contents</description>
+    </column>
+    <column name="HOMVE" data_type="VARCHAR">
+      <description>Indicator: stock removal of a total, homogenous storage unit</description>
+    </column>
+    <column name="POSTY" data_type="VARCHAR">
+      <description>Type of transfer order item</description>
+    </column>
+    <column name="ORPOS" data_type="VARCHAR">
+      <description>TO item from which current TO item was generated</description>
+    </column>
+    <column name="VSUMM" data_type="VARCHAR">
+      <description>Level of totals information SOURCE</description>
+    </column>
+    <column name="VBLCH" data_type="VARCHAR">
+      <description>Blocks with mixed batches SOURCE</description>
+    </column>
+    <column name="NSUMM" data_type="VARCHAR">
+      <description>Level of totals information DEST.</description>
+    </column>
+    <column name="NBLCH" data_type="VARCHAR">
+      <description>Blocks with mixed batches DEST</description>
+    </column>
+    <column name="RSPOS" data_type="VARCHAR">
+      <description>Item Number of Reservation / Dependent Requirements</description>
+    </column>
+    <column name="VFDAT" data_type="DATE">
+      <description>Shelf Life Expiration or Best-Before Date</description>
+    </column>
+    <column name="VKAPV" data_type="DECIMAL">
+      <description>Capacity usage of transferred material</description>
+    </column>
+    <column name="VKAPA" data_type="VARCHAR">
+      <description>Capacity check for source storage type</description>
+    </column>
+    <column name="NKAPA" data_type="VARCHAR">
+      <description>Capacity check for destination storage type</description>
+    </column>
+    <column name="RKAPA" data_type="VARCHAR">
+      <description>Capacity check return storage type</description>
+    </column>
+    <column name="KZSUB" data_type="VARCHAR">
+      <description>Indicator: pass on TO item to subsystem</description>
+    </column>
+    <column name="QPLOS" data_type="VARCHAR">
+      <description>Inspection Lot Number</description>
+    </column>
+    <column name="QPLOA" data_type="VARCHAR">
+      <description>Inspection Lot on Which the Usage Decision is Based</description>
+    </column>
+    <column name="KZSTI" data_type="VARCHAR">
+      <description>Indicator: transfer of insp.sample</description>
+    </column>
+    <column name="RSART" data_type="VARCHAR">
+      <description>Record type</description>
+    </column>
+    <column name="KZECH" data_type="VARCHAR">
+      <description>Indicator: Confirm Batch to PP</description>
+    </column>
+    <column name="KOBER" data_type="VARCHAR">
+      <description>Picking Area</description>
+    </column>
+    <column name="LGORT" data_type="VARCHAR">
+      <description>Storage Location</description>
+    </column>
+    <column name="SOLPO" data_type="DECIMAL">
+      <description>Planned proc.time in transfer order item</description>
+    </column>
+    <column name="ZEIEI" data_type="VARCHAR">
+      <description>Time unit for performance data</description>
+    </column>
+    <column name="L2SKR" data_type="VARCHAR">
+      <description>Relevance for 2-step picking</description>
+    </column>
+    <column name="VOLUM" data_type="DECIMAL">
+      <description>Volume</description>
+    </column>
+    <column name="VOLEH" data_type="VARCHAR">
+      <description>Volume Unit</description>
+    </column>
+    <column name="KZBEF" data_type="VARCHAR">
+      <description>Indicator Inventory Management active</description>
+    </column>
+    <column name="IMREL" data_type="VARCHAR">
+      <description>Trigger posting in Inventory Management</description>
+    </column>
+    <column name="NWIRM" data_type="DECIMAL">
+      <description>Transferred ingredient qty</description>
+    </column>
+    <column name="WIRME" data_type="VARCHAR">
+      <description>Active ingredient unit of measure</description>
+    </column>
+    <column name="NPLEI" data_type="VARCHAR">
+      <description>Dest.stor.bin changeable during confirmation</description>
+    </column>
+    <column name="KBNKZ" data_type="VARCHAR">
+      <description>Kanban Indicator</description>
+    </column>
+    <column name="STOAN" data_type="VARCHAR">
+      <description>Cancellation req. for TO item (currently only from Kanban)</description>
+    </column>
+    <column name="KGVNQ" data_type="VARCHAR">
+      <description>Indicator: Separate confirmation possible</description>
+    </column>
+    <column name="PVQUI" data_type="VARCHAR">
+      <description>Indicator: Material pick has been confirmed</description>
+    </column>
+    <column name="EDATU" data_type="DATE">
+      <description>Date of Pick Confirmation (First Step)</description>
+    </column>
+    <column name="EZEIT" data_type="TIME">
+      <description>Time of Pick Confirmation (First Step)</description>
+    </column>
+    <column name="ENAME" data_type="VARCHAR">
+      <description>User Name in Pick Confirmation (First Step)</description>
+    </column>
+    <column name="KZFME" data_type="VARCHAR">
+      <description>ID: Leading unit of measure for completing a transaction</description>
+    </column>
+    <column name="QUSUB" data_type="VARCHAR">
+      <description>Confirmation ind.: Two-step confirmation for external system</description>
+    </column>
+    <column name="FHUTA" data_type="VARCHAR">
+      <description>Flag: Transfer order item is HU TO item</description>
+    </column>
+    <column name="VNEST" data_type="VARCHAR">
+      <description>Indicates whether the source storage unit is a nested HU</description>
+    </column>
+    <column name="VHILM" data_type="VARCHAR">
+      <description>Packaging Materials</description>
+    </column>
+    <column name="VDUMM" data_type="VARCHAR">
+      <description>Indicator: Source SU is pseudo SU (only HUs)</description>
+    </column>
+    <column name="NDUMM" data_type="VARCHAR">
+      <description>Indicator: Destination SU is pseudo SU (only HUs)</description>
+    </column>
+    <column name="VSERI" data_type="VARCHAR">
+      <description>Indicator: Source SU is a HU with serial numbers</description>
+    </column>
+    <column name="HUPIK" data_type="VARCHAR">
+      <description>Indicator: source HU suggested as pick HU at confirmation</description>
+    </column>
+    <column name="NXIDV" data_type="VARCHAR">
+      <description>External Handling Unit Identification</description>
+    </column>
+    <column name="NOLIS" data_type="VARCHAR">
+      <description>Flag: Do not update whse controlling during TO creation</description>
+    </column>
+    <column name="NPIPO" data_type="VARCHAR">
+      <description>Flag: Do not transfer SU to pick point (for SU block stor.)</description>
+    </column>
+    <column name="PIPAR" data_type="VARCHAR">
+      <description>Assignment of TO item to handling unit is required</description>
+    </column>
+    <column name="PCKPF" data_type="VARCHAR">
+      <description>Packing control</description>
+    </column>
+    <column name="KZTRM" data_type="VARCHAR">
+      <description>TRM Interface Active</description>
+    </column>
+    <column name="PASSD" data_type="VARCHAR">
+      <description>Confirmation Data Transferred To Delivery</description>
+    </column>
+    <column name="VBELN" data_type="VARCHAR">
+      <description>Delivery</description>
+    </column>
+    <column name="KZXDK" data_type="VARCHAR">
+      <description>Cross dock interface</description>
+    </column>
+    <column name="KZVAS" data_type="VARCHAR">
+      <description>Value added service interface</description>
+    </column>
+    <column name="FROM_INSP_GUID" data_type="VARCHAR">
+      <description>Inspection GUID</description>
+    </column>
+    <column name="TO_INSP_GUID" data_type="VARCHAR">
+      <description>Inspection GUID</description>
+    </column>
+    <column name="DIFF_INSP_GUID" data_type="VARCHAR">
+      <description>Inspection GUID</description>
+    </column>
+    <column name="RETURN_INSP_GUID" data_type="VARCHAR">
+      <description>Inspection GUID</description>
+    </column>
+    <column name="DCNUM" data_type="VARCHAR">
+      <description>Cross-Docking Decision Number</description>
+    </column>
+    <column name="ZRSTG" data_type="VARCHAR">
+      <description>General Flag</description>
+    </column>
+    <column name="TOVAS" data_type="VARCHAR">
+      <description>General Flag</description>
+    </column>
+    <column name="SGT_SCAT" data_type="VARCHAR">
+      <description>Stock Segment</description>
+    </column>
+  </columns>
+</data_description>

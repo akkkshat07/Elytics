@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="T501">
+  <table_info name="T501" total_columns="2" />
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="PERSG" data_type="VARCHAR">
+      <description>Employee Group</description>
+    </column>
+  </columns>
+</data_description>

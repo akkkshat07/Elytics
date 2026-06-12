@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="MSTQ">
+  <table_info name="MSTQ" total_columns="12" />
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="MATNR" data_type="VARCHAR">
+      <description>Material Number</description>
+    </column>
+    <column name="WERKS" data_type="VARCHAR">
+      <description>Plant</description>
+    </column>
+    <column name="CHARG" data_type="VARCHAR">
+      <description>Batch Number</description>
+    </column>
+    <column name="SOBKZ" data_type="VARCHAR">
+      <description>Special Stock Indicator</description>
+    </column>
+    <column name="PSPNR" data_type="VARCHAR">
+      <description>Work Breakdown Structure Element (WBS Element)</description>
+    </column>
+    <column name="BWTAR" data_type="VARCHAR">
+      <description>Valuation Type</description>
+    </column>
+    <column name="LFGJA" data_type="VARCHAR">
+      <description>Fiscal Year of Current Period</description>
+    </column>
+    <column name="LFMON" data_type="VARCHAR">
+      <description>Current period (posting period)</description>
+    </column>
+    <column name="QWESB" data_type="DECIMAL">
+      <description>Valuated Goods Receipt Blocked Stock, Project</description>
+    </column>
+    <column name="ERSDA" data_type="DATE">
+      <description>Created On</description>
+    </column>
+    <column name="TQRUE" data_type="VARCHAR">
+      <description>MxxxH rec. already exists for per. before last of Mxxx per.</description>
+    </column>
+  </columns>
+</data_description>

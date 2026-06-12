@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="MAPL">
+  <table_info name="MAPL" total_columns="25"/>
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="MATNR" data_type="VARCHAR">
+      <description>Material Number</description>
+    </column>
+    <column name="WERKS" data_type="VARCHAR">
+      <description>Plant</description>
+    </column>
+    <column name="PLNTY" data_type="VARCHAR">
+      <description>Task List Type</description>
+    </column>
+    <column name="PLNNR" data_type="VARCHAR">
+      <description>Key for Task List Group</description>
+    </column>
+    <column name="PLNAL" data_type="VARCHAR">
+      <description>Group Counter</description>
+    </column>
+    <column name="ZKRIZ" data_type="VARCHAR">
+      <description>Counter for additional criteria</description>
+    </column>
+    <column name="ZAEHL" data_type="VARCHAR">
+      <description>Internal counter</description>
+    </column>
+    <column name="DATUV" data_type="DATE">
+      <description>Valid-From Date</description>
+    </column>
+    <column name="TECHV" data_type="VARCHAR">
+      <description>Technical status from</description>
+    </column>
+    <column name="AENNR" data_type="VARCHAR">
+      <description>Change Number</description>
+    </column>
+    <column name="LOEKZ" data_type="VARCHAR">
+      <description>Deletion Indicator</description>
+    </column>
+    <column name="PARKZ" data_type="VARCHAR">
+      <description>Indicator: inactive changes</description>
+    </column>
+    <column name="ANDAT" data_type="DATE">
+      <description>Date record created on</description>
+    </column>
+    <column name="ANNAM" data_type="VARCHAR">
+      <description>User who created record</description>
+    </column>
+    <column name="AEDAT" data_type="DATE">
+      <description>Last Changed On</description>
+    </column>
+    <column name="AENAM" data_type="VARCHAR">
+      <description>Name of Person Who Changed Object</description>
+    </column>
+    <column name="LIFNR" data_type="VARCHAR">
+      <description>Supplier's Account Number</description>
+    </column>
+    <column name="KUNR" data_type="VARCHAR">
+      <description>Account number of customer</description>
+    </column>
+    <column name="SUCHFELD" data_type="VARCHAR">
+      <description>Search Field for Customer-Specific Task List Selection</description>
+    </column>
+    <column name="VBELN" data_type="VARCHAR">
+      <description>Sales Document</description>
+    </column>
+    <column name="POSNR" data_type="VARCHAR">
+      <description>Sales Document Item</description>
+    </column>
+    <column name="PSPNR" data_type="VARCHAR">
+      <description>Work breakdown structure element (WBS element)</description>
+    </column>
+    <column name="MS_OBJECT" data_type="VARCHAR">
+      <description>Object for Multiple Specifications</description>
+    </column>
+    <column name="MS_OBJTYPE" data_type="VARCHAR">
+      <description>Type of Object for Multiple Specifications</description>
+    </column>
+  </columns>
+</data_description>

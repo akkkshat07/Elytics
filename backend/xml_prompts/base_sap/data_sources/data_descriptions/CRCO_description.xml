@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="CRCO">
+  <table_info name="CRCO" total_columns="20" />
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="OBJTY" data_type="VARCHAR">
+      <description>Object types of the CIM resource</description>
+    </column>
+    <column name="OBJID" data_type="VARCHAR">
+      <description>Object ID of the resource</description>
+    </column>
+    <column name="LASET" data_type="VARCHAR">
+      <description>Activity type set</description>
+    </column>
+    <column name="ENDDA" data_type="DATE">
+      <description>End Date</description>
+    </column>
+    <column name="LANUM" data_type="VARCHAR">
+      <description>Activity type number within a set</description>
+    </column>
+    <column name="BEGDA" data_type="DATE">
+      <description>Start Date</description>
+    </column>
+    <column name="AEDAT_KOST" data_type="DATE">
+      <description>Changed on</description>
+    </column>
+    <column name="AENAM_KOST" data_type="VARCHAR">
+      <description>User Name</description>
+    </column>
+    <column name="KOKRS" data_type="VARCHAR">
+      <description>Controlling Area</description>
+    </column>
+    <column name="KOSTL" data_type="VARCHAR">
+      <description>Cost Center</description>
+    </column>
+    <column name="LSTAR" data_type="VARCHAR">
+      <description>Activity Type</description>
+    </column>
+    <column name="LSTAR_REF" data_type="VARCHAR">
+      <description>Field is referenced</description>
+    </column>
+    <column name="FORML" data_type="VARCHAR">
+      <description>Formula key for costing</description>
+    </column>
+    <column name="PRZ" data_type="VARCHAR">
+      <description>Business Process</description>
+    </column>
+    <column name="ACTXY" data_type="VARCHAR">
+      <description>Activity description type</description>
+    </column>
+    <column name="ACTXK" data_type="VARCHAR">
+      <description>Key for alternative activity description</description>
+    </column>
+    <column name="LEINH" data_type="VARCHAR">
+      <description>Activity Unit</description>
+    </column>
+    <column name="BDE" data_type="VARCHAR">
+      <description>Transfer activity types to incentive wages</description>
+    </column>
+    <column name="SAKL" data_type="VARCHAR">
+      <description>Record type group</description>
+    </column>
+  </columns>
+</data_description>

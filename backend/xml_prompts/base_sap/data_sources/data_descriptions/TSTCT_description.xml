@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="TSTCT">
+  <table_info name="TSTCT" total_columns="3" />
+  <columns>
+    <column name="SPRSL" data_type="VARCHAR">
+      <description>Language Key</description>
+    </column>
+    <column name="TCODE" data_type="VARCHAR">
+      <description>Transaction Code</description>
+    </column>
+    <column name="TTEXT" data_type="VARCHAR">
+      <description>Transaction text</description>
+    </column>
+  </columns>
+</data_description>

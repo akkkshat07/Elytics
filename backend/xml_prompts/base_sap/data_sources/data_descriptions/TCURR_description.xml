@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="TCURR">
+  <table_info name="TCURR" total_columns="8" />
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="KURST" data_type="VARCHAR">
+      <description>Exchange Rate Type</description>
+    </column>
+    <column name="FCURR" data_type="VARCHAR">
+      <description>From currency</description>
+    </column>
+    <column name="TCURR" data_type="VARCHAR">
+      <description>To-currency</description>
+    </column>
+    <column name="GDATU" data_type="VARCHAR">
+      <description>Date As of Which the Exchange Rate Is Effective</description>
+    </column>
+    <column name="UKURS" data_type="DECIMAL">
+      <description>Exchange Rate</description>
+    </column>
+    <column name="FFACT" data_type="DECIMAL">
+      <description>Ratio for the "from" currency units</description>
+    </column>
+    <column name="TFACT" data_type="DECIMAL">
+      <description>Ratio for the "to" currency units</description>
+    </column>
+  </columns>
+</data_description>

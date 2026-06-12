@@ -1,0 +1,8 @@
+<?xml version="1.0" ?>
+<meta_information type="table_introductions">
+  <table_introductions>
+    <table_introduction table_name="v_master_ne_all">v_master_ne_all stores business records used for analysis and reporting. It includes fields such as record_type, division, segment, order_date, business_month, report_date, uuid, position_code. Use this table for filtering, aggregation, and trend exploration.</table_introduction>
+    <table_introduction table_name="v_master_ne_parlor">v_master_ne_parlor stores business records used for analysis and reporting. It includes fields such as record_type, division, segment, order_date, business_month, report_date, uuid, position_code. Use this table for filtering, aggregation, and trend exploration.</table_introduction>
+    <table_introduction table_name="v_master_ne_retail">v_master_ne_retail stores business records used for analysis and reporting. It includes fields such as record_type, division, segment, order_date, business_month, report_date, uuid, position_code. Use this table for filtering, aggregation, and trend exploration.</table_introduction>
+  </table_introductions>
+</meta_information>

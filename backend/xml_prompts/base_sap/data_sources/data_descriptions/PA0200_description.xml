@@ -1,0 +1,162 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="PA0200">
+  <table_info name="PA0200" total_columns="52"/>
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="PERNR" data_type="VARCHAR">
+      <description>Personnel Number</description>
+    </column>
+    <column name="SUBTY" data_type="VARCHAR">
+      <description>Subtype</description>
+    </column>
+    <column name="OBJPS" data_type="VARCHAR">
+      <description>Object Identification</description>
+    </column>
+    <column name="SPRPS" data_type="VARCHAR">
+      <description>Lock Indicator for HR Master Data Record</description>
+    </column>
+    <column name="ENDDA" data_type="DATE">
+      <description>End Date</description>
+    </column>
+    <column name="BEGDA" data_type="DATE">
+      <description>Start Date</description>
+    </column>
+    <column name="SEQNR" data_type="VARCHAR">
+      <description>Number of Infotype Record With Same Key</description>
+    </column>
+    <column name="AEDTM" data_type="DATE">
+      <description>Last Changed On</description>
+    </column>
+    <column name="UNAME" data_type="VARCHAR">
+      <description>Name of Person Who Changed Object</description>
+    </column>
+    <column name="HISTO" data_type="VARCHAR">
+      <description>Historical Record Flag</description>
+    </column>
+    <column name="ITXEX" data_type="VARCHAR">
+      <description>Text Exists for Infotype</description>
+    </column>
+    <column name="REFEX" data_type="VARCHAR">
+      <description>Reference Fields Exist (Primary/Secondary Costs)</description>
+    </column>
+    <column name="ORDEX" data_type="VARCHAR">
+      <description>Confirmation Fields Exist</description>
+    </column>
+    <column name="ITBLD" data_type="VARCHAR">
+      <description>Infotype Screen Control</description>
+    </column>
+    <column name="PREAS" data_type="VARCHAR">
+      <description>Reason for Changing Master Data</description>
+    </column>
+    <column name="FLAG1" data_type="VARCHAR">
+      <description>Reserved Field/Unused Field</description>
+    </column>
+    <column name="FLAG2" data_type="VARCHAR">
+      <description>Reserved Field/Unused Field</description>
+    </column>
+    <column name="FLAG3" data_type="VARCHAR">
+      <description>Reserved Field/Unused Field</description>
+    </column>
+    <column name="FLAG4" data_type="VARCHAR">
+      <description>Reserved Field/Unused Field</description>
+    </column>
+    <column name="RESE1" data_type="VARCHAR">
+      <description>Reserved Field/Unused Field of Length 2</description>
+    </column>
+    <column name="RESE2" data_type="VARCHAR">
+      <description>Reserved Field/Unused Field of Length 2</description>
+    </column>
+    <column name="GRPVL" data_type="VARCHAR">
+      <description>Grouping Value for Personnel Assignments</description>
+    </column>
+    <column name="GARTY" data_type="VARCHAR">
+      <description>Garnishment type for Danish payroll</description>
+    </column>
+    <column name="BMODT" data_type="VARCHAR">
+      <description>Payee ID (DK)</description>
+    </column>
+    <column name="AFDRG" data_type="DECIMAL">
+      <description>Garnishment instalment (DK)</description>
+    </column>
+    <column name="AFDRGW" data_type="VARCHAR">
+      <description>Currency Key</description>
+    </column>
+    <column name="PCTKD" data_type="VARCHAR">
+      <description>Percent indicator</description>
+    </column>
+    <column name="PFDAT" data_type="DATE">
+      <description>Valid-From Date</description>
+    </column>
+    <column name="BEGTI" data_type="TIME">
+      <description>Start Time</description>
+    </column>
+    <column name="GWTYP" data_type="VARCHAR">
+      <description>Wage Type</description>
+    </column>
+    <column name="PFTYP" data_type="VARCHAR">
+      <description>Garnishment type (DK)</description>
+    </column>
+    <column name="GARID" data_type="VARCHAR">
+      <description>Seq. no. of garnishment</description>
+    </column>
+    <column name="GARTX" data_type="VARCHAR">
+      <description>Explanation of garnishment</description>
+    </column>
+    <column name="HVSTL" data_type="DECIMAL">
+      <description>Beginning balance (Hovedstol)</description>
+    </column>
+    <column name="HVSTLW" data_type="VARCHAR">
+      <description>Currency Key</description>
+    </column>
+    <column name="SLOHN" data_type="VARCHAR">
+      <description>Indicator: Display Garnishment on Remuneration Statement</description>
+    </column>
+    <column name="PRZ_WTYPE" data_type="VARCHAR">
+      <description>Garnishment wage type (DK)</description>
+    </column>
+    <column name="BTR_WTYPE" data_type="VARCHAR">
+      <description>Garnishment wage type (DK)</description>
+    </column>
+    <column name="PRIORITET" data_type="VARCHAR">
+      <description>Garnishment priority (DK)</description>
+    </column>
+    <column name="EMFSL" data_type="VARCHAR">
+      <description>Payee key for bank transfers</description>
+    </column>
+    <column name="ABTBTR" data_type="DECIMAL">
+      <description>Deduction amount</description>
+    </column>
+    <column name="ABTBTRW" data_type="VARCHAR">
+      <description>Currency Key</description>
+    </column>
+    <column name="ABTPRZ" data_type="DECIMAL">
+      <description>Deduction percentage rate</description>
+    </column>
+    <column name="EMFTX" data_type="VARCHAR">
+      <description>Payee Text</description>
+    </column>
+    <column name="BKPLZ" data_type="VARCHAR">
+      <description>Postal code (layout: PLSTLZ/ORT)</description>
+    </column>
+    <column name="BKORT" data_type="VARCHAR">
+      <description>City</description>
+    </column>
+    <column name="BANKA" data_type="VARCHAR">
+      <description>Name of Financial Institution</description>
+    </column>
+    <column name="BANKL" data_type="VARCHAR">
+      <description>Bank Keys</description>
+    </column>
+    <column name="BKKTO" data_type="VARCHAR">
+      <description>Bank Account Number</description>
+    </column>
+    <column name="TRANS" data_type="VARCHAR">
+      <description>OSI transfer (Denmark)</description>
+    </column>
+    <column name="PBSNR" data_type="VARCHAR">
+      <description>Transfer customer number</description>
+    </column>
+  </columns>
+</data_description>

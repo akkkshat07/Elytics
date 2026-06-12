@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="PRHI">
+  <table_info name="PRHI" total_columns="7"/>
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="POSNR" data_type="VARCHAR">
+      <description>WBS Element</description>
+    </column>
+    <column name="PSPHI" data_type="VARCHAR">
+      <description>Current number of the appropriate project</description>
+    </column>
+    <column name="UP" data_type="VARCHAR">
+      <description>Number of the superior WBS element</description>
+    </column>
+    <column name="DOWN" data_type="VARCHAR">
+      <description>Number of the 1. subordinate WBS element</description>
+    </column>
+    <column name="LEFT" data_type="VARCHAR">
+      <description>Number of the left adjacent position in WBS</description>
+    </column>
+    <column name="RIGHT" data_type="VARCHAR">
+      <description>Number of the right adjacent position in WBS</description>
+    </column>
+  </columns>
+</data_description>

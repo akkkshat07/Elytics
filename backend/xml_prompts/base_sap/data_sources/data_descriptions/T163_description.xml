@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="T163">
+  <table_info name="T163" total_columns="14" />
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="PSTYP" data_type="VARCHAR">
+      <description>Item category in purchasing document</description>
+    </column>
+    <column name="MATNO" data_type="VARCHAR">
+      <description>Indicator: Material number required</description>
+    </column>
+    <column name="KNTZU" data_type="VARCHAR">
+      <description>Indicator: Account assignment required</description>
+    </column>
+    <column name="BFKNZ" data_type="VARCHAR">
+      <description>Inventory management indicator for purchasing</description>
+    </column>
+    <column name="WEPOS" data_type="VARCHAR">
+      <description>Goods Receipt Indicator</description>
+    </column>
+    <column name="WEPOV" data_type="VARCHAR">
+      <description>Goods receipt indicator binding</description>
+    </column>
+    <column name="WEUNB" data_type="VARCHAR">
+      <description>Goods Receipt, Non-Valuated</description>
+    </column>
+    <column name="WEUNV" data_type="VARCHAR">
+      <description>Good receipt non-valuated (binding)</description>
+    </column>
+    <column name="REPOS" data_type="VARCHAR">
+      <description>Invoice Receipt Indicator</description>
+    </column>
+    <column name="REPOV" data_type="VARCHAR">
+      <description>Invoice receipt indicator binding</description>
+    </column>
+    <column name="STAFO" data_type="VARCHAR">
+      <description>Update group for statistics update</description>
+    </column>
+    <column name="J_1BITMTYP" data_type="VARCHAR">
+      <description>Nota Fiscal Item Type</description>
+    </column>
+    <column name="DIFF_INVOICE" data_type="VARCHAR">
+      <description>Differential Invoicing</description>
+    </column>
+  </columns>
+</data_description>

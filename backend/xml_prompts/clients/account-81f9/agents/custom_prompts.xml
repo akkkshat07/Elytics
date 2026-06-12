@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<custom_prompts xmlns="http://coresight.generic.com/prompts" client_id="account-81f9" version="1.0">
+  <metadata>
+    <description>Custom prompts for agent enhancement</description>
+  </metadata>
+  <prompts />
+</custom_prompts>

@@ -1,0 +1,483 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="VBAK">
+  <table_info name="VBAK" total_columns="159"/>
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="VBELN" data_type="VARCHAR">
+      <description>Sales Document</description>
+    </column>
+    <column name="ERDAT" data_type="DATE">
+      <description>Date on Which Record Was Created</description>
+    </column>
+    <column name="ERZET" data_type="TIME">
+      <description>Entry time</description>
+    </column>
+    <column name="ERNAM" data_type="VARCHAR">
+      <description>Name of Person Responsible for Creating the Object</description>
+    </column>
+    <column name="ANGDT" data_type="DATE">
+      <description>Quotation/Inquiry is valid from</description>
+    </column>
+    <column name="BNDDT" data_type="DATE">
+      <description>Date until which bid/quotation is binding (valid-to date)</description>
+    </column>
+    <column name="AUDAT" data_type="DATE">
+      <description>Document Date (Date Received/Sent)</description>
+    </column>
+    <column name="VBTYP" data_type="VARCHAR">
+      <description>SD document category</description>
+    </column>
+    <column name="TRVOG" data_type="VARCHAR">
+      <description>Transaction group</description>
+    </column>
+    <column name="AUART" data_type="VARCHAR">
+      <description>Sales Document Type</description>
+    </column>
+    <column name="AUGRU" data_type="VARCHAR">
+      <description>Order reason (reason for the business transaction)</description>
+    </column>
+    <column name="GWLDT" data_type="DATE">
+      <description>Warranty Date</description>
+    </column>
+    <column name="SUBMI" data_type="VARCHAR">
+      <description>Collective number (SD)</description>
+    </column>
+    <column name="LIFSK" data_type="VARCHAR">
+      <description>Delivery block (document header)</description>
+    </column>
+    <column name="FAKSK" data_type="VARCHAR">
+      <description>Billing block in SD document</description>
+    </column>
+    <column name="NETWR" data_type="DECIMAL">
+      <description>Net Value of the Sales Order in Document Currency</description>
+    </column>
+    <column name="WAERK" data_type="VARCHAR">
+      <description>SD Document Currency</description>
+    </column>
+    <column name="VKORG" data_type="VARCHAR">
+      <description>Sales Organization</description>
+    </column>
+    <column name="VTWEG" data_type="VARCHAR">
+      <description>Distribution Channel</description>
+    </column>
+    <column name="SPART" data_type="VARCHAR">
+      <description>Division</description>
+    </column>
+    <column name="VKGRP" data_type="VARCHAR">
+      <description>Sales Group</description>
+    </column>
+    <column name="VKBUR" data_type="VARCHAR">
+      <description>Sales Office</description>
+    </column>
+    <column name="GSBER" data_type="VARCHAR">
+      <description>Business Area</description>
+    </column>
+    <column name="GSKST" data_type="VARCHAR">
+      <description>Business area from cost center</description>
+    </column>
+    <column name="GUEBG" data_type="DATE">
+      <description>Valid-from date (outline agreements, product proposals)</description>
+    </column>
+    <column name="GUEEN" data_type="DATE">
+      <description>Valid-to date (outline agreements, product proposals)</description>
+    </column>
+    <column name="KNUMV" data_type="VARCHAR">
+      <description>Number of the document condition</description>
+    </column>
+    <column name="VDATU" data_type="DATE">
+      <description>Requested delivery date</description>
+    </column>
+    <column name="VPRGR" data_type="VARCHAR">
+      <description>Proposed date type</description>
+    </column>
+    <column name="AUTLF" data_type="VARCHAR">
+      <description>Complete delivery defined for each sales order?</description>
+    </column>
+    <column name="VBKLA" data_type="VARCHAR">
+      <description>Original system with release and transaction control</description>
+    </column>
+    <column name="VBKLT" data_type="VARCHAR">
+      <description>SD document indicator</description>
+    </column>
+    <column name="KALSM" data_type="VARCHAR">
+      <description>Sales and Distribution: Pricing Procedure in Pricing</description>
+    </column>
+    <column name="VSBED" data_type="VARCHAR">
+      <description>Shipping Conditions</description>
+    </column>
+    <column name="FKARA" data_type="VARCHAR">
+      <description>Proposed billing type for an order-related billing document</description>
+    </column>
+    <column name="AWAHR" data_type="VARCHAR">
+      <description>Sales probability</description>
+    </column>
+    <column name="KTEXT" data_type="VARCHAR">
+      <description>Search term for product proposal</description>
+    </column>
+    <column name="BSTNK" data_type="VARCHAR">
+      <description>Customer purchase order number</description>
+    </column>
+    <column name="BSARK" data_type="VARCHAR">
+      <description>Customer purchase order type</description>
+    </column>
+    <column name="BSTDK" data_type="DATE">
+      <description>Customer Purchase Order Date</description>
+    </column>
+    <column name="BSTZD" data_type="VARCHAR">
+      <description>Purchase order number supplement</description>
+    </column>
+    <column name="IHREZ" data_type="VARCHAR">
+      <description>Your Reference</description>
+    </column>
+    <column name="BNAME" data_type="VARCHAR">
+      <description>Name of orderer</description>
+    </column>
+    <column name="TELF1" data_type="VARCHAR">
+      <description>Telephone Number</description>
+    </column>
+    <column name="MAHZA" data_type="DECIMAL">
+      <description>Number of contacts from the customer</description>
+    </column>
+    <column name="MAHDT" data_type="DATE">
+      <description>Last customer contact date</description>
+    </column>
+    <column name="KUNNR" data_type="VARCHAR">
+      <description>Sold-To Party</description>
+    </column>
+    <column name="KOSTL" data_type="VARCHAR">
+      <description>Cost Center</description>
+    </column>
+    <column name="STAFO" data_type="VARCHAR">
+      <description>Update group for statistics update</description>
+    </column>
+    <column name="STWAE" data_type="VARCHAR">
+      <description>Statistics currency</description>
+    </column>
+    <column name="AEDAT" data_type="DATE">
+      <description>Last Changed On</description>
+    </column>
+    <column name="KVGR1" data_type="VARCHAR">
+      <description>Customer group 1</description>
+    </column>
+    <column name="KVGR2" data_type="VARCHAR">
+      <description>Customer group 2</description>
+    </column>
+    <column name="KVGR3" data_type="VARCHAR">
+      <description>Customer group 3</description>
+    </column>
+    <column name="KVGR4" data_type="VARCHAR">
+      <description>Customer group 4</description>
+    </column>
+    <column name="KVGR5" data_type="VARCHAR">
+      <description>Customer group 5</description>
+    </column>
+    <column name="KNUMA" data_type="VARCHAR">
+      <description>Agreement (various conditions grouped together)</description>
+    </column>
+    <column name="KOKRS" data_type="VARCHAR">
+      <description>Controlling Area</description>
+    </column>
+    <column name="PS_PSP_PNR" data_type="VARCHAR">
+      <description>Work Breakdown Structure Element (WBS Element)</description>
+    </column>
+    <column name="KURST" data_type="VARCHAR">
+      <description>Exchange Rate Type</description>
+    </column>
+    <column name="KKBER" data_type="VARCHAR">
+      <description>Credit Control Area</description>
+    </column>
+    <column name="KNKLI" data_type="VARCHAR">
+      <description>Customer's account number with credit limit reference</description>
+    </column>
+    <column name="GRUPP" data_type="VARCHAR">
+      <description>Customer Credit Group</description>
+    </column>
+    <column name="SBGRP" data_type="VARCHAR">
+      <description>Credit representative group for credit management</description>
+    </column>
+    <column name="CTLPC" data_type="VARCHAR">
+      <description>Credit management: Risk category</description>
+    </column>
+    <column name="CMWAE" data_type="VARCHAR">
+      <description>Currency key of credit control area</description>
+    </column>
+    <column name="CMFRE" data_type="DATE">
+      <description>Release date of the document determined by credit management</description>
+    </column>
+    <column name="CMNUP" data_type="DATE">
+      <description>Date of next credit check of document</description>
+    </column>
+    <column name="CMNGV" data_type="DATE">
+      <description>Next date</description>
+    </column>
+    <column name="AMTBL" data_type="DECIMAL">
+      <description>Released credit value of the document</description>
+    </column>
+    <column name="HITYP_PR" data_type="VARCHAR">
+      <description>Hierarchy type for pricing</description>
+    </column>
+    <column name="ABRVW" data_type="VARCHAR">
+      <description>Usage Indicator</description>
+    </column>
+    <column name="ABDIS" data_type="VARCHAR">
+      <description>MRP for delivery schedule types</description>
+    </column>
+    <column name="VGBEL" data_type="VARCHAR">
+      <description>Document Number of Reference Document</description>
+    </column>
+    <column name="OBJNR" data_type="VARCHAR">
+      <description>Object number at header level</description>
+    </column>
+    <column name="BUKRS_VF" data_type="VARCHAR">
+      <description>Company code to be billed</description>
+    </column>
+    <column name="TAXK1" data_type="VARCHAR">
+      <description>Alternative tax classification</description>
+    </column>
+    <column name="TAXK2" data_type="VARCHAR">
+      <description>Tax classification 2 for customer</description>
+    </column>
+    <column name="TAXK3" data_type="VARCHAR">
+      <description>Tax classification 3 for customer</description>
+    </column>
+    <column name="TAXK4" data_type="VARCHAR">
+      <description>Tax Classification 4 Customer</description>
+    </column>
+    <column name="TAXK5" data_type="VARCHAR">
+      <description>Tax classification 5 for customer</description>
+    </column>
+    <column name="TAXK6" data_type="VARCHAR">
+      <description>Tax classification 6 for customer</description>
+    </column>
+    <column name="TAXK7" data_type="VARCHAR">
+      <description>Tax classification 7 for customer</description>
+    </column>
+    <column name="TAXK8" data_type="VARCHAR">
+      <description>Tax classification 8 for customer</description>
+    </column>
+    <column name="TAXK9" data_type="VARCHAR">
+      <description>Tax classification 9 for customer</description>
+    </column>
+    <column name="XBLNR" data_type="VARCHAR">
+      <description>Reference Document Number</description>
+    </column>
+    <column name="ZUONR" data_type="VARCHAR">
+      <description>Assignment number</description>
+    </column>
+    <column name="VGTYP" data_type="VARCHAR">
+      <description>Document category of preceding SD document</description>
+    </column>
+    <column name="KALSM_CH" data_type="VARCHAR">
+      <description>Search procedure for batch determination</description>
+    </column>
+    <column name="AGRZR" data_type="VARCHAR">
+      <description>Accrual period for order-related billing docs.to be accrued</description>
+    </column>
+    <column name="AUFNR" data_type="VARCHAR">
+      <description>Order Number</description>
+    </column>
+    <column name="QMNUM" data_type="VARCHAR">
+      <description>Notification No</description>
+    </column>
+    <column name="VBELN_GRP" data_type="VARCHAR">
+      <description>Mster contract number</description>
+    </column>
+    <column name="SCHEME_GRP" data_type="VARCHAR">
+      <description>Referencing requirement: Procedure</description>
+    </column>
+    <column name="ABRUF_PART" data_type="VARCHAR">
+      <description>Check partner authorizations</description>
+    </column>
+    <column name="ABHOD" data_type="DATE">
+      <description>Pick up date</description>
+    </column>
+    <column name="ABHOV" data_type="TIME">
+      <description>Pick up time</description>
+    </column>
+    <column name="ABHOB" data_type="TIME">
+      <description>Pick up time</description>
+    </column>
+    <column name="RPLNR" data_type="VARCHAR">
+      <description>Number of payment card plan type</description>
+    </column>
+    <column name="VZEIT" data_type="TIME">
+      <description>Proposed schedule line time (local with ref. to sales org.)</description>
+    </column>
+    <column name="STCEG_L" data_type="VARCHAR">
+      <description>Tax Destination Country</description>
+    </column>
+    <column name="LANDTX" data_type="VARCHAR">
+      <description>Tax departure country</description>
+    </column>
+    <column name="XEGDR" data_type="VARCHAR">
+      <description>Indicator: Triangular deal within the EU ?</description>
+    </column>
+    <column name="ENQUEUE_GRP" data_type="VARCHAR">
+      <description>Block master contr. until all lower level contracts updated</description>
+    </column>
+    <column name="DAT_FZAU" data_type="DATE">
+      <description>Cml delivery order qty date</description>
+    </column>
+    <column name="FMBDAT" data_type="DATE">
+      <description>Material Availability Date</description>
+    </column>
+    <column name="VSNMR_V" data_type="VARCHAR">
+      <description>Sales document version number</description>
+    </column>
+    <column name="HANDLE" data_type="VARCHAR">
+      <description>International unique key for VBAK-VBELN</description>
+    </column>
+    <column name="PROLI" data_type="VARCHAR">
+      <description>Dangerous Goods Management Profile in SD Documents</description>
+    </column>
+    <column name="CONT_DG" data_type="VARCHAR">
+      <description>Indicator: Document contains dangerous goods</description>
+    </column>
+    <column name="CRM_GUID" data_type="VARCHAR">
+      <description>Character field, length 70</description>
+    </column>
+    <column name="UPD_TMSTMP" data_type="DECIMAL">
+      <description>UTC Time Stamp in Long Form (YYYYMMDDhhmmssmmmuuun)</description>
+    </column>
+    <column name="MSR_ID" data_type="VARCHAR">
+      <description>Process Identification Number</description>
+    </column>
+    <column name="TM_CTRL_KEY" data_type="VARCHAR">
+      <description>Control Key for Document Transfer to TM</description>
+    </column>
+    <column name="HANDOVERLOC" data_type="VARCHAR">
+      <description>Location for a physical handover of goods</description>
+    </column>
+    <column name="_DATAAGING" data_type="DATE">
+      <description>Data Filter Value for Data Aging</description>
+    </column>
+    <column name="GLO_LOG_REF1_HD" data_type="VARCHAR">
+      <description>Country Specific Reference 1 in the Document</description>
+    </column>
+    <column name="/XLSO/SO_VALD_FM" data_type="DATE">
+      <description>Field of type DATS</description>
+    </column>
+    <column name="/XLSO/SO_VALD_TO" data_type="DATE">
+      <description>Field of type DATS</description>
+    </column>
+    <column name="/XLSO/PAYMENT_OP" data_type="VARCHAR">
+      <description>Payment Method</description>
+    </column>
+    <column name="/XLSO/TRANS_CTXT" data_type="VARCHAR">
+      <description>Transaction Context GUID</description>
+    </column>
+    <column name="/XLSO/CATALOG_ID" data_type="VARCHAR">
+      <description>Product Catalog Number</description>
+    </column>
+    <column name="/XLSO/VARIANT_ID" data_type="VARCHAR">
+      <description>Product catalog variant</description>
+    </column>
+    <column name="PSM_BUDAT" data_type="DATE">
+      <description>Posting Date in the Document</description>
+    </column>
+    <column name="FSH_KVGR6" data_type="VARCHAR">
+      <description>Customer Group 6</description>
+    </column>
+    <column name="FSH_KVGR7" data_type="VARCHAR">
+      <description>Customer Group 7</description>
+    </column>
+    <column name="FSH_KVGR8" data_type="VARCHAR">
+      <description>Customer Group 8</description>
+    </column>
+    <column name="FSH_KVGR9" data_type="VARCHAR">
+      <description>Customer Group 9</description>
+    </column>
+    <column name="FSH_KVGR10" data_type="VARCHAR">
+      <description>Customer Group 10</description>
+    </column>
+    <column name="FSH_REREG" data_type="VARCHAR">
+      <description>Release Rule</description>
+    </column>
+    <column name="FSH_CQ_CHECK" data_type="VARCHAR">
+      <description>Requirement Relevance for Contract</description>
+    </column>
+    <column name="FSH_VRSN_STATUS" data_type="VARCHAR">
+      <description>Snapshot Status</description>
+    </column>
+    <column name="FSH_TRANSACTION" data_type="VARCHAR">
+      <description>Transaction Number</description>
+    </column>
+    <column name="FSH_VAS_CG" data_type="VARCHAR">
+      <description>Value-Added Services Customer Group</description>
+    </column>
+    <column name="FSH_CANDATE" data_type="DATE">
+      <description>Cancellation Date</description>
+    </column>
+    <column name="FSH_SS" data_type="VARCHAR">
+      <description>Order Scheduling Strategy</description>
+    </column>
+    <column name="FSH_OS_STG_CHANGE" data_type="VARCHAR">
+      <description>Order Scheduling Strategy specific fields change manually</description>
+    </column>
+    <column name="SWENR" data_type="VARCHAR">
+      <description>Business  Entity Number</description>
+    </column>
+    <column name="SMENR" data_type="VARCHAR">
+      <description>Number of Sales Unit</description>
+    </column>
+    <column name="PHASE" data_type="VARCHAR">
+      <description>Sales Phase</description>
+    </column>
+    <column name="MTLAUR" data_type="VARCHAR">
+      <description>Marker for Low Income Housing</description>
+    </column>
+    <column name="STAGE" data_type="INTEGER">
+      <description>Construction Stage</description>
+    </column>
+    <column name="HB_CONT_REASON" data_type="VARCHAR">
+      <description>Contingency  data</description>
+    </column>
+    <column name="HB_EXPDATE" data_type="DATE">
+      <description>Expiration date</description>
+    </column>
+    <column name="HB_RESDATE" data_type="DATE">
+      <description>Resolution date</description>
+    </column>
+    <column name="MILL_APPL_ID" data_type="VARCHAR">
+      <description>Application ID Category for Configuration</description>
+    </column>
+    <column name="TAS" data_type="VARCHAR">
+      <description>Treasury Account Symbol</description>
+    </column>
+    <column name="BETC" data_type="VARCHAR">
+      <description>Business Event Type Code</description>
+    </column>
+    <column name="MOD_ALLOW" data_type="VARCHAR">
+      <description>Modification Allowed</description>
+    </column>
+    <column name="CANCEL_ALLOW" data_type="VARCHAR">
+      <description>Cancellation Allowed</description>
+    </column>
+    <column name="PAY_METHOD" data_type="VARCHAR">
+      <description>List of Respected Payment Methods</description>
+    </column>
+    <column name="BPN" data_type="VARCHAR">
+      <description>Business Partner Number</description>
+    </column>
+    <column name="REP_FREQ" data_type="VARCHAR">
+      <description>Reporting Frequency</description>
+    </column>
+    <column name="LOGSYSB" data_type="VARCHAR">
+      <description>Logical system with which document was created</description>
+    </column>
+    <column name="KALCD" data_type="VARCHAR">
+      <description>Procedure for Campaign Determination</description>
+    </column>
+    <column name="MULTI" data_type="VARCHAR">
+      <description>Multiple Campaigns/Trade Promotions Active Indicator</description>
+    </column>
+    <column name="SPPAYM" data_type="VARCHAR">
+      <description>Payment Form for Special Payment Method</description>
+    </column>
+    <column name="WTYSC_CLM_HDR" data_type="VARCHAR">
+      <description>Claim header</description>
+    </column>
+  </columns>
+</data_description>

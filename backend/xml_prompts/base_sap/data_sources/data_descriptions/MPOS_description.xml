@@ -1,0 +1,222 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="MPOS">
+  <table_info name="MPOS" total_columns="72"/>
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="WAPOS" data_type="VARCHAR">
+      <description>Maintenance Item</description>
+    </column>
+    <column name="WARPL" data_type="VARCHAR">
+      <description>Maintenance Plan</description>
+    </column>
+    <column name="WSTRA" data_type="VARCHAR">
+      <description>Maintenance strategy</description>
+    </column>
+    <column name="WPPOS" data_type="VARCHAR">
+      <description>Item in the maintenance plan</description>
+    </column>
+    <column name="PSTXT" data_type="VARCHAR">
+      <description>Item Short Text</description>
+    </column>
+    <column name="EQUNR" data_type="VARCHAR">
+      <description>Equipment Number</description>
+    </column>
+    <column name="OBKNR" data_type="INTEGER">
+      <description>Object list number</description>
+    </column>
+    <column name="ERKNZ" data_type="VARCHAR">
+      <description>Creation indicator</description>
+    </column>
+    <column name="AEKNZ" data_type="VARCHAR">
+      <description>Change indicator</description>
+    </column>
+    <column name="ERNAM" data_type="VARCHAR">
+      <description>Name of Person Responsible for Creating the Object</description>
+    </column>
+    <column name="ERSDT" data_type="DATE">
+      <description>Date of creation</description>
+    </column>
+    <column name="AEDAT" data_type="DATE">
+      <description>Last Changed On</description>
+    </column>
+    <column name="AENAM" data_type="VARCHAR">
+      <description>Name of Person Who Changed Object</description>
+    </column>
+    <column name="PLNTY" data_type="VARCHAR">
+      <description>Task List Type</description>
+    </column>
+    <column name="PLNNR" data_type="VARCHAR">
+      <description>Key for Task List Group</description>
+    </column>
+    <column name="PLNAL" data_type="VARCHAR">
+      <description>Group Counter</description>
+    </column>
+    <column name="STATUS" data_type="VARCHAR">
+      <description>Maintenance Item Status</description>
+    </column>
+    <column name="LTKNZ" data_type="VARCHAR">
+      <description>Long Text Indicator</description>
+    </column>
+    <column name="WPGRP" data_type="VARCHAR">
+      <description>Planner Group for Customer Service and Plant Maintenance</description>
+    </column>
+    <column name="OBJTY" data_type="VARCHAR">
+      <description>Object types of the CIM resource</description>
+    </column>
+    <column name="GEWRK" data_type="VARCHAR">
+      <description>Object ID of the Work Center</description>
+    </column>
+    <column name="IWERK" data_type="VARCHAR">
+      <description>Maintenance Planning Plant</description>
+    </column>
+    <column name="LANGU" data_type="VARCHAR">
+      <description>Language key of the long text</description>
+    </column>
+    <column name="ILOAN" data_type="VARCHAR">
+      <description>Location and account assignment for technical object</description>
+    </column>
+    <column name="ILOAI" data_type="VARCHAR">
+      <description>ILOA Individual</description>
+    </column>
+    <column name="LAUFN" data_type="VARCHAR">
+      <description>Order number</description>
+    </column>
+    <column name="BAUTL" data_type="VARCHAR">
+      <description>Assembly</description>
+    </column>
+    <column name="ANLZU" data_type="VARCHAR">
+      <description>Syst.Condition</description>
+    </column>
+    <column name="AUART" data_type="VARCHAR">
+      <description>Order Type</description>
+    </column>
+    <column name="INACT" data_type="VARCHAR">
+      <description>Indicator that maintenance item is inactive</description>
+    </column>
+    <column name="ILART" data_type="VARCHAR">
+      <description>Maintenance activity type</description>
+    </column>
+    <column name="GSBER" data_type="VARCHAR">
+      <description>Business Area</description>
+    </column>
+    <column name="OBJNR" data_type="VARCHAR">
+      <description>Object number</description>
+    </column>
+    <column name="IND_ABRVO" data_type="VARCHAR">
+      <description>Indicator showing settlement rule maintained</description>
+    </column>
+    <column name="PSPEL" data_type="VARCHAR">
+      <description>Work Breakdown Structure Element (WBS Element)</description>
+    </column>
+    <column name="STD_NETZ" data_type="VARCHAR">
+      <description>Key for Task List Group</description>
+    </column>
+    <column name="STD_AVO" data_type="VARCHAR">
+      <description>Number of the task list node</description>
+    </column>
+    <column name="KDAUF" data_type="VARCHAR">
+      <description>Sales Document</description>
+    </column>
+    <column name="KDPOS" data_type="VARCHAR">
+      <description>Sales Document Item</description>
+    </column>
+    <column name="MITYP" data_type="VARCHAR">
+      <description>Maintenance item category</description>
+    </column>
+    <column name="BSTNR" data_type="VARCHAR">
+      <description>Purchase order number</description>
+    </column>
+    <column name="BSTPO" data_type="VARCHAR">
+      <description>Purchase order item number</description>
+    </column>
+    <column name="PACKNO" data_type="VARCHAR">
+      <description>Package number</description>
+    </column>
+    <column name="NETPR" data_type="DECIMAL">
+      <description>Net price</description>
+    </column>
+    <column name="WAERS" data_type="VARCHAR">
+      <description>Currency Key</description>
+    </column>
+    <column name="SAKTO" data_type="VARCHAR">
+      <description>Cost Element</description>
+    </column>
+    <column name="AUFNR" data_type="VARCHAR">
+      <description>Settlement order</description>
+    </column>
+    <column name="APFKT" data_type="DECIMAL">
+      <description>Execution factor for whole task list</description>
+    </column>
+    <column name="SCRRENTY" data_type="VARCHAR">
+      <description>SCREEN TYPE: for order-order category (see domain)</description>
+    </column>
+    <column name="SERIALNR" data_type="VARCHAR">
+      <description>Serial Number</description>
+    </column>
+    <column name="SERMAT" data_type="VARCHAR">
+      <description>Material Number</description>
+    </column>
+    <column name="DEVICEID" data_type="VARCHAR">
+      <description>Additional Device Data</description>
+    </column>
+    <column name="QMNUM" data_type="VARCHAR">
+      <description>Notification No</description>
+    </column>
+    <column name="QMART" data_type="VARCHAR">
+      <description>Notification Type</description>
+    </column>
+    <column name="LBLNI" data_type="VARCHAR">
+      <description>Entry Sheet Number</description>
+    </column>
+    <column name="TASK_DETERMINE" data_type="VARCHAR">
+      <description>Automatic task determination in the notification</description>
+    </column>
+    <column name="PRIOK" data_type="VARCHAR">
+      <description>Priority</description>
+    </column>
+    <column name="QMKAT" data_type="VARCHAR">
+      <description>Catalog Type - Coding</description>
+    </column>
+    <column name="QMGRP" data_type="VARCHAR">
+      <description>Code Group - Coding</description>
+    </column>
+    <column name="QMCOD" data_type="VARCHAR">
+      <description>Coding</description>
+    </column>
+    <column name="PHYNR" data_type="VARCHAR">
+      <description>Physical Sample Number</description>
+    </column>
+    <column name="ART" data_type="VARCHAR">
+      <description>Inspection Type</description>
+    </column>
+    <column name="PRUEFLOS" data_type="VARCHAR">
+      <description>Inspection Lot Number</description>
+    </column>
+    <column name="TSTMP_BW" data_type="DECIMAL">
+      <description>Time Stamp for BI Delta Extraction</description>
+    </column>
+    <column name="NO_AUFRELKZ" data_type="VARCHAR">
+      <description>Do Not Release Immediately</description>
+    </column>
+    <column name="DESNUM" data_type="VARCHAR">
+      <description>CU: Design Number</description>
+    </column>
+    <column name="CYCLESEQIND" data_type="VARCHAR">
+      <description>Cycle Set Sequence</description>
+    </column>
+    <column name="ADPSP" data_type="VARCHAR">
+      <description>Reference Element PM/PS</description>
+    </column>
+    <column name="IND_MPOS_API" data_type="VARCHAR">
+      <description>Maintenance Item Was Created/Changed by API</description>
+    </column>
+    <column name="RBNR" data_type="VARCHAR">
+      <description>Catalog Profile</description>
+    </column>
+    <column name="RBNRI" data_type="VARCHAR">
+      <description>Origin of catalog profile</description>
+    </column>
+  </columns>
+</data_description>

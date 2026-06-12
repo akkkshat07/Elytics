@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="T001B">
+  <table_info name="T001B" total_columns="19" />
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="RRCTY" data_type="VARCHAR">
+      <description>Record Type</description>
+    </column>
+    <column name="BUKRS" data_type="VARCHAR">
+      <description>Posting Period Variant</description>
+    </column>
+    <column name="MKOAR" data_type="VARCHAR">
+      <description>Account Type or Masking</description>
+    </column>
+    <column name="BKONT" data_type="VARCHAR">
+      <description>To Account</description>
+    </column>
+    <column name="VKONT" data_type="VARCHAR">
+      <description>From Account</description>
+    </column>
+    <column name="FRYE1" data_type="VARCHAR">
+      <description>Fiscal Year for First Period Allowed (in Interval 1)</description>
+    </column>
+    <column name="FRPE1" data_type="VARCHAR">
+      <description>First Posting Period Allowed (Time Frame 1)</description>
+    </column>
+    <column name="TOYE1" data_type="VARCHAR">
+      <description>Fiscal Year for Last Period Allowed (Period 1)</description>
+    </column>
+    <column name="TOPE1" data_type="VARCHAR">
+      <description>Last Posting Period Allowed (Time Frame 1)</description>
+    </column>
+    <column name="FRYE2" data_type="VARCHAR">
+      <description>Fiscal Year for First Period Allowed (Time Frame 2)</description>
+    </column>
+    <column name="FRPE2" data_type="VARCHAR">
+      <description>First Posting Period Allowed (Time Frame 2)</description>
+    </column>
+    <column name="TOYE2" data_type="VARCHAR">
+      <description>Fiscal Year for Last Period Allowed (Time Frame 2)</description>
+    </column>
+    <column name="TOPE2" data_type="VARCHAR">
+      <description>Last Posting Period Allowed (Time Frame 2)</description>
+    </column>
+    <column name="BRGRU" data_type="VARCHAR">
+      <description>Authorization Group</description>
+    </column>
+    <column name="FRYE3" data_type="VARCHAR">
+      <description>Fiscal Year of First Period Permitted (Interval 3)</description>
+    </column>
+    <column name="FRPE3" data_type="VARCHAR">
+      <description>First Posting Period Permitted (Time Frame 3)</description>
+    </column>
+    <column name="TOYE3" data_type="VARCHAR">
+      <description>Fiscal Year of Last Period Permitted (Interval 3)</description>
+    </column>
+    <column name="TOPE3" data_type="VARCHAR">
+      <description>Last Posting Period Permitted (Time Frame 3)</description>
+    </column>
+  </columns>
+</data_description>

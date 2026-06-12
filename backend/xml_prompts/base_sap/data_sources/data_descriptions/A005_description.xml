@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="A005">
+  <table_info name="A005" total_columns="10" />
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="KAPPL" data_type="VARCHAR">
+      <description>Application</description>
+    </column>
+    <column name="KSCHL" data_type="VARCHAR">
+      <description>Condition Type</description>
+    </column>
+    <column name="VKORG" data_type="VARCHAR">
+      <description>Sales Organization</description>
+    </column>
+    <column name="VTWEG" data_type="VARCHAR">
+      <description>Distribution Channel</description>
+    </column>
+    <column name="KUNNR" data_type="VARCHAR">
+      <description>Customer number</description>
+    </column>
+    <column name="MATNR" data_type="VARCHAR">
+      <description>Material Number</description>
+    </column>
+    <column name="DATBI" data_type="DATE">
+      <description>Validity end date of the condition record</description>
+    </column>
+    <column name="DATAB" data_type="DATE">
+      <description>Validity start date of the condition record</description>
+    </column>
+    <column name="KNUMH" data_type="VARCHAR">
+      <description>Condition record number</description>
+    </column>
+  </columns>
+</data_description>

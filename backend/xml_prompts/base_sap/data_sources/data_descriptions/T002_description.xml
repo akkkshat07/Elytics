@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="T002">
+  <table_info name="T002" total_columns="4" />
+  <columns>
+    <column name="SPRAS" data_type="VARCHAR">
+      <description>Language Key</description>
+    </column>
+    <column name="LASPEZ" data_type="VARCHAR">
+      <description>Language specifications</description>
+    </column>
+    <column name="LAHQ" data_type="VARCHAR">
+      <description>Degree of Translation of Language</description>
+    </column>
+    <column name="LAISO" data_type="VARCHAR">
+      <description>2-Character SAP Language Code</description>
+    </column>
+  </columns>
+</data_description>

@@ -1,0 +1,372 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="BKPF">
+  <table_info name="BKPF" total_columns="122"/>
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="BUKRS" data_type="VARCHAR">
+      <description>Company Code</description>
+    </column>
+    <column name="BELNR" data_type="VARCHAR">
+      <description>Document Number of an Accounting Document</description>
+    </column>
+    <column name="GJAHR" data_type="VARCHAR">
+      <description>Fiscal Year</description>
+    </column>
+    <column name="BLART" data_type="VARCHAR">
+      <description>Document Type</description>
+    </column>
+    <column name="BLDAT" data_type="DATE">
+      <description>Document Date in Document</description>
+    </column>
+    <column name="BUDAT" data_type="DATE">
+      <description>Posting Date in the Document</description>
+    </column>
+    <column name="MONAT" data_type="VARCHAR">
+      <description>Fiscal period</description>
+    </column>
+    <column name="CPUDT" data_type="DATE">
+      <description>Day On Which Accounting Document Was Entered</description>
+    </column>
+    <column name="CPUTM" data_type="TIME">
+      <description>Time of Entry</description>
+    </column>
+    <column name="AEDAT" data_type="DATE">
+      <description>Date of the Last Document Change by Transaction</description>
+    </column>
+    <column name="UPDDT" data_type="DATE">
+      <description>Date of the Last Document Update</description>
+    </column>
+    <column name="WWERT" data_type="DATE">
+      <description>Translation Date</description>
+    </column>
+    <column name="USNAM" data_type="VARCHAR">
+      <description>User Name</description>
+    </column>
+    <column name="TCODE" data_type="VARCHAR">
+      <description>Transaction Code</description>
+    </column>
+    <column name="BVORG" data_type="VARCHAR">
+      <description>Number of a Cross-Company Code Posting Transaction</description>
+    </column>
+    <column name="XBLNR" data_type="VARCHAR">
+      <description>Reference Document Number</description>
+    </column>
+    <column name="DBBLG" data_type="VARCHAR">
+      <description>Recurring Entry Document Number</description>
+    </column>
+    <column name="STBLG" data_type="VARCHAR">
+      <description>Reverse Document Number</description>
+    </column>
+    <column name="STJAH" data_type="VARCHAR">
+      <description>Reverse document fiscal year</description>
+    </column>
+    <column name="BKTXT" data_type="VARCHAR">
+      <description>Document Header Text</description>
+    </column>
+    <column name="WAERS" data_type="VARCHAR">
+      <description>Currency Key</description>
+    </column>
+    <column name="KURSF" data_type="DECIMAL">
+      <description>Exchange rate</description>
+    </column>
+    <column name="KZWRS" data_type="VARCHAR">
+      <description>Currency Key for the Group Currency</description>
+    </column>
+    <column name="KZKRS" data_type="DECIMAL">
+      <description>Group Currency Exchange Rate</description>
+    </column>
+    <column name="BSTAT" data_type="VARCHAR">
+      <description>Document Status</description>
+    </column>
+    <column name="XNETB" data_type="VARCHAR">
+      <description>Indicator: Document posted net ?</description>
+    </column>
+    <column name="FRATH" data_type="DECIMAL">
+      <description>Unplanned delivery costs</description>
+    </column>
+    <column name="XRUEB" data_type="VARCHAR">
+      <description>Indicator: Document is posted to a previous period</description>
+    </column>
+    <column name="GLVOR" data_type="VARCHAR">
+      <description>Business Transaction</description>
+    </column>
+    <column name="GRPID" data_type="VARCHAR">
+      <description>Batch Input Session Name</description>
+    </column>
+    <column name="DOKID" data_type="VARCHAR">
+      <description>Document Name in the Archive System</description>
+    </column>
+    <column name="ARCID" data_type="VARCHAR">
+      <description>Extract ID Document Header</description>
+    </column>
+    <column name="IBLAR" data_type="VARCHAR">
+      <description>Internal Document Type for Document Control</description>
+    </column>
+    <column name="AWTYP" data_type="VARCHAR">
+      <description>Reference procedure</description>
+    </column>
+    <column name="AWKEY" data_type="VARCHAR">
+      <description>Reference Key</description>
+    </column>
+    <column name="FIKRS" data_type="VARCHAR">
+      <description>Financial Management Area</description>
+    </column>
+    <column name="HWAER" data_type="VARCHAR">
+      <description>Local Currency</description>
+    </column>
+    <column name="HWAE2" data_type="VARCHAR">
+      <description>Currency Key of Second Local Currency</description>
+    </column>
+    <column name="HWAE3" data_type="VARCHAR">
+      <description>Currency Key of Third Local Currency</description>
+    </column>
+    <column name="KURS2" data_type="DECIMAL">
+      <description>Exchange Rate for the Second Local Currency</description>
+    </column>
+    <column name="KURS3" data_type="DECIMAL">
+      <description>Exchange Rate for the Third Local Currency</description>
+    </column>
+    <column name="BASW2" data_type="VARCHAR">
+      <description>Source Currency for Currency Translation</description>
+    </column>
+    <column name="BASW3" data_type="VARCHAR">
+      <description>Source Currency for Currency Translation</description>
+    </column>
+    <column name="UMRD2" data_type="VARCHAR">
+      <description>Translation Date Type for Second Local Currency</description>
+    </column>
+    <column name="UMRD3" data_type="VARCHAR">
+      <description>Translation Date Type for Third Local Currency</description>
+    </column>
+    <column name="XSTOV" data_type="VARCHAR">
+      <description>Indicator: Document is flagged for reversal</description>
+    </column>
+    <column name="STODT" data_type="DATE">
+      <description>Planned Date for the Reverse Posting</description>
+    </column>
+    <column name="XMWST" data_type="VARCHAR">
+      <description>Calculate tax automatically</description>
+    </column>
+    <column name="CURT2" data_type="VARCHAR">
+      <description>Currency Type of Second Local Currency</description>
+    </column>
+    <column name="CURT3" data_type="VARCHAR">
+      <description>Currency Type of Third Local Currency</description>
+    </column>
+    <column name="KUTY2" data_type="VARCHAR">
+      <description>Exchange Rate Type</description>
+    </column>
+    <column name="KUTY3" data_type="VARCHAR">
+      <description>Exchange Rate Type</description>
+    </column>
+    <column name="XSNET" data_type="VARCHAR">
+      <description>G/L account amounts entered exclude tax</description>
+    </column>
+    <column name="AUSBK" data_type="VARCHAR">
+      <description>Source Company Code</description>
+    </column>
+    <column name="XUSVR" data_type="VARCHAR">
+      <description>Enter VAT, Use Tax, Sales Tax on Detail Screen</description>
+    </column>
+    <column name="DUEFL" data_type="VARCHAR">
+      <description>Status of Data Transfer into Subsequent Release</description>
+    </column>
+    <column name="AWSYS" data_type="VARCHAR">
+      <description>Logical System</description>
+    </column>
+    <column name="TXKRS" data_type="DECIMAL">
+      <description>Exchange Rate for Taxes</description>
+    </column>
+    <column name="CTXKRS" data_type="DECIMAL">
+      <description>Rate for Tax Values in Local Currency (Plants Abroad)</description>
+    </column>
+    <column name="LOTKZ" data_type="VARCHAR">
+      <description>Lot Number for Requests</description>
+    </column>
+    <column name="XWVOF" data_type="VARCHAR">
+      <description>Indicator: Customer bill of exchange payment before due date</description>
+    </column>
+    <column name="STGRD" data_type="VARCHAR">
+      <description>Reason for Reversal or Inverse Posting</description>
+    </column>
+    <column name="PPNAM" data_type="VARCHAR">
+      <description>Name of User Who Parked this Document</description>
+    </column>
+    <column name="PPDAT" data_type="DATE">
+      <description>Day of Parking of Accounting Document</description>
+    </column>
+    <column name="PPTME" data_type="TIME">
+      <description>Time of Parking</description>
+    </column>
+    <column name="PPTCOD" data_type="VARCHAR">
+      <description>Parking Transaction</description>
+    </column>
+    <column name="BRNCH" data_type="VARCHAR">
+      <description>Branch Number</description>
+    </column>
+    <column name="NUMPG" data_type="VARCHAR">
+      <description>Number of pages of invoice</description>
+    </column>
+    <column name="ADISC" data_type="VARCHAR">
+      <description>Indicator: entry represents a discount document</description>
+    </column>
+    <column name="XREF1_HD" data_type="VARCHAR">
+      <description>Reference Key 1 Internal for Document Header</description>
+    </column>
+    <column name="XREF2_HD" data_type="VARCHAR">
+      <description>Reference Key 2 Internal for Document Header</description>
+    </column>
+    <column name="XREVERSAL" data_type="VARCHAR">
+      <description>Specifies whether doc. is reversal doc. or reversed doc.</description>
+    </column>
+    <column name="REINDAT" data_type="DATE">
+      <description>Invoice Receipt Date</description>
+    </column>
+    <column name="RLDNR" data_type="VARCHAR">
+      <description>Ledger in General Ledger Accounting</description>
+    </column>
+    <column name="LDGRP" data_type="VARCHAR">
+      <description>Ledger Group</description>
+    </column>
+    <column name="PROPMANO" data_type="VARCHAR">
+      <description>Real Estate Management Mandate</description>
+    </column>
+    <column name="XBLNR_ALT" data_type="VARCHAR">
+      <description>Alternative Reference Number</description>
+    </column>
+    <column name="VATDATE" data_type="DATE">
+      <description>Tax Reporting Date</description>
+    </column>
+    <column name="DOCCAT" data_type="VARCHAR">
+      <description>Classification of an FI Document</description>
+    </column>
+    <column name="XSPLIT" data_type="VARCHAR">
+      <description>FI Document Originates from Split Posting (Indicator)</description>
+    </column>
+    <column name="CASH_ALLOC" data_type="VARCHAR">
+      <description>Cash-Relevant Document</description>
+    </column>
+    <column name="FOLLOW_ON" data_type="VARCHAR">
+      <description>Follow-on document indicator</description>
+    </column>
+    <column name="XREORG" data_type="VARCHAR">
+      <description>Doc. Contains Open Item that Was Transferred During Reorg.</description>
+    </column>
+    <column name="SUBSET" data_type="VARCHAR">
+      <description>Defines subset of components for the FI/CO interface</description>
+    </column>
+    <column name="KURST" data_type="VARCHAR">
+      <description>Exchange Rate Type</description>
+    </column>
+    <column name="KURSX" data_type="DECIMAL">
+      <description>Market Data Exchange Rate</description>
+    </column>
+    <column name="KUR2X" data_type="DECIMAL">
+      <description>Market Data Exchange Rate 2</description>
+    </column>
+    <column name="KUR3X" data_type="DECIMAL">
+      <description>Market Data Exchange Rate 3</description>
+    </column>
+    <column name="XMCA" data_type="VARCHAR">
+      <description>Document Originates from Multi Currency Accounting</description>
+    </column>
+    <column name="RESUBMISSION" data_type="DATE">
+      <description>Date of Resubmission</description>
+    </column>
+    <column name="/SAPF15/STATUS" data_type="VARCHAR">
+      <description>Document Status</description>
+    </column>
+    <column name="PSOTY" data_type="VARCHAR">
+      <description>Document category payment requests</description>
+    </column>
+    <column name="PSOAK" data_type="VARCHAR">
+      <description>Reason</description>
+    </column>
+    <column name="PSOKS" data_type="VARCHAR">
+      <description>Region</description>
+    </column>
+    <column name="PSOSG" data_type="VARCHAR">
+      <description>Reason for reversal - IS-PS requests</description>
+    </column>
+    <column name="PSOFN" data_type="VARCHAR">
+      <description>IS-PS: File number</description>
+    </column>
+    <column name="INTFORM" data_type="VARCHAR">
+      <description>Interest Formula</description>
+    </column>
+    <column name="INTDATE" data_type="DATE">
+      <description>Interest Calc. Date</description>
+    </column>
+    <column name="PSOBT" data_type="DATE">
+      <description>Posting Day</description>
+    </column>
+    <column name="PSOZL" data_type="VARCHAR">
+      <description>Actual posting</description>
+    </column>
+    <column name="PSODT" data_type="DATE">
+      <description>Last Changed On</description>
+    </column>
+    <column name="PSOTM" data_type="TIME">
+      <description>Last changed at</description>
+    </column>
+    <column name="FM_UMART" data_type="VARCHAR">
+      <description>Type of Payment Transfer</description>
+    </column>
+    <column name="CCINS" data_type="VARCHAR">
+      <description>Payment cards: Card type</description>
+    </column>
+    <column name="CCNUM" data_type="VARCHAR">
+      <description>Payment Cards: Card Number</description>
+    </column>
+    <column name="SSBLK" data_type="VARCHAR">
+      <description>Payment Statistical Sampling Block</description>
+    </column>
+    <column name="BATCH" data_type="VARCHAR">
+      <description>Lot Number for Documents</description>
+    </column>
+    <column name="SNAME" data_type="VARCHAR">
+      <description>User Name</description>
+    </column>
+    <column name="SAMPLED" data_type="VARCHAR">
+      <description>Sampled Invoice by Payment Certification</description>
+    </column>
+    <column name="EXCLUDE_FLAG" data_type="VARCHAR">
+      <description>PPA Exclude Indicator</description>
+    </column>
+    <column name="BLIND" data_type="VARCHAR">
+      <description>Budgetary Ledger Indicator</description>
+    </column>
+    <column name="OFFSET_STATUS" data_type="VARCHAR">
+      <description>Treasury Offset Status</description>
+    </column>
+    <column name="OFFSET_REFER_DAT" data_type="DATE">
+      <description>Date Record Referred to Treasury</description>
+    </column>
+    <column name="PENRC" data_type="VARCHAR">
+      <description>Reason for Late Payment</description>
+    </column>
+    <column name="KNUMV" data_type="VARCHAR">
+      <description>Number of the document condition</description>
+    </column>
+    <column name="PYBASTYP" data_type="VARCHAR">
+      <description>Type of Payment Basis Document</description>
+    </column>
+    <column name="PYBASNO" data_type="VARCHAR">
+      <description>Payment Basis Document Number</description>
+    </column>
+    <column name="PYBASDAT" data_type="DATE">
+      <description>Payment Basis Document Date</description>
+    </column>
+    <column name="PYIBAN" data_type="VARCHAR">
+      <description>IBAN (International Bank Account Number)</description>
+    </column>
+    <column name="INWARDNO_HD" data_type="VARCHAR">
+      <description>Incoming Document Number</description>
+    </column>
+    <column name="INWARDDT_HD" data_type="DATE">
+      <description>Incoming Document Date</description>
+    </column>
+  </columns>
+</data_description>

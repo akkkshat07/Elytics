@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="MLGN">
+  <table_info name="MLGN" total_columns="26"/>
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="MATNR" data_type="VARCHAR">
+      <description>Material Number</description>
+    </column>
+    <column name="LGNUM" data_type="VARCHAR">
+      <description>Warehouse Number / Warehouse Complex</description>
+    </column>
+    <column name="LVORM" data_type="VARCHAR">
+      <description>Deletion flag for all material data of a warehouse number</description>
+    </column>
+    <column name="LGBKZ" data_type="VARCHAR">
+      <description>Storage Section Indicators</description>
+    </column>
+    <column name="LTKZE" data_type="VARCHAR">
+      <description>Storage type indicator for stock placement</description>
+    </column>
+    <column name="LTKZA" data_type="VARCHAR">
+      <description>Storage type indicator for stock removal</description>
+    </column>
+    <column name="LHMG1" data_type="DECIMAL">
+      <description>Loading equipment quantity 1</description>
+    </column>
+    <column name="LHMG2" data_type="DECIMAL">
+      <description>Loading equipment quantity 2</description>
+    </column>
+    <column name="LHMG3" data_type="DECIMAL">
+      <description>Loading equipment quantity 3</description>
+    </column>
+    <column name="LHME1" data_type="VARCHAR">
+      <description>Unit of measure for loading equipment quantity 1</description>
+    </column>
+    <column name="LHME2" data_type="VARCHAR">
+      <description>Unit of measure for loading equipment quantity 2</description>
+    </column>
+    <column name="LHME3" data_type="VARCHAR">
+      <description>Unit of measure for loading equipment quantity 3</description>
+    </column>
+    <column name="LETY1" data_type="VARCHAR">
+      <description>1st storage unit type</description>
+    </column>
+    <column name="LETY2" data_type="VARCHAR">
+      <description>2nd storage unit type</description>
+    </column>
+    <column name="LETY3" data_type="VARCHAR">
+      <description>3rd storage unit type</description>
+    </column>
+    <column name="LVSME" data_type="VARCHAR">
+      <description>Warehouse Management Unit of Measure</description>
+    </column>
+    <column name="KZZUL" data_type="VARCHAR">
+      <description>Indicator: Allow addition to existing stock</description>
+    </column>
+    <column name="BLOCK" data_type="VARCHAR">
+      <description>Bulk storage indicator</description>
+    </column>
+    <column name="KZMBF" data_type="VARCHAR">
+      <description>Indicator: Message to inventory management</description>
+    </column>
+    <column name="BSSKZ" data_type="VARCHAR">
+      <description>Special movement indicator for warehouse management</description>
+    </column>
+    <column name="MKAPV" data_type="DECIMAL">
+      <description>Capacity usage</description>
+    </column>
+    <column name="BEZME" data_type="VARCHAR">
+      <description>Unit of measure for capacity consumption</description>
+    </column>
+    <column name="PLKPT" data_type="VARCHAR">
+      <description>Picking storage type for rough-cut and detailed planning</description>
+    </column>
+    <column name="VOMEM" data_type="VARCHAR">
+      <description>Default for unit of measure from material master record</description>
+    </column>
+    <column name="L2SKR" data_type="VARCHAR">
+      <description>Material relevance for 2-step picking</description>
+    </column>
+  </columns>
+</data_description>

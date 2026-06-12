@@ -1,0 +1,195 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="GLT0">
+  <table_info name="GLT0" total_columns="63" />
+  <columns>
+    <column name="RCLNT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="RLDNR" data_type="VARCHAR">
+      <description>Ledger</description>
+    </column>
+    <column name="RRCTY" data_type="VARCHAR">
+      <description>Record Type</description>
+    </column>
+    <column name="RVERS" data_type="VARCHAR">
+      <description>Version</description>
+    </column>
+    <column name="BUKRS" data_type="VARCHAR">
+      <description>Company Code</description>
+    </column>
+    <column name="RYEAR" data_type="VARCHAR">
+      <description>Fiscal Year</description>
+    </column>
+    <column name="RACCT" data_type="VARCHAR">
+      <description>Account Number</description>
+    </column>
+    <column name="RBUSA" data_type="VARCHAR">
+      <description>Business Area</description>
+    </column>
+    <column name="RTCUR" data_type="VARCHAR">
+      <description>Currency Key</description>
+    </column>
+    <column name="DRCRK" data_type="VARCHAR">
+      <description>Debit/Credit Indicator</description>
+    </column>
+    <column name="RPMAX" data_type="VARCHAR">
+      <description>Period</description>
+    </column>
+    <column name="TSLVT" data_type="DECIMAL">
+      <description>Balance carried forward in transaction currency</description>
+    </column>
+    <column name="TSL01" data_type="DECIMAL">
+      <description>Total transactions of the period in transaction currency</description>
+    </column>
+    <column name="TSL02" data_type="DECIMAL">
+      <description>Total transactions of the period in transaction currency</description>
+    </column>
+    <column name="TSL03" data_type="DECIMAL">
+      <description>Total transactions of the period in transaction currency</description>
+    </column>
+    <column name="TSL04" data_type="DECIMAL">
+      <description>Total transactions of the period in transaction currency</description>
+    </column>
+    <column name="TSL05" data_type="DECIMAL">
+      <description>Total transactions of the period in transaction currency</description>
+    </column>
+    <column name="TSL06" data_type="DECIMAL">
+      <description>Total transactions of the period in transaction currency</description>
+    </column>
+    <column name="TSL07" data_type="DECIMAL">
+      <description>Total transactions of the period in transaction currency</description>
+    </column>
+    <column name="TSL08" data_type="DECIMAL">
+      <description>Total transactions of the period in transaction currency</description>
+    </column>
+    <column name="TSL09" data_type="DECIMAL">
+      <description>Total transactions of the period in transaction currency</description>
+    </column>
+    <column name="TSL10" data_type="DECIMAL">
+      <description>Total transactions of the period in transaction currency</description>
+    </column>
+    <column name="TSL11" data_type="DECIMAL">
+      <description>Total transactions of the period in transaction currency</description>
+    </column>
+    <column name="TSL12" data_type="DECIMAL">
+      <description>Total transactions of the period in transaction currency</description>
+    </column>
+    <column name="TSL13" data_type="DECIMAL">
+      <description>Total transactions of the period in transaction currency</description>
+    </column>
+    <column name="TSL14" data_type="DECIMAL">
+      <description>Total transactions of the period in transaction currency</description>
+    </column>
+    <column name="TSL15" data_type="DECIMAL">
+      <description>Total transactions of the period in transaction currency</description>
+    </column>
+    <column name="TSL16" data_type="DECIMAL">
+      <description>Total transactions of the period in transaction currency</description>
+    </column>
+    <column name="HSLVT" data_type="DECIMAL">
+      <description>Balance carried forward in local currency (currency 2)</description>
+    </column>
+    <column name="HSL01" data_type="DECIMAL">
+      <description>Total transactions in the period in local currency (curr 2)</description>
+    </column>
+    <column name="HSL02" data_type="DECIMAL">
+      <description>Total transactions in the period in local currency (curr 2)</description>
+    </column>
+    <column name="HSL03" data_type="DECIMAL">
+      <description>Total transactions in the period in local currency (curr 2)</description>
+    </column>
+    <column name="HSL04" data_type="DECIMAL">
+      <description>Total transactions in the period in local currency (curr 2)</description>
+    </column>
+    <column name="HSL05" data_type="DECIMAL">
+      <description>Total transactions in the period in local currency (curr 2)</description>
+    </column>
+    <column name="HSL06" data_type="DECIMAL">
+      <description>Total transactions in the period in local currency (curr 2)</description>
+    </column>
+    <column name="HSL07" data_type="DECIMAL">
+      <description>Total transactions in the period in local currency (curr 2)</description>
+    </column>
+    <column name="HSL08" data_type="DECIMAL">
+      <description>Total transactions in the period in local currency (curr 2)</description>
+    </column>
+    <column name="HSL09" data_type="DECIMAL">
+      <description>Total transactions in the period in local currency (curr 2)</description>
+    </column>
+    <column name="HSL10" data_type="DECIMAL">
+      <description>Total transactions in the period in local currency (curr 2)</description>
+    </column>
+    <column name="HSL11" data_type="DECIMAL">
+      <description>Total transactions in the period in local currency (curr 2)</description>
+    </column>
+    <column name="HSL12" data_type="DECIMAL">
+      <description>Total transactions in the period in local currency (curr 2)</description>
+    </column>
+    <column name="HSL13" data_type="DECIMAL">
+      <description>Total transactions in the period in local currency (curr 2)</description>
+    </column>
+    <column name="HSL14" data_type="DECIMAL">
+      <description>Total transactions in the period in local currency (curr 2)</description>
+    </column>
+    <column name="HSL15" data_type="DECIMAL">
+      <description>Total transactions in the period in local currency (curr 2)</description>
+    </column>
+    <column name="HSL16" data_type="DECIMAL">
+      <description>Total transactions in the period in local currency (curr 2)</description>
+    </column>
+    <column name="CSPRED" data_type="VARCHAR">
+      <description>Distribution key for currency amounts</description>
+    </column>
+    <column name="KSLVT" data_type="DECIMAL">
+      <description>Balance carried forward in group currency (currency 3)</description>
+    </column>
+    <column name="KSL01" data_type="DECIMAL">
+      <description>Total transactions in the period in group currency (curr 3)</description>
+    </column>
+    <column name="KSL02" data_type="DECIMAL">
+      <description>Total transactions in the period in group currency (curr 3)</description>
+    </column>
+    <column name="KSL03" data_type="DECIMAL">
+      <description>Total transactions in the period in group currency (curr 3)</description>
+    </column>
+    <column name="KSL04" data_type="DECIMAL">
+      <description>Total transactions in the period in group currency (curr 3)</description>
+    </column>
+    <column name="KSL05" data_type="DECIMAL">
+      <description>Total transactions in the period in group currency (curr 3)</description>
+    </column>
+    <column name="KSL06" data_type="DECIMAL">
+      <description>Total transactions in the period in group currency (curr 3)</description>
+    </column>
+    <column name="KSL07" data_type="DECIMAL">
+      <description>Total transactions in the period in group currency (curr 3)</description>
+    </column>
+    <column name="KSL08" data_type="DECIMAL">
+      <description>Total transactions in the period in group currency (curr 3)</description>
+    </column>
+    <column name="KSL09" data_type="DECIMAL">
+      <description>Total transactions in the period in group currency (curr 3)</description>
+    </column>
+    <column name="KSL10" data_type="DECIMAL">
+      <description>Total transactions in the period in group currency (curr 3)</description>
+    </column>
+    <column name="KSL11" data_type="DECIMAL">
+      <description>Total transactions in the period in group currency (curr 3)</description>
+    </column>
+    <column name="KSL12" data_type="DECIMAL">
+      <description>Total transactions in the period in group currency (curr 3)</description>
+    </column>
+    <column name="KSL13" data_type="DECIMAL">
+      <description>Total transactions in the period in group currency (curr 3)</description>
+    </column>
+    <column name="KSL14" data_type="DECIMAL">
+      <description>Total transactions in the period in group currency (curr 3)</description>
+    </column>
+    <column name="KSL15" data_type="DECIMAL">
+      <description>Total transactions in the period in group currency (curr 3)</description>
+    </column>
+    <column name="KSL16" data_type="DECIMAL">
+      <description>Total transactions in the period in group currency (curr 3)</description>
+    </column>
+  </columns>
+</data_description>

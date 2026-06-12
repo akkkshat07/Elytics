@@ -1,0 +1,210 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="MVKE">
+  <table_info name="MVKE" total_columns="68"/>
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="MATNR" data_type="VARCHAR">
+      <description>Material Number</description>
+    </column>
+    <column name="VKORG" data_type="VARCHAR">
+      <description>Sales Organization</description>
+    </column>
+    <column name="VTWEG" data_type="VARCHAR">
+      <description>Distribution Channel</description>
+    </column>
+    <column name="LVORM" data_type="VARCHAR">
+      <description>Ind.: Flag material for deletion at distribution chain level</description>
+    </column>
+    <column name="VERSG" data_type="VARCHAR">
+      <description>Material statistics group</description>
+    </column>
+    <column name="BONUS" data_type="VARCHAR">
+      <description>Volume rebate group</description>
+    </column>
+    <column name="PROVG" data_type="VARCHAR">
+      <description>Commission group</description>
+    </column>
+    <column name="SKTOF" data_type="VARCHAR">
+      <description>Cash discount indicator</description>
+    </column>
+    <column name="VMSTA" data_type="VARCHAR">
+      <description>Distribution-chain-specific material status</description>
+    </column>
+    <column name="VMSTD" data_type="DATE">
+      <description>Date from which distr.-chain-spec. material status is valid</description>
+    </column>
+    <column name="AUMNG" data_type="DECIMAL">
+      <description>Minimum order quantity in base unit of measure</description>
+    </column>
+    <column name="LFMNG" data_type="DECIMAL">
+      <description>Minimum delivery quantity in delivery note processing</description>
+    </column>
+    <column name="EFMNG" data_type="DECIMAL">
+      <description>Minimum make-to-order quantity</description>
+    </column>
+    <column name="SCMNG" data_type="DECIMAL">
+      <description>Delivery unit</description>
+    </column>
+    <column name="SCHME" data_type="VARCHAR">
+      <description>Unit of measure of delivery unit</description>
+    </column>
+    <column name="VRKME" data_type="VARCHAR">
+      <description>Sales Unit</description>
+    </column>
+    <column name="MTPOS" data_type="VARCHAR">
+      <description>Item category group from material master</description>
+    </column>
+    <column name="DWERK" data_type="VARCHAR">
+      <description>Delivering Plant (Own or External)</description>
+    </column>
+    <column name="PRODH" data_type="VARCHAR">
+      <description>Product Hierarchy</description>
+    </column>
+    <column name="PMATN" data_type="VARCHAR">
+      <description>Pricing Reference Material</description>
+    </column>
+    <column name="KONDM" data_type="VARCHAR">
+      <description>Material Pricing Group</description>
+    </column>
+    <column name="KTGRM" data_type="VARCHAR">
+      <description>Account assignment group for this material</description>
+    </column>
+    <column name="MVGR1" data_type="VARCHAR">
+      <description>Material group 1</description>
+    </column>
+    <column name="MVGR2" data_type="VARCHAR">
+      <description>Material group 2</description>
+    </column>
+    <column name="MVGR3" data_type="VARCHAR">
+      <description>Material group 3</description>
+    </column>
+    <column name="MVGR4" data_type="VARCHAR">
+      <description>Material group 4</description>
+    </column>
+    <column name="MVGR5" data_type="VARCHAR">
+      <description>Material group 5</description>
+    </column>
+    <column name="SSTUF" data_type="VARCHAR">
+      <description>Assortment grade</description>
+    </column>
+    <column name="PFLKS" data_type="VARCHAR">
+      <description>External assortment priority</description>
+    </column>
+    <column name="LSTFL" data_type="VARCHAR">
+      <description>Listing procedure for store or other assortment categories</description>
+    </column>
+    <column name="LSTVZ" data_type="VARCHAR">
+      <description>Listing procedure for distr. center assortment categories</description>
+    </column>
+    <column name="LSTAK" data_type="VARCHAR">
+      <description>Listing functions (assortments) are active</description>
+    </column>
+    <column name="LDVFL" data_type="DATE">
+      <description>Date from which listed in the store</description>
+    </column>
+    <column name="LDBFL" data_type="DATE">
+      <description>Date to which listed in the store</description>
+    </column>
+    <column name="LDVZL" data_type="DATE">
+      <description>Date from which listed in the distribution center</description>
+    </column>
+    <column name="LDBZL" data_type="DATE">
+      <description>Date to which listed in the central warehouse/distr. center</description>
+    </column>
+    <column name="VDVFL" data_type="DATE">
+      <description>Date from which sold in the store</description>
+    </column>
+    <column name="VDBFL" data_type="DATE">
+      <description>Date to which sold in the store</description>
+    </column>
+    <column name="VDVZL" data_type="DATE">
+      <description>Date from which sold in the distribution center</description>
+    </column>
+    <column name="VDBZL" data_type="DATE">
+      <description>Date to which sold in the distribution center</description>
+    </column>
+    <column name="PRAT1" data_type="VARCHAR">
+      <description>ID for product attribute 1</description>
+    </column>
+    <column name="PRAT2" data_type="VARCHAR">
+      <description>ID for product attribute 2</description>
+    </column>
+    <column name="PRAT3" data_type="VARCHAR">
+      <description>ID for product attribute 3</description>
+    </column>
+    <column name="PRAT4" data_type="VARCHAR">
+      <description>ID for product attribute 4</description>
+    </column>
+    <column name="PRAT5" data_type="VARCHAR">
+      <description>ID for product attribute 5</description>
+    </column>
+    <column name="PRAT6" data_type="VARCHAR">
+      <description>ID for product attribute 6</description>
+    </column>
+    <column name="PRAT7" data_type="VARCHAR">
+      <description>ID for product attribute 7</description>
+    </column>
+    <column name="PRAT8" data_type="VARCHAR">
+      <description>ID for product attribute 8</description>
+    </column>
+    <column name="PRAT9" data_type="VARCHAR">
+      <description>ID for product attribute 9</description>
+    </column>
+    <column name="PRATA" data_type="VARCHAR">
+      <description>ID for product attribute 10</description>
+    </column>
+    <column name="RDPRF" data_type="VARCHAR">
+      <description>Rounding Profile</description>
+    </column>
+    <column name="MEGRU" data_type="VARCHAR">
+      <description>Unit of Measure Group</description>
+    </column>
+    <column name="LFMAX" data_type="DECIMAL">
+      <description>Maximum delivery quantity in store order processing</description>
+    </column>
+    <column name="RJART" data_type="VARCHAR">
+      <description>Flag rackjobber material</description>
+    </column>
+    <column name="PBIND" data_type="VARCHAR">
+      <description>Indicator for price fixing</description>
+    </column>
+    <column name="VAVME" data_type="VARCHAR">
+      <description>Variable Sales Unit Not Allowed</description>
+    </column>
+    <column name="MATKC" data_type="VARCHAR">
+      <description>Competition characterization of a material</description>
+    </column>
+    <column name="PVMSO" data_type="VARCHAR">
+      <description>Material sorting in product proposal</description>
+    </column>
+    <column name="/BEV1/EMLGRP" data_type="VARCHAR">
+      <description>Empties Group</description>
+    </column>
+    <column name="/BEV1/EMDRCKSPL" data_type="VARCHAR">
+      <description>Print Column Empties Returns Block</description>
+    </column>
+    <column name="/BEV1/RPBEZME" data_type="VARCHAR">
+      <description>Base Unit of Measure for Statistics Totals List/Planning</description>
+    </column>
+    <column name="/BEV1/RPSNS" data_type="VARCHAR">
+      <description>No Allocation to Totals Field (Do not Total)</description>
+    </column>
+    <column name="/BEV1/RPSFA" data_type="VARCHAR">
+      <description>Assignment to Totals Field Category 1</description>
+    </column>
+    <column name="/BEV1/RPSKI" data_type="VARCHAR">
+      <description>Assignment to Totals Field Category 2</description>
+    </column>
+    <column name="/BEV1/RPSCO" data_type="VARCHAR">
+      <description>Assignment to Totals Field Category 3</description>
+    </column>
+    <column name="/BEV1/RPSSO" data_type="VARCHAR">
+      <description>Assignment to Totals Field Category 4</description>
+    </column>
+    <column name="PLGTP" data_type="VARCHAR">
+      <description>Price Band Category</description>
+    </column>
+  </columns>
+</data_description>

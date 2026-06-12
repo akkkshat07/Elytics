@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="T001T">
+  <table_info name="T001T" total_columns="4" />
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="BUKRS" data_type="VARCHAR">
+      <description>Company Code</description>
+    </column>
+    <column name="TXTNA" data_type="VARCHAR">
+      <description>Name of the Standard Text</description>
+    </column>
+    <column name="LTEXT" data_type="VARCHAR">
+      <description>Text Usage (in Company Code Language)</description>
+    </column>
+  </columns>
+</data_description>

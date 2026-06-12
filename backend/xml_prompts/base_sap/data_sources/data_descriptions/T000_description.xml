@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="T000">
+  <table_info name="T000" total_columns="17" />
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="MTEXT" data_type="VARCHAR">
+      <description>Client name</description>
+    </column>
+    <column name="ORT01" data_type="VARCHAR">
+      <description>City</description>
+    </column>
+    <column name="MWAER" data_type="VARCHAR">
+      <description>Standard Currency in Client</description>
+    </column>
+    <column name="ADRNR" data_type="VARCHAR">
+      <description>Character Field Length = 10</description>
+    </column>
+    <column name="CCCATEGORY" data_type="VARCHAR">
+      <description>Client control: Role of client (production, test,...)</description>
+    </column>
+    <column name="CCCORACTIV" data_type="VARCHAR">
+      <description>Changes and transports for client-specific objects</description>
+    </column>
+    <column name="CCNOCLIIND" data_type="VARCHAR">
+      <description>Maintenance authorization for objects in all clients</description>
+    </column>
+    <column name="CCCOPYLOCK" data_type="VARCHAR">
+      <description>Protection reg. client copy program and comparison tools</description>
+    </column>
+    <column name="CCNOCASCAD" data_type="VARCHAR">
+      <description>Client control: No client cascade for upgrade import</description>
+    </column>
+    <column name="CCSOFTLOCK" data_type="VARCHAR">
+      <description>Client control: Soft Lock Required (Planned for 4.0)</description>
+    </column>
+    <column name="CCORIGCONT" data_type="VARCHAR">
+      <description>Recording Client for Switch BC Sets</description>
+    </column>
+    <column name="CCIMAILDIS" data_type="VARCHAR">
+      <description>Client Control: CATT and eCATT Authorization</description>
+    </column>
+    <column name="CCTEMPLOCK" data_type="VARCHAR">
+      <description>Client control: Indicator that client is temporarily locked</description>
+    </column>
+    <column name="CHANGEUSER" data_type="VARCHAR">
+      <description>Last Changed by</description>
+    </column>
+    <column name="CHANGEDATE" data_type="DATE">
+      <description>Last Changed On</description>
+    </column>
+    <column name="LOGSYS" data_type="VARCHAR">
+      <description>Logical System</description>
+    </column>
+  </columns>
+</data_description>

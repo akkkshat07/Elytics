@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="VBUV">
+  <table_info name="VBUV" total_columns="10" />
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="VBELN" data_type="VARCHAR">
+      <description>Sales and Distribution Document Number</description>
+    </column>
+    <column name="POSNR" data_type="VARCHAR">
+      <description>Item number of the SD document</description>
+    </column>
+    <column name="ETENR" data_type="VARCHAR">
+      <description>Schedule Line Number</description>
+    </column>
+    <column name="PARVW" data_type="VARCHAR">
+      <description>Partner Function</description>
+    </column>
+    <column name="TDID" data_type="VARCHAR">
+      <description>Text ID</description>
+    </column>
+    <column name="TBNAM" data_type="VARCHAR">
+      <description>Table for documents in sales and distribution</description>
+    </column>
+    <column name="FDNAM" data_type="VARCHAR">
+      <description>Document field name</description>
+    </column>
+    <column name="FEHGR" data_type="VARCHAR">
+      <description>Incompletion procedure for sales document</description>
+    </column>
+    <column name="STATG" data_type="VARCHAR">
+      <description>Status group</description>
+    </column>
+  </columns>
+</data_description>

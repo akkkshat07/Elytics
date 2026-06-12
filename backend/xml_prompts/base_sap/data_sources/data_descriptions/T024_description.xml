@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="T024">
+  <table_info name="T024" total_columns="9" />
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="EKGRP" data_type="VARCHAR">
+      <description>Purchasing Group</description>
+    </column>
+    <column name="EKNAM" data_type="VARCHAR">
+      <description>Description of purchasing group</description>
+    </column>
+    <column name="EKTEL" data_type="VARCHAR">
+      <description>Telephone number of purchasing group (buyer group)</description>
+    </column>
+    <column name="LDEST" data_type="VARCHAR">
+      <description>Spool: Output device</description>
+    </column>
+    <column name="TELFX" data_type="VARCHAR">
+      <description>Fax number of purchasing (buyer) group</description>
+    </column>
+    <column name="TEL_NUMBER" data_type="VARCHAR">
+      <description>Telephone No.: Dialing Code and Number</description>
+    </column>
+    <column name="TEL_EXTENS" data_type="VARCHAR">
+      <description>Telephone no.: Extension</description>
+    </column>
+    <column name="SMTP_ADDR" data_type="VARCHAR">
+      <description>E-Mail Address</description>
+    </column>
+  </columns>
+</data_description>

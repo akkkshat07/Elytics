@@ -1,0 +1,438 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="AFRU">
+  <table_info name="AFRU" total_columns="144"/>
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="RUECK" data_type="VARCHAR">
+      <description>Completion confirmation number for the operation</description>
+    </column>
+    <column name="RMZHL" data_type="VARCHAR">
+      <description>Confirmation counter</description>
+    </column>
+    <column name="ERSDA" data_type="DATE">
+      <description>Entry Date of Confirmation</description>
+    </column>
+    <column name="ERNAM" data_type="VARCHAR">
+      <description>Name of Person who Entered the Confirmation</description>
+    </column>
+    <column name="LAEDA" data_type="DATE">
+      <description>Date of Last Change</description>
+    </column>
+    <column name="AENAM" data_type="VARCHAR">
+      <description>Name of Person Who Changed Object</description>
+    </column>
+    <column name="BUDAT" data_type="DATE">
+      <description>Posting Date</description>
+    </column>
+    <column name="ARBID" data_type="VARCHAR">
+      <description>Object ID</description>
+    </column>
+    <column name="WERKS" data_type="VARCHAR">
+      <description>Plant</description>
+    </column>
+    <column name="LTXA1" data_type="VARCHAR">
+      <description>Confirmation text</description>
+    </column>
+    <column name="TXTSP" data_type="VARCHAR">
+      <description>Language Key</description>
+    </column>
+    <column name="ISERH" data_type="DECIMAL">
+      <description>Confirmed break time</description>
+    </column>
+    <column name="ZEIER" data_type="VARCHAR">
+      <description>Unit for Break Time</description>
+    </column>
+    <column name="ILE01" data_type="VARCHAR">
+      <description>Unit of measure for the activity to be confirmed</description>
+    </column>
+    <column name="ISM01" data_type="DECIMAL">
+      <description>Activity Currently to be Confirmed</description>
+    </column>
+    <column name="ILE02" data_type="VARCHAR">
+      <description>Unit of measure for the activity to be confirmed</description>
+    </column>
+    <column name="ISM02" data_type="DECIMAL">
+      <description>Activity Currently to be Confirmed</description>
+    </column>
+    <column name="ILE03" data_type="VARCHAR">
+      <description>Unit of measure for the activity to be confirmed</description>
+    </column>
+    <column name="ISM03" data_type="DECIMAL">
+      <description>Activity Currently to be Confirmed</description>
+    </column>
+    <column name="ILE04" data_type="VARCHAR">
+      <description>Unit of measure for the activity to be confirmed</description>
+    </column>
+    <column name="ISM04" data_type="DECIMAL">
+      <description>Activity Currently to be Confirmed</description>
+    </column>
+    <column name="ILE05" data_type="VARCHAR">
+      <description>Unit of measure for the activity to be confirmed</description>
+    </column>
+    <column name="ISM05" data_type="DECIMAL">
+      <description>Activity Currently to be Confirmed</description>
+    </column>
+    <column name="ILE06" data_type="VARCHAR">
+      <description>Unit of measure for the activity to be confirmed</description>
+    </column>
+    <column name="ISM06" data_type="DECIMAL">
+      <description>Activity Currently to be Confirmed</description>
+    </column>
+    <column name="ABARB" data_type="VARCHAR">
+      <description>Confirmation: Degree of processing</description>
+    </column>
+    <column name="ISMNW" data_type="DECIMAL">
+      <description>Actual work</description>
+    </column>
+    <column name="ISMNE" data_type="VARCHAR">
+      <description>Unit for work</description>
+    </column>
+    <column name="LEARR" data_type="VARCHAR">
+      <description>Activity Type for Confirmation</description>
+    </column>
+    <column name="IDAUR" data_type="DECIMAL">
+      <description>Actual Duration for Confirmation</description>
+    </column>
+    <column name="IDAUE" data_type="VARCHAR">
+      <description>Unit for actual duration</description>
+    </column>
+    <column name="ZCODE" data_type="VARCHAR">
+      <description>Reference number for standard value code</description>
+    </column>
+    <column name="LOART" data_type="VARCHAR">
+      <description>Wage type</description>
+    </column>
+    <column name="QUALF" data_type="VARCHAR">
+      <description>Suitability</description>
+    </column>
+    <column name="ANZMA" data_type="DECIMAL">
+      <description>Number of employees</description>
+    </column>
+    <column name="LOGRP" data_type="VARCHAR">
+      <description>Wage Group</description>
+    </column>
+    <column name="GMNGA" data_type="DECIMAL">
+      <description>Previously confirmed yield in order unit of measure</description>
+    </column>
+    <column name="LMNGA" data_type="DECIMAL">
+      <description>Yield to Be Confirmed</description>
+    </column>
+    <column name="XMNGA" data_type="DECIMAL">
+      <description>Scrap to Be Confirmed</description>
+    </column>
+    <column name="GMEIN" data_type="VARCHAR">
+      <description>Base Unit of Measure</description>
+    </column>
+    <column name="MEINH" data_type="VARCHAR">
+      <description>Confirmation unit of measure</description>
+    </column>
+    <column name="GRUND" data_type="VARCHAR">
+      <description>Reason for Variance</description>
+    </column>
+    <column name="PERNR" data_type="VARCHAR">
+      <description>Personnel number</description>
+    </column>
+    <column name="ISDD" data_type="DATE">
+      <description>Confirmed Start Date of Execution</description>
+    </column>
+    <column name="ISDZ" data_type="TIME">
+      <description>Confirmed Time for 'Start Execution'</description>
+    </column>
+    <column name="IERD" data_type="DATE">
+      <description>Confirmed date for 'Setup finish'</description>
+    </column>
+    <column name="IERZ" data_type="TIME">
+      <description>Confirmed time for 'Setup finish'</description>
+    </column>
+    <column name="ISBD" data_type="DATE">
+      <description>Confirmed date for 'Processing start'</description>
+    </column>
+    <column name="ISBZ" data_type="TIME">
+      <description>Confirmed time for 'Processing start'</description>
+    </column>
+    <column name="IEBD" data_type="DATE">
+      <description>Confirmed date for 'processing finish'</description>
+    </column>
+    <column name="IEBZ" data_type="TIME">
+      <description>Confirmed time for 'processing finish'</description>
+    </column>
+    <column name="ISAD" data_type="DATE">
+      <description>Confirmed date for 'teardown start'</description>
+    </column>
+    <column name="ISAZ" data_type="TIME">
+      <description>Confirmed time for 'teardown start'</description>
+    </column>
+    <column name="IEDD" data_type="DATE">
+      <description>Confirmed Finish Date of Execution</description>
+    </column>
+    <column name="IEDZ" data_type="TIME">
+      <description>Confirmed Time for 'Finish Execution'</description>
+    </column>
+    <column name="PEDD" data_type="DATE">
+      <description>Forecast finish date of operation from confirmation</description>
+    </column>
+    <column name="PEDZ" data_type="TIME">
+      <description>Forecast End Time of Operation from Confirmation</description>
+    </column>
+    <column name="WABLNR" data_type="VARCHAR">
+      <description>Number of Material Document</description>
+    </column>
+    <column name="WEBLNR" data_type="VARCHAR">
+      <description>Number of a document from a goods movement with errors</description>
+    </column>
+    <column name="AUERU" data_type="VARCHAR">
+      <description>Partial/Final Confirmation</description>
+    </column>
+    <column name="AUSOR" data_type="VARCHAR">
+      <description>Clear Open Reservations</description>
+    </column>
+    <column name="STNDR" data_type="VARCHAR">
+      <description>Indicator: Standard confirmation</description>
+    </column>
+    <column name="MANUR" data_type="VARCHAR">
+      <description>Indicator for type of confirmation</description>
+    </column>
+    <column name="MEILR" data_type="VARCHAR">
+      <description>Indicator: Milestone confirmation carried out</description>
+    </column>
+    <column name="AUFPL" data_type="VARCHAR">
+      <description>Routing number of operations in the order</description>
+    </column>
+    <column name="APLZL" data_type="VARCHAR">
+      <description>General counter for order</description>
+    </column>
+    <column name="AUFNR" data_type="VARCHAR">
+      <description>Order Number</description>
+    </column>
+    <column name="APLFL" data_type="VARCHAR">
+      <description>Sequence</description>
+    </column>
+    <column name="VORNR" data_type="VARCHAR">
+      <description>Activity Number</description>
+    </column>
+    <column name="SUMNR" data_type="VARCHAR">
+      <description>Node number of the superior operation</description>
+    </column>
+    <column name="OFM01" data_type="DECIMAL">
+      <description>Forecast Value for Updating of Standard Value</description>
+    </column>
+    <column name="OFE01" data_type="VARCHAR">
+      <description>Unit of measurement for the forecast standard value</description>
+    </column>
+    <column name="LEK01" data_type="VARCHAR">
+      <description>Indicator: No Remaining Activity Expected</description>
+    </column>
+    <column name="OFM02" data_type="DECIMAL">
+      <description>Forecast Value for Updating of Standard Value</description>
+    </column>
+    <column name="OFE02" data_type="VARCHAR">
+      <description>Unit of measurement for the forecast standard value</description>
+    </column>
+    <column name="LEK02" data_type="VARCHAR">
+      <description>Indicator: No Remaining Activity Expected</description>
+    </column>
+    <column name="OFM03" data_type="DECIMAL">
+      <description>Forecast Value for Updating of Standard Value</description>
+    </column>
+    <column name="OFE03" data_type="VARCHAR">
+      <description>Unit of measurement for the forecast standard value</description>
+    </column>
+    <column name="LEK03" data_type="VARCHAR">
+      <description>Indicator: No Remaining Activity Expected</description>
+    </column>
+    <column name="OFM04" data_type="DECIMAL">
+      <description>Forecast Value for Updating of Standard Value</description>
+    </column>
+    <column name="OFE04" data_type="VARCHAR">
+      <description>Unit of measurement for the forecast standard value</description>
+    </column>
+    <column name="LEK04" data_type="VARCHAR">
+      <description>Indicator: No Remaining Activity Expected</description>
+    </column>
+    <column name="OFM05" data_type="DECIMAL">
+      <description>Forecast Value for Updating of Standard Value</description>
+    </column>
+    <column name="OFE05" data_type="VARCHAR">
+      <description>Unit of measurement for the forecast standard value</description>
+    </column>
+    <column name="LEK05" data_type="VARCHAR">
+      <description>Indicator: No Remaining Activity Expected</description>
+    </column>
+    <column name="OFM06" data_type="DECIMAL">
+      <description>Forecast Value for Updating of Standard Value</description>
+    </column>
+    <column name="OFE06" data_type="VARCHAR">
+      <description>Unit of measurement for the forecast standard value</description>
+    </column>
+    <column name="LEK06" data_type="VARCHAR">
+      <description>Indicator: No Remaining Activity Expected</description>
+    </column>
+    <column name="OFMNW" data_type="DECIMAL">
+      <description>Remaining work</description>
+    </column>
+    <column name="OFMNE" data_type="VARCHAR">
+      <description>Unit of measure for remaining work</description>
+    </column>
+    <column name="LEKNW" data_type="VARCHAR">
+      <description>Indicator: No Remaining Work Expected</description>
+    </column>
+    <column name="ODAUR" data_type="DECIMAL">
+      <description>Remaining duration of activity</description>
+    </column>
+    <column name="ODAUE" data_type="VARCHAR">
+      <description>Unit for remaining duration</description>
+    </column>
+    <column name="STOKZ" data_type="VARCHAR">
+      <description>Indicator: Document was reversed</description>
+    </column>
+    <column name="STZHL" data_type="VARCHAR">
+      <description>Confirmation counter of cancelled confirmation</description>
+    </column>
+    <column name="SMENG" data_type="DECIMAL">
+      <description>Operation Quantity</description>
+    </column>
+    <column name="RUECK_MST" data_type="VARCHAR">
+      <description>Completion confirmation number for the operation</description>
+    </column>
+    <column name="RMZHL_MST" data_type="VARCHAR">
+      <description>Confirmation counter</description>
+    </column>
+    <column name="PDSNR" data_type="VARCHAR">
+      <description>Sequential number for PDC messages</description>
+    </column>
+    <column name="KAPID" data_type="VARCHAR">
+      <description>Capacity ID</description>
+    </column>
+    <column name="SPLIT" data_type="INTEGER">
+      <description>Split number</description>
+    </column>
+    <column name="ZAUSW" data_type="VARCHAR">
+      <description>Time Recording ID Number</description>
+    </column>
+    <column name="ORIND" data_type="VARCHAR">
+      <description>Origin Indicator of PDC Message (Application)</description>
+    </column>
+    <column name="ORIGF" data_type="VARCHAR">
+      <description>Origin Indicator of PDC Message</description>
+    </column>
+    <column name="CANUM" data_type="VARCHAR">
+      <description>Counters for cap. rqmts. records (various caps. + indiv.caps</description>
+    </column>
+    <column name="BELNR_IST" data_type="VARCHAR">
+      <description>Document Number</description>
+    </column>
+    <column name="BELNR_UMB" data_type="VARCHAR">
+      <description>Document Number</description>
+    </column>
+    <column name="RMNGA" data_type="DECIMAL">
+      <description>Current rework quantity to be confirmed</description>
+    </column>
+    <column name="CATSBELNR" data_type="VARCHAR">
+      <description>Document no.</description>
+    </column>
+    <column name="SATZA" data_type="VARCHAR">
+      <description>Record type for confirmation</description>
+    </column>
+    <column name="ERZET" data_type="TIME">
+      <description>Confirmation entry time</description>
+    </column>
+    <column name="CATSPRICE" data_type="DECIMAL">
+      <description>Price in Transaction Currency</description>
+    </column>
+    <column name="CATSTCURR" data_type="VARCHAR">
+      <description>Transaction Currency</description>
+    </column>
+    <column name="CATSPEINH" data_type="DECIMAL">
+      <description>Price unit</description>
+    </column>
+    <column name="BEMOT" data_type="VARCHAR">
+      <description>Accounting Indicator</description>
+    </column>
+    <column name="IPRZ1" data_type="DECIMAL">
+      <description>Current Quantity to Be Confirmed for Business Process</description>
+    </column>
+    <column name="IPRE1" data_type="VARCHAR">
+      <description>Unit of Meas. for Qty to Be Confirmed for Business Process</description>
+    </column>
+    <column name="IPRK1" data_type="VARCHAR">
+      <description>No Remaining Quantity Expected for Business Process</description>
+    </column>
+    <column name="EXNAM" data_type="VARCHAR">
+      <description>External creator of confirmation</description>
+    </column>
+    <column name="EXERD" data_type="DATE">
+      <description>External date of entry for confirmation</description>
+    </column>
+    <column name="EXERZ" data_type="TIME">
+      <description>External time of entry for confirmation</description>
+    </column>
+    <column name="PRZ01" data_type="VARCHAR">
+      <description>Business Process</description>
+    </column>
+    <column name="OPRZ1" data_type="DECIMAL">
+      <description>Remaining quantity for business process</description>
+    </column>
+    <column name="OPRE1" data_type="VARCHAR">
+      <description>Unit for remaining quantity of business process</description>
+    </column>
+    <column name="SKOKRS" data_type="VARCHAR">
+      <description>Controlling Area</description>
+    </column>
+    <column name="SKOSTL" data_type="VARCHAR">
+      <description>Sender Cost Center</description>
+    </column>
+    <column name="NODAT" data_type="VARCHAR">
+      <description>Do not update actual date in the operation</description>
+    </column>
+    <column name="ISMNU" data_type="VARCHAR">
+      <description>Unit for work</description>
+    </column>
+    <column name="OFMNU" data_type="VARCHAR">
+      <description>Unit for work</description>
+    </column>
+    <column name="PACKNO" data_type="VARCHAR">
+      <description>Package number</description>
+    </column>
+    <column name="EXTID" data_type="VARCHAR">
+      <description>External Key for Confirmation (for example, from PDC System)</description>
+    </column>
+    <column name="SCHGRUP" data_type="VARCHAR">
+      <description>Grouping for Shift Definitions and Shift Sequences</description>
+    </column>
+    <column name="KAPTPROG" data_type="VARCHAR">
+      <description>Shift definition</description>
+    </column>
+    <column name="OBMAT" data_type="VARCHAR">
+      <description>Material from Original Batch</description>
+    </column>
+    <column name="OBCHA" data_type="VARCHAR">
+      <description>Original Batch</description>
+    </column>
+    <column name="LICHA" data_type="VARCHAR">
+      <description>Vendor Batch Number</description>
+    </column>
+    <column name="MYEAR" data_type="VARCHAR">
+      <description>Material Document Year</description>
+    </column>
+    <column name="ME_SFCID" data_type="VARCHAR">
+      <description>SFC Number from the ME System</description>
+    </column>
+    <column name="ME_2ND_CONF_QTY" data_type="DECIMAL">
+      <description>Rework Quantity Confirmed from SAP ME</description>
+    </column>
+    <column name="ROLE_ID" data_type="VARCHAR">
+      <description>Role ID for Confirmation in Portal</description>
+    </column>
+    <column name="UCMAT" data_type="VARCHAR">
+      <description>Mill: Material in Process Batch</description>
+    </column>
+    <column name="UCCHA" data_type="VARCHAR">
+      <description>Mill: Process batch</description>
+    </column>
+    <column name="WTY_IND" data_type="VARCHAR">
+      <description>Warranty indicator</description>
+    </column>
+  </columns>
+</data_description>

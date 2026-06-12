@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="USR21">
+  <table_info name="USR21" total_columns="12" />
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="BNAME" data_type="VARCHAR">
+      <description>User Name in User Master Record</description>
+    </column>
+    <column name="PERSNUMBER" data_type="VARCHAR">
+      <description>Person Number</description>
+    </column>
+    <column name="ADDRNUMBER" data_type="VARCHAR">
+      <description>Address Number</description>
+    </column>
+    <column name="KOSTL" data_type="VARCHAR">
+      <description>Cost center</description>
+    </column>
+    <column name="START_MENU" data_type="VARCHAR">
+      <description>Start Menu</description>
+    </column>
+    <column name="IDADTYPE" data_type="VARCHAR">
+      <description>Address Type of the Identity</description>
+    </column>
+    <column name="BPPERSON" data_type="VARCHAR">
+      <description>Business Partner GUID</description>
+    </column>
+    <column name="ORGANIZATION" data_type="VARCHAR">
+      <description>Business Partner GUID</description>
+    </column>
+    <column name="RESPONSIBLE" data_type="VARCHAR">
+      <description>User Responsible for Technical User Account</description>
+    </column>
+    <column name="TECHDESC" data_type="VARCHAR">
+      <description>Description of the Technical User Account</description>
+    </column>
+    <column name="IDENTITY_GUID" data_type="VARCHAR">
+      <description>GUID of the Identity</description>
+    </column>
+  </columns>
+</data_description>

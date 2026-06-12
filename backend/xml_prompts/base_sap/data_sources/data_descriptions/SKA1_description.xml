@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="SKA1">
+  <table_info name="SKA1" total_columns="18"/>
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="KTOPL" data_type="VARCHAR">
+      <description>Chart of Accounts</description>
+    </column>
+    <column name="SAKNR" data_type="VARCHAR">
+      <description>G/L Account Number</description>
+    </column>
+    <column name="XBILK" data_type="VARCHAR">
+      <description>Indicator: Account is a balance sheet account?</description>
+    </column>
+    <column name="SAKAN" data_type="VARCHAR">
+      <description>G/L account number, significant length</description>
+    </column>
+    <column name="BILKT" data_type="VARCHAR">
+      <description>Group Account Number</description>
+    </column>
+    <column name="ERDAT" data_type="DATE">
+      <description>Date on which the Record Was Created</description>
+    </column>
+    <column name="ERNAM" data_type="VARCHAR">
+      <description>Name of Person who Created the Object</description>
+    </column>
+    <column name="GVTYP" data_type="VARCHAR">
+      <description>P&amp;L statement account type</description>
+    </column>
+    <column name="KTOKS" data_type="VARCHAR">
+      <description>G/L Account Group</description>
+    </column>
+    <column name="MUSTR" data_type="VARCHAR">
+      <description>Number of the sample account</description>
+    </column>
+    <column name="VBUND" data_type="VARCHAR">
+      <description>Company ID of Trading Partner</description>
+    </column>
+    <column name="XLOEV" data_type="VARCHAR">
+      <description>Indicator: Account marked for deletion?</description>
+    </column>
+    <column name="XSPEA" data_type="VARCHAR">
+      <description>Indicator: account is blocked for creation ?</description>
+    </column>
+    <column name="XSPEB" data_type="VARCHAR">
+      <description>Indicator: Is account blocked for posting?</description>
+    </column>
+    <column name="XSPEP" data_type="VARCHAR">
+      <description>Indicator: account blocked for planning ?</description>
+    </column>
+    <column name="MCOD1" data_type="VARCHAR">
+      <description>Search Term for Using Matchcode</description>
+    </column>
+    <column name="FUNC_AREA" data_type="VARCHAR">
+      <description>Functional Area</description>
+    </column>
+  </columns>
+</data_description>

@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="T009">
+  <table_info name="T009" total_columns="10" />
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="PERIV" data_type="VARCHAR">
+      <description>Fiscal Year Variant</description>
+    </column>
+    <column name="XKALE" data_type="VARCHAR">
+      <description>Indicator: Determine periods like calendar year ?</description>
+    </column>
+    <column name="XJABH" data_type="VARCHAR">
+      <description>Indicator: Fiscal year variants year-dependent ?</description>
+    </column>
+    <column name="ANZBP" data_type="VARCHAR">
+      <description>Number of posting periods</description>
+    </column>
+    <column name="ANZSP" data_type="VARCHAR">
+      <description>Number of special periods</description>
+    </column>
+    <column name="XWEEK" data_type="VARCHAR">
+      <description>Flag: Fiscal Weeks Calculated from Start of Fiscal Year</description>
+    </column>
+    <column name="FYOFB" data_type="VARCHAR">
+      <description>Offset Before Current Fiscal Year</description>
+    </column>
+    <column name="FYOFE" data_type="VARCHAR">
+      <description>Offset After Current Fiscal Year</description>
+    </column>
+    <column name="XWEEKQUART" data_type="VARCHAR">
+      <description>Flag: Fiscal Year Variant as Weekly Calendar</description>
+    </column>
+  </columns>
+</data_description>

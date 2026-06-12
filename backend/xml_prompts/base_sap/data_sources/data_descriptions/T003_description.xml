@@ -1,0 +1,120 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="T003">
+  <table_info name="T003" total_columns="38"/>
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="BLART" data_type="VARCHAR">
+      <description>Document Type</description>
+    </column>
+    <column name="NUMKR" data_type="VARCHAR">
+      <description>Number Range</description>
+    </column>
+    <column name="KOARS" data_type="VARCHAR">
+      <description>Account Types Allowed</description>
+    </column>
+    <column name="STBLA" data_type="VARCHAR">
+      <description>Document Type</description>
+    </column>
+    <column name="XNETB" data_type="VARCHAR">
+      <description>Indicator: Document posted net ?</description>
+    </column>
+    <column name="XRVUP" data_type="VARCHAR">
+      <description>Indicator: Posting from SAP billing document ?</description>
+    </column>
+    <column name="XSYBL" data_type="VARCHAR">
+      <description>Indicator: Document type can only be used in batch input</description>
+    </column>
+    <column name="XVORK" data_type="VARCHAR">
+      <description>Indicator: Document type for initial account assignment ?</description>
+    </column>
+    <column name="XKKPR" data_type="VARCHAR">
+      <description>Indicator: Only one customer/vendor allowed</description>
+    </column>
+    <column name="XGSUB" data_type="VARCHAR">
+      <description>Inter-company posting</description>
+    </column>
+    <column name="XMGES" data_type="VARCHAR">
+      <description>Indicator: Trading partner can be entered manually</description>
+    </column>
+    <column name="BRGRU" data_type="VARCHAR">
+      <description>Authorization Group</description>
+    </column>
+    <column name="RECID" data_type="VARCHAR">
+      <description>Debit Recovery Indicator</description>
+    </column>
+    <column name="RECIC" data_type="VARCHAR">
+      <description>Recovery Indicator Credit</description>
+    </column>
+    <column name="XMTXT" data_type="VARCHAR">
+      <description>Indicator: Document header text</description>
+    </column>
+    <column name="XMREF" data_type="VARCHAR">
+      <description>Indicator: Reference number</description>
+    </column>
+    <column name="XNGBK" data_type="VARCHAR">
+      <description>Indicator: Document type for posting subsequent adjustment</description>
+    </column>
+    <column name="KURST" data_type="VARCHAR">
+      <description>Exch.Rate Type for Determining the Proposed Rate</description>
+    </column>
+    <column name="XNEGP" data_type="VARCHAR">
+      <description>Indicator: Negative Postings Permitted</description>
+    </column>
+    <column name="XKOAA" data_type="VARCHAR">
+      <description>Indicator: Are postings to assets permitted?</description>
+    </column>
+    <column name="XKOAD" data_type="VARCHAR">
+      <description>Indicator: Are postings to customer permitted?</description>
+    </column>
+    <column name="XKOAK" data_type="VARCHAR">
+      <description>Indicator: Are Postings to Supplier Permitted?</description>
+    </column>
+    <column name="XKOAM" data_type="VARCHAR">
+      <description>Indicator: Are postings to material account permitted?</description>
+    </column>
+    <column name="XKOAS" data_type="VARCHAR">
+      <description>Indicator: Are postings to G/L account permitted?</description>
+    </column>
+    <column name="XNMRL" data_type="VARCHAR">
+      <description>Document Type Relevant for Official Numbering</description>
+    </column>
+    <column name="XAUSG" data_type="VARCHAR">
+      <description>Self-Issued Document</description>
+    </column>
+    <column name="XDTCH" data_type="VARCHAR">
+      <description>Check Posting Date when Issuing Official Document Number</description>
+    </column>
+    <column name="BLKLS" data_type="VARCHAR">
+      <description>Document Class</description>
+    </column>
+    <column name="XROLLUP" data_type="VARCHAR">
+      <description>Indicator: Document type allowed for rollup</description>
+    </column>
+    <column name="XPLAN" data_type="VARCHAR">
+      <description>Indicator: Document type allowed for planning</description>
+    </column>
+    <column name="XALLOCACT" data_type="VARCHAR">
+      <description>Indicator: Document type allowed for actual allocation</description>
+    </column>
+    <column name="XALLOCPLAN" data_type="VARCHAR">
+      <description>Indicator: Document type allowed for plan allocation</description>
+    </column>
+    <column name="X_PP_PROCESS" data_type="VARCHAR">
+      <description>Indicator: Exchange rate diffs partial payments by period</description>
+    </column>
+    <column name="XKURSX" data_type="VARCHAR">
+      <description>Indicator: Market Data Exchange Rate</description>
+    </column>
+    <column name="XPOSACC" data_type="VARCHAR">
+      <description>Indicator: Allow Posting to Position or Equivalent Accounts</description>
+    </column>
+    <column name="XUACPA" data_type="VARCHAR">
+      <description>Accounting Principle Assignment Is Unique in Document</description>
+    </column>
+    <column name="XMREF2" data_type="VARCHAR">
+      <description>Long Invoice Reference Required</description>
+    </column>
+  </columns>
+</data_description>

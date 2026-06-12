@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="CRTX">
+  <table_info name="CRTX" total_columns="8" />
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="OBJTY" data_type="VARCHAR">
+      <description>Object types of the CIM resource</description>
+    </column>
+    <column name="OBJID" data_type="VARCHAR">
+      <description>Object ID of the resource</description>
+    </column>
+    <column name="SPRAS" data_type="VARCHAR">
+      <description>Language Key</description>
+    </column>
+    <column name="AEDAT_TEXT" data_type="DATE">
+      <description>Changed on</description>
+    </column>
+    <column name="AENAM_TEXT" data_type="VARCHAR">
+      <description>User Name</description>
+    </column>
+    <column name="KTEXT" data_type="VARCHAR">
+      <description>Short description</description>
+    </column>
+    <column name="KTEXT_UP" data_type="VARCHAR">
+      <description>Short description in capitals</description>
+    </column>
+  </columns>
+</data_description>

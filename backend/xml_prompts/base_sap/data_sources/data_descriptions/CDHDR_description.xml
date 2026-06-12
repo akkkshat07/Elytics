@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="CDHDR">
+  <table_info name="CDHDR" total_columns="15" />
+  <columns>
+    <column name="MANDANT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="OBJECTCLAS" data_type="VARCHAR">
+      <description>Object class</description>
+    </column>
+    <column name="OBJECTID" data_type="VARCHAR">
+      <description>Object Value</description>
+    </column>
+    <column name="CHANGENR" data_type="VARCHAR">
+      <description>Change Number of Document</description>
+    </column>
+    <column name="USERNAME" data_type="VARCHAR">
+      <description>User Name of Person Making Change in Change Document</description>
+    </column>
+    <column name="UDATE" data_type="DATE">
+      <description>Creation date of the change document</description>
+    </column>
+    <column name="UTIME" data_type="TIME">
+      <description>Time changed</description>
+    </column>
+    <column name="TCODE" data_type="VARCHAR">
+      <description>Transaction in which a change was made</description>
+    </column>
+    <column name="PLANCHNGNR" data_type="VARCHAR">
+      <description>Planned change number</description>
+    </column>
+    <column name="ACT_CHNGNO" data_type="VARCHAR">
+      <description>Change number of the document created by this change</description>
+    </column>
+    <column name="WAS_PLANND" data_type="VARCHAR">
+      <description>Flag: Change created from planned changes</description>
+    </column>
+    <column name="CHANGE_IND" data_type="VARCHAR">
+      <description>Application object change type (U, I, E, D)</description>
+    </column>
+    <column name="LANGU" data_type="VARCHAR">
+      <description>Language Key</description>
+    </column>
+    <column name="VERSION" data_type="VARCHAR">
+      <description>3-Byte field</description>
+    </column>
+    <column name="_DATAAGING" data_type="DATE">
+      <description>Data Filter Value for Data Aging</description>
+    </column>
+  </columns>
+</data_description>

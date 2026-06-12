@@ -1,0 +1,315 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="RSEG">
+  <table_info name="RSEG" total_columns="103"/>
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="BELNR" data_type="VARCHAR">
+      <description>Document Number of an Accounting Document</description>
+    </column>
+    <column name="GJAHR" data_type="VARCHAR">
+      <description>Fiscal Year</description>
+    </column>
+    <column name="BUZEI" data_type="VARCHAR">
+      <description>Document Item in Invoice Document</description>
+    </column>
+    <column name="EBELN" data_type="VARCHAR">
+      <description>Purchasing Document Number</description>
+    </column>
+    <column name="EBELP" data_type="VARCHAR">
+      <description>Item Number of Purchasing Document</description>
+    </column>
+    <column name="ZEKKN" data_type="VARCHAR">
+      <description>Sequential Number of Account Assignment</description>
+    </column>
+    <column name="MATNR" data_type="VARCHAR">
+      <description>Material Number</description>
+    </column>
+    <column name="BWKEY" data_type="VARCHAR">
+      <description>Valuation Area</description>
+    </column>
+    <column name="BWTAR" data_type="VARCHAR">
+      <description>Valuation Type</description>
+    </column>
+    <column name="BUKRS" data_type="VARCHAR">
+      <description>Company Code</description>
+    </column>
+    <column name="WERKS" data_type="VARCHAR">
+      <description>Plant</description>
+    </column>
+    <column name="WRBTR" data_type="DECIMAL">
+      <description>Amount in document currency</description>
+    </column>
+    <column name="SHKZG" data_type="VARCHAR">
+      <description>Debit/Credit Indicator</description>
+    </column>
+    <column name="MWSKZ" data_type="VARCHAR">
+      <description>Tax on Sales/Purchases Code</description>
+    </column>
+    <column name="TXJCD" data_type="VARCHAR">
+      <description>Tax Jurisdiction</description>
+    </column>
+    <column name="MENGE" data_type="DECIMAL">
+      <description>Quantity</description>
+    </column>
+    <column name="BSTME" data_type="VARCHAR">
+      <description>Purchase Order Unit of Measure</description>
+    </column>
+    <column name="BPMNG" data_type="DECIMAL">
+      <description>Quantity in Purchase Order Price Unit</description>
+    </column>
+    <column name="BPRME" data_type="VARCHAR">
+      <description>Order Price Unit (Purchasing)</description>
+    </column>
+    <column name="LBKUM" data_type="DECIMAL">
+      <description>Total Valuated Stock</description>
+    </column>
+    <column name="VRKUM" data_type="DECIMAL">
+      <description>Total valuated stock in the previous posting period</description>
+    </column>
+    <column name="MEINS" data_type="VARCHAR">
+      <description>Base Unit of Measure</description>
+    </column>
+    <column name="PSTYP" data_type="VARCHAR">
+      <description>Item category in purchasing document</description>
+    </column>
+    <column name="KNTTP" data_type="VARCHAR">
+      <description>Account Assignment Category</description>
+    </column>
+    <column name="BKLAS" data_type="VARCHAR">
+      <description>Valuation Class</description>
+    </column>
+    <column name="EREKZ" data_type="VARCHAR">
+      <description>Final Invoice Indicator</description>
+    </column>
+    <column name="EXKBE" data_type="VARCHAR">
+      <description>Indicator: update purchase order history</description>
+    </column>
+    <column name="XEKBZ" data_type="VARCHAR">
+      <description>Indicator: Update Purchase Order Delivery Costs</description>
+    </column>
+    <column name="TBTKZ" data_type="VARCHAR">
+      <description>Indicator: Subsequent Debit/Credit</description>
+    </column>
+    <column name="SPGRP" data_type="VARCHAR">
+      <description>Blocking Reason: Price</description>
+    </column>
+    <column name="SPGRM" data_type="VARCHAR">
+      <description>Blocking Reason: Quantity</description>
+    </column>
+    <column name="SPGRT" data_type="VARCHAR">
+      <description>Blocking Reason: Date</description>
+    </column>
+    <column name="SPGRG" data_type="VARCHAR">
+      <description>Blocking Reason: Order Price Quantity</description>
+    </column>
+    <column name="SPGRV" data_type="VARCHAR">
+      <description>Blocking Reason: Project Budget</description>
+    </column>
+    <column name="SPGRQ" data_type="VARCHAR">
+      <description>Manual Blocking Reason</description>
+    </column>
+    <column name="SPGRS" data_type="VARCHAR">
+      <description>Blocking Reason: Item Amount</description>
+    </column>
+    <column name="SPGRC" data_type="VARCHAR">
+      <description>Blocking Reason: Quality</description>
+    </column>
+    <column name="SPGREXT" data_type="VARCHAR">
+      <description>Blocking Reason Enhancement Fields</description>
+    </column>
+    <column name="BUSTW" data_type="VARCHAR">
+      <description>Posting String for Values</description>
+    </column>
+    <column name="XBLNR" data_type="VARCHAR">
+      <description>Reference Document Number</description>
+    </column>
+    <column name="XRUEB" data_type="VARCHAR">
+      <description>Indicator: Document is posted to a previous period</description>
+    </column>
+    <column name="BNKAN" data_type="DECIMAL">
+      <description>Delivery costs' share of item value</description>
+    </column>
+    <column name="KSCHL" data_type="VARCHAR">
+      <description>Condition Type</description>
+    </column>
+    <column name="SALK3" data_type="DECIMAL">
+      <description>Value of Total Valuated Stock</description>
+    </column>
+    <column name="VMSAL" data_type="DECIMAL">
+      <description>Value of total valuated stock in previous period</description>
+    </column>
+    <column name="XLIFO" data_type="VARCHAR">
+      <description>LIFO/FIFO-Relevant</description>
+    </column>
+    <column name="LFBNR" data_type="VARCHAR">
+      <description>Document No. of a Reference Document</description>
+    </column>
+    <column name="LFGJA" data_type="VARCHAR">
+      <description>Fiscal Year of Current Period</description>
+    </column>
+    <column name="LFPOS" data_type="VARCHAR">
+      <description>Item of a Reference Document</description>
+    </column>
+    <column name="MATBF" data_type="VARCHAR">
+      <description>Material in Respect of Which Stock is Managed</description>
+    </column>
+    <column name="RBMNG" data_type="DECIMAL">
+      <description>Qty invoiced in vendor invoice in PO order units</description>
+    </column>
+    <column name="BPRBM" data_type="DECIMAL">
+      <description>Qty invoiced in vendor invoice in PO price units</description>
+    </column>
+    <column name="RBWWR" data_type="DECIMAL">
+      <description>Invoice amount in document currency of vendor invoice</description>
+    </column>
+    <column name="LFEHL" data_type="VARCHAR">
+      <description>Type of vendor error</description>
+    </column>
+    <column name="GRICD" data_type="VARCHAR">
+      <description>Activity Code for Gross Income Tax</description>
+    </column>
+    <column name="GRIRG" data_type="VARCHAR">
+      <description>Region (State, Province, County)</description>
+    </column>
+    <column name="GITYP" data_type="VARCHAR">
+      <description>Distribution Type for Employment Tax</description>
+    </column>
+    <column name="PACKNO" data_type="VARCHAR">
+      <description>Package Number of Service</description>
+    </column>
+    <column name="INTROW" data_type="VARCHAR">
+      <description>Line Number of Service</description>
+    </column>
+    <column name="SGTXT" data_type="VARCHAR">
+      <description>Item Text</description>
+    </column>
+    <column name="XSKRL" data_type="VARCHAR">
+      <description>Indicator: Line Item Not Liable to Cash Discount?</description>
+    </column>
+    <column name="KZMEK" data_type="VARCHAR">
+      <description>Correction indicator</description>
+    </column>
+    <column name="MRMOK" data_type="VARCHAR">
+      <description>Indicator: invoice item processed</description>
+    </column>
+    <column name="STUNR" data_type="VARCHAR">
+      <description>Step number</description>
+    </column>
+    <column name="ZAEHK" data_type="VARCHAR">
+      <description>Condition counter</description>
+    </column>
+    <column name="STOCK_POSTING" data_type="DECIMAL">
+      <description>Stock Posting of Line from an Incoming Invoice</description>
+    </column>
+    <column name="STOCK_POSTING_PP" data_type="DECIMAL">
+      <description>Stock Posting of Line from an Incoming Invoice, Prev. Period</description>
+    </column>
+    <column name="STOCK_POSTING_PY" data_type="DECIMAL">
+      <description>Stock Posting of Line from an Incoming Invoice, Prev. Year</description>
+    </column>
+    <column name="WEREC" data_type="VARCHAR">
+      <description>Clearing Indicator for GR/IR Posting for External Services</description>
+    </column>
+    <column name="LIFNR" data_type="VARCHAR">
+      <description>Account Number of Supplier</description>
+    </column>
+    <column name="FRBNR" data_type="VARCHAR">
+      <description>Number of Bill of Lading at Time of Goods Receipt</description>
+    </column>
+    <column name="XHISTMA" data_type="VARCHAR">
+      <description>Update Multiple Account Assignment EKBE_MA, EKBZ_MA</description>
+    </column>
+    <column name="COMPLAINT_REASON" data_type="VARCHAR">
+      <description>Complaints Reason in an Invoice</description>
+    </column>
+    <column name="RETAMT_FC" data_type="DECIMAL">
+      <description>Retention Amount in Document Currency</description>
+    </column>
+    <column name="RETPC" data_type="DECIMAL">
+      <description>Retention in Percent</description>
+    </column>
+    <column name="RETDUEDT" data_type="DATE">
+      <description>Due Date for Retention</description>
+    </column>
+    <column name="XRETTAXNET" data_type="VARCHAR">
+      <description>Tax Reduction for Retention</description>
+    </column>
+    <column name="RE_ACCOUNT" data_type="VARCHAR">
+      <description>Cash Ledger: Expense or Revenue Account</description>
+    </column>
+    <column name="ERP_CONTRACT_ID" data_type="VARCHAR">
+      <description>Number of principal purchase agreement</description>
+    </column>
+    <column name="ERP_CONTRACT_ITM" data_type="VARCHAR">
+      <description>Item number of principal purchase agreement</description>
+    </column>
+    <column name="SRM_CONTRACT_ID" data_type="VARCHAR">
+      <description>Central Contract</description>
+    </column>
+    <column name="SRM_CONTRACT_ITM" data_type="VARCHAR">
+      <description>Central Contract Item Number</description>
+    </column>
+    <column name="CONT_PSTYP" data_type="VARCHAR">
+      <description>Item category in purchasing document</description>
+    </column>
+    <column name="SRVMAPKEY" data_type="VARCHAR">
+      <description>Item Key for eSOA Messages</description>
+    </column>
+    <column name="CHARG" data_type="VARCHAR">
+      <description>Batch Number</description>
+    </column>
+    <column name="INV_ITM_ORIGIN" data_type="VARCHAR">
+      <description>Origin of an Invoice Item</description>
+    </column>
+    <column name="INVREL" data_type="VARCHAR">
+      <description>Grouping Characteristic for Invoice Verification</description>
+    </column>
+    <column name="XDINV" data_type="VARCHAR">
+      <description>Indicator for Differential Invoicing</description>
+    </column>
+    <column name="DIFF_AMOUNT" data_type="DECIMAL">
+      <description>Difference Amount (in Document Currency)</description>
+    </column>
+    <column name="XCPRF" data_type="VARCHAR">
+      <description>Checkbox for Commodity Repricing in Invoice Verification</description>
+    </column>
+    <column name="FSH_SEASON_YEAR" data_type="VARCHAR">
+      <description>Season Year</description>
+    </column>
+    <column name="FSH_SEASON" data_type="VARCHAR">
+      <description>Season</description>
+    </column>
+    <column name="FSH_COLLECTION" data_type="VARCHAR">
+      <description>Fashion Collection</description>
+    </column>
+    <column name="FSH_THEME" data_type="VARCHAR">
+      <description>Fashion Theme</description>
+    </column>
+    <column name="HSN_SAC" data_type="VARCHAR">
+      <description>HSN or SAC Code</description>
+    </column>
+    <column name="CUSTOMS_VAL" data_type="DECIMAL">
+      <description>Assessable Value</description>
+    </column>
+    <column name="LICNO" data_type="VARCHAR">
+      <description>Internal License Number</description>
+    </column>
+    <column name="ZEILE" data_type="VARCHAR">
+      <description>Item Number</description>
+    </column>
+    <column name="SGT_SCAT" data_type="VARCHAR">
+      <description>Stock Segment</description>
+    </column>
+    <column name="WRF_CHARSTC1" data_type="VARCHAR">
+      <description>Characteristic Value 1</description>
+    </column>
+    <column name="WRF_CHARSTC2" data_type="VARCHAR">
+      <description>Characteristic Value 2</description>
+    </column>
+    <column name="WRF_CHARSTC3" data_type="VARCHAR">
+      <description>Characteristic Value 3</description>
+    </column>
+  </columns>
+</data_description>

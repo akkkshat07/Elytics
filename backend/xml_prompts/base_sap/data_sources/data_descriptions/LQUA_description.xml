@@ -1,0 +1,180 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="LQUA">
+  <table_info name="LQUA" total_columns="58"/>
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="LGNUM" data_type="VARCHAR">
+      <description>Warehouse Number / Warehouse Complex</description>
+    </column>
+    <column name="LQNUM" data_type="VARCHAR">
+      <description>Quant</description>
+    </column>
+    <column name="MATNR" data_type="VARCHAR">
+      <description>Material Number</description>
+    </column>
+    <column name="WERKS" data_type="VARCHAR">
+      <description>Plant</description>
+    </column>
+    <column name="CHARG" data_type="VARCHAR">
+      <description>Batch Number</description>
+    </column>
+    <column name="BESTQ" data_type="VARCHAR">
+      <description>Stock Category in the Warehouse Management System</description>
+    </column>
+    <column name="SOBKZ" data_type="VARCHAR">
+      <description>Special Stock Indicator</description>
+    </column>
+    <column name="SONUM" data_type="VARCHAR">
+      <description>Special Stock Number</description>
+    </column>
+    <column name="LGTYP" data_type="VARCHAR">
+      <description>Storage Type</description>
+    </column>
+    <column name="LGPLA" data_type="VARCHAR">
+      <description>Storage Bin</description>
+    </column>
+    <column name="PLPOS" data_type="VARCHAR">
+      <description>Position in storage bin</description>
+    </column>
+    <column name="SKZUE" data_type="VARCHAR">
+      <description>Blocking indicator: for putaways (user)</description>
+    </column>
+    <column name="SKZUA" data_type="VARCHAR">
+      <description>Blocking Indicator: For Stock Removals (User)</description>
+    </column>
+    <column name="SKZSE" data_type="VARCHAR">
+      <description>Blocking indicator: current placement into stock (system)</description>
+    </column>
+    <column name="SKZSA" data_type="VARCHAR">
+      <description>Blocking Indicator: Current Stock Removal (System)</description>
+    </column>
+    <column name="SKZSI" data_type="VARCHAR">
+      <description>Blocking Indicator: Current Inventory (System)</description>
+    </column>
+    <column name="SPGRU" data_type="VARCHAR">
+      <description>Blocking reason</description>
+    </column>
+    <column name="ZEUGN" data_type="VARCHAR">
+      <description>Certificate Number</description>
+    </column>
+    <column name="BDATU" data_type="DATE">
+      <description>Date of last movement</description>
+    </column>
+    <column name="BZEIT" data_type="TIME">
+      <description>Time of last movement</description>
+    </column>
+    <column name="BTANR" data_type="VARCHAR">
+      <description>Document Number of Last Stock Change in Quant</description>
+    </column>
+    <column name="BTAPS" data_type="VARCHAR">
+      <description>Item in transfer order of last stock transfer</description>
+    </column>
+    <column name="EDATU" data_type="DATE">
+      <description>Date of last placement into stock</description>
+    </column>
+    <column name="EZEIT" data_type="TIME">
+      <description>Time of last placement into stock</description>
+    </column>
+    <column name="ADATU" data_type="DATE">
+      <description>Date of last stock removal</description>
+    </column>
+    <column name="AZEIT" data_type="TIME">
+      <description>Time of last stock removal</description>
+    </column>
+    <column name="ZDATU" data_type="DATE">
+      <description>Date of last addition to existing stock</description>
+    </column>
+    <column name="WDATU" data_type="DATE">
+      <description>Date of Goods Receipt</description>
+    </column>
+    <column name="WENUM" data_type="VARCHAR">
+      <description>Goods Receipt Number</description>
+    </column>
+    <column name="WEPOS" data_type="VARCHAR">
+      <description>Goods receipt item</description>
+    </column>
+    <column name="LETYP" data_type="VARCHAR">
+      <description>Storage Unit Type</description>
+    </column>
+    <column name="MEINS" data_type="VARCHAR">
+      <description>Base Unit of Measure</description>
+    </column>
+    <column name="GESME" data_type="DECIMAL">
+      <description>Total Quantity</description>
+    </column>
+    <column name="VERME" data_type="DECIMAL">
+      <description>Available stock</description>
+    </column>
+    <column name="EINME" data_type="DECIMAL">
+      <description>Stock for putaway</description>
+    </column>
+    <column name="AUSME" data_type="DECIMAL">
+      <description>Quantity to remove</description>
+    </column>
+    <column name="MGEWI" data_type="DECIMAL">
+      <description>Weight of material</description>
+    </column>
+    <column name="GEWEI" data_type="VARCHAR">
+      <description>Unit of Weight</description>
+    </column>
+    <column name="TBNUM" data_type="VARCHAR">
+      <description>Transfer Requirement Number</description>
+    </column>
+    <column name="IVNUM" data_type="VARCHAR">
+      <description>Number of system inventory record</description>
+    </column>
+    <column name="IVPOS" data_type="VARCHAR">
+      <description>Item number in inventory document</description>
+    </column>
+    <column name="BETYP" data_type="VARCHAR">
+      <description>Requirement Type</description>
+    </column>
+    <column name="BENUM" data_type="VARCHAR">
+      <description>Requirement Number</description>
+    </column>
+    <column name="LENUM" data_type="VARCHAR">
+      <description>Storage Unit Number</description>
+    </column>
+    <column name="QPLOS" data_type="VARCHAR">
+      <description>Inspection Lot Number</description>
+    </column>
+    <column name="VFDAT" data_type="DATE">
+      <description>Shelf Life Expiration or Best-Before Date</description>
+    </column>
+    <column name="QKAPV" data_type="DECIMAL">
+      <description>Capacity usage of quant</description>
+    </column>
+    <column name="KOBER" data_type="VARCHAR">
+      <description>Picking Area</description>
+    </column>
+    <column name="LGORT" data_type="VARCHAR">
+      <description>Storage Location</description>
+    </column>
+    <column name="VIRGO" data_type="VARCHAR">
+      <description>Quant does not contain GR data</description>
+    </column>
+    <column name="TRAME" data_type="DECIMAL">
+      <description>Open Transfer Quantity</description>
+    </column>
+    <column name="KZHUQ" data_type="VARCHAR">
+      <description>Indicator: Quant is on a handling unit</description>
+    </column>
+    <column name="VBELN" data_type="VARCHAR">
+      <description>Delivery</description>
+    </column>
+    <column name="POSNR" data_type="VARCHAR">
+      <description>Delivery Item</description>
+    </column>
+    <column name="IDATU" data_type="DATE">
+      <description>Date of last inventory of quant</description>
+    </column>
+    <column name="MSR_INSP_GUID" data_type="VARCHAR">
+      <description>Inspection GUID</description>
+    </column>
+    <column name="SGT_SCAT" data_type="VARCHAR">
+      <description>Stock Segment</description>
+    </column>
+  </columns>
+</data_description>

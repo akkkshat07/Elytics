@@ -1,0 +1,177 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="dsr_master">
+  <table_info name="dsr_master" total_columns="57" />
+  <columns>
+    <column name="Emp_Id" data_type="bigint">
+      <description>Unique identifier for the employee/sales resource in the master data; often used to join HR/roster records to performance and coverage metrics. Can also represent a placeholder like a vacant position when paired with an "Emp_Name" such as "vacant HQ".</description>
+    </column>
+    <column name="PositionCode" data_type="text">
+      <description>Identifier for the position in the sales hierarchy (often same as Emp_Id in this data), used for mapping roles/territories and reporting structure. Analysts should treat it as a position key rather than a person key when vacancies or transfers exist.</description>
+    </column>
+    <column name="Zone" data_type="text">
+      <description>Top-level geographic business zone for the employee/position (e.g., West, North). Used for regional rollups and zone-wise performance reporting.</description>
+    </column>
+    <column name="State" data_type="text">
+      <description>State/region within the zone where the employee/position is assigned (e.g., Gujarat). Useful for state-level coverage and sales aggregation.</description>
+    </column>
+    <column name="City" data_type="text">
+      <description>Primary city associated with the employee/position assignment (e.g., Ahmedabad). Typically used for location-based filters and operational reporting.</description>
+    </column>
+    <column name="User_Id" data_type="text">
+      <description>System login/user identifier linked to the employee for sales apps or SFA/DMS systems; may be numeric and reused across records. Use this to connect to transactional system users when Emp_Id is not present there.</description>
+    </column>
+    <column name="Emp_Name" data_type="text">
+      <description>Display name of the employee or the position label; may contain placeholders such as "vacant HQ -..." indicating an unfilled role. Analysts should not assume it always corresponds to an actual person.</description>
+    </column>
+    <column name="Designation" data_type="text">
+      <description>Role/designation of the employee/position in the sales organization (e.g., TSI). Useful for slicing KPIs by role level.</description>
+    </column>
+    <column name="Email_Address" data_type="text">
+      <description>Registered email for the employee in the master; can be null or the literal string "null" when not captured. Not reliable as a unique key due to missing values.</description>
+    </column>
+    <column name="Phone" data_type="bigint">
+      <description>Primary contact number for the employee/user; may be stored as text and can duplicate User_Id in some cases. Treat as contact metadata, not a stable identifier.</description>
+    </column>
+    <column name="Team_Leader_Id" data_type="bigint">
+      <description>Employee/position identifier of the reporting manager/team leader for this employee. Used to build reporting hierarchies and manager-wise rollups.</description>
+    </column>
+    <column name="Division" data_type="text">
+      <description>Business division or sales channel classification (e.g., Retail). Use this to separate performance across divisions with different targets or product focus.</description>
+    </column>
+    <column name="CreationDate" data_type="timestamp without time zone">
+      <description>Timestamp when the employee/position record was created in the master system. Helpful for auditing and identifying newly added roles or backfilled master data.</description>
+    </column>
+    <column name="CreateBy" data_type="text">
+      <description>Name/role of the user who created the master record (e.g., Z Admin). Used for audit trails and data stewardship analysis.</description>
+    </column>
+    <column name="TeamLeader" data_type="text">
+      <description>Name of the team leader/manager mapped to the employee/position. Useful for readable reporting, but use Team_Leader_Id for joins.</description>
+    </column>
+    <column name="TLDesignation" data_type="text">
+      <description>Designation/role of the team leader (e.g., SFA). Helps interpret hierarchy level and managerial span by role.</description>
+    </column>
+    <column name="TLPhone" data_type="double precision">
+      <description>Contact number for the team leader; may appear as numeric with decimals due to formatting (e.g., "9889101551.0"). Treat as text and clean before use.</description>
+    </column>
+    <column name="TLDepartment" data_type="text">
+      <description>Department of the team leader (commonly Sales). Used to validate organizational ownership and filter non-sales managers if present.</description>
+    </column>
+    <column name="HeadQuarters" data_type="text">
+      <description>Declared headquarters location for the employee/position; may be null or not maintained. When populated, use for HQ-based territory planning and reporting.</description>
+    </column>
+    <column name="WorkingArea" data_type="text">
+      <description>Operational working area/territory for the employee (e.g., Ahmedabad). Often more relevant than City for field coverage analysis.</description>
+    </column>
+    <column name="DeActiveDate" data_type="timestamp without time zone">
+      <description>Date when the employee/position was deactivated/closed in the master; null indicates active. Use to exclude inactive roles from current-period headcount and performance attribution.</description>
+    </column>
+    <column name="DeActiveBy" data_type="double precision">
+      <description>User/name who deactivated the record, supporting audit and workflow tracing. Typically null unless the record is deactivated.</description>
+    </column>
+    <column name="TotalBeat" data_type="bigint">
+      <description>Count of beats/routes assigned to the employee/position, typically an integer stored as text. Used as a coverage capacity indicator for field force planning.</description>
+    </column>
+    <column name="TotalClient" data_type="bigint">
+      <description>Total number of clients/outlets mapped to the employee/position, often used to measure coverage load. Usually numeric but may be stored as text.</description>
+    </column>
+    <column name="TotalShared" data_type="bigint">
+      <description>Number of clients/outlets shared with other users/positions, indicating overlap in responsibility. Useful for analyzing shared coverage and potential duplication.</description>
+    </column>
+    <column name="Emp Code" data_type="text">
+      <description>Alternate employee code (often HR/payroll code) distinct from Emp_Id; may be missing. Use when integrating with HR systems that do not use Emp_Id.</description>
+    </column>
+    <column name="Client_Id" data_type="double precision">
+      <description>Client/outlet identifier when the master is exploded/mapped to client-level assignments; null indicates the row is not at client granularity. Use cautiously because this table may mix roster and performance grains.</description>
+    </column>
+    <column name="..SSE Name" data_type="text">
+      <description>Name of the SSE level in the hierarchy for this record; appears as a hierarchy attribute and may be null. Use for higher-level rollups when hierarchy is denormalized into the row.</description>
+    </column>
+    <column name=".SO/SR/SE/TSI/TSO/SRTSI Name" data_type="text">
+      <description>Name of the field sales role (SO/SR/SE/TSI/TSO/SRTSI) in the hierarchy, provided as a denormalized label. Useful for display, but prefer Emp_Id/PositionCode for joining and deduping.</description>
+    </column>
+    <column name="ASM/BDM/TSM Name" data_type="text">
+      <description>Area/Business/Team Sales Manager name in the reporting chain, used for managerial rollups. Typically a denormalized hierarchy field and may be null in some extracts.</description>
+    </column>
+    <column name="RSM Name" data_type="text">
+      <description>Regional Sales Manager name for the hierarchy rollup. Use for region-level performance summaries when IDs are not available.</description>
+    </column>
+    <column name="Joinining_Date" data_type="timestamp without time zone">
+      <description>Employee joining date (note spelling), indicating when the person started; may be null for vacant positions or missing HR sync. Helpful for tenure analysis and ramp-up performance studies.</description>
+    </column>
+    <column name="Department" data_type="text">
+      <description>Department of the employee/position (e.g., Sales). Use to filter out non-sales records if the table includes multiple functions.</description>
+    </column>
+    <column name="EPID" data_type="double precision">
+      <description>External/person identifier from another system (often enterprise/HR ID); may be null. Use as a cross-system mapping key when available.</description>
+    </column>
+    <column name="RQID" data_type="bigint">
+      <description>Request/role queue or system-specific routing ID used in workflows/approvals; commonly numeric with 0 meaning not configured. Analysts typically use it only for operational/process reporting.</description>
+    </column>
+    <column name="CanApprove" data_type="bigint">
+      <description>Flag (0/1) indicating whether the user/position has approval rights in the system. Useful for workflow controls and to separate approvers from non-approvers in audit analyses.</description>
+    </column>
+    <column name="UUID" data_type="text">
+      <description>Composite unique identifier built from Emp_Id, Emp_Name, and User_Id in this dataset. Use as a row-level surrogate key when source keys are not unique across time or extracts.</description>
+    </column>
+    <column name="Order_Date" data_type="timestamp without time zone">
+      <description>Transaction/order date associated with the performance measures on the row; indicates the day for which KPIs like TC/PC/NSV are recorded. This implies the table includes daily facts joined to employee master attributes.</description>
+    </column>
+    <column name="TC" data_type="double precision">
+      <description>Total Calls (or total customer contacts) for the given Order_Date and employee/position; typically numeric and may be 0. Used as an activity volume KPI.</description>
+    </column>
+    <column name="PC" data_type="double precision">
+      <description>Productive Calls (calls resulting in an order) for the day; usually &lt;= TC. Used to calculate productivity ratios such as PC/TC.</description>
+    </column>
+    <column name="P3_NSV" data_type="double precision">
+      <description>Net Sales Value for P3 category/priority products for the day; stored as numeric text. Analysts should confirm P3 definition in the commercial taxonomy before comparing across divisions.</description>
+    </column>
+    <column name="P3_Val" data_type="double precision">
+      <description>Gross/total value for P3 category sales for the day, potentially before certain deductions compared to NSV. Use together with P3_NSV to analyze discounting or value realization.</description>
+    </column>
+    <column name="TLSD" data_type="double precision">
+      <description>Trade/total line scheme discount or a similar discount metric at the transaction aggregate level for the day; often 0 when no discount applies. Interpret as a monetary value unless business definitions state otherwise.</description>
+    </column>
+    <column name="ULSD" data_type="double precision">
+      <description>Additional discount metric (often an upper-level/unique line scheme discount) aggregated for the day. Use with TLSD to understand total discount impact on value/NSV.</description>
+    </column>
+    <column name="P2_Val" data_type="double precision">
+      <description>Gross/total value for P2 category sales for the day. Commonly used alongside P2_NSV and P2_QTY for mix and growth analysis.</description>
+    </column>
+    <column name="P2_NSV" data_type="double precision">
+      <description>Net Sales Value for P2 category/priority products for the day. Useful for performance tracking where P2 is a strategic product bucket.</description>
+    </column>
+    <column name="P2_QTY" data_type="double precision">
+      <description>Quantity sold for P2 category for the day (units or packs depending on source). Use for volume-based productivity and price/mix decomposition with P2_Val/NSV.</description>
+    </column>
+    <column name="BusinessMonth" data_type="text">
+      <description>Business month in YYYY-MM format used for period grouping; may follow a fiscal calendar aligned to sales reporting. Use this for monthly aggregation rather than deriving month from Order_Date when business calendars differ.</description>
+    </column>
+    <column name="ECO" data_type="double precision">
+      <description>ECO metric for the day (commonly Effective/End Customer Orders or a similar operational KPI); numeric and may be 0. Validate business definition before using as an order count.</description>
+    </column>
+    <column name="MTD_P3_Val" data_type="double precision">
+      <description>Month-to-date cumulative P3 value up to and including Order_Date for the employee/position. Use to track progress vs targets without recomputing cumulative sums when trusted.</description>
+    </column>
+    <column name="MTD_P3_NSV" data_type="double precision">
+      <description>Month-to-date cumulative P3 net sales value up to Order_Date. Analysts should ensure MTD fields reset correctly at BusinessMonth boundaries.</description>
+    </column>
+    <column name="MTD_P2_Val" data_type="double precision">
+      <description>Month-to-date cumulative P2 value up to Order_Date. Useful for MTD dashboards and pacing analysis.</description>
+    </column>
+    <column name="MTD_P2_NSV" data_type="double precision">
+      <description>Month-to-date cumulative P2 net sales value up to Order_Date. Use for MTD comparisons across roles and territories.</description>
+    </column>
+    <column name="MTD_PC" data_type="double precision">
+      <description>Month-to-date cumulative productive calls up to Order_Date. Supports pacing and activity tracking without daily aggregation.</description>
+    </column>
+    <column name="MTD_ECO" data_type="double precision">
+      <description>Month-to-date cumulative ECO up to Order_Date. Use for operational pacing metrics at month level.</description>
+    </column>
+    <column name="DMS_Sales_Value" data_type="double precision">
+      <description>Sales value captured from the DMS (Distributor Management System) for the corresponding date/period; may be null when DMS integration is missing. Use to reconcile SFA order value vs DMS billed/secondary sales where applicable.</description>
+    </column>
+    <column name="DMS_Qty" data_type="double precision">
+      <description>Quantity captured from DMS for the corresponding date/period; may be null. Used for reconciliation and secondary sales volume tracking alongside DMS_Sales_Value.</description>
+    </column>
+  </columns>
+</data_description>

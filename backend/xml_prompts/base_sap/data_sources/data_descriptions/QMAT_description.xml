@@ -1,0 +1,108 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="QMAT">
+  <table_info name="QMAT" total_columns="34" />
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="ART" data_type="VARCHAR">
+      <description>Inspection Type</description>
+    </column>
+    <column name="MATNR" data_type="VARCHAR">
+      <description>Material Number</description>
+    </column>
+    <column name="WERKS" data_type="VARCHAR">
+      <description>Plant</description>
+    </column>
+    <column name="PPL" data_type="VARCHAR">
+      <description>Inspection with Task List</description>
+    </column>
+    <column name="SPEZUEBER" data_type="VARCHAR">
+      <description>Inspect with Material Specification</description>
+    </column>
+    <column name="CONF" data_type="VARCHAR">
+      <description>Inspection Specifications from Configuration</description>
+    </column>
+    <column name="TLS" data_type="VARCHAR">
+      <description>Inspection Specifications from Batch Determination</description>
+    </column>
+    <column name="APP" data_type="VARCHAR">
+      <description>Automatic Specification Assignment</description>
+    </column>
+    <column name="MER" data_type="VARCHAR">
+      <description>Inspect by Characteristics</description>
+    </column>
+    <column name="INSMK" data_type="VARCHAR">
+      <description>Post to Inspection Stock</description>
+    </column>
+    <column name="AVE" data_type="VARCHAR">
+      <description>Automatic Usage Decision Planned</description>
+    </column>
+    <column name="STICHPRVER" data_type="VARCHAR">
+      <description>Sampling Procedure</description>
+    </column>
+    <column name="DYNREGEL" data_type="VARCHAR">
+      <description>Dynamic Modification Rule</description>
+    </column>
+    <column name="SPROZ" data_type="DECIMAL">
+      <description>Inspection Percentage</description>
+    </column>
+    <column name="HPZ" data_type="VARCHAR">
+      <description>100% Inspection</description>
+    </column>
+    <column name="DYN" data_type="VARCHAR">
+      <description>Skips Allowed</description>
+    </column>
+    <column name="MPB" data_type="VARCHAR">
+      <description>Enter the Sample Manually</description>
+    </column>
+    <column name="MST" data_type="VARCHAR">
+      <description>Trigger Sample Calculation Manually</description>
+    </column>
+    <column name="EIN" data_type="VARCHAR">
+      <description>Serial Number Management Possible</description>
+    </column>
+    <column name="MPDAU" data_type="DECIMAL">
+      <description>Average Inspection Duration</description>
+    </column>
+    <column name="CHG" data_type="VARCHAR">
+      <description>Control of Inspection Lot Creation (Lot Summary)</description>
+    </column>
+    <column name="QKZVERF" data_type="VARCHAR">
+      <description>Procedure for Calculating Quality Score</description>
+    </column>
+    <column name="QPMAT" data_type="DECIMAL">
+      <description>Allowed Share of Scrap (Percent) in Inspection Lot</description>
+    </column>
+    <column name="KZPRFKOST" data_type="VARCHAR">
+      <description>Record Appraisal Costs in Individual QM Order</description>
+    </column>
+    <column name="AUFNR_CO" data_type="VARCHAR">
+      <description>Order Number for Recording Appraisal Costs</description>
+    </column>
+    <column name="AKTIV" data_type="VARCHAR">
+      <description>Inspection Type - Material Combination is Active</description>
+    </column>
+    <column name="APA" data_type="VARCHAR">
+      <description>Preferred Inspection Type</description>
+    </column>
+    <column name="AFR" data_type="VARCHAR">
+      <description>Inspection for Handling Unit</description>
+    </column>
+    <column name="MMA" data_type="VARCHAR">
+      <description>Field Not Used as of 3.0       Field Reserved for SAP</description>
+    </column>
+    <column name="FEH" data_type="VARCHAR">
+      <description>Field Not Used as of 3.0       Field Reserved for SAP</description>
+    </column>
+    <column name="PRFRQ" data_type="DECIMAL">
+      <description>Field Not Used as of 3.0       Field Reserved for SAP</description>
+    </column>
+    <column name="NKMPR" data_type="DATE">
+      <description>Field Not Used as of 3.0       Field Reserved for SAP</description>
+    </column>
+    <column name="MS_FLAG" data_type="VARCHAR">
+      <description>Indicator: Multiple Specifications</description>
+    </column>
+  </columns>
+</data_description>

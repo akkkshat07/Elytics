@@ -1,0 +1,150 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="FAGLFLEXA">
+  <table_info name="FAGLFLEXA" total_columns="48"/>
+  <columns>
+    <column name="RCLNT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="RYEAR" data_type="VARCHAR">
+      <description>Fiscal Year</description>
+    </column>
+    <column name="DOCNR" data_type="VARCHAR">
+      <description>Document Number of an Accounting Document</description>
+    </column>
+    <column name="RLDNR" data_type="VARCHAR">
+      <description>Ledger in General Ledger Accounting</description>
+    </column>
+    <column name="RBUKRS" data_type="VARCHAR">
+      <description>Company Code</description>
+    </column>
+    <column name="DOCLN" data_type="VARCHAR">
+      <description>Six-Character Posting Item for Ledger</description>
+    </column>
+    <column name="ACTIV" data_type="VARCHAR">
+      <description>FI-SL Business Transaction</description>
+    </column>
+    <column name="RMVCT" data_type="VARCHAR">
+      <description>Transaction type</description>
+    </column>
+    <column name="RTCUR" data_type="VARCHAR">
+      <description>Currency Key</description>
+    </column>
+    <column name="RUNIT" data_type="VARCHAR">
+      <description>Base Unit of Measure</description>
+    </column>
+    <column name="AWTYP" data_type="VARCHAR">
+      <description>Reference procedure</description>
+    </column>
+    <column name="RRCTY" data_type="VARCHAR">
+      <description>Record Type</description>
+    </column>
+    <column name="RVERS" data_type="VARCHAR">
+      <description>Version</description>
+    </column>
+    <column name="LOGSYS" data_type="VARCHAR">
+      <description>Logical System</description>
+    </column>
+    <column name="RACCT" data_type="VARCHAR">
+      <description>Account Number</description>
+    </column>
+    <column name="COST_ELEM" data_type="VARCHAR">
+      <description>Cost Element</description>
+    </column>
+    <column name="RCNTR" data_type="VARCHAR">
+      <description>Cost Center</description>
+    </column>
+    <column name="PRCTR" data_type="VARCHAR">
+      <description>Profit Center</description>
+    </column>
+    <column name="RFAREA" data_type="VARCHAR">
+      <description>Functional Area</description>
+    </column>
+    <column name="RBUSA" data_type="VARCHAR">
+      <description>Business Area</description>
+    </column>
+    <column name="KOKRS" data_type="VARCHAR">
+      <description>Controlling Area</description>
+    </column>
+    <column name="SEGMENT" data_type="VARCHAR">
+      <description>Segment for Segmental Reporting</description>
+    </column>
+    <column name="ZZSPREG" data_type="VARCHAR">
+      <description>Special Region</description>
+    </column>
+    <column name="SCNTR" data_type="VARCHAR">
+      <description>Sender cost center</description>
+    </column>
+    <column name="PPRCTR" data_type="VARCHAR">
+      <description>Partner Profit Center</description>
+    </column>
+    <column name="SFAREA" data_type="VARCHAR">
+      <description>Partner Functional Area</description>
+    </column>
+    <column name="SBUSA" data_type="VARCHAR">
+      <description>Trading partner's business area</description>
+    </column>
+    <column name="RASSC" data_type="VARCHAR">
+      <description>Company ID of Trading Partner</description>
+    </column>
+    <column name="PSEGMENT" data_type="VARCHAR">
+      <description>Partner Segment for Segmental Reporting</description>
+    </column>
+    <column name="TSL" data_type="DECIMAL">
+      <description>Value in Transaction Currency</description>
+    </column>
+    <column name="HSL" data_type="DECIMAL">
+      <description>Value in Local Currency</description>
+    </column>
+    <column name="KSL" data_type="DECIMAL">
+      <description>Value in Group Currency</description>
+    </column>
+    <column name="OSL" data_type="DECIMAL">
+      <description>Value in Another Currency</description>
+    </column>
+    <column name="MSL" data_type="DECIMAL">
+      <description>Quantity</description>
+    </column>
+    <column name="WSL" data_type="DECIMAL">
+      <description>Value in Original Transaction Currency (Document Currency)</description>
+    </column>
+    <column name="DRCRK" data_type="VARCHAR">
+      <description>Debit/Credit Indicator</description>
+    </column>
+    <column name="POPER" data_type="VARCHAR">
+      <description>Posting Period</description>
+    </column>
+    <column name="RWCUR" data_type="VARCHAR">
+      <description>Currency key of the original transaction currency</description>
+    </column>
+    <column name="GJAHR" data_type="VARCHAR">
+      <description>Fiscal Year</description>
+    </column>
+    <column name="BUDAT" data_type="DATE">
+      <description>Posting Date in the Document</description>
+    </column>
+    <column name="BELNR" data_type="VARCHAR">
+      <description>Document Number of an Accounting Document</description>
+    </column>
+    <column name="BUZEI" data_type="VARCHAR">
+      <description>Number of Line Item Within Accounting Document</description>
+    </column>
+    <column name="BSCHL" data_type="VARCHAR">
+      <description>Posting Key</description>
+    </column>
+    <column name="BSTAT" data_type="VARCHAR">
+      <description>Document Status</description>
+    </column>
+    <column name="LINETYPE" data_type="VARCHAR">
+      <description>Item category</description>
+    </column>
+    <column name="XSPLITMOD" data_type="VARCHAR">
+      <description>Item changed by document splitting</description>
+    </column>
+    <column name="USNAM" data_type="VARCHAR">
+      <description>User Name</description>
+    </column>
+    <column name="TIMESTAMP" data_type="DECIMAL">
+      <description>UTC Time Stamp in Short Form (YYYYMMDDhhmmss)</description>
+    </column>
+  </columns>
+</data_description>

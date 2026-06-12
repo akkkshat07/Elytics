@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="AGR_DEFINE">
+  <table_info name="AGR_DEFINE" total_columns="12" />
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client ID</description>
+    </column>
+    <column name="AGR_NAME" data_type="VARCHAR">
+      <description>Role Name</description>
+    </column>
+    <column name="PARENT_AGR" data_type="VARCHAR">
+      <description>Name of imparting role</description>
+    </column>
+    <column name="CREATE_USR" data_type="VARCHAR">
+      <description>User Name</description>
+    </column>
+    <column name="CREATE_DAT" data_type="DATE">
+      <description>Date of menu generation</description>
+    </column>
+    <column name="CREATE_TIM" data_type="TIME">
+      <description>Time when the menu was generated last</description>
+    </column>
+    <column name="CREATE_TMP" data_type="DECIMAL">
+      <description>UTC Time Stamp in Short Form (YYYYMMDDhhmmss)</description>
+    </column>
+    <column name="CHANGE_USR" data_type="VARCHAR">
+      <description>User Name</description>
+    </column>
+    <column name="CHANGE_DAT" data_type="DATE">
+      <description>Date of menu generation</description>
+    </column>
+    <column name="CHANGE_TIM" data_type="TIME">
+      <description>Time when the menu was generated last</description>
+    </column>
+    <column name="CHANGE_TMP" data_type="DECIMAL">
+      <description>UTC Time Stamp in Short Form (YYYYMMDDhhmmss)</description>
+    </column>
+    <column name="ATTRIBUTES" data_type="VARCHAR">
+      <description>Attributes of the menu</description>
+    </column>
+  </columns>
+</data_description>

@@ -1,0 +1,159 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="ANEK">
+  <table_info name="ANEK" total_columns="51"/>
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="BUKRS" data_type="VARCHAR">
+      <description>Company Code</description>
+    </column>
+    <column name="ANLN1" data_type="VARCHAR">
+      <description>Main Asset Number</description>
+    </column>
+    <column name="ANLN2" data_type="VARCHAR">
+      <description>Asset Subnumber</description>
+    </column>
+    <column name="GJAHR" data_type="VARCHAR">
+      <description>Fiscal Year</description>
+    </column>
+    <column name="LNRAN" data_type="VARCHAR">
+      <description>Sequence Number of Asset Line Items in Fiscal Year</description>
+    </column>
+    <column name="BLDAT" data_type="DATE">
+      <description>Document Date in Document</description>
+    </column>
+    <column name="BUDAT" data_type="DATE">
+      <description>Posting Date in the Document</description>
+    </column>
+    <column name="MONAT" data_type="VARCHAR">
+      <description>Fiscal period</description>
+    </column>
+    <column name="CPUDT" data_type="DATE">
+      <description>Day On Which Accounting Document Was Entered</description>
+    </column>
+    <column name="CPUTM" data_type="TIME">
+      <description>Time of Entry</description>
+    </column>
+    <column name="AEDAT" data_type="DATE">
+      <description>Date of the Last Document Change by Transaction</description>
+    </column>
+    <column name="UPDDT" data_type="DATE">
+      <description>Date of the Last Document Update</description>
+    </column>
+    <column name="USNAM" data_type="VARCHAR">
+      <description>User Name</description>
+    </column>
+    <column name="TCODE" data_type="VARCHAR">
+      <description>Transaction Code</description>
+    </column>
+    <column name="BVORG" data_type="VARCHAR">
+      <description>Number of a Cross-Company Code Posting Transaction</description>
+    </column>
+    <column name="XBLNR" data_type="VARCHAR">
+      <description>Reference Document Number</description>
+    </column>
+    <column name="STBLG" data_type="VARCHAR">
+      <description>Reverse Document Number</description>
+    </column>
+    <column name="STJAH" data_type="VARCHAR">
+      <description>Reverse document fiscal year</description>
+    </column>
+    <column name="SGTXT" data_type="VARCHAR">
+      <description>Item Text</description>
+    </column>
+    <column name="MENGE" data_type="DECIMAL">
+      <description>Quantity</description>
+    </column>
+    <column name="MEINS" data_type="VARCHAR">
+      <description>Base Unit of Measure</description>
+    </column>
+    <column name="ANLU1" data_type="VARCHAR">
+      <description>Asset number acquiring/retiring asset in transfer</description>
+    </column>
+    <column name="ANLU2" data_type="VARCHAR">
+      <description>Subnumber of receiving/sending asset in transfer</description>
+    </column>
+    <column name="ANUPD" data_type="VARCHAR">
+      <description>Indicator: Type of change to table</description>
+    </column>
+    <column name="GLVOR" data_type="VARCHAR">
+      <description>Business Transaction</description>
+    </column>
+    <column name="VBUND" data_type="VARCHAR">
+      <description>Company ID of Trading Partner</description>
+    </column>
+    <column name="PARGB" data_type="VARCHAR">
+      <description>Trading partner's business area</description>
+    </column>
+    <column name="BUREG" data_type="VARCHAR">
+      <description>Distribution Rule Group</description>
+    </column>
+    <column name="AUGLZ" data_type="VARCHAR">
+      <description>Unused field length 3</description>
+    </column>
+    <column name="ABRBUP" data_type="VARCHAR">
+      <description>Posting period of settlement</description>
+    </column>
+    <column name="OBART" data_type="VARCHAR">
+      <description>Object type of forwarding object at settlement</description>
+    </column>
+    <column name="OBJID" data_type="VARCHAR">
+      <description>Forwarding object nr.</description>
+    </column>
+    <column name="ZUONR" data_type="VARCHAR">
+      <description>Assignment number</description>
+    </column>
+    <column name="MWSKZ" data_type="VARCHAR">
+      <description>Tax on Sales/Purchases Code</description>
+    </column>
+    <column name="EBELN" data_type="VARCHAR">
+      <description>Purchasing Document Number</description>
+    </column>
+    <column name="EBELP" data_type="VARCHAR">
+      <description>Item Number of Purchasing Document</description>
+    </column>
+    <column name="MATNR" data_type="VARCHAR">
+      <description>Material Number</description>
+    </column>
+    <column name="AUGLN" data_type="VARCHAR">
+      <description>Reserve Field</description>
+    </column>
+    <column name="BELNR" data_type="VARCHAR">
+      <description>Reference Doc. Number</description>
+    </column>
+    <column name="BUZEI" data_type="VARCHAR">
+      <description>Number of Line Item Within Accounting Document</description>
+    </column>
+    <column name="BZDAT" data_type="DATE">
+      <description>Asset Value Date</description>
+    </column>
+    <column name="XANTEI" data_type="VARCHAR">
+      <description>Ind: Post proportional values automatically</description>
+    </column>
+    <column name="AWTYP" data_type="VARCHAR">
+      <description>Reference procedure</description>
+    </column>
+    <column name="AWORG" data_type="VARCHAR">
+      <description>Reference organisational units</description>
+    </column>
+    <column name="AWSYS" data_type="VARCHAR">
+      <description>Logical System</description>
+    </column>
+    <column name="PBUKR" data_type="VARCHAR">
+      <description>Partner Company Code</description>
+    </column>
+    <column name="VORGN" data_type="VARCHAR">
+      <description>Transaction Type for General Ledger</description>
+    </column>
+    <column name="LDGRP" data_type="VARCHAR">
+      <description>Ledger Group</description>
+    </column>
+    <column name="DOCUMENT_UUID" data_type="VARCHAR">
+      <description>16 Byte UUID in 16 Bytes (Raw Format)</description>
+    </column>
+    <column name="TRANSACTION_UUID" data_type="VARCHAR">
+      <description>16 Byte UUID in 16 Bytes (Raw Format)</description>
+    </column>
+  </columns>
+</data_description>

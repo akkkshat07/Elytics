@@ -1,0 +1,117 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="VEPO">
+  <table_info name="VEPO" total_columns="37"/>
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="VENUM" data_type="VARCHAR">
+      <description>Internal Handling Unit Number</description>
+    </column>
+    <column name="VEPOS" data_type="VARCHAR">
+      <description>Handling Unit Item</description>
+    </column>
+    <column name="VELIN" data_type="VARCHAR">
+      <description>Type of Handling-unit Item Content</description>
+    </column>
+    <column name="VBELN" data_type="VARCHAR">
+      <description>Delivery</description>
+    </column>
+    <column name="POSNR" data_type="VARCHAR">
+      <description>Delivery Item</description>
+    </column>
+    <column name="VBTYP" data_type="VARCHAR">
+      <description>SD document category</description>
+    </column>
+    <column name="UNVEL" data_type="VARCHAR">
+      <description>Lower-level handling unit</description>
+    </column>
+    <column name="VEMNG" data_type="DECIMAL">
+      <description>Base Quantity Packed in the Handling Unit Item</description>
+    </column>
+    <column name="VEMNG_FLO" data_type="FLOAT">
+      <description>Internal field/ Do not use     / LGMNG in float / MUM</description>
+    </column>
+    <column name="VEMEH" data_type="VARCHAR">
+      <description>Base Unit of Measure of the Quantity to be Packed (VEMNG)</description>
+    </column>
+    <column name="ALTME" data_type="VARCHAR">
+      <description>Alternative unit of measure for stock unit of measure</description>
+    </column>
+    <column name="VEANZ" data_type="INTEGER">
+      <description>Number of Auxiliary Packaging Materials in the HU Item</description>
+    </column>
+    <column name="KZBEI" data_type="VARCHAR">
+      <description>Indicator: Supplementary item</description>
+    </column>
+    <column name="MATNR" data_type="VARCHAR">
+      <description>Material Number</description>
+    </column>
+    <column name="CHARG" data_type="VARCHAR">
+      <description>Batch Number</description>
+    </column>
+    <column name="WERKS" data_type="VARCHAR">
+      <description>Plant</description>
+    </column>
+    <column name="LGORT" data_type="VARCHAR">
+      <description>Storage Location</description>
+    </column>
+    <column name="CUOBJ" data_type="VARCHAR">
+      <description>Configuration (internal object number)</description>
+    </column>
+    <column name="BESTQ" data_type="VARCHAR">
+      <description>Stock Category in the Warehouse Management System</description>
+    </column>
+    <column name="SOBKZ" data_type="VARCHAR">
+      <description>Special Stock Indicator</description>
+    </column>
+    <column name="SONUM" data_type="VARCHAR">
+      <description>Special Stock Number</description>
+    </column>
+    <column name="QPLOS" data_type="VARCHAR">
+      <description>Inspection Lot Number</description>
+    </column>
+    <column name="ANZSN" data_type="INTEGER">
+      <description>Number of serial numbers</description>
+    </column>
+    <column name="SERAIL" data_type="VARCHAR">
+      <description>Serial Number Profile</description>
+    </column>
+    <column name="PSTYV" data_type="VARCHAR">
+      <description>Sales Document Item Category</description>
+    </column>
+    <column name="POSNR_GEN" data_type="VARCHAR">
+      <description>Generated delivery item</description>
+    </column>
+    <column name="P_MATERIAL" data_type="VARCHAR">
+      <description>Material number of partner (customer / supplier)</description>
+    </column>
+    <column name="WDATU" data_type="DATE">
+      <description>Date of Goods Receipt</description>
+    </column>
+    <column name="VFDAT" data_type="DATE">
+      <description>Shelf Life Expiration or Best-Before Date</description>
+    </column>
+    <column name="HU_LGORT" data_type="VARCHAR">
+      <description>Content is Located at an HU-managed Storage Location</description>
+    </column>
+    <column name="XCHAR" data_type="VARCHAR">
+      <description>HU Item has a Tentative Assignment</description>
+    </column>
+    <column name="SPE_IDPLATE" data_type="VARCHAR">
+      <description>Identification of the HU Content</description>
+    </column>
+    <column name="SGT_SCAT" data_type="VARCHAR">
+      <description>Stock Segment</description>
+    </column>
+    <column name="WRF_CHARSTC1" data_type="VARCHAR">
+      <description>Characteristic Value 1</description>
+    </column>
+    <column name="WRF_CHARSTC2" data_type="VARCHAR">
+      <description>Characteristic Value 2</description>
+    </column>
+    <column name="WRF_CHARSTC3" data_type="VARCHAR">
+      <description>Characteristic Value 3</description>
+    </column>
+  </columns>
+</data_description>

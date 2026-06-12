@@ -1,0 +1,108 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="QINF">
+  <table_info name="QINF" total_columns="34" />
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="MATNR" data_type="VARCHAR">
+      <description>Material Number</description>
+    </column>
+    <column name="ZAEHL" data_type="VARCHAR">
+      <description>Internal Counter for DB Objects</description>
+    </column>
+    <column name="ERSTELLER" data_type="VARCHAR">
+      <description>Name of User who Created the Q-Info Record</description>
+    </column>
+    <column name="ERSTELLDAT" data_type="DATE">
+      <description>Create Date of Q-Info Record</description>
+    </column>
+    <column name="AENDERER" data_type="VARCHAR">
+      <description>Name of User who Most Recently Changed the Q-Info Record</description>
+    </column>
+    <column name="AENDERDAT" data_type="DATE">
+      <description>Change Date of Q-Info Record</description>
+    </column>
+    <column name="LIEFERANT" data_type="VARCHAR">
+      <description>Supplier's Account Number</description>
+    </column>
+    <column name="WERK" data_type="VARCHAR">
+      <description>Plant</description>
+    </column>
+    <column name="FREI_DAT" data_type="DATE">
+      <description>Date Until Which the Release Is Valid</description>
+    </column>
+    <column name="FREI_MGKZ" data_type="VARCHAR">
+      <description>Release Quantity Is Active</description>
+    </column>
+    <column name="ME" data_type="VARCHAR">
+      <description>Base Unit of Measure for the Material</description>
+    </column>
+    <column name="FREI_MNG" data_type="DECIMAL">
+      <description>Quantity Released for the Material</description>
+    </column>
+    <column name="BEST_MG" data_type="DECIMAL">
+      <description>Quantity Ordered for the Material</description>
+    </column>
+    <column name="DAT_RUECK" data_type="DATE">
+      <description>Date when the Ordered Quantity Was Reset</description>
+    </column>
+    <column name="SPERRGRUND" data_type="VARCHAR">
+      <description>Blocking reason</description>
+    </column>
+    <column name="SPRACHE" data_type="VARCHAR">
+      <description>Language Key</description>
+    </column>
+    <column name="SPERRFKT" data_type="VARCHAR">
+      <description>Function That Will Be Blocked</description>
+    </column>
+    <column name="QVVORH" data_type="VARCHAR">
+      <description>Quality Assurance Agreement Exists</description>
+    </column>
+    <column name="NOINSP" data_type="VARCHAR">
+      <description>Inspection Control in the QM Info Record</description>
+    </column>
+    <column name="QSSYSFAM" data_type="VARCHAR">
+      <description>Vendor's QM system</description>
+    </column>
+    <column name="QSSYSDAT" data_type="DATE">
+      <description>Validity date of certification</description>
+    </column>
+    <column name="VARIABNAHM" data_type="VARCHAR">
+      <description>Inspection Type for Insp. Lot Origin (Source Inspection)</description>
+    </column>
+    <column name="LTEXTKZ" data_type="VARCHAR">
+      <description>Inspection Characteristic Long Text Exists</description>
+    </column>
+    <column name="SPRAS" data_type="VARCHAR">
+      <description>Language Key</description>
+    </column>
+    <column name="PLOS" data_type="VARCHAR">
+      <description>Inspection Lot No. in QINF for Current Status</description>
+    </column>
+    <column name="PLOS2" data_type="VARCHAR">
+      <description>Inspection Lot No. in QINF for Next Status</description>
+    </column>
+    <column name="STSMA" data_type="VARCHAR">
+      <description>Status Profile Assigned to Quality Info Record</description>
+    </column>
+    <column name="OBJNR" data_type="VARCHAR">
+      <description>QINF Object Number in Status Management</description>
+    </column>
+    <column name="NOINSPABN" data_type="VARCHAR">
+      <description>No GR Inspection if Source Inspection Lot Exists</description>
+    </column>
+    <column name="VORLABN" data_type="INTEGER">
+      <description>Lot Creation Lead Time (in Days) for Source Inspection</description>
+    </column>
+    <column name="REVLV" data_type="VARCHAR">
+      <description>Revision Level</description>
+    </column>
+    <column name="LOEKZ" data_type="VARCHAR">
+      <description>Deletion Flag</description>
+    </column>
+    <column name="CERTCONTROL" data_type="VARCHAR">
+      <description>Control of Certificate Receipt</description>
+    </column>
+  </columns>
+</data_description>

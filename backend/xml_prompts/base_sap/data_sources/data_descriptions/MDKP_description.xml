@@ -1,0 +1,300 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="MDKP">
+  <table_info name="MDKP" total_columns="98"/>
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="DTART" data_type="VARCHAR">
+      <description>Type of MRP list</description>
+    </column>
+    <column name="MATNR" data_type="VARCHAR">
+      <description>Material Number</description>
+    </column>
+    <column name="PLWRK" data_type="VARCHAR">
+      <description>Plant</description>
+    </column>
+    <column name="PLSCN" data_type="VARCHAR">
+      <description>Planning Scenario of Long-Term Planning</description>
+    </column>
+    <column name="DTNUM" data_type="VARCHAR">
+      <description>Number of material requirements planning table</description>
+    </column>
+    <column name="DSDAT" data_type="DATE">
+      <description>MRP date</description>
+    </column>
+    <column name="BDBKZ" data_type="VARCHAR">
+      <description>Selection indicator for processed MRP lists</description>
+    </column>
+    <column name="SLKZ1" data_type="VARCHAR">
+      <description>Selection indicator for exception groups</description>
+    </column>
+    <column name="SLKZ2" data_type="VARCHAR">
+      <description>Selection indicator for exception groups</description>
+    </column>
+    <column name="SLKZ3" data_type="VARCHAR">
+      <description>Selection indicator for exception groups</description>
+    </column>
+    <column name="SLKZ4" data_type="VARCHAR">
+      <description>Selection indicator for exception groups</description>
+    </column>
+    <column name="SLKZ5" data_type="VARCHAR">
+      <description>Selection indicator for exception groups</description>
+    </column>
+    <column name="SLKZ6" data_type="VARCHAR">
+      <description>Selection indicator for exception groups</description>
+    </column>
+    <column name="SLKZ7" data_type="VARCHAR">
+      <description>Selection indicator for exception groups</description>
+    </column>
+    <column name="SLKZ8" data_type="VARCHAR">
+      <description>Selection indicator for exception groups</description>
+    </column>
+    <column name="VRKZ1" data_type="VARCHAR">
+      <description>Processing indicator 01</description>
+    </column>
+    <column name="VRKZ2" data_type="VARCHAR">
+      <description>Processing indicator 02</description>
+    </column>
+    <column name="VRKZ3" data_type="VARCHAR">
+      <description>Processing indicator - 03</description>
+    </column>
+    <column name="MTART" data_type="VARCHAR">
+      <description>Material Type</description>
+    </column>
+    <column name="MEINS" data_type="VARCHAR">
+      <description>Base Unit of Measure</description>
+    </column>
+    <column name="DISST" data_type="VARCHAR">
+      <description>Low-Level Code</description>
+    </column>
+    <column name="BESKZ" data_type="VARCHAR">
+      <description>Procurement Type</description>
+    </column>
+    <column name="SOBSL" data_type="VARCHAR">
+      <description>Special procurement type</description>
+    </column>
+    <column name="SOBES" data_type="VARCHAR">
+      <description>Special procurement type</description>
+    </column>
+    <column name="WRK02" data_type="VARCHAR">
+      <description>Planning/production plant</description>
+    </column>
+    <column name="DISMM" data_type="VARCHAR">
+      <description>MRP Type</description>
+    </column>
+    <column name="DISVF" data_type="VARCHAR">
+      <description>MRP procedure</description>
+    </column>
+    <column name="DISPO" data_type="VARCHAR">
+      <description>MRP Controller</description>
+    </column>
+    <column name="PLDIS" data_type="VARCHAR">
+      <description>Planning controller (no longer used)</description>
+    </column>
+    <column name="EKGRP" data_type="VARCHAR">
+      <description>Purchasing Group</description>
+    </column>
+    <column name="MTWZT" data_type="DECIMAL">
+      <description>Material replenishment lead time</description>
+    </column>
+    <column name="WEBAZ" data_type="DECIMAL">
+      <description>Goods receipt processing time in days</description>
+    </column>
+    <column name="BEAZT" data_type="DECIMAL">
+      <description>Processing time for purchase order proposal</description>
+    </column>
+    <column name="FIXTR" data_type="DATE">
+      <description>End of planning time fence (date)</description>
+    </column>
+    <column name="MFHKZ" data_type="VARCHAR">
+      <description>Planning time fence set manually (MFXDT)</description>
+    </column>
+    <column name="DISLS" data_type="VARCHAR">
+      <description>Lot size (materials planning)</description>
+    </column>
+    <column name="LOSVF" data_type="VARCHAR">
+      <description>Lot-sizing procedure for short-term period</description>
+    </column>
+    <column name="LOSKZ" data_type="VARCHAR">
+      <description>Lot-size indicator for the short-term period</description>
+    </column>
+    <column name="PERAZ" data_type="DECIMAL">
+      <description>Number of periods for the short-term area</description>
+    </column>
+    <column name="EISBE" data_type="DECIMAL">
+      <description>Safety Stock</description>
+    </column>
+    <column name="MINBE" data_type="DECIMAL">
+      <description>Reorder Point</description>
+    </column>
+    <column name="HOEBE" data_type="DECIMAL">
+      <description>Maximum stock level</description>
+    </column>
+    <column name="BSTMI" data_type="DECIMAL">
+      <description>Minimum Lot Size</description>
+    </column>
+    <column name="BSTMA" data_type="DECIMAL">
+      <description>Maximum Lot Size</description>
+    </column>
+    <column name="BSTFX" data_type="DECIMAL">
+      <description>Fixed lot size</description>
+    </column>
+    <column name="BSTRF" data_type="DECIMAL">
+      <description>Rounding value for purchase order quantity</description>
+    </column>
+    <column name="SUM01" data_type="DECIMAL">
+      <description>Plant stock / only plant segment</description>
+    </column>
+    <column name="SUM02" data_type="DECIMAL">
+      <description>No longer used/do not use!!</description>
+    </column>
+    <column name="SUM03" data_type="DECIMAL">
+      <description>No longer used/do not use!!</description>
+    </column>
+    <column name="SUM04" data_type="DECIMAL">
+      <description>No longer used/do not use!!</description>
+    </column>
+    <column name="SUM05" data_type="DECIMAL">
+      <description>No longer used/do not use!!</description>
+    </column>
+    <column name="NEGBS" data_type="DECIMAL">
+      <description>Negative stock</description>
+    </column>
+    <column name="MSGID" data_type="VARCHAR">
+      <description>Message identification</description>
+    </column>
+    <column name="MSGAR" data_type="VARCHAR">
+      <description>Message Type</description>
+    </column>
+    <column name="MSGNR" data_type="VARCHAR">
+      <description>Message number</description>
+    </column>
+    <column name="MSGV1" data_type="VARCHAR">
+      <description>Message variable 01</description>
+    </column>
+    <column name="MSGV2" data_type="VARCHAR">
+      <description>Message variable 02</description>
+    </column>
+    <column name="MSGV3" data_type="VARCHAR">
+      <description>Message variable 03</description>
+    </column>
+    <column name="MSGV4" data_type="VARCHAR">
+      <description>Message variable 04</description>
+    </column>
+    <column name="DISGR" data_type="VARCHAR">
+      <description>MRP Group</description>
+    </column>
+    <column name="PERIV" data_type="VARCHAR">
+      <description>Fiscal Year Variant</description>
+    </column>
+    <column name="MRPPP" data_type="VARCHAR">
+      <description>PPC planning calendar</description>
+    </column>
+    <column name="BDARF" data_type="DECIMAL">
+      <description>Requirements quantity from material requirements planning</description>
+    </column>
+    <column name="LFRHY" data_type="VARCHAR">
+      <description>Planning cycle</description>
+    </column>
+    <column name="RDPRF" data_type="VARCHAR">
+      <description>Rounding Profile</description>
+    </column>
+    <column name="BERW1" data_type="DECIMAL">
+      <description>Stock Days' Supply Without Receipts</description>
+    </column>
+    <column name="BERW2" data_type="DECIMAL">
+      <description>First Receipt Days' Supply</description>
+    </column>
+    <column name="KZAUS" data_type="VARCHAR">
+      <description>Discontinuation indicator</description>
+    </column>
+    <column name="AUSDT" data_type="DATE">
+      <description>Effective-Out Date</description>
+    </column>
+    <column name="NFMAT" data_type="VARCHAR">
+      <description>Follow-Up Material</description>
+    </column>
+    <column name="AUSZ1" data_type="VARCHAR">
+      <description>Exception group in the MRP list</description>
+    </column>
+    <column name="AUSZ2" data_type="VARCHAR">
+      <description>Exception group in the MRP list</description>
+    </column>
+    <column name="AUSZ3" data_type="VARCHAR">
+      <description>Exception group in the MRP list</description>
+    </column>
+    <column name="AUSZ4" data_type="VARCHAR">
+      <description>Exception group in the MRP list</description>
+    </column>
+    <column name="AUSZ5" data_type="VARCHAR">
+      <description>Exception group in the MRP list</description>
+    </column>
+    <column name="AUSZ6" data_type="VARCHAR">
+      <description>Exception group in the MRP list</description>
+    </column>
+    <column name="AUSZ7" data_type="VARCHAR">
+      <description>Exception group in the MRP list</description>
+    </column>
+    <column name="AUSZ8" data_type="VARCHAR">
+      <description>Exception group in the MRP list</description>
+    </column>
+    <column name="BEADA" data_type="DATE">
+      <description>MRP list processing date</description>
+    </column>
+    <column name="NAUKZ" data_type="VARCHAR">
+      <description>Indicator: new exception in the MRP list</description>
+    </column>
+    <column name="SAUFT" data_type="VARCHAR">
+      <description>Ind.: Repetitive mfg allowed</description>
+    </column>
+    <column name="KZPROMO" data_type="VARCHAR">
+      <description>Indicator: Material in promotion</description>
+    </column>
+    <column name="SHFLG" data_type="VARCHAR">
+      <description>Safety time indicator (with or without safety time)</description>
+    </column>
+    <column name="SHZET" data_type="VARCHAR">
+      <description>Safety time (in workdays)</description>
+    </column>
+    <column name="FABKZ" data_type="VARCHAR">
+      <description>Indicator: Item Relevant to JIT Delivery Schedules</description>
+    </column>
+    <column name="MFXDT" data_type="DATE">
+      <description>Manual firming date</description>
+    </column>
+    <column name="BSKFL" data_type="VARCHAR">
+      <description>Flag whether stock correction factors exist</description>
+    </column>
+    <column name="MAABC" data_type="VARCHAR">
+      <description>ABC Indicator</description>
+    </column>
+    <column name="CFLAG" data_type="VARCHAR">
+      <description>Aggregated MRP list</description>
+    </column>
+    <column name="GRREL" data_type="VARCHAR">
+      <description>Relevant for requirements grouping for project stock</description>
+    </column>
+    <column name="RWPRO" data_type="VARCHAR">
+      <description>Range of coverage profile</description>
+    </column>
+    <column name="SHPRO" data_type="VARCHAR">
+      <description>Period Profile for Safety Time</description>
+    </column>
+    <column name="AHDIS" data_type="VARCHAR">
+      <description>MRP relevancy for dependent requirements</description>
+    </column>
+    <column name="BERW4" data_type="DECIMAL">
+      <description>Second Receipt Days' Supply</description>
+    </column>
+    <column name="BADON" data_type="VARCHAR">
+      <description>Indicator: BAdI is Active</description>
+    </column>
+    <column name="SGT_STATC" data_type="VARCHAR">
+      <description>Segmentation Status</description>
+    </column>
+    <column name="HANAON" data_type="VARCHAR">
+      <description>HANA Optimizations Active / Inactive</description>
+    </column>
+  </columns>
+</data_description>

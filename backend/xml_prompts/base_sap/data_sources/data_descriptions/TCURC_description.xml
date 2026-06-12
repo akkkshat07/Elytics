@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="TCURC">
+  <table_info name="TCURC" total_columns="6" />
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="WAERS" data_type="VARCHAR">
+      <description>Currency Key</description>
+    </column>
+    <column name="ISOCD" data_type="VARCHAR">
+      <description>ISO Currency Code</description>
+    </column>
+    <column name="ALTWR" data_type="VARCHAR">
+      <description>Alternative key for currencies</description>
+    </column>
+    <column name="GDATU" data_type="DATE">
+      <description>Date until which the currency is valid</description>
+    </column>
+    <column name="XPRIMARY" data_type="VARCHAR">
+      <description>Primary SAP Currency Code for ISO Code</description>
+    </column>
+  </columns>
+</data_description>

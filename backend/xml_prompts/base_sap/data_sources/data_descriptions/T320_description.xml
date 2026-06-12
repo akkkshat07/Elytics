@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="T320">
+  <table_info name="T320" total_columns="10" />
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="WERKS" data_type="VARCHAR">
+      <description>Plant</description>
+    </column>
+    <column name="LGORT" data_type="VARCHAR">
+      <description>Storage Location</description>
+    </column>
+    <column name="LGNUM" data_type="VARCHAR">
+      <description>Warehouse Number / Warehouse Complex</description>
+    </column>
+    <column name="OBEST" data_type="VARCHAR">
+      <description>Extent Warehouse Management</description>
+    </column>
+    <column name="LGNTB" data_type="VARCHAR">
+      <description>Do not adopt storage location into transfer requirement</description>
+    </column>
+    <column name="SLGOR" data_type="VARCHAR">
+      <description>Standard storage location of plant in this warehouse number</description>
+    </column>
+    <column name="OBTYP" data_type="VARCHAR">
+      <description>Picking area (storage type) for Lean WM</description>
+    </column>
+    <column name="LGREF" data_type="VARCHAR">
+      <description>Storage loc. ref.</description>
+    </column>
+    <column name="CENSY" data_type="VARCHAR">
+      <description>Reference to central ERP system</description>
+    </column>
+  </columns>
+</data_description>

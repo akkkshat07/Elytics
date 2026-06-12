@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="CSKB">
+  <table_info name="CSKB" total_columns="19"/>
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="KOKRS" data_type="VARCHAR">
+      <description>Controlling Area</description>
+    </column>
+    <column name="KSTAR" data_type="VARCHAR">
+      <description>Cost Element</description>
+    </column>
+    <column name="DATBI" data_type="DATE">
+      <description>Valid To Date</description>
+    </column>
+    <column name="DATAB" data_type="DATE">
+      <description>Valid-From Date</description>
+    </column>
+    <column name="KATYP" data_type="VARCHAR">
+      <description>Cost element category</description>
+    </column>
+    <column name="ERSDA" data_type="DATE">
+      <description>Created on</description>
+    </column>
+    <column name="USNAM" data_type="VARCHAR">
+      <description>Entered By</description>
+    </column>
+    <column name="EIGEN" data_type="VARCHAR">
+      <description>Cost element attributes</description>
+    </column>
+    <column name="PLAZU" data_type="VARCHAR">
+      <description>Indicator for planning access</description>
+    </column>
+    <column name="PLAOR" data_type="VARCHAR">
+      <description>Indicator for the planning location</description>
+    </column>
+    <column name="PLAUS" data_type="VARCHAR">
+      <description>Indicators for planning user</description>
+    </column>
+    <column name="KOSTL" data_type="VARCHAR">
+      <description>Cost Center</description>
+    </column>
+    <column name="AUFNR" data_type="VARCHAR">
+      <description>Order Number</description>
+    </column>
+    <column name="MGEFL" data_type="VARCHAR">
+      <description>Indicator for Recording Consumption Quantities</description>
+    </column>
+    <column name="MSEHI" data_type="VARCHAR">
+      <description>Unit of Measurement</description>
+    </column>
+    <column name="DEAKT" data_type="VARCHAR">
+      <description>Indicator: Cost element deactivated</description>
+    </column>
+    <column name="LOEVM" data_type="VARCHAR">
+      <description>Indicator: Cost element is flagged for deletion</description>
+    </column>
+    <column name="RECID" data_type="VARCHAR">
+      <description>Recovery Indicator</description>
+    </column>
+  </columns>
+</data_description>

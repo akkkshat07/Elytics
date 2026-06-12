@@ -1,0 +1,321 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="GLPCT">
+  <table_info name="GLPCT" total_columns="105" />
+  <columns>
+    <column name="RCLNT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="RLDNR" data_type="VARCHAR">
+      <description>Ledger</description>
+    </column>
+    <column name="RRCTY" data_type="VARCHAR">
+      <description>Record Type</description>
+    </column>
+    <column name="RVERS" data_type="VARCHAR">
+      <description>Version</description>
+    </column>
+    <column name="RYEAR" data_type="VARCHAR">
+      <description>Fiscal Year</description>
+    </column>
+    <column name="ROBJNR" data_type="VARCHAR">
+      <description>Object number for FI-SL tables</description>
+    </column>
+    <column name="COBJNR" data_type="VARCHAR">
+      <description>Object number for FI-SL tables</description>
+    </column>
+    <column name="SOBJNR" data_type="VARCHAR">
+      <description>Object number for FI-SL tables</description>
+    </column>
+    <column name="RTCUR" data_type="VARCHAR">
+      <description>Currency Key</description>
+    </column>
+    <column name="RUNIT" data_type="VARCHAR">
+      <description>Base Unit of Measure</description>
+    </column>
+    <column name="DRCRK" data_type="VARCHAR">
+      <description>Debit/Credit Indicator</description>
+    </column>
+    <column name="RPMAX" data_type="VARCHAR">
+      <description>Period</description>
+    </column>
+    <column name="RBUKRS" data_type="VARCHAR">
+      <description>Company Code</description>
+    </column>
+    <column name="RPRCTR" data_type="VARCHAR">
+      <description>Profit Center</description>
+    </column>
+    <column name="RHOART" data_type="VARCHAR">
+      <description>Type of origin object (EC-PCA)</description>
+    </column>
+    <column name="RFAREA" data_type="VARCHAR">
+      <description>Functional Area</description>
+    </column>
+    <column name="KOKRS" data_type="VARCHAR">
+      <description>Controlling Area</description>
+    </column>
+    <column name="RACCT" data_type="VARCHAR">
+      <description>Account Number</description>
+    </column>
+    <column name="HRKFT" data_type="VARCHAR">
+      <description>Origin Group as Subdivision of Cost Element</description>
+    </column>
+    <column name="RASSC" data_type="VARCHAR">
+      <description>Company ID of Trading Partner</description>
+    </column>
+    <column name="EPRCTR" data_type="VARCHAR">
+      <description>Partner profit center for elimination of internal business</description>
+    </column>
+    <column name="ACTIV" data_type="VARCHAR">
+      <description>FI-SL Business Transaction</description>
+    </column>
+    <column name="AFABE" data_type="VARCHAR">
+      <description>Real depreciation area</description>
+    </column>
+    <column name="OCLNT" data_type="VARCHAR">
+      <description>Original client</description>
+    </column>
+    <column name="LOGSYS" data_type="VARCHAR">
+      <description>Logical System</description>
+    </column>
+    <column name="SBUKRS" data_type="VARCHAR">
+      <description>Sender company code</description>
+    </column>
+    <column name="SPRCTR" data_type="VARCHAR">
+      <description>Partner Profit Center</description>
+    </column>
+    <column name="SHOART" data_type="VARCHAR">
+      <description>Type of receiver object</description>
+    </column>
+    <column name="SFAREA" data_type="VARCHAR">
+      <description>Partner Functional Area</description>
+    </column>
+    <column name="VERSA" data_type="VARCHAR">
+      <description>Results Analysis Version</description>
+    </column>
+    <column name="TSLVT" data_type="DECIMAL">
+      <description>Total transactions of the period in transaction currency</description>
+    </column>
+    <column name="TSL01" data_type="DECIMAL">
+      <description>Total transactions of the period in transaction currency</description>
+    </column>
+    <column name="TSL02" data_type="DECIMAL">
+      <description>Total transactions of the period in transaction currency</description>
+    </column>
+    <column name="TSL03" data_type="DECIMAL">
+      <description>Total transactions of the period in transaction currency</description>
+    </column>
+    <column name="TSL04" data_type="DECIMAL">
+      <description>Total transactions of the period in transaction currency</description>
+    </column>
+    <column name="TSL05" data_type="DECIMAL">
+      <description>Total transactions of the period in transaction currency</description>
+    </column>
+    <column name="TSL06" data_type="DECIMAL">
+      <description>Total transactions of the period in transaction currency</description>
+    </column>
+    <column name="TSL07" data_type="DECIMAL">
+      <description>Total transactions of the period in transaction currency</description>
+    </column>
+    <column name="TSL08" data_type="DECIMAL">
+      <description>Total transactions of the period in transaction currency</description>
+    </column>
+    <column name="TSL09" data_type="DECIMAL">
+      <description>Total transactions of the period in transaction currency</description>
+    </column>
+    <column name="TSL10" data_type="DECIMAL">
+      <description>Total transactions of the period in transaction currency</description>
+    </column>
+    <column name="TSL11" data_type="DECIMAL">
+      <description>Total transactions of the period in transaction currency</description>
+    </column>
+    <column name="TSL12" data_type="DECIMAL">
+      <description>Total transactions of the period in transaction currency</description>
+    </column>
+    <column name="TSL13" data_type="DECIMAL">
+      <description>Total transactions of the period in transaction currency</description>
+    </column>
+    <column name="TSL14" data_type="DECIMAL">
+      <description>Total transactions of the period in transaction currency</description>
+    </column>
+    <column name="TSL15" data_type="DECIMAL">
+      <description>Total transactions of the period in transaction currency</description>
+    </column>
+    <column name="TSL16" data_type="DECIMAL">
+      <description>Total transactions of the period in transaction currency</description>
+    </column>
+    <column name="HSLVT" data_type="DECIMAL">
+      <description>Total transactions for the period in company code curr.</description>
+    </column>
+    <column name="HSL01" data_type="DECIMAL">
+      <description>Total transactions for the period in company code curr.</description>
+    </column>
+    <column name="HSL02" data_type="DECIMAL">
+      <description>Total transactions for the period in company code curr.</description>
+    </column>
+    <column name="HSL03" data_type="DECIMAL">
+      <description>Total transactions for the period in company code curr.</description>
+    </column>
+    <column name="HSL04" data_type="DECIMAL">
+      <description>Total transactions for the period in company code curr.</description>
+    </column>
+    <column name="HSL05" data_type="DECIMAL">
+      <description>Total transactions for the period in company code curr.</description>
+    </column>
+    <column name="HSL06" data_type="DECIMAL">
+      <description>Total transactions for the period in company code curr.</description>
+    </column>
+    <column name="HSL07" data_type="DECIMAL">
+      <description>Total transactions for the period in company code curr.</description>
+    </column>
+    <column name="HSL08" data_type="DECIMAL">
+      <description>Total transactions for the period in company code curr.</description>
+    </column>
+    <column name="HSL09" data_type="DECIMAL">
+      <description>Total transactions for the period in company code curr.</description>
+    </column>
+    <column name="HSL10" data_type="DECIMAL">
+      <description>Total transactions for the period in company code curr.</description>
+    </column>
+    <column name="HSL11" data_type="DECIMAL">
+      <description>Total transactions for the period in company code curr.</description>
+    </column>
+    <column name="HSL12" data_type="DECIMAL">
+      <description>Total transactions for the period in company code curr.</description>
+    </column>
+    <column name="HSL13" data_type="DECIMAL">
+      <description>Total transactions for the period in company code curr.</description>
+    </column>
+    <column name="HSL14" data_type="DECIMAL">
+      <description>Total transactions for the period in company code curr.</description>
+    </column>
+    <column name="HSL15" data_type="DECIMAL">
+      <description>Total transactions for the period in company code curr.</description>
+    </column>
+    <column name="HSL16" data_type="DECIMAL">
+      <description>Total transactions for the period in company code curr.</description>
+    </column>
+    <column name="KSLVT" data_type="DECIMAL">
+      <description>Total transactions for the period in pctr local currency</description>
+    </column>
+    <column name="KSL01" data_type="DECIMAL">
+      <description>Total transactions for the period in pctr local currency</description>
+    </column>
+    <column name="KSL02" data_type="DECIMAL">
+      <description>Total transactions for the period in pctr local currency</description>
+    </column>
+    <column name="KSL03" data_type="DECIMAL">
+      <description>Total transactions for the period in pctr local currency</description>
+    </column>
+    <column name="KSL04" data_type="DECIMAL">
+      <description>Total transactions for the period in pctr local currency</description>
+    </column>
+    <column name="KSL05" data_type="DECIMAL">
+      <description>Total transactions for the period in pctr local currency</description>
+    </column>
+    <column name="KSL06" data_type="DECIMAL">
+      <description>Total transactions for the period in pctr local currency</description>
+    </column>
+    <column name="KSL07" data_type="DECIMAL">
+      <description>Total transactions for the period in pctr local currency</description>
+    </column>
+    <column name="KSL08" data_type="DECIMAL">
+      <description>Total transactions for the period in pctr local currency</description>
+    </column>
+    <column name="KSL09" data_type="DECIMAL">
+      <description>Total transactions for the period in pctr local currency</description>
+    </column>
+    <column name="KSL10" data_type="DECIMAL">
+      <description>Total transactions for the period in pctr local currency</description>
+    </column>
+    <column name="KSL11" data_type="DECIMAL">
+      <description>Total transactions for the period in pctr local currency</description>
+    </column>
+    <column name="KSL12" data_type="DECIMAL">
+      <description>Total transactions for the period in pctr local currency</description>
+    </column>
+    <column name="KSL13" data_type="DECIMAL">
+      <description>Total transactions for the period in pctr local currency</description>
+    </column>
+    <column name="KSL14" data_type="DECIMAL">
+      <description>Total transactions for the period in pctr local currency</description>
+    </column>
+    <column name="KSL15" data_type="DECIMAL">
+      <description>Total transactions for the period in pctr local currency</description>
+    </column>
+    <column name="KSL16" data_type="DECIMAL">
+      <description>Total transactions for the period in pctr local currency</description>
+    </column>
+    <column name="MSLVT" data_type="DECIMAL">
+      <description>Total of the transactions of period in units of measure</description>
+    </column>
+    <column name="MSL01" data_type="DECIMAL">
+      <description>Total of the transactions of period in units of measure</description>
+    </column>
+    <column name="MSL02" data_type="DECIMAL">
+      <description>Total of the transactions of period in units of measure</description>
+    </column>
+    <column name="MSL03" data_type="DECIMAL">
+      <description>Total of the transactions of period in units of measure</description>
+    </column>
+    <column name="MSL04" data_type="DECIMAL">
+      <description>Total of the transactions of period in units of measure</description>
+    </column>
+    <column name="MSL05" data_type="DECIMAL">
+      <description>Total of the transactions of period in units of measure</description>
+    </column>
+    <column name="MSL06" data_type="DECIMAL">
+      <description>Total of the transactions of period in units of measure</description>
+    </column>
+    <column name="MSL07" data_type="DECIMAL">
+      <description>Total of the transactions of period in units of measure</description>
+    </column>
+    <column name="MSL08" data_type="DECIMAL">
+      <description>Total of the transactions of period in units of measure</description>
+    </column>
+    <column name="MSL09" data_type="DECIMAL">
+      <description>Total of the transactions of period in units of measure</description>
+    </column>
+    <column name="MSL10" data_type="DECIMAL">
+      <description>Total of the transactions of period in units of measure</description>
+    </column>
+    <column name="MSL11" data_type="DECIMAL">
+      <description>Total of the transactions of period in units of measure</description>
+    </column>
+    <column name="MSL12" data_type="DECIMAL">
+      <description>Total of the transactions of period in units of measure</description>
+    </column>
+    <column name="MSL13" data_type="DECIMAL">
+      <description>Total of the transactions of period in units of measure</description>
+    </column>
+    <column name="MSL14" data_type="DECIMAL">
+      <description>Total of the transactions of period in units of measure</description>
+    </column>
+    <column name="MSL15" data_type="DECIMAL">
+      <description>Total of the transactions of period in units of measure</description>
+    </column>
+    <column name="MSL16" data_type="DECIMAL">
+      <description>Total of the transactions of period in units of measure</description>
+    </column>
+    <column name="CSPRED" data_type="VARCHAR">
+      <description>Distribution key for currency amounts</description>
+    </column>
+    <column name="QSPRED" data_type="VARCHAR">
+      <description>Distribution key for quantities</description>
+    </column>
+    <column name="STAGR" data_type="VARCHAR">
+      <description>Statistical key figure</description>
+    </column>
+    <column name="WERKS" data_type="VARCHAR">
+      <description>Plant</description>
+    </column>
+    <column name="REP_MATNR" data_type="VARCHAR">
+      <description>Representative material for Profit Center Accounting</description>
+    </column>
+    <column name="RSCOPE" data_type="VARCHAR">
+      <description>Object Class</description>
+    </column>
+    <column name="RMVCT" data_type="VARCHAR">
+      <description>Transaction type</description>
+    </column>
+  </columns>
+</data_description>

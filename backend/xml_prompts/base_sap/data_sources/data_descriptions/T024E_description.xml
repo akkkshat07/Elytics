@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="T024E">
+  <table_info name="T024E" total_columns="12" />
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="EKORG" data_type="VARCHAR">
+      <description>Purchasing Organization</description>
+    </column>
+    <column name="EKOTX" data_type="VARCHAR">
+      <description>Description of purchasing organization</description>
+    </column>
+    <column name="BUKRS" data_type="VARCHAR">
+      <description>Company Code</description>
+    </column>
+    <column name="TXADR" data_type="VARCHAR">
+      <description>Text Name: Sender Line</description>
+    </column>
+    <column name="TXKOP" data_type="VARCHAR">
+      <description>Text Name: Letter Heading</description>
+    </column>
+    <column name="TXFUS" data_type="VARCHAR">
+      <description>Text Name: Footer Lines</description>
+    </column>
+    <column name="TXGRU" data_type="VARCHAR">
+      <description>Text Name: Complimentary Close</description>
+    </column>
+    <column name="KALSE" data_type="VARCHAR">
+      <description>Group for Calculation Schema (Purchasing Organization)</description>
+    </column>
+    <column name="MKALS" data_type="VARCHAR">
+      <description>Calculation Schema for Market Price</description>
+    </column>
+    <column name="BPEFF" data_type="VARCHAR">
+      <description>Effective Price</description>
+    </column>
+    <column name="BUKRS_NTR" data_type="VARCHAR">
+      <description>Company code for subsequent settlement at plant level</description>
+    </column>
+  </columns>
+</data_description>

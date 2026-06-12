@@ -1,0 +1,138 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="USR02">
+  <table_info name="USR02" total_columns="44" />
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="BNAME" data_type="VARCHAR">
+      <description>User Name in User Master Record</description>
+    </column>
+    <column name="BCODE" data_type="VARCHAR">
+      <description>Password Hash Key</description>
+    </column>
+    <column name="GLTGV" data_type="DATE">
+      <description>User valid from</description>
+    </column>
+    <column name="GLTGB" data_type="DATE">
+      <description>User valid to</description>
+    </column>
+    <column name="USTYP" data_type="VARCHAR">
+      <description>User Type</description>
+    </column>
+    <column name="CLASS" data_type="VARCHAR">
+      <description>User group in user master maintenance</description>
+    </column>
+    <column name="LOCNT" data_type="INTEGER">
+      <description>Number of failed logon attempts</description>
+    </column>
+    <column name="UFLAG" data_type="INTEGER">
+      <description>User Lock Status</description>
+    </column>
+    <column name="ACCNT" data_type="VARCHAR">
+      <description>Account ID</description>
+    </column>
+    <column name="ANAME" data_type="VARCHAR">
+      <description>Creator of the User Master Record</description>
+    </column>
+    <column name="ERDAT" data_type="DATE">
+      <description>Creation Date of the User Master Record</description>
+    </column>
+    <column name="TRDAT" data_type="DATE">
+      <description>Last Logon Date</description>
+    </column>
+    <column name="LTIME" data_type="TIME">
+      <description>Last Logon Time</description>
+    </column>
+    <column name="OCOD1" data_type="VARCHAR">
+      <description>Password Hash Key</description>
+    </column>
+    <column name="BCDA1" data_type="DATE">
+      <description>Date of Last Password Change</description>
+    </column>
+    <column name="CODV1" data_type="VARCHAR">
+      <description>Code Version of Password Hash Algorithm (Old Systems)</description>
+    </column>
+    <column name="OCOD2" data_type="VARCHAR">
+      <description>Password Hash Key</description>
+    </column>
+    <column name="BCDA2" data_type="DATE">
+      <description>Date of Last Password Change</description>
+    </column>
+    <column name="CODV2" data_type="VARCHAR">
+      <description>Code Version of Password Hash Algorithm (Old Systems)</description>
+    </column>
+    <column name="OCOD3" data_type="VARCHAR">
+      <description>Password Hash Key</description>
+    </column>
+    <column name="BCDA3" data_type="DATE">
+      <description>Date of Last Password Change</description>
+    </column>
+    <column name="CODV3" data_type="VARCHAR">
+      <description>Code Version of Password Hash Algorithm (Old Systems)</description>
+    </column>
+    <column name="OCOD4" data_type="VARCHAR">
+      <description>Password Hash Key</description>
+    </column>
+    <column name="BCDA4" data_type="DATE">
+      <description>Date of Last Password Change</description>
+    </column>
+    <column name="CODV4" data_type="VARCHAR">
+      <description>Code Version of Password Hash Algorithm (Old Systems)</description>
+    </column>
+    <column name="OCOD5" data_type="VARCHAR">
+      <description>Password Hash Key</description>
+    </column>
+    <column name="BCDA5" data_type="DATE">
+      <description>Date of Last Password Change</description>
+    </column>
+    <column name="CODV5" data_type="VARCHAR">
+      <description>Code Version of Password Hash Algorithm (Old Systems)</description>
+    </column>
+    <column name="VERSN" data_type="VARCHAR">
+      <description>User master record version</description>
+    </column>
+    <column name="CODVN" data_type="VARCHAR">
+      <description>Code Version of Password Hash Algorithm (New Systems)</description>
+    </column>
+    <column name="TZONE" data_type="VARCHAR">
+      <description>Time Zone</description>
+    </column>
+    <column name="ZBVMASTER" data_type="VARCHAR">
+      <description>CUA User Template: Logon Not Possible Here</description>
+    </column>
+    <column name="PASSCODE" data_type="VARCHAR">
+      <description>Password Hash Value (SHA1, 160 Bit)</description>
+    </column>
+    <column name="PWDCHGDATE" data_type="DATE">
+      <description>Date of Last Password Change</description>
+    </column>
+    <column name="PWDSTATE" data_type="INTEGER">
+      <description>Password Change: Required / Allowed / Not Possible</description>
+    </column>
+    <column name="RESERVED" data_type="INTEGER">
+      <description>CUA Control Information</description>
+    </column>
+    <column name="PWDHISTORY" data_type="INTEGER">
+      <description>Indicator: Password History Stored in Table USRPWDHISTORY</description>
+    </column>
+    <column name="PWDLGNDATE" data_type="DATE">
+      <description>Date of Last Password Logon</description>
+    </column>
+    <column name="PWDSETDATE" data_type="DATE">
+      <description>Date: Password Reset by Administrator</description>
+    </column>
+    <column name="PWDINITIAL" data_type="INTEGER">
+      <description>Indicator: Password Is Initial (= Set by Administrator)</description>
+    </column>
+    <column name="PWDLOCKDATE" data_type="DATE">
+      <description>Date: Setting of Password Lock</description>
+    </column>
+    <column name="PWDSALTEDHASH" data_type="VARCHAR">
+      <description>Password Hash Value (Various Algorithms and Codings)</description>
+    </column>
+    <column name="SECURITY_POLICY" data_type="VARCHAR">
+      <description>Security Policy Name</description>
+    </column>
+  </columns>
+</data_description>

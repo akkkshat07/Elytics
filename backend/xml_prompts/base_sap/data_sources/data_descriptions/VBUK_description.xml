@@ -1,0 +1,258 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="VBUK">
+  <table_info name="VBUK" total_columns="84"/>
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="VBELN" data_type="VARCHAR">
+      <description>Sales and Distribution Document Number</description>
+    </column>
+    <column name="RFSTK" data_type="VARCHAR">
+      <description>Reference document header status</description>
+    </column>
+    <column name="RFGSK" data_type="VARCHAR">
+      <description>Total reference status of all items</description>
+    </column>
+    <column name="BESTK" data_type="VARCHAR">
+      <description>Confirmation status</description>
+    </column>
+    <column name="LFSTK" data_type="VARCHAR">
+      <description>Delivery status</description>
+    </column>
+    <column name="LFGSK" data_type="VARCHAR">
+      <description>Overall delivery status for all items</description>
+    </column>
+    <column name="WBSTK" data_type="VARCHAR">
+      <description>Total goods movement status</description>
+    </column>
+    <column name="FKSTK" data_type="VARCHAR">
+      <description>Billing status</description>
+    </column>
+    <column name="FKSAK" data_type="VARCHAR">
+      <description>Billing Status (Order-Related Billing Document)</description>
+    </column>
+    <column name="BUCHK" data_type="VARCHAR">
+      <description>Posting Status of Billing Document</description>
+    </column>
+    <column name="ABSTK" data_type="VARCHAR">
+      <description>Overall rejection status of all document items</description>
+    </column>
+    <column name="GBSTK" data_type="VARCHAR">
+      <description>Overall processing status of document</description>
+    </column>
+    <column name="KOSTK" data_type="VARCHAR">
+      <description>Overall picking / putaway status</description>
+    </column>
+    <column name="LVSTK" data_type="VARCHAR">
+      <description>Overall status of warehouse management activities</description>
+    </column>
+    <column name="UVALS" data_type="VARCHAR">
+      <description>Total incompletion status of all items in general</description>
+    </column>
+    <column name="UVVLS" data_type="VARCHAR">
+      <description>Total incompletion status of all items: Delivery</description>
+    </column>
+    <column name="UVFAS" data_type="VARCHAR">
+      <description>Total incompletion status of all items: Billing</description>
+    </column>
+    <column name="UVALL" data_type="VARCHAR">
+      <description>General incompletion status of the header</description>
+    </column>
+    <column name="UVVLK" data_type="VARCHAR">
+      <description>Header incompletion status concerning delivery</description>
+    </column>
+    <column name="UVFAK" data_type="VARCHAR">
+      <description>Header incompletion status with respect to billing</description>
+    </column>
+    <column name="UVPRS" data_type="VARCHAR">
+      <description>Document is incomplete with respect to pricing</description>
+    </column>
+    <column name="VBTYP" data_type="VARCHAR">
+      <description>SD document category</description>
+    </column>
+    <column name="VBOBJ" data_type="VARCHAR">
+      <description>SD document object</description>
+    </column>
+    <column name="AEDAT" data_type="DATE">
+      <description>Last Changed On</description>
+    </column>
+    <column name="FKIVK" data_type="VARCHAR">
+      <description>Billing totals status for intercompany billing</description>
+    </column>
+    <column name="RELIK" data_type="VARCHAR">
+      <description>Invoice list status of billing document</description>
+    </column>
+    <column name="UVK01" data_type="VARCHAR">
+      <description>Customer reserves 1: Header status</description>
+    </column>
+    <column name="UVK02" data_type="VARCHAR">
+      <description>Customer reserves 2: Header status</description>
+    </column>
+    <column name="UVK03" data_type="VARCHAR">
+      <description>Customer reserves 3: Header status</description>
+    </column>
+    <column name="UVK04" data_type="VARCHAR">
+      <description>Custmer reserves 4: Header status</description>
+    </column>
+    <column name="UVK05" data_type="VARCHAR">
+      <description>Customer reserves 5: Header status</description>
+    </column>
+    <column name="UVS01" data_type="VARCHAR">
+      <description>Customer reserves 1: Sum of all items</description>
+    </column>
+    <column name="UVS02" data_type="VARCHAR">
+      <description>Customer reserves 2: Sum of all items</description>
+    </column>
+    <column name="UVS03" data_type="VARCHAR">
+      <description>Customer reserves 3: Sum of all items</description>
+    </column>
+    <column name="UVS04" data_type="VARCHAR">
+      <description>Customer reserves 4: Sum of all items</description>
+    </column>
+    <column name="UVS05" data_type="VARCHAR">
+      <description>Customer reserves 5: Sum of all items</description>
+    </column>
+    <column name="PKSTK" data_type="VARCHAR">
+      <description>Overall packing status of all items</description>
+    </column>
+    <column name="CMPSA" data_type="VARCHAR">
+      <description>Status of static credit limit check</description>
+    </column>
+    <column name="CMPSB" data_type="VARCHAR">
+      <description>Status of dynamic credit limit check in the credit horizon</description>
+    </column>
+    <column name="CMPSC" data_type="VARCHAR">
+      <description>Status of credit check against maximum document value</description>
+    </column>
+    <column name="CMPSD" data_type="VARCHAR">
+      <description>Status of credit check against terms of payment</description>
+    </column>
+    <column name="CMPSE" data_type="VARCHAR">
+      <description>Status of credit check against customer review date</description>
+    </column>
+    <column name="CMPSF" data_type="VARCHAR">
+      <description>Status of credit check against open items due</description>
+    </column>
+    <column name="CMPSG" data_type="VARCHAR">
+      <description>Status of credit check against oldest open items</description>
+    </column>
+    <column name="CMPSH" data_type="VARCHAR">
+      <description>Status of credit check against highest dunning level</description>
+    </column>
+    <column name="CMPSI" data_type="VARCHAR">
+      <description>Status of credit check against financial document</description>
+    </column>
+    <column name="CMPSJ" data_type="VARCHAR">
+      <description>Status of credit check against export credit insurance</description>
+    </column>
+    <column name="CMPSK" data_type="VARCHAR">
+      <description>Status of credit check against payment card authorization</description>
+    </column>
+    <column name="CMPSL" data_type="VARCHAR">
+      <description>Status of credit check of reserves 4</description>
+    </column>
+    <column name="CMPS0" data_type="VARCHAR">
+      <description>Status of credit check for customer reserve 1</description>
+    </column>
+    <column name="CMPS1" data_type="VARCHAR">
+      <description>Status of credit check for customer reserve 2</description>
+    </column>
+    <column name="CMPS2" data_type="VARCHAR">
+      <description>Status of credit check for customer reserve 3</description>
+    </column>
+    <column name="CMGST" data_type="VARCHAR">
+      <description>Overall status of credit checks</description>
+    </column>
+    <column name="TRSTA" data_type="VARCHAR">
+      <description>Transportation planning status</description>
+    </column>
+    <column name="KOQUK" data_type="VARCHAR">
+      <description>Status of pick confirmation</description>
+    </column>
+    <column name="COSTA" data_type="VARCHAR">
+      <description>Confirmation status for ALE</description>
+    </column>
+    <column name="SAPRL" data_type="VARCHAR">
+      <description>SAP Release</description>
+    </column>
+    <column name="UVPAS" data_type="VARCHAR">
+      <description>Totals incomplete status for all items: packaging</description>
+    </column>
+    <column name="UVPIS" data_type="VARCHAR">
+      <description>Totals incomplete status for all items: Picking</description>
+    </column>
+    <column name="UVWAS" data_type="VARCHAR">
+      <description>Total incomplete status of all items: post goods movement</description>
+    </column>
+    <column name="UVPAK" data_type="VARCHAR">
+      <description>Header incomplete status for packaging</description>
+    </column>
+    <column name="UVPIK" data_type="VARCHAR">
+      <description>Header incomplete status for picking/putaway</description>
+    </column>
+    <column name="UVWAK" data_type="VARCHAR">
+      <description>Post header incomplete status for goods movement</description>
+    </column>
+    <column name="UVGEK" data_type="VARCHAR">
+      <description>UNUSED</description>
+    </column>
+    <column name="CMPSM" data_type="VARCHAR">
+      <description>Credit check data is obsolete</description>
+    </column>
+    <column name="DCSTK" data_type="VARCHAR">
+      <description>Delay status</description>
+    </column>
+    <column name="VESTK" data_type="VARCHAR">
+      <description>Handling Unit Placed in Stock</description>
+    </column>
+    <column name="VLSTK" data_type="VARCHAR">
+      <description>Distribution Status (Decentralized Warehouse Processing)</description>
+    </column>
+    <column name="RRSTA" data_type="VARCHAR">
+      <description>Revenue determination status</description>
+    </column>
+    <column name="BLOCK" data_type="VARCHAR">
+      <description>Indicator: Document preselected for archiving</description>
+    </column>
+    <column name="FSSTK" data_type="VARCHAR">
+      <description>Overall billing block status</description>
+    </column>
+    <column name="LSSTK" data_type="VARCHAR">
+      <description>Overall delivery block status</description>
+    </column>
+    <column name="SPSTG" data_type="VARCHAR">
+      <description>Overall blocked status</description>
+    </column>
+    <column name="PDSTK" data_type="VARCHAR">
+      <description>POD status on header level</description>
+    </column>
+    <column name="FMSTK" data_type="VARCHAR">
+      <description>Status Funds Management</description>
+    </column>
+    <column name="MANEK" data_type="VARCHAR">
+      <description>Manual Completion of Contract</description>
+    </column>
+    <column name="SPE_TMPID" data_type="VARCHAR">
+      <description>Temporary inbound delivery</description>
+    </column>
+    <column name="HDALL" data_type="VARCHAR">
+      <description>Inbound delivery header not yet complete (on Hold)</description>
+    </column>
+    <column name="HDALS" data_type="VARCHAR">
+      <description>At least one of ID items not yet complete (on Hold)</description>
+    </column>
+    <column name="CMPS_CM" data_type="VARCHAR">
+      <description>Status of Credit Check SAP Credit Management</description>
+    </column>
+    <column name="CMPS_TE" data_type="VARCHAR">
+      <description>Status of Technical Error SAP Credit Management</description>
+    </column>
+    <column name="VBTYP_EXT" data_type="VARCHAR">
+      <description>Extension of SD Document Category</description>
+    </column>
+    <column name="FSH_AR_STAT_HDR" data_type="VARCHAR">
+      <description>Overall Allocation Status (Sales Document Header)</description>
+    </column>
+  </columns>
+</data_description>

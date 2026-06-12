@@ -1,0 +1,160 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="BH_ClientRetailMasterDataTable">
+  <table_info name="BH_ClientRetailMasterDataTable" total_columns="50" row_count="297243" total_size_mb="77.3" index_count="2" is_heap="true" />
+  <performance_hints>
+    <metric name="row_count">297243</metric>
+    <metric name="total_size_mb">77.3</metric>
+  </performance_hints>
+  <columns>
+    <column name="Actual_Address" data_type="nvarchar" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Raw geocoded or user-entered location detail for the client, often a full street address or latitude/longitude string. Use as the most granular address text but expect inconsistent formatting and occasional coordinates.</description>
+    </column>
+    <column name="AddCity" data_type="varchar" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Client’s city/town captured for address reporting and territory mapping (e.g., Mohniya, Pune, Gurugram). Typically used for city-level aggregations and may contain spelling variants.</description>
+    </column>
+    <column name="AddState" data_type="varchar" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Client’s state/region as captured in the address (e.g., Bihar, Odisha, Mah-Pune), sometimes using internal state codes or region labels. Interpret as a geographic attribute but standardize before statewide analysis.</description>
+    </column>
+    <column name="AssignEmp" data_type="varchar" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Employee code/name intended to represent the currently assigned field employee for the client; often stored as a string and frequently appears as 'null'. Treat as optional/dirty assignment metadata and prefer Emp_Id/BeatOwnerEmp_Id when analyzing ownership.</description>
+    </column>
+    <column name="BeatDate" data_type="varchar" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Datetime (stored as text) when the client was mapped/updated to a beat or when the beat assignment was recorded. Parse to a timestamp for recency analyses and be cautious of inconsistent text formats.</description>
+    </column>
+    <column name="BeatDistributorId" data_type="varchar" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Identifier (as text) for the distributor linked to the beat/client mapping, often aligning with the distributor in ClientSourceId/ClientSourceCode. Use to join to distributor masters but normalize datatype and handle blanks.</description>
+    </column>
+    <column name="BeatId" data_type="varchar" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Unique identifier (stored as text) for the beat/route to which the client belongs. Use for beat-level coverage and routing analysis; may need casting to numeric.</description>
+    </column>
+    <column name="BeatOwnerEmp_Id" data_type="varchar" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Employee identifier (stored as text) for the beat owner responsible for the route/clients. Use as the primary beat ownership key when measuring beat responsibility, but cast and validate against Emp_Id domains.</description>
+    </column>
+    <column name="BeatOwnerName" data_type="varchar" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Name of the employee who owns the beat (e.g., Vishal Kumar). Use for display/reporting; do not use as a join key due to spelling/case variations.</description>
+    </column>
+    <column name="BeatType" data_type="varchar" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Cadence/frequency of beat visits such as Weekly, Fortnight, or Monthly. Useful for expected coverage planning and compliance comparisons versus actual visits.</description>
+    </column>
+    <column name="Beats" data_type="varchar" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Human-readable beat/route name or description (e.g., 'Kalamboli', 'Digapahandi + Dengaosta'). Use for reporting labels; not guaranteed unique and may include multiple localities.</description>
+    </column>
+    <column name="ClientDivision" data_type="varchar" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Client’s division/segment within the business if applicable; commonly blank in samples. Treat as an optional segmentation field and validate population before using in filters.</description>
+    </column>
+    <column name="ClientSSId" data_type="bigint" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Identifier for the client’s source system or selling-stockist/distributor system entity (bigint). Use to link to upstream source masters (e.g., stockist/distributor systems) and to deduplicate cross-system entities.</description>
+    </column>
+    <column name="ClientSSName" data_type="varchar" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Name corresponding to ClientSSId, typically the selling stockist/agency entity (e.g., 'Friends Traders'). Use for display and grouping at the stockist level, not as a stable key.</description>
+    </column>
+    <column name="ClientSource" data_type="varchar" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Text name of the immediate source/partner associated with the client (often a distributor or outlet source label). Use as descriptive metadata; prefer ClientSourceId/ClientSourceType for structured analysis.</description>
+    </column>
+    <column name="ClientSourceCode" data_type="varchar" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Source code for the client’s source entity, often matching distributor codes but sometimes blank. Use as an alternate identifier for source mapping and handle missing/empty values.</description>
+    </column>
+    <column name="ClientSourceId" data_type="bigint" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Numeric identifier (bigint) of the client source entity, commonly a distributor ID. Use as the primary structured key for tying clients to their source/distributor hierarchy.</description>
+    </column>
+    <column name="ClientSourceType" data_type="varchar" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Type/category of the client source such as 'Distributor'. Use to distinguish upstream entity types when multiple source kinds exist.</description>
+    </column>
+    <column name="Client_Id" data_type="bigint" is_primary_key="false" is_clustered="false" is_indexed="true" is_unique_key="false">
+      <description>Primary unique identifier (bigint) for the retail client/outlet record and the main join key to transactions/visits; indexed for faster lookups. Analysts should treat this as the authoritative client key for deduplication and entity linking.</description>
+    </column>
+    <column name="Client_Name" data_type="varchar" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Display name of the retailer/client outlet (e.g., 'Mahaveer Beauty'). Use for reporting/search; not unique and subject to casing/spelling inconsistencies.</description>
+    </column>
+    <column name="Client_Type" data_type="varchar" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Business classification of the client such as 'Retailer'. Use for segment filters and to separate outlets from other client categories if present.</description>
+    </column>
+    <column name="Created_By" data_type="varchar" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Identifier (stored as text) of the user/employee who created the client master record. Useful for audit and adoption tracking; may require casting to match employee IDs.</description>
+    </column>
+    <column name="Creation_Date" data_type="varchar" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Datetime (stored as text) when the client record was created in the system. Parse to a timestamp for cohorting and data freshness; format varies by row.</description>
+    </column>
+    <column name="Designation" data_type="varchar" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Sales role/designation of the associated employee (e.g., TSI, TSO, Sr.TSI). Use for role-based performance analysis and hierarchy reporting.</description>
+    </column>
+    <column name="Division" data_type="varchar" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Business division under which the client is managed (e.g., 'Retail'). Use as a high-level organizational segment for reporting and access scoping.</description>
+    </column>
+    <column name="DstrCity" data_type="varchar" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Distributor city or the servicing distribution city tied to the client/beat (e.g., Brahmapur, Jabalpur). Use for distribution footprint analysis; may differ from AddCity (client location).</description>
+    </column>
+    <column name="ECO" data_type="varchar" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Text flag indicating ECO status (e.g., Yes/No). Treat as a descriptive duplicate of IsECO and prefer IsECO for boolean logic.</description>
+    </column>
+    <column name="EmpState" data_type="varchar" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>State/region of the employee responsible for the client/beat, often aligned with operational territory. Use for territory reporting but standardize codes similarly to AddState.</description>
+    </column>
+    <column name="EmpZone" data_type="varchar" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Higher-level geographic zone for the employee/territory (e.g., West, South, Upper North). Use for zonal rollups and management reporting.</description>
+    </column>
+    <column name="Emp_Id" data_type="bigint" is_primary_key="false" is_clustered="false" is_indexed="true" is_unique_key="false">
+      <description>Employee identifier (bigint) associated with the client record (often the field owner/primary responsible); indexed for faster filtering. Use as the main key to join employee master data and attribute outlet ownership.</description>
+    </column>
+    <column name="Emp_Name" data_type="varchar" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Name of the employee corresponding to Emp_Id. Use for display; avoid using as a join key due to variability.</description>
+    </column>
+    <column name="FirstCheckInDate" data_type="date" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Date when the first check-in/visit was recorded for the client. Use to understand onboarding/activation timing and to distinguish newly created vs first-visited outlets.</description>
+    </column>
+    <column name="Folder_Name" data_type="varchar" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Optional folder/grouping label for organizing clients, often 'null' or empty. Treat as non-critical metadata unless your process uses folder-based segmentation.</description>
+    </column>
+    <column name="FullAddress" data_type="nvarchar" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Concatenated full address string assembled from components (city/state/country/zip), used for display and geocoding. Expect trailing commas and inconsistent component order; prefer structured fields for analytics.</description>
+    </column>
+    <column name="Function" data_type="varchar" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Optional functional tag for the employee/client context, frequently null/blank. Use only if populated consistently for role/function segmentation.</description>
+    </column>
+    <column name="HQState" data_type="varchar" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Headquarter state/territory for the employee/client mapping, often mirroring EmpState/AddState. Use as a territory assignment attribute and validate against official HQ mappings.</description>
+    </column>
+    <column name="IsECO" data_type="bit" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Boolean indicator of ECO status for the client/route (True/False). Use for filtering ECO-enabled outlets and prefer over the text ECO field.</description>
+    </column>
+    <column name="IsREC" data_type="bit" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Boolean indicator of REC status (True/False), likely denoting recommended/recognized/enrolled category for the outlet. Use as a program eligibility/participation flag and confirm business definition before KPI use.</description>
+    </column>
+    <column name="Label" data_type="varchar" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Client label/code used operationally (e.g., '500040', 'GS10504115', 'CAN595753'). Use as an external-facing or legacy identifier; may not be unique across all divisions without context.</description>
+    </column>
+    <column name="LastOrderDate" data_type="date" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Date of the most recent order placed by the client. Use for recency/active-inactive classification and churn/risk metrics.</description>
+    </column>
+    <column name="LastVisitBy" data_type="varchar" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Identifier of the employee who last visited the client (stored as text). Use to attribute the most recent touchpoint, but cast/validate against employee IDs.</description>
+    </column>
+    <column name="LastVisitDate" data_type="nvarchar" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Date of the last recorded visit/check-in stored as text (often dd/mm/yyyy). Parse carefully with locale awareness and treat blanks/nulls as no-visit recorded.</description>
+    </column>
+    <column name="LastVisitEmp_Id" data_type="varchar" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Employee identifier (stored as text) representing the employee tied to the last visit event. Use for visit attribution and reconcile with LastVisitBy when inconsistencies occur.</description>
+    </column>
+    <column name="OTPVerifyDate" data_type="varchar" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Datetime (stored as text) when OTP verification occurred for the client, often null. Use for compliance/audit of OTP-based verification steps and treat null as not verified via OTP.</description>
+    </column>
+    <column name="PositionCode" data_type="varchar" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Organizational position/territory code for the responsible employee (e.g., 'BH_HR_FF1'). Use to map to hierarchy/territory structures and for position-based reporting.</description>
+    </column>
+    <column name="Reference" data_type="varchar" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Free-text reference or remark field for client creation/mapping, commonly blank. Use as qualitative metadata only and avoid using for structured analysis.</description>
+    </column>
+    <column name="Speciality" data_type="varchar" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Optional speciality/category tag for the client, often null/blank in samples. Use for niche segmentation if populated (e.g., outlet type specialization).</description>
+    </column>
+    <column name="TLName" data_type="varchar" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Name of the team leader/manager for the associated employee. Use for managerial rollups and display; not a stable key without an accompanying TL ID.</description>
+    </column>
+    <column name="Varified" data_type="varchar" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Verification/approval status text (note spelling), such as 'Waiting for approval..' or detailed approval remarks. Use to determine master-data approval state, but standardize statuses (approved/pending/rejected) from the free text.</description>
+    </column>
+    <column name="pId" data_type="bigint" is_primary_key="false" is_clustered="false" is_indexed="false" is_unique_key="false">
+      <description>Internal surrogate/processing ID (bigint) for the record, likely used for ETL/load tracking rather than business identity. Use for technical deduplication or incremental load auditing, not as the client key.</description>
+    </column>
+  </columns>
+</data_description>

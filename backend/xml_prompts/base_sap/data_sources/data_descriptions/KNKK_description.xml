@@ -1,0 +1,114 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="KNKK">
+  <table_info name="KNKK" total_columns="36" />
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="KUNNR" data_type="VARCHAR">
+      <description>Customer Number</description>
+    </column>
+    <column name="KKBER" data_type="VARCHAR">
+      <description>Credit Control Area</description>
+    </column>
+    <column name="KLIMK" data_type="DECIMAL">
+      <description>Customer's credit limit</description>
+    </column>
+    <column name="KNKLI" data_type="VARCHAR">
+      <description>Customer's account number with credit limit reference</description>
+    </column>
+    <column name="SAUFT" data_type="DECIMAL">
+      <description>Total of the sales values for the credit limit check</description>
+    </column>
+    <column name="SKFOR" data_type="DECIMAL">
+      <description>Total receivables (for credit limit check)</description>
+    </column>
+    <column name="SSOBL" data_type="DECIMAL">
+      <description>Relevant special liabilities for credit limit check</description>
+    </column>
+    <column name="UEDAT" data_type="DATE">
+      <description>Date on which the credit limit was exceeded</description>
+    </column>
+    <column name="XCHNG" data_type="VARCHAR">
+      <description>Indicator: credit limit must be recreated</description>
+    </column>
+    <column name="ERNAM" data_type="VARCHAR">
+      <description>Name of Person who Created the Object</description>
+    </column>
+    <column name="ERDAT" data_type="DATE">
+      <description>Date on which the Record Was Created</description>
+    </column>
+    <column name="CTLPC" data_type="VARCHAR">
+      <description>Credit management: Risk category</description>
+    </column>
+    <column name="DTREV" data_type="DATE">
+      <description>Last internal review</description>
+    </column>
+    <column name="CRBLB" data_type="VARCHAR">
+      <description>Indicator: Blocked by credit management ?</description>
+    </column>
+    <column name="SBGRP" data_type="VARCHAR">
+      <description>Credit representative group for credit management</description>
+    </column>
+    <column name="NXTRV" data_type="DATE">
+      <description>Next internal review</description>
+    </column>
+    <column name="KRAUS" data_type="VARCHAR">
+      <description>Credit information number</description>
+    </column>
+    <column name="PAYDB" data_type="VARCHAR">
+      <description>do not use - replaced by DBPAY_CM</description>
+    </column>
+    <column name="DBRAT" data_type="VARCHAR">
+      <description>do not use - replaced by DBRTG_CM</description>
+    </column>
+    <column name="REVDB" data_type="DATE">
+      <description>Last review (external)</description>
+    </column>
+    <column name="AEDAT" data_type="DATE">
+      <description>Date of Last Change</description>
+    </column>
+    <column name="AETXT" data_type="DATE">
+      <description>Date of Last Text Change</description>
+    </column>
+    <column name="GRUPP" data_type="VARCHAR">
+      <description>Customer Credit Group</description>
+    </column>
+    <column name="AENAM" data_type="VARCHAR">
+      <description>Last Changed By</description>
+    </column>
+    <column name="SBDAT" data_type="DATE">
+      <description>Reference Date</description>
+    </column>
+    <column name="KDGRP" data_type="VARCHAR">
+      <description>Customer Group</description>
+    </column>
+    <column name="CASHD" data_type="DATE">
+      <description>Date of Last Payment</description>
+    </column>
+    <column name="CASHA" data_type="DECIMAL">
+      <description>Amount of Last Payment</description>
+    </column>
+    <column name="CASHC" data_type="VARCHAR">
+      <description>Currency of Last Payment</description>
+    </column>
+    <column name="DBPAY" data_type="VARCHAR">
+      <description>Payment Index</description>
+    </column>
+    <column name="DBRTG" data_type="VARCHAR">
+      <description>Rating</description>
+    </column>
+    <column name="DBEKR" data_type="DECIMAL">
+      <description>Recommended credit limit</description>
+    </column>
+    <column name="DBWAE" data_type="VARCHAR">
+      <description>Currency of recommended credit limit</description>
+    </column>
+    <column name="DBMON" data_type="DATE">
+      <description>Date Monitoring</description>
+    </column>
+    <column name="ABSBT" data_type="DECIMAL">
+      <description>Total Secured Receivables</description>
+    </column>
+  </columns>
+</data_description>

@@ -1,0 +1,126 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="PLFH">
+  <table_info name="PLFH" total_columns="40" />
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="PLNTY" data_type="VARCHAR">
+      <description>Task List Type</description>
+    </column>
+    <column name="PLNNR" data_type="VARCHAR">
+      <description>Key for Task List Group</description>
+    </column>
+    <column name="PZLFH" data_type="VARCHAR">
+      <description>Item counter for production resources/tools</description>
+    </column>
+    <column name="ZAEHL" data_type="VARCHAR">
+      <description>Internal counter</description>
+    </column>
+    <column name="DATUV" data_type="DATE">
+      <description>Valid-From Date</description>
+    </column>
+    <column name="TECHV" data_type="VARCHAR">
+      <description>Technical status from</description>
+    </column>
+    <column name="LOEKZ" data_type="VARCHAR">
+      <description>Deletion Indicator</description>
+    </column>
+    <column name="PARKZ" data_type="VARCHAR">
+      <description>Indicator: inactive changes</description>
+    </column>
+    <column name="AENNR" data_type="VARCHAR">
+      <description>Change Number</description>
+    </column>
+    <column name="DATUI" data_type="DATE">
+      <description>Date record created on</description>
+    </column>
+    <column name="USERI" data_type="VARCHAR">
+      <description>User who created record</description>
+    </column>
+    <column name="DATUC" data_type="DATE">
+      <description>Last Changed On</description>
+    </column>
+    <column name="USERC" data_type="VARCHAR">
+      <description>Name of Person Who Changed Object</description>
+    </column>
+    <column name="OBJTY" data_type="VARCHAR">
+      <description>Object types of the CIM resource</description>
+    </column>
+    <column name="OBJID" data_type="VARCHAR">
+      <description>Object ID of the resource</description>
+    </column>
+    <column name="OBJCT" data_type="VARCHAR">
+      <description>Object of a task list</description>
+    </column>
+    <column name="PLNAL" data_type="VARCHAR">
+      <description>Group Counter</description>
+    </column>
+    <column name="PLNFL" data_type="VARCHAR">
+      <description>Sequence</description>
+    </column>
+    <column name="PLNKN" data_type="VARCHAR">
+      <description>Number of the task list node</description>
+    </column>
+    <column name="PSNFH" data_type="VARCHAR">
+      <description>Item Number for Production Resource/Tool</description>
+    </column>
+    <column name="STEUF" data_type="VARCHAR">
+      <description>Control Key for Management of Production Resources/Tools</description>
+    </column>
+    <column name="KZKBL" data_type="VARCHAR">
+      <description>Indicator: Create load records for prod. resources/tools</description>
+    </column>
+    <column name="BZOFFB" data_type="VARCHAR">
+      <description>Reference Date for Start of Production Resource/Tool Usage</description>
+    </column>
+    <column name="OFFSTB" data_type="DECIMAL">
+      <description>Offset to start of production resource/tool usage</description>
+    </column>
+    <column name="EHOFFB" data_type="VARCHAR">
+      <description>Offset unit for start of prod. resource/tool usage</description>
+    </column>
+    <column name="BZOFFE" data_type="VARCHAR">
+      <description>Reference date for end of production resource/tool usage</description>
+    </column>
+    <column name="OFFSTE" data_type="DECIMAL">
+      <description>Offset to finish of production resource/tool usage</description>
+    </column>
+    <column name="EHOFFE" data_type="VARCHAR">
+      <description>Offset unit for end of production resource/tool usage</description>
+    </column>
+    <column name="MGEINH" data_type="VARCHAR">
+      <description>Unit for Quantity of Production Resources/Tools</description>
+    </column>
+    <column name="MGVGW" data_type="DECIMAL">
+      <description>Standard Value for Quantity of Production Resources/Tools</description>
+    </column>
+    <column name="MGFORM" data_type="VARCHAR">
+      <description>Formula for calculating the total quantity of PRT</description>
+    </column>
+    <column name="EWEINH" data_type="VARCHAR">
+      <description>Usage value unit of the production resource/tool</description>
+    </column>
+    <column name="EWVGW" data_type="DECIMAL">
+      <description>Standard usage value for production resources/tools</description>
+    </column>
+    <column name="EWFORM" data_type="VARCHAR">
+      <description>Formula for calculating the total usage value of PRT</description>
+    </column>
+    <column name="TXTSP" data_type="VARCHAR">
+      <description>Language Key</description>
+    </column>
+    <column name="KTSCH" data_type="VARCHAR">
+      <description>Standard text key for production resources/tools</description>
+    </column>
+    <column name="TXTZ1" data_type="VARCHAR">
+      <description>First Line of Text for Production Resources/Tools</description>
+    </column>
+    <column name="KNOBJ" data_type="VARCHAR">
+      <description>Number of Object with Assigned Dependencies</description>
+    </column>
+    <column name="GP_KRIT1" data_type="VARCHAR">
+      <description>Planning object</description>
+    </column>
+  </columns>
+</data_description>

@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="T510">
+  <table_info name="T510" total_columns="11" />
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="MOLGA" data_type="VARCHAR">
+      <description>Country Grouping</description>
+    </column>
+    <column name="TRFAR" data_type="VARCHAR">
+      <description>Pay scale type</description>
+    </column>
+    <column name="TRFGB" data_type="VARCHAR">
+      <description>Pay Scale Area</description>
+    </column>
+    <column name="TRFKZ" data_type="VARCHAR">
+      <description>ES grouping for collective agreement provision</description>
+    </column>
+    <column name="TRFGR" data_type="VARCHAR">
+      <description>Pay Scale Group</description>
+    </column>
+    <column name="TRFST" data_type="VARCHAR">
+      <description>Pay Scale Level</description>
+    </column>
+    <column name="LGART" data_type="VARCHAR">
+      <description>Wage Type</description>
+    </column>
+    <column name="ENDDA" data_type="DATE">
+      <description>End Date</description>
+    </column>
+    <column name="BEGDA" data_type="DATE">
+      <description>Start Date</description>
+    </column>
+    <column name="BETRG" data_type="DECIMAL">
+      <description>Wage Type Amount for Payments</description>
+    </column>
+  </columns>
+</data_description>

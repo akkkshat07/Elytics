@@ -1,0 +1,135 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="MCHB">
+  <table_info name="MCHB" total_columns="43"/>
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="MATNR" data_type="VARCHAR">
+      <description>Material Number</description>
+    </column>
+    <column name="WERKS" data_type="VARCHAR">
+      <description>Plant</description>
+    </column>
+    <column name="LGORT" data_type="VARCHAR">
+      <description>Storage Location</description>
+    </column>
+    <column name="CHARG" data_type="VARCHAR">
+      <description>Batch Number</description>
+    </column>
+    <column name="LVORM" data_type="VARCHAR">
+      <description>Deletion Flag for All Data on a Batch Stock</description>
+    </column>
+    <column name="ERSDA" data_type="DATE">
+      <description>Created On</description>
+    </column>
+    <column name="ERNAM" data_type="VARCHAR">
+      <description>Name of Person Responsible for Creating the Object</description>
+    </column>
+    <column name="LAEDA" data_type="DATE">
+      <description>Date of Last Change</description>
+    </column>
+    <column name="AENAM" data_type="VARCHAR">
+      <description>Name of Person Who Changed Object</description>
+    </column>
+    <column name="LFGJA" data_type="VARCHAR">
+      <description>Fiscal Year of Current Period</description>
+    </column>
+    <column name="LFMON" data_type="VARCHAR">
+      <description>Current period (posting period)</description>
+    </column>
+    <column name="SPERC" data_type="VARCHAR">
+      <description>Physical Inventory Blocking Indicator</description>
+    </column>
+    <column name="CLABS" data_type="DECIMAL">
+      <description>Valuated Unrestricted-Use Stock</description>
+    </column>
+    <column name="CUMLM" data_type="DECIMAL">
+      <description>Stock in transfer (from one storage location to another)</description>
+    </column>
+    <column name="CINSM" data_type="DECIMAL">
+      <description>Stock in Quality Inspection</description>
+    </column>
+    <column name="CEINM" data_type="DECIMAL">
+      <description>Total Stock of All Restricted Batches</description>
+    </column>
+    <column name="CSPEM" data_type="DECIMAL">
+      <description>Blocked Stock</description>
+    </column>
+    <column name="CRETM" data_type="DECIMAL">
+      <description>Blocked Stock Returns</description>
+    </column>
+    <column name="CVMLA" data_type="DECIMAL">
+      <description>Valuated unrestricted-use stock in previous period</description>
+    </column>
+    <column name="CVMUM" data_type="DECIMAL">
+      <description>Stock in Transfer in Previous Period</description>
+    </column>
+    <column name="CVMIN" data_type="DECIMAL">
+      <description>Stock in Quality Inspection in Previous Period</description>
+    </column>
+    <column name="CVMEI" data_type="DECIMAL">
+      <description>Restricted-Use Stock in Previous Period</description>
+    </column>
+    <column name="CVMSP" data_type="DECIMAL">
+      <description>Blocked stock of previous period</description>
+    </column>
+    <column name="CVMRE" data_type="DECIMAL">
+      <description>Blocked Stock Returns in Previous Period</description>
+    </column>
+    <column name="KZICL" data_type="VARCHAR">
+      <description>Physical inventory indicator for whse stock in current year</description>
+    </column>
+    <column name="KZICQ" data_type="VARCHAR">
+      <description>Phys. inventory ind. f. stock in qual. insp. in current year</description>
+    </column>
+    <column name="KZICE" data_type="VARCHAR">
+      <description>Physical inventory indicator for restricted-use stock</description>
+    </column>
+    <column name="KZICS" data_type="VARCHAR">
+      <description>Physical inventory indicator for blocked stock</description>
+    </column>
+    <column name="KZVCL" data_type="VARCHAR">
+      <description>Physical inventory indicator for stock in previous year</description>
+    </column>
+    <column name="KZVCQ" data_type="VARCHAR">
+      <description>Phys. inventory ind. f. stock in qual. insp. in prev. period</description>
+    </column>
+    <column name="KZVCE" data_type="VARCHAR">
+      <description>Physical inventory ind. for restricted-use stock, prev.pd</description>
+    </column>
+    <column name="KZVCS" data_type="VARCHAR">
+      <description>Phys. inventory indicator for blocked stock in prev. period</description>
+    </column>
+    <column name="HERKL" data_type="VARCHAR">
+      <description>Country of Origin of Material (Non-Preferential Origin)</description>
+    </column>
+    <column name="CHDLL" data_type="DATE">
+      <description>Date of Last Posted Count</description>
+    </column>
+    <column name="CHJIN" data_type="VARCHAR">
+      <description>Fiscal year of current physical inventory indicator</description>
+    </column>
+    <column name="CHRUE" data_type="VARCHAR">
+      <description>MCHBH rec. already exists for per. before last of MCHB per.</description>
+    </column>
+    <column name="SGT_SCAT" data_type="VARCHAR">
+      <description>Stock Segment</description>
+    </column>
+    <column name="FSH_SEASON_YEAR" data_type="VARCHAR">
+      <description>Season Year</description>
+    </column>
+    <column name="FSH_SEASON" data_type="VARCHAR">
+      <description>Season</description>
+    </column>
+    <column name="FSH_COLLECTION" data_type="VARCHAR">
+      <description>Fashion Collection</description>
+    </column>
+    <column name="FSH_THEME" data_type="VARCHAR">
+      <description>Fashion Theme</description>
+    </column>
+    <column name="FSH_SALLOC_QTY" data_type="DECIMAL">
+      <description>Allocated Stock Quantity</description>
+    </column>
+  </columns>
+</data_description>

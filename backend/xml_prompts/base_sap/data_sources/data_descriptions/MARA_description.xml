@@ -1,0 +1,729 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="MARA">
+  <table_info name="MARA" total_columns="241"/>
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="MATNR" data_type="VARCHAR">
+      <description>Material Number</description>
+    </column>
+    <column name="ERSDA" data_type="DATE">
+      <description>Created On</description>
+    </column>
+    <column name="ERNAM" data_type="VARCHAR">
+      <description>Name of Person Responsible for Creating the Object</description>
+    </column>
+    <column name="LAEDA" data_type="DATE">
+      <description>Date of Last Change</description>
+    </column>
+    <column name="AENAM" data_type="VARCHAR">
+      <description>Name of Person Who Changed Object</description>
+    </column>
+    <column name="VPSTA" data_type="VARCHAR">
+      <description>Maintenance status of complete material</description>
+    </column>
+    <column name="PSTAT" data_type="VARCHAR">
+      <description>Maintenance status</description>
+    </column>
+    <column name="LVORM" data_type="VARCHAR">
+      <description>Flag Material for Deletion at Client Level</description>
+    </column>
+    <column name="MTART" data_type="VARCHAR">
+      <description>Material Type</description>
+    </column>
+    <column name="MBRSH" data_type="VARCHAR">
+      <description>Industry</description>
+    </column>
+    <column name="MATKL" data_type="VARCHAR">
+      <description>Material Group</description>
+    </column>
+    <column name="BISMT" data_type="VARCHAR">
+      <description>Old material number</description>
+    </column>
+    <column name="MEINS" data_type="VARCHAR">
+      <description>Base Unit of Measure</description>
+    </column>
+    <column name="BSTME" data_type="VARCHAR">
+      <description>Purchase Order Unit of Measure</description>
+    </column>
+    <column name="ZEINR" data_type="VARCHAR">
+      <description>Document number (without document management system)</description>
+    </column>
+    <column name="ZEIAR" data_type="VARCHAR">
+      <description>Document type (without Document Management system)</description>
+    </column>
+    <column name="ZEIVR" data_type="VARCHAR">
+      <description>Document version (without Document Management system)</description>
+    </column>
+    <column name="ZEIFO" data_type="VARCHAR">
+      <description>Page format of document (without Document Management system)</description>
+    </column>
+    <column name="AESZN" data_type="VARCHAR">
+      <description>Document change number (without document management system)</description>
+    </column>
+    <column name="BLATT" data_type="VARCHAR">
+      <description>Page number of document (without Document Management system)</description>
+    </column>
+    <column name="BLANZ" data_type="VARCHAR">
+      <description>Number of sheets (without Document Management system)</description>
+    </column>
+    <column name="FERTH" data_type="VARCHAR">
+      <description>Production/inspection memo</description>
+    </column>
+    <column name="FORMT" data_type="VARCHAR">
+      <description>Page Format of Production Memo</description>
+    </column>
+    <column name="GROES" data_type="VARCHAR">
+      <description>Size/dimensions</description>
+    </column>
+    <column name="WRKST" data_type="VARCHAR">
+      <description>Basic Material</description>
+    </column>
+    <column name="NORMT" data_type="VARCHAR">
+      <description>Industry Standard Description (such as ANSI or ISO)</description>
+    </column>
+    <column name="LABOR" data_type="VARCHAR">
+      <description>Laboratory/design office</description>
+    </column>
+    <column name="EKWSL" data_type="VARCHAR">
+      <description>Purchasing Value Key</description>
+    </column>
+    <column name="BRGEW" data_type="DECIMAL">
+      <description>Gross Weight</description>
+    </column>
+    <column name="NTGEW" data_type="DECIMAL">
+      <description>Net Weight</description>
+    </column>
+    <column name="GEWEI" data_type="VARCHAR">
+      <description>Unit of Weight</description>
+    </column>
+    <column name="VOLUM" data_type="DECIMAL">
+      <description>Volume</description>
+    </column>
+    <column name="VOLEH" data_type="VARCHAR">
+      <description>Volume Unit</description>
+    </column>
+    <column name="BEHVO" data_type="VARCHAR">
+      <description>Container requirements</description>
+    </column>
+    <column name="RAUBE" data_type="VARCHAR">
+      <description>Storage conditions</description>
+    </column>
+    <column name="TEMPB" data_type="VARCHAR">
+      <description>Temperature conditions indicator</description>
+    </column>
+    <column name="DISST" data_type="VARCHAR">
+      <description>Low-Level Code</description>
+    </column>
+    <column name="TRAGR" data_type="VARCHAR">
+      <description>Transportation Group</description>
+    </column>
+    <column name="STOFF" data_type="VARCHAR">
+      <description>Hazardous material number</description>
+    </column>
+    <column name="SPART" data_type="VARCHAR">
+      <description>Division</description>
+    </column>
+    <column name="KUNNR" data_type="VARCHAR">
+      <description>Competitor</description>
+    </column>
+    <column name="EANNR" data_type="VARCHAR">
+      <description>European Article Number (EAN) - obsolete!!!!!</description>
+    </column>
+    <column name="WESCH" data_type="DECIMAL">
+      <description>Quantity: Number of GR/GI slips to be printed</description>
+    </column>
+    <column name="BWVOR" data_type="VARCHAR">
+      <description>Procurement rule</description>
+    </column>
+    <column name="BWSCL" data_type="VARCHAR">
+      <description>Source of Supply</description>
+    </column>
+    <column name="SAISO" data_type="VARCHAR">
+      <description>Season Category</description>
+    </column>
+    <column name="ETIAR" data_type="VARCHAR">
+      <description>Label type</description>
+    </column>
+    <column name="ETIFO" data_type="VARCHAR">
+      <description>Label form</description>
+    </column>
+    <column name="ENTAR" data_type="VARCHAR">
+      <description>Deactivated</description>
+    </column>
+    <column name="EAN11" data_type="VARCHAR">
+      <description>International Article Number (EAN/UPC)</description>
+    </column>
+    <column name="NUMTP" data_type="VARCHAR">
+      <description>Category of International Article Number (EAN)</description>
+    </column>
+    <column name="LAENG" data_type="DECIMAL">
+      <description>Length</description>
+    </column>
+    <column name="BREIT" data_type="DECIMAL">
+      <description>Width</description>
+    </column>
+    <column name="HOEHE" data_type="DECIMAL">
+      <description>Height</description>
+    </column>
+    <column name="MEABM" data_type="VARCHAR">
+      <description>Unit of Dimension for Length/Width/Height</description>
+    </column>
+    <column name="PRDHA" data_type="VARCHAR">
+      <description>Product Hierarchy</description>
+    </column>
+    <column name="AEKLK" data_type="VARCHAR">
+      <description>Stock Transfer Net Change Costing</description>
+    </column>
+    <column name="CADKZ" data_type="VARCHAR">
+      <description>CAD Indicator</description>
+    </column>
+    <column name="QMPUR" data_type="VARCHAR">
+      <description>QM in Procurement is Active</description>
+    </column>
+    <column name="ERGEW" data_type="DECIMAL">
+      <description>Allowed packaging weight</description>
+    </column>
+    <column name="ERGEI" data_type="VARCHAR">
+      <description>Unit of weight (allowed packaging weight)</description>
+    </column>
+    <column name="ERVOL" data_type="DECIMAL">
+      <description>Allowed packaging volume</description>
+    </column>
+    <column name="ERVOE" data_type="VARCHAR">
+      <description>Volume unit (allowed packaging volume)</description>
+    </column>
+    <column name="GEWTO" data_type="DECIMAL">
+      <description>Excess Weight Tolerance for Handling unit</description>
+    </column>
+    <column name="VOLTO" data_type="DECIMAL">
+      <description>Excess Volume Tolerance of the Handling Unit</description>
+    </column>
+    <column name="VABME" data_type="VARCHAR">
+      <description>Variable Purchase Order Unit Active</description>
+    </column>
+    <column name="KZREV" data_type="VARCHAR">
+      <description>Revision Level Has Been Assigned to the Material</description>
+    </column>
+    <column name="KZKFG" data_type="VARCHAR">
+      <description>Configurable Material</description>
+    </column>
+    <column name="XCHPF" data_type="VARCHAR">
+      <description>Batch management requirement indicator</description>
+    </column>
+    <column name="VHART" data_type="VARCHAR">
+      <description>Packaging Material Type</description>
+    </column>
+    <column name="FUELG" data_type="DECIMAL">
+      <description>Maximum level (by volume)</description>
+    </column>
+    <column name="STFAK" data_type="INTEGER">
+      <description>Stacking factor</description>
+    </column>
+    <column name="MAGRV" data_type="VARCHAR">
+      <description>Material Group: Packaging Materials</description>
+    </column>
+    <column name="BEGRU" data_type="VARCHAR">
+      <description>Authorization Group</description>
+    </column>
+    <column name="DATAB" data_type="DATE">
+      <description>Valid-From Date</description>
+    </column>
+    <column name="LIQDT" data_type="DATE">
+      <description>Deletion date</description>
+    </column>
+    <column name="SAISJ" data_type="VARCHAR">
+      <description>Season Year</description>
+    </column>
+    <column name="PLGTP" data_type="VARCHAR">
+      <description>Price Band Category</description>
+    </column>
+    <column name="MLGUT" data_type="VARCHAR">
+      <description>Empties Bill of Material</description>
+    </column>
+    <column name="EXTWG" data_type="VARCHAR">
+      <description>External Material Group</description>
+    </column>
+    <column name="SATNR" data_type="VARCHAR">
+      <description>Cross-Plant Configurable Material</description>
+    </column>
+    <column name="ATTYP" data_type="VARCHAR">
+      <description>Material Category</description>
+    </column>
+    <column name="KZKUP" data_type="VARCHAR">
+      <description>Indicator: Material can be co-product</description>
+    </column>
+    <column name="KZNFM" data_type="VARCHAR">
+      <description>Indicator: The material has a follow-up material</description>
+    </column>
+    <column name="PMATA" data_type="VARCHAR">
+      <description>Pricing Reference Material</description>
+    </column>
+    <column name="MSTAE" data_type="VARCHAR">
+      <description>Cross-Plant Material Status</description>
+    </column>
+    <column name="MSTAV" data_type="VARCHAR">
+      <description>Cross-distribution-chain material status</description>
+    </column>
+    <column name="MSTDE" data_type="DATE">
+      <description>Date from which the cross-plant material status is valid</description>
+    </column>
+    <column name="MSTDV" data_type="DATE">
+      <description>Date from which the X-distr.-chain material status is valid</description>
+    </column>
+    <column name="TAKLV" data_type="VARCHAR">
+      <description>Tax classification of the material</description>
+    </column>
+    <column name="RBNRM" data_type="VARCHAR">
+      <description>Catalog Profile</description>
+    </column>
+    <column name="MHDRZ" data_type="DECIMAL">
+      <description>Minimum Remaining Shelf Life</description>
+    </column>
+    <column name="MHDHB" data_type="DECIMAL">
+      <description>Total shelf life</description>
+    </column>
+    <column name="MHDLP" data_type="DECIMAL">
+      <description>Storage percentage</description>
+    </column>
+    <column name="INHME" data_type="VARCHAR">
+      <description>Content unit</description>
+    </column>
+    <column name="INHAL" data_type="DECIMAL">
+      <description>Net contents</description>
+    </column>
+    <column name="VPREH" data_type="DECIMAL">
+      <description>Comparison price unit</description>
+    </column>
+    <column name="ETIAG" data_type="VARCHAR">
+      <description>IS-R Labeling: material grouping (deactivated in 4.0)</description>
+    </column>
+    <column name="INHBR" data_type="DECIMAL">
+      <description>Gross contents</description>
+    </column>
+    <column name="CMETH" data_type="VARCHAR">
+      <description>Quantity Conversion Method</description>
+    </column>
+    <column name="CUOBF" data_type="VARCHAR">
+      <description>Internal object number</description>
+    </column>
+    <column name="KZUMW" data_type="VARCHAR">
+      <description>Environmentally Relevant</description>
+    </column>
+    <column name="KOSCH" data_type="VARCHAR">
+      <description>Product allocation determination procedure</description>
+    </column>
+    <column name="SPROF" data_type="VARCHAR">
+      <description>Pricing profile for variants</description>
+    </column>
+    <column name="NRFHG" data_type="VARCHAR">
+      <description>Material qualifies for discount in kind</description>
+    </column>
+    <column name="MFRPN" data_type="VARCHAR">
+      <description>Manufacturer Part Number</description>
+    </column>
+    <column name="MFRNR" data_type="VARCHAR">
+      <description>Number of a Manufacturer</description>
+    </column>
+    <column name="BMATN" data_type="VARCHAR">
+      <description>Number of firm's own (internal) inventory-managed material</description>
+    </column>
+    <column name="MPROF" data_type="VARCHAR">
+      <description>Mfr part profile</description>
+    </column>
+    <column name="KZWSM" data_type="VARCHAR">
+      <description>Units of measure usage</description>
+    </column>
+    <column name="SAITY" data_type="VARCHAR">
+      <description>Rollout in a Season</description>
+    </column>
+    <column name="PROFL" data_type="VARCHAR">
+      <description>Dangerous Goods Indicator Profile</description>
+    </column>
+    <column name="IHIVI" data_type="VARCHAR">
+      <description>Indicator: Highly Viscous</description>
+    </column>
+    <column name="ILOOS" data_type="VARCHAR">
+      <description>Indicator: In Bulk/Liquid</description>
+    </column>
+    <column name="SERLV" data_type="VARCHAR">
+      <description>Level of Explicitness for Serial Number</description>
+    </column>
+    <column name="KZGVH" data_type="VARCHAR">
+      <description>Packaging Material is Closed Packaging</description>
+    </column>
+    <column name="XGCHP" data_type="VARCHAR">
+      <description>Indicator: Approved batch record required</description>
+    </column>
+    <column name="KZEFF" data_type="VARCHAR">
+      <description>Assign effectivity parameter values/ override change numbers</description>
+    </column>
+    <column name="COMPL" data_type="VARCHAR">
+      <description>Material completion level</description>
+    </column>
+    <column name="IPRKZ" data_type="VARCHAR">
+      <description>Period Indicator for Shelf Life Expiration Date</description>
+    </column>
+    <column name="RDMHD" data_type="VARCHAR">
+      <description>Rounding rule for calculation of SLED</description>
+    </column>
+    <column name="PRZUS" data_type="VARCHAR">
+      <description>Indicator: Product composition printed on packaging</description>
+    </column>
+    <column name="MTPOS_MARA" data_type="VARCHAR">
+      <description>General item category group</description>
+    </column>
+    <column name="BFLME" data_type="VARCHAR">
+      <description>Generic Material with Logistical Variants</description>
+    </column>
+    <column name="MATFI" data_type="VARCHAR">
+      <description>Material Is Locked</description>
+    </column>
+    <column name="CMREL" data_type="VARCHAR">
+      <description>Relevant for Configuration Management</description>
+    </column>
+    <column name="BBTYP" data_type="VARCHAR">
+      <description>Assortment List Type</description>
+    </column>
+    <column name="SLED_BBD" data_type="VARCHAR">
+      <description>Expiration Date</description>
+    </column>
+    <column name="GTIN_VARIANT" data_type="VARCHAR">
+      <description>Global Trade Item Number Variant</description>
+    </column>
+    <column name="GENNR" data_type="VARCHAR">
+      <description>Material Number of the Generic Material in Prepack Materials</description>
+    </column>
+    <column name="RMATP" data_type="VARCHAR">
+      <description>Reference material for materials packed in same way</description>
+    </column>
+    <column name="GDS_RELEVANT" data_type="VARCHAR">
+      <description>Indicator: Global Data Synchronization-Relevant</description>
+    </column>
+    <column name="WEORA" data_type="VARCHAR">
+      <description>Acceptance At Origin</description>
+    </column>
+    <column name="HUTYP_DFLT" data_type="VARCHAR">
+      <description>Standard HU Type</description>
+    </column>
+    <column name="PILFERABLE" data_type="VARCHAR">
+      <description>Pilferable</description>
+    </column>
+    <column name="WHSTC" data_type="VARCHAR">
+      <description>Warehouse Storage Condition</description>
+    </column>
+    <column name="WHMATGR" data_type="VARCHAR">
+      <description>Warehouse Material Group</description>
+    </column>
+    <column name="HNDLCODE" data_type="VARCHAR">
+      <description>Handling Indicator</description>
+    </column>
+    <column name="HAZMAT" data_type="VARCHAR">
+      <description>Relevant for Hazardous Substances</description>
+    </column>
+    <column name="HUTYP" data_type="VARCHAR">
+      <description>Handling Unit Type</description>
+    </column>
+    <column name="TARE_VAR" data_type="VARCHAR">
+      <description>Variable Tare Weight</description>
+    </column>
+    <column name="MAXC" data_type="DECIMAL">
+      <description>Maximum Allowed Capacity of Packaging Material</description>
+    </column>
+    <column name="MAXC_TOL" data_type="DECIMAL">
+      <description>Overcapacity Tolerance of the Handling Unit</description>
+    </column>
+    <column name="MAXL" data_type="DECIMAL">
+      <description>Maximum Packing Length of Packaging Material</description>
+    </column>
+    <column name="MAXB" data_type="DECIMAL">
+      <description>Maximum Packing Width of Packaging Material</description>
+    </column>
+    <column name="MAXH" data_type="DECIMAL">
+      <description>Maximum Packing Height of Packaging Material</description>
+    </column>
+    <column name="MAXDIM_UOM" data_type="VARCHAR">
+      <description>Unit of Measure for Maximum Packing Length/Width/Height</description>
+    </column>
+    <column name="HERKL" data_type="VARCHAR">
+      <description>Country of Origin of Material (Non-Preferential Origin)</description>
+    </column>
+    <column name="MFRGR" data_type="VARCHAR">
+      <description>Material freight group</description>
+    </column>
+    <column name="QQTIME" data_type="DECIMAL">
+      <description>Quarantine Period</description>
+    </column>
+    <column name="QQTIMEUOM" data_type="VARCHAR">
+      <description>Time Unit for Quarantine Period</description>
+    </column>
+    <column name="QGRP" data_type="VARCHAR">
+      <description>Quality Inspection Group</description>
+    </column>
+    <column name="SERIAL" data_type="VARCHAR">
+      <description>Serial Number Profile</description>
+    </column>
+    <column name="PS_SMARTFORM" data_type="VARCHAR">
+      <description>Form Name</description>
+    </column>
+    <column name="LOGUNIT" data_type="VARCHAR">
+      <description>EWM CW: Logistics Unit of Measure</description>
+    </column>
+    <column name="CWQREL" data_type="VARCHAR">
+      <description>EWM CW: Material Is a Catch Weight Material</description>
+    </column>
+    <column name="CWQPROC" data_type="VARCHAR">
+      <description>EWM CW: Catch Weight Profile for Entering CW Quantity</description>
+    </column>
+    <column name="CWQTOLGR" data_type="VARCHAR">
+      <description>EWM-CW: Catch Weight Tolerance Group for EWM</description>
+    </column>
+    <column name="ADPROF" data_type="VARCHAR">
+      <description>Adjustment Profile</description>
+    </column>
+    <column name="IPMIPPRODUCT" data_type="VARCHAR">
+      <description>ID for an Intellectual Property (CRM Product)</description>
+    </column>
+    <column name="ALLOW_PMAT_IGNO" data_type="VARCHAR">
+      <description>Variant Price Allowed (for Material Master)</description>
+    </column>
+    <column name="MEDIUM" data_type="VARCHAR">
+      <description>Medium</description>
+    </column>
+    <column name="COMMODITY" data_type="VARCHAR">
+      <description>Physical Commodity</description>
+    </column>
+    <column name="ANIMAL_ORIGIN" data_type="VARCHAR">
+      <description>Indicator: Contains Non-Textile Parts of Animal Origin</description>
+    </column>
+    <column name="TEXTILE_COMP_IND" data_type="VARCHAR">
+      <description>Indicator: New Textile Composition Function</description>
+    </column>
+    <column name="SGT_CSGR" data_type="VARCHAR">
+      <description>Segmentation Structure</description>
+    </column>
+    <column name="SGT_COVSA" data_type="VARCHAR">
+      <description>Segmentation Strategy</description>
+    </column>
+    <column name="SGT_STAT" data_type="VARCHAR">
+      <description>Segmentation Material Master Status</description>
+    </column>
+    <column name="SGT_SCOPE" data_type="VARCHAR">
+      <description>Segmentation Strategy Scope</description>
+    </column>
+    <column name="SGT_REL" data_type="VARCHAR">
+      <description>Segmentation Relevant</description>
+    </column>
+    <column name="FSH_MG_AT1" data_type="VARCHAR">
+      <description>Fashion Information Field: 1</description>
+    </column>
+    <column name="FSH_MG_AT2" data_type="VARCHAR">
+      <description>Fashion Information Field: 2</description>
+    </column>
+    <column name="FSH_MG_AT3" data_type="VARCHAR">
+      <description>Fashion Information Field: 3</description>
+    </column>
+    <column name="FSH_SEALV" data_type="VARCHAR">
+      <description>Indicator: Use of Season</description>
+    </column>
+    <column name="FSH_SEAIM" data_type="VARCHAR">
+      <description>Indicator: Season Active in Inventory Management</description>
+    </column>
+    <column name="FSH_SC_MID" data_type="VARCHAR">
+      <description>Material Conversion ID for Characteristic Value Conversion</description>
+    </column>
+    <column name="ANP" data_type="VARCHAR">
+      <description>ANP Code</description>
+    </column>
+    <column name="PSM_CODE" data_type="VARCHAR">
+      <description>Code of Protected Species Management</description>
+    </column>
+    <column name="/BEV1/LULEINH" data_type="VARCHAR">
+      <description>Loading Units</description>
+    </column>
+    <column name="/BEV1/LULDEGRP" data_type="VARCHAR">
+      <description>Loading Unit Group: IS Beverage</description>
+    </column>
+    <column name="/BEV1/NESTRUCCAT" data_type="VARCHAR">
+      <description>Structure Category for Material Relationship</description>
+    </column>
+    <column name="/DSD/SL_TOLTYP" data_type="VARCHAR">
+      <description>Tolerance Type ID</description>
+    </column>
+    <column name="/DSD/SV_CNT_GRP" data_type="VARCHAR">
+      <description>Counting Group</description>
+    </column>
+    <column name="/DSD/VC_GROUP" data_type="VARCHAR">
+      <description>DSD Grouping</description>
+    </column>
+    <column name="/VSO/R_TILT_IND" data_type="VARCHAR">
+      <description>Material may be Tilted (Vehicle Space Optimization)</description>
+    </column>
+    <column name="/VSO/R_STACK_IND" data_type="VARCHAR">
+      <description>Stacking not Allowed (VSO)</description>
+    </column>
+    <column name="/VSO/R_BOT_IND" data_type="VARCHAR">
+      <description>Bottom Layer (Vehicle Space Optimization)</description>
+    </column>
+    <column name="/VSO/R_TOP_IND" data_type="VARCHAR">
+      <description>Top Layer (VSO)</description>
+    </column>
+    <column name="/VSO/R_STACK_NO" data_type="VARCHAR">
+      <description>Stacking Factor (Vehicle Space Optimization)</description>
+    </column>
+    <column name="/VSO/R_PAL_IND" data_type="VARCHAR">
+      <description>Load without Packaging Material (VSO)</description>
+    </column>
+    <column name="/VSO/R_PAL_OVR_D" data_type="DECIMAL">
+      <description>Permissible Overhang (Depth) of Packaging Material (VSO)</description>
+    </column>
+    <column name="/VSO/R_PAL_OVR_W" data_type="DECIMAL">
+      <description>Permissible Overhang (Width) of Shipping Material (VSO)</description>
+    </column>
+    <column name="/VSO/R_PAL_B_HT" data_type="DECIMAL">
+      <description>Maximum Stacking Height of the Packaging Material (VSO)</description>
+    </column>
+    <column name="/VSO/R_PAL_MIN_H" data_type="DECIMAL">
+      <description>Minimum Stacking Height of the Packaging Material (VSO)</description>
+    </column>
+    <column name="/VSO/R_TOL_B_HT" data_type="DECIMAL">
+      <description>Tolerance to Exceed the Max. Stacking Height (VSO)</description>
+    </column>
+    <column name="/VSO/R_NO_P_GVH" data_type="VARCHAR">
+      <description>Number of Materials for each Closed PKM (VSO)</description>
+    </column>
+    <column name="/VSO/R_QUAN_UNIT" data_type="VARCHAR">
+      <description>Unit of Measure Vehicle Space Optimization</description>
+    </column>
+    <column name="/VSO/R_KZGVH_IND" data_type="VARCHAR">
+      <description>Closed Packaging Material Required (VSO)</description>
+    </column>
+    <column name="PACKCODE" data_type="VARCHAR">
+      <description>Packaging Code</description>
+    </column>
+    <column name="DG_PACK_STATUS" data_type="VARCHAR">
+      <description>Dangerous Goods Packaging Status</description>
+    </column>
+    <column name="MCOND" data_type="VARCHAR">
+      <description>Material Condition Management</description>
+    </column>
+    <column name="RETDELC" data_type="VARCHAR">
+      <description>Return Code</description>
+    </column>
+    <column name="LOGLEV_RETO" data_type="VARCHAR">
+      <description>Return to Logistics Level</description>
+    </column>
+    <column name="NSNID" data_type="VARCHAR">
+      <description>NATO Item Identification Number</description>
+    </column>
+    <column name="ADSPC_SPC" data_type="VARCHAR">
+      <description>Spare Part Class Code</description>
+    </column>
+    <column name="IMATN" data_type="VARCHAR">
+      <description>FFF class</description>
+    </column>
+    <column name="PICNUM" data_type="VARCHAR">
+      <description>Supersession chain number</description>
+    </column>
+    <column name="BSTAT" data_type="VARCHAR">
+      <description>Creation Status - Seasonal Procurement</description>
+    </column>
+    <column name="COLOR_ATINN" data_type="VARCHAR">
+      <description>Internal Charactieristic Number for Color Characteristics</description>
+    </column>
+    <column name="SIZE1_ATINN" data_type="VARCHAR">
+      <description>Internal Char. Number for Characteristics for Main Sizes</description>
+    </column>
+    <column name="SIZE2_ATINN" data_type="VARCHAR">
+      <description>Internal Char. Number for Characteristics for Second Sizes</description>
+    </column>
+    <column name="COLOR" data_type="VARCHAR">
+      <description>Characteristic Value for Colors of Variants</description>
+    </column>
+    <column name="SIZE1" data_type="VARCHAR">
+      <description>Characteristic Value for Main Sizes of Variants</description>
+    </column>
+    <column name="SIZE2" data_type="VARCHAR">
+      <description>Characteristic Value for Second Size for Variants</description>
+    </column>
+    <column name="FREE_CHAR" data_type="VARCHAR">
+      <description>Characteristic Value for Evaluation Purposes</description>
+    </column>
+    <column name="CARE_CODE" data_type="VARCHAR">
+      <description>Care Codes (such as Washing Code, Ironing Code, etc.)</description>
+    </column>
+    <column name="BRAND_ID" data_type="VARCHAR">
+      <description>Brand</description>
+    </column>
+    <column name="FIBER_CODE1" data_type="VARCHAR">
+      <description>Fiber Code for Textiles (Component 1)</description>
+    </column>
+    <column name="FIBER_PART1" data_type="VARCHAR">
+      <description>Percentage Share of Fiber (Component 1)</description>
+    </column>
+    <column name="FIBER_CODE2" data_type="VARCHAR">
+      <description>Fiber Code for Textiles (Component 2)</description>
+    </column>
+    <column name="FIBER_PART2" data_type="VARCHAR">
+      <description>Percentage Share of Fiber (Component 2)</description>
+    </column>
+    <column name="FIBER_CODE3" data_type="VARCHAR">
+      <description>Fiber Code for Textiles (Component 3)</description>
+    </column>
+    <column name="FIBER_PART3" data_type="VARCHAR">
+      <description>Percentage Share of Fiber (Component 3)</description>
+    </column>
+    <column name="FIBER_CODE4" data_type="VARCHAR">
+      <description>Fiber Code for Textiles (Component 4)</description>
+    </column>
+    <column name="FIBER_PART4" data_type="VARCHAR">
+      <description>Percentage Share of Fiber (Component 4)</description>
+    </column>
+    <column name="FIBER_CODE5" data_type="VARCHAR">
+      <description>Fiber Code for Textiles (Component 5)</description>
+    </column>
+    <column name="FIBER_PART5" data_type="VARCHAR">
+      <description>Percentage Share of Fiber (Component 5)</description>
+    </column>
+    <column name="FASHGRD" data_type="VARCHAR">
+      <description>Fashion Grade</description>
+    </column>
+    <column name="/ACCGO/ASSGD_UOM" data_type="VARCHAR">
+      <description>Assignment UoM</description>
+    </column>
+    <column name="/STTPEC/SERTYPE" data_type="INTEGER">
+      <description>Serialization Type</description>
+    </column>
+    <column name="/STTPEC/SYNCACT" data_type="VARCHAR">
+      <description>Synchronization Active</description>
+    </column>
+    <column name="/STTPEC/SYNCTIME" data_type="DECIMAL">
+      <description>Synchronization Time Stamp</description>
+    </column>
+    <column name="/STTPEC/SYNCCHG" data_type="VARCHAR">
+      <description>Indicator Changed Since Integration</description>
+    </column>
+    <column name="/STTPEC/COUNTRY_REF" data_type="VARCHAR">
+      <description>Profile-Relevant Country</description>
+    </column>
+    <column name="/STTPEC/PRDCAT" data_type="VARCHAR">
+      <description>Product Category</description>
+    </column>
+    <column name="COBJID" data_type="VARCHAR">
+      <description>Object ID</description>
+    </column>
+    <column name="COTYPE" data_type="VARCHAR">
+      <description>Object Type</description>
+    </column>
+    <column name="OIGROUPNAM" data_type="VARCHAR">
+      <description>TD product group</description>
+    </column>
+    <column name="OITRIND" data_type="VARCHAR">
+      <description>Transfer sign for plant-to-plant transfers</description>
+    </column>
+    <column name="OIHMTXGR" data_type="VARCHAR">
+      <description>Material tax group</description>
+    </column>
+  </columns>
+</data_description>

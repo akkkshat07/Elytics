@@ -1,0 +1,195 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="PA0021">
+  <table_info name="PA0021" total_columns="63"/>
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="PERNR" data_type="VARCHAR">
+      <description>Personnel Number</description>
+    </column>
+    <column name="SUBTY" data_type="VARCHAR">
+      <description>Subtype</description>
+    </column>
+    <column name="OBJPS" data_type="VARCHAR">
+      <description>Object Identification</description>
+    </column>
+    <column name="SPRPS" data_type="VARCHAR">
+      <description>Lock Indicator for HR Master Data Record</description>
+    </column>
+    <column name="ENDDA" data_type="DATE">
+      <description>End Date</description>
+    </column>
+    <column name="BEGDA" data_type="DATE">
+      <description>Start Date</description>
+    </column>
+    <column name="SEQNR" data_type="VARCHAR">
+      <description>Number of Infotype Record With Same Key</description>
+    </column>
+    <column name="AEDTM" data_type="DATE">
+      <description>Last Changed On</description>
+    </column>
+    <column name="UNAME" data_type="VARCHAR">
+      <description>Name of Person Who Changed Object</description>
+    </column>
+    <column name="HISTO" data_type="VARCHAR">
+      <description>Historical Record Flag</description>
+    </column>
+    <column name="ITXEX" data_type="VARCHAR">
+      <description>Text Exists for Infotype</description>
+    </column>
+    <column name="REFEX" data_type="VARCHAR">
+      <description>Reference Fields Exist (Primary/Secondary Costs)</description>
+    </column>
+    <column name="ORDEX" data_type="VARCHAR">
+      <description>Confirmation Fields Exist</description>
+    </column>
+    <column name="ITBLD" data_type="VARCHAR">
+      <description>Infotype Screen Control</description>
+    </column>
+    <column name="PREAS" data_type="VARCHAR">
+      <description>Reason for Changing Master Data</description>
+    </column>
+    <column name="FLAG1" data_type="VARCHAR">
+      <description>Reserved Field/Unused Field</description>
+    </column>
+    <column name="FLAG2" data_type="VARCHAR">
+      <description>Reserved Field/Unused Field</description>
+    </column>
+    <column name="FLAG3" data_type="VARCHAR">
+      <description>Reserved Field/Unused Field</description>
+    </column>
+    <column name="FLAG4" data_type="VARCHAR">
+      <description>Reserved Field/Unused Field</description>
+    </column>
+    <column name="RESE1" data_type="VARCHAR">
+      <description>Reserved Field/Unused Field of Length 2</description>
+    </column>
+    <column name="RESE2" data_type="VARCHAR">
+      <description>Reserved Field/Unused Field of Length 2</description>
+    </column>
+    <column name="GRPVL" data_type="VARCHAR">
+      <description>Grouping Value for Personnel Assignments</description>
+    </column>
+    <column name="FAMSA" data_type="VARCHAR">
+      <description>Type of Family Record</description>
+    </column>
+    <column name="FGBDT" data_type="DATE">
+      <description>Date of Birth</description>
+    </column>
+    <column name="FGBLD" data_type="VARCHAR">
+      <description>Country of Birth</description>
+    </column>
+    <column name="FANAT" data_type="VARCHAR">
+      <description>Nationality</description>
+    </column>
+    <column name="FASEX" data_type="VARCHAR">
+      <description>Gender</description>
+    </column>
+    <column name="FAVOR" data_type="VARCHAR">
+      <description>First Name</description>
+    </column>
+    <column name="FANAM" data_type="VARCHAR">
+      <description>Last Name</description>
+    </column>
+    <column name="FGBOT" data_type="VARCHAR">
+      <description>Birthplace</description>
+    </column>
+    <column name="FGDEP" data_type="VARCHAR">
+      <description>State</description>
+    </column>
+    <column name="ERBNR" data_type="VARCHAR">
+      <description>Reference Personnel Number for Family Member</description>
+    </column>
+    <column name="FGBNA" data_type="VARCHAR">
+      <description>Name at Birth</description>
+    </column>
+    <column name="FNAC2" data_type="VARCHAR">
+      <description>Second Name</description>
+    </column>
+    <column name="FCNAM" data_type="VARCHAR">
+      <description>Complete Name</description>
+    </column>
+    <column name="FKNZN" data_type="VARCHAR">
+      <description>Name Format Indicator for Employee in a List</description>
+    </column>
+    <column name="FINIT" data_type="VARCHAR">
+      <description>Initials</description>
+    </column>
+    <column name="FVRSW" data_type="VARCHAR">
+      <description>Name Prefix</description>
+    </column>
+    <column name="FVRS2" data_type="VARCHAR">
+      <description>Name Prefix</description>
+    </column>
+    <column name="FNMZU" data_type="VARCHAR">
+      <description>Other Title</description>
+    </column>
+    <column name="AHVNR" data_type="VARCHAR">
+      <description>AHV Number</description>
+    </column>
+    <column name="KDSVH" data_type="VARCHAR">
+      <description>Relationship to Child</description>
+    </column>
+    <column name="KDBSL" data_type="VARCHAR">
+      <description>Allowance Authorization</description>
+    </column>
+    <column name="KDUTB" data_type="VARCHAR">
+      <description>Address of Child</description>
+    </column>
+    <column name="KDGBR" data_type="VARCHAR">
+      <description>Child Allowance Entitlement</description>
+    </column>
+    <column name="KDART" data_type="VARCHAR">
+      <description>Child Type</description>
+    </column>
+    <column name="KDZUG" data_type="VARCHAR">
+      <description>Child Bonuses</description>
+    </column>
+    <column name="KDZUL" data_type="VARCHAR">
+      <description>Child Allowances</description>
+    </column>
+    <column name="KDVBE" data_type="VARCHAR">
+      <description>Sickness Certificate Authorization</description>
+    </column>
+    <column name="ERMNR" data_type="VARCHAR">
+      <description>Authority Number</description>
+    </column>
+    <column name="AUSVL" data_type="VARCHAR">
+      <description>1st Part of SI Number (Sequential Number)</description>
+    </column>
+    <column name="AUSVG" data_type="VARCHAR">
+      <description>2nd Part of SI Number (Birth Date)</description>
+    </column>
+    <column name="FASDT" data_type="DATE">
+      <description>End of Family Member's Education/Training</description>
+    </column>
+    <column name="FASAR" data_type="VARCHAR">
+      <description>School Type of Family Member</description>
+    </column>
+    <column name="FASIN" data_type="VARCHAR">
+      <description>Educational Institute</description>
+    </column>
+    <column name="EGAGA" data_type="VARCHAR">
+      <description>Employer of Family Member</description>
+    </column>
+    <column name="FANA2" data_type="VARCHAR">
+      <description>Second Nationality</description>
+    </column>
+    <column name="FANA3" data_type="VARCHAR">
+      <description>Third Nationality</description>
+    </column>
+    <column name="BETRG" data_type="DECIMAL">
+      <description>Amount</description>
+    </column>
+    <column name="TITEL" data_type="VARCHAR">
+      <description>Title</description>
+    </column>
+    <column name="EMRGN" data_type="VARCHAR">
+      <description>Emergency Contact</description>
+    </column>
+    <column name="TITL2" data_type="VARCHAR">
+      <description>Second Title</description>
+    </column>
+  </columns>
+</data_description>

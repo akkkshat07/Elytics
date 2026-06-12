@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="T052">
+  <table_info name="T052" total_columns="27" />
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="ZTERM" data_type="VARCHAR">
+      <description>Terms of Payment Key</description>
+    </column>
+    <column name="ZTAGG" data_type="VARCHAR">
+      <description>Day Limit</description>
+    </column>
+    <column name="ZDART" data_type="VARCHAR">
+      <description>Date Type</description>
+    </column>
+    <column name="ZFAEL" data_type="VARCHAR">
+      <description>Calendar Day for the Baseline Date for Payment</description>
+    </column>
+    <column name="ZMONA" data_type="VARCHAR">
+      <description>Additional Months</description>
+    </column>
+    <column name="ZTAG1" data_type="VARCHAR">
+      <description>Days from Baseline Date for Payment</description>
+    </column>
+    <column name="ZPRZ1" data_type="DECIMAL">
+      <description>Cash Discount Percentage Rate</description>
+    </column>
+    <column name="ZTAG2" data_type="VARCHAR">
+      <description>Days from Baseline Date for Payment</description>
+    </column>
+    <column name="ZPRZ2" data_type="DECIMAL">
+      <description>Cash Discount Percentage Rate</description>
+    </column>
+    <column name="ZTAG3" data_type="VARCHAR">
+      <description>Days from Baseline Date for Payment</description>
+    </column>
+    <column name="ZSTG1" data_type="VARCHAR">
+      <description>Due Date for Special Condition</description>
+    </column>
+    <column name="ZSMN1" data_type="VARCHAR">
+      <description>Additional Months for Special Condition (Term 1)</description>
+    </column>
+    <column name="ZSTG2" data_type="VARCHAR">
+      <description>Due Date for Special Condition</description>
+    </column>
+    <column name="ZSMN2" data_type="VARCHAR">
+      <description>Additional Months for Special Condition (Term 2)</description>
+    </column>
+    <column name="ZSTG3" data_type="VARCHAR">
+      <description>Due Date for Special Condition</description>
+    </column>
+    <column name="ZSMN3" data_type="VARCHAR">
+      <description>Additional Months for Special Condition (Term 3)</description>
+    </column>
+    <column name="XZBRV" data_type="VARCHAR">
+      <description>Print terms of payment in RV papers</description>
+    </column>
+    <column name="ZSCHF" data_type="VARCHAR">
+      <description>Payment Block (Default Value)</description>
+    </column>
+    <column name="XCHPB" data_type="VARCHAR">
+      <description>Transfer payment block when changing terms of payment?</description>
+    </column>
+    <column name="TXN08" data_type="VARCHAR">
+      <description>Number of the standard text</description>
+    </column>
+    <column name="ZLSCH" data_type="VARCHAR">
+      <description>Payment Method</description>
+    </column>
+    <column name="XCHPM" data_type="VARCHAR">
+      <description>Transfer payment method when changing terms of payment?</description>
+    </column>
+    <column name="KOART" data_type="VARCHAR">
+      <description>Account Type of the Customer/Vendor</description>
+    </column>
+    <column name="XSPLT" data_type="VARCHAR">
+      <description>Indicator: Term for installment payment</description>
+    </column>
+    <column name="XSCRC" data_type="VARCHAR">
+      <description>Recurring Entries: Add Terms of Payment from Master Record</description>
+    </column>
+    <column name="F_OBSOLETE" data_type="VARCHAR">
+      <description>Hide Entry in Value Help</description>
+    </column>
+  </columns>
+</data_description>

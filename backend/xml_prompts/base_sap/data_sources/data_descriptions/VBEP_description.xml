@@ -1,0 +1,201 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="VBEP">
+  <table_info name="VBEP" total_columns="65"/>
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="VBELN" data_type="VARCHAR">
+      <description>Sales Document</description>
+    </column>
+    <column name="POSNR" data_type="VARCHAR">
+      <description>Sales Document Item</description>
+    </column>
+    <column name="ETENR" data_type="VARCHAR">
+      <description>Schedule Line Number</description>
+    </column>
+    <column name="ETTYP" data_type="VARCHAR">
+      <description>Schedule line category</description>
+    </column>
+    <column name="LFREL" data_type="VARCHAR">
+      <description>Item is relevant for delivery</description>
+    </column>
+    <column name="EDATU" data_type="DATE">
+      <description>Schedule line date</description>
+    </column>
+    <column name="EZEIT" data_type="TIME">
+      <description>Arrival time</description>
+    </column>
+    <column name="WMENG" data_type="DECIMAL">
+      <description>Order quantity in sales units</description>
+    </column>
+    <column name="BMENG" data_type="DECIMAL">
+      <description>Confirmed Quantity</description>
+    </column>
+    <column name="VRKME" data_type="VARCHAR">
+      <description>Sales Unit</description>
+    </column>
+    <column name="LMENG" data_type="DECIMAL">
+      <description>Required quantity for mat.management in stockkeeping units</description>
+    </column>
+    <column name="MEINS" data_type="VARCHAR">
+      <description>Base Unit of Measure</description>
+    </column>
+    <column name="BDDAT" data_type="DATE">
+      <description>Requirement date (deadline for procurement)</description>
+    </column>
+    <column name="BDART" data_type="VARCHAR">
+      <description>Requirement type</description>
+    </column>
+    <column name="PLART" data_type="VARCHAR">
+      <description>Planning type</description>
+    </column>
+    <column name="VBELE" data_type="VARCHAR">
+      <description>Business document number</description>
+    </column>
+    <column name="POSNE" data_type="VARCHAR">
+      <description>Business item number</description>
+    </column>
+    <column name="ETENE" data_type="VARCHAR">
+      <description>Schedule line</description>
+    </column>
+    <column name="RSDAT" data_type="DATE">
+      <description>Earliest possible reservation date</description>
+    </column>
+    <column name="IDNNR" data_type="VARCHAR">
+      <description>Maintenance request</description>
+    </column>
+    <column name="BANFN" data_type="VARCHAR">
+      <description>Purchase Requisition Number</description>
+    </column>
+    <column name="BSART" data_type="VARCHAR">
+      <description>Order Type (Purchasing)</description>
+    </column>
+    <column name="BSTYP" data_type="VARCHAR">
+      <description>Purchasing document category</description>
+    </column>
+    <column name="WEPOS" data_type="VARCHAR">
+      <description>Confirmation status of schedule line (incl.ALE)</description>
+    </column>
+    <column name="REPOS" data_type="VARCHAR">
+      <description>Invoice Receipt Indicator</description>
+    </column>
+    <column name="LRGDT" data_type="DATE">
+      <description>Return date for returnable packaging</description>
+    </column>
+    <column name="PRGRS" data_type="VARCHAR">
+      <description>Date type (day, week, month, interval)</description>
+    </column>
+    <column name="TDDAT" data_type="DATE">
+      <description>Transportation Planning Date</description>
+    </column>
+    <column name="MBDAT" data_type="DATE">
+      <description>Material Availability Date</description>
+    </column>
+    <column name="LDDAT" data_type="DATE">
+      <description>Loading Date</description>
+    </column>
+    <column name="WADAT" data_type="DATE">
+      <description>Goods Issue Date</description>
+    </column>
+    <column name="CMENG" data_type="DECIMAL">
+      <description>Corrected quantity in sales unit</description>
+    </column>
+    <column name="LIFSP" data_type="VARCHAR">
+      <description>Schedule line blocked for delivery</description>
+    </column>
+    <column name="GRSTR" data_type="VARCHAR">
+      <description>Group definition of structure data</description>
+    </column>
+    <column name="ABART" data_type="VARCHAR">
+      <description>Rel. Type</description>
+    </column>
+    <column name="ABRUF" data_type="VARCHAR">
+      <description>Forecast Delivery schedule number</description>
+    </column>
+    <column name="ROMS1" data_type="DECIMAL">
+      <description>Committed quantity</description>
+    </column>
+    <column name="ROMS2" data_type="DECIMAL">
+      <description>Size 2</description>
+    </column>
+    <column name="ROMS3" data_type="DECIMAL">
+      <description>Size 3</description>
+    </column>
+    <column name="ROMEI" data_type="VARCHAR">
+      <description>Unit of measure for sizes 1 to 3</description>
+    </column>
+    <column name="RFORM" data_type="VARCHAR">
+      <description>Formula key</description>
+    </column>
+    <column name="UMVKZ" data_type="DECIMAL">
+      <description>Numerator (factor) for conversion of sales quantity into SKU</description>
+    </column>
+    <column name="UMVKN" data_type="DECIMAL">
+      <description>Denominator (Divisor) for Conversion of Sales Qty into SKU</description>
+    </column>
+    <column name="VERFP" data_type="VARCHAR">
+      <description>Availability confirmed automatically</description>
+    </column>
+    <column name="BWART" data_type="VARCHAR">
+      <description>Movement Type (Inventory Management)</description>
+    </column>
+    <column name="BNFPO" data_type="VARCHAR">
+      <description>Item number of purchase requisition</description>
+    </column>
+    <column name="ETART" data_type="VARCHAR">
+      <description>Schedule line type EDI</description>
+    </column>
+    <column name="AUFNR" data_type="VARCHAR">
+      <description>Order Number</description>
+    </column>
+    <column name="PLNUM" data_type="VARCHAR">
+      <description>Planned order number</description>
+    </column>
+    <column name="SERNR" data_type="VARCHAR">
+      <description>BOM explosion number</description>
+    </column>
+    <column name="AESKD" data_type="VARCHAR">
+      <description>Customer Engineering Change Status</description>
+    </column>
+    <column name="ABGES" data_type="FLOAT">
+      <description>Guaranteed (factor between 0 and 1)</description>
+    </column>
+    <column name="MBUHR" data_type="TIME">
+      <description>Material Staging Time (Local, Relating to a Plant)</description>
+    </column>
+    <column name="TDUHR" data_type="TIME">
+      <description>Transp. Planning Time (Local, Relating to a Shipping Point)</description>
+    </column>
+    <column name="LDUHR" data_type="TIME">
+      <description>Loading Time (Local Time Relating to a Shipping Point)</description>
+    </column>
+    <column name="WAUHR" data_type="TIME">
+      <description>Time of Goods Issue (Local, Relating to a Plant)</description>
+    </column>
+    <column name="AULWE" data_type="VARCHAR">
+      <description>Route Schedule</description>
+    </column>
+    <column name="HANDOVERDATE" data_type="DATE">
+      <description>Handover Date at the Handover Location</description>
+    </column>
+    <column name="HANDOVERTIME" data_type="TIME">
+      <description>Handover time at the handover location</description>
+    </column>
+    <column name="_DATAAGING" data_type="DATE">
+      <description>Data Filter Value for Data Aging</description>
+    </column>
+    <column name="FSH_RALLOC_QTY" data_type="DECIMAL">
+      <description>ARun Requirement Allocated Quantity</description>
+    </column>
+    <column name="FSH_OS_ID" data_type="VARCHAR">
+      <description>Order Scheduling Group ID</description>
+    </column>
+    <column name="FSH_PQR_RC" data_type="VARCHAR">
+      <description>Rejection Code for Partial Quantity Rejection</description>
+    </column>
+    <column name="MBDAT_DRS" data_type="DATE">
+      <description>Material Availability Date Third-Party Order Planning</description>
+    </column>
+  </columns>
+</data_description>

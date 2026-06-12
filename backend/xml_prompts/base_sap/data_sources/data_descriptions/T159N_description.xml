@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="T159N">
+  <table_info name="T159N" total_columns="7" />
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="REPID" data_type="VARCHAR">
+      <description>ABAP Program Name</description>
+    </column>
+    <column name="WEVER" data_type="VARCHAR">
+      <description>Version for Printing GR/GI Slip</description>
+    </column>
+    <column name="VGART" data_type="VARCHAR">
+      <description>Transaction/Event Type</description>
+    </column>
+    <column name="KZDRU" data_type="VARCHAR">
+      <description>Printing of document item</description>
+    </column>
+    <column name="XGUEL" data_type="VARCHAR">
+      <description>Printing of form (layout set) active</description>
+    </column>
+    <column name="TDFORM" data_type="VARCHAR">
+      <description>Form name</description>
+    </column>
+  </columns>
+</data_description>

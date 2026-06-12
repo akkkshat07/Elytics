@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="CNFK">
+  <table_info name="CNFK" total_columns="14" />
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="KOKRS" data_type="VARCHAR">
+      <description>Controlling Area</description>
+    </column>
+    <column name="KSTAR" data_type="VARCHAR">
+      <description>Cost Element</description>
+    </column>
+    <column name="KSTAR_GRP" data_type="VARCHAR">
+      <description>Cost Element Group</description>
+    </column>
+    <column name="KSTAR_TYP" data_type="VARCHAR">
+      <description>Cost Element Type</description>
+    </column>
+    <column name="OBJNR" data_type="VARCHAR">
+      <description>Object Number</description>
+    </column>
+    <column name="CNFKEY" data_type="VARCHAR">
+      <description>Assignment key</description>
+    </column>
+    <column name="CNFTYPE" data_type="VARCHAR">
+      <description>Assignment type</description>
+    </column>
+    <column name="DATUV" data_type="DATE">
+      <description>Valid-from date</description>
+    </column>
+    <column name="DATUB" data_type="DATE">
+      <description>Valid-to date</description>
+    </column>
+    <column name="ERDAT" data_type="DATE">
+      <description>Created on</description>
+    </column>
+    <column name="ERNAM" data_type="VARCHAR">
+      <description>Created by</description>
+    </column>
+    <column name="AEDAT" data_type="DATE">
+      <description>Changed on</description>
+    </column>
+    <column name="AENAM" data_type="VARCHAR">
+      <description>Changed by</description>
+    </column>
+  </columns>
+</data_description>

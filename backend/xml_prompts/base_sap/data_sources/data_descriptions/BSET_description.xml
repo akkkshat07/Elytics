@@ -1,0 +1,126 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="BSET">
+  <table_info name="BSET" total_columns="40"/>
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="BUKRS" data_type="VARCHAR">
+      <description>Company Code</description>
+    </column>
+    <column name="BELNR" data_type="VARCHAR">
+      <description>Document Number of an Accounting Document</description>
+    </column>
+    <column name="GJAHR" data_type="VARCHAR">
+      <description>Fiscal Year</description>
+    </column>
+    <column name="BUZEI" data_type="VARCHAR">
+      <description>Number of Line Item Within Accounting Document</description>
+    </column>
+    <column name="MWSKZ" data_type="VARCHAR">
+      <description>Tax on Sales/Purchases Code</description>
+    </column>
+    <column name="HKONT" data_type="VARCHAR">
+      <description>General Ledger Account</description>
+    </column>
+    <column name="TXGRP" data_type="VARCHAR">
+      <description>Group Indicator for Tax Line Items</description>
+    </column>
+    <column name="SHKZG" data_type="VARCHAR">
+      <description>Debit/Credit Indicator</description>
+    </column>
+    <column name="HWBAS" data_type="DECIMAL">
+      <description>Tax Base Amount in Local Currency</description>
+    </column>
+    <column name="FWBAS" data_type="DECIMAL">
+      <description>Tax Base Amount in Document Currency</description>
+    </column>
+    <column name="HWSTE" data_type="DECIMAL">
+      <description>Tax Amount in Local Currency</description>
+    </column>
+    <column name="FWSTE" data_type="DECIMAL">
+      <description>Tax Amount in Document Currency</description>
+    </column>
+    <column name="KTOSL" data_type="VARCHAR">
+      <description>Transaction Key</description>
+    </column>
+    <column name="KNUMH" data_type="VARCHAR">
+      <description>Condition record number</description>
+    </column>
+    <column name="STCEG" data_type="VARCHAR">
+      <description>VAT Registration Number</description>
+    </column>
+    <column name="EGBLD" data_type="VARCHAR">
+      <description>Country of Destination for Delivery of Goods</description>
+    </column>
+    <column name="EGLLD" data_type="VARCHAR">
+      <description>Supplying Country for Delivery of Goods</description>
+    </column>
+    <column name="TXJCD" data_type="VARCHAR">
+      <description>Tax Jurisdiction</description>
+    </column>
+    <column name="H2STE" data_type="DECIMAL">
+      <description>Tax Amount in Local Currency 2</description>
+    </column>
+    <column name="H3STE" data_type="DECIMAL">
+      <description>Tax Amount in Local Currency 3</description>
+    </column>
+    <column name="H2BAS" data_type="DECIMAL">
+      <description>Tax Base Amount in Local Currency 2</description>
+    </column>
+    <column name="H3BAS" data_type="DECIMAL">
+      <description>Tax Base Amount in Local Currency 3</description>
+    </column>
+    <column name="KSCHL" data_type="VARCHAR">
+      <description>Condition Type</description>
+    </column>
+    <column name="STMDT" data_type="DATE">
+      <description>Date on Which the Tax Return Was Made</description>
+    </column>
+    <column name="STMTI" data_type="VARCHAR">
+      <description>Time of Program Run for the Tax Return</description>
+    </column>
+    <column name="MLDDT" data_type="DATE">
+      <description>Reporting Date for Tax Report</description>
+    </column>
+    <column name="KBETR" data_type="DECIMAL">
+      <description>Tax Rate</description>
+    </column>
+    <column name="STBKZ" data_type="VARCHAR">
+      <description>Posting indicator</description>
+    </column>
+    <column name="LSTML" data_type="VARCHAR">
+      <description>Country for Tax Return</description>
+    </column>
+    <column name="LWSTE" data_type="DECIMAL">
+      <description>Tax Amount in Country Currency</description>
+    </column>
+    <column name="LWBAS" data_type="DECIMAL">
+      <description>Tax Base in Country Currency</description>
+    </column>
+    <column name="TXDAT" data_type="DATE">
+      <description>Date for defining tax rates</description>
+    </column>
+    <column name="BUPLA" data_type="VARCHAR">
+      <description>Business Place</description>
+    </column>
+    <column name="TXJDP" data_type="VARCHAR">
+      <description>Tax Jurisdiction Code - Jurisdiction for Lowest Level Tax</description>
+    </column>
+    <column name="TXJLV" data_type="VARCHAR">
+      <description>Tax jurisdiction code level</description>
+    </column>
+    <column name="TAXPS" data_type="VARCHAR">
+      <description>Tax document item number</description>
+    </column>
+    <column name="TXMOD" data_type="INTEGER">
+      <description>Tax Result Has Been Modified Manually</description>
+    </column>
+    <column name="FIWTIN_CHN" data_type="VARCHAR">
+      <description>Challan Number</description>
+    </column>
+    <column name="FIWTIN_CHD" data_type="DATE">
+      <description>Challan Date</description>
+    </column>
+  </columns>
+</data_description>

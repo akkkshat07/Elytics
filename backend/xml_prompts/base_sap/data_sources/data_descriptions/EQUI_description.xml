@@ -1,0 +1,279 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="EQUI">
+  <table_info name="EQUI" total_columns="91"/>
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="EQUNR" data_type="VARCHAR">
+      <description>Equipment Number</description>
+    </column>
+    <column name="ERDAT" data_type="DATE">
+      <description>Date on Which Record Was Created</description>
+    </column>
+    <column name="ERNAM" data_type="VARCHAR">
+      <description>Name of Person Responsible for Creating the Object</description>
+    </column>
+    <column name="EQASP" data_type="VARCHAR">
+      <description>Language in Which the Piece of Equipment was Entered</description>
+    </column>
+    <column name="AEDAT" data_type="DATE">
+      <description>Last Changed On</description>
+    </column>
+    <column name="AENAM" data_type="VARCHAR">
+      <description>Name of Person Who Changed Object</description>
+    </column>
+    <column name="BEGRU" data_type="VARCHAR">
+      <description>Technical object authorization group</description>
+    </column>
+    <column name="EQTYP" data_type="VARCHAR">
+      <description>Equipment category</description>
+    </column>
+    <column name="EQART" data_type="VARCHAR">
+      <description>Type of Technical Object</description>
+    </column>
+    <column name="LVORM" data_type="VARCHAR">
+      <description>SAP Development Reserve: Format CHAR, Length 1</description>
+    </column>
+    <column name="INVNR" data_type="VARCHAR">
+      <description>Inventory number</description>
+    </column>
+    <column name="GROES" data_type="VARCHAR">
+      <description>Size/dimension</description>
+    </column>
+    <column name="BRGEW" data_type="DECIMAL">
+      <description>Weight of object</description>
+    </column>
+    <column name="GEWEI" data_type="VARCHAR">
+      <description>Unit of weight</description>
+    </column>
+    <column name="ANSDT" data_type="DATE">
+      <description>Acquisition date</description>
+    </column>
+    <column name="ANSWT" data_type="DECIMAL">
+      <description>Acquisition Value</description>
+    </column>
+    <column name="WAERS" data_type="VARCHAR">
+      <description>Currency Key</description>
+    </column>
+    <column name="ELIEF" data_type="VARCHAR">
+      <description>Vendor number</description>
+    </column>
+    <column name="GWLEN" data_type="DATE">
+      <description>Date on which the warranty ends</description>
+    </column>
+    <column name="GWLDT" data_type="DATE">
+      <description>Warranty Date</description>
+    </column>
+    <column name="WDBWT" data_type="DECIMAL">
+      <description>Equipment replacement value</description>
+    </column>
+    <column name="HERST" data_type="VARCHAR">
+      <description>Manufacturer of asset</description>
+    </column>
+    <column name="HERLD" data_type="VARCHAR">
+      <description>Country of manufacture</description>
+    </column>
+    <column name="HZEIN" data_type="VARCHAR">
+      <description>Manufacturer drawing number</description>
+    </column>
+    <column name="SERGE" data_type="VARCHAR">
+      <description>Manufacturer serial number</description>
+    </column>
+    <column name="TYPBZ" data_type="VARCHAR">
+      <description>Manufacturer model number</description>
+    </column>
+    <column name="BAUJJ" data_type="VARCHAR">
+      <description>Year of construction</description>
+    </column>
+    <column name="BAUMM" data_type="VARCHAR">
+      <description>Month of construction</description>
+    </column>
+    <column name="APLKZ" data_type="VARCHAR">
+      <description>Indicator: Task List Exists</description>
+    </column>
+    <column name="AULDT" data_type="DATE">
+      <description>First delivery date of the equipment</description>
+    </column>
+    <column name="INBDT" data_type="DATE">
+      <description>Start-Up Date of the Technical Object</description>
+    </column>
+    <column name="GERNR" data_type="VARCHAR">
+      <description>Serial Number</description>
+    </column>
+    <column name="EQLFN" data_type="VARCHAR">
+      <description>Consecutive numbering of EquipUsagePeriods on same day</description>
+    </column>
+    <column name="GWLDV" data_type="DATE">
+      <description>Warranty date for Sales and Distribution</description>
+    </column>
+    <column name="EQDAT" data_type="DATE">
+      <description>Date, intended for SAP internal use</description>
+    </column>
+    <column name="EQBER" data_type="VARCHAR">
+      <description>Technical information, intended for SAP internal use</description>
+    </column>
+    <column name="EQNUM" data_type="VARCHAR">
+      <description>Numerical field, intended for SAP internal use</description>
+    </column>
+    <column name="OBJNR" data_type="VARCHAR">
+      <description>Object number</description>
+    </column>
+    <column name="EQSNR" data_type="VARCHAR">
+      <description>EQSE Number</description>
+    </column>
+    <column name="CUOBJ" data_type="VARCHAR">
+      <description>Configuration (internal object number)</description>
+    </column>
+    <column name="KRFKZ" data_type="VARCHAR">
+      <description>Referenced Configuration</description>
+    </column>
+    <column name="KMATN" data_type="VARCHAR">
+      <description>Configurable Material</description>
+    </column>
+    <column name="MATNR" data_type="VARCHAR">
+      <description>Material Number</description>
+    </column>
+    <column name="SERNR" data_type="VARCHAR">
+      <description>Serial Number</description>
+    </column>
+    <column name="WERK" data_type="VARCHAR">
+      <description>Plant</description>
+    </column>
+    <column name="LAGER" data_type="VARCHAR">
+      <description>Storage Location</description>
+    </column>
+    <column name="CHARGE" data_type="VARCHAR">
+      <description>Batch Number</description>
+    </column>
+    <column name="KUNDE" data_type="VARCHAR">
+      <description>Customer to Whom Serial Number was Delivered</description>
+    </column>
+    <column name="WARPL" data_type="VARCHAR">
+      <description>Maintenance Plan</description>
+    </column>
+    <column name="IMRC_POINT" data_type="VARCHAR">
+      <description>Measuring Point</description>
+    </column>
+    <column name="REVLV" data_type="VARCHAR">
+      <description>Revision Level</description>
+    </column>
+    <column name="MGANR" data_type="VARCHAR">
+      <description>Master warranty number</description>
+    </column>
+    <column name="BEGRUI" data_type="VARCHAR">
+      <description>Data origin for authorization group field</description>
+    </column>
+    <column name="S_EQUI" data_type="VARCHAR">
+      <description>Equipment data exists</description>
+    </column>
+    <column name="S_SERIAL" data_type="VARCHAR">
+      <description>Serial data when maintaining equipment</description>
+    </column>
+    <column name="S_KONFI" data_type="VARCHAR">
+      <description>Configuration supported</description>
+    </column>
+    <column name="S_SALE" data_type="VARCHAR">
+      <description>Sales equipment</description>
+    </column>
+    <column name="S_FHM" data_type="VARCHAR">
+      <description>Equip. category relevant to production resources and tools</description>
+    </column>
+    <column name="S_ELSE" data_type="VARCHAR">
+      <description>Indicator: Other Data Active</description>
+    </column>
+    <column name="S_ISU" data_type="VARCHAR">
+      <description>IS-U data</description>
+    </column>
+    <column name="S_EQBS" data_type="VARCHAR">
+      <description>EQSI Exists</description>
+    </column>
+    <column name="S_FLEET" data_type="VARCHAR">
+      <description>Indicator: Fleet object active</description>
+    </column>
+    <column name="BSTVP" data_type="VARCHAR">
+      <description>Stock Check for Serial Numbers</description>
+    </column>
+    <column name="SPARTE" data_type="VARCHAR">
+      <description>Division</description>
+    </column>
+    <column name="HANDLE" data_type="VARCHAR">
+      <description>SAP Development Reserve: Integration of Date Segment (Key)</description>
+    </column>
+    <column name="TSEGTP" data_type="VARCHAR">
+      <description>SAP Development Reserve: Integration Date Segment (Tempate)</description>
+    </column>
+    <column name="EMATN" data_type="VARCHAR">
+      <description>Material number corresponding to manufacturer part number</description>
+    </column>
+    <column name="ACT_CHANGE_AA" data_type="VARCHAR">
+      <description>Change Equipment Master when Changing Asset</description>
+    </column>
+    <column name="S_CC" data_type="VARCHAR">
+      <description>Configuration Control Data</description>
+    </column>
+    <column name="DATLWB" data_type="DATE">
+      <description>Date of Last Goods Movement</description>
+    </column>
+    <column name="UII" data_type="VARCHAR">
+      <description>Unique Item Identifier</description>
+    </column>
+    <column name="IUID_TYPE" data_type="VARCHAR">
+      <description>Structure Type of UII</description>
+    </column>
+    <column name="UII_PLANT" data_type="VARCHAR">
+      <description>Plant Responsible for UII</description>
+    </column>
+    <column name="ENDOFUSE" data_type="DATE">
+      <description>End-of-Use Date of the Technical Object</description>
+    </column>
+    <column name="/GEP/PASSENGER" data_type="VARCHAR">
+      <description>Number of Passengers</description>
+    </column>
+    <column name="/GEP/AUTOM" data_type="VARCHAR">
+      <description>Vehicle Equipment: Automatic Transmission</description>
+    </column>
+    <column name="/GEP/KLIMA" data_type="VARCHAR">
+      <description>Vehicle Equipment: Air Conditioning</description>
+    </column>
+    <column name="/GEP/DACHG" data_type="VARCHAR">
+      <description>Vehicle Equipment: Roof Rack</description>
+    </column>
+    <column name="/GEP/SCHNEEK" data_type="VARCHAR">
+      <description>Vehicle Equipment: Snow Chains</description>
+    </column>
+    <column name="/GEP/WINTERR" data_type="VARCHAR">
+      <description>Vehicle Equipment: Snow Tyres</description>
+    </column>
+    <column name="/GEP/VHCAT" data_type="VARCHAR">
+      <description>Vehicle Type</description>
+    </column>
+    <column name="EQEXT_ACTIVE" data_type="VARCHAR">
+      <description>Backpack Table /isdfps/lmeqext Active</description>
+    </column>
+    <column name="/MRSS/ID_PROFILE" data_type="VARCHAR">
+      <description>Requirements Profile Was Changed Manually</description>
+    </column>
+    <column name="/MRSS/PROF_GUID" data_type="VARCHAR">
+      <description>GUID</description>
+    </column>
+    <column name="/MRSS/PROF_KEY" data_type="VARCHAR">
+      <description>Profile Key</description>
+    </column>
+    <column name="/MRSS/DATACHANGE" data_type="VARCHAR">
+      <description>Data was changed in the controls on the user screen</description>
+    </column>
+    <column name="EQUI_SRTYPE" data_type="VARCHAR">
+      <description>Shift Report Type</description>
+    </column>
+    <column name="EQUI_SNTYPE" data_type="VARCHAR">
+      <description>Shift Note Type</description>
+    </column>
+    <column name="EQLB_DUTY" data_type="VARCHAR">
+      <description>Logbook Duty</description>
+    </column>
+    <column name="EQLB_HIDE" data_type="VARCHAR">
+      <description>Hide Logbook Display</description>
+    </column>
+  </columns>
+</data_description>

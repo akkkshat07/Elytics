@@ -1,0 +1,135 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="VBFA">
+  <table_info name="VBFA" total_columns="43" />
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="VBELV" data_type="VARCHAR">
+      <description>Preceding sales and distribution document</description>
+    </column>
+    <column name="POSNV" data_type="VARCHAR">
+      <description>Preceding item of an SD document</description>
+    </column>
+    <column name="VBELN" data_type="VARCHAR">
+      <description>Subsequent sales and distribution document</description>
+    </column>
+    <column name="POSNN" data_type="VARCHAR">
+      <description>Subsequent item of an SD document</description>
+    </column>
+    <column name="VBTYP_N" data_type="VARCHAR">
+      <description>Document category of subsequent document</description>
+    </column>
+    <column name="RFMNG" data_type="DECIMAL">
+      <description>Referenced quantity in base unit of measure</description>
+    </column>
+    <column name="MEINS" data_type="VARCHAR">
+      <description>Base Unit of Measure</description>
+    </column>
+    <column name="RFWRT" data_type="DECIMAL">
+      <description>Reference value</description>
+    </column>
+    <column name="WAERS" data_type="VARCHAR">
+      <description>Statistics currency</description>
+    </column>
+    <column name="VBTYP_V" data_type="VARCHAR">
+      <description>Document category of preceding SD document</description>
+    </column>
+    <column name="PLMIN" data_type="VARCHAR">
+      <description>Quantity is calculated positively, negatively or not at all</description>
+    </column>
+    <column name="TAQUI" data_type="VARCHAR">
+      <description>ID: MM-WM transfer order confirmed</description>
+    </column>
+    <column name="ERDAT" data_type="DATE">
+      <description>Date on Which Record Was Created</description>
+    </column>
+    <column name="ERZET" data_type="TIME">
+      <description>Entry time</description>
+    </column>
+    <column name="MATNR" data_type="VARCHAR">
+      <description>Material Number</description>
+    </column>
+    <column name="BWART" data_type="VARCHAR">
+      <description>Movement Type (Inventory Management)</description>
+    </column>
+    <column name="BDART" data_type="VARCHAR">
+      <description>Requirement type</description>
+    </column>
+    <column name="PLART" data_type="VARCHAR">
+      <description>Planning type</description>
+    </column>
+    <column name="STUFE" data_type="VARCHAR">
+      <description>Level of the document flow record</description>
+    </column>
+    <column name="LGNUM" data_type="VARCHAR">
+      <description>Warehouse Number / Warehouse Complex</description>
+    </column>
+    <column name="AEDAT" data_type="DATE">
+      <description>Last Changed On</description>
+    </column>
+    <column name="FKTYP" data_type="VARCHAR">
+      <description>Billing category</description>
+    </column>
+    <column name="BRGEW" data_type="DECIMAL">
+      <description>Gross Weight</description>
+    </column>
+    <column name="GEWEI" data_type="VARCHAR">
+      <description>Unit of Weight</description>
+    </column>
+    <column name="VOLUM" data_type="DECIMAL">
+      <description>Volume</description>
+    </column>
+    <column name="VOLEH" data_type="VARCHAR">
+      <description>Volume Unit</description>
+    </column>
+    <column name="FPLNR" data_type="VARCHAR">
+      <description>Billing Plan Number / Invoicing Plan Number</description>
+    </column>
+    <column name="FPLTR" data_type="VARCHAR">
+      <description>Item for billing plan/invoice plan/payment cards</description>
+    </column>
+    <column name="RFMNG_FLO" data_type="FLOAT">
+      <description>Referenced quantity in sales unit (float)</description>
+    </column>
+    <column name="RFMNG_FLT" data_type="FLOAT">
+      <description>Referenced quantity in base unit of measure (float)</description>
+    </column>
+    <column name="VRKME" data_type="VARCHAR">
+      <description>Sales Unit</description>
+    </column>
+    <column name="ABGES" data_type="FLOAT">
+      <description>Guaranteed (factor between 0 and 1)</description>
+    </column>
+    <column name="SOBKZ" data_type="VARCHAR">
+      <description>Special Stock Indicator</description>
+    </column>
+    <column name="SONUM" data_type="VARCHAR">
+      <description>Special Stock Number</description>
+    </column>
+    <column name="KZBEF" data_type="VARCHAR">
+      <description>Indicator Inventory Management active</description>
+    </column>
+    <column name="NTGEW" data_type="DECIMAL">
+      <description>Net Weight</description>
+    </column>
+    <column name="LOGSYS" data_type="VARCHAR">
+      <description>Logical System</description>
+    </column>
+    <column name="WBSTA" data_type="VARCHAR">
+      <description>Goods movement status</description>
+    </column>
+    <column name="CMETH" data_type="VARCHAR">
+      <description>Quantity Conversion Method</description>
+    </column>
+    <column name="MJAHR" data_type="VARCHAR">
+      <description>Material Document Year</description>
+    </column>
+    <column name="VBTYPEXT_V" data_type="VARCHAR">
+      <description>Extension of SD document category of preceding document</description>
+    </column>
+    <column name="VBTYPEXT_N" data_type="VARCHAR">
+      <description>Extension of Subsequent SD Document Category</description>
+    </column>
+  </columns>
+</data_description>

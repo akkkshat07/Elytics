@@ -1,0 +1,162 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="PA0001">
+  <table_info name="PA0001" total_columns="52"/>
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="PERNR" data_type="VARCHAR">
+      <description>Personnel Number</description>
+    </column>
+    <column name="SUBTY" data_type="VARCHAR">
+      <description>Subtype</description>
+    </column>
+    <column name="OBJPS" data_type="VARCHAR">
+      <description>Object Identification</description>
+    </column>
+    <column name="SPRPS" data_type="VARCHAR">
+      <description>Lock Indicator for HR Master Data Record</description>
+    </column>
+    <column name="ENDDA" data_type="DATE">
+      <description>End Date</description>
+    </column>
+    <column name="BEGDA" data_type="DATE">
+      <description>Start Date</description>
+    </column>
+    <column name="SEQNR" data_type="VARCHAR">
+      <description>Number of Infotype Record With Same Key</description>
+    </column>
+    <column name="AEDTM" data_type="DATE">
+      <description>Last Changed On</description>
+    </column>
+    <column name="UNAME" data_type="VARCHAR">
+      <description>Name of Person Who Changed Object</description>
+    </column>
+    <column name="HISTO" data_type="VARCHAR">
+      <description>Historical Record Flag</description>
+    </column>
+    <column name="ITXEX" data_type="VARCHAR">
+      <description>Text Exists for Infotype</description>
+    </column>
+    <column name="REFEX" data_type="VARCHAR">
+      <description>Reference Fields Exist (Primary/Secondary Costs)</description>
+    </column>
+    <column name="ORDEX" data_type="VARCHAR">
+      <description>Confirmation Fields Exist</description>
+    </column>
+    <column name="ITBLD" data_type="VARCHAR">
+      <description>Infotype Screen Control</description>
+    </column>
+    <column name="PREAS" data_type="VARCHAR">
+      <description>Reason for Changing Master Data</description>
+    </column>
+    <column name="FLAG1" data_type="VARCHAR">
+      <description>Reserved Field/Unused Field</description>
+    </column>
+    <column name="FLAG2" data_type="VARCHAR">
+      <description>Reserved Field/Unused Field</description>
+    </column>
+    <column name="FLAG3" data_type="VARCHAR">
+      <description>Reserved Field/Unused Field</description>
+    </column>
+    <column name="FLAG4" data_type="VARCHAR">
+      <description>Reserved Field/Unused Field</description>
+    </column>
+    <column name="RESE1" data_type="VARCHAR">
+      <description>Reserved Field/Unused Field of Length 2</description>
+    </column>
+    <column name="RESE2" data_type="VARCHAR">
+      <description>Reserved Field/Unused Field of Length 2</description>
+    </column>
+    <column name="GRPVL" data_type="VARCHAR">
+      <description>Grouping Value for Personnel Assignments</description>
+    </column>
+    <column name="BUKRS" data_type="VARCHAR">
+      <description>Company Code</description>
+    </column>
+    <column name="WERKS" data_type="VARCHAR">
+      <description>Personnel Area</description>
+    </column>
+    <column name="PERSG" data_type="VARCHAR">
+      <description>Employee Group</description>
+    </column>
+    <column name="PERSK" data_type="VARCHAR">
+      <description>Employee Subgroup</description>
+    </column>
+    <column name="VDSK1" data_type="VARCHAR">
+      <description>Organizational Key</description>
+    </column>
+    <column name="GSBER" data_type="VARCHAR">
+      <description>Business Area</description>
+    </column>
+    <column name="BTRTL" data_type="VARCHAR">
+      <description>Personnel Subarea</description>
+    </column>
+    <column name="JUPER" data_type="VARCHAR">
+      <description>Legal Person</description>
+    </column>
+    <column name="ABKRS" data_type="VARCHAR">
+      <description>Payroll Area</description>
+    </column>
+    <column name="ANSVH" data_type="VARCHAR">
+      <description>Work Contract</description>
+    </column>
+    <column name="KOSTL" data_type="VARCHAR">
+      <description>Cost Center</description>
+    </column>
+    <column name="ORGEH" data_type="VARCHAR">
+      <description>Organizational Unit</description>
+    </column>
+    <column name="PLANS" data_type="VARCHAR">
+      <description>Position</description>
+    </column>
+    <column name="STELL" data_type="VARCHAR">
+      <description>Job</description>
+    </column>
+    <column name="MSTBR" data_type="VARCHAR">
+      <description>Supervisor Area</description>
+    </column>
+    <column name="SACHA" data_type="VARCHAR">
+      <description>Payroll Administrator</description>
+    </column>
+    <column name="SACHP" data_type="VARCHAR">
+      <description>Administrator for HR Master Data</description>
+    </column>
+    <column name="SACHZ" data_type="VARCHAR">
+      <description>Administrator for Time Recording</description>
+    </column>
+    <column name="SNAME" data_type="VARCHAR">
+      <description>Employee's Name (Sortable by LAST NAME FIRST NAME)</description>
+    </column>
+    <column name="ENAME" data_type="VARCHAR">
+      <description>Formatted Name of Employee or Applicant</description>
+    </column>
+    <column name="OTYPE" data_type="VARCHAR">
+      <description>Object Type</description>
+    </column>
+    <column name="SBMOD" data_type="VARCHAR">
+      <description>Administrator Group</description>
+    </column>
+    <column name="KOKRS" data_type="VARCHAR">
+      <description>Controlling Area</description>
+    </column>
+    <column name="FISTL" data_type="VARCHAR">
+      <description>Funds Center</description>
+    </column>
+    <column name="GEBER" data_type="VARCHAR">
+      <description>Fund</description>
+    </column>
+    <column name="FKBER" data_type="VARCHAR">
+      <description>Functional Area</description>
+    </column>
+    <column name="GRANT_NBR" data_type="VARCHAR">
+      <description>Grant</description>
+    </column>
+    <column name="SGMNT" data_type="VARCHAR">
+      <description>Segment for Segmental Reporting</description>
+    </column>
+    <column name="BUDGET_PD" data_type="VARCHAR">
+      <description>FM: Budget Period</description>
+    </column>
+  </columns>
+</data_description>

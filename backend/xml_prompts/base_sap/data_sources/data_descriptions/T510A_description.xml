@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="T510A">
+  <table_info name="T510A" total_columns="5" />
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="MOLGA" data_type="VARCHAR">
+      <description>Country Grouping</description>
+    </column>
+    <column name="TRFAR" data_type="VARCHAR">
+      <description>Pay scale type</description>
+    </column>
+    <column name="TARTX" data_type="VARCHAR">
+      <description>Name of pay scale type (Basic Pay infotype)</description>
+    </column>
+    <column name="ITRFA" data_type="VARCHAR">
+      <description>Internal pay scale type</description>
+    </column>
+  </columns>
+</data_description>

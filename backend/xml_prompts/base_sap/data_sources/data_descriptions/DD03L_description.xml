@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="DD03L">
+  <table_info name="DD03L" total_columns="30" />
+  <columns>
+    <column name="TABNAME" data_type="VARCHAR">
+      <description>Table Name</description>
+    </column>
+    <column name="FIELDNAME" data_type="VARCHAR">
+      <description>Field Name</description>
+    </column>
+    <column name="AS4LOCAL" data_type="VARCHAR">
+      <description>Activation Status of a Repository Object</description>
+    </column>
+    <column name="AS4VERS" data_type="VARCHAR">
+      <description>Version of the entry (not used)</description>
+    </column>
+    <column name="POSITION" data_type="VARCHAR">
+      <description>Position of the field in the table</description>
+    </column>
+    <column name="KEYFLAG" data_type="VARCHAR">
+      <description>Identifies a key field of a table</description>
+    </column>
+    <column name="MANDATORY" data_type="VARCHAR">
+      <description>Flag: Field is required (not blank)</description>
+    </column>
+    <column name="ROLLNAME" data_type="VARCHAR">
+      <description>Data element (semantic domain)</description>
+    </column>
+    <column name="CHECKTABLE" data_type="VARCHAR">
+      <description>Check table name of the foreign key</description>
+    </column>
+    <column name="ADMINFIELD" data_type="VARCHAR">
+      <description>Nesting depth for includes</description>
+    </column>
+    <column name="INTTYPE" data_type="VARCHAR">
+      <description>ABAP data type (C,D,N,...)</description>
+    </column>
+    <column name="INTLEN" data_type="VARCHAR">
+      <description>Internal Length in Bytes</description>
+    </column>
+    <column name="REFTABLE" data_type="VARCHAR">
+      <description>Table for reference field</description>
+    </column>
+    <column name="PRECFIELD" data_type="VARCHAR">
+      <description>Name of included table</description>
+    </column>
+    <column name="REFFIELD" data_type="VARCHAR">
+      <description>Reference field for currency and qty fields</description>
+    </column>
+    <column name="CONROUT" data_type="VARCHAR">
+      <description>Check or generating module for fields</description>
+    </column>
+    <column name="NOTNULL" data_type="VARCHAR">
+      <description>Indicator for initial values in database fields</description>
+    </column>
+    <column name="DATATYPE" data_type="VARCHAR">
+      <description>Data Type in ABAP Dictionary</description>
+    </column>
+    <column name="LENG" data_type="VARCHAR">
+      <description>Length (No. of Characters)</description>
+    </column>
+    <column name="DECIMALS" data_type="VARCHAR">
+      <description>Number of Decimal Places</description>
+    </column>
+    <column name="DOMNAME" data_type="VARCHAR">
+      <description>Domain name</description>
+    </column>
+    <column name="SHLPORIGIN" data_type="VARCHAR">
+      <description>Origin of an Input Help</description>
+    </column>
+    <column name="TABLETYPE" data_type="VARCHAR">
+      <description>DD: Flag if it is a table</description>
+    </column>
+    <column name="DEPTH" data_type="VARCHAR">
+      <description>DD: Depth for structured types</description>
+    </column>
+    <column name="COMPTYPE" data_type="VARCHAR">
+      <description>DD: Component Type</description>
+    </column>
+    <column name="REFTYPE" data_type="VARCHAR">
+      <description>Type of Object Referenced</description>
+    </column>
+    <column name="LANGUFLAG" data_type="VARCHAR">
+      <description>DD: Indicator for a Language Field</description>
+    </column>
+    <column name="DBPOSITION" data_type="VARCHAR">
+      <description>Position of the field in the table</description>
+    </column>
+    <column name="ANONYMOUS" data_type="VARCHAR">
+      <description>Anonymization Indicator (for User Fields)</description>
+    </column>
+    <column name="OUTPUTSTYLE" data_type="VARCHAR">
+      <description>DD: Output Style (Output Style) for Decfloat Types</description>
+    </column>
+  </columns>
+</data_description>

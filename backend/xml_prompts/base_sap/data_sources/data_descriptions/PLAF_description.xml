@@ -1,0 +1,405 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="PLAF">
+  <table_info name="PLAF" total_columns="133"/>
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="PLNUM" data_type="VARCHAR">
+      <description>Planned order number</description>
+    </column>
+    <column name="MATNR" data_type="VARCHAR">
+      <description>Planning material</description>
+    </column>
+    <column name="PLWRK" data_type="VARCHAR">
+      <description>Planning Plant</description>
+    </column>
+    <column name="PWWRK" data_type="VARCHAR">
+      <description>Production plant in planned order</description>
+    </column>
+    <column name="PAART" data_type="VARCHAR">
+      <description>Order type</description>
+    </column>
+    <column name="BESKZ" data_type="VARCHAR">
+      <description>Procurement Type</description>
+    </column>
+    <column name="SOBES" data_type="VARCHAR">
+      <description>Special procurement type</description>
+    </column>
+    <column name="GSMNG" data_type="DECIMAL">
+      <description>Total planned order quantity</description>
+    </column>
+    <column name="TLMNG" data_type="DECIMAL">
+      <description>Partial lot quantity</description>
+    </column>
+    <column name="AVMNG" data_type="DECIMAL">
+      <description>Fixed quantity of scrap from production</description>
+    </column>
+    <column name="BDMNG" data_type="DECIMAL">
+      <description>Requirement Quantity</description>
+    </column>
+    <column name="PSTTR" data_type="DATE">
+      <description>Order start date in planned order</description>
+    </column>
+    <column name="PEDTR" data_type="DATE">
+      <description>Order finish date in the planned order</description>
+    </column>
+    <column name="PERTR" data_type="DATE">
+      <description>Planned opening date in planned order</description>
+    </column>
+    <column name="WEBAZ" data_type="DECIMAL">
+      <description>Goods receipt processing time in days</description>
+    </column>
+    <column name="DISPO" data_type="VARCHAR">
+      <description>MRP Controller</description>
+    </column>
+    <column name="UMSKZ" data_type="VARCHAR">
+      <description>Conversion indicator for planned order</description>
+    </column>
+    <column name="AUFFX" data_type="VARCHAR">
+      <description>Firming indicator for planned order data</description>
+    </column>
+    <column name="STLFX" data_type="VARCHAR">
+      <description>Fixing indicator for BOM explosion</description>
+    </column>
+    <column name="KNTTP" data_type="VARCHAR">
+      <description>Account Assignment Category</description>
+    </column>
+    <column name="KDAUF" data_type="VARCHAR">
+      <description>Sales Order Number</description>
+    </column>
+    <column name="KDPOS" data_type="VARCHAR">
+      <description>Item Number in Sales Order</description>
+    </column>
+    <column name="KDEIN" data_type="VARCHAR">
+      <description>Delivery schedule for sales order</description>
+    </column>
+    <column name="PROJN" data_type="VARCHAR">
+      <description>Old: Project number : No longer used --&gt; PS_POSNR</description>
+    </column>
+    <column name="RSNUM" data_type="VARCHAR">
+      <description>Number of reservation/dependent requirements</description>
+    </column>
+    <column name="QUNUM" data_type="VARCHAR">
+      <description>Number of quota arrangement</description>
+    </column>
+    <column name="QUPOS" data_type="VARCHAR">
+      <description>Quota arrangement item</description>
+    </column>
+    <column name="FLIEF" data_type="VARCHAR">
+      <description>Fixed Vendor</description>
+    </column>
+    <column name="KONNR" data_type="VARCHAR">
+      <description>Number of principal purchase agreement</description>
+    </column>
+    <column name="KTPNR" data_type="VARCHAR">
+      <description>Item number of principal purchase agreement</description>
+    </column>
+    <column name="EKORG" data_type="VARCHAR">
+      <description>Purchasing Organization</description>
+    </column>
+    <column name="LGORT" data_type="VARCHAR">
+      <description>Storage Location</description>
+    </column>
+    <column name="NUMVR" data_type="VARCHAR">
+      <description>Version number</description>
+    </column>
+    <column name="KZVBR" data_type="VARCHAR">
+      <description>Consumption posting</description>
+    </column>
+    <column name="SOBKZ" data_type="VARCHAR">
+      <description>Special Stock Indicator</description>
+    </column>
+    <column name="PSPEL" data_type="VARCHAR">
+      <description>WBS Element</description>
+    </column>
+    <column name="SERNR" data_type="VARCHAR">
+      <description>BOM explosion number</description>
+    </column>
+    <column name="PALTR" data_type="DATE">
+      <description>Explosion date</description>
+    </column>
+    <column name="TECHS" data_type="VARCHAR">
+      <description>Parameter Variant/Standard Variant</description>
+    </column>
+    <column name="STLAN" data_type="VARCHAR">
+      <description>BOM Usage</description>
+    </column>
+    <column name="STALT" data_type="VARCHAR">
+      <description>Alternative BOM</description>
+    </column>
+    <column name="STSTA" data_type="VARCHAR">
+      <description>BOM status</description>
+    </column>
+    <column name="AENNR" data_type="VARCHAR">
+      <description>Change Number</description>
+    </column>
+    <column name="ARSNR" data_type="VARCHAR">
+      <description>Settlement reservation number</description>
+    </column>
+    <column name="ARSPS" data_type="VARCHAR">
+      <description>Item number of the settlement reservation</description>
+    </column>
+    <column name="VERTO" data_type="VARCHAR">
+      <description>Distribution key for quantity produced</description>
+    </column>
+    <column name="VERID" data_type="VARCHAR">
+      <description>Production Version</description>
+    </column>
+    <column name="AUFNR" data_type="VARCHAR">
+      <description>Run schedule header number</description>
+    </column>
+    <column name="TRART" data_type="VARCHAR">
+      <description>Scheduling type of the planned order</description>
+    </column>
+    <column name="PLGRP" data_type="VARCHAR">
+      <description>Production Supervisor</description>
+    </column>
+    <column name="TERST" data_type="DATE">
+      <description>Start date for production</description>
+    </column>
+    <column name="TERED" data_type="DATE">
+      <description>Finish date for production</description>
+    </column>
+    <column name="BEDID" data_type="VARCHAR">
+      <description>ID of the capacity requirements record</description>
+    </column>
+    <column name="AUFPL" data_type="VARCHAR">
+      <description>Routing number of operations in the order</description>
+    </column>
+    <column name="LINID" data_type="VARCHAR">
+      <description>ID for a schedule record</description>
+    </column>
+    <column name="TRMKZ" data_type="VARCHAR">
+      <description>Scheduling indicator</description>
+    </column>
+    <column name="TRMER" data_type="VARCHAR">
+      <description>Scheduling error</description>
+    </column>
+    <column name="REDKZ" data_type="VARCHAR">
+      <description>Reduction indicator for scheduling</description>
+    </column>
+    <column name="TRMHK" data_type="VARCHAR">
+      <description>Scheduling source</description>
+    </column>
+    <column name="PLNNR" data_type="VARCHAR">
+      <description>Key for Task List Group</description>
+    </column>
+    <column name="PLNAL" data_type="VARCHAR">
+      <description>Group Counter</description>
+    </column>
+    <column name="PLNTY" data_type="VARCHAR">
+      <description>Task List Type</description>
+    </column>
+    <column name="FRTHW" data_type="VARCHAR">
+      <description>Production note in the planned order</description>
+    </column>
+    <column name="RGEKZ" data_type="VARCHAR">
+      <description>Indicator: Backflushing for order</description>
+    </column>
+    <column name="MEINS" data_type="VARCHAR">
+      <description>Base Unit of Measure</description>
+    </column>
+    <column name="CUOBJ" data_type="VARCHAR">
+      <description>Configuration (internal object number)</description>
+    </column>
+    <column name="REVLV" data_type="VARCHAR">
+      <description>Revision Level</description>
+    </column>
+    <column name="ABMNG" data_type="DECIMAL">
+      <description>Reduced quantity in the planned order</description>
+    </column>
+    <column name="RATID" data_type="VARCHAR">
+      <description>Index for the results of scheduling production rates</description>
+    </column>
+    <column name="GROID" data_type="VARCHAR">
+      <description>Index for rough scheduling results</description>
+    </column>
+    <column name="RATER" data_type="VARCHAR">
+      <description>Scheduling error in scheduling production rates</description>
+    </column>
+    <column name="GROER" data_type="VARCHAR">
+      <description>Scheduling error in rough scheduling</description>
+    </column>
+    <column name="OBART" data_type="VARCHAR">
+      <description>Object type</description>
+    </column>
+    <column name="PLSCN" data_type="VARCHAR">
+      <description>Planning Scenario of Long-Term Planning</description>
+    </column>
+    <column name="SBNUM" data_type="VARCHAR">
+      <description>Simulation requirements number</description>
+    </column>
+    <column name="KBNKZ" data_type="VARCHAR">
+      <description>Kanban Indicator</description>
+    </column>
+    <column name="KAPFX" data_type="VARCHAR">
+      <description>Indicator: capacity for planned order dispatched</description>
+    </column>
+    <column name="SEQNR" data_type="VARCHAR">
+      <description>Seq. number order</description>
+    </column>
+    <column name="PSTTI" data_type="TIME">
+      <description>Start Time of Planned Order</description>
+    </column>
+    <column name="PEDTI" data_type="TIME">
+      <description>End Time of Planned Order</description>
+    </column>
+    <column name="MONKZ" data_type="VARCHAR">
+      <description>Indicator: for assembly order procedures</description>
+    </column>
+    <column name="PRNKZ" data_type="VARCHAR">
+      <description>Ind.: Leading order in collective order is planned ordre</description>
+    </column>
+    <column name="MDPBV" data_type="VARCHAR">
+      <description>Planned order: confirmation of availability</description>
+    </column>
+    <column name="VFMNG" data_type="DECIMAL">
+      <description>Planned order: committed quantity</description>
+    </column>
+    <column name="MDACH" data_type="VARCHAR">
+      <description>Action control: planned order processing</description>
+    </column>
+    <column name="MDACC" data_type="VARCHAR">
+      <description>Action: planned order processing</description>
+    </column>
+    <column name="MDACD" data_type="DATE">
+      <description>Date of action: planned order</description>
+    </column>
+    <column name="MDACT" data_type="TIME">
+      <description>Time of action: Planned order processing</description>
+    </column>
+    <column name="GSBTR" data_type="DATE">
+      <description>Total commitment date of plnd ord. after ATP check f.comps.</description>
+    </column>
+    <column name="PLETX" data_type="VARCHAR">
+      <description>Planned order shift quantities exist</description>
+    </column>
+    <column name="PRSCH" data_type="VARCHAR">
+      <description>Planned order: scheduling using production dates</description>
+    </column>
+    <column name="LVSCH" data_type="VARCHAR">
+      <description>Planned order: leading scheduling level (determines dates)</description>
+    </column>
+    <column name="KZAVC" data_type="VARCHAR">
+      <description>Indicator for type of availability check</description>
+    </column>
+    <column name="VRPLA" data_type="VARCHAR">
+      <description>Indicator: planning without final assembly</description>
+    </column>
+    <column name="PBDNR" data_type="VARCHAR">
+      <description>Requirements Plan Number</description>
+    </column>
+    <column name="AGREQ" data_type="VARCHAR">
+      <description>Requirements totaling</description>
+    </column>
+    <column name="UMREZ" data_type="DECIMAL">
+      <description>Numerator for Conversion to Base Units of Measure</description>
+    </column>
+    <column name="UMREN" data_type="DECIMAL">
+      <description>Denominator for conversion to base units of measure</description>
+    </column>
+    <column name="ERFMG" data_type="DECIMAL">
+      <description>Quantity in unit of entry</description>
+    </column>
+    <column name="ERFME" data_type="VARCHAR">
+      <description>Unit of entry</description>
+    </column>
+    <column name="RQNUM" data_type="VARCHAR">
+      <description>Requirements record number</description>
+    </column>
+    <column name="KZBWS" data_type="VARCHAR">
+      <description>Valuation of Special Stock</description>
+    </column>
+    <column name="WEMNG" data_type="DECIMAL">
+      <description>Quantity of Goods Received</description>
+    </column>
+    <column name="WAMNG" data_type="DECIMAL">
+      <description>Issued Quantity</description>
+    </column>
+    <column name="EDGNO" data_type="VARCHAR">
+      <description>Internal number for edge of object dependencies tree</description>
+    </column>
+    <column name="LBLKZ" data_type="VARCHAR">
+      <description>Subcontracting vendor</description>
+    </column>
+    <column name="EMLIF" data_type="VARCHAR">
+      <description>Vendor to be supplied/who is to receive delivery</description>
+    </column>
+    <column name="BERID" data_type="VARCHAR">
+      <description>MRP Area</description>
+    </column>
+    <column name="UBERI" data_type="VARCHAR">
+      <description>Issuing MRP area when transferring stock</description>
+    </column>
+    <column name="EMATN" data_type="VARCHAR">
+      <description>Material number corresponding to manufacturer part number</description>
+    </column>
+    <column name="REMFL" data_type="VARCHAR">
+      <description>Repetitive Manufacturing indicator</description>
+    </column>
+    <column name="PSTMP" data_type="DECIMAL">
+      <description>Last Change to Planned Order: Time Stamp</description>
+    </column>
+    <column name="PUSER" data_type="VARCHAR">
+      <description>Last Change to Planned Order: User</description>
+    </column>
+    <column name="BADI" data_type="VARCHAR">
+      <description>Object change via active Business Add-In</description>
+    </column>
+    <column name="STAEX" data_type="VARCHAR">
+      <description>Status information on BOM explosion in planned order</description>
+    </column>
+    <column name="RESLO" data_type="VARCHAR">
+      <description>Issuing Storage Location for Stock Transport Order</description>
+    </column>
+    <column name="SRM_CONTRACT_ID" data_type="VARCHAR">
+      <description>Central Contract</description>
+    </column>
+    <column name="SRM_CONTRACT_ITM" data_type="VARCHAR">
+      <description>Central Contract Item Number</description>
+    </column>
+    <column name="MEDKZ" data_type="VARCHAR">
+      <description>Indicator for Distributed Planned Order</description>
+    </column>
+    <column name="CNFQTY" data_type="DECIMAL">
+      <description>Total Confirmed Qty Planned Order (Repetitive Manufacturing)</description>
+    </column>
+    <column name="SGT_SCAT" data_type="VARCHAR">
+      <description>Stock Segment</description>
+    </column>
+    <column name="DAC_PP_COMPONENT" data_type="VARCHAR">
+      <description>Component ID in Extended Passport (EPP)</description>
+    </column>
+    <column name="DAC_INDIRECT_ACCESS" data_type="VARCHAR">
+      <description>Digital Access: Object was created indirectly</description>
+    </column>
+    <column name="DAC_CREATION_DATE" data_type="DATE">
+      <description>System Date</description>
+    </column>
+    <column name="KUNNR" data_type="VARCHAR">
+      <description>Customer Number</description>
+    </column>
+    <column name="FLG_BUNDLE" data_type="VARCHAR">
+      <description>Indicates bundle information maintained</description>
+    </column>
+    <column name="FSH_MPLND_ORD" data_type="VARCHAR">
+      <description>Master Planned Order Number</description>
+    </column>
+    <column name="FSH_SEASON_YEAR" data_type="VARCHAR">
+      <description>Season Year</description>
+    </column>
+    <column name="FSH_SEASON" data_type="VARCHAR">
+      <description>Season</description>
+    </column>
+    <column name="FSH_COLLECTION" data_type="VARCHAR">
+      <description>Fashion Collection</description>
+    </column>
+    <column name="FSH_THEME" data_type="VARCHAR">
+      <description>Fashion Theme</description>
+    </column>
+    <column name="DPS_HANDOVER_TIME" data_type="DECIMAL">
+      <description>Time for Handover to Detailed Planning And Scheduling</description>
+    </column>
+  </columns>
+</data_description>

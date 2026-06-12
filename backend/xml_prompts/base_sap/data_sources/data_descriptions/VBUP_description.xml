@@ -1,0 +1,138 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="VBUP">
+  <table_info name="VBUP" total_columns="44"/>
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="VBELN" data_type="VARCHAR">
+      <description>Sales and Distribution Document Number</description>
+    </column>
+    <column name="POSNR" data_type="VARCHAR">
+      <description>Item number of the SD document</description>
+    </column>
+    <column name="RFSTA" data_type="VARCHAR">
+      <description>Reference status</description>
+    </column>
+    <column name="RFGSA" data_type="VARCHAR">
+      <description>Overall status of reference</description>
+    </column>
+    <column name="BESTA" data_type="VARCHAR">
+      <description>Confirmation Status of Document Item</description>
+    </column>
+    <column name="LFSTA" data_type="VARCHAR">
+      <description>Delivery status</description>
+    </column>
+    <column name="LFGSA" data_type="VARCHAR">
+      <description>Overall delivery status of the item</description>
+    </column>
+    <column name="WBSTA" data_type="VARCHAR">
+      <description>Goods movement status</description>
+    </column>
+    <column name="FKSTA" data_type="VARCHAR">
+      <description>Billing status of delivery-related billing documents</description>
+    </column>
+    <column name="FKSAA" data_type="VARCHAR">
+      <description>Billing Status for Order-Related Billing Documents</description>
+    </column>
+    <column name="ABSTA" data_type="VARCHAR">
+      <description>Rejection status for SD item</description>
+    </column>
+    <column name="GBSTA" data_type="VARCHAR">
+      <description>Overall processing status of the SD document item</description>
+    </column>
+    <column name="KOSTA" data_type="VARCHAR">
+      <description>Picking status/Putaway status</description>
+    </column>
+    <column name="LVSTA" data_type="VARCHAR">
+      <description>Status of warehouse management activities</description>
+    </column>
+    <column name="UVALL" data_type="VARCHAR">
+      <description>General Incompletion Status of Item</description>
+    </column>
+    <column name="UVVLK" data_type="VARCHAR">
+      <description>Incompletion status of the item with regard to delivery</description>
+    </column>
+    <column name="UVFAK" data_type="VARCHAR">
+      <description>Item Incompletion Status with Respect to Billing</description>
+    </column>
+    <column name="UVPRS" data_type="VARCHAR">
+      <description>Pricing for item is incomplete</description>
+    </column>
+    <column name="FKIVP" data_type="VARCHAR">
+      <description>Intercompany Billing Status</description>
+    </column>
+    <column name="UVP01" data_type="VARCHAR">
+      <description>Customer reserves 1: Item status</description>
+    </column>
+    <column name="UVP02" data_type="VARCHAR">
+      <description>Customer reserves 2: Item status</description>
+    </column>
+    <column name="UVP03" data_type="VARCHAR">
+      <description>Item reserves 3: Item status</description>
+    </column>
+    <column name="UVP04" data_type="VARCHAR">
+      <description>Item reserves 4: Item status</description>
+    </column>
+    <column name="UVP05" data_type="VARCHAR">
+      <description>Customer reserves 5: Item status</description>
+    </column>
+    <column name="PKSTA" data_type="VARCHAR">
+      <description>Packing status of item</description>
+    </column>
+    <column name="KOQUA" data_type="VARCHAR">
+      <description>Confirmation status of picking/putaway</description>
+    </column>
+    <column name="COSTA" data_type="VARCHAR">
+      <description>Confirmation status for ALE</description>
+    </column>
+    <column name="CMPPI" data_type="VARCHAR">
+      <description>Status of credit check against financial document</description>
+    </column>
+    <column name="CMPPJ" data_type="VARCHAR">
+      <description>Status of credit check against export credit insurance</description>
+    </column>
+    <column name="UVPIK" data_type="VARCHAR">
+      <description>Incomplete status of item for picking/putaway</description>
+    </column>
+    <column name="UVPAK" data_type="VARCHAR">
+      <description>Incomplete status of item for packaging</description>
+    </column>
+    <column name="UVWAK" data_type="VARCHAR">
+      <description>Incomplete status of item regarding goods issue</description>
+    </column>
+    <column name="DCSTA" data_type="VARCHAR">
+      <description>Delay status</description>
+    </column>
+    <column name="RRSTA" data_type="VARCHAR">
+      <description>Revenue determination status</description>
+    </column>
+    <column name="VLSTP" data_type="VARCHAR">
+      <description>Decentralized whse processing</description>
+    </column>
+    <column name="FSSTA" data_type="VARCHAR">
+      <description>Billing block status for items</description>
+    </column>
+    <column name="LSSTA" data_type="VARCHAR">
+      <description>Delivery block status for item</description>
+    </column>
+    <column name="PDSTA" data_type="VARCHAR">
+      <description>POD status on item level</description>
+    </column>
+    <column name="MANEK" data_type="VARCHAR">
+      <description>Manual Completion of Contract</description>
+    </column>
+    <column name="HDALL" data_type="VARCHAR">
+      <description>Inbound Delivery Item Not Yet Complete (on Hold)</description>
+    </column>
+    <column name="LTSPS" data_type="VARCHAR">
+      <description>Indicator : stockable type switched into standard product</description>
+    </column>
+    <column name="FSH_AR_STAT_ITM" data_type="VARCHAR">
+      <description>Allocation Status of a Sales Document Item</description>
+    </column>
+    <column name="MILL_VS_VSSTA" data_type="VARCHAR">
+      <description>Status of sales order item</description>
+    </column>
+  </columns>
+</data_description>

@@ -1,0 +1,429 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="ANLA">
+  <table_info name="ANLA" total_columns="141"/>
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="BUKRS" data_type="VARCHAR">
+      <description>Company Code</description>
+    </column>
+    <column name="ANLN1" data_type="VARCHAR">
+      <description>Main Asset Number</description>
+    </column>
+    <column name="ANLN2" data_type="VARCHAR">
+      <description>Asset Subnumber</description>
+    </column>
+    <column name="ANLKL" data_type="VARCHAR">
+      <description>Asset Class</description>
+    </column>
+    <column name="GEGST" data_type="VARCHAR">
+      <description>Technical asset number</description>
+    </column>
+    <column name="ANLAR" data_type="VARCHAR">
+      <description>Asset types</description>
+    </column>
+    <column name="ERNAM" data_type="VARCHAR">
+      <description>Name of Person Responsible for Creating the Object</description>
+    </column>
+    <column name="ERDAT" data_type="DATE">
+      <description>Date on Which Record Was Created</description>
+    </column>
+    <column name="AENAM" data_type="VARCHAR">
+      <description>Name of Person Who Changed Object</description>
+    </column>
+    <column name="AEDAT" data_type="DATE">
+      <description>Changed on</description>
+    </column>
+    <column name="XLOEV" data_type="VARCHAR">
+      <description>Indicator: Account marked for deletion?</description>
+    </column>
+    <column name="XSPEB" data_type="VARCHAR">
+      <description>Indicator: Asset Locked to Acquisition Postings</description>
+    </column>
+    <column name="FELEI" data_type="VARCHAR">
+      <description>Screen layout for Asset Accounting</description>
+    </column>
+    <column name="KTOGR" data_type="VARCHAR">
+      <description>Account determination</description>
+    </column>
+    <column name="XOPVW" data_type="VARCHAR">
+      <description>Asset under construct. with line item settlement</description>
+    </column>
+    <column name="ANLTP" data_type="VARCHAR">
+      <description>Asset Category</description>
+    </column>
+    <column name="ZUJHR" data_type="VARCHAR">
+      <description>Fiscal year in which first acquisition was posted</description>
+    </column>
+    <column name="ZUPER" data_type="VARCHAR">
+      <description>Period in which first acquisition was posted</description>
+    </column>
+    <column name="ZUGDT" data_type="DATE">
+      <description>Asset value date of the first posting</description>
+    </column>
+    <column name="AKTIV" data_type="DATE">
+      <description>Asset capitalization date</description>
+    </column>
+    <column name="ABGDT" data_type="DATE">
+      <description>Asset value date for the last retirement</description>
+    </column>
+    <column name="DEAKT" data_type="DATE">
+      <description>Deactivation date</description>
+    </column>
+    <column name="GPLAB" data_type="DATE">
+      <description>Planned retirement date</description>
+    </column>
+    <column name="BSTDT" data_type="DATE">
+      <description>Asset purchase order date</description>
+    </column>
+    <column name="ORD41" data_type="VARCHAR">
+      <description>Evaluation group 1</description>
+    </column>
+    <column name="ORD42" data_type="VARCHAR">
+      <description>Evaluation group 2</description>
+    </column>
+    <column name="ORD43" data_type="VARCHAR">
+      <description>Evaluation group 3</description>
+    </column>
+    <column name="ORD44" data_type="VARCHAR">
+      <description>Evaluation group 4</description>
+    </column>
+    <column name="ANLUE" data_type="VARCHAR">
+      <description>Asset super number</description>
+    </column>
+    <column name="ZUAWA" data_type="VARCHAR">
+      <description>Key for sorting according to assignment numbers</description>
+    </column>
+    <column name="ANEQK" data_type="VARCHAR">
+      <description>Indicator: Historical management</description>
+    </column>
+    <column name="ANEQS" data_type="VARCHAR">
+      <description>Completeness indicator for the asset</description>
+    </column>
+    <column name="LIFNR" data_type="VARCHAR">
+      <description>Account number of vendor (other key word)</description>
+    </column>
+    <column name="LAND1" data_type="VARCHAR">
+      <description>Asset's country of origin</description>
+    </column>
+    <column name="LIEFE" data_type="VARCHAR">
+      <description>Name of asset supplier</description>
+    </column>
+    <column name="HERST" data_type="VARCHAR">
+      <description>Manufacturer of asset</description>
+    </column>
+    <column name="EIGKZ" data_type="VARCHAR">
+      <description>Property indicator</description>
+    </column>
+    <column name="AIBN1" data_type="VARCHAR">
+      <description>Original asset that was transferred</description>
+    </column>
+    <column name="AIBN2" data_type="VARCHAR">
+      <description>Original asset that was transferred</description>
+    </column>
+    <column name="AIBDT" data_type="DATE">
+      <description>Original acquisition date of AuC/ transferred asset</description>
+    </column>
+    <column name="URJHR" data_type="VARCHAR">
+      <description>Fiscal year of original acquisition</description>
+    </column>
+    <column name="URWRT" data_type="DECIMAL">
+      <description>Original acquisition value</description>
+    </column>
+    <column name="ANTEI" data_type="DECIMAL">
+      <description>In-house production percentage</description>
+    </column>
+    <column name="PROJN" data_type="VARCHAR">
+      <description>Old: Project number : No longer used --&gt; PS_POSNR</description>
+    </column>
+    <column name="EAUFN" data_type="VARCHAR">
+      <description>Investment Order</description>
+    </column>
+    <column name="MEINS" data_type="VARCHAR">
+      <description>Base Unit of Measure</description>
+    </column>
+    <column name="MENGE" data_type="DECIMAL">
+      <description>Quantity</description>
+    </column>
+    <column name="TYPBZ" data_type="VARCHAR">
+      <description>Asset type name</description>
+    </column>
+    <column name="IZWEK" data_type="VARCHAR">
+      <description>Reason for investment</description>
+    </column>
+    <column name="INKEN" data_type="VARCHAR">
+      <description>Inventory indicator</description>
+    </column>
+    <column name="IVDAT" data_type="DATE">
+      <description>Last inventory date</description>
+    </column>
+    <column name="INVZU" data_type="VARCHAR">
+      <description>Supplementary inventory specifications</description>
+    </column>
+    <column name="VMGLI" data_type="VARCHAR">
+      <description>Property classification key</description>
+    </column>
+    <column name="XVRMW" data_type="VARCHAR">
+      <description>Manual net worth tax value</description>
+    </column>
+    <column name="WRTMA" data_type="DECIMAL">
+      <description>Manual net worth tax value</description>
+    </column>
+    <column name="EHWRT" data_type="DECIMAL">
+      <description>Assessed value</description>
+    </column>
+    <column name="AUFLA" data_type="DATE">
+      <description>Date of conveyance</description>
+    </column>
+    <column name="EHWZU" data_type="DATE">
+      <description>Date of last notice of assessment</description>
+    </column>
+    <column name="EHWNR" data_type="VARCHAR">
+      <description>Tax number of the notice of assessment</description>
+    </column>
+    <column name="GRUVO" data_type="DATE">
+      <description>Land Register of</description>
+    </column>
+    <column name="GREIN" data_type="DATE">
+      <description>Land register entry on</description>
+    </column>
+    <column name="GRBND" data_type="VARCHAR">
+      <description>Land register volume</description>
+    </column>
+    <column name="GRBLT" data_type="VARCHAR">
+      <description>Land register page</description>
+    </column>
+    <column name="GRLFD" data_type="VARCHAR">
+      <description>Land register entry: Sequence number</description>
+    </column>
+    <column name="FLURK" data_type="VARCHAR">
+      <description>Land register map number</description>
+    </column>
+    <column name="FLURN" data_type="VARCHAR">
+      <description>Plot number</description>
+    </column>
+    <column name="FIAMT" data_type="VARCHAR">
+      <description>Local tax office</description>
+    </column>
+    <column name="STADT" data_type="VARCHAR">
+      <description>Municipality</description>
+    </column>
+    <column name="GRUND" data_type="VARCHAR">
+      <description>Reason for manual valuation of net assets</description>
+    </column>
+    <column name="FEINS" data_type="VARCHAR">
+      <description>Area unit</description>
+    </column>
+    <column name="GRUFL" data_type="DECIMAL">
+      <description>Surface area</description>
+    </column>
+    <column name="INVNR" data_type="VARCHAR">
+      <description>Inventory number</description>
+    </column>
+    <column name="VBUND" data_type="VARCHAR">
+      <description>Company ID of Trading Partner</description>
+    </column>
+    <column name="SPRAS" data_type="VARCHAR">
+      <description>Language Key</description>
+    </column>
+    <column name="TXT50" data_type="VARCHAR">
+      <description>Asset Description</description>
+    </column>
+    <column name="TXA50" data_type="VARCHAR">
+      <description>Additional asset description</description>
+    </column>
+    <column name="XLTXID" data_type="VARCHAR">
+      <description>Indicator: Long text active</description>
+    </column>
+    <column name="XVERID" data_type="VARCHAR">
+      <description>Long text indicator:Property values</description>
+    </column>
+    <column name="XTCHID" data_type="VARCHAR">
+      <description>Indicator: Technical view long text</description>
+    </column>
+    <column name="XKALID" data_type="VARCHAR">
+      <description>Indicator: Long text active</description>
+    </column>
+    <column name="XHERID" data_type="VARCHAR">
+      <description>Indicator: Long text for manufacturer/origin</description>
+    </column>
+    <column name="XLEAID" data_type="VARCHAR">
+      <description>Indicator: Leasing data long text</description>
+    </column>
+    <column name="LEAFI" data_type="VARCHAR">
+      <description>Leasing company</description>
+    </column>
+    <column name="LVDAT" data_type="DATE">
+      <description>Leasing agreement date</description>
+    </column>
+    <column name="LKDAT" data_type="DATE">
+      <description>Leasing agreement notice date</description>
+    </column>
+    <column name="LEABG" data_type="DATE">
+      <description>Lease start date</description>
+    </column>
+    <column name="LEJAR" data_type="VARCHAR">
+      <description>Length of lease in years</description>
+    </column>
+    <column name="LEPER" data_type="VARCHAR">
+      <description>Length of lease in periods</description>
+    </column>
+    <column name="LRYTH" data_type="VARCHAR">
+      <description>Lease payment cycle</description>
+    </column>
+    <column name="LEGEB" data_type="DECIMAL">
+      <description>Periodic lease payment paid to leasing company/lessor</description>
+    </column>
+    <column name="LBASW" data_type="DECIMAL">
+      <description>Leasing base value as new</description>
+    </column>
+    <column name="LKAUF" data_type="DECIMAL">
+      <description>Leased asset purchase price</description>
+    </column>
+    <column name="LMZIN" data_type="DECIMAL">
+      <description>Leasing monthly interest rate (Capital Lease)</description>
+    </column>
+    <column name="LZINS" data_type="DECIMAL">
+      <description>Leasing interest rate (capital lease)</description>
+    </column>
+    <column name="LTZBW" data_type="DATE">
+      <description>Posting date of the last lease payment</description>
+    </column>
+    <column name="LKUZA" data_type="DECIMAL">
+      <description>Total of posted leasing payments</description>
+    </column>
+    <column name="LKUZI" data_type="DECIMAL">
+      <description>Total leasing interest posted</description>
+    </column>
+    <column name="LLAVB" data_type="DECIMAL">
+      <description>Total of long-term leasing liability</description>
+    </column>
+    <column name="LEANZ" data_type="DECIMAL">
+      <description>Number of lease payments</description>
+    </column>
+    <column name="LVTNR" data_type="VARCHAR">
+      <description>Leasing agreement number</description>
+    </column>
+    <column name="LETXT" data_type="VARCHAR">
+      <description>Leasing data text</description>
+    </column>
+    <column name="XAKTIV" data_type="VARCHAR">
+      <description>Indicator: Capitalize fixed asset</description>
+    </column>
+    <column name="ANUPD" data_type="VARCHAR">
+      <description>Indicator: Type of change to table</description>
+    </column>
+    <column name="LBLNR" data_type="VARCHAR">
+      <description>No. of last document with which posting to asset was made</description>
+    </column>
+    <column name="XV0DT" data_type="DATE">
+      <description>Change date: View 0</description>
+    </column>
+    <column name="XV0NM" data_type="VARCHAR">
+      <description>Name of person in charge, who changed View0</description>
+    </column>
+    <column name="XV1DT" data_type="DATE">
+      <description>Change date: View 1</description>
+    </column>
+    <column name="XV1NM" data_type="VARCHAR">
+      <description>Name of person in charge, who changed view 1</description>
+    </column>
+    <column name="XV2DT" data_type="DATE">
+      <description>Change date: View 2</description>
+    </column>
+    <column name="XV2NM" data_type="VARCHAR">
+      <description>Name of the person in charge, who changed view 2</description>
+    </column>
+    <column name="XV3DT" data_type="DATE">
+      <description>Change date: View 3</description>
+    </column>
+    <column name="XV3NM" data_type="VARCHAR">
+      <description>Name of the person in charge, who changed view 3</description>
+    </column>
+    <column name="XV4DT" data_type="DATE">
+      <description>Change date: View 4</description>
+    </column>
+    <column name="XV4NM" data_type="VARCHAR">
+      <description>Name of the person in charge, who changed view 4</description>
+    </column>
+    <column name="XV5DT" data_type="DATE">
+      <description>Change date:View 5</description>
+    </column>
+    <column name="XV5NM" data_type="VARCHAR">
+      <description>Name of the person in charge who changed view 5</description>
+    </column>
+    <column name="XV6DT" data_type="DATE">
+      <description>Change date:View 6</description>
+    </column>
+    <column name="XV6NM" data_type="VARCHAR">
+      <description>Name of the person in charge who changed view 6</description>
+    </column>
+    <column name="AIMMO" data_type="VARCHAR">
+      <description>Indicator: real estate</description>
+    </column>
+    <column name="OBJNR" data_type="VARCHAR">
+      <description>Object number</description>
+    </column>
+    <column name="LEART" data_type="VARCHAR">
+      <description>Leasing type</description>
+    </column>
+    <column name="LVORS" data_type="VARCHAR">
+      <description>Advance payments</description>
+    </column>
+    <column name="GDLGRP" data_type="VARCHAR">
+      <description>Evaluation Group 5</description>
+    </column>
+    <column name="POSNR" data_type="VARCHAR">
+      <description>WBS element investment project</description>
+    </column>
+    <column name="XERWRT" data_type="VARCHAR">
+      <description>Indicator: Ignore memo value</description>
+    </column>
+    <column name="XAFABCH" data_type="VARCHAR">
+      <description>Asset acquired used</description>
+    </column>
+    <column name="XANLGR" data_type="VARCHAR">
+      <description>Indicator: Asset is a group asset</description>
+    </column>
+    <column name="MCOA1" data_type="VARCHAR">
+      <description>Search term for matchcode search</description>
+    </column>
+    <column name="XINVM" data_type="VARCHAR">
+      <description>Asset under Construction for Investment Measures</description>
+    </column>
+    <column name="SERNR" data_type="VARCHAR">
+      <description>Serial number</description>
+    </column>
+    <column name="UMWKZ" data_type="VARCHAR">
+      <description>Reason for environmental investment</description>
+    </column>
+    <column name="LRVDAT" data_type="DATE">
+      <description>Date of last revaluation</description>
+    </column>
+    <column name="ACT_CHANGE_PM" data_type="VARCHAR">
+      <description>Change Asset Master Record from Equipment Master</description>
+    </column>
+    <column name="HAS_TDDP" data_type="VARCHAR">
+      <description>Asset Has Time-Dependent Valuation Parameters in ANLBZA</description>
+    </column>
+    <column name="LAST_REORG_DATE" data_type="DATE">
+      <description>Date of Last Reorganization</description>
+    </column>
+    <column name="INTERNAL_CODE" data_type="VARCHAR">
+      <description>Internal code</description>
+    </column>
+    <column name="APPROVAL_NUMBER" data_type="VARCHAR">
+      <description>Approval document number</description>
+    </column>
+    <column name="APPROVAL_VERSION" data_type="VARCHAR">
+      <description>Approval version</description>
+    </column>
+    <column name="BOGUS_ANLN1" data_type="VARCHAR">
+      <description>bogus asset number</description>
+    </column>
+    <column name="ASSET_VERSION" data_type="VARCHAR">
+      <description>Asset version</description>
+    </column>
+  </columns>
+</data_description>

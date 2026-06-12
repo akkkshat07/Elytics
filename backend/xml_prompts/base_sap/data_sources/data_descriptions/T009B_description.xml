@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="T009B">
+  <table_info name="T009B" total_columns="7" />
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="PERIV" data_type="VARCHAR">
+      <description>Fiscal Year Variant</description>
+    </column>
+    <column name="BDATJ" data_type="VARCHAR">
+      <description>Posting Date YYYY</description>
+    </column>
+    <column name="BUMON" data_type="VARCHAR">
+      <description>Posting date calendar month</description>
+    </column>
+    <column name="BUTAG" data_type="VARCHAR">
+      <description>Calendar day from the posting date</description>
+    </column>
+    <column name="POPER" data_type="VARCHAR">
+      <description>Posting Period</description>
+    </column>
+    <column name="RELJR" data_type="VARCHAR">
+      <description>Year shift relative to the current year</description>
+    </column>
+  </columns>
+</data_description>

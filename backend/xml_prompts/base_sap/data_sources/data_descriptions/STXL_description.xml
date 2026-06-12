@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="STXL">
+  <table_info name="STXL" total_columns="9" />
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="RELID" data_type="VARCHAR">
+      <description>CHAR02 data element for SYST</description>
+    </column>
+    <column name="TDOBJECT" data_type="VARCHAR">
+      <description>Texts: application object</description>
+    </column>
+    <column name="TDNAME" data_type="VARCHAR">
+      <description>Name</description>
+    </column>
+    <column name="TDID" data_type="VARCHAR">
+      <description>Text ID</description>
+    </column>
+    <column name="TDSPRAS" data_type="VARCHAR">
+      <description>Language Key</description>
+    </column>
+    <column name="SRTF2" data_type="INTEGER">
+      <description>BIN1 data element for SYST</description>
+    </column>
+    <column name="CLUSTR" data_type="INTEGER">
+      <description>BIN2 data element for SYST</description>
+    </column>
+    <column name="CLUSTD" data_type="VARCHAR">
+      <description>SAPscript: LONG RAW field for table STXL</description>
+    </column>
+  </columns>
+</data_description>

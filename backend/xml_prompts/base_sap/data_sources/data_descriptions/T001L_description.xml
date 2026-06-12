@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="T001L">
+  <table_info name="T001L" total_columns="22"/>
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="WERKS" data_type="VARCHAR">
+      <description>Plant</description>
+    </column>
+    <column name="LGORT" data_type="VARCHAR">
+      <description>Storage Location</description>
+    </column>
+    <column name="LGOBE" data_type="VARCHAR">
+      <description>Description of Storage Location</description>
+    </column>
+    <column name="SPART" data_type="VARCHAR">
+      <description>Division</description>
+    </column>
+    <column name="XLONG" data_type="VARCHAR">
+      <description>Negative stocks allowed in storage location</description>
+    </column>
+    <column name="XBUFX" data_type="VARCHAR">
+      <description>Freezing book inventory bal. allowed in stor. loc.</description>
+    </column>
+    <column name="DISKZ" data_type="VARCHAR">
+      <description>Storage location MRP indicator</description>
+    </column>
+    <column name="XBLGO" data_type="VARCHAR">
+      <description>Storage location authorization for goods movements active</description>
+    </column>
+    <column name="XRESS" data_type="VARCHAR">
+      <description>Storage location is allocated to resource (storage resource)</description>
+    </column>
+    <column name="XHUPF" data_type="VARCHAR">
+      <description>Handling unit requirement</description>
+    </column>
+    <column name="PARLG" data_type="VARCHAR">
+      <description>Partner storage location of the handling unit</description>
+    </column>
+    <column name="VKORG" data_type="VARCHAR">
+      <description>Sales Organization</description>
+    </column>
+    <column name="VTWEG" data_type="VARCHAR">
+      <description>Distribution Channel</description>
+    </column>
+    <column name="VSTEL" data_type="VARCHAR">
+      <description>Shipping Point/Receiving Point</description>
+    </column>
+    <column name="LIFNR" data_type="VARCHAR">
+      <description>Supplier's Account Number</description>
+    </column>
+    <column name="KUNNR" data_type="VARCHAR">
+      <description>Account number of customer</description>
+    </column>
+    <column name="MESBS" data_type="VARCHAR">
+      <description>Business System of MES</description>
+    </column>
+    <column name="MESST" data_type="VARCHAR">
+      <description>Type of inventory management for production storage location</description>
+    </column>
+    <column name="OIH_LICNO" data_type="VARCHAR">
+      <description>License number for untaxed stock</description>
+    </column>
+    <column name="OIG_ITRFL" data_type="VARCHAR">
+      <description>TD in-transit flag</description>
+    </column>
+    <column name="OIB_TNKASSIGN" data_type="VARCHAR">
+      <description>Silo Managament: Tank assignment indicator</description>
+    </column>
+  </columns>
+</data_description>

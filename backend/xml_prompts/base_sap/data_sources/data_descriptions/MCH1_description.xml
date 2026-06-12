@@ -1,0 +1,147 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="MCH1">
+  <table_info name="MCH1" total_columns="47"/>
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="MATNR" data_type="VARCHAR">
+      <description>Material Number</description>
+    </column>
+    <column name="CHARG" data_type="VARCHAR">
+      <description>Batch Number</description>
+    </column>
+    <column name="LVORM" data_type="VARCHAR">
+      <description>Deletion Flag for All Data in a Batch</description>
+    </column>
+    <column name="ERSDA" data_type="DATE">
+      <description>Created On</description>
+    </column>
+    <column name="ERNAM" data_type="VARCHAR">
+      <description>Name of Person Responsible for Creating the Object</description>
+    </column>
+    <column name="AENAM" data_type="VARCHAR">
+      <description>Name of Person Who Changed Object</description>
+    </column>
+    <column name="LAEDA" data_type="DATE">
+      <description>Date of Last Change</description>
+    </column>
+    <column name="VERAB" data_type="DATE">
+      <description>Availability date</description>
+    </column>
+    <column name="VFDAT" data_type="DATE">
+      <description>Shelf Life Expiration or Best-Before Date</description>
+    </column>
+    <column name="ZUSCH" data_type="VARCHAR">
+      <description>Batch status key</description>
+    </column>
+    <column name="ZUSTD" data_type="VARCHAR">
+      <description>Batch in Restricted-Use Stock</description>
+    </column>
+    <column name="ZAEDT" data_type="DATE">
+      <description>Date of last status change</description>
+    </column>
+    <column name="LIFNR" data_type="VARCHAR">
+      <description>Supplier's Account Number</description>
+    </column>
+    <column name="LICHA" data_type="VARCHAR">
+      <description>Vendor Batch Number</description>
+    </column>
+    <column name="VLCHA" data_type="VARCHAR">
+      <description>Original batch number (deactivated)</description>
+    </column>
+    <column name="VLWRK" data_type="VARCHAR">
+      <description>Original plant  (deactivated)</description>
+    </column>
+    <column name="VLMAT" data_type="VARCHAR">
+      <description>Original material    (deactivated)</description>
+    </column>
+    <column name="CHAME" data_type="VARCHAR">
+      <description>Unit of issue for batch (deactivated)</description>
+    </column>
+    <column name="LWEDT" data_type="DATE">
+      <description>Date of last goods receipt</description>
+    </column>
+    <column name="FVDT1" data_type="DATE">
+      <description>Date for Free Use</description>
+    </column>
+    <column name="FVDT2" data_type="DATE">
+      <description>Date for Free Use</description>
+    </column>
+    <column name="FVDT3" data_type="DATE">
+      <description>Date for Free Use</description>
+    </column>
+    <column name="FVDT4" data_type="DATE">
+      <description>Date for Free Use</description>
+    </column>
+    <column name="FVDT5" data_type="DATE">
+      <description>Date for Free Use</description>
+    </column>
+    <column name="FVDT6" data_type="DATE">
+      <description>Date for Free Use</description>
+    </column>
+    <column name="HERKL" data_type="VARCHAR">
+      <description>Country of Origin of Material (Non-Preferential Origin)</description>
+    </column>
+    <column name="HERKR" data_type="VARCHAR">
+      <description>Region of Origin of Material (Non-Preferential Origin)</description>
+    </column>
+    <column name="MTVER" data_type="VARCHAR">
+      <description>Material Group Export for Foreign Trade</description>
+    </column>
+    <column name="QNDAT" data_type="DATE">
+      <description>Next Inspection Date</description>
+    </column>
+    <column name="HSDAT" data_type="DATE">
+      <description>Date of Manufacture</description>
+    </column>
+    <column name="CUOBJ_BM" data_type="VARCHAR">
+      <description>Internal object no.: Batch classification</description>
+    </column>
+    <column name="DEACT_BM" data_type="VARCHAR">
+      <description>Batch is no longer active</description>
+    </column>
+    <column name="BATCH_TYPE" data_type="VARCHAR">
+      <description>Type of Batch</description>
+    </column>
+    <column name="SGT_SCAT" data_type="VARCHAR">
+      <description>Stock Segment</description>
+    </column>
+    <column name="ERSDA_TMSTP" data_type="DECIMAL">
+      <description>UTC Time Stamp in Short Form (YYYYMMDDhhmmss)</description>
+    </column>
+    <column name="ERSDA_TZ_SYS" data_type="VARCHAR">
+      <description>Time Zone</description>
+    </column>
+    <column name="ERSDA_TZ_USR" data_type="VARCHAR">
+      <description>Time Zone</description>
+    </column>
+    <column name="ZFDAT" data_type="DATE">
+      <description>Certification Date</description>
+    </column>
+    <column name="/STTPEC/SERTYPE" data_type="INTEGER">
+      <description>Serialization Type</description>
+    </column>
+    <column name="/STTPEC/PLANT" data_type="VARCHAR">
+      <description>Batch Production Plant (Initial Plant)</description>
+    </column>
+    <column name="/STTPEC/SYNCTIME" data_type="DECIMAL">
+      <description>Synchronization Time Stamp</description>
+    </column>
+    <column name="/STTPEC/SYNCACT" data_type="VARCHAR">
+      <description>Synchronization Active</description>
+    </column>
+    <column name="FSH_SEASON_YEAR" data_type="VARCHAR">
+      <description>Season Year</description>
+    </column>
+    <column name="FSH_SEASON" data_type="VARCHAR">
+      <description>Season</description>
+    </column>
+    <column name="FSH_COLLECTION" data_type="VARCHAR">
+      <description>Fashion Collection</description>
+    </column>
+    <column name="FSH_THEME" data_type="VARCHAR">
+      <description>Fashion Theme</description>
+    </column>
+  </columns>
+</data_description>

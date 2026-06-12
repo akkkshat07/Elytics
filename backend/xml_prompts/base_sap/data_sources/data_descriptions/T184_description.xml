@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="T184">
+  <table_info name="T184" total_columns="18" />
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="AUART" data_type="VARCHAR">
+      <description>Sales Document Type</description>
+    </column>
+    <column name="MTPOS" data_type="VARCHAR">
+      <description>Item category group from material master</description>
+    </column>
+    <column name="VWPOS" data_type="VARCHAR">
+      <description>Item usage</description>
+    </column>
+    <column name="UEPST" data_type="VARCHAR">
+      <description>Item category of the higher-level item</description>
+    </column>
+    <column name="PSTYV" data_type="VARCHAR">
+      <description>Default item category for the document</description>
+    </column>
+    <column name="PSTY1" data_type="VARCHAR">
+      <description>Manual entries allowed for item category in the document</description>
+    </column>
+    <column name="PSTY2" data_type="VARCHAR">
+      <description>Manual entries allowed for item category in the document</description>
+    </column>
+    <column name="PSTY3" data_type="VARCHAR">
+      <description>Manual entries allowed for item category in the document</description>
+    </column>
+    <column name="PSTY4" data_type="VARCHAR">
+      <description>Manual entries allowed for item category in the document</description>
+    </column>
+    <column name="PSTY5" data_type="VARCHAR">
+      <description>Manual entries allowed for item category in the document</description>
+    </column>
+    <column name="PSTY6" data_type="VARCHAR">
+      <description>Manual entries allowed for item category in the document</description>
+    </column>
+    <column name="PSTY7" data_type="VARCHAR">
+      <description>Manual entries allowed for item category in the document</description>
+    </column>
+    <column name="PSTY8" data_type="VARCHAR">
+      <description>Manual entries allowed for item category in the document</description>
+    </column>
+    <column name="PSTY9" data_type="VARCHAR">
+      <description>Manual entries allowed for item category in the document</description>
+    </column>
+    <column name="PSTY10" data_type="VARCHAR">
+      <description>Manual entries allowed for item category in the document</description>
+    </column>
+    <column name="PSTY11" data_type="VARCHAR">
+      <description>Manual entries allowed for item category in the document</description>
+    </column>
+    <column name="ERNAM" data_type="VARCHAR">
+      <description>Name of Person Responsible for Creating the Object</description>
+    </column>
+  </columns>
+</data_description>

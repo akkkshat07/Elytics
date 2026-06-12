@@ -1,0 +1,147 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="LAGP">
+  <table_info name="LAGP" total_columns="47"/>
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="LGNUM" data_type="VARCHAR">
+      <description>Warehouse Number / Warehouse Complex</description>
+    </column>
+    <column name="LGTYP" data_type="VARCHAR">
+      <description>Storage Type</description>
+    </column>
+    <column name="LGPLA" data_type="VARCHAR">
+      <description>Storage Bin</description>
+    </column>
+    <column name="LGBER" data_type="VARCHAR">
+      <description>Storage Section</description>
+    </column>
+    <column name="LPTYP" data_type="VARCHAR">
+      <description>Storage bin type</description>
+    </column>
+    <column name="PLAUF" data_type="VARCHAR">
+      <description>Section of a storage bin</description>
+    </column>
+    <column name="SKZUA" data_type="VARCHAR">
+      <description>Blocking Indicator: For Stock Removals (User)</description>
+    </column>
+    <column name="SKZUE" data_type="VARCHAR">
+      <description>Blocking indicator: for putaways (user)</description>
+    </column>
+    <column name="SKZSA" data_type="VARCHAR">
+      <description>Blocking Indicator: Current Stock Removal (System)</description>
+    </column>
+    <column name="SKZSE" data_type="VARCHAR">
+      <description>Blocking indicator: current stock placement (system)</description>
+    </column>
+    <column name="SKZSI" data_type="VARCHAR">
+      <description>Blocking indicator: current inventory (system)</description>
+    </column>
+    <column name="SPGRU" data_type="VARCHAR">
+      <description>Blocking reason</description>
+    </column>
+    <column name="ANZQU" data_type="DECIMAL">
+      <description>Number of quants in storage bin</description>
+    </column>
+    <column name="MAXQU" data_type="DECIMAL">
+      <description>Maximum number of quants in storage bin</description>
+    </column>
+    <column name="ANZLE" data_type="DECIMAL">
+      <description>Number of storage units in storage bin</description>
+    </column>
+    <column name="MAXLE" data_type="DECIMAL">
+      <description>Maximum number of storage units in storage bin</description>
+    </column>
+    <column name="KZDYN" data_type="VARCHAR">
+      <description>Indicator: dynamic storage bin</description>
+    </column>
+    <column name="LGEWI" data_type="DECIMAL">
+      <description>Load Capacity of Storage Bin</description>
+    </column>
+    <column name="GEWEI" data_type="VARCHAR">
+      <description>Unit of Weight</description>
+    </column>
+    <column name="MGEWI" data_type="DECIMAL">
+      <description>Weight of materials in storage bin</description>
+    </column>
+    <column name="BDATU" data_type="DATE">
+      <description>Date of last movement</description>
+    </column>
+    <column name="BZEIT" data_type="TIME">
+      <description>Time of last movement</description>
+    </column>
+    <column name="BTANR" data_type="VARCHAR">
+      <description>Transfer order number of last stock transfer</description>
+    </column>
+    <column name="BTAPS" data_type="VARCHAR">
+      <description>Item in transfer order of last stock transfer</description>
+    </column>
+    <column name="RDATU" data_type="DATE">
+      <description>Date of last bin clearing</description>
+    </column>
+    <column name="RZEIT" data_type="TIME">
+      <description>Time of last clearing</description>
+    </column>
+    <column name="KZINV" data_type="VARCHAR">
+      <description>Inventory method</description>
+    </column>
+    <column name="IDATU" data_type="DATE">
+      <description>Date of last inventory for this storage bin</description>
+    </column>
+    <column name="IVNUM" data_type="VARCHAR">
+      <description>Number of system inventory record</description>
+    </column>
+    <column name="IVPOS" data_type="VARCHAR">
+      <description>Item number in inventory document</description>
+    </column>
+    <column name="IVIVO" data_type="VARCHAR">
+      <description>Inventory in preparation</description>
+    </column>
+    <column name="KZLER" data_type="VARCHAR">
+      <description>Indicator whether storage bin is empty</description>
+    </column>
+    <column name="KZVOL" data_type="VARCHAR">
+      <description>Indicator whether storage bin is full</description>
+    </column>
+    <column name="SORLP" data_type="VARCHAR">
+      <description>Sort field for storage bin (cross-line storage)</description>
+    </column>
+    <column name="BRAND" data_type="VARCHAR">
+      <description>Fire-containment section</description>
+    </column>
+    <column name="UNAME" data_type="VARCHAR">
+      <description>Last changed by</description>
+    </column>
+    <column name="LAEDT" data_type="DATE">
+      <description>Date of last change</description>
+    </column>
+    <column name="LKAPV" data_type="DECIMAL">
+      <description>Total capacity of storage bin</description>
+    </column>
+    <column name="RKAPV" data_type="DECIMAL">
+      <description>Available capacity in storage bin</description>
+    </column>
+    <column name="KOBER" data_type="VARCHAR">
+      <description>Picking Area</description>
+    </column>
+    <column name="REIHF" data_type="VARCHAR">
+      <description>Sort field for storage bin (TO items, picking)</description>
+    </column>
+    <column name="VERIF" data_type="VARCHAR">
+      <description>Verification Field for Mobile Data Entry</description>
+    </column>
+    <column name="LZONE" data_type="VARCHAR">
+      <description>Zone</description>
+    </column>
+    <column name="XCORD" data_type="DECIMAL">
+      <description>X Coordinate</description>
+    </column>
+    <column name="YCORD" data_type="DECIMAL">
+      <description>Y Coordinate</description>
+    </column>
+    <column name="ZCORD" data_type="DECIMAL">
+      <description>Z Coordinate</description>
+    </column>
+  </columns>
+</data_description>

@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="T006">
+  <table_info name="T006" total_columns="23" />
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="MSEHI" data_type="VARCHAR">
+      <description>Unit of Measurement</description>
+    </column>
+    <column name="KZEX3" data_type="VARCHAR">
+      <description>3-char indicator for external unit of measurement</description>
+    </column>
+    <column name="KZEX6" data_type="VARCHAR">
+      <description>6-char. ID for external unit of measurement</description>
+    </column>
+    <column name="ANDEC" data_type="INTEGER">
+      <description>No. of decimal places for rounding</description>
+    </column>
+    <column name="KZKEH" data_type="VARCHAR">
+      <description>Commercial measurement unit ID</description>
+    </column>
+    <column name="KZWOB" data_type="VARCHAR">
+      <description>Value-based commitment indicator</description>
+    </column>
+    <column name="KZ1EH" data_type="VARCHAR">
+      <description>Indicator (1) unit (indicator not yet defined)</description>
+    </column>
+    <column name="KZ2EH" data_type="VARCHAR">
+      <description>Indicator (2) unit (indicator not yet defined)</description>
+    </column>
+    <column name="DIMID" data_type="VARCHAR">
+      <description>Dimension key</description>
+    </column>
+    <column name="ZAEHL" data_type="INTEGER">
+      <description>Numerator for conversion to SI unit</description>
+    </column>
+    <column name="NENNR" data_type="INTEGER">
+      <description>Denominator for conversion into SI unit</description>
+    </column>
+    <column name="EXP10" data_type="INTEGER">
+      <description>base ten exponent for conversion to SI unit</description>
+    </column>
+    <column name="ADDKO" data_type="DECIMAL">
+      <description>Additive constant for conversion to SI unit</description>
+    </column>
+    <column name="EXPON" data_type="INTEGER">
+      <description>Exponent of 10 for Floating Point Format</description>
+    </column>
+    <column name="DECAN" data_type="INTEGER">
+      <description>Number of decimal places for number display</description>
+    </column>
+    <column name="ISOCODE" data_type="VARCHAR">
+      <description>ISO code for unit of measurement</description>
+    </column>
+    <column name="PRIMARY" data_type="VARCHAR">
+      <description>Selection field for conversion from ISO code to int. code</description>
+    </column>
+    <column name="TEMP_VALUE" data_type="FLOAT">
+      <description>Temperature</description>
+    </column>
+    <column name="TEMP_UNIT" data_type="VARCHAR">
+      <description>Temperature unit</description>
+    </column>
+    <column name="FAMUNIT" data_type="VARCHAR">
+      <description>Unit of measurement family</description>
+    </column>
+    <column name="PRESS_VAL" data_type="FLOAT">
+      <description>Pressure Value</description>
+    </column>
+    <column name="PRESS_UNIT" data_type="VARCHAR">
+      <description>Unit of Pressure</description>
+    </column>
+  </columns>
+</data_description>

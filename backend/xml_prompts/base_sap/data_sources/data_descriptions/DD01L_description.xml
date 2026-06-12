@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="DD01L">
+  <table_info name="DD01L" total_columns="29" />
+  <columns>
+    <column name="DOMNAME" data_type="VARCHAR">
+      <description>Domain name</description>
+    </column>
+    <column name="AS4LOCAL" data_type="VARCHAR">
+      <description>Activation Status of a Repository Object</description>
+    </column>
+    <column name="AS4VERS" data_type="VARCHAR">
+      <description>Version of the entry (not used)</description>
+    </column>
+    <column name="DATATYPE" data_type="VARCHAR">
+      <description>Data Type in ABAP Dictionary</description>
+    </column>
+    <column name="LENG" data_type="VARCHAR">
+      <description>Length (No. of Characters)</description>
+    </column>
+    <column name="OUTPUTLEN" data_type="VARCHAR">
+      <description>Output Length</description>
+    </column>
+    <column name="DECIMALS" data_type="VARCHAR">
+      <description>Number of Decimal Places</description>
+    </column>
+    <column name="LOWERCASE" data_type="VARCHAR">
+      <description>Lowercase letters allowed/not allowed</description>
+    </column>
+    <column name="SIGNFLAG" data_type="VARCHAR">
+      <description>Flag for sign in numerical fields</description>
+    </column>
+    <column name="LANGFLAG" data_type="VARCHAR">
+      <description>Flag for language-dependent values(not used)</description>
+    </column>
+    <column name="VALEXI" data_type="VARCHAR">
+      <description>Existence of fixed values</description>
+    </column>
+    <column name="ENTITYTAB" data_type="VARCHAR">
+      <description>Value table</description>
+    </column>
+    <column name="CONVEXIT" data_type="VARCHAR">
+      <description>Conversion Routine</description>
+    </column>
+    <column name="MASK" data_type="VARCHAR">
+      <description>Template (not used)</description>
+    </column>
+    <column name="MASKLEN" data_type="VARCHAR">
+      <description>Template length (not used)</description>
+    </column>
+    <column name="ACTFLAG" data_type="VARCHAR">
+      <description>Activation flag</description>
+    </column>
+    <column name="APPLCLASS" data_type="VARCHAR">
+      <description>Application class for DD objects (not used)</description>
+    </column>
+    <column name="AUTHCLASS" data_type="VARCHAR">
+      <description>Activation type</description>
+    </column>
+    <column name="AS4USER" data_type="VARCHAR">
+      <description>Last Changed by</description>
+    </column>
+    <column name="AS4DATE" data_type="DATE">
+      <description>Last Changed On</description>
+    </column>
+    <column name="AS4TIME" data_type="TIME">
+      <description>Last changed at</description>
+    </column>
+    <column name="DOMMASTER" data_type="VARCHAR">
+      <description>Original Language in Repository objects</description>
+    </column>
+    <column name="RESERVEDOM" data_type="VARCHAR">
+      <description>Reserve for domains (not used)</description>
+    </column>
+    <column name="DOMGLOBAL" data_type="VARCHAR">
+      <description>Flag for private DD objects (not used)</description>
+    </column>
+    <column name="APPENDNAME" data_type="VARCHAR">
+      <description>Domain name</description>
+    </column>
+    <column name="APPEXIST" data_type="VARCHAR">
+      <description>DD: Indicator that at least one domain append exists</description>
+    </column>
+    <column name="PROXYTYPE" data_type="VARCHAR">
+      <description>DD: Is a generated proxy object</description>
+    </column>
+    <column name="OUTPUTSTYLE" data_type="VARCHAR">
+      <description>DD: Output Style (Output Style) for Decfloat Types</description>
+    </column>
+    <column name="AMPMFORMAT" data_type="VARCHAR">
+      <description>DD: Indicator whether AM/PM time format is required</description>
+    </column>
+  </columns>
+</data_description>

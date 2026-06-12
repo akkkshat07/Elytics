@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="JCDS">
+  <table_info name="JCDS" total_columns="12" />
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="OBJNR" data_type="VARCHAR">
+      <description>Object number</description>
+    </column>
+    <column name="STAT" data_type="VARCHAR">
+      <description>Object status</description>
+    </column>
+    <column name="CHGNR" data_type="VARCHAR">
+      <description>Change number</description>
+    </column>
+    <column name="USNAM" data_type="VARCHAR">
+      <description>User Name of Person Making Change in Change Document</description>
+    </column>
+    <column name="UDATE" data_type="DATE">
+      <description>Creation date of the change document</description>
+    </column>
+    <column name="UTIME" data_type="TIME">
+      <description>Time changed</description>
+    </column>
+    <column name="TCODE" data_type="VARCHAR">
+      <description>Transaction code</description>
+    </column>
+    <column name="CDTCODE" data_type="VARCHAR">
+      <description>Transaction in which a change was made</description>
+    </column>
+    <column name="INACT" data_type="VARCHAR">
+      <description>Indicator: Status Is Inactive</description>
+    </column>
+    <column name="CHIND" data_type="VARCHAR">
+      <description>Change Indicator</description>
+    </column>
+    <column name="_DATAAGING" data_type="DATE">
+      <description>Data Filter Value for Data Aging</description>
+    </column>
+  </columns>
+</data_description>

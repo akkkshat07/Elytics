@@ -1,0 +1,132 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="COBK">
+  <table_info name="COBK" total_columns="42"/>
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="KOKRS" data_type="VARCHAR">
+      <description>Controlling Area</description>
+    </column>
+    <column name="BELNR" data_type="VARCHAR">
+      <description>Document Number</description>
+    </column>
+    <column name="GJAHR" data_type="VARCHAR">
+      <description>Fiscal Year</description>
+    </column>
+    <column name="VERSN" data_type="VARCHAR">
+      <description>Version in CO Document Header</description>
+    </column>
+    <column name="VRGNG" data_type="VARCHAR">
+      <description>CO Business Transaction</description>
+    </column>
+    <column name="TIMESTMP" data_type="DECIMAL">
+      <description>Time created (Greenwich Meantime)</description>
+    </column>
+    <column name="PERAB" data_type="VARCHAR">
+      <description>From Period</description>
+    </column>
+    <column name="PERBI" data_type="VARCHAR">
+      <description>To period</description>
+    </column>
+    <column name="BLDAT" data_type="DATE">
+      <description>Document Date</description>
+    </column>
+    <column name="BUDAT" data_type="DATE">
+      <description>Posting Date</description>
+    </column>
+    <column name="CPUDT" data_type="DATE">
+      <description>Date Document Was Created</description>
+    </column>
+    <column name="USNAM" data_type="VARCHAR">
+      <description>User Name</description>
+    </column>
+    <column name="BLTXT" data_type="VARCHAR">
+      <description>Document Header Text</description>
+    </column>
+    <column name="STFLG" data_type="VARCHAR">
+      <description>Identifier for reversal document</description>
+    </column>
+    <column name="STOKZ" data_type="VARCHAR">
+      <description>Indicator: Document was reversed</description>
+    </column>
+    <column name="REFBT" data_type="VARCHAR">
+      <description>Document type of reference document</description>
+    </column>
+    <column name="REFBN" data_type="VARCHAR">
+      <description>Reference Document Number</description>
+    </column>
+    <column name="REFBK" data_type="VARCHAR">
+      <description>Company code of FI document</description>
+    </column>
+    <column name="REFGJ" data_type="VARCHAR">
+      <description>Fiscal year of reference document</description>
+    </column>
+    <column name="BLART" data_type="VARCHAR">
+      <description>Document type of FI reference document</description>
+    </column>
+    <column name="ORGVG" data_type="VARCHAR">
+      <description>Original CO business transaction</description>
+    </column>
+    <column name="SUMBZ" data_type="VARCHAR">
+      <description>Number of posting lines for local objects</description>
+    </column>
+    <column name="DELBZ" data_type="VARCHAR">
+      <description>Number of deleted line items</description>
+    </column>
+    <column name="WSDAT" data_type="DATE">
+      <description>Value Date for Currency Translation</description>
+    </column>
+    <column name="KURST" data_type="VARCHAR">
+      <description>Exchange Rate Type</description>
+    </column>
+    <column name="VARNR" data_type="VARCHAR">
+      <description>CO actual postings fast input: Variant</description>
+    </column>
+    <column name="KWAER" data_type="VARCHAR">
+      <description>Controlling area currency</description>
+    </column>
+    <column name="CTYP1" data_type="VARCHAR">
+      <description>Currency Type 1 in CO Standard Ledger</description>
+    </column>
+    <column name="CTYP2" data_type="VARCHAR">
+      <description>Currency Type 2 in CO Standard Ledger</description>
+    </column>
+    <column name="CTYP3" data_type="VARCHAR">
+      <description>Currency Type 3 in CO Standard Ledger</description>
+    </column>
+    <column name="CTYP4" data_type="VARCHAR">
+      <description>Currency Type 4 in CO Standard Ledger</description>
+    </column>
+    <column name="AWTYP" data_type="VARCHAR">
+      <description>Reference procedure</description>
+    </column>
+    <column name="AWORG" data_type="VARCHAR">
+      <description>Reference organisational units</description>
+    </column>
+    <column name="LOGSYSTEM" data_type="VARCHAR">
+      <description>Logical System</description>
+    </column>
+    <column name="CPUTM" data_type="TIME">
+      <description>Time of Entry</description>
+    </column>
+    <column name="ALEBZ" data_type="VARCHAR">
+      <description>Number of posting rows sent to external systems</description>
+    </column>
+    <column name="ALEBN" data_type="VARCHAR">
+      <description>For ALE: CO Document Number in Generating System</description>
+    </column>
+    <column name="AWSYS" data_type="VARCHAR">
+      <description>Logical system of source document</description>
+    </column>
+    <column name="AWREF_REV" data_type="VARCHAR">
+      <description>Reversal: Reverse Document Reference Document Number</description>
+    </column>
+    <column name="AWORG_REV" data_type="VARCHAR">
+      <description>Reversal: Reverse Document Reference Organization</description>
+    </column>
+    <column name="VALDT" data_type="DATE">
+      <description>Special Valuation Date for Cost  Accounting</description>
+    </column>
+  </columns>
+</data_description>

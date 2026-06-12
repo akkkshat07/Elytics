@@ -1,0 +1,120 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="DD04L">
+  <table_info name="DD04L" total_columns="38" />
+  <columns>
+    <column name="ROLLNAME" data_type="VARCHAR">
+      <description>Data element (semantic domain)</description>
+    </column>
+    <column name="AS4LOCAL" data_type="VARCHAR">
+      <description>Activation Status of a Repository Object</description>
+    </column>
+    <column name="AS4VERS" data_type="VARCHAR">
+      <description>Version of the entry (not used)</description>
+    </column>
+    <column name="DOMNAME" data_type="VARCHAR">
+      <description>Domain name</description>
+    </column>
+    <column name="ROUTPUTLEN" data_type="VARCHAR">
+      <description>Length (No. of Characters)</description>
+    </column>
+    <column name="MEMORYID" data_type="VARCHAR">
+      <description>Set/Get parameter ID</description>
+    </column>
+    <column name="LOGFLAG" data_type="VARCHAR">
+      <description>Indicator for writing change documents</description>
+    </column>
+    <column name="HEADLEN" data_type="VARCHAR">
+      <description>Maximum length of heading</description>
+    </column>
+    <column name="SCRLEN1" data_type="VARCHAR">
+      <description>Max. length for short field label</description>
+    </column>
+    <column name="SCRLEN2" data_type="VARCHAR">
+      <description>Max. length for medium field label</description>
+    </column>
+    <column name="SCRLEN3" data_type="VARCHAR">
+      <description>Max. length for long field label</description>
+    </column>
+    <column name="ACTFLAG" data_type="VARCHAR">
+      <description>Activation flag</description>
+    </column>
+    <column name="APPLCLASS" data_type="VARCHAR">
+      <description>Application class for DD objects (not used)</description>
+    </column>
+    <column name="AUTHCLASS" data_type="VARCHAR">
+      <description>Activation type</description>
+    </column>
+    <column name="AS4USER" data_type="VARCHAR">
+      <description>Last Changed by</description>
+    </column>
+    <column name="AS4DATE" data_type="DATE">
+      <description>Last Changed On</description>
+    </column>
+    <column name="AS4TIME" data_type="TIME">
+      <description>Last changed at</description>
+    </column>
+    <column name="DTELMASTER" data_type="VARCHAR">
+      <description>Original Language in Repository objects</description>
+    </column>
+    <column name="RESERVEDTE" data_type="VARCHAR">
+      <description>SDIC: Reserve for data elements (not used)</description>
+    </column>
+    <column name="DTELGLOBAL" data_type="VARCHAR">
+      <description>Flag for private DD objects (not used)</description>
+    </column>
+    <column name="SHLPNAME" data_type="VARCHAR">
+      <description>Name of a Search Help</description>
+    </column>
+    <column name="SHLPFIELD" data_type="VARCHAR">
+      <description>Name of a search help parameter</description>
+    </column>
+    <column name="DEFFDNAME" data_type="VARCHAR">
+      <description>Default name for components using the data element</description>
+    </column>
+    <column name="DATATYPE" data_type="VARCHAR">
+      <description>Data Type in ABAP Dictionary</description>
+    </column>
+    <column name="LENG" data_type="VARCHAR">
+      <description>Length (No. of Characters)</description>
+    </column>
+    <column name="DECIMALS" data_type="VARCHAR">
+      <description>Number of Decimal Places</description>
+    </column>
+    <column name="OUTPUTLEN" data_type="VARCHAR">
+      <description>Output Length</description>
+    </column>
+    <column name="LOWERCASE" data_type="VARCHAR">
+      <description>Lowercase letters allowed/not allowed</description>
+    </column>
+    <column name="SIGNFLAG" data_type="VARCHAR">
+      <description>Flag for sign in numerical fields</description>
+    </column>
+    <column name="CONVEXIT" data_type="VARCHAR">
+      <description>Conversion Routine</description>
+    </column>
+    <column name="VALEXI" data_type="VARCHAR">
+      <description>Existence of fixed values</description>
+    </column>
+    <column name="ENTITYTAB" data_type="VARCHAR">
+      <description>Value table</description>
+    </column>
+    <column name="REFKIND" data_type="VARCHAR">
+      <description>Category of Dictionary Type</description>
+    </column>
+    <column name="REFTYPE" data_type="VARCHAR">
+      <description>Type of Object Referenced</description>
+    </column>
+    <column name="PROXYTYPE" data_type="VARCHAR">
+      <description>DD: Is a generated proxy object</description>
+    </column>
+    <column name="LTRFLDDIS" data_type="VARCHAR">
+      <description>Basic write direction is defined in LTR (left-to-right)</description>
+    </column>
+    <column name="BIDICTRLC" data_type="VARCHAR">
+      <description>DD: No Filtering of BIDI Formatting Characters</description>
+    </column>
+    <column name="NOHISTORY" data_type="VARCHAR">
+      <description>DD: Flag for Deactivating Input History in Dynpro Field</description>
+    </column>
+  </columns>
+</data_description>

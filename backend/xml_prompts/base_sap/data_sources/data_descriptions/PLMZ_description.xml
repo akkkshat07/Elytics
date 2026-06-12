@@ -1,0 +1,174 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="PLMZ">
+  <table_info name="PLMZ" total_columns="56" />
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="PLNTY" data_type="VARCHAR">
+      <description>Task List Type</description>
+    </column>
+    <column name="PLNNR" data_type="VARCHAR">
+      <description>Key for Task List Group</description>
+    </column>
+    <column name="ZUONR" data_type="VARCHAR">
+      <description>No. for material comp. allocation to task list</description>
+    </column>
+    <column name="ZAEHL" data_type="VARCHAR">
+      <description>Internal counter</description>
+    </column>
+    <column name="DATUV" data_type="DATE">
+      <description>Valid-From Date</description>
+    </column>
+    <column name="TECHV" data_type="VARCHAR">
+      <description>Technical status from</description>
+    </column>
+    <column name="AENNR" data_type="VARCHAR">
+      <description>Change Number</description>
+    </column>
+    <column name="LOEKZ" data_type="VARCHAR">
+      <description>Deletion Indicator</description>
+    </column>
+    <column name="PARKZ" data_type="VARCHAR">
+      <description>Indicator: inactive changes</description>
+    </column>
+    <column name="PLNAL" data_type="VARCHAR">
+      <description>Group Counter</description>
+    </column>
+    <column name="PLNFL" data_type="VARCHAR">
+      <description>Sequence</description>
+    </column>
+    <column name="PLNKN" data_type="VARCHAR">
+      <description>Task list node number for operation</description>
+    </column>
+    <column name="STLTY" data_type="VARCHAR">
+      <description>BOM category</description>
+    </column>
+    <column name="STLNR" data_type="VARCHAR">
+      <description>Bill of material</description>
+    </column>
+    <column name="STLAL" data_type="VARCHAR">
+      <description>Alternative BOM</description>
+    </column>
+    <column name="STLKN" data_type="VARCHAR">
+      <description>Node Number</description>
+    </column>
+    <column name="WERK_STL" data_type="VARCHAR">
+      <description>Plant</description>
+    </column>
+    <column name="ZUDIV" data_type="VARCHAR">
+      <description>Integral divisor for cutting measures</description>
+    </column>
+    <column name="ZUMS1" data_type="DECIMAL">
+      <description>Cutting measure 1</description>
+    </column>
+    <column name="ZUMS2" data_type="DECIMAL">
+      <description>Cutting measure 2</description>
+    </column>
+    <column name="ZUMS3" data_type="DECIMAL">
+      <description>Cutting measure 3</description>
+    </column>
+    <column name="ZUMEI" data_type="VARCHAR">
+      <description>Unit for cutting measures</description>
+    </column>
+    <column name="IMENG" data_type="DECIMAL">
+      <description>Component quantity</description>
+    </column>
+    <column name="IMEIN" data_type="VARCHAR">
+      <description>Component unit of measure</description>
+    </column>
+    <column name="ANDAT" data_type="DATE">
+      <description>Date record created on</description>
+    </column>
+    <column name="ANNAM" data_type="VARCHAR">
+      <description>User who created record</description>
+    </column>
+    <column name="AEDAT" data_type="DATE">
+      <description>Change date for which no change record is created</description>
+    </column>
+    <column name="AENAM" data_type="VARCHAR">
+      <description>Name of Person Who Changed Object</description>
+    </column>
+    <column name="RGEKZ" data_type="VARCHAR">
+      <description>Indicator: Backflush</description>
+    </column>
+    <column name="STLST" data_type="VARCHAR">
+      <description>Order level</description>
+    </column>
+    <column name="STLWG" data_type="VARCHAR">
+      <description>Order path</description>
+    </column>
+    <column name="REFKN" data_type="VARCHAR">
+      <description>Number of the task list node</description>
+    </column>
+    <column name="GP_MATNR" data_type="VARCHAR">
+      <description>Material Number</description>
+    </column>
+    <column name="GP_WERKS" data_type="VARCHAR">
+      <description>Plant</description>
+    </column>
+    <column name="GP_UVORN" data_type="VARCHAR">
+      <description>Suboperation</description>
+    </column>
+    <column name="GP_KRIT1" data_type="VARCHAR">
+      <description>Planning object</description>
+    </column>
+    <column name="GP_FREET" data_type="VARCHAR">
+      <description>Line text: SOP</description>
+    </column>
+    <column name="AOBAR" data_type="VARCHAR">
+      <description>Type of relationship</description>
+    </column>
+    <column name="ZEINH" data_type="VARCHAR">
+      <description>Unit for the time interval between relationships</description>
+    </column>
+    <column name="DAUER" data_type="DECIMAL">
+      <description>Time Interval Between Relationships</description>
+    </column>
+    <column name="DMENG" data_type="DECIMAL">
+      <description>Average component quantity</description>
+    </column>
+    <column name="KNTTP" data_type="VARCHAR">
+      <description>Account Assignment Category</description>
+    </column>
+    <column name="FLGEX" data_type="VARCHAR">
+      <description>Indicator: External procurement</description>
+    </column>
+    <column name="VORAB" data_type="VARCHAR">
+      <description>Ind: Preliminary order</description>
+    </column>
+    <column name="STRECKE" data_type="VARCHAR">
+      <description>Ind.: Third-party requisition</description>
+    </column>
+    <column name="STLTY_W" data_type="VARCHAR">
+      <description>BOM category</description>
+    </column>
+    <column name="STLNR_W" data_type="VARCHAR">
+      <description>Bill of material</description>
+    </column>
+    <column name="STLAL_W" data_type="VARCHAR">
+      <description>Alternative BOM</description>
+    </column>
+    <column name="KANTE" data_type="VARCHAR">
+      <description>Path in exploded BOM tree</description>
+    </column>
+    <column name="LGORT" data_type="VARCHAR">
+      <description>Storage location storage resource</description>
+    </column>
+    <column name="DISP" data_type="VARCHAR">
+      <description>Relevancy to Materials Planning/Generation of Purchase Req.</description>
+    </column>
+    <column name="PRODFLOWID" data_type="VARCHAR">
+      <description>Product Flow Indicator</description>
+    </column>
+    <column name="BEIKZ" data_type="VARCHAR">
+      <description>Material Provision Indicator</description>
+    </column>
+    <column name="ABLAD" data_type="VARCHAR">
+      <description>Unloading Point</description>
+    </column>
+    <column name="WEMPF" data_type="VARCHAR">
+      <description>Goods recipient</description>
+    </column>
+  </columns>
+</data_description>

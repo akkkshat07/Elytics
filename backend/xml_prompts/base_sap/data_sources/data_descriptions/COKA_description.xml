@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data_description table_name="COKA">
+  <table_info name="COKA" total_columns="8" />
+  <columns>
+    <column name="MANDT" data_type="VARCHAR">
+      <description>Client</description>
+    </column>
+    <column name="OBJNR" data_type="VARCHAR">
+      <description>Object number</description>
+    </column>
+    <column name="GJAHR" data_type="VARCHAR">
+      <description>Fiscal Year</description>
+    </column>
+    <column name="KSTAR" data_type="VARCHAR">
+      <description>Cost Element</description>
+    </column>
+    <column name="HRKFT" data_type="VARCHAR">
+      <description>CO key subnumber</description>
+    </column>
+    <column name="MEINH" data_type="VARCHAR">
+      <description>Unit of Measure</description>
+    </column>
+    <column name="MGEFL" data_type="VARCHAR">
+      <description>Indicator for Recording Consumption Quantities</description>
+    </column>
+    <column name="EIGEN" data_type="VARCHAR">
+      <description>Cost element attributes</description>
+    </column>
+  </columns>
+</data_description>
